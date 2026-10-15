@@ -1,10 +1,26 @@
-
 const express = require('express');
 const { knowledge } = require('../knowledge');
 const { systemPrompt } = require('../systemPrompt');
-const { MESSAGE_MAX_LENGTH } = require('../config');
+const { MESSAGE_MAX_LENGTH, GEMINI_MODEL } = require('../config');
 
 const router = express.Router();
+
+let GoogleGenAIClass = null;
+
+async function getGoogleGenAI() {
+  if (GoogleGenAIClass) {
+    return GoogleGenAIClass;
+  }
+  try {
+    const genai = require('@google/genai');
+    GoogleGenAIClass = genai.GoogleGenAI;
+    return GoogleGenAIClass;
+  } catch {
+    const genai = await import('@google/genai');
+    GoogleGenAIClass = genai.GoogleGenAI;
+    return GoogleGenAIClass;
+  }
+}
 
 function validateMessageInput(body) {
   if (!body || typeof body !== 'object') {
@@ -128,14 +144,14 @@ router.post('/', async (req, res) => {
   }
 
   try {
-    const { GoogleGenAI } = await import('@google/genai');
+    const GoogleGenAI = await getGoogleGenAI();
 
     const ai = new GoogleGenAI({
       apiKey: process.env.GEMINI_API_KEY
     });
 
     const response = await ai.interactions.create({
-      model: process.env.GEMINI_MODEL || 'gemini-3.8-flash',
+      model: process.env.GEMINI_MODEL || GEMINI_MODEL || 'gemini-3.8-flash',
       system_instruction:
         `${systemPrompt}\n\nWebsite knowledge base:\n${knowledge}`,
       input: incomingMessage,
@@ -179,6 +195,29 @@ router.post('/', async (req, res) => {
     };
 
     console.error('Chat request failed', diagnostic);
+
+    if (error?.status === 429) {
+      return res.status(429).json({
+        success: false,
+        message: 'Too many requests. Please wait a moment and try again.'
+      });
+    }
+
+    if (error?.status === 503) {
+      return res.status(503).json({
+        success: false,
+        message:
+          'The AI assistant is temporarily unavailable. Please try again later.'
+      });
+    }
+
+    if (error?.status === 401 || error?.status === 403) {
+      return res.status(503).json({
+        success: false,
+        message:
+          'The AI assistant is temporarily unavailable. Please contact RRC Law Associates directly for consultation.'
+      });
+    }
 
     return res.status(502).json({
       success: false,

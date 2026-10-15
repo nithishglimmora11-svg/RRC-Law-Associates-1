@@ -30,8 +30,8 @@ cp .env.example .env
 
 Required values:
 
-- `GROQ_API_KEY`
-- `GROQ_MODEL`
+- `GEMINI_API_KEY`
+- `GEMINI_MODEL` (defaults to `gemini-3.8-flash`)
 - `PORT`
 
 Do not commit a real `.env` file. Keep the API key server-side only.
