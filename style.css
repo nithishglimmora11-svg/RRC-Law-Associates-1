@@ -4536,3 +4536,14 @@ button:disabled,
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
 }
+
+/* Responsive Article Shell & Gutter Containment */
+@media (max-width: 991px) {
+    .article-container {
+        padding-left: 24px !important;
+        padding-right: 24px !important;
+    }
+    .article-container .row.g-5 {
+        --bs-gutter-x: 1.5rem;
+    }
+}

@@ -6,65 +6,7 @@ RewriteEngine On
 RewriteBase /
 
 # --------------------------------------------------------------------
-# A. CLEAN URL ENGINE: AUTOMATICALLY STRIP .HTML EXTENSIONS
-# --------------------------------------------------------------------
-
-# 1. Externally redirect any legacy incoming .html requests to clean URLs
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.html [NC]
-RewriteRule ^ %1 [R=301,L]
-
-# 2. Internally resolve the clean extensionless URL path back to the actual HTML file
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^([^/]+)$ $1.html [L]
-
-# 3. Route proposed hierarchical OCI service URL to the clean static page
-RewriteRule ^nri-legal-services/oci-card-assistance/?$ oci-card-assistance.html [L,NC]
-
-# 4. Route OCI ancestry article URL to the clean static page
-RewriteRule ^oci-card-indian-ancestry-assistance/?$ oci-card-indian-ancestry-assistance.html [L,NC]
-
-# 5. Route OCI Legal Guides hub page URL to the clean static page
-RewriteRule ^oci-legal-guides/?$ oci-legal-guides.html [L,NC]
-
-# 6. Route OCI application documents article URL to the clean static page
-RewriteRule ^oci-card-application-documents/?$ oci-card-application-documents.html [L,NC]
-
-# 7. Route OCI eligibility legal status article URL to the clean static page
-RewriteRule ^oci-card-eligibility-legal-status/?$ oci-card-eligibility-legal-status.html [L,NC]
-
-# 8. Route OCI vs NRI vs Indian Citizen article URL to clean static page
-RewriteRule ^oci-vs-nri-vs-indian-citizen/?$ oci-vs-nri-vs-indian-citizen.html [L,NC]
-
-# 9. Route OCI foreign spouse eligibility article URL to clean static page
-RewriteRule ^oci-foreign-spouse-eligibility/?$ oci-foreign-spouse-eligibility.html [L,NC]
-
-# 10. Route OCI for children born abroad article URL to clean static page
-RewriteRule ^oci-for-children-born-abroad/?$ oci-for-children-born-abroad.html [L,NC]
-
-# 11. Route OCI card benefits and restrictions article URL to clean static page
-RewriteRule ^oci-card-benefits-restrictions-india/?$ oci-card-benefits-restrictions-india.html [L,NC]
-
-# 12. Route OCI ancestral property article URL to clean static page
-RewriteRule ^oci-cardholders-inherit-sell-ancestral-property-india/?$ oci-cardholders-inherit-sell-ancestral-property-india.html [L,NC]
-
-# 13. Route NRI & OCI property due diligence article URL to clean static page
-RewriteRule ^nri-oci-property-due-diligence-india/?$ nri-oci-property-due-diligence-india.html [L,NC]
-
-# 14. Route NRI & OCI property tax article URL to clean static page
-RewriteRule ^nri-oci-property-tax-india/?$ nri-oci-property-tax-india.html [L,NC]
-
-# 15. Route OCI card renewal and passport update article URL to clean static page
-RewriteRule ^oci-card-renewal-passport-update/?$ oci-card-renewal-passport-update.html [L,NC]
-
-# 16. Route OCI card cancellation grounds and remedies article URL to clean static page
-RewriteRule ^oci-card-cancellation-grounds-remedies/?$ oci-card-cancellation-grounds-remedies.html [L,NC]
-
-# 17. Route OCI card cancellation under section 7D article URL to clean static page
-RewriteRule ^oci-card-cancellation-section-7d-legal-remedies/?$ oci-card-cancellation-section-7d-legal-remedies.html [L,NC]
-
-# --------------------------------------------------------------------
-# B. CANONICAL NON-WWW SECURE HTTPS ROUTING
+# A. CANONICAL NON-WWW SECURE HTTPS ROUTING
 # --------------------------------------------------------------------
 
 # 1. Route www subdomain traffic directly to the clean canonical root apex
@@ -79,6 +21,32 @@ RewriteRule ^(.*)$ https://rrclawassociates.com/$1 [L,R=301]
 # 3. Clear raw index.html loops completely by routing to the home root address
 RewriteCond %{THE_REQUEST} /index\.html [NC]
 RewriteRule ^index\.html$ https://rrclawassociates.com/ [L,R=301]
+
+# --------------------------------------------------------------------
+# B. CLEAN URL ENGINE & OCI LEGAL GUIDES ROUTING
+# --------------------------------------------------------------------
+
+# 1. OCI Legal Guides: 301 redirect incoming legacy .html requests to canonical trailing-slash clean URLs
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+(oci-legal-guides|oci-card-eligibility-legal-status|oci-vs-nri-vs-indian-citizen|oci-card-application-documents|oci-card-indian-ancestry-assistance|oci-foreign-spouse-eligibility|oci-for-children-born-abroad|oci-card-benefits-restrictions-india|oci-cardholders-inherit-sell-ancestral-property-india|nri-oci-property-due-diligence-india|nri-oci-property-tax-india|oci-card-renewal-passport-update|oci-card-cancellation-grounds-remedies|oci-card-cancellation-section-7d-legal-remedies)\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/%1/ [R=301,L,QSA]
+
+# 2. OCI Legal Guides: 301 redirect non-trailing-slash requests to canonical trailing-slash clean URLs
+RewriteRule ^(oci-legal-guides|oci-card-eligibility-legal-status|oci-vs-nri-vs-indian-citizen|oci-card-application-documents|oci-card-indian-ancestry-assistance|oci-foreign-spouse-eligibility|oci-for-children-born-abroad|oci-card-benefits-restrictions-india|oci-cardholders-inherit-sell-ancestral-property-india|nri-oci-property-due-diligence-india|nri-oci-property-tax-india|oci-card-renewal-passport-update|oci-card-cancellation-grounds-remedies|oci-card-cancellation-section-7d-legal-remedies)$ https://rrclawassociates.com/$1/ [R=301,L,QSA]
+
+# 3. OCI Legal Guides: Internally resolve canonical trailing-slash clean URLs directly to HTML files
+RewriteRule ^(oci-legal-guides|oci-card-eligibility-legal-status|oci-vs-nri-vs-indian-citizen|oci-card-application-documents|oci-card-indian-ancestry-assistance|oci-foreign-spouse-eligibility|oci-for-children-born-abroad|oci-card-benefits-restrictions-india|oci-cardholders-inherit-sell-ancestral-property-india|nri-oci-property-due-diligence-india|nri-oci-property-tax-india|oci-card-renewal-passport-update|oci-card-cancellation-grounds-remedies|oci-card-cancellation-section-7d-legal-remedies)/$ $1.html [L,NC,QSA]
+
+# 4. Route legacy hierarchical OCI service URL to canonical service landing page
+RewriteRule ^nri-legal-services/oci-card-assistance/?$ https://rrclawassociates.com/oci-card-assistance [R=301,L,NC]
+
+# 5. Site-wide clean URL: 301 redirect remaining .html requests to clean URLs (without trailing slash)
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ %1 [R=301,L,QSA]
+
+# 6. Site-wide clean URL: Internally resolve clean extensionless URLs to actual HTML files
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^([^/]+)$ $1.html [L]
 
 # --------------------------------------------------------------------
 # C. SERVER-SIDE GZIP COMPRESSION ENGINE
