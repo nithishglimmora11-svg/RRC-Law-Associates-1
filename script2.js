@@ -3,16 +3,26 @@
     const mobileTriggers = document.querySelectorAll('.m-trigger');
 
     mobileTriggers.forEach(trigger => {
+        if (trigger.dataset.boundMTrigger) return;
+        trigger.dataset.boundMTrigger = 'true';
         trigger.addEventListener('click', function(e) {
+            e.preventDefault();
             const submenu = this.nextElementSibling;
             if (!submenu) return;
 
-            if (!submenu.classList.contains('active')) {
-                e.preventDefault();
-                document.querySelectorAll('.m-submenu').forEach(m => m.classList.remove('active'));
-                document.querySelectorAll('.m-trigger i').forEach(i => i.style.transform = 'rotate(0deg)');
+            const isCurrentlyActive = submenu.classList.contains('active');
 
+            // Close all open submenus accordion style
+            document.querySelectorAll('.m-submenu').forEach(m => {
+                m.classList.remove('active');
+                m.classList.remove('show');
+            });
+            document.querySelectorAll('.m-trigger i').forEach(i => i.style.transform = 'rotate(0deg)');
+
+            // Toggle active state
+            if (!isCurrentlyActive) {
                 submenu.classList.add('active');
+                submenu.classList.add('show');
                 const icon = this.querySelector('i');
                 if (icon) icon.style.transform = 'rotate(180deg)';
             }

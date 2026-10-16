@@ -390,12 +390,18 @@ function initMobileNavigation() {
     const closeMenu = document.getElementById('closeMenu');
     const mobileMenu = document.getElementById('mobileMenu');
 
+    // Initial accessibility state
+    if (menuToggle) {
+        menuToggle.setAttribute('aria-expanded', 'false');
+    }
+
     // Open Mobile Menu
     if (menuToggle && mobileMenu) {
         menuToggle.addEventListener('click', (e) => {
             e.stopPropagation();
             mobileMenu.classList.add('open');
             mobileMenu.classList.add('active');
+            menuToggle.setAttribute('aria-expanded', 'true');
         });
     }
 
@@ -404,6 +410,9 @@ function initMobileNavigation() {
         closeMenu.addEventListener('click', () => {
             mobileMenu.classList.remove('open');
             mobileMenu.classList.remove('active');
+            if (menuToggle) {
+                menuToggle.setAttribute('aria-expanded', 'false');
+            }
         });
     }
 
@@ -413,18 +422,41 @@ function initMobileNavigation() {
             if (!mobileMenu.contains(e.target) && (!menuToggle || !menuToggle.contains(e.target))) {
                 mobileMenu.classList.remove('open');
                 mobileMenu.classList.remove('active');
+                if (menuToggle) {
+                    menuToggle.setAttribute('aria-expanded', 'false');
+                }
+            }
+        }
+    });
+
+    // Close Menu on Escape key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && mobileMenu && (mobileMenu.classList.contains('open') || mobileMenu.classList.contains('active'))) {
+            mobileMenu.classList.remove('open');
+            mobileMenu.classList.remove('active');
+            if (menuToggle) {
+                menuToggle.setAttribute('aria-expanded', 'false');
+                menuToggle.focus();
             }
         }
     });
 
     // Mobile submenu accordion toggles (.m-trigger)
     document.querySelectorAll('.m-trigger').forEach(trigger => {
+        if (trigger.dataset.boundMTrigger) return;
+        trigger.dataset.boundMTrigger = 'true';
         trigger.addEventListener('click', function(e) {
-            e.preventDefault();
             const submenu = this.nextElementSibling;
-            if (submenu) {
-                submenu.classList.toggle('active');
-                submenu.classList.toggle('show');
+            if (!submenu) return;
+
+            if (!submenu.classList.contains('active')) {
+                e.preventDefault();
+                document.querySelectorAll('.m-submenu').forEach(m => m.classList.remove('active'));
+                document.querySelectorAll('.m-trigger i').forEach(i => i.style.transform = 'rotate(0deg)');
+
+                submenu.classList.add('active');
+                const icon = this.querySelector('i');
+                if (icon) icon.style.transform = 'rotate(180deg)';
             }
         });
     });
@@ -546,9 +578,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const prevBtn = document.querySelector(".prev");
   const nextBtn = document.querySelector(".next");
 
-  // Safety check
-  if (!slider || slides.length === 0) {
-    console.error("Testimonial slider elements not found");
+  // Safety check: component is optional across pages
+  if (!slider) {
+    return;
+  }
+  if (slides.length === 0) {
+    console.warn("Testimonial slider element found but contains no slides");
     return;
   }
 
@@ -625,7 +660,10 @@ reveals.forEach(el => observer.observe(el));
 createLucideIcons();
 
 // Dynamic year
-document.getElementById("year").textContent = new Date().getFullYear();
+const yearEl = document.getElementById("year");
+if (yearEl) {
+  yearEl.textContent = new Date().getFullYear();
+}
 
 //changable gif for experience
 const icons = [
@@ -649,8 +687,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const prevBtn = document.querySelector(".test.prev");
   const nextBtn = document.querySelector(".test.next");
 
-  if (!slider || slides.length === 0) {
-    console.error("Slider or testimonials not found");
+  if (!slider) {
+    return;
+  }
+  if (slides.length === 0) {
+    console.warn("Slider container found but has no testimonial slides");
     return;
   }
 
