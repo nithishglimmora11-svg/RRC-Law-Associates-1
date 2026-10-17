@@ -330,11 +330,22 @@ body {
     width: 60px !important;
     height: 60px !important;
     z-index: 1500 !important;
+    pointer-events: none !important;
+}
+
+[data-rrc-ai-chat-root] .rrc-ai-chat {
+    position: fixed !important;
+    right: 20px !important;
+    bottom: calc(env(safe-area-inset-bottom, 0px) + 84px) !important;
+    width: 60px !important;
+    height: 60px !important;
+    z-index: 1500 !important;
     pointer-events: auto !important;
 }
 
 @media (max-width: 600px) {
-    [data-rrc-ai-chat-root] {
+    [data-rrc-ai-chat-root],
+    [data-rrc-ai-chat-root] .rrc-ai-chat {
         right: 16px !important;
         bottom: calc(env(safe-area-inset-bottom, 0px) + 76px) !important;
         width: 52px !important;

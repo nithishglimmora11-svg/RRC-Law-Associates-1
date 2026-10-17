@@ -1,4 +1,13 @@
-const rrcAssistantOnly = document.currentScript?.hasAttribute('data-rrc-ai-only') === true;
+const currentScriptEl = document.currentScript;
+const rrcAssistantOnly = currentScriptEl?.hasAttribute('data-rrc-ai-only') === true;
+let rrcScriptVersion = '20261008-1';
+try {
+  const currentSrc = currentScriptEl?.src;
+  if (currentSrc) {
+    const v = new URL(currentSrc, document.baseURI).searchParams.get('v');
+    if (v) rrcScriptVersion = v;
+  }
+} catch { /* use default version */ }
 
 function createLucideIcons() {
   if (typeof window.lucide?.createIcons === 'function') {
@@ -15,7 +24,7 @@ function initRrcAiAssistant() {
   const host = document.createElement('div');
   host.className = 'rrc-ai-chat';
   // Immediate light-DOM positioning: keeps the host out of normal document
-  // flow even before the Shadow DOM stylesheet below has loaded.
+  // flow even before any stylesheet has loaded.
   host.style.position = 'fixed';
   host.style.right = '20px';
   host.style.bottom = 'calc(env(safe-area-inset-bottom, 0px) + 84px)';
@@ -25,38 +34,429 @@ function initRrcAiAssistant() {
   host.style.padding = '0';
   host.style.zIndex = '1500';
   host.style.display = 'block';
+  host.style.pointerEvents = 'auto';
   const root = host.attachShadow({ mode: 'open' });
-  // Synchronous critical fallback styles: applied instantly inside Shadow DOM
-  // so the toggle/panel are correctly positioned/hidden even while the full
-  // async stylesheet is still loading (or if it fails/stale-cached).
-  const critical = document.createElement('style');
-  critical.textContent = [
-    ':host{position:fixed !important;right:20px !important;',
-    'bottom:calc(env(safe-area-inset-bottom, 0px) + 84px) !important;',
-    'width:60px !important;height:60px !important;margin:0 !important;',
-    'padding:0 !important;display:block !important;z-index:1500 !important;}',
-    '@media(max-width:600px){:host{right:16px !important;bottom:calc(env(safe-area-inset-bottom, 0px) + 76px) !important;width:52px !important;height:52px !important;}}',
-    ':host(.rrc-ai-open){width:60px;height:60px;}',
-    '.rrc-ai-toggle{position:absolute !important;right:0 !important;bottom:0 !important;}',
-    '@media(max-width:600px){.rrc-ai-toggle{width:52px !important;height:52px !important;font-size:15px !important;}}',
-    '.rrc-ai-window{position:absolute !important;right:0 !important;bottom:74px !important;',
-    'visibility:hidden !important;pointer-events:none !important;}',
-    '.rrc-ai-window.rrc-ai-visible{visibility:visible !important;pointer-events:auto !important;}'
-  ].join('');
-  root.appendChild(critical);
+
+  // Self-contained, synchronous Shadow DOM styling: embeds the full widget styles
+  // directly so the assistant is fully styled immediately, immune to network
+  // latency, cache mismatches, ad-blockers, or stylesheet load failures.
+  const style = document.createElement('style');
+  style.textContent = `
+    :host {
+      all: initial;
+      position: fixed !important;
+      right: 20px !important;
+      bottom: calc(env(safe-area-inset-bottom, 0px) + 84px) !important;
+      width: 60px !important;
+      height: 60px !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      display: block !important;
+      z-index: 1500 !important;
+      box-sizing: border-box !important;
+      color: #171717 !important;
+      font-family: Arial, sans-serif !important;
+      font-size: 14px !important;
+      line-height: 1.45 !important;
+      pointer-events: none !important;
+    }
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    button, textarea, a {
+      font: inherit;
+    }
+    .rrc-ai-toggle {
+      position: absolute !important;
+      right: 0 !important;
+      bottom: 0 !important;
+      display: grid !important;
+      place-items: center !important;
+      width: 60px !important;
+      height: 60px !important;
+      padding: 0 !important;
+      border: 2px solid #e4c36f !important;
+      border-radius: 50% !important;
+      background: #111 !important;
+      color: #f2d27e !important;
+      box-shadow: 0 5px 18px rgba(0, 0, 0, 0.28) !important;
+      font-size: 17px !important;
+      font-weight: 700 !important;
+      cursor: pointer !important;
+      pointer-events: auto !important;
+      transition: transform 180ms ease, background-color 180ms ease, box-shadow 180ms ease !important;
+    }
+    .rrc-ai-toggle:hover {
+      transform: translateY(-3px) !important;
+      background: #292929 !important;
+      box-shadow: 0 8px 22px rgba(0, 0, 0, 0.32) !important;
+    }
+    .rrc-ai-toggle:focus-visible,
+    button:focus-visible,
+    a:focus-visible,
+    .rrc-ai-input:focus-visible {
+      outline: 3px solid #b58a2a !important;
+      outline-offset: 3px !important;
+    }
+    .rrc-ai-window {
+      position: absolute !important;
+      right: 0 !important;
+      bottom: 70px !important;
+      display: flex !important;
+      flex-direction: column !important;
+      width: min(380px, calc(100vw - 32px)) !important;
+      height: min(490px, calc(100dvh - 280px)) !important;
+      max-height: calc(100dvh - 270px) !important;
+      min-height: min(320px, calc(100dvh - 270px)) !important;
+      overflow: hidden !important;
+      border: 1px solid rgba(201, 162, 77, 0.55) !important;
+      border-radius: 8px !important;
+      background: #fff !important;
+      color: #191919 !important;
+      box-shadow: 0 16px 48px rgba(0, 0, 0, 0.24) !important;
+      pointer-events: none !important;
+      transform: translateY(8px) !important;
+      transform-origin: bottom right !important;
+      transition: transform 180ms ease, opacity 180ms ease !important;
+      visibility: hidden !important;
+      opacity: 0 !important;
+    }
+    .rrc-ai-window.rrc-ai-visible {
+      pointer-events: auto !important;
+      transform: translateY(0) !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+    .rrc-ai-header {
+      display: flex !important;
+      flex: 0 0 auto !important;
+      align-items: center !important;
+      justify-content: space-between !important;
+      gap: 12px !important;
+      min-height: 56px !important;
+      padding: 10px 14px !important;
+      background: #111 !important;
+      color: #fff !important;
+    }
+    .rrc-ai-icon {
+      flex: 0 0 34px !important;
+      width: 34px !important;
+      height: 34px !important;
+      padding: 2px !important;
+      border-radius: 6px !important;
+      background: #f9f7f3 !important;
+      object-fit: contain !important;
+    }
+    .rrc-ai-heading-group {
+      display: flex !important;
+      flex: 1 1 auto !important;
+      flex-direction: column !important;
+      gap: 2px !important;
+      min-width: 0 !important;
+    }
+    .rrc-ai-title {
+      display: block !important;
+      min-width: 0 !important;
+      overflow: hidden !important;
+      color: #f1d27c !important;
+      font-size: 14px !important;
+      font-weight: 700 !important;
+      text-overflow: ellipsis !important;
+      white-space: nowrap !important;
+    }
+    .rrc-ai-status {
+      color: #d8ded8 !important;
+      font-size: 11px !important;
+    }
+    .rrc-ai-status::before {
+      display: inline-block !important;
+      width: 7px !important;
+      height: 7px !important;
+      margin-right: 6px !important;
+      border-radius: 50% !important;
+      background: #55bd78 !important;
+      content: "" !important;
+    }
+    .rrc-ai-close,
+    .rrc-ai-refresh {
+      display: grid !important;
+      flex: 0 0 32px !important;
+      place-items: center !important;
+      width: 32px !important;
+      height: 32px !important;
+      padding: 0 !important;
+      border: 1px solid rgba(255, 255, 255, 0.28) !important;
+      border-radius: 50% !important;
+      background: transparent !important;
+      color: #fff !important;
+      cursor: pointer !important;
+      transition: background-color 150ms ease !important;
+    }
+    .rrc-ai-close {
+      font-size: 22px !important;
+      line-height: 1 !important;
+    }
+    .rrc-ai-refresh {
+      font-size: 18px !important;
+      line-height: 1 !important;
+    }
+    .rrc-ai-refresh:hover,
+    .rrc-ai-close:hover {
+      background: rgba(255, 255, 255, 0.14) !important;
+    }
+    .rrc-ai-actions {
+      display: flex !important;
+      flex: 0 0 auto !important;
+      gap: 8px !important;
+      padding: 8px 12px !important;
+      border-bottom: 1px solid #ece7dc !important;
+      background: #faf8f2 !important;
+    }
+    .rrc-ai-action {
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      min-height: 30px !important;
+      padding: 4px 10px !important;
+      border: 1px solid #c9a24d !important;
+      border-radius: 4px !important;
+      background: #fff !important;
+      color: #191919 !important;
+      font-size: 12px !important;
+      font-weight: 700 !important;
+      text-decoration: none !important;
+      transition: background-color 150ms ease !important;
+    }
+    .rrc-ai-action:hover {
+      background: #f1e6c8 !important;
+    }
+    .rrc-ai-messages {
+      flex: 1 1 auto !important;
+      min-height: 0 !important;
+      overflow-y: auto !important;
+      padding: 12px 12px 8px !important;
+      overscroll-behavior: contain !important;
+    }
+    .rrc-ai-welcome {
+      margin: 0 0 10px !important;
+      padding: 10px 12px !important;
+      border: 1px solid #eee7d8 !important;
+      border-radius: 6px !important;
+      background: #faf8f2 !important;
+      color: #292929 !important;
+      font-size: 13px !important;
+      line-height: 1.48 !important;
+      white-space: pre-line !important;
+    }
+    .rrc-ai-quick-questions {
+      display: flex !important;
+      flex-wrap: wrap !important;
+      gap: 6px !important;
+      margin: 0 0 10px !important;
+    }
+    .rrc-ai-quick-question {
+      min-height: 28px !important;
+      padding: 4px 9px !important;
+      border: 1px solid #d7c18a !important;
+      border-radius: 14px !important;
+      background: #fff !important;
+      color: #28231a !important;
+      font-size: 11px !important;
+      cursor: pointer !important;
+      transition: background-color 150ms ease !important;
+    }
+    .rrc-ai-quick-question:hover:not(:disabled) {
+      background: #f7f0df !important;
+    }
+    .rrc-ai-message {
+      width: fit-content !important;
+      max-width: 90% !important;
+      margin: 8px 0 !important;
+      padding: 8px 11px !important;
+      border-radius: 7px !important;
+      color: #252525 !important;
+      font-size: 13px !important;
+      line-height: 1.5 !important;
+      overflow-wrap: anywhere !important;
+      white-space: pre-wrap !important;
+    }
+    .rrc-ai-user {
+      margin-left: auto !important;
+      background: #171717 !important;
+      color: #fff !important;
+    }
+    .rrc-ai-assistant {
+      margin-right: auto !important;
+      border: 1px solid #eadcb5 !important;
+      background: #fbf8ef !important;
+    }
+    .rrc-ai-thinking {
+      color: #565147 !important;
+      font-style: italic !important;
+    }
+    .rrc-ai-live-status {
+      flex: 0 0 auto !important;
+      min-height: 16px !important;
+      padding: 0 12px !important;
+      color: #7e2c22 !important;
+      font-size: 11px !important;
+    }
+    .rrc-ai-form {
+      display: flex !important;
+      flex: 0 0 auto !important;
+      align-items: flex-end !important;
+      gap: 8px !important;
+      padding: 8px 12px !important;
+      border-top: 1px solid #eee7d8 !important;
+    }
+    .rrc-ai-sr-only {
+      position: absolute !important;
+      width: 1px !important;
+      height: 1px !important;
+      padding: 0 !important;
+      margin: -1px !important;
+      overflow: hidden !important;
+      clip: rect(0, 0, 0, 0) !important;
+      white-space: nowrap !important;
+      border: 0 !important;
+      clip-path: inset(50%) !important;
+    }
+    .rrc-ai-input {
+      flex: 1 1 auto !important;
+      min-width: 0 !important;
+      min-height: 40px !important;
+      max-height: 90px !important;
+      resize: vertical !important;
+      padding: 8px 10px !important;
+      border: 1px solid #cfc9bb !important;
+      border-radius: 5px !important;
+      background: #fff !important;
+      color: #191919 !important;
+      font-size: 13px !important;
+      line-height: 1.4 !important;
+    }
+    .rrc-ai-send {
+      flex: 0 0 auto !important;
+      min-height: 40px !important;
+      padding: 0 14px !important;
+      border: 1px solid #111 !important;
+      border-radius: 5px !important;
+      background: #111 !important;
+      color: #f1d27c !important;
+      font-size: 13px !important;
+      font-weight: 700 !important;
+      cursor: pointer !important;
+      transition: background-color 150ms ease !important;
+    }
+    .rrc-ai-send:hover:not(:disabled) {
+      background: #333 !important;
+    }
+    button:disabled,
+    .rrc-ai-input:disabled {
+      cursor: not-allowed !important;
+      opacity: 0.65 !important;
+    }
+    .rrc-ai-disclaimer {
+      flex: 0 0 auto !important;
+      margin: 0 !important;
+      padding: 0 12px 10px !important;
+      color: #625e55 !important;
+      font-size: 10px !important;
+      line-height: 1.4 !important;
+    }
+    @media (max-width: 600px) {
+      :host {
+        right: 16px !important;
+        bottom: calc(env(safe-area-inset-bottom, 0px) + 76px) !important;
+        width: 52px !important;
+        height: 52px !important;
+      }
+      .rrc-ai-toggle {
+        width: 52px !important;
+        height: 52px !important;
+        font-size: 15px !important;
+      }
+      .rrc-ai-title {
+        font-size: 13px !important;
+        overflow: visible !important;
+        text-overflow: clip !important;
+        white-space: normal !important;
+      }
+      .rrc-ai-window {
+        bottom: 64px !important;
+        width: min(360px, calc(100vw - 32px)) !important;
+        height: min(380px, calc(100dvh - 275px)) !important;
+        max-height: calc(100dvh - 265px) !important;
+        min-height: min(260px, calc(100dvh - 265px)) !important;
+      }
+    }
+    @media (max-height: 520px) {
+      .rrc-ai-window {
+        bottom: 58px !important;
+        height: calc(100dvh - 160px) !important;
+        min-height: 0 !important;
+      }
+      .rrc-ai-header {
+        min-height: 48px !important;
+        gap: 8px !important;
+        padding: 4px 10px !important;
+      }
+      .rrc-ai-icon {
+        flex-basis: 26px !important;
+        width: 26px !important;
+        height: 26px !important;
+      }
+      .rrc-ai-close,
+      .rrc-ai-refresh {
+        flex-basis: 28px !important;
+        width: 28px !important;
+        height: 28px !important;
+      }
+      .rrc-ai-actions {
+        gap: 6px !important;
+        padding: 2px 10px !important;
+      }
+      .rrc-ai-form {
+        gap: 6px !important;
+        padding: 4px 10px 5px !important;
+      }
+      .rrc-ai-input {
+        min-height: 32px !important;
+        padding: 4px 6px !important;
+        font-size: 12px !important;
+      }
+      .rrc-ai-send {
+        min-height: 32px !important;
+        padding: 0 10px !important;
+      }
+      .rrc-ai-disclaimer {
+        padding: 0 8px 4px !important;
+        font-size: 9px !important;
+      }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .rrc-ai-toggle,
+      .rrc-ai-window {
+        transition: none !important;
+      }
+    }
+  `;
+  root.appendChild(style);
+
+  // Fallback / complement external stylesheet with synchronized versioning
+  let aiStyleVersion = rrcScriptVersion;
+  if (!aiStyleVersion || aiStyleVersion === '20261008-1') {
+    const matchingScript = document.querySelector('script[src*="script.js"]');
+    if (matchingScript && matchingScript.src) {
+      try {
+        const v = new URL(matchingScript.src, document.baseURI).searchParams.get('v');
+        if (v) aiStyleVersion = v;
+      } catch { /* keep default */ }
+    }
+  }
   const stylesheet = document.createElement('link');
   stylesheet.rel = 'stylesheet';
-  // Keep the Shadow DOM stylesheet version in sync with the loaded script so
-  // a stale-cached/failed full stylesheet cannot leave fallback-only layout.
-  let aiStyleVersion = 'rrc-ai-chat-3';
-  try {
-    const scriptUrl = document.currentScript && document.currentScript.src
-      ? new URL(document.currentScript.src, document.baseURI)
-      : null;
-    const v = scriptUrl ? scriptUrl.searchParams.get('v') : null;
-    if (v) aiStyleVersion = v;
-  } catch { /* keep default version */ }
-  stylesheet.href = new URL(('/style.css?v=' + aiStyleVersion), window.location.origin).href;
+  stylesheet.href = new URL(('/style.css?v=' + (aiStyleVersion || '20261008-1')), window.location.origin).href;
   root.appendChild(stylesheet);
 
   const makeElement = (tag, className, text) => {
