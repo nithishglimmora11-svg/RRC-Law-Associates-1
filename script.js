@@ -56,7 +56,7 @@ function initRrcAiAssistant() {
     const v = scriptUrl ? scriptUrl.searchParams.get('v') : null;
     if (v) aiStyleVersion = v;
   } catch { /* keep default version */ }
-  stylesheet.href = new URL(('style.css?v=' + aiStyleVersion), document.baseURI).href;
+  stylesheet.href = new URL(('/style.css?v=' + aiStyleVersion), window.location.origin).href;
   root.appendChild(stylesheet);
 
   const makeElement = (tag, className, text) => {
@@ -81,7 +81,7 @@ function initRrcAiAssistant() {
 
   const header = makeElement('header', 'rrc-ai-header');
   const brandIcon = makeElement('img', 'rrc-ai-icon');
-  brandIcon.src = new URL('assets/images/logo.png', document.baseURI).href;
+  brandIcon.src = new URL('/assets/images/logo.png', window.location.origin).href;
   brandIcon.alt = '';
   brandIcon.setAttribute('aria-hidden', 'true');
 
@@ -103,7 +103,7 @@ function initRrcAiAssistant() {
   const actions = makeElement('nav', 'rrc-ai-actions');
   actions.setAttribute('aria-label', 'Contact and consultation links');
   const bookingLink = makeElement('a', 'rrc-ai-action', 'Book Consultation');
-  bookingLink.href = './booking.html';
+  bookingLink.href = '/booking.html';
   actions.append(bookingLink);
 
   const WELCOME_LINES = [
