@@ -38,6 +38,7 @@ RewriteRule ^(oci-legal-guides|oci-card-eligibility-legal-status|oci-vs-nri-vs-i
 
 # 4. Route legacy hierarchical OCI service URL to canonical service landing page
 RewriteRule ^nri-legal-services/oci-card-assistance/?$ https://rrclawassociates.com/oci-card-assistance [R=301,L,NC]
+RewriteRule ^wills-probate-estate-administration/$ https://rrclawassociates.com/wills-probate-estate-administration [R=301,L,NC]
 
 # 5. Site-wide clean URL: 301 redirect remaining .html requests to clean URLs (without trailing slash)
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.html(?:\?[^\s]*)?\s [NC]

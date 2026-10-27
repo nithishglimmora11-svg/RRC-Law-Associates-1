@@ -1,3 +1,20 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "liveServer.settings.mount": [
+        ["/wills-probate-estate-administration", "./wills-probate-estate-administration.html"],
+        ["/oci-card-assistance", "./oci-card-assistance.html"],
+        ["/nri-services", "./nri-services.html"],
+        ["/nri-property-disputes", "./nri-property-disputes.html"],
+        ["/nri-power-of-attorney", "./nri-power-of-attorney.html"],
+        ["/nri-criminal-case", "./nri-criminal-case.html"],
+        ["/nri-family-matrimonial", "./nri-family-matrimonial.html"],
+        ["/core-practice-areas", "./core-practice-areas.html"],
+        ["/family-law", "./family-law.html"],
+        ["/intellectual-property", "./intellectual-property.html"],
+        ["/employment-law", "./employment-law.html"],
+        ["/white-collar-crime", "./white-collar-crime.html"],
+        ["/property-law", "./property-law.html"],
+        ["/cyber-law", "./cyber-law.html"],
+        ["/litigation-dispute-resolution", "./litigation-dispute-resolution.html"]
+    ]
 }

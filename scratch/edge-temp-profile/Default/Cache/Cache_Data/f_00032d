@@ -1,0 +1,1907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCI Cardholders and Ancestral Property in India: Inheritance, Sale &amp; Transfer | RRC Law Associates</title>
+    <meta name="description" content="Learn how OCI cardholders can inherit, sell or transfer ancestral property in India, including agricultural land, succession documents, relinquishment deeds and FEMA restrictions.">
+    <meta name="keywords" content="OCI cardholder ancestral property India, OCI inheritance property India, OCI cardholder sell inherited property, OCI agricultural land inheritance, NRI ancestral property lawyer, OCI property transfer India">
+    <link rel="canonical" href="https://rrclawassociates.com/oci-cardholders-inherit-sell-ancestral-property-india/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://rrclawassociates.com/oci-cardholders-inherit-sell-ancestral-property-india/">
+    <meta property="og:title" content="OCI Cardholders and Ancestral Property in India: Inheritance, Sale &amp; Transfer | RRC Law Associates">
+    <meta property="og:description" content="Learn how OCI cardholders can inherit, sell or transfer ancestral property in India, including agricultural land, succession documents, relinquishment deeds and FEMA restrictions.">
+    <meta property="og:image" content="https://rrclawassociates.com/assets/images/oci-ancestral-property-india.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://rrclawassociates.com/oci-cardholders-inherit-sell-ancestral-property-india/">
+    <meta property="twitter:title" content="OCI Cardholders and Ancestral Property in India: Inheritance, Sale &amp; Transfer | RRC Law Associates">
+    <meta property="twitter:description" content="Learn how OCI cardholders can inherit, sell or transfer ancestral property in India, including agricultural land, succession documents, relinquishment deeds and FEMA restrictions.">
+    <meta property="twitter:image" content="https://rrclawassociates.com/assets/images/oci-ancestral-property-india.jpg">
+
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+    <!-- CSS Dependencies -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=20261008-1">
+    <link rel="stylesheet" href="style2.css?v=20261008-1">
+    <link rel="stylesheet" href="topbar.css?v=20261008-1">
+
+    <style>
+        :root {
+            --primary: #0b1c2d;
+            --secondary: #1a365d;
+            --gold: #c9a24d;
+            --gold-hover: #b38f40;
+            --gold-light: rgba(201, 162, 77, 0.12);
+            --gold-border: rgba(201, 162, 77, 0.35);
+            --cream: #fbf9f4;
+            --text-heading: #0b1c2d;
+            --text-body: #333333;
+            --text-muted: #64748b;
+            --border-light: #e2e8f0;
+            --bg-card: #ffffff;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            color: var(--text-body);
+            background-color: #ffffff;
+            line-height: 1.75;
+            overflow-x: hidden;
+            font-size: 17.5px;
+        }
+
+        /* Header Navigation Styles (Preserved) */
+
+        .header {
+            position: fixed;
+            top: 42px;
+            left: 0;
+            width: 100%;
+            z-index: 1190;
+            background: #000000 !important;
+            padding: 5px 0;
+            min-height: 80px;
+            display: flex;
+            align-items: center;
+            box-shadow: none;
+        }
+
+        .logo-img {
+            height: 60px;
+            width: auto;
+        }
+
+        .nav-link-custom {
+            color: #ffffff !important;
+            text-decoration: none;
+            font-weight: 500;
+            margin: 0 15px;
+            font-size: 16px;
+            font-family: 'Inter', sans-serif;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .nav-link-custom:hover {
+            color: var(--gold) !important;
+        }
+
+        .dropdown-menu {
+            background-color: #000000 !important;
+            border: 1px solid #c9a24d !important;
+            margin-top: 10px !important;
+        }
+
+        .dropdown-item {
+            color: #ffffff !important;
+            padding: 10px 20px;
+        }
+
+        .dropdown-item:hover {
+            background-color: #1a1a1a !important;
+            color: var(--gold) !important;
+        }
+
+        @media (min-width: 992px) {
+            .header .dropdown:hover > .dropdown-menu,
+            .header .dropdown:focus-within > .dropdown-menu {
+                display: block !important;
+                margin-top: 0 !important;
+            }
+        }
+
+        /* Hero Section */
+        .article-hero {
+            position: relative;
+            z-index: 1;
+            padding-top: 155px;
+            padding-bottom: 50px;
+            background-color: var(--cream);
+            border-bottom: 1px solid rgba(60, 56, 25, 0.08);
+        }
+
+        .breadcrumbs-bar {
+            margin-bottom: 1rem;
+        }
+
+        .breadcrumbs-bar a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: color 0.2s;
+        }
+
+        .breadcrumbs-bar a:hover {
+            color: var(--gold);
+        }
+
+        .breadcrumbs-bar span {
+            color: var(--gold);
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .meta-text {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 700;
+            color: var(--gold);
+            display: inline-block;
+        }
+
+        .article-title {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            color: #000000;
+            font-size: clamp(2.1rem, 2.8vw, 3.2rem);
+            line-height: 1.25;
+            max-width: 960px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .article-subtitle {
+            font-size: 1.15rem;
+            color: #4b5563;
+            max-width: 820px;
+            margin: 1.25rem auto 0;
+            line-height: 1.7;
+        }
+
+        .article-meta-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 24px;
+            margin-top: 1.5rem;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            flex-wrap: wrap;
+        }
+
+        .article-meta-item {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* Article Featured Image */
+        .featured-image-wrapper {
+            max-width: 960px;
+            margin: 2.5rem auto 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+            border: 1px solid var(--border-light);
+        }
+
+        .featured-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            max-height: 520px;
+            object-fit: cover;
+        }
+
+        .featured-image-caption {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-align: center;
+            padding: 10px 15px;
+            background: #ffffff;
+            border-top: 1px solid var(--border-light);
+            font-style: italic;
+        }
+
+        /* Main Content Layout */
+        .article-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 50px 20px 80px;
+        }
+
+        .article-content-col {
+            max-width: 840px;
+        }
+
+        /* Typography & Headings */
+        .article-body h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #0b1c2d;
+            margin-top: 2.8rem;
+            margin-bottom: 1.2rem;
+            padding-bottom: 0.6rem;
+            border-bottom: 2px solid rgba(201, 162, 77, 0.35);
+            line-height: 1.35;
+        }
+
+        .article-body h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.35rem;
+            font-weight: 600;
+            color: #1a365d;
+            margin-top: 2rem;
+            margin-bottom: 0.9rem;
+            line-height: 1.4;
+        }
+
+        .article-body p {
+            margin-bottom: 1.4rem;
+            color: #2d3748;
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+
+        .article-body ul, .article-body ol {
+            margin-bottom: 1.5rem;
+            padding-left: 1.4rem;
+        }
+
+        .article-body li {
+            margin-bottom: 0.65rem;
+            color: #2d3748;
+            line-height: 1.75;
+        }
+
+        /* Callout Box */
+        .legal-highlight-box {
+            background-color: #fbf9f4;
+            border-left: 4px solid var(--gold);
+            padding: 22px 26px;
+            margin: 2rem 0;
+            border-radius: 0 10px 10px 0;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
+        }
+
+        .legal-highlight-box h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .legal-highlight-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Warning/Caution Box */
+        .caution-box {
+            background-color: #fffaf0;
+            border-left: 4px solid #dd6b20;
+            padding: 22px 26px;
+            margin: 2rem 0;
+            border-radius: 0 10px 10px 0;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
+        }
+
+        .caution-box h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #c05621;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .caution-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Transfer Route Cards */
+        .route-card {
+            background: #ffffff;
+            border: 1px solid var(--border-light);
+            border-left: 4px solid var(--secondary);
+            border-radius: 0 10px 10px 0;
+            padding: 20px 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.03);
+        }
+
+        .route-card h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 1.25rem;
+            color: var(--primary);
+        }
+
+        /* Checklist Cards */
+        .checklist-group {
+            margin: 2rem 0;
+            border: 1px solid var(--border-light);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
+            background: #ffffff;
+        }
+
+        .checklist-group-header {
+            background: #0b1c2d;
+            color: #ffffff;
+            padding: 16px 22px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .checklist-group-header h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin: 0;
+            color: #ffffff;
+        }
+
+        .checklist-group-body {
+            padding: 20px 24px;
+        }
+
+        .checklist-group-body ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+
+        .checklist-group-body li {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 12px;
+        }
+
+        .checklist-group-body li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: var(--gold);
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .checklist-group-body li:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Sidebar Styling */
+        .sidebar-sticky-wrapper {
+            position: sticky;
+            top: 140px;
+        }
+
+        .sidebar-card {
+            background: #ffffff;
+            border: 1px solid var(--border-light);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+        }
+
+        .sidebar-card-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--border-light);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .toc-list {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+
+        .toc-list li {
+            margin-bottom: 9px;
+            line-height: 1.45;
+        }
+
+        .toc-list a {
+            color: #4b5563;
+            text-decoration: none;
+            font-size: 0.9rem;
+            display: block;
+            padding: 4px 0 4px 10px;
+            border-left: 2px solid transparent;
+            transition: all 0.2s ease;
+        }
+
+        .toc-list a:hover {
+            color: var(--gold);
+            border-left-color: var(--gold);
+            background-color: var(--cream);
+            padding-left: 14px;
+        }
+
+        /* CTA Sidebar Card */
+        .sidebar-cta-card {
+            background: linear-gradient(135deg, #0b1c2d 0%, #1a365d 100%);
+            color: #ffffff;
+            border-radius: 12px;
+            padding: 26px 22px;
+            text-align: center;
+            box-shadow: 0 8px 24px rgba(11, 28, 45, 0.15);
+        }
+
+        .sidebar-cta-card h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 12px;
+        }
+
+        .sidebar-cta-card p {
+            font-size: 0.9rem;
+            color: #e2e8f0;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .btn-gold-cta {
+            background-color: var(--gold);
+            color: #0b1c2d;
+            font-weight: 700;
+            font-size: 0.9rem;
+            padding: 11px 22px;
+            border-radius: 6px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.2s ease;
+            width: 100%;
+            border: 1px solid var(--gold);
+        }
+
+        .btn-gold-cta:hover {
+            background-color: var(--gold-hover);
+            color: #0b1c2d;
+            transform: translateY(-2px);
+        }
+
+        /* Accordion FAQ Styling */
+        .accordion-item {
+            border: 1px solid var(--border-light);
+            margin-bottom: 14px;
+            border-radius: 8px !important;
+            overflow: hidden;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+        }
+
+        .accordion-button {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--primary);
+            background-color: #fcfbf9;
+            padding: 18px 22px;
+        }
+
+        .accordion-button:not(.collapsed) {
+            background-color: #f7f3e8;
+            color: var(--primary);
+            box-shadow: none;
+        }
+
+        .accordion-button:focus {
+            box-shadow: none;
+            border-color: rgba(201, 162, 77, 0.5);
+        }
+
+        .accordion-body {
+            font-size: 1.02rem;
+            color: #374151;
+            line-height: 1.75;
+            padding: 20px 22px;
+            background-color: #ffffff;
+        }
+
+        /* End CTA Block */
+        .article-end-cta {
+            background: linear-gradient(135deg, #0b1c2d 0%, #162e49 100%);
+            border-radius: 14px;
+            padding: 40px;
+            color: #ffffff;
+            margin: 3.5rem 0 2.5rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        .article-end-cta h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.85rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 15px;
+        }
+
+        .article-end-cta p {
+            color: #e2e8f0;
+            font-size: 1.05rem;
+            line-height: 1.75;
+            margin-bottom: 20px;
+        }
+
+        .article-end-cta ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 25px;
+        }
+
+        .article-end-cta li {
+            position: relative;
+            padding-left: 28px;
+            margin-bottom: 10px;
+            color: #f8fafc;
+        }
+
+        .article-end-cta li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--gold);
+            font-weight: bold;
+        }
+
+        .cta-btn-group {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .cta-btn-primary {
+            background-color: var(--gold);
+            color: #0b1c2d;
+            font-weight: 700;
+            padding: 12px 28px;
+            border-radius: 6px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s ease;
+        }
+
+        .cta-btn-primary:hover {
+            background-color: var(--gold-hover);
+            color: #0b1c2d;
+            transform: translateY(-2px);
+        }
+
+        .cta-btn-whatsapp {
+            background-color: #25d366;
+            color: #ffffff;
+            font-weight: 700;
+            padding: 12px 28px;
+            border-radius: 6px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s ease;
+        }
+
+        .cta-btn-whatsapp:hover {
+            background-color: #20ba59;
+            color: #ffffff;
+            transform: translateY(-2px);
+        }
+
+        /* Disclaimer Section */
+        .article-disclaimer {
+            background-color: #f8fafc;
+            border: 1px solid var(--border-light);
+            border-radius: 10px;
+            padding: 22px 26px;
+            margin-top: 2rem;
+            font-size: 0.92rem;
+            color: #64748b;
+            line-height: 1.65;
+        }
+
+        .article-disclaimer strong {
+            color: #334155;
+        }
+
+
+        @media (max-width: 991px) {
+            .article-hero {
+                padding-top: 135px;
+            }
+            .sidebar-sticky-wrapper {
+                margin-top: 40px;
+                position: static;
+            }
+        }
+    </style>
+
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "@id": "https://rrclawassociates.com/oci-cardholders-inherit-sell-ancestral-property-india/#article",
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://rrclawassociates.com/oci-cardholders-inherit-sell-ancestral-property-india/"
+          },
+          "headline": "Can OCI Cardholders Inherit or Sell Ancestral Property in India?",
+          "description": "Learn how OCI cardholders can inherit, sell or transfer ancestral property in India, including agricultural land, succession documents, relinquishment deeds and FEMA restrictions.",
+          "image": "https://rrclawassociates.com/assets/images/oci-ancestral-property-india.jpg",
+          "author": {
+            "@type": "Organization",
+            "name": "RRC Law Associates",
+            "url": "https://rrclawassociates.com/"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "RRC Law Associates",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://rrclawassociates.com/assets/images/logo.png"
+            }
+          },
+          "datePublished": "2026-10-13T13:00:00+05:30",
+          "dateModified": "2026-10-13T13:00:00+05:30",
+          "mainEntityOfPage": "https://rrclawassociates.com/oci-cardholders-inherit-sell-ancestral-property-india/"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://rrclawassociates.com/oci-cardholders-inherit-sell-ancestral-property-india/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://rrclawassociates.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "OCI Legal Guides",
+              "item": "https://rrclawassociates.com/oci-legal-guides/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "OCI Cardholders and Ancestral Property in India",
+              "item": "https://rrclawassociates.com/oci-cardholders-inherit-sell-ancestral-property-india/"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://rrclawassociates.com/oci-cardholders-inherit-sell-ancestral-property-india/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Can an OCI cardholder inherit ancestral property in India?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "An OCI cardholder may inherit immovable property subject to the applicable succession law and foreign-exchange regulations. The property category, ownership history and circumstances of inheritance must be examined."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can an OCI cardholder inherit agricultural land?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The applicable rules distinguish inheritance from ordinary purchase. The RBI regulations address acquisition by inheritance, while agricultural land is subject to special restrictions on purchase and subsequent transfers. The facts and proposed transaction should be reviewed separately."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can an OCI cardholder sell inherited property in India?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Generally, an OCI cardholder may sell eligible immovable property, subject to the applicable regulations. Agricultural land, farmhouses and plantation property require separate examination."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can an OCI cardholder transfer their share to a brother or sister?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Potentially, depending on the ownership structure, the property category and the proposed transaction. A sale, release, gift and partition have different legal effects and should not be treated as interchangeable."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can an OCI cardholder relinquish ancestral property in favour of a sibling?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The legal permissibility and appropriate instrument depend on the title, the nature of the property, the parties' interests and the applicable law. Stamp duty, registration and foreign-exchange requirements should be checked before execution."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What if the land is still in the name of a deceased grandfather?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The title history and succession chain should be examined. Death certificates, title deeds, family relationships and relevant revenue records may be needed to establish the current legal heirs and their interests."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can an OCI cardholder authorise a relative in India to sell property?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A properly drafted power of attorney may authorise an agent to undertake specified permitted tasks. The document must satisfy the applicable execution, authentication, stamping and registration requirements and cannot cure a defect in title or authorise a prohibited transaction."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can an OCI cardholder send property sale proceeds abroad?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Repatriation may be permitted subject to the applicable RBI regulations, conditions and limits. The seller should verify the requirements with an authorised dealer bank and obtain appropriate tax advice before planning the transfer."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does a patta prove ownership of ancestral property?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A patta or other revenue record can be relevant evidence, but it should not automatically be treated as conclusive proof of title. The title deeds, succession documents and other relevant evidence must also be examined."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What should an overseas heir do first?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Collect the available title deeds, death certificates, family relationship records, revenue documents and details of other heirs. A preliminary legal review can then identify the likely ownership issues, missing documents and possible routes for resolving the matter."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+
+
+<!-- =========================================================
+     TOP BAR
+========================================================== -->
+
+<div class="rrc-topbar">
+
+    <div class="rrc-topbar-container">
+
+        <!-- LEFT SIDE -->
+        <div class="rrc-topbar-left">
+
+            <a href="tel:+9197511 82452">
+                <i class="bi bi-telephone-fill"></i>
+                +91 97511 82452
+            </a>
+
+            <span class="rrc-topbar-divider"></span>
+
+            <a href="mailto:dr.kumar@rrclawassociates.com">
+                <i class="bi bi-envelope-fill"></i>
+                dr.kumar@rrclawassociates.com
+            </a>
+
+        </div>
+
+
+        <!-- RIGHT SIDE -->
+        <div class="rrc-topbar-right">
+
+            <span>
+                <i class="bi bi-clock"></i>
+                Mon &#8211; Sat: 10:00 AM &#8211; 10:00 PM
+            </span>
+
+            <span class="rrc-topbar-divider"></span>
+
+            <a href="https://www.linkedin.com/company/rrclawassociates/" aria-label="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+            </a>
+
+            <a href="https://www.instagram.com/rrclawassociates/" aria-label="Instagram">
+                <i class="bi bi-instagram"></i>
+            </a>
+
+            <a href="https://www.facebook.com/rrclawassociates/" aria-label="Facebook">
+                <i class="bi bi-facebook"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+        <header class="header">
+            <nav class="container d-flex align-items-center justify-content-between">
+                <a href="index.html">
+                    <img src="assets/images/rrclogo.png" alt="RRC Logo" class="logo-img">
+                </a>
+
+                <div class="d-none d-lg-flex align-items-center ms-auto">
+                    <div class="dropdown">
+                        <a
+                            class="nav-link-custom border-0 bg-transparent p-0"
+                            href="index.html"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Home
+                        </a>
+                    </div>
+                    <div class="dropdown">
+                        <a
+                            class="nav-link-custom dropdown-toggle border-0 bg-transparent p-0"
+                            href="nri-services.html"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            NRI Services
+                        </a>
+                        <ul class="dropdown-menu shadow-lg">
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="oci-card-assistance.html">OCI Card &amp; Ancestry Assistance</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="nri-property-disputes.html">Property Dispute</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="nri-power-of-attorney.html">Power of Attorney</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="nri-criminal-case.html">Criminal Cases</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="nri-family-matrimonial.html">Family &amp; Matrimonial</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <a
+                            class="nav-link-custom dropdown-toggle border-0 bg-transparent p-0"
+                            href="core-practice-areas.html"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Core Practice Areas
+                        </a>
+                        <ul class="dropdown-menu shadow-lg">
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="family-law.html">Family Law Workspace</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="intellectual-property.html">Intellectual Property Advisory</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="employment-law.html">Labour &amp; Employment Protection</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="white-collar-crime.html">White Collar Crime Defense</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="property-law.html">Due Diligence Frameworks</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="cyber-law.html">Cyber Law Desk</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="litigation-dispute-resolution.html">Litigation &amp; Dispute Resolution</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <a
+                            class="nav-link-custom border-0 bg-transparent p-0"
+                            href="./partners.html"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Partners
+                        </a>
+                    </div>
+                    <div class="dropdown">
+                        <a
+                            class="nav-link-custom border-0 bg-transparent p-0"
+                            href="lawfirm-blog.html"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Blog
+                        </a>
+                    </div>
+                    <div class="dropdown">
+                        <a
+                            class="nav-link-custom border-0 bg-transparent p-0"
+                            href="index.html#contact"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-center gap-3">
+                    <div class="cta d-none d-sm-block">
+                        <a href="./booking.html" class="btn btn-gold">Book Consultation</a>
+                    </div>
+                    <button class="btn text-white d-lg-none fs-3 p-0" id="menuToggle">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </header>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <button class="close-menu" id="closeMenu">&#x2715;</button>
+            <div class="mt-5">
+                <a href="index.html" class="m-link">Home</a>
+                <div class="m-dropdown">
+                    <a class="m-link m-trigger" href="nri-services.html">
+                        NRI Services <i class="fa fa-chevron-down ms-2"></i>
+                    </a>
+                    <div class="m-submenu" id="mPracticeMenu">
+                        <a class="m-sub-item" href="oci-card-assistance.html">OCI Card &amp; Ancestry Assistance</a>
+                        <a class="m-sub-item" href="nri-property-disputes.html">Property Dispute</a>
+                        <a class="m-sub-item" href="nri-power-of-attorney.html">Power of Attorney</a>
+                        <a class="m-sub-item" href="nri-criminal-case.html">Criminal Case</a>
+                        <a class="m-sub-item" href="nri-family-matrimonial.html">Family &amp; Matrimonial</a>
+                    </div>
+                </div>
+                <div class="m-dropdown">
+                    <a class="m-link m-trigger" href="core-practice-areas.html">
+                        Core Practice Areas <i class="fa fa-chevron-down ms-2"></i>
+                    </a>
+                    <div class="m-submenu" id="mPracticeMenu2">
+                        <a class="m-sub-item" href="family-law.html">FAMILY, SUCCESSION &amp; PRIVATE CLIENT PRACTICE</a>
+                        <a class="m-sub-item" href="intellectual-property.html">INTELLECTUAL PROPERTY &amp; INNOVATION PROTECTION</a>
+                        <a class="m-sub-item" href="employment-law.html">LABOUR, EMPLOYMENT &amp; INDUSTRIAL RELATIONS</a>
+                        <a class="m-sub-item" href="white-collar-crime.html">WHITE COLLAR CRIMES &amp; FINANCIAL INVESTIGATIONS</a>
+                        <a class="m-sub-item" href="property-law.html">DOCUMENTATION, REGISTRATION &amp; DUE DILIGENCE</a>
+                        <a class="m-sub-item" href="cyber-law.html">CYBER LAW, DATA PROTECTION &amp; DIGITAL EVIDENCE</a>
+                        <a class="m-sub-item" href="litigation-dispute-resolution.html">LITIGATION &amp; DISPUTE RESOLUTION</a>
+                    </div>
+                </div>
+                <a href="partners.html" class="m-link">Partners</a>
+                <a href="lawfirm-blog.html" class="m-link">Blog</a>
+                <a href="index.html#contact" class="m-link">Contact</a>
+
+                <div class="mt-4">
+                    <a href="./booking.html" class="btn btn-gold w-100 py-3 text-center">Book Consultation</a>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- Article Hero Section -->
+    <section class="article-hero text-center">
+        <div class="container">
+            <div class="breadcrumbs-bar">
+                <a href="index.html">Home</a> &nbsp;/&nbsp;
+                <a href="oci-legal-guides.html">OCI Legal Guides</a> &nbsp;/&nbsp;
+                <span>Guide 8: OCI Cardholders and Ancestral Property in India</span>
+            </div>
+            <span class="meta-text">OCI Legal Guides &bull; Guide 8</span>
+            <h1 class="article-title mt-2">Can OCI Cardholders Inherit or Sell Ancestral Property in India?</h1>
+            <p class="article-subtitle">
+                Learn how OCI cardholders can inherit, sell or transfer ancestral property in India, including agricultural land, succession documents, relinquishment deeds and FEMA restrictions.
+            </p>
+            <div class="article-meta-row">
+                <div class="article-meta-item">
+                    <i class="bi bi-person-fill text-gold"></i>
+                    <span>RRC Law Associates Legal Editorial Team</span>
+                </div>
+                <div class="article-meta-item">
+                    <i class="bi bi-journal-text text-gold"></i>
+                    <span>OCI Legal Guides Series</span>
+                </div>
+            </div>
+
+            <!-- Featured Cover Image -->
+            <div class="featured-image-wrapper">
+                <img src="assets/images/oci-ancestral-property-india.jpg" alt="Can OCI Cardholders Inherit or Sell Ancestral Property in India? - Comprehensive Legal Guide" class="featured-image">
+                <div class="featured-image-caption">
+                    Legal framework governing ancestral property inheritance, succession rights, transfer instruments, agricultural land and FEMA compliance for Overseas Citizens of India.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content & Sidebar Layout -->
+    <main class="article-container">
+        <div class="row g-5">
+            <!-- Article Body Column -->
+            <div class="col-lg-8 article-content-col">
+                <article class="article-body">
+
+                    <!-- Introduction -->
+                    <div class="lead-intro">
+                        <p>Many overseas Indians discover that they have a legal interest in ancestral property in India after the death of a parent, grandparent or another relative. The property may consist of agricultural land, a residential house, an urban plot or several parcels spread across different villages.</p>
+                        <p>When an heir is a foreign citizen holding an Overseas Citizen of India (OCI) card, important questions arise:</p>
+                        <ul>
+                            <li>Can an OCI cardholder inherit property in India?</li>
+                            <li>Can an OCI cardholder inherit agricultural land?</li>
+                            <li>Can inherited property be sold to another person?</li>
+                            <li>Can an OCI cardholder execute a relinquishment or release deed in favour of a sibling?</li>
+                            <li>What documents are required to establish inheritance?</li>
+                            <li>Can the property be sold through a power of attorney?</li>
+                            <li>What happens when revenue records still show the name of a deceased ancestor?</li>
+                        </ul>
+                        <p>The answers depend on the applicable succession law, the property's legal classification, the circumstances in which the property was acquired, the nature of the proposed transaction and the applicable foreign-exchange regulations.</p>
+                        <p>The essential distinction is that inheritance is not the same as purchasing property. A restriction on purchasing certain categories of land should not automatically be treated as a complete answer to whether an OCI cardholder can inherit, retain or transfer that property.</p>
+                        <p>This guide explains the principal issues that overseas heirs should examine before deciding how to deal with ancestral property in India.</p>
+                        <p>This article provides general legal information. The legal position in an individual case must be assessed against the relevant succession law, property records and current regulations.</p>
+                    </div>
+
+                    <!-- Section 1 -->
+                    <section id="section-1">
+                        <h2>1. Can an OCI Cardholder Inherit Property in India?</h2>
+                        <p>An OCI cardholder may acquire immovable property in India by inheritance, subject to the applicable legal requirements.</p>
+                        <p>The Reserve Bank of India's foreign-exchange framework addresses inheritance of immovable property by NRIs and OCI cardholders. It provides for acquisition by inheritance from a person resident in India and, subject to the relevant conditions, from a person resident outside India who acquired the property in accordance with the foreign-exchange law applicable at the time of acquisition.</p>
+                        <p>The legal assessment should therefore consider both the succession question and the foreign-exchange question.</p>
+
+                        <h3>The succession question</h3>
+                        <p>First, establish whether the person claiming the property is legally entitled to inherit it.</p>
+                        <p>This may require examination of:</p>
+                        <ul>
+                            <li>The deceased owner's death certificate.</li>
+                            <li>The deceased owner's title deeds.</li>
+                            <li>A valid will, if one exists.</li>
+                            <li>The applicable intestate succession law, where there is no will.</li>
+                            <li>The relationship between the deceased and the claimant.</li>
+                            <li>The identities and rights of other legal heirs.</li>
+                            <li>Any partition, settlement, release or previous transfer.</li>
+                            <li>Pending court proceedings or disputes affecting the property.</li>
+                        </ul>
+                        <p>The fact that someone is described as a relative or appears in a family tree does not, by itself, establish the extent of their legal share.</p>
+                        <p>The applicable personal law, the ownership history and the facts surrounding the deceased's estate must be considered.</p>
+
+                        <h3>The foreign-exchange question</h3>
+                        <p>Next, determine whether the proposed acquisition or transfer complies with the applicable foreign-exchange rules.</p>
+                        <p>The analysis may differ depending on whether the property is residential, commercial or agricultural, whether it is inherited or purchased, and whether the transaction involves a sale, gift, release or another form of transfer.</p>
+                        <p>The relevant RBI regulations and the current law should be reviewed before executing documents.</p>
+                    </section>
+
+                    <!-- Section 2 -->
+                    <section id="section-2">
+                        <h2>2. Can an OCI Cardholder Inherit Agricultural Land in India?</h2>
+                        <p>Agricultural land is one of the most important issues in overseas inheritance matters.</p>
+                        <p>The OCI scheme does not generally permit an OCI cardholder to acquire agricultural land, a farmhouse or plantation property by purchase under the ordinary property benefit. However, the RBI's foreign-exchange regulations separately address acquisition by inheritance.</p>
+                        <p>Consequently, the question should not be answered simply by saying that an OCI cardholder cannot inherit agricultural land.</p>
+                        <p>The correct approach is to examine the proposed acquisition under the applicable inheritance provisions and the relevant property laws.</p>
+
+                        <div class="legal-highlight-box">
+                            <h4><i class="bi bi-geo-alt-fill text-gold"></i> Key Inquiries for Agricultural Inheritance</h4>
+                            <p>Important questions include:</p>
+                            <ul class="mb-0">
+                                <li>Was the property owned by the deceased?</li>
+                                <li>How did the deceased acquire the land?</li>
+                                <li>Was the deceased resident in India or outside India?</li>
+                                <li>What succession law governs the estate?</li>
+                                <li>Is the claimant entitled to inherit the land?</li>
+                                <li>Are the relevant foreign-exchange conditions satisfied?</li>
+                                <li>What restrictions apply to a subsequent sale, gift or transfer?</li>
+                                <li>Are any state-specific land laws or other statutory restrictions relevant?</li>
+                            </ul>
+                        </div>
+                        <p>The fact that a person may inherit agricultural property does not mean that every later transaction involving that property is automatically permitted.</p>
+                        <p>Before an OCI cardholder sells, gifts, relinquishes or otherwise transfers inherited agricultural land, the specific transaction should be reviewed separately.</p>
+                        <p>This distinction is particularly important for families with ancestral agricultural land in Tamil Nadu and other Indian states.</p>
+                    </section>
+
+                    <!-- Section 3 -->
+                    <section id="section-3">
+                        <h2>3. Can an OCI Cardholder Sell Inherited Property in India?</h2>
+                        <p>An OCI cardholder may generally transfer eligible immovable property in India by sale, subject to the applicable foreign-exchange regulations and other laws.</p>
+                        <p>The RBI framework permits an OCI cardholder to transfer immovable property other than agricultural land, a farmhouse or plantation property to a person resident in India. It also contains provisions governing the transfer of certain properties to NRIs and OCI cardholders.</p>
+                        <p>Agricultural land, farmhouses and plantation property require a separate analysis because the ordinary transfer rules differ from those applicable to other immovable property.</p>
+
+                        <div class="caution-box">
+                            <h4><i class="bi bi-exclamation-triangle-fill"></i> Pre-Sale Legal Due Diligence Requirements</h4>
+                            <p>Before proceeding with a sale, the seller should establish:</p>
+                            <ul class="mb-0">
+                                <li>The legal basis on which the property was inherited.</li>
+                                <li>Whether the seller has sole ownership or only an undivided share.</li>
+                                <li>Whether other heirs have rights in the property.</li>
+                                <li>Whether title and revenue records require updating.</li>
+                                <li>Whether the proposed purchaser is legally eligible to acquire the property.</li>
+                                <li>Whether the transaction complies with the applicable foreign-exchange rules.</li>
+                                <li>Whether the sale deed accurately describes the property and the seller's interest.</li>
+                            </ul>
+                        </div>
+                        <p>If several heirs have inherited the property, one heir should not assume that they can sell the entire property merely because their name appears in one revenue record.</p>
+                        <p>The legal rights of the other heirs and the form of co-ownership must be established.</p>
+                    </section>
+
+                    <!-- Section 4 -->
+                    <section id="section-4">
+                        <h2>4. Can an OCI Cardholder Sell Ancestral Property to a Sibling?</h2>
+                        <p>This question frequently arises when one family member lives abroad and another continues to reside in India.</p>
+                        <p>For example, three siblings may inherit a house or agricultural land after their parent's death. One sibling may wish to retain the property, while the others want to receive their respective shares in money or transfer their interests to the sibling who will keep it.</p>
+                        <p>Several legal routes may be considered, depending on the ownership structure and the applicable law.</p>
+
+                        <!-- Route A -->
+                        <div class="route-card">
+                            <h3>Route A: Sale of an undivided share</h3>
+                            <p>An heir may consider selling their legally established share, subject to the applicable transfer rules, co-ownership rights and any relevant restrictions.</p>
+                            <p class="mb-0">The transaction must accurately identify the interest being transferred. A sale of an undivided share is not necessarily the same as a sale of a separately demarcated parcel.</p>
+                        </div>
+
+                        <!-- Route B -->
+                        <div class="route-card">
+                            <h3>Route B: Partition</h3>
+                            <p>Where several heirs own the property jointly, partition may be considered to separate their respective interests.</p>
+                            <p>Partition may be effected through an appropriate legal instrument or proceedings, depending on the circumstances, the ownership documents and whether the parties agree.</p>
+                            <p class="mb-0">Agricultural land and other specially regulated property require careful review before selecting the route.</p>
+                        </div>
+
+                        <!-- Route C -->
+                        <div class="route-card">
+                            <h3>Route C: Release or relinquishment</h3>
+                            <p>A co-owner may wish to release or relinquish their interest in favour of another co-owner.</p>
+                            <p>However, a release or relinquishment deed should not be treated as interchangeable with a sale deed, gift deed or partition deed.</p>
+                            <p>The correct instrument depends on the existing ownership, the parties' legal relationship, the consideration, the intended legal effect and the applicable law.</p>
+                            <p class="mb-0">Stamp duty, registration requirements and foreign-exchange restrictions must be considered where relevant.</p>
+                        </div>
+
+                        <!-- Route D -->
+                        <div class="route-card">
+                            <h3>Route D: Family settlement</h3>
+                            <p>In an appropriate case, family members may consider a family settlement to resolve competing claims or arrange the distribution of property.</p>
+                            <p class="mb-0">The legal effect depends on the substance of the arrangement and the applicable legal requirements. The document should not be labelled a family settlement merely to avoid the requirements applicable to the transaction actually being undertaken.</p>
+                        </div>
+
+                        <h3>What should the family do first?</h3>
+                        <p>Before selecting a document, establish:</p>
+                        <ul>
+                            <li>Who legally owns the property?</li>
+                            <li>What share belongs to each heir?</li>
+                            <li>Is the property agricultural or non-agricultural?</li>
+                            <li>Are all relevant parties in agreement?</li>
+                            <li>Is the proposed transaction a sale, release, gift, partition or settlement?</li>
+                            <li>Which transfer and foreign-exchange rules apply?</li>
+                            <li>What stamp duty and registration requirements must be satisfied?</li>
+                        </ul>
+                        <p>The answer should be based on the legal substance of the transaction rather than the preferred name of the document.</p>
+                    </section>
+
+                    <!-- Section 5 -->
+                    <section id="section-5">
+                        <h2>5. Can an OCI Cardholder Gift Inherited Property to a Relative?</h2>
+                        <p>A gift is different from a sale because it ordinarily involves a transfer without monetary consideration.</p>
+                        <p>The RBI regulations permit specified gifts of eligible immovable property between persons who satisfy the applicable relationship and other requirements. They also contain distinct rules concerning transfers of agricultural land, farmhouses and plantation property.</p>
+                        <p>An OCI cardholder should therefore not assume that every inherited property can be gifted to any relative.</p>
+
+                        <div class="legal-highlight-box">
+                            <h4><i class="bi bi-gift-fill text-gold"></i> Pre-Gift Assessment Inquiries</h4>
+                            <p>Before making a gift, examine:</p>
+                            <ul class="mb-0">
+                                <li>The category of property.</li>
+                                <li>The donor's legal title and ownership share.</li>
+                                <li>The recipient's status and relationship to the donor.</li>
+                                <li>Whether the gift is permitted under the applicable regulations.</li>
+                                <li>Whether the property is subject to a mortgage, charge, tenancy or dispute.</li>
+                                <li>The applicable stamp duty and registration requirements.</li>
+                                <li>Any tax or reporting implications.</li>
+                            </ul>
+                        </div>
+                        <p>A gift deed should accurately record the property, the donor's interest, the intended transfer and the legally required formalities.</p>
+                        <p>Where agricultural land is involved, specific legal advice is especially important.</p>
+                    </section>
+
+                    <!-- Section 6 -->
+                    <section id="section-6">
+                        <h2>6. What If the Ancestral Property Is Still in the Name of a Grandfather or Great-Grandfather?</h2>
+                        <p>This is common in long-standing family property matters.</p>
+                        <p>The property may still appear in the name of a deceased ancestor even though several generations have passed. Revenue records may not have been updated after earlier deaths, partitions or family arrangements.</p>
+                        <p>The first task is to establish the title history and identify the persons who may legally be entitled to the property.</p>
+                        <p>Relevant documents may include:</p>
+                        <ul>
+                            <li>The original or available title deed.</li>
+                            <li>Earlier sale deeds, settlement deeds or partition deeds.</li>
+                            <li>Death certificates of the deceased owners.</li>
+                            <li>Legal-heir or surviving-member records, where relevant.</li>
+                            <li>Wills and probate-related documents, where applicable.</li>
+                            <li>Patta, chitta, adangal and other relevant revenue records in Tamil Nadu.</li>
+                            <li>Encumbrance certificates.</li>
+                            <li>Court orders or decrees affecting ownership.</li>
+                            <li>Records relating to prior transfers or family settlements.</li>
+                        </ul>
+                        <p>The absence of an updated patta does not, by itself, determine who owns the property. Equally, a patta or legal-heir certificate should not automatically be treated as conclusive proof of title.</p>
+                        <p>The evidence must be considered together to determine the legal chain of ownership.</p>
+
+                        <h3>Why a title review matters</h3>
+                        <p>A family may believe that a property belongs equally to all grandchildren, but the actual ownership may depend on the nature of the original property, the applicable succession law, earlier transactions and the dates on which relevant persons died.</p>
+                        <p>For example, the rules may differ depending on whether the property was self-acquired by the deceased, ancestral or coparcenary property, or property already transferred under a valid instrument.</p>
+                        <p>These distinctions can affect the identity of the legal heirs and the extent of each person's interest.</p>
+                    </section>
+
+                    <!-- Section 7 -->
+                    <section id="section-7">
+                        <h2>7. Does an OCI Cardholder Need to Update Revenue Records Before Selling?</h2>
+                        <p>Not every transaction follows the same sequence, but unresolved title and revenue-record issues can complicate a sale.</p>
+                        <p>Where the property remains recorded in the name of a deceased person, the family should determine which documents and proceedings are necessary to establish the current owners and their respective shares.</p>
+                        <p>Depending on the facts, this may involve:</p>
+                        <ul>
+                            <li>Obtaining death certificates.</li>
+                            <li>Establishing the legal heirs.</li>
+                            <li>Reviewing the succession documents.</li>
+                            <li>Obtaining or updating relevant revenue records.</li>
+                            <li>Correcting errors in the land description or ownership records.</li>
+                            <li>Resolving competing claims.</li>
+                            <li>Obtaining a court order where ownership is disputed.</li>
+                        </ul>
+                        <p>Mutation or changes to revenue records should not be confused with a judicial determination of title.</p>
+                        <p>If the legal heirs disagree about ownership or shares, an administrative mutation process may not resolve the underlying dispute. A civil remedy may need to be considered.</p>
+                        <p>The appropriate process depends on the property, the existing records and the nature of the disagreement.</p>
+                    </section>
+
+                    <!-- Section 8 -->
+                    <section id="section-8">
+                        <h2>8. Can an OCI Cardholder Execute a Power of Attorney From Overseas?</h2>
+                        <p>An OCI cardholder living outside India may need to authorise a trusted person in India to deal with inherited property.</p>
+                        <p>Depending on the proposed transaction, a properly drafted power of attorney may authorise an agent to undertake specified tasks, such as obtaining records, making applications, liaising with authorities or executing permitted documents.</p>
+                        <p>The document should clearly identify the principal, the agent, the property and the authority being granted.</p>
+                        <p>Before execution, the principal should verify:</p>
+                        <ul>
+                            <li>Whether the power of attorney needs to be notarised or executed before a competent consular authority.</li>
+                            <li>Whether apostille or other authentication is required.</li>
+                            <li>Whether the document must be stamped or adjudicated in India.</li>
+                            <li>Whether the proposed powers are sufficient for the intended transaction.</li>
+                            <li>Whether the Sub-Registrar or other authority requires a particular form or supporting document.</li>
+                            <li>Whether any additional requirements apply to the specific deed or transaction.</li>
+                        </ul>
+                        <p>A power of attorney does not itself establish ownership or cure a defect in title.</p>
+                        <p>Nor does it make an otherwise prohibited transaction lawful. The agent can act only within the authority granted and the limits imposed by applicable law.</p>
+                        <p>The final form and execution procedure should be confirmed before the document is signed overseas.</p>
+                    </section>
+
+                    <!-- Section 9 -->
+                    <section id="section-9">
+                        <h2>9. What Happens to the Sale Proceeds?</h2>
+                        <p>Where inherited property is sold, the seller should consider the legal and financial treatment of the proceeds.</p>
+                        <p>The RBI's foreign-exchange framework addresses repatriation of proceeds from certain immovable-property sales by NRIs and OCI cardholders. The availability and extent of repatriation depend on the relevant regulations and the circumstances of acquisition and sale.</p>
+                        <p>The seller should not assume that all sale proceeds can automatically be remitted overseas merely because the seller holds an OCI card.</p>
+                        <p>The relevant questions may include:</p>
+                        <ul>
+                            <li>How was the property acquired?</li>
+                            <li>Was it inherited, purchased or received by gift?</li>
+                            <li>What rules applied when the property was acquired?</li>
+                            <li>Who was the deceased owner, and what was their residence status?</li>
+                            <li>What consideration was received?</li>
+                            <li>What banking and documentary evidence is available?</li>
+                            <li>What tax obligations arise from the sale?</li>
+                            <li>Which repatriation conditions and limits apply?</li>
+                            <li>What documentation does the authorised dealer bank require?</li>
+                        </ul>
+                        <p>The current RBI rules and the bank's requirements should be checked before planning an overseas remittance.</p>
+
+                        <h3>Tax considerations</h3>
+                        <p>A sale may also have Indian tax consequences.</p>
+                        <p>The applicable treatment depends on factors such as the asset, its acquisition history, the dates relevant to the transaction, the seller's circumstances and the law in force.</p>
+                        <p>A foreign tax residence may also create questions about reporting in another jurisdiction.</p>
+                        <p>The seller should obtain tax advice appropriate to the transaction. Property-law compliance, foreign-exchange compliance and tax compliance are separate matters, even where they relate to the same sale.</p>
+                    </section>
+
+                    <!-- Section 10 -->
+                    <section id="section-10">
+                        <h2>10. What If the Heirs Disagree About the Property?</h2>
+                        <p>Disputes can arise when one heir occupies the property, another manages the land and an overseas heir seeks their share.</p>
+                        <p>Common issues include:</p>
+                        <ul>
+                            <li>Refusal to recognise an heir's share.</li>
+                            <li>Disagreement over the validity of a will.</li>
+                            <li>Claims that a property was already partitioned.</li>
+                            <li>Allegations of an unauthorised sale or transfer.</li>
+                            <li>Disputes over possession or rental income.</li>
+                            <li>Refusal to provide original title documents.</li>
+                            <li>Disagreement over the value of the property.</li>
+                            <li>Objections to selling the property or distributing the proceeds.</li>
+                        </ul>
+                        <p>The appropriate legal remedy depends on the nature of the dispute and the evidence.</p>
+                        <p>Possible steps may include a title and succession review, a formal legal notice, negotiation, mediation, partition proceedings or other appropriate civil proceedings.</p>
+                        <p>An overseas heir should preserve documentary evidence and avoid signing a release or settlement without understanding its legal effect.</p>
+                        <p>A settlement may resolve a dispute efficiently where the parties agree, but the terms should accurately reflect the rights being resolved and comply with the applicable formalities.</p>
+                    </section>
+
+                    <!-- Section 11 -->
+                    <section id="section-11">
+                        <h2>11. Documents to Collect Before Seeking Legal Advice</h2>
+                        <p>An OCI cardholder dealing with ancestral property should, where available, organise the following records.</p>
+
+                        <!-- Checklist A: Identity -->
+                        <div class="checklist-group">
+                            <div class="checklist-group-header">
+                                <i class="bi bi-person-vcard text-gold fs-5"></i>
+                                <h4>Identity and status documents</h4>
+                            </div>
+                            <div class="checklist-group-body">
+                                <ul>
+                                    <li>Current foreign passport.</li>
+                                    <li>OCI card or other relevant immigration documentation.</li>
+                                    <li>Proof of overseas address, where required.</li>
+                                    <li>Identification documents of relevant family members.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Checklist B: Succession -->
+                        <div class="checklist-group">
+                            <div class="checklist-group-header">
+                                <i class="bi bi-diagram-3 text-gold fs-5"></i>
+                                <h4>Succession documents</h4>
+                            </div>
+                            <div class="checklist-group-body">
+                                <ul>
+                                    <li>Death certificates of the deceased owner and relevant intermediate heirs.</li>
+                                    <li>Will, if any.</li>
+                                    <li>Legal-heir or surviving-member records, where relevant.</li>
+                                    <li>Probate, letters of administration or court orders, where applicable.</li>
+                                    <li>Family tree and relationship evidence.</li>
+                                    <li>Existing partition, release, settlement or gift deeds.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Checklist C: Property -->
+                        <div class="checklist-group">
+                            <div class="checklist-group-header">
+                                <i class="bi bi-building-check text-gold fs-5"></i>
+                                <h4>Property documents</h4>
+                            </div>
+                            <div class="checklist-group-body">
+                                <ul>
+                                    <li>Original or available title deeds.</li>
+                                    <li>Encumbrance certificate.</li>
+                                    <li>Patta, chitta, adangal and other relevant revenue records in Tamil Nadu.</li>
+                                    <li>Survey number, subdivision number and land-classification details.</li>
+                                    <li>Property tax receipts, where relevant.</li>
+                                    <li>Existing leases, mortgages or court records.</li>
+                                    <li>Copies of previous transfer documents.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Checklist D: Proposed Transaction -->
+                        <div class="checklist-group">
+                            <div class="checklist-group-header">
+                                <i class="bi bi-file-earmark-text text-gold fs-5"></i>
+                                <h4>Proposed transaction documents</h4>
+                            </div>
+                            <div class="checklist-group-body">
+                                <ul>
+                                    <li>Details of the intended purchaser or recipient.</li>
+                                    <li>Draft sale, gift, partition, release or settlement deed, if available.</li>
+                                    <li>Proposed power of attorney.</li>
+                                    <li>Details of any consideration or distribution of proceeds.</li>
+                                    <li>Correspondence with other heirs.</li>
+                                    <li>Details of pending proceedings or objections.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p>Not every document will be necessary in every case. The checklist should be tailored to the title history, the proposed transaction and the applicable legal requirements.</p>
+                    </section>
+
+                    <!-- Section 12 -->
+                    <section id="section-12">
+                        <h2>12. How RRC Law Associates Can Assist Overseas Heirs</h2>
+                        <p>An overseas heir may face difficulties obtaining documents, understanding local revenue records, coordinating with relatives and determining which legal process is appropriate.</p>
+                        <p>RRC Law Associates can assist with a structured legal review of matters involving:</p>
+                        <ul>
+                            <li>Ancestral property and succession.</li>
+                            <li>Identification of legal heirs and ownership shares.</li>
+                            <li>Review of title deeds and revenue records.</li>
+                            <li>Property classification and transaction planning.</li>
+                            <li>Sale, partition, release, gift and settlement documentation.</li>
+                            <li>Power of attorney arrangements for overseas clients.</li>
+                            <li>Coordination of documentary work in India.</li>
+                            <li>Assessment of civil remedies where family members dispute ownership.</li>
+                            <li>Identification of foreign-exchange and tax questions requiring specialist confirmation.</li>
+                        </ul>
+                        <p>The first stage should ordinarily establish the property's location, available title documents, ownership history, family relationships and the intended outcome.</p>
+                        <p>Where records are incomplete, further documentary research may be required before a reliable opinion can be provided.</p>
+                        <p>No particular share, title outcome, record availability or transaction approval should be assumed before the evidence and applicable law have been reviewed.</p>
+                    </section>
+
+                    <!-- Section FAQs -->
+                    <section id="section-faqs" class="mt-5">
+                        <h2>Frequently Asked Questions</h2>
+                        <div class="accordion mt-4" id="faqAccordion">
+
+                            <!-- FAQ 1 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingFaq1">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq1" aria-expanded="true" aria-controls="collapseFaq1">
+                                        1. Can an OCI cardholder inherit ancestral property in India?
+                                    </button>
+                                </h3>
+                                <div id="collapseFaq1" class="accordion-collapse collapse show" aria-labelledby="headingFaq1" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        An OCI cardholder may inherit immovable property subject to the applicable succession law and foreign-exchange regulations. The property category, ownership history and circumstances of inheritance must be examined.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 2 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingFaq2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq2" aria-expanded="false" aria-controls="collapseFaq2">
+                                        2. Can an OCI cardholder inherit agricultural land?
+                                    </button>
+                                </h3>
+                                <div id="collapseFaq2" class="accordion-collapse collapse" aria-labelledby="headingFaq2" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        The applicable rules distinguish inheritance from ordinary purchase. The RBI regulations address acquisition by inheritance, while agricultural land is subject to special restrictions on purchase and subsequent transfers. The facts and proposed transaction should be reviewed separately.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 3 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingFaq3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq3" aria-expanded="false" aria-controls="collapseFaq3">
+                                        3. Can an OCI cardholder sell inherited property in India?
+                                    </button>
+                                </h3>
+                                <div id="collapseFaq3" class="accordion-collapse collapse" aria-labelledby="headingFaq3" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Generally, an OCI cardholder may sell eligible immovable property, subject to the applicable regulations. Agricultural land, farmhouses and plantation property require separate examination.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 4 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingFaq4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq4" aria-expanded="false" aria-controls="collapseFaq4">
+                                        4. Can an OCI cardholder transfer their share to a brother or sister?
+                                    </button>
+                                </h3>
+                                <div id="collapseFaq4" class="accordion-collapse collapse" aria-labelledby="headingFaq4" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Potentially, depending on the ownership structure, the property category and the proposed transaction. A sale, release, gift and partition have different legal effects and should not be treated as interchangeable.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 5 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingFaq5">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq5" aria-expanded="false" aria-controls="collapseFaq5">
+                                        5. Can an OCI cardholder relinquish ancestral property in favour of a sibling?
+                                    </button>
+                                </h3>
+                                <div id="collapseFaq5" class="accordion-collapse collapse" aria-labelledby="headingFaq5" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        The legal permissibility and appropriate instrument depend on the title, the nature of the property, the parties' interests and the applicable law. Stamp duty, registration and foreign-exchange requirements should be checked before execution.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 6 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingFaq6">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq6" aria-expanded="false" aria-controls="collapseFaq6">
+                                        6. What if the land is still in the name of a deceased grandfather?
+                                    </button>
+                                </h3>
+                                <div id="collapseFaq6" class="accordion-collapse collapse" aria-labelledby="headingFaq6" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        The title history and succession chain should be examined. Death certificates, title deeds, family relationships and relevant revenue records may be needed to establish the current legal heirs and their interests.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 7 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingFaq7">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq7" aria-expanded="false" aria-controls="collapseFaq7">
+                                        7. Can an OCI cardholder authorise a relative in India to sell property?
+                                    </button>
+                                </h3>
+                                <div id="collapseFaq7" class="accordion-collapse collapse" aria-labelledby="headingFaq7" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        A properly drafted power of attorney may authorise an agent to undertake specified permitted tasks. The document must satisfy the applicable execution, authentication, stamping and registration requirements and cannot cure a defect in title or authorise a prohibited transaction.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 8 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingFaq8">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq8" aria-expanded="false" aria-controls="collapseFaq8">
+                                        8. Can an OCI cardholder send property sale proceeds abroad?
+                                    </button>
+                                </h3>
+                                <div id="collapseFaq8" class="accordion-collapse collapse" aria-labelledby="headingFaq8" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Repatriation may be permitted subject to the applicable RBI regulations, conditions and limits. The seller should verify the requirements with an authorised dealer bank and obtain appropriate tax advice before planning the transfer.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 9 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingFaq9">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq9" aria-expanded="false" aria-controls="collapseFaq9">
+                                        9. Does a patta prove ownership of ancestral property?
+                                    </button>
+                                </h3>
+                                <div id="collapseFaq9" class="accordion-collapse collapse" aria-labelledby="headingFaq9" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        A patta or other revenue record can be relevant evidence, but it should not automatically be treated as conclusive proof of title. The title deeds, succession documents and other relevant evidence must also be examined.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 10 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingFaq10">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq10" aria-expanded="false" aria-controls="collapseFaq10">
+                                        10. What should an overseas heir do first?
+                                    </button>
+                                </h3>
+                                <div id="collapseFaq10" class="accordion-collapse collapse" aria-labelledby="headingFaq10" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Collect the available title deeds, death certificates, family relationship records, revenue documents and details of other heirs. A preliminary legal review can then identify the likely ownership issues, missing documents and possible routes for resolving the matter.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <!-- Section CTA -->
+                    <section id="section-cta">
+                        <div class="article-end-cta">
+                            <h3>Need Assistance With Ancestral Property in India?</h3>
+                            <p>If you are an OCI cardholder or overseas heir dealing with ancestral property in India, the first step is to establish the legal ownership, identify the relevant heirs and determine the appropriate procedure for the proposed transaction.</p>
+                            <p>RRC Law Associates provides legal and documentary assistance for overseas clients dealing with ancestral property, inheritance, partition, sale, release deeds and powers of attorney in India.</p>
+                            <p>Contact the firm to discuss the property location, available documents, family circumstances and the outcome you wish to achieve.</p>
+                            <div class="cta-btn-group mt-4">
+                                <a href="./booking.html" class="cta-btn-primary">
+                                    <i class="bi bi-calendar-check"></i> Book Legal Consultation
+                                </a>
+                                <a href="https://wa.me/919751182452" target="_blank" rel="noopener noreferrer" class="cta-btn-whatsapp">
+                                    <i class="bi bi-whatsapp"></i> Chat on WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Section Disclaimer -->
+                    <section id="section-disclaimer">
+                        <div class="article-disclaimer">
+                            <p class="mb-0"><strong>Legal disclaimer:</strong> This article is for general informational purposes and does not constitute legal or tax advice on an individual matter. The legal position depends on the applicable succession law, foreign-exchange regulations, property classification, state law and the facts of the case. Current official requirements should be verified before acting. No particular title outcome, transaction approval or financial result is guaranteed.</p>
+                        </div>
+                    </section>
+
+                </article>
+            </div>
+
+            <!-- Sticky Sidebar Column -->
+            <div class="col-lg-4">
+                <aside class="sidebar-sticky-wrapper">
+
+                    <!-- Table of Contents Card -->
+                    <div class="sidebar-card">
+                        <div class="sidebar-card-title">
+                            <i class="bi bi-list-nested text-gold"></i> Table of Contents
+                        </div>
+                        <ul class="toc-list">
+                            <li><a href="#section-1">1. Can an OCI Inherit Property?</a></li>
+                            <li><a href="#section-2">2. Inheriting Agricultural Land</a></li>
+                            <li><a href="#section-3">3. Selling Inherited Property</a></li>
+                            <li><a href="#section-4">4. Selling or Transferring to Siblings</a></li>
+                            <li><a href="#section-5">5. Gifting Property to Relatives</a></li>
+                            <li><a href="#section-6">6. Ancestor's Name on Property</a></li>
+                            <li><a href="#section-7">7. Updating Revenue Records &amp; Patta</a></li>
+                            <li><a href="#section-8">8. Power of Attorney from Abroad</a></li>
+                            <li><a href="#section-9">9. Sale Proceeds &amp; Repatriation</a></li>
+                            <li><a href="#section-10">10. Disputes Among Legal Heirs</a></li>
+                            <li><a href="#section-11">11. Documents Checklist to Collect</a></li>
+                            <li><a href="#section-12">12. How RRC Law Associates Assists</a></li>
+                            <li><a href="#section-faqs">Frequently Asked Questions</a></li>
+                            <li><a href="#section-cta">Legal Assistance Enquiry</a></li>
+                            <li><a href="#section-disclaimer">Legal Disclaimer</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Consultation Action Card -->
+                    <div class="sidebar-cta-card mb-4">
+                        <h4>Need Ancestral Property or Succession Advice?</h4>
+                        <p>Speak with our senior advocates regarding your ancestral property rights, title scrutiny, partition deeds, power of attorney, or sale repatriation in India.</p>
+                        <a href="./booking.html" class="btn-gold-cta mb-2">
+                            <i class="bi bi-calendar-event me-1"></i> Book Consultation
+                        </a>
+                        <div class="mt-2 text-center">
+                            <a href="https://wa.me/919751182452" target="_blank" rel="noopener noreferrer" style="color: #25d366; text-decoration: none; font-size: 0.88rem; font-weight: 600;">
+                                <i class="bi bi-whatsapp"></i> Instant WhatsApp Enquiry
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Related Guides -->
+                    <div class="sidebar-card">
+                        <div class="sidebar-card-title">
+                            <i class="bi bi-journal-bookmark-fill text-gold"></i> Related OCI Guides
+                        </div>
+                        <ul class="toc-list">
+                            <li>
+                                <a href="oci-legal-guides.html">
+                                    <strong><i class="bi bi-collection text-gold me-1"></i> OCI Legal Guides Hub</strong>
+                                    <div class="small text-muted">Master index of comprehensive guides</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-eligibility-legal-status.html">
+                                    <strong><i class="bi bi-shield-check text-gold me-1"></i> Guide 1: Eligibility &amp; Status</strong>
+                                    <div class="small text-muted">Meaning, qualifications &amp; legal rights</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-vs-nri-vs-indian-citizen.html">
+                                    <strong><i class="bi bi-people text-gold me-1"></i> Guide 2: OCI vs NRI vs Indian Citizen</strong>
+                                    <div class="small text-muted">Legal differences, rights &amp; status</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-application-documents.html">
+                                    <strong><i class="bi bi-file-earmark-text text-gold me-1"></i> Guide 3: Application &amp; Documents</strong>
+                                    <div class="small text-muted">Procedure, document checklist &amp; mistakes</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-indian-ancestry-assistance.html">
+                                    <strong><i class="bi bi-diagram-3 text-gold me-1"></i> Guide 4: Indian Ancestry</strong>
+                                    <div class="small text-muted">Proving Indian origin &amp; record search</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-foreign-spouse-eligibility.html">
+                                    <strong><i class="bi bi-heart text-gold me-1"></i> Guide 5: Foreign Spouses</strong>
+                                    <div class="small text-muted">Eligibility, marriage rules &amp; checklist</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-for-children-born-abroad.html">
+                                    <strong><i class="bi bi-person-heart text-gold me-1"></i> Guide 6: Children Born Abroad</strong>
+                                    <div class="small text-muted">Citizenship, eligibility &amp; documents</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-benefits-restrictions-india.html">
+                                    <strong><i class="bi bi-shield-check text-gold me-1"></i> Guide 7: Benefits &amp; Restrictions</strong>
+                                    <div class="small text-muted">What OCI cardholders can &amp; cannot do</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="nri-oci-property-due-diligence-india.html">
+                                    <strong><i class="bi bi-search text-gold me-1"></i> Guide 10: Property Due Diligence</strong>
+                                    <div class="small text-muted">Title verification, EC &amp; land records</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="nri-oci-property-tax-india.html">
+                                    <strong><i class="bi bi-cash-coin text-gold me-1"></i> Guide 11: Property Tax &amp; Repatriation</strong>
+                                    <div class="small text-muted">TDS, capital gains &amp; remittance</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-renewal-passport-update.html">
+                                    <strong><i class="bi bi-arrow-repeat text-gold me-1"></i> Guide 12: Renewal &amp; Passport Update</strong>
+                                    <div class="small text-muted">Passport updates, e-OCI &amp; re-issue</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-cancellation-grounds-remedies.html">
+                                    <strong><i class="bi bi-shield-x text-gold me-1"></i> Guide 13: OCI Card Cancellation</strong>
+                                    <div class="small text-muted">Section 7D, notices &amp; legal remedies</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-cancellation-section-7d-legal-remedies.html">
+                                    <strong><i class="bi bi-shield-lock text-gold me-1"></i> Guide 14: Section 7D &amp; Criminal Cases</strong>
+                                    <div class="small text-muted">Criminal proceedings, notifications &amp; writ review</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-assistance.html">
+                                    <strong><i class="bi bi-briefcase text-gold me-1"></i> OCI Legal Services</strong>
+                                    <div class="small text-muted">Our complete scope of representation</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </aside>
+            </div>
+        </div>
+    </main>
+
+
+        <footer class="footer">
+        <div class="footer-contain">
+
+            <div class="footer-grid">
+
+                <!-- Brand -->
+                <div class="footer-brand">
+                    <div class="logo-icon">
+                        <a href="index.html" title="Home">
+                            <img src="assets/images/logo.png" alt="Law Firm Logo" class="logo-img">
+
+                            <div>
+                                <strong>RRC</strong>
+                                <strong>Law Associates</strong>
+                            </div>
+                        </a>
+                    </div>
+
+                    <p>
+                        Providing trusted legal solutions with integrity since 2008. Your reliable
+                        partner for all legal matters in Tamil Nadu.
+                    </p>
+
+                    <div class="social"></div>
+                </div>
+
+                <!-- Practice Areas -->
+                <div>
+                    <h4>Practice Areas</h4>
+                    <ul>
+                        <li>
+                            <a href="family-law.html">Family Law</a>
+                        </li>
+                        <li>
+                            <a href="property-law.html">Property Law</a>
+                        </li>
+                        <li>
+                            <a href="employment-law.html">Employment Law</a>
+                        </li>
+                        <li>
+                            <a href="white-collar-crime.html">White Collar Crimes</a>
+                        </li>
+                        <li>
+                            <a href="intellectual-property.html">Intellectual Property</a>
+                        </li>
+                        <li>
+                            <a href="litigation-dispute-resolution.html">Litigation Dispute</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="nri-services.html">NRI Services</a>
+                        </li>
+                        <li>
+                            <a href="oci-card-assistance.html">OCI Card &amp; Ancestry</a>
+                        </li>
+                        <li>
+                            <a href="core-practice-areas.html">Practice Areas</a>
+                        </li>
+                        <li>
+                            <a href="lawfirm-blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="index.html#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4>Contact Us</h4>
+                    <ul class="contact">
+                        <li>
+                            <span>Address</span>
+                            <p>
+                                No 82/6B, Deen Complex, Mary's Corner, Parisutham Nagar, Thanjavur, Tamil Nadu-613001
+                            </p>
+                        </li>
+                        <li>
+                            <span>Phone</span>
+                            <a href="tel:+919751182452">+91 97511 82452</a>
+                        </li>
+                        <li>
+                            <span>Email</span>
+                            <a href="mailto:dr.kumar@rrclawassociates.com">
+                                dr.kumar@rrclawassociates.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Bottom -->
+            <div class="footer-bottom">
+                <p>&copy;
+                    <span id="year">2026</span>
+                    RRC Law Associates. All rights reserved.</p>
+                <div class="legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Disclaimer</a>
+                </div>
+            </div>
+
+        </div>
+        </footer>
+
+
+
+    <!-- Bootstrap and Custom JS Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Floating WhatsApp CTA -->
+    <a
+        href="https://wa.me/919751182452?text=Hello%20RRC%20Law%20Associates,%20I%20am%20looking%20for%20legal%20consultation."
+        class="whatsapp-float"
+        target="_blank"
+        rel="noopener"
+        aria-label="Chat with RRC Law Associates on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="float-text">Chat with us</span>
+    </a>
+
+    <!-- RRC AI Assistant Mount & Integration -->
+    <div data-rrc-ai-chat-root></div>
+    <script src="script.js?v=20261008-1" data-rrc-ai-only defer></script>
+</body>
+</html>

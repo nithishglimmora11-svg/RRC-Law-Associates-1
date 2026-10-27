@@ -1,0 +1,2968 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCI Legal Guides: Indian Citizenship, Ancestry &amp; Documentation | RRC Law Associates</title>
+
+    <meta name="description" content="Explore our in-depth OCI Legal Guides covering OCI eligibility, Indian ancestry documentation, property rights, passport surrender, and legal remedies for NRIs and overseas families.">
+    <meta name="keywords" content="OCI legal guides, OCI card eligibility, Indian ancestry documentation, OCI property rights, OCI cancellation legal remedies, passport surrender India, Section 7D, NRI legal services">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="RRC Law Associates">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="OCI Legal Guides: Indian Citizenship, Ancestry and Documentation | RRC Law Associates">
+    <meta property="og:description" content="Practical legal guidance for NRIs, OCI applicants and overseas families covering eligibility, ancestral records, property and legal remedies.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rrclawassociates.com/oci-legal-guides/">
+    <meta property="og:image" content="https://rrclawassociates.com/assets/images/oci-hero-bg.jpg">
+
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="OCI Legal Guides: Indian Citizenship, Ancestry and Documentation | RRC Law Associates">
+    <meta name="twitter:description" content="Practical legal guidance for NRIs, OCI applicants and overseas families covering eligibility, ancestral records, property and legal remedies.">
+    <meta name="twitter:image" content="https://rrclawassociates.com/assets/images/oci-hero-bg.jpg">
+
+    <link rel="canonical" href="https://rrclawassociates.com/oci-legal-guides/">
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+    <!-- Fonts & Shared Vendor Stylesheets -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css?v=20261008-1">
+    <link rel="stylesheet" href="style2.css?v=20261008-1">
+    <link rel="stylesheet" href="topbar.css?v=20261008-1">
+
+    <!-- Scoped OCI Legal Guides Styles -->
+    <style>
+        :root {
+            --primary: #3c3819;
+            --gold: #c9a24d;
+            --gold-hover: #b38f40;
+            --gold-light: #fdfaf3;
+            --gold-border: rgba(201, 162, 77, 0.35);
+            --cream: #f9f7f3;
+            --white: #ffffff;
+            --dark-navy: #0b1c2d;
+            --navy-mid: #102a45;
+            --navy-accent: #164e87;
+            --navy-border: #e2e8f0;
+            --text-heading: #0b1c2d;
+            --text-body: #1e293b;
+            --text-muted: #64748b;
+            --badge-bg: #eaf2f9;
+            --badge-text: #164e87;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 135px;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fbfcfd;
+            color: var(--text-body);
+            font-size: 17px;
+            line-height: 1.72;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Preserved Header & Topbar Custom Fixes */
+        .header {
+            position: fixed;
+            top: 42px;
+            left: 0;
+            width: 100%;
+            z-index: 1190;
+            background: #000000 !important;
+            padding: 5px 0;
+            min-height: 80px;
+            display: flex;
+            align-items: center;
+            box-shadow: none;
+        }
+
+        .logo-img {
+            height: 60px;
+            width: auto;
+        }
+
+        .nav-link-custom {
+            color: #ffffff !important;
+            text-decoration: none;
+            font-weight: 500;
+            margin: 0 15px;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .nav-link-custom:hover {
+            color: var(--gold) !important;
+        }
+
+        .dropdown-menu {
+            background-color: #000000 !important;
+            border: 1px solid #c9a24d !important;
+            margin-top: 10px !important;
+        }
+
+        .dropdown-item {
+            color: #ffffff !important;
+            padding: 10px 20px;
+        }
+
+        .dropdown-item:hover {
+            background-color: #1a1a1a !important;
+            color: var(--gold) !important;
+        }
+
+        @media (min-width: 992px) {
+            .header .dropdown:hover > .dropdown-menu,
+            .header .dropdown:focus-within > .dropdown-menu {
+                display: block !important;
+                margin-top: 0 !important;
+            }
+        }
+
+        .btn-gold {
+            background-color: var(--gold);
+            color: #000000;
+            font-weight: 700;
+            padding: 12px 22px;
+            border-radius: 8px;
+            border: none;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: all 0.25s ease;
+        }
+
+        .btn-gold:hover {
+            background-color: #b38f40;
+            color: #000000;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(201, 162, 77, 0.3);
+        }
+
+        /* ----------------------------------------------------
+           SECTION 1: HERO BANNER (BALANCED 2-COL CANVAS)
+           ---------------------------------------------------- */
+        .oci-guides-hero {
+            position: relative;
+            z-index: 1;
+            padding-top: 155px; /* Offset for topbar + header */
+            padding-bottom: 75px;
+            background: linear-gradient(135deg, #091726 0%, #0d2238 45%, #133352 100%);
+            color: #ffffff;
+            overflow: hidden;
+        }
+
+        .oci-guides-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 55%;
+            background: radial-gradient(circle at 80% 40%, rgba(22, 78, 135, 0.25) 0%, transparent 70%);
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .hero-inner {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-breadcrumbs {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            font-size: 0.88rem;
+            color: #94a3b8;
+            margin-bottom: 22px;
+        }
+
+        .hero-breadcrumbs a {
+            color: #cbd5e1;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .hero-breadcrumbs a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+        .hero-breadcrumbs .separator {
+            color: #64748b;
+            font-size: 0.8rem;
+        }
+
+        .hero-breadcrumbs .current {
+            color: #ffffff;
+            font-weight: 500;
+        }
+
+        .hero-title {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: clamp(2.2rem, 3.2vw, 3.4rem);
+            font-weight: 700;
+            color: #ffffff;
+            line-height: 1.2;
+            margin-bottom: 14px;
+            letter-spacing: -0.5px;
+        }
+
+        .hero-subtitle {
+            font-family: 'Inter', sans-serif;
+            font-size: clamp(1.1rem, 1.25vw, 1.3rem);
+            font-weight: 600;
+            color: var(--gold);
+            line-height: 1.45;
+            margin-bottom: 22px;
+        }
+
+        .hero-intro-p {
+            font-size: 1.05rem;
+            line-height: 1.75;
+            color: #e2e8f0;
+            margin-bottom: 16px;
+        }
+
+        .hero-intro-p:last-of-type {
+            margin-bottom: 24px;
+        }
+
+        .hero-cta-callout {
+            background: rgba(201, 162, 77, 0.12);
+            border-left: 4px solid var(--gold);
+            border-radius: 0 10px 10px 0;
+            padding: 16px 20px;
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            color: #ffffff;
+            font-size: 1.02rem;
+            line-height: 1.6;
+        }
+
+        .hero-cta-callout i {
+            color: var(--gold);
+            font-size: 1.4rem;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .hero-cta-callout a {
+            color: #f3d79b;
+            font-weight: 600;
+            text-decoration: underline;
+            transition: color 0.2s ease;
+        }
+
+        .hero-cta-callout a:hover {
+            color: #ffffff;
+        }
+
+        /* Hero Right Column Visual & Quick Directory Card */
+        .hero-visual-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+        }
+
+        .hero-monument-wrap {
+            position: relative;
+            width: 100%;
+            height: 240px;
+            overflow: hidden;
+        }
+
+        .hero-monument-wrap img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.4s ease;
+        }
+
+        .hero-monument-wrap:hover img {
+            transform: scale(1.03);
+        }
+
+        .hero-monument-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(11, 28, 45, 0.1) 0%, rgba(11, 28, 45, 0.7) 100%);
+        }
+
+        .hero-monument-badge {
+            position: absolute;
+            bottom: 14px;
+            left: 18px;
+            background: rgba(11, 28, 45, 0.85);
+            border: 1px solid var(--gold);
+            color: var(--gold);
+            font-size: 0.82rem;
+            font-weight: 600;
+            padding: 4px 12px;
+            border-radius: 50px;
+            backdrop-filter: blur(4px);
+        }
+
+        .hero-directory-body {
+            padding: 24px;
+        }
+
+        .hero-dir-heading {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 6px;
+        }
+
+        .hero-dir-sub {
+            font-size: 0.88rem;
+            color: #94a3b8;
+            margin-bottom: 18px;
+        }
+
+        .hero-dir-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 20px 0;
+        }
+
+        .hero-dir-list li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.93rem;
+            color: #e2e8f0;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .hero-dir-list li:last-child {
+            border-bottom: none;
+        }
+
+        .hero-dir-list i {
+            color: var(--gold);
+            font-size: 1rem;
+            flex-shrink: 0;
+        }
+
+        /* ----------------------------------------------------
+           SECTION 2: FEATURE STRIP (4 HORIZONTAL COLUMNS)
+           ---------------------------------------------------- */
+        .oci-features-section {
+            background-color: #ffffff;
+            border-bottom: 1px solid #eef2f6;
+            box-shadow: 0 4px 16px rgba(11, 28, 45, 0.04);
+            position: relative;
+            z-index: 3;
+        }
+
+        .feature-item-col {
+            padding: 32px 24px;
+            text-align: center;
+            position: relative;
+            transition: background-color 0.2s ease;
+        }
+
+        .feature-item-col:hover {
+            background-color: #fbfdff;
+        }
+
+        @media (min-width: 992px) {
+            .feature-item-col:not(:last-child)::after {
+                content: '';
+                position: absolute;
+                right: 0;
+                top: 25%;
+                height: 50%;
+                width: 1px;
+                background-color: #e2e8f0;
+            }
+        }
+
+        .feature-icon-circle {
+            width: 54px;
+            height: 54px;
+            border-radius: 50%;
+            background-color: #eaf2f9;
+            color: #164e87;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            margin-bottom: 14px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .feature-item-col:hover .feature-icon-circle {
+            transform: translateY(-3px);
+            background-color: #dceaf7;
+        }
+
+        .feature-heading {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--text-heading);
+            margin-bottom: 6px;
+            line-height: 1.35;
+        }
+
+        .feature-desc {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 0;
+            line-height: 1.45;
+        }
+
+        /* ----------------------------------------------------
+           SECTION 3: EXPLORE CATEGORIES (CARDS & FILTER BAR)
+           ---------------------------------------------------- */
+        .oci-categories-section {
+            padding: 65px 0 35px;
+            background-color: #fbfcfd;
+        }
+
+        .section-header-wrap {
+            margin-bottom: 30px;
+        }
+
+        .section-title-guides {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: clamp(1.85rem, 2.2vw, 2.4rem);
+            font-weight: 700;
+            color: var(--text-heading);
+            margin-bottom: 10px;
+            line-height: 1.25;
+            letter-spacing: -0.3px;
+        }
+
+        .section-accent-line {
+            width: 46px;
+            height: 3px;
+            background-color: var(--gold);
+            border-radius: 2px;
+        }
+
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 18px;
+            margin-bottom: 30px;
+        }
+
+        .category-card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+            box-shadow: 0 2px 8px rgba(11, 28, 45, 0.03);
+            cursor: pointer;
+            height: 100%;
+        }
+
+        .category-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 24px rgba(11, 28, 45, 0.09);
+            border-color: var(--gold);
+            color: inherit;
+        }
+
+        .category-card.active-filter {
+            border-color: #164e87;
+            box-shadow: 0 0 0 2px #164e87;
+            background-color: #f8fbfe;
+        }
+
+        .category-card-img-wrap {
+            position: relative;
+            width: 100%;
+            height: 130px;
+            background-color: #f1f5f9;
+            overflow: hidden;
+        }
+
+        .category-card-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.35s ease;
+        }
+
+        .category-card:hover .category-card-img {
+            transform: scale(1.05);
+        }
+
+        .category-card-body {
+            padding: 16px 14px 14px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            justify-content: space-between;
+        }
+
+        .category-card-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--text-heading);
+            line-height: 1.35;
+            margin-bottom: 12px;
+            min-height: 40px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .category-card-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.84rem;
+            color: var(--text-muted);
+            border-top: 1px solid #f1f5f9;
+            padding-top: 10px;
+        }
+
+        .category-count {
+            font-weight: 600;
+            color: #164e87;
+        }
+
+        .category-arrow {
+            color: #164e87;
+            font-size: 0.95rem;
+            transition: transform 0.2s ease;
+        }
+
+        .category-card:hover .category-arrow {
+            transform: translateX(4px);
+            color: var(--gold);
+        }
+
+        /* Filter Pills Bar */
+        .category-filter-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 25px;
+            padding-bottom: 10px;
+        }
+
+        .cat-filter-btn {
+            background: #ffffff;
+            border: 1px solid #d5dde5;
+            color: #334155;
+            padding: 8px 18px;
+            border-radius: 50px;
+            font-size: 0.88rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .cat-filter-btn:hover {
+            border-color: #164e87;
+            color: #164e87;
+            background-color: #f1f6fb;
+        }
+
+        .cat-filter-btn.active {
+            background-color: var(--dark-navy);
+            border-color: var(--dark-navy);
+            color: #ffffff;
+            box-shadow: 0 4px 12px rgba(11, 28, 45, 0.15);
+        }
+
+        /* Filter Feedback Banner */
+        .filter-status-banner {
+            display: none;
+            background-color: #eaf2f9;
+            border: 1px solid #cbdde9;
+            border-radius: 8px;
+            padding: 12px 20px;
+            margin-bottom: 30px;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.95rem;
+            color: #164e87;
+        }
+
+        .filter-status-banner.visible {
+            display: flex;
+        }
+
+        .filter-clear-btn {
+            background: transparent;
+            border: 1px solid #164e87;
+            color: #164e87;
+            border-radius: 6px;
+            padding: 4px 14px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .filter-clear-btn:hover {
+            background-color: #164e87;
+            color: #ffffff;
+        }
+
+        /* ----------------------------------------------------
+           SECTION 4: GUIDES LISTING (ORGANIZED BY CATEGORY)
+           ---------------------------------------------------- */
+        .oci-guides-section {
+            padding: 20px 0 70px;
+        }
+
+        .category-group-block {
+            margin-bottom: 55px;
+        }
+
+        .category-header-wrap {
+            border-bottom: 2px solid #eef2f6;
+            padding-bottom: 14px;
+            margin-bottom: 24px;
+        }
+
+        .category-group-title {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: clamp(1.4rem, 1.6vw, 1.75rem);
+            font-weight: 700;
+            color: var(--text-heading);
+            margin-bottom: 8px;
+        }
+
+        .category-group-intro {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: #475569;
+            max-width: 980px;
+            margin-bottom: 0;
+        }
+
+        /* Inline Callout Cards */
+        .hub-callout-card {
+            background: #fdfaf3;
+            border-left: 4px solid var(--gold);
+            border: 1px solid rgba(201, 162, 77, 0.28);
+            border-left-width: 4px;
+            border-left-color: var(--gold);
+            border-radius: 10px;
+            padding: 18px 24px;
+            margin-bottom: 26px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .hub-callout-card.alert-callout {
+            background: #fff8f6;
+            border-color: rgba(220, 53, 69, 0.25);
+            border-left-color: #dc3545;
+        }
+
+        .hub-callout-icon {
+            font-size: 1.5rem;
+            color: var(--gold);
+            flex-shrink: 0;
+        }
+
+        .hub-callout-card.alert-callout .hub-callout-icon {
+            color: #dc3545;
+        }
+
+        .hub-callout-text {
+            font-size: 1.02rem;
+            line-height: 1.6;
+            color: var(--text-body);
+            margin-bottom: 0;
+        }
+
+        .hub-callout-text a {
+            color: #164e87;
+            font-weight: 700;
+            text-decoration: underline;
+            transition: color 0.2s ease;
+        }
+
+        .hub-callout-text a:hover {
+            color: var(--gold);
+        }
+
+        /* 3-Column Guides Grid */
+        .guides-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 26px;
+        }
+
+        .guide-card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 14px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+            box-shadow: 0 3px 12px rgba(11, 28, 45, 0.03);
+        }
+
+        .guide-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 14px 30px rgba(11, 28, 45, 0.09);
+            border-color: #cbd5e1;
+        }
+
+        .guide-card-img-wrap {
+            position: relative;
+            width: 100%;
+            height: 200px;
+            background-color: #f1f5f9;
+            overflow: hidden;
+        }
+
+        .guide-card-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.35s ease;
+        }
+
+        .guide-card:hover .guide-card-img {
+            transform: scale(1.04);
+        }
+
+        .guide-card-badge {
+            position: absolute;
+            top: 14px;
+            left: 14px;
+            background: rgba(11, 28, 45, 0.9);
+            color: #ffffff;
+            font-size: 0.76rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 4px 10px;
+            border-radius: 4px;
+            backdrop-filter: blur(4px);
+        }
+
+        .guide-card-badge.published-badge {
+            background: #164e87;
+            color: #ffffff;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .guide-card-body {
+            padding: 22px 22px 18px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            justify-content: space-between;
+        }
+
+        .guide-card-meta {
+            margin-bottom: 10px;
+        }
+
+        .guide-category-pill {
+            background-color: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 0.78rem;
+            font-weight: 600;
+            padding: 3px 10px;
+            border-radius: 50px;
+            display: inline-block;
+        }
+
+        .guide-card-title {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--text-heading);
+            line-height: 1.4;
+            margin-bottom: 12px;
+            min-height: 60px;
+        }
+
+        .guide-card-desc {
+            font-size: 0.96rem;
+            line-height: 1.65;
+            color: #475569;
+            margin-bottom: 18px;
+            flex-grow: 1;
+        }
+
+        .guide-topics-box {
+            background: #f8fafc;
+            border-top: 1px solid #f1f5f9;
+            border-radius: 8px;
+            padding: 10px 12px;
+            margin-bottom: 18px;
+            font-size: 0.88rem;
+            line-height: 1.5;
+            color: #334155;
+        }
+
+        .topics-tag {
+            font-weight: 700;
+            color: #164e87;
+            margin-right: 4px;
+        }
+
+        .guide-card-footer {
+            border-top: 1px solid #f1f5f9;
+            padding-top: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .guide-action-btn {
+            color: #164e87;
+            font-size: 0.92rem;
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s ease;
+        }
+
+        .guide-action-btn:hover {
+            color: var(--gold);
+            transform: translateX(3px);
+        }
+
+        .guide-action-btn.published-btn {
+            background: #164e87;
+            color: #ffffff;
+            padding: 6px 14px;
+            border-radius: 6px;
+        }
+
+        .guide-action-btn.published-btn:hover {
+            background: #0f355c;
+            color: #ffffff;
+            transform: translateY(-2px);
+        }
+
+        /* ----------------------------------------------------
+           SECTION 5: HOW RRC LAW ASSOCIATES CAN ASSIST
+           ---------------------------------------------------- */
+        .oci-assist-section {
+            background-color: var(--cream);
+            padding: 80px 0;
+            border-top: 1px solid #eae5dc;
+            border-bottom: 1px solid #eae5dc;
+        }
+
+        .assist-intro-lead {
+            font-size: 1.12rem;
+            line-height: 1.75;
+            color: var(--text-body);
+            margin-bottom: 18px;
+        }
+
+        .assist-sub-heading {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--text-heading);
+            margin-bottom: 18px;
+        }
+
+        .assist-checklist {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 24px 0;
+        }
+
+        .assist-checklist li {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            font-size: 1.02rem;
+            line-height: 1.65;
+            color: #2c3e50;
+            margin-bottom: 14px;
+        }
+
+        .assist-checklist li i {
+            color: var(--gold);
+            font-size: 1.15rem;
+            margin-top: 3px;
+            flex-shrink: 0;
+        }
+
+        .assist-note {
+            font-size: 0.95rem;
+            font-style: italic;
+            color: var(--text-muted);
+            margin-bottom: 0;
+        }
+
+        /* Executive Trust Sidebar Card */
+        .assist-trust-card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 16px;
+            padding: 34px 28px;
+            box-shadow: 0 10px 30px rgba(11, 28, 45, 0.05);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .trust-badge-circle {
+            width: 58px;
+            height: 58px;
+            border-radius: 50%;
+            background: #fdfaf3;
+            border: 2px solid var(--gold);
+            color: var(--gold);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            margin-bottom: 18px;
+        }
+
+        .trust-title {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: var(--text-heading);
+            margin-bottom: 10px;
+        }
+
+        .trust-desc {
+            font-size: 0.95rem;
+            line-height: 1.65;
+            color: #475569;
+            margin-bottom: 22px;
+        }
+
+        .trust-features-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 24px 0;
+        }
+
+        .trust-features-list li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.92rem;
+            color: #334155;
+            padding: 8px 0;
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        .trust-features-list li:last-child {
+            border-bottom: none;
+        }
+
+        .trust-features-list i {
+            color: #164e87;
+            font-size: 1rem;
+        }
+
+        /* ----------------------------------------------------
+           SECTION 6: FREQUENTLY ASKED QUESTIONS (ACCORDION)
+           ---------------------------------------------------- */
+        .oci-faq-section {
+            padding: 80px 0;
+            background-color: #ffffff;
+            position: relative;
+        }
+
+        .faq-accordion {
+            max-width: 980px;
+            margin: 0 auto;
+        }
+
+        .faq-accordion .accordion-item {
+            border: none;
+            border-bottom: 1px solid #e2e8f0;
+            background-color: transparent !important;
+            margin-bottom: 8px;
+        }
+
+        .faq-accordion .accordion-header {
+            margin: 0;
+        }
+
+        .faq-accordion .accordion-button {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #0b1c2d !important; /* Deep navy text heading */
+            background-color: transparent !important;
+            padding: 22px 0;
+            box-shadow: none !important;
+            outline: none !important;
+            border: none !important;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-align: left;
+            transition: color 0.25s ease;
+        }
+
+        .faq-accordion .accordion-button:hover {
+            color: #c9a24d !important; /* Gold on hover */
+        }
+
+        .faq-accordion .accordion-button:not(.collapsed) {
+            color: #c9a24d !important; /* Gold when expanded */
+            background-color: transparent !important;
+            box-shadow: none !important;
+        }
+
+        .faq-accordion .accordion-button:focus {
+            box-shadow: none !important;
+            outline: none !important;
+            border-color: transparent !important;
+        }
+
+        /* Expand / Collapse Chevron Icon */
+        .faq-accordion .accordion-button::after {
+            flex-shrink: 0;
+            width: 1.25rem;
+            height: 1.25rem;
+            margin-left: auto;
+            background-size: 1.25rem;
+            filter: brightness(0.15); /* Visible dark slate in collapsed state */
+            transition: transform 0.25s ease, filter 0.25s ease;
+        }
+
+        .faq-accordion .accordion-button:not(.collapsed)::after {
+            filter: invert(68%) sepia(42%) saturate(542%) hue-rotate(5deg) brightness(92%) contrast(90%); /* Gold filter when open */
+        }
+
+        /* FAQ Answer Content Container & Paragraph Fix */
+        .faq-accordion .accordion-body {
+            padding: 0 0 24px 0;
+            background-color: transparent !important;
+        }
+
+        /* Target all text elements in accordion body to defeat broad global 'p' styles */
+        .faq-accordion .accordion-body,
+        .faq-accordion .accordion-body p,
+        .faq-accordion .accordion-body p.mb-0,
+        .faq-accordion .accordion-body span,
+        .faq-accordion .accordion-body li {
+            font-family: 'Inter', sans-serif !important;
+            font-size: 1.05rem !important;
+            line-height: 1.78 !important;
+            color: #1e293b !important; /* Slate navy - dark, readable on white */
+            opacity: 1 !important;
+            visibility: visible !important;
+            display: block !important;
+            max-width: 100% !important;
+            -webkit-text-fill-color: #1e293b !important;
+        }
+
+        .faq-accordion .accordion-body p:last-child {
+            margin-bottom: 0 !important;
+        }
+
+        /* Accessible, visible links inside FAQ answers */
+        .faq-accordion .accordion-body a {
+            color: #164e87 !important; /* Accessible high-contrast navy link */
+            text-decoration: underline !important;
+            font-weight: 600 !important;
+            transition: color 0.2s ease;
+        }
+
+        .faq-accordion .accordion-body a:hover {
+            color: #c9a24d !important;
+        }
+
+        /* Natural, non-destructive text selection within FAQ */
+        .oci-faq-section ::selection {
+            background-color: #2563eb !important;
+            color: #ffffff !important;
+            -webkit-text-fill-color: #ffffff !important;
+        }
+
+        /* ----------------------------------------------------
+           SECTION 7: NEED ASSISTANCE CTA BANNER
+           ---------------------------------------------------- */
+        .oci-contact-section {
+            background: linear-gradient(135deg, #091726 0%, #0d2238 60%, #133352 100%);
+            color: #ffffff;
+            padding: 80px 0;
+            position: relative;
+        }
+
+        .contact-card-wrap {
+            max-width: 980px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .contact-main-heading {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: clamp(2rem, 2.6vw, 2.65rem);
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 18px;
+        }
+
+        .contact-intro-p {
+            font-size: 1.1rem;
+            line-height: 1.75;
+            color: #cbd5e1;
+            margin-bottom: 26px;
+            max-width: 820px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .contact-guidance-box {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(201, 162, 77, 0.35);
+            border-radius: 12px;
+            padding: 24px 28px;
+            margin: 0 auto 30px;
+            max-width: 860px;
+            text-align: left;
+        }
+
+        .guidance-header {
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--gold);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .guidance-text {
+            font-size: 1.02rem;
+            line-height: 1.65;
+            color: #e2e8f0;
+            margin-bottom: 0;
+        }
+
+        .contact-firm-tagline {
+            font-size: 1.02rem;
+            color: #94a3b8;
+            margin-bottom: 32px;
+        }
+
+        .contact-firm-tagline strong {
+            color: #ffffff;
+        }
+
+        .contact-actions-wrap {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .btn-white-outline {
+            border: 1px solid #ffffff;
+            color: #ffffff;
+            font-weight: 600;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.25s ease;
+        }
+
+        .btn-white-outline:hover {
+            background-color: #ffffff;
+            color: var(--dark-navy);
+            transform: translateY(-2px);
+        }
+
+        /* ----------------------------------------------------
+           SECTION 8: LEGAL DISCLAIMER
+           ---------------------------------------------------- */
+        .oci-disclaimer-section {
+            background-color: #fbfcfd;
+            padding: 45px 0 60px;
+        }
+
+        .disclaimer-card {
+            max-width: 980px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-left: 4px solid var(--gold);
+            border: 1px solid #e2e8f0;
+            border-left-width: 4px;
+            border-left-color: var(--gold);
+            border-radius: 8px;
+            padding: 24px 28px;
+        }
+
+        .disclaimer-heading {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--text-heading);
+            margin-bottom: 10px;
+        }
+
+        .disclaimer-text {
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: #64748b;
+            margin-bottom: 0;
+        }
+
+        /* ----------------------------------------------------
+           RESPONSIVE BREAKPOINTS
+           ---------------------------------------------------- */
+        @media (max-width: 1199px) {
+            .categories-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            .guides-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 991px) {
+            .oci-guides-hero {
+                padding-top: 145px;
+                padding-bottom: 50px;
+            }
+
+            .hero-visual-col {
+                margin-top: 35px;
+            }
+
+            .categories-grid {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 14px;
+            }
+
+            .guides-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+            }
+
+            .feature-item-col {
+                padding: 24px 16px;
+            }
+
+            .assist-trust-card {
+                margin-top: 35px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .oci-guides-hero {
+                padding-top: 135px;
+                padding-bottom: 40px;
+            }
+
+            .hero-title {
+                font-size: 2.1rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.05rem;
+            }
+
+            .categories-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .guides-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .feature-item-col {
+                border-bottom: 1px solid #eef2f6;
+            }
+
+            .hub-callout-card {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+
+            .contact-actions-wrap {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .contact-actions-wrap .btn-gold,
+            .contact-actions-wrap .btn-white-outline {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .categories-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .category-card-img-wrap {
+                height: 150px;
+            }
+        }
+
+        /* Shared Footer & WhatsApp styles */
+        .footer {
+            background: linear-gradient(135deg, #081521, #0b1c2d);
+            color: white;
+            padding: 80px 0 30px;
+        }
+
+        .mobile-menu {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 80%;
+            max-width: 350px;
+            height: 100vh;
+            background: #000000;
+            z-index: 2000;
+            transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: -10px 0 30px rgba(0,0,0,0.5);
+            padding: 20px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .mobile-menu.open {
+            right: 0;
+        }
+
+        .m-link {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            display: block;
+            padding: 15px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            width: 100%;
+            text-align: left;
+        }
+
+        .m-submenu {
+            display: none;
+            padding-left: 15px;
+            background: #111111;
+        }
+
+        .m-submenu.active {
+            display: block;
+        }
+
+        .m-sub-item {
+            color: #cccccc;
+            display: block;
+            text-decoration: none;
+            padding: 10px 0;
+            font-size: 0.95rem;
+        }
+
+        .m-sub-item:hover {
+            color: var(--gold);
+        }
+
+        .close-menu {
+            background: transparent;
+            border: none;
+            color: #ffffff;
+            font-size: 2rem;
+            float: right;
+            cursor: pointer;
+        }
+
+        .whatsapp-float {
+            position: fixed;
+            bottom: calc(env(safe-area-inset-bottom, 0px) + 20px);
+            right: 20px;
+            background-color: #25d366;
+            color: #ffffff;
+            padding: 12px 20px;
+            border-radius: 50px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 1;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+            z-index: 1000;
+            transition: all 0.3s ease;
+            animation: pulse-green 2s infinite;
+        }
+
+        .whatsapp-float:hover {
+            background-color: #128c7e;
+            color: #ffffff;
+            transform: translateY(-3px);
+        }
+
+        @media (max-width: 600px) {
+            .whatsapp-float {
+                right: 16px;
+                bottom: calc(env(safe-area-inset-bottom, 0px) + 16px);
+                padding: 10px 16px;
+                font-size: 14px;
+                gap: 8px;
+            }
+            .whatsapp-float i {
+                font-size: 20px;
+            }
+        }
+
+        @keyframes pulse-green {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+    </style>
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://rrclawassociates.com/oci-legal-guides/",
+      "name": "OCI Legal Guides: Indian Citizenship, Ancestry and Documentation",
+      "headline": "Practical Legal Guidance for NRIs, OCI Applicants and Overseas Families",
+      "description": "Explore our in-depth OCI Legal Guides covering OCI eligibility, Indian ancestry documentation, property rights, passport surrender, and legal remedies.",
+      "url": "https://rrclawassociates.com/oci-legal-guides/",
+      "publisher": {
+        "@type": "Organization",
+        "name": "RRC Law Associates",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://rrclawassociates.com/assets/images/logo.png"
+        }
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://rrclawassociates.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "NRI Legal Services",
+            "item": "https://rrclawassociates.com/nri-services"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "OCI Legal Guides",
+            "item": "https://rrclawassociates.com/oci-legal-guides/"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ItemList",
+      "name": "OCI Legal Guides Directory",
+      "numberOfItems": 15,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Guide 1: OCI Card for Foreign Citizens of Indian Origin: Eligibility, Meaning and Legal Status",
+          "description": "Learn about the OCI scheme, eligibility considerations, the legal status of OCI cardholders and the importance of reviewing the applicable statutory requirements.",
+          "url": "https://rrclawassociates.com/oci-card-eligibility-legal-status/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guide 2: OCI vs NRI vs Indian Citizen: What Is the Difference?",
+          "description": "Understand the differences between an Indian citizen living abroad, a foreign citizen of Indian origin and an OCI cardholder. Learn why citizenship, immigration status and tax residence should not be treated as interchangeable concepts.",
+          "url": "https://rrclawassociates.com/oci-vs-nri-vs-indian-citizen/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Guide 3: How to Apply for an OCI Card: Documents, Procedure and Common Mistakes",
+          "description": "Review the principal stages of an OCI application, the importance of consistent identity records and the documentary issues applicants should consider before submitting an application.",
+          "url": "https://rrclawassociates.com/oci-card-application-documents/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Guide 4: OCI Through Indian Ancestry: How to Prove Your Indian-Origin Family Connection",
+          "description": "Explore how family history and supporting documents may be relevant to an OCI eligibility assessment. Learn how to approach ancestral-record research when older birth certificates or other documents are unavailable.",
+          "url": "https://rrclawassociates.com/oci-card-indian-ancestry-assistance.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Guide 5: OCI for Foreign Spouses: Eligibility, Marriage Requirements and Documents",
+          "description": "Understand the principal considerations relevant to foreign spouses of Indian citizens or OCI cardholders, including applicable eligibility conditions, marriage documentation and the need to verify current official requirements.",
+          "url": "https://rrclawassociates.com/oci-foreign-spouse-eligibility/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Guide 6: OCI for Children Born Abroad: Citizenship, Passport and Eligibility",
+          "description": "Review the questions that may arise when children are born outside India to parents with Indian or foreign citizenship. Understand why the child's citizenship position and the parent's status must be assessed carefully.",
+          "url": "https://rrclawassociates.com/oci-for-children-born-abroad/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Guide 7: OCI Card Benefits and Restrictions in India",
+          "description": "Learn about the general benefits associated with OCI status and the restrictions that applicants and existing cardholders should understand.",
+          "url": "https://rrclawassociates.com/oci-card-benefits-restrictions-india/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Guide 8: Can OCI Cardholders Inherit or Sell Ancestral Property in India?",
+          "description": "Learn how OCI cardholders can inherit, sell or transfer ancestral property in India, including agricultural land, succession documents, relinquishment deeds and FEMA restrictions.",
+          "url": "https://rrclawassociates.com/oci-cardholders-inherit-sell-ancestral-property-india/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Guide 9: Can OCI Cardholders Own Agricultural Land in India?",
+          "description": "Examine the special restrictions that may apply to agricultural land, plantation property and farmhouses, and why a proposed acquisition must be assessed under the applicable property and foreign-exchange laws.",
+          "url": "https://rrclawassociates.com/oci-card-assistance.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Guide 10: NRI and OCI Property Due Diligence: How to Verify Title Before Buying Property in India",
+          "description": "Buying property in India from overseas? Learn how to verify title deeds, encumbrances, patta, land classification, approvals and litigation before completing a purchase.",
+          "url": "https://rrclawassociates.com/nri-oci-property-due-diligence-india/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "name": "Guide 11: NRI and OCI Property Tax in India: TDS, Capital Gains and Repatriation",
+          "description": "Selling or inheriting property in India as an NRI or OCI cardholder? Understand TDS, capital gains, inherited property taxation and repatriation rules.",
+          "url": "https://rrclawassociates.com/nri-oci-property-tax-india/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "name": "Guide 12: OCI Card Renewal, Re-Issue and Passport Changes: Updated Rules for 2026",
+          "description": "Learn the latest OCI card rules for passport changes, personal-detail updates, lost cards and e-OCI, including the documents and online procedures to check.",
+          "url": "https://rrclawassociates.com/oci-card-renewal-passport-update/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "name": "Guide 13: OCI Re-Issuance After a New Passport: Rules for OCI Cardholders",
+          "description": "Review the documentary questions that may arise after obtaining a new passport or changing personal particulars, and learn why the applicable OCI update procedure should be verified before taking action.",
+          "url": "https://rrclawassociates.com/oci-card-assistance.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "name": "Guide 13: OCI Card Cancellation: Grounds, Legal Consequences and Legal Remedies",
+          "description": "Understand when an OCI card can be cancelled under Indian law, your right to be heard, possible consequences and steps to take after receiving a notice.",
+          "url": "https://rrclawassociates.com/oci-card-cancellation-grounds-remedies/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "name": "Guide 14: OCI Card Cancellation Under Section 7D: Grounds, Criminal Proceedings and Legal Remedies",
+          "description": "Learn how Section 7D affects OCI cardholders facing criminal proceedings, cancellation notices, blacklisting or immigration restrictions, and understand the legal remedies that may be available.",
+          "url": "https://rrclawassociates.com/oci-card-cancellation-section-7d-legal-remedies/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an OCI Legal Guide?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An OCI Legal Guide is an informational resource explaining a particular aspect of the OCI scheme or a related legal issue affecting overseas Indians and foreign citizens of Indian origin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can reading these guides establish my eligibility for an OCI card?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The guides provide general information. Eligibility depends on the applicable law, the applicant's circumstances, relevant exclusions and the evidence submitted to the competent authority."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I do if I cannot find my ancestor's birth certificate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Begin by identifying the ancestor's full name, approximate birth date, historical place of residence and known family relationships. These details may help determine which registration offices or archival sources could be relevant. Whether records exist or alternative documentation is acceptable must be assessed individually."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can RRC Law Associates assist clients living abroad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The firm can consider overseas enquiries concerning Indian legal and documentation matters, subject to the scope of the engagement and any procedural requirements applicable to the particular case."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I enquire about professional fees?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Provide a brief description of your matter and the documents available. The proposed scope of work, professional fees and any anticipated third-party expenses can then be discussed before further work is undertaken."
+          }
+        }
+      ]
+    }
+  ]
+}
+    </script>
+</head>
+<body>
+<!-- TOPBAR (Preserved) -->
+    <div class="rrc-topbar">
+        <div class="rrc-topbar-container">
+            <div class="rrc-topbar-left">
+                <a href="tel:+919751182452">
+                    <i class="bi bi-telephone-fill"></i>
+                    +91 97511 82452
+                </a>
+                <span class="rrc-topbar-divider"></span>
+                <a href="mailto:dr.kumar@rrclawassociates.com">
+                    <i class="bi bi-envelope-fill"></i>
+                    dr.kumar@rrclawassociates.com
+                </a>
+            </div>
+
+            <div class="rrc-topbar-right">
+                <span>
+                    <i class="bi bi-clock"></i>
+                    Mon – Sat: 10:00 AM – 10:00 PM
+                </span>
+                <span class="rrc-topbar-divider"></span>
+                <a href="https://www.linkedin.com/company/rrclawassociates/" aria-label="LinkedIn">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/rrclawassociates/" aria-label="Instagram">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/rrclawassociates/" aria-label="Facebook">
+                    <i class="bi bi-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER / NAVIGATION (Preserved) -->
+    <header class="header">
+        <nav class="container d-flex align-items-center justify-content-between">
+            <a href="index.html">
+                <img src="assets/images/rrclogo.png" alt="RRC Law Associates logo" class="logo-img">
+            </a>
+
+            <div class="d-none d-lg-flex align-items-center ms-auto">
+                <div class="dropdown">
+                    <a class="nav-link-custom border-0 bg-transparent p-0" href="index.html">Home</a>
+                </div>
+
+                <div class="dropdown">
+                    <a class="nav-link-custom dropdown-toggle border-0 bg-transparent p-0" href="nri-services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">NRI Services</a>
+                    <ul class="dropdown-menu shadow-lg">
+                        <li>
+                            <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="oci-card-assistance.html">OCI Card &amp; Ancestry Assistance</a>
+                        </li>
+                        <li><a class="dropdown-item text-uppercase" style="font-size: 14px;" href="nri-property-disputes.html">Property Dispute</a></li>
+                        <li><a class="dropdown-item text-uppercase" style="font-size: 14px;" href="nri-power-of-attorney.html">Power of Attorney</a></li>
+                        <li><a class="dropdown-item text-uppercase" style="font-size: 14px;" href="nri-criminal-case.html">Criminal Cases</a></li>
+                        <li><a class="dropdown-item text-uppercase" style="font-size: 14px;" href="nri-family-matrimonial.html">Family &amp; Matrimonial</a></li>
+                    </ul>
+                </div>
+
+                <div class="dropdown">
+                    <a class="nav-link-custom dropdown-toggle border-0 bg-transparent p-0" href="core-practice-areas.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Core Practice Areas</a>
+                    <ul class="dropdown-menu shadow-lg">
+                        <li><a class="dropdown-item text-uppercase" style="font-size: 14px;" href="family-law.html">Family Law Workspace</a></li>
+                        <li><a class="dropdown-item text-uppercase" style="font-size: 14px;" href="intellectual-property.html">Intellectual Property Advisory</a></li>
+                        <li><a class="dropdown-item text-uppercase" style="font-size: 14px;" href="employment-law.html">Labour &amp; Employment Protection</a></li>
+                        <li><a class="dropdown-item text-uppercase" style="font-size: 14px;" href="white-collar-crime.html">White Collar Crime Defense</a></li>
+                        <li><a class="dropdown-item text-uppercase" style="font-size: 14px;" href="property-law.html">Due Diligence Frameworks</a></li>
+                        <li><a class="dropdown-item text-uppercase" style="font-size: 14px;" href="cyber-law.html">Cyber Law Desk</a></li>
+                        <li><a class="dropdown-item text-uppercase" style="font-size: 14px;" href="litigation-dispute-resolution.html">Litigation &amp; Dispute Resolution</a></li>
+                    </ul>
+                </div>
+
+                <div class="dropdown">
+                    <a class="nav-link-custom border-0 bg-transparent p-0" href="partners.html">Partners</a>
+                </div>
+
+                <div class="dropdown">
+                    <a class="nav-link-custom border-0 bg-transparent p-0" href="lawfirm-blog.html">Blog</a>
+                </div>
+
+                <div class="dropdown">
+                    <a class="nav-link-custom border-0 bg-transparent p-0" href="index.html#contact">Contact</a>
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center gap-3">
+                <div class="cta d-none d-sm-block">
+                    <a href="./booking.html" class="btn btn-gold">Book Consultation</a>
+                </div>
+                <button class="btn text-white d-lg-none fs-3 p-0" id="menuToggle" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MOBILE MENU DRAWER (Preserved) -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu" id="closeMenu" aria-label="Close menu">&times;</button>
+        <div style="margin-top: 50px;">
+            <a class="m-link" href="index.html">Home</a>
+            <div>
+                <a class="m-link m-trigger" href="#">NRI Services <i class="fa fa-chevron-down float-end"></i></a>
+                <div class="m-submenu">
+                    <a class="m-sub-item" href="oci-card-assistance.html">OCI Card &amp; Ancestry Assistance</a>
+                    <a class="m-sub-item" href="nri-property-disputes.html">Property Dispute</a>
+                    <a class="m-sub-item" href="nri-power-of-attorney.html">Power of Attorney</a>
+                    <a class="m-sub-item" href="nri-criminal-case.html">Criminal Cases</a>
+                    <a class="m-sub-item" href="nri-family-matrimonial.html">Family &amp; Matrimonial</a>
+                </div>
+            </div>
+            <div>
+                <a class="m-link m-trigger" href="#">Core Practice Areas <i class="fa fa-chevron-down float-end"></i></a>
+                <div class="m-submenu">
+                    <a class="m-sub-item" href="family-law.html">Family Law Workspace</a>
+                    <a class="m-sub-item" href="intellectual-property.html">Intellectual Property Advisory</a>
+                    <a class="m-sub-item" href="employment-law.html">Labour &amp; Employment Protection</a>
+                    <a class="m-sub-item" href="white-collar-crime.html">White Collar Crime Defense</a>
+                    <a class="m-sub-item" href="property-law.html">Due Diligence Frameworks</a>
+                    <a class="m-sub-item" href="cyber-law.html">Cyber Law Desk</a>
+                    <a class="m-sub-item" href="litigation-dispute-resolution.html">Litigation &amp; Dispute Resolution</a>
+                </div>
+            </div>
+            <a class="m-link" href="partners.html">Partners</a>
+            <a class="m-link" href="lawfirm-blog.html">Blog</a>
+            <a class="m-link" href="index.html#contact">Contact</a>
+            <div style="margin-top: 20px;">
+                <a href="./booking.html" class="btn btn-gold w-100">Book Consultation</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- =========================================================
+             SECTION 1: HERO SECTION
+             Approved Headings, 4 Intro Paragraphs & Service Callout
+             ========================================================== -->
+        <section class="oci-guides-hero" aria-label="OCI Legal Guides Hero">
+            <div class="container hero-inner">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <!-- Breadcrumbs -->
+                        <nav class="hero-breadcrumbs" aria-label="Breadcrumb">
+                            <a href="index.html">Home</a>
+                            <span class="separator">&gt;</span>
+                            <a href="nri-services.html">NRI Legal Services</a>
+                            <span class="separator">&gt;</span>
+                            <span class="current">OCI Legal Guides</span>
+                        </nav>
+
+                        <!-- Approved Hero Headings -->
+                        <h1 class="hero-title">OCI Legal Guides: Indian Citizenship, Ancestry and Documentation</h1>
+                        <p class="hero-subtitle">
+                            Practical Legal Guidance for NRIs, OCI Applicants and Overseas Families
+                        </p>
+
+                        <!-- Approved Intro Paragraphs (Exact DOCX Text) -->
+                        <p class="hero-intro-p">
+                            Understanding India's Overseas Citizen of India (OCI) scheme, tracing Indian ancestry and managing legal documentation from overseas can involve complex legal and administrative requirements.
+                        </p>
+                        <p class="hero-intro-p">
+                            RRC Law Associates presents this collection of OCI Legal Guides to help overseas Indians, foreign citizens of Indian origin and their families understand important questions concerning OCI eligibility, application documentation, ancestral records, property, inheritance and related legal matters in India.
+                        </p>
+                        <p class="hero-intro-p">
+                            Our guides explain the principal issues to consider, the documents that may be relevant and the circumstances in which individual legal advice may be necessary.
+                        </p>
+                        <p class="hero-intro-p">
+                            Whether you are preparing an OCI application, investigating your Indian family history or managing property inherited from relatives in India, begin with the topic most relevant to your situation.
+                        </p>
+
+                        <!-- Approved Callout Box (Exact DOCX Text) -->
+                        <div class="hero-cta-callout">
+                            <i class="bi bi-shield-check"></i>
+                            <div>
+                                Looking for assistance with your own case? Explore our <a href="oci-card-assistance.html">OCI Card and Indian Ancestry Documentation Assistance service</a>.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 hero-visual-col">
+                        <div class="hero-visual-card">
+                            <div class="hero-monument-wrap">
+                                <img src="assets/images/oci-hero-bg.jpg" alt="India Gate Delhi - OCI Legal Guides" width="440" height="240" loading="eager">
+                                <div class="hero-monument-overlay"></div>
+                            </div>
+                            <div class="hero-directory-body">
+                                <h2 class="hero-dir-heading">OCI Legal Resource Centre</h2>
+                                <p class="hero-dir-sub">Specialised guidance across key legal disciplines</p>
+                                <ul class="hero-dir-list">
+                                    <li>
+                                        <i class="bi bi-check2-circle"></i>
+                                        <span>In-Depth Legal Guides Across 5 Core Categories</span>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-check2-circle"></i>
+                                        <span>Eligibility, Dual Citizenship &amp; NABC Records</span>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-check2-circle"></i>
+                                        <span>FEMA Property, Inheritance &amp; Power of Attorney</span>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-check2-circle"></i>
+                                        <span>Zero-Travel Legal Representation from Overseas</span>
+                                    </li>
+                                </ul>
+                                <a href="#explore-guides" class="btn btn-gold w-100">
+                                    Browse Legal Guides <i class="bi bi-arrow-down"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION 2: FEATURE STRIP (4 HORIZONTAL ITEMS)
+             ========================================================== -->
+        <section class="oci-features-section" aria-label="Key Features">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-md-6 col-lg-3 feature-item-col">
+                        <div class="feature-icon-circle">
+                            <i class="bi bi-search"></i>
+                        </div>
+                        <h2 class="feature-heading">Expert Legal Insights</h2>
+                        <p class="feature-desc">Based on current law and practice</p>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 feature-item-col">
+                        <div class="feature-icon-circle">
+                            <i class="bi bi-check2-square"></i>
+                        </div>
+                        <h2 class="feature-heading">Practical Guidance</h2>
+                        <p class="feature-desc">Step-by-step explanations and checklists</p>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 feature-item-col">
+                        <div class="feature-icon-circle">
+                            <i class="bi bi-globe"></i>
+                        </div>
+                        <h2 class="feature-heading">Relevant for Global Indians</h2>
+                        <p class="feature-desc">OCI, property, taxation and more</p>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 feature-item-col">
+                        <div class="feature-icon-circle">
+                            <i class="bi bi-person-lines-fill"></i>
+                        </div>
+                        <h2 class="feature-heading">Connect With Us</h2>
+                        <p class="feature-desc">For personalised legal assistance</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION 3: EXPLORE CATEGORIES
+             5 Interactive Category Cards & Quick Filter Bar
+             ========================================================== -->
+        <section class="oci-categories-section" id="explore-guides" aria-label="OCI Legal Guide Categories">
+            <div class="container">
+                <div class="section-header-wrap">
+                    <h2 class="section-title-guides">Explore Our OCI Legal Guides</h2>
+                    <div class="section-accent-line"></div>
+                </div>
+
+                <div class="categories-grid">
+                    <!-- Category 1 Card -->
+                    <div class="category-card" data-category-target="cat-1" role="button" tabindex="0" aria-label="Filter by Category 1: OCI Eligibility, Status and Applications">
+                        <div class="category-card-img-wrap">
+                            <img src="assets/images/oci-blog-eligibility.jpg" alt="Category 1: OCI Eligibility, Status and Applications" class="category-card-img" loading="lazy">
+                        </div>
+                        <div class="category-card-body">
+                            <h3 class="category-card-title">Category 1: OCI Eligibility, Status and Applications</h3>
+                            <div class="category-card-footer">
+                                <span class="category-count">3 Guides</span>
+                                <i class="bi bi-arrow-right category-arrow"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Category 2 Card -->
+                    <div class="category-card" data-category-target="cat-2" role="button" tabindex="0" aria-label="Filter by Category 2: Indian Ancestry and Family Documentation">
+                        <div class="category-card-img-wrap">
+                            <img src="assets/images/oci-blog-records.jpg" alt="Category 2: Indian Ancestry and Family Documentation" class="category-card-img" loading="lazy">
+                        </div>
+                        <div class="category-card-body">
+                            <h3 class="category-card-title">Category 2: Indian Ancestry and Family Documentation</h3>
+                            <div class="category-card-footer">
+                                <span class="category-count">3 Guides</span>
+                                <i class="bi bi-arrow-right category-arrow"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Category 3 Card -->
+                    <div class="category-card" data-category-target="cat-3" role="button" tabindex="0" aria-label="Filter by Category 3: OCI Rights, Restrictions and Indian Property">
+                        <div class="category-card-img-wrap">
+                            <img src="assets/images/property.jpeg" alt="Category 3: OCI Rights, Restrictions and Indian Property" class="category-card-img" loading="lazy">
+                        </div>
+                        <div class="category-card-body">
+                            <h3 class="category-card-title">Category 3: OCI Rights, Restrictions and Indian Property</h3>
+                            <div class="category-card-footer">
+                                <span class="category-count">4 Guides</span>
+                                <i class="bi bi-arrow-right category-arrow"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Category 4 Card -->
+                    <div class="category-card" data-category-target="cat-4" role="button" tabindex="0" aria-label="Filter by Category 4: Legal Documentation and OCI Maintenance">
+                        <div class="category-card-img-wrap">
+                            <img src="assets/images/poa-attestation.png" alt="Category 4: Legal Documentation and OCI Maintenance" class="category-card-img" loading="lazy">
+                        </div>
+                        <div class="category-card-body">
+                            <h3 class="category-card-title">Category 4: Legal Documentation and OCI Maintenance</h3>
+                            <div class="category-card-footer">
+                                <span class="category-count">3 Guides</span>
+                                <i class="bi bi-arrow-right category-arrow"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Category 5 Card -->
+                    <div class="category-card" data-category-target="cat-5" role="button" tabindex="0" aria-label="Filter by Category 5: OCI Cancellation and Legal Remedies">
+                        <div class="category-card-img-wrap">
+                            <img src="assets/images/justice.jpeg" alt="Category 5: OCI Cancellation and Legal Remedies" class="category-card-img" loading="lazy">
+                        </div>
+                        <div class="category-card-body">
+                            <h3 class="category-card-title">Category 5: OCI Cancellation and Legal Remedies</h3>
+                            <div class="category-card-footer">
+                                <span class="category-count">2 Guides</span>
+                                <i class="bi bi-arrow-right category-arrow"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category Quick-Filter Bar -->
+                <div class="category-filter-bar" role="tablist" aria-label="Category Filters">
+                    <button type="button" class="cat-filter-btn active" data-filter="all">
+                        All Legal Guides
+                    </button>
+                    <button type="button" class="cat-filter-btn" data-filter="cat-1">
+                        Category 1: Eligibility &amp; Applications (3)
+                    </button>
+                    <button type="button" class="cat-filter-btn" data-filter="cat-2">
+                        Category 2: Indian Ancestry &amp; Records (3)
+                    </button>
+                    <button type="button" class="cat-filter-btn" data-filter="cat-3">
+                        Category 3: Rights &amp; Property (4)
+                    </button>
+                    <button type="button" class="cat-filter-btn" data-filter="cat-4">
+                        Category 4: Documentation &amp; Maintenance (3)
+                    </button>
+                    <button type="button" class="cat-filter-btn" data-filter="cat-5">
+                        Category 5: Cancellation &amp; Remedies (2)
+                    </button>
+                </div>
+
+                <!-- Dynamic Filter Status Feedback Banner -->
+                <div class="filter-status-banner" id="filterStatusBanner">
+                    <span>
+                        <i class="bi bi-funnel-fill me-2"></i>
+                        Showing articles in <strong id="filterCategoryName">Category</strong> (<span id="filterCount">0</span> guides)
+                    </span>
+                    <button type="button" class="filter-clear-btn" id="filterClearBtn">
+                        <i class="bi bi-x-circle me-1"></i> View All Guides
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION 4: COMPLETE APPROVED GUIDES LISTING
+             Grouped by Approved Categories with Exact Descriptions & Topics
+             ========================================================== -->
+        <section class="oci-guides-section" id="guides-container" aria-label="Complete OCI Legal Guides List">
+            <div class="container">
+                <!-- ==================== Category 1: OCI Eligibility, Status and Applications ==================== -->
+                <div class="category-group-block" id="cat-1" data-category-group="cat-1">
+                    <div class="category-header-wrap">
+                        <h3 class="category-group-title">Category 1: OCI Eligibility, Status and Applications</h3>
+                        <p class="category-group-intro">
+                            Understand the OCI scheme, the distinction between OCI status and Indian citizenship, and the documentation issues that may arise during an application.
+                        </p>
+                    </div>
+                    <div class="guides-grid">
+                        <!-- Guide 1: OCI Card for Foreign Citizens of Indian Origin: Eligibility, Meaning and Legal Status -->
+                        <div class="guide-item" data-category="cat-1">
+                            <article class="guide-card">
+                                <div class="guide-card-img-wrap">
+                                    <img src="assets/images/oci-blog-eligibility.jpg" alt="Guide 1: OCI Card for Foreign Citizens of Indian Origin: Eligibility, Meaning and Legal Status" class="guide-card-img" loading="lazy">
+                                    <span class="guide-card-badge published-badge">Published Article</span>
+                                </div>
+                                <div class="guide-card-body">
+                                    <div class="guide-card-meta">
+                                        <span class="guide-category-pill">Eligibility &amp; Applications</span>
+                                    </div>
+                                    <h4 class="guide-card-title">Guide 1: OCI Card for Foreign Citizens of Indian Origin: Eligibility, Meaning and Legal Status</h4>
+                                    <p class="guide-card-desc">
+                                        Learn about the OCI scheme, eligibility considerations, the legal status of OCI cardholders and the importance of reviewing the applicable statutory requirements.
+                                    </p>
+                                    <div class="guide-topics-box">
+                                        <span class="topics-tag"><i class="bi bi-tags-fill"></i> Topics covered:</span>
+                                        <span class="topics-text">OCI eligibility, Indian-origin ancestry, OCI status and legal limitations.</span>
+                                    </div>
+                                    <div class="guide-card-footer">
+                                        <a href="oci-card-eligibility-legal-status.html" class="guide-action-btn published-btn">
+                                            Read Full Guide <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!-- Guide 2: OCI vs NRI vs Indian Citizen: What Is the Difference? -->
+                        <div class="guide-item" data-category="cat-1">
+                            <article class="guide-card">
+                                <div class="guide-card-img-wrap">
+                                    <img src="assets/images/nri-law-1.jpg" alt="Guide 2: OCI vs NRI vs Indian Citizen: What Is the Difference?" class="guide-card-img" loading="lazy">
+                                    <span class="guide-card-badge published-badge"><i class="bi bi-check-circle-fill"></i> Published</span>
+                                </div>
+                                <div class="guide-card-body">
+                                    <div class="guide-card-meta">
+                                        <span class="guide-category-pill">Eligibility &amp; Applications</span>
+                                    </div>
+                                    <h4 class="guide-card-title">Guide 2: OCI vs NRI vs Indian Citizen: What Is the Difference?</h4>
+                                    <p class="guide-card-desc">
+                                        Understand the differences between an Indian citizen living abroad, a foreign citizen of Indian origin and an OCI cardholder. Learn why citizenship, immigration status and tax residence should not be treated as interchangeable concepts.
+                                    </p>
+                                    <div class="guide-topics-box">
+                                        <span class="topics-tag"><i class="bi bi-tags-fill"></i> Topics covered:</span>
+                                        <span class="topics-text">NRI status, foreign citizenship, OCI status and legal distinctions.</span>
+                                    </div>
+                                    <div class="guide-card-footer">
+                                        <a href="oci-vs-nri-vs-indian-citizen.html" class="guide-action-btn published-btn">
+                                            Read Full Guide <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!-- Guide 3: How to Apply for an OCI Card: Documents, Procedure and Common Mistakes -->
+                        <div class="guide-item" data-category="cat-1">
+                            <article class="guide-card">
+                                <div class="guide-card-img-wrap">
+                                    <img src="assets/images/law-office-meeting.jpg" alt="Guide 3: How to Apply for an OCI Card: Documents, Procedure and Common Mistakes" class="guide-card-img" loading="lazy">
+                                    <span class="guide-card-badge published-badge">Published Article</span>
+                                </div>
+                                <div class="guide-card-body">
+                                    <div class="guide-card-meta">
+                                        <span class="guide-category-pill">Eligibility &amp; Applications</span>
+                                    </div>
+                                    <h4 class="guide-card-title">Guide 3: How to Apply for an OCI Card: Documents, Procedure and Common Mistakes</h4>
+                                    <p class="guide-card-desc">
+                                        Review the principal stages of an OCI application, the importance of consistent identity records and the documentary issues applicants should consider before submitting an application.
+                                    </p>
+                                    <div class="guide-topics-box">
+                                        <span class="topics-tag"><i class="bi bi-tags-fill"></i> Topics covered:</span>
+                                        <span class="topics-text">OCI application, supporting documents, identity discrepancies and application preparation.</span>
+                                    </div>
+                                    <div class="guide-card-footer">
+                                        <a href="oci-card-application-documents.html" class="guide-action-btn published-btn">
+                                            Read Full Guide <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <!-- ==================== Category 2: Indian Ancestry and Family Documentation ==================== -->
+                <div class="category-group-block" id="cat-2" data-category-group="cat-2">
+                    <div class="category-header-wrap">
+                        <h3 class="category-group-title">Category 2: Indian Ancestry and Family Documentation</h3>
+                        <p class="category-group-intro">
+                            For overseas families, proving an ancestral connection with India may require research into historical records, civil documents and family relationships.
+                        </p>
+                    </div>
+                    <!-- Category 2 Callout -->
+                    <div class="hub-callout-card">
+                        <i class="bi bi-compass hub-callout-icon"></i>
+                        <p class="hub-callout-text">
+                            Need help tracing your family roots? <a href="oci-card-indian-ancestry-assistance.html">Learn about our Indian ancestry and historical-record research assistance</a>.
+                        </p>
+                    </div>
+                    <div class="guides-grid">
+                        <!-- Guide 4: OCI Through Indian Ancestry: How to Prove Your Indian-Origin Family Connection -->
+                        <div class="guide-item" data-category="cat-2">
+                            <article class="guide-card">
+                                <div class="guide-card-img-wrap">
+                                    <img src="assets/images/oci-blog-family.jpg" alt="Guide 4: OCI Through Indian Ancestry: How to Prove Your Indian-Origin Family Connection" class="guide-card-img" loading="lazy">
+                                    <span class="guide-card-badge published-badge">Published Article</span>
+                                </div>
+                                <div class="guide-card-body">
+                                    <div class="guide-card-meta">
+                                        <span class="guide-category-pill">Indian Ancestry & Records</span>
+                                    </div>
+                                    <h4 class="guide-card-title">Guide 4: OCI Through Indian Ancestry: How to Prove Your Indian-Origin Family Connection</h4>
+                                    <p class="guide-card-desc">
+                                        Explore how family history and supporting documents may be relevant to an OCI eligibility assessment. Learn how to approach ancestral-record research when older birth certificates or other documents are unavailable.
+                                    </p>
+                                    <div class="guide-topics-box">
+                                        <span class="topics-tag"><i class="bi bi-tags-fill"></i> Topics covered:</span>
+                                        <span class="topics-text">Indian ancestry, family relationships, historical records and documentary research.</span>
+                                    </div>
+                                    <div class="guide-card-footer">
+                                        <a href="oci-card-indian-ancestry-assistance.html" class="guide-action-btn published-btn">
+                                            Read Full Guide <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!-- Guide 5: OCI for Foreign Spouses: Eligibility, Marriage Requirements and Documents -->
+                        <div class="guide-item" data-category="cat-2">
+                            <article class="guide-card">
+                                <div class="guide-card-img-wrap">
+                                    <img src="assets/images/oci-foreign-spouse-eligibility.jpg" alt="Guide 5: OCI for Foreign Spouses: Eligibility, Marriage Requirements and Documents" class="guide-card-img" loading="lazy">
+                                    <span class="guide-card-badge published-badge"><i class="bi bi-check-circle-fill"></i> Published</span>
+                                </div>
+                                <div class="guide-card-body">
+                                    <div class="guide-card-meta">
+                                        <span class="guide-category-pill">Indian Ancestry &amp; Records</span>
+                                    </div>
+                                    <h4 class="guide-card-title">Guide 5: OCI for Foreign Spouses: Eligibility, Marriage Requirements and Documents</h4>
+                                    <p class="guide-card-desc">
+                                        Understand the principal considerations relevant to foreign spouses of Indian citizens or OCI cardholders, including applicable eligibility conditions, marriage documentation and the need to verify current official requirements.
+                                    </p>
+                                    <div class="guide-topics-box">
+                                        <span class="topics-tag"><i class="bi bi-tags-fill"></i> Topics covered:</span>
+                                        <span class="topics-text">Spouse eligibility, marriage records and supporting documentation.</span>
+                                    </div>
+                                    <div class="guide-card-footer">
+                                        <a href="oci-foreign-spouse-eligibility.html" class="guide-action-btn published-btn">
+                                            Read Full Guide <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!-- Guide 6: OCI for Children Born Abroad: Citizenship, Passport and Eligibility -->
+                        <div class="guide-item" data-category="cat-2">
+                            <article class="guide-card">
+                                <div class="guide-card-img-wrap">
+                                    <img src="assets/images/oci-for-children-born-abroad.jpg" alt="Guide 6: OCI for Children Born Abroad: Citizenship, Passport and Eligibility" class="guide-card-img" loading="lazy">
+                                    <span class="guide-card-badge published-badge"><i class="bi bi-check-circle-fill"></i> Published</span>
+                                </div>
+                                <div class="guide-card-body">
+                                    <div class="guide-card-meta">
+                                        <span class="guide-category-pill">Indian Ancestry & Records</span>
+                                    </div>
+                                    <h4 class="guide-card-title">Guide 6: OCI for Children Born Abroad: Citizenship, Passport and Eligibility</h4>
+                                    <p class="guide-card-desc">
+                                        Review the questions that may arise when children are born outside India to parents with Indian or foreign citizenship. Understand why the child's citizenship position and the parent's status must be assessed carefully.
+                                    </p>
+                                    <div class="guide-topics-box">
+                                        <span class="topics-tag"><i class="bi bi-tags-fill"></i> Topics covered:</span>
+                                        <span class="topics-text">Children born abroad, citizenship, parental status and OCI eligibility.</span>
+                                    </div>
+                                    <div class="guide-card-footer">
+                                        <a href="oci-for-children-born-abroad.html" class="guide-action-btn published-btn">
+                                            Read Full Guide <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <!-- ==================== Category 3: OCI Rights, Restrictions and Indian Property ==================== -->
+                <div class="category-group-block" id="cat-3" data-category-group="cat-3">
+                    <div class="category-header-wrap">
+                        <h3 class="category-group-title">Category 3: OCI Rights, Restrictions and Indian Property</h3>
+                        <p class="category-group-intro">
+                            OCI status does not confer every right available to an Indian citizen. Property ownership and succession matters must be examined under the laws applicable to the particular transaction.
+                        </p>
+                    </div>
+                    <div class="guides-grid">
+                        <!-- Guide 7: OCI Card Benefits and Restrictions in India -->
+                        <div class="guide-item" data-category="cat-3">
+                            <article class="guide-card">
+                                <div class="guide-card-img-wrap">
+                                    <img src="assets/images/oci-card-benefits-restrictions.jpg" alt="Guide 7: OCI Card Benefits and Restrictions in India" class="guide-card-img" loading="lazy">
+                                    <span class="guide-card-badge published-badge"><i class="bi bi-check-circle-fill"></i> Published</span>
+                                </div>
+                                <div class="guide-card-body">
+                                    <div class="guide-card-meta">
+                                        <span class="guide-category-pill">Rights, Restrictions & Property</span>
+                                    </div>
+                                    <h4 class="guide-card-title">Guide 7: OCI Card Benefits and Restrictions in India</h4>
+                                    <p class="guide-card-desc">
+                                        Learn about the general benefits associated with OCI status and the restrictions that applicants and existing cardholders should understand.
+                                    </p>
+                                    <div class="guide-topics-box">
+                                        <span class="topics-tag"><i class="bi bi-tags-fill"></i> Topics covered:</span>
+                                        <span class="topics-text">OCI privileges, limitations, travel and legal status.</span>
+                                    </div>
+                                    <div class="guide-card-footer">
+                                        <a href="oci-card-benefits-restrictions-india.html" class="guide-action-btn published-btn">
+                                            Read Full Guide <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!-- Guide 8: Can OCI Cardholders Inherit or Sell Ancestral Property in India? -->
+                        <div class="guide-item" data-category="cat-3">
+                            <article class="guide-card">
+                                <div class="guide-card-img-wrap">
+                                    <img src="assets/images/oci-ancestral-property-india.jpg" alt="Guide 8: Can OCI Cardholders Inherit or Sell Ancestral Property in India?" class="guide-card-img" loading="lazy">
+                                    <span class="guide-card-badge published-badge"><i class="bi bi-check-circle-fill"></i> Published</span>
+                                </div>
+                                <div class="guide-card-body">
+                                    <div class="guide-card-meta">
+                                        <span class="guide-category-pill">Rights, Restrictions & Property</span>
+                                    </div>
+                                    <h4 class="guide-card-title">Guide 8: Can OCI Cardholders Inherit or Sell Ancestral Property in India?</h4>
+                                    <p class="guide-card-desc">
+                                        Learn how OCI cardholders can inherit, sell or transfer ancestral property in India, including agricultural land, succession documents, relinquishment deeds and FEMA restrictions.
+                                    </p>
+                                    <div class="guide-topics-box">
+                                        <span class="topics-tag"><i class="bi bi-tags-fill"></i> Topics covered:</span>
+                                        <span class="topics-text">Inheritance, succession, agricultural land, power of attorney and sale proceeds.</span>
+                                    </div>
+                                    <div class="guide-card-footer">
+                                        <a href="oci-cardholders-inherit-sell-ancestral-property-india.html" class="guide-action-btn published-btn">
+                                            Read Full Guide <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!-- Guide 9: Can OCI Cardholders Own Agricultural Land in India? -->
+                        <div class="guide-item" data-category="cat-3">
+                            <article class="guide-card">
+                                <div class="guide-card-img-wrap">
+                                    <img src="assets/images/revenue.png" alt="Guide 9: Can OCI Cardholders Own Agricultural Land in India?" class="guide-card-img" loading="lazy">
+                                    <span class="guide-card-badge">FEMA Regulations</span>
+                                </div>
+                                <div class="guide-card-body">
+                                    <div class="guide-card-meta">
+                                        <span class="guide-category-pill">Rights, Restrictions & Property</span>
+                                    </div>
+                                    <h4 class="guide-card-title">Guide 9: Can OCI Cardholders Own Agricultural Land in India?</h4>
+                                    <p class="guide-card-desc">
+                                        Examine the special restrictions that may apply to agricultural land, plantation property and farmhouses, and why a proposed acquisition must be assessed under the applicable property and foreign-exchange laws.
+                                    </p>
+                                    <div class="guide-topics-box">
+                                        <span class="topics-tag"><i class="bi bi-tags-fill"></i> Topics covered:</span>
+                                        <span class="topics-text">Agricultural land, plantation property, farmhouses and regulatory restrictions.</span>
+                                    </div>
+                                    <div class="guide-card-footer">
+                                        <a href="oci-card-assistance.html" class="guide-action-btn">
+                                            Legal Guidance & Consultation <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!-- Guide 10: NRI and OCI Property Due Diligence in India -->
+                        <div class="guide-item" data-category="cat-3">
+                            <article class="guide-card">
+                                <div class="guide-card-img-wrap">
+                                    <img src="assets/images/nri-oci-property-due-diligence.jpg" alt="Guide 10: NRI and OCI Property Due Diligence: How to Verify Title Before Buying Property in India" class="guide-card-img" loading="lazy">
+                                    <span class="guide-card-badge published-badge"><i class="bi bi-check-circle-fill"></i> Published</span>
+                                </div>
+                                <div class="guide-card-body">
+                                    <div class="guide-card-meta">
+                                        <span class="guide-category-pill">Rights, Restrictions & Property</span>
+                                    </div>
+                                    <h4 class="guide-card-title">Guide 10: NRI and OCI Property Due Diligence: How to Verify Title Before Buying Property in India</h4>
+                                    <p class="guide-card-desc">
+                                        Buying property in India from overseas? Learn how to verify title deeds, encumbrances, patta, land classification, approvals and litigation before completing a purchase.
+                                    </p>
+                                    <div class="guide-topics-box">
+                                        <span class="topics-tag"><i class="bi bi-tags-fill"></i> Topics covered:</span>
+                                        <span class="topics-text">Title search, Encumbrance Certificate, revenue records, building approvals and FEMA rules.</span>
+                                    </div>
+                                    <div class="guide-card-footer">
+                                        <a href="nri-oci-property-due-diligence-india.html" class="guide-action-btn published-btn">
+                                            Read Full Guide <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <!-- ==================== Category 4: Legal Documentation and OCI Maintenance ==================== -->
+                <div class="category-group-block" id="cat-4" data-category-group="cat-4">
+                    <div class="category-header-wrap">
+                        <h3 class="category-group-title">Category 4: Legal Documentation and OCI Maintenance</h3>
+                        <p class="category-group-intro">
+                            Existing OCI cardholders and overseas families may need assistance with documents used in India or with changes to their passport and personal particulars.
+                        </p>
+                    </div>
+                    <div class="guides-grid">
+                        <!-- Guide 11: NRI and OCI Property Tax in India: TDS, Capital Gains and Repatriation -->
+                        <div class="guide-item" data-category="cat-4">
+                            <article class="guide-card">
+                                <div class="guide-card-img-wrap">
+                                    <img src="assets/images/nri-oci-property-tax-india.jpg" alt="Guide 11: NRI and OCI Property Tax in India: TDS, Capital Gains and Repatriation" class="guide-card-img" loading="lazy">
+                                    <span class="guide-card-badge published-badge"><i class="bi bi-check-circle-fill"></i> Published</span>
+                                </div>
+                                <div class="guide-card-body">
+                                    <div class="guide-card-meta">
+                                        <span class="guide-category-pill">Tax, TDS &amp; Repatriation</span>
+                                    </div>
+                                    <h4 class="guide-card-title">Guide 11: NRI and OCI Property Tax in India: TDS, Capital Gains and Repatriation</h4>
+                                    <p class="guide-card-desc">
+                                        Selling or inheriting property in India as an NRI or OCI cardholder? Understand TDS, capital gains, inherited property taxation and repatriation rules.
+                                    </p>
+                                    <div class="guide-topics-box">
+                                        <span class="topics-tag"><i class="bi bi-tags-fill"></i> Topics covered:</span>
+                                        <span class="topics-text">TDS withholding, capital gains computation, inherited property, USD 1M facility and repatriation.</span>
+                                    </div>
+                                    <div class="guide-card-footer">
+                                        <a href="nri-oci-property-tax-india.html" class="guide-action-btn published-btn">
+                                            Read Full Guide <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!-- Guide 12: OCI Card Renewal, Re-Issue and Passport Changes: Updated Rules for 2026 -->
+                        <div class="guide-item" data-category="cat-4">
+                            <article class="guide-card">
+                                <div class="guide-card-img-wrap">
+                                    <img src="assets/images/oci-card-renewal-passport-update.jpg" alt="Guide 12: OCI Card Renewal, Re-Issue and Passport Changes: Updated Rules for 2026" class="guide-card-img" loading="lazy">
+                                    <span class="guide-card-badge">Published Guide</span>
+                                </div>
+                                <div class="guide-card-body">
+                                    <div class="guide-card-meta">
+                                        <span class="guide-category-pill">Documentation &amp; Maintenance</span>
+                                    </div>
+                                    <h4 class="guide-card-title">Guide 12: OCI Card Renewal, Re-Issue and Passport Changes: Updated Rules for 2026</h4>
+                                    <p class="guide-card-desc">
+                                        Learn the latest OCI card rules for passport changes, personal-detail updates, lost cards and e-OCI, including the documents and online procedures to check.
+                                    </p>
+                                    <div class="guide-topics-box">
+                                        <span class="topics-tag"><i class="bi bi-tags-fill"></i> Topics covered:</span>
+                                        <span class="topics-text">Passport renewal updates, e-OCI guidelines, minor cardholders, foreign spouses, lost cards and miscellaneous services.</span>
+                                    </div>
+                                    <div class="guide-card-footer">
+                                        <a href="oci-card-renewal-passport-update.html" class="guide-action-btn published-btn">
+                                            Read Full Guide <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!-- Guide 13: OCI Re-Issuance After a New Passport: Rules for OCI Cardholders -->
+                        <div class="guide-item" data-category="cat-4">
+                            <article class="guide-card">
+                                <div class="guide-card-img-wrap">
+                                    <img src="assets/images/deed-drafting.png" alt="Guide 13: OCI Re-Issuance After a New Passport: Rules for OCI Cardholders" class="guide-card-img" loading="lazy">
+                                    <span class="guide-card-badge">Miscellaneous Services</span>
+                                </div>
+                                <div class="guide-card-body">
+                                    <div class="guide-card-meta">
+                                        <span class="guide-category-pill">Documentation & Maintenance</span>
+                                    </div>
+                                    <h4 class="guide-card-title">Guide 13: OCI Re-Issuance After a New Passport: Rules for OCI Cardholders</h4>
+                                    <p class="guide-card-desc">
+                                        Review the documentary questions that may arise after obtaining a new passport or changing personal particulars, and learn why the applicable OCI update procedure should be verified before taking action.
+                                    </p>
+                                    <div class="guide-topics-box">
+                                        <span class="topics-tag"><i class="bi bi-tags-fill"></i> Topics covered:</span>
+                                        <span class="topics-text">New passports, OCI updates, personal-detail changes and miscellaneous services.</span>
+                                    </div>
+                                    <div class="guide-card-footer">
+                                        <a href="oci-card-assistance.html" class="guide-action-btn">
+                                            Legal Guidance & Consultation <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <!-- ==================== Category 5: OCI Cancellation and Legal Remedies ==================== -->
+                <div class="category-group-block" id="cat-5" data-category-group="cat-5">
+                    <div class="category-header-wrap">
+                        <h3 class="category-group-title">Category 5: OCI Cancellation and Legal Remedies</h3>
+                        <p class="category-group-intro">
+                            Certain OCI-related matters require individual legal assessment, particularly where official notices, criminal proceedings or allegations of false documentation are involved.
+                        </p>
+                    </div>
+                    <!-- Category 5 Callout -->
+                    <div class="hub-callout-card alert-callout">
+                        <i class="bi bi-shield-exclamation hub-callout-icon"></i>
+                        <p class="hub-callout-text">
+                            Received an official notice concerning OCI registration? <a href="booking.html">Obtain a case-specific legal assessment before deciding how to respond</a>.
+                        </p>
+                    </div>
+                    <div class="guides-grid">
+                        <!-- Guide 13: OCI Card Cancellation: Grounds, Legal Consequences and Legal Remedies -->
+                        <div class="guide-item" data-category="cat-5">
+                            <article class="guide-card">
+                                <div class="guide-card-img-wrap">
+                                    <img src="assets/images/oci-card-cancellation-grounds-remedies.jpg" alt="Guide 13: OCI Card Cancellation: Grounds, Legal Consequences and Legal Remedies" class="guide-card-img" loading="lazy">
+                                    <span class="guide-card-badge">Published Guide</span>
+                                </div>
+                                <div class="guide-card-body">
+                                    <div class="guide-card-meta">
+                                        <span class="guide-category-pill">Cancellation &amp; Legal Remedies</span>
+                                    </div>
+                                    <h4 class="guide-card-title">Guide 13: OCI Card Cancellation: Grounds, Legal Consequences and Legal Remedies</h4>
+                                    <p class="guide-card-desc">
+                                        Understand when an OCI card can be cancelled under Indian law, your right to be heard, possible consequences and steps to take after receiving a notice.
+                                    </p>
+                                    <div class="guide-topics-box">
+                                        <span class="topics-tag"><i class="bi bi-tags-fill"></i> Topics covered:</span>
+                                        <span class="topics-text">Section 7D, cancellation grounds, criminal cases, show-cause notices, right of hearing and legal remedies.</span>
+                                    </div>
+                                    <div class="guide-card-footer">
+                                        <a href="oci-card-cancellation-grounds-remedies.html" class="guide-action-btn published-btn">
+                                            Read Full Guide <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!-- Guide 14: OCI Card Cancellation Under Section 7D: Grounds, Criminal Proceedings and Legal Remedies -->
+                        <div class="guide-item" data-category="cat-5">
+                            <article class="guide-card">
+                                <div class="guide-card-img-wrap">
+                                    <img src="assets/images/oci-card-cancellation-section-7d-legal-remedies.jpg" alt="Guide 14: OCI Card Cancellation Under Section 7D: Grounds, Criminal Proceedings and Legal Remedies" class="guide-card-img" loading="lazy">
+                                    <span class="guide-card-badge">Published Guide</span>
+                                </div>
+                                <div class="guide-card-body">
+                                    <div class="guide-card-meta">
+                                        <span class="guide-category-pill">Cancellation &amp; Criminal Law</span>
+                                    </div>
+                                    <h4 class="guide-card-title">Guide 14: OCI Card Cancellation Under Section 7D: Grounds, Criminal Proceedings and Legal Remedies</h4>
+                                    <p class="guide-card-desc">
+                                        Learn how Section 7D affects OCI cardholders facing criminal proceedings, cancellation notices, blacklisting or immigration restrictions, and understand the legal remedies that may be available.
+                                    </p>
+                                    <div class="guide-topics-box">
+                                        <span class="topics-tag"><i class="bi bi-tags-fill"></i> Topics covered:</span>
+                                        <span class="topics-text">Section 7D(da), Notification S.O. 3662(E), FIR vs charge-sheet, natural justice, High Court judicial review.</span>
+                                    </div>
+                                    <div class="guide-card-footer">
+                                        <a href="oci-card-cancellation-section-7d-legal-remedies.html" class="guide-action-btn published-btn">
+                                            Read Full Guide <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION 5: HOW RRC LAW ASSOCIATES CAN ASSIST
+             Exact DOCX Headings, Introductory Copy, 7-Item List & Note
+             ========================================================== -->
+        <section class="oci-assist-section" id="how-we-assist" aria-label="How RRC Law Associates Can Assist">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <div class="section-header-wrap">
+                            <h2 class="section-title-guides">How RRC Law Associates Can Assist</h2>
+                            <div class="section-accent-line"></div>
+                        </div>
+
+                        <!-- Approved Intro Copy (Exact DOCX Text) -->
+                        <p class="assist-intro-lead">
+                            Reading a general legal guide is a useful starting point, but the correct approach to an individual matter depends on its facts, documents and applicable law.
+                        </p>
+                        <h3 class="assist-sub-heading">RRC Law Associates can consider requests involving:</h3>
+
+                        <!-- Approved 7 Checklist Items (Exact DOCX Text) -->
+                        <ul class="assist-checklist">
+                            <li>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>Preliminary OCI eligibility and documentation assessments.</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>Indian ancestry and family-origin research.</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>Historical-record identification and documentary review.</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>Assessment of missing birth records and potential NABC procedures.</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>Passport-surrender and OCI documentation questions.</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>OCI-related property, inheritance and Power of Attorney matters.</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>Case-specific legal issues arising from official notices or proceedings.</span>
+                            </li>
+                        </ul>
+
+                        <!-- Approved Closing Note (Exact DOCX Text) -->
+                        <p class="assist-note">
+                            The precise scope of assistance depends on the circumstances and the services agreed upon.
+                        </p>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="assist-trust-card">
+                            <div>
+                                <div class="trust-badge-circle">
+                                    <i class="bi bi-bank"></i>
+                                </div>
+                                <h3 class="trust-title">Overseas Legal Consultation</h3>
+                                <p class="trust-desc">
+                                    Providing trusted Indian legal solutions with integrity since 2008. We assist overseas families, NRIs and foreign citizens across complex document and property jurisdictions.
+                                </p>
+                                <ul class="trust-features-list">
+                                    <li>
+                                        <i class="bi bi-shield-check"></i>
+                                        <span>Zero-Travel Cross-Border Representation</span>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-file-earmark-check"></i>
+                                        <span>Document Due Diligence &amp; Archival Tracing</span>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-clock-history"></i>
+                                        <span>Confidential Consultations &amp; Agreed Scope</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mt-3">
+                                <a href="booking.html" class="btn btn-gold w-100">
+                                    Discuss Your OCI Matter <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION 6: FREQUENTLY ASKED QUESTIONS
+             Exact Approved 5 FAQs with Accordion Interaction
+             ========================================================== -->
+        <section class="oci-faq-section" id="faq" aria-label="Frequently Asked Questions">
+            <div class="container">
+                <div class="section-header-wrap text-center">
+                    <h2 class="section-title-guides">Frequently Asked Questions</h2>
+                    <center><div class="section-accent-line"></div></center>
+                </div>
+
+                <div class="accordion faq-accordion" id="hubFaqAccordion">
+                    <!-- FAQ Item 1 -->
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="faqHeading1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+                                What is an OCI Legal Guide?
+                            </button>
+                        </h3>
+                        <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1" data-bs-parent="#hubFaqAccordion">
+                            <div class="accordion-body">
+                                <p class="mb-0">An OCI Legal Guide is an informational resource explaining a particular aspect of the OCI scheme or a related legal issue affecting overseas Indians and foreign citizens of Indian origin.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FAQ Item 2 -->
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="faqHeading2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                                Can reading these guides establish my eligibility for an OCI card?
+                            </button>
+                        </h3>
+                        <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#hubFaqAccordion">
+                            <div class="accordion-body">
+                                <p class="mb-0">No. The guides provide general information. Eligibility depends on the applicable law, the applicant's circumstances, relevant exclusions and the evidence submitted to the competent authority.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FAQ Item 3 -->
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="faqHeading3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+                                What should I do if I cannot find my ancestor's birth certificate?
+                            </button>
+                        </h3>
+                        <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#hubFaqAccordion">
+                            <div class="accordion-body">
+                                <p class="mb-0">Begin by identifying the ancestor's full name, approximate birth date, historical place of residence and known family relationships. These details may help determine which registration offices or archival sources could be relevant. Whether records exist or alternative documentation is acceptable must be assessed individually.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FAQ Item 4 -->
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="faqHeading4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                                Can RRC Law Associates assist clients living abroad?
+                            </button>
+                        </h3>
+                        <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#hubFaqAccordion">
+                            <div class="accordion-body">
+                                <p class="mb-0">The firm can consider overseas enquiries concerning Indian legal and documentation matters, subject to the scope of the engagement and any procedural requirements applicable to the particular case.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FAQ Item 5 -->
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="faqHeading5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                                How can I enquire about professional fees?
+                            </button>
+                        </h3>
+                        <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#hubFaqAccordion">
+                            <div class="accordion-body">
+                                <p class="mb-0">Provide a brief description of your matter and the documents available. The proposed scope of work, professional fees and any anticipated third-party expenses can then be discussed before further work is undertaken.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION 7: NEED ASSISTANCE WITH AN OCI OR INDIAN ANCESTRY MATTER?
+             Exact Approved CTA Copy, Guidance Details and Actions
+             ========================================================== -->
+        <section class="oci-contact-section" id="contact-assistance" aria-label="Enquire for OCI Assistance">
+            <div class="container">
+                <div class="contact-card-wrap">
+                    <!-- Approved CTA Heading -->
+                    <h2 class="contact-main-heading">Need Assistance With an OCI or Indian Ancestry Matter?</h2>
+
+                    <!-- Approved First Paragraph -->
+                    <p class="contact-intro-p">
+                        If you need help understanding your documentation requirements, investigating Indian family records or addressing an Indian legal matter from overseas, contact RRC Law Associates for an initial assessment.
+                    </p>
+
+                    <!-- Approved Enquiry Guidelines Box -->
+                    <div class="contact-guidance-box">
+                        <div class="guidance-header">
+                            <i class="bi bi-info-circle-fill"></i>
+                            <span>Information to include in your initial enquiry:</span>
+                        </div>
+                        <p class="guidance-text">
+                            Please include the country in which you reside, your citizenship, the relevant ancestor's known details, the Indian location involved and the purpose for which you need the documentation.
+                        </p>
+                    </div>
+
+                    <!-- Approved Firm Signature / Tagline -->
+                    <div class="contact-firm-tagline">
+                        <strong>RRC Law Associates</strong> &mdash; Legal assistance for overseas clients dealing with Indian documentation and legal matters.
+                    </div>
+
+                    <!-- Direct Action Buttons -->
+                    <div class="contact-actions-wrap">
+                        <a href="booking.html" class="btn-gold">
+                            <i class="bi bi-calendar2-check"></i> Book Initial Assessment
+                        </a>
+                        <a href="mailto:dr.kumar@rrclawassociates.com" class="btn-white-outline">
+                            <i class="bi bi-envelope-fill"></i> Email Case Details
+                        </a>
+                        <a href="https://wa.me/919751182452?text=Hello! I am seeking assistance with an OCI / Indian ancestry matter." class="btn-gold" style="background-color: #25d366; color: white;" target="_blank">
+                            <i class="bi bi-whatsapp"></i> WhatsApp Consultation
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION 8: LEGAL DISCLAIMER
+             Exact Approved Legal Disclaimer Box
+             ========================================================== -->
+        <section class="oci-disclaimer-section" aria-label="Legal Disclaimer">
+            <div class="container">
+                <div class="disclaimer-card">
+                    <h3 class="disclaimer-heading">Legal Disclaimer</h3>
+                    <p class="disclaimer-text">
+                        The content of these guides is intended for general informational purposes and does not constitute individual legal advice. Laws, rules, government instructions and documentation requirements may change. Each matter should be assessed on its own facts against the applicable law and current official requirements. OCI registration, issuance of civil certificates and access to official records remain subject to decisions and procedures of the competent authorities. No outcome is guaranteed.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+<!-- FOOTER (Preserved) -->
+    <footer class="footer">
+        <div class="footer-contain">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo-icon">
+                        <a href="index.html">
+                            <img src="assets/images/logo.png" alt="RRC Law Associates logo" class="logo-img">
+                            <div class="logo-text">
+                                <strong>RRC</strong>
+                                <strong>Law Associates</strong>
+                            </div>
+                        </a>
+                    </div>
+                    <p>Providing trusted legal solutions with integrity since 2008. Your reliable partner for all legal matters in Tamil Nadu.</p>
+                    <div class="social"></div>
+                </div>
+
+                <div>
+                    <h4>Practice Areas</h4>
+                    <ul>
+                        <li><a href="family-law.html">Family Law</a></li>
+                        <li><a href="property-law.html">Property Law</a></li>
+                        <li><a href="employment-law.html">Employment Law</a></li>
+                        <li><a href="white-collar-crime.html">White Collar Crimes</a></li>
+                        <li><a href="intellectual-property.html">Intellectual Property</a></li>
+                        <li><a href="litigation-dispute-resolution.html">Litigation Dispute</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="nri-services.html">NRI Services</a></li>
+                        <li><a href="oci-card-assistance.html">OCI Card &amp; Ancestry</a></li>
+                        <li><a href="core-practice-areas.html">Practice Areas</a></li>
+                        <li><a href="lawfirm-blog.html">Blog</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Contact Us</h4>
+                    <ul class="contact">
+                        <li>
+                            <span style="color: #c9a24d;">Address</span>
+                            No 82/6B, Deen Complex, Mary’s Corner, Parisutham Nagar, Thanjavur, Tamil Nadu-613001
+                        </li>
+                        <li>
+                            <span style="color: #c9a24d;">Phone</span>
+                            <a href="tel:+919751182452">+91 97511 82452</a>
+                        </li>
+                        <li>
+                            <span style="color: #c9a24d;">Email</span>
+                            <a href="mailto:dr.kumar@rrclawassociates.com">dr.kumar@rrclawassociates.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© <span id="year">2026</span> Branzyne. All rights reserved.</p>
+                <div class="legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Disclaimer</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WHATSAPP FLOATING BUTTON (Preserved) -->
+    <a href="https://wa.me/919751182452?text=Hello! I am looking for legal consultation." class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="float-text">Chat with us</span>
+    </a>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Mobile Menu Toggle
+            const menuToggle = document.getElementById('menuToggle');
+            const mobileMenu = document.getElementById('mobileMenu');
+            const closeMenu = document.getElementById('closeMenu');
+
+            if (menuToggle && mobileMenu) {
+                menuToggle.addEventListener('click', () => mobileMenu.classList.add('open'));
+            }
+
+            if (closeMenu && mobileMenu) {
+                closeMenu.addEventListener('click', () => mobileMenu.classList.remove('open'));
+            }
+
+            document.querySelectorAll('.m-trigger').forEach(trigger => {
+                trigger.addEventListener('click', function(e) {
+                    const submenu = this.nextElementSibling;
+                    if (!submenu) return;
+                    e.preventDefault();
+                    const isOpen = submenu.classList.contains('active');
+                    document.querySelectorAll('.m-submenu').forEach(m => m.classList.remove('active'));
+                    if (!isOpen) submenu.classList.add('active');
+                });
+            });
+
+            // Interactive Category Filter & Quick Navigation
+            const filterButtons = document.querySelectorAll('.cat-filter-btn');
+            const categoryCards = document.querySelectorAll('.category-card');
+            const categoryBlocks = document.querySelectorAll('.category-group-block');
+            const filterBanner = document.getElementById('filterStatusBanner');
+            const filterCategoryName = document.getElementById('filterCategoryName');
+            const filterCount = document.getElementById('filterCount');
+            const filterClearBtn = document.getElementById('filterClearBtn');
+
+            const categoryCounts = {
+                'cat-1': { name: 'Category 1: OCI Eligibility, Status and Applications', count: 3 },
+                'cat-2': { name: 'Category 2: Indian Ancestry and Family Documentation', count: 3 },
+                'cat-3': { name: 'Category 3: OCI Rights, Restrictions and Indian Property', count: 4 },
+                'cat-4': { name: 'Category 4: Legal Documentation and OCI Maintenance', count: 3 },
+                'cat-5': { name: 'Category 5: OCI Cancellation and Legal Remedies', count: 2 }
+            };
+
+            function filterCategory(targetCat, shouldScroll = false) {
+                // Update filter buttons
+                filterButtons.forEach(btn => {
+                    if (btn.getAttribute('data-filter') === targetCat) {
+                        btn.classList.add('active');
+                    } else {
+                        btn.classList.remove('active');
+                    }
+                });
+
+                // Update category cards active styling
+                categoryCards.forEach(card => {
+                    if (card.getAttribute('data-category-target') === targetCat) {
+                        card.classList.add('active-filter');
+                    } else {
+                        card.classList.remove('active-filter');
+                    }
+                });
+
+                if (targetCat === 'all') {
+                    // Show all category blocks
+                    categoryBlocks.forEach(block => block.style.display = 'block');
+                    if (filterBanner) filterBanner.classList.remove('visible');
+                } else {
+                    // Show only selected category block
+                    categoryBlocks.forEach(block => {
+                        if (block.getAttribute('data-category-group') === targetCat) {
+                            block.style.display = 'block';
+                        } else {
+                            block.style.display = 'none';
+                        }
+                    });
+
+                    if (filterBanner && categoryCounts[targetCat]) {
+                        filterCategoryName.textContent = categoryCounts[targetCat].name;
+                        filterCount.textContent = categoryCounts[targetCat].count;
+                        filterBanner.classList.add('visible');
+                    }
+                }
+
+                if (shouldScroll) {
+                    const targetEl = document.getElementById('guides-container');
+                    if (targetEl) {
+                        targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                }
+            }
+
+            // Bind filter buttons
+            filterButtons.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    const cat = this.getAttribute('data-filter');
+                    filterCategory(cat, false);
+                });
+            });
+
+            // Bind category cards
+            categoryCards.forEach(card => {
+                card.addEventListener('click', function () {
+                    const cat = this.getAttribute('data-category-target');
+                    filterCategory(cat, true);
+                });
+
+                card.addEventListener('keydown', function (e) {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        this.click();
+                    }
+                });
+            });
+
+            // Clear filter button
+            if (filterClearBtn) {
+                filterClearBtn.addEventListener('click', function () {
+                    filterCategory('all', true);
+                });
+            }
+        });
+    </script>
+    <script src="script.js?v=20261008-1" data-rrc-ai-only defer></script>
+    <div data-rrc-ai-chat-root></div>
+</body>
+</html>

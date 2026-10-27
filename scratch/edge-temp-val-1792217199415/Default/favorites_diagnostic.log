@@ -1,0 +1,18 @@
+2026-10-17 06:06:40.422: [INFO] CurrentProfilePath: C:\Users\nithi\RRC-Law-Associates-1\scratch\edge-temp-val-1792217199415\Default
+2026-10-17 06:06:40.422: [INFO] Profiles total count: 1
+2026-10-17 06:06:40.422: [INFO] Profile: name=Profile 1 path=C:\Users\nithi\RRC-Law-Associates-1\scratch\edge-temp-val-1792217199415\Default lastActive=2026-10-17T06:06:40.366Z
+2026-10-17 06:06:40.422: [INFO] LastUsedProfileDir: C:\Users\nithi\RRC-Law-Associates-1\scratch\edge-temp-val-1792217199415\Default
+2026-10-17 06:06:40.422: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\nithi\RRC-Law-Associates-1\scratch\edge-temp-val-1792217199415\Default lastActive=2026-10-17T06:06:40.366Z
+2026-10-17 06:06:40.422: [INFO] OnDoneLoading sync enabled: 0
+2026-10-17 06:06:40.422: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-17 06:06:40.422: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-17 06:06:40.422: [INFO] BookmarksSnapshot Startup total=3 bar=3 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-17 06:06:40.582: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-10-17 06:06:41.886: [INFO] VisibilityChanged: 0
+2026-10-17 06:06:45.153: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-10-17 06:06:45.182: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-10-17 06:06:45.211: [INFO] Primary account changed.
+2026-10-17 06:06:45.211: [INFO] OnPrimaryAccountChanged PrimaryAccountChangeEvent::Type::kSet
+2026-10-17 06:06:45.236: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-10-17 06:06:45.418: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-10-17 06:06:53.995: [INFO] BookmarkNodeAdded, ABU: 0

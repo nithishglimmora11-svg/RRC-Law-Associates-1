@@ -1,0 +1,133 @@
+<USER_REQUEST>
+# Final Task: Integrate Silent, Smooth AI Video Animation into RRC Law Associates OCI Hero
+
+Work exclusively in the existing `RRC-Law-Associates-1` project.
+
+**Target page:** `oci-card-assistance.html`
+
+**Stylesheet:** `oci-style.css`
+
+**Video directory:** `assets/videos/`
+
+**Existing video assets:**
+- `oci-scene-1.mp4`
+- `oci-scene-2.mp4`
+- `oci-scene-3.mp4`
+
+## 1. Preserve the existing website design
+
+Inspect the current HTML, CSS, JavaScript, and hero section before making changes.
+
+Use the three existing MP4 videos as the animated background of the current OCI hero section.
+
+Preserve all existing content and styling, including:
+- OCI Card & Indian Ancestry Assistance heading.
+- Existing hero description.
+- Discuss Your OCI Eligibility button.
+- Explore OCI Guides link.
+- Header, navigation, footer, and all other page sections.
+- Approved dark navy and gold palette.
+
+Do not redesign the page, replace the existing hero content, or modify unrelated website pages.
+
+## 2. Remove the Google Vids watermark appropriately
+
+Inspect all three MP4 files for visible Google Vids branding, watermarks, or export overlays.
+
+First, check whether Google Vids provides an official watermark-free export option under the user's current subscription or export settings.
+
+If the videos are eligible for watermark-free export, use those exported files.
+
+If a watermark is embedded in the video frames, do not simply cover it with a CSS overlay or crop the video in a way that damages the composition. Determine whether an authorized clean export or regeneration is available.
+
+If no clean export is available, report which clips contain watermarks and recommend an authorized alternative. Do not claim the watermark has been removed unless the resulting files have been inspected.
+
+Keep the existing hero design and video composition intact.
+
+## 3. Disable all video audio
+
+All three videos contain audio. The website must play them silently.
+
+Requirements:
+- Set each video element to `muted`.
+- Set its volume to zero where supported.
+- Use `playsinline` for mobile playback.
+- Do not add music, sound effects, or voiceovers.
+- Ensure transitions never expose audible audio from either video.
+
+## 4. Implement the exact automatic playback sequence
+
+Use this precise repeating order:
+
+**Video 1 → Video 2 → Video 2 → Video 3 → Video 1 → Video 2 → Video 3 → repeat.**
+
+Use the video filenames internally, but never display scene numbers, filenames, captions, or scene labels to website visitors.
+
+The repeated Video 2 is intentional. Play it twice consecutively before moving to Video 3 in the first cycle.
+
+After Video 3 finishes at the end of the sequence, return to Video 1 and continue indefinitely.
+
+The sequence must begin automatically without requiring visitors to press a play button.
+
+## 5. Implement smooth crossfades
+
+Create a reliable transition system using two video layers if necessary.
+
+Requirements:
+- Approximately 0.8–1 second crossfade.
+- Preload the incoming clip before the transition.
+- Fade the incoming video in while fading the outgoing video out.
+- Avoid black frames, white flashes, loading screens, abrupt cuts, and layout shifts.
+- Handle video loading, playback errors, and autoplay failures safely.
+- Avoid duplicate event listeners and overlapping timers.
+- Ensure the repeated Video 2 and the final transition back to Video 1 work correctly.
+- Do not download all three full videos simultaneously without considering performance.
+
+If a clip fails, fall back gracefully to the existing static hero image or another safe recovery behavior.
+
+## 6. Maintain hero readability
+
+Place the video layers behind all existing hero content.
+
+Use `object-fit: cover` and preserve the existing hero dimensions.
+
+Keep an appropriate dark navy overlay over the video so the heading, description, and CTA buttons remain readable.
+
+The videos must not intercept clicks or interfere with navigation.
+
+Do not add blank panels, borders, video cards, extra text, or visible playback controls.
+
+## 7. Performance and accessibility
+
+- Respect `prefers-reduced-motion` by using the existing static hero image.
+- Provide a static fallback if video playback fails or autoplay is blocked.
+- Avoid unnecessary video downloads, especially on mobile.
+- Keep the implementation compatible with the existing static HTML/CSS/JavaScript architecture.
+- Do not introduce React components or unnecessary dependencies.
+
+## 8. Test before deployment
+
+Test the page locally on desktop and mobile.
+
+Verify:
+1. All three MP4 files load.
+2. The playback sequence is correct and repeats continuously.
+3. All clips remain completely muted.
+4. Crossfades are smooth and reliable.
+5. Existing hero content and CTA links remain unchanged and functional.
+6. No unauthorized video watermark is displayed when a clean export is available.
+7. Reduced-motion and error fallbacks work.
+8. No missing assets, JavaScript console errors, or horizontal overflow are introduced.
+9. The header, footer, navigation, and unrelated sections remain untouched.
+
+Run `git diff --check` and review the changes.
+
+## Final report
+
+Report the modified files, exact playback sequence, audio-muting implementation, transition behavior, watermark inspection results, video file sizes, and actual test results.
+
+Make only the necessary changes. Do not claim that watermarks have been removed or tests have passed unless you have verified the results.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-10-14T15:55:51+05:30.
+</ADDITIONAL_METADATA>
