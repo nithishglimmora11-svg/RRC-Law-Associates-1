@@ -1,0 +1,1892 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCI Card Benefits and Restrictions in India: Complete Guide | RRC Law Associates</title>
+    <meta name="description" content="Understand OCI card benefits and restrictions in India, including travel, employment, property ownership, education, political rights and activities requiring special permission.">
+    <meta name="keywords" content="OCI card benefits and restrictions, OCI card rights in India, OCI property rights, OCI employment in India, OCI card limitations, OCI cardholder benefits">
+    <link rel="canonical" href="https://rrclawassociates.com/oci-card-benefits-restrictions-india/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://rrclawassociates.com/oci-card-benefits-restrictions-india/">
+    <meta property="og:title" content="OCI Card Benefits and Restrictions in India: Complete Guide | RRC Law Associates">
+    <meta property="og:description" content="Understand OCI card benefits and restrictions in India, including travel, employment, property ownership, education, political rights and activities requiring special permission.">
+    <meta property="og:image" content="https://rrclawassociates.com/assets/images/oci-card-benefits-restrictions.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://rrclawassociates.com/oci-card-benefits-restrictions-india/">
+    <meta property="twitter:title" content="OCI Card Benefits and Restrictions in India: Complete Guide | RRC Law Associates">
+    <meta property="twitter:description" content="Understand OCI card benefits and restrictions in India, including travel, employment, property ownership, education, political rights and activities requiring special permission.">
+    <meta property="twitter:image" content="https://rrclawassociates.com/assets/images/oci-card-benefits-restrictions.jpg">
+
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+    <!-- CSS Dependencies -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=20261008-1">
+    <link rel="stylesheet" href="style2.css?v=20261008-1">
+    <link rel="stylesheet" href="topbar.css?v=20261008-1">
+
+    <style>
+        :root {
+            --primary: #0b1c2d;
+            --secondary: #1a365d;
+            --gold: #c9a24d;
+            --gold-hover: #b38f40;
+            --gold-light: rgba(201, 162, 77, 0.12);
+            --gold-border: rgba(201, 162, 77, 0.35);
+            --cream: #fbf9f4;
+            --text-heading: #0b1c2d;
+            --text-body: #333333;
+            --text-muted: #64748b;
+            --border-light: #e2e8f0;
+            --bg-card: #ffffff;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            color: var(--text-body);
+            background-color: #ffffff;
+            line-height: 1.75;
+            overflow-x: hidden;
+            font-size: 17.5px;
+        }
+
+        /* Header Navigation Styles (Preserved) */
+
+        .header {
+            position: fixed;
+            top: 42px;
+            left: 0;
+            width: 100%;
+            z-index: 1190;
+            background: #000000 !important;
+            padding: 5px 0;
+            min-height: 80px;
+            display: flex;
+            align-items: center;
+            box-shadow: none;
+        }
+
+        .logo-img {
+            height: 60px;
+            width: auto;
+        }
+
+        .nav-link-custom {
+            color: #ffffff !important;
+            text-decoration: none;
+            font-weight: 500;
+            margin: 0 15px;
+            font-size: 16px;
+            font-family: 'Inter', sans-serif;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .nav-link-custom:hover {
+            color: var(--gold) !important;
+        }
+
+        .dropdown-menu {
+            background-color: #000000 !important;
+            border: 1px solid #c9a24d !important;
+            margin-top: 10px !important;
+        }
+
+        .dropdown-item {
+            color: #ffffff !important;
+            padding: 10px 20px;
+        }
+
+        .dropdown-item:hover {
+            background-color: #1a1a1a !important;
+            color: var(--gold) !important;
+        }
+
+        @media (min-width: 992px) {
+            .header .dropdown:hover > .dropdown-menu,
+            .header .dropdown:focus-within > .dropdown-menu {
+                display: block !important;
+                margin-top: 0 !important;
+            }
+        }
+
+        /* Hero Section */
+        .article-hero {
+            position: relative;
+            z-index: 1;
+            padding-top: 155px;
+            padding-bottom: 50px;
+            background-color: var(--cream);
+            border-bottom: 1px solid rgba(60, 56, 25, 0.08);
+        }
+
+        .breadcrumbs-bar {
+            margin-bottom: 1rem;
+        }
+
+        .breadcrumbs-bar a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: color 0.2s;
+        }
+
+        .breadcrumbs-bar a:hover {
+            color: var(--gold);
+        }
+
+        .breadcrumbs-bar span {
+            color: var(--gold);
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .meta-text {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 700;
+            color: var(--gold);
+            display: inline-block;
+        }
+
+        .article-title {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            color: #000000;
+            font-size: clamp(2.1rem, 2.8vw, 3.2rem);
+            line-height: 1.25;
+            max-width: 960px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .article-subtitle {
+            font-size: 1.15rem;
+            color: #4b5563;
+            max-width: 820px;
+            margin: 1.25rem auto 0;
+            line-height: 1.7;
+        }
+
+        .article-meta-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 24px;
+            margin-top: 1.5rem;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            flex-wrap: wrap;
+        }
+
+        .article-meta-item {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* Article Featured Image */
+        .featured-image-wrapper {
+            max-width: 960px;
+            margin: 2.5rem auto 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+            border: 1px solid var(--border-light);
+        }
+
+        .featured-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            max-height: 520px;
+            object-fit: cover;
+        }
+
+        .featured-image-caption {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-align: center;
+            padding: 10px 15px;
+            background: #ffffff;
+            border-top: 1px solid var(--border-light);
+            font-style: italic;
+        }
+
+        /* Main Content Layout */
+        .article-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 50px 20px 80px;
+        }
+
+        .article-content-col {
+            max-width: 840px;
+        }
+
+        /* Typography & Headings */
+        .article-body h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #0b1c2d;
+            margin-top: 2.8rem;
+            margin-bottom: 1.2rem;
+            padding-bottom: 0.6rem;
+            border-bottom: 2px solid rgba(201, 162, 77, 0.35);
+            line-height: 1.35;
+        }
+
+        .article-body h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.35rem;
+            font-weight: 600;
+            color: #1a365d;
+            margin-top: 2rem;
+            margin-bottom: 0.9rem;
+            line-height: 1.4;
+        }
+
+        .article-body p {
+            margin-bottom: 1.4rem;
+            color: #2d3748;
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+
+        .article-body ul, .article-body ol {
+            margin-bottom: 1.5rem;
+            padding-left: 1.4rem;
+        }
+
+        .article-body li {
+            margin-bottom: 0.65rem;
+            color: #2d3748;
+            line-height: 1.75;
+        }
+
+        /* Callout Box */
+        .legal-highlight-box {
+            background-color: #fbf9f4;
+            border-left: 4px solid var(--gold);
+            padding: 22px 26px;
+            margin: 2rem 0;
+            border-radius: 0 10px 10px 0;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
+        }
+
+        .legal-highlight-box h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .legal-highlight-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Warning/Caution Box */
+        .caution-box {
+            background-color: #fffaf0;
+            border-left: 4px solid #dd6b20;
+            padding: 22px 26px;
+            margin: 2rem 0;
+            border-radius: 0 10px 10px 0;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
+        }
+
+        .caution-box h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #c05621;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .caution-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Structured Comparison/Category Cards */
+        .benefit-card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 2rem 0;
+        }
+
+        .benefit-card {
+            background: #ffffff;
+            border: 1px solid var(--border-light);
+            border-radius: 10px;
+            padding: 22px;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .benefit-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
+        }
+
+        .benefit-card-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 14px;
+        }
+
+        .benefit-card-icon {
+            width: 44px;
+            height: 44px;
+            border-radius: 8px;
+            background: var(--gold-light);
+            color: var(--gold);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+            flex-shrink: 0;
+        }
+
+        .benefit-card-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin: 0;
+        }
+
+        /* Checklist Cards */
+        .checklist-group {
+            margin: 2rem 0;
+            border: 1px solid var(--border-light);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
+            background: #ffffff;
+        }
+
+        .checklist-group-header {
+            background: #0b1c2d;
+            color: #ffffff;
+            padding: 16px 22px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .checklist-group-header h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin: 0;
+            color: #ffffff;
+        }
+
+        .checklist-group-body {
+            padding: 20px 24px;
+        }
+
+        .checklist-group-body ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+
+        .checklist-group-body li {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 12px;
+        }
+
+        .checklist-group-body li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: var(--gold);
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .checklist-group-body li:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Sidebar Styling */
+        .sidebar-sticky-wrapper {
+            position: sticky;
+            top: 140px;
+        }
+
+        .sidebar-card {
+            background: #ffffff;
+            border: 1px solid var(--border-light);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+        }
+
+        .sidebar-card-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--border-light);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .toc-list {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+
+        .toc-list li {
+            margin-bottom: 9px;
+            line-height: 1.45;
+        }
+
+        .toc-list a {
+            color: #4b5563;
+            text-decoration: none;
+            font-size: 0.9rem;
+            display: block;
+            padding: 4px 0 4px 10px;
+            border-left: 2px solid transparent;
+            transition: all 0.2s ease;
+        }
+
+        .toc-list a:hover {
+            color: var(--gold);
+            border-left-color: var(--gold);
+            background-color: var(--cream);
+            padding-left: 14px;
+        }
+
+        /* CTA Sidebar Card */
+        .sidebar-cta-card {
+            background: linear-gradient(135deg, #0b1c2d 0%, #1a365d 100%);
+            color: #ffffff;
+            border-radius: 12px;
+            padding: 26px 22px;
+            text-align: center;
+            box-shadow: 0 8px 24px rgba(11, 28, 45, 0.15);
+        }
+
+        .sidebar-cta-card h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 12px;
+        }
+
+        .sidebar-cta-card p {
+            font-size: 0.9rem;
+            color: #e2e8f0;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .btn-gold-cta {
+            background-color: var(--gold);
+            color: #0b1c2d;
+            font-weight: 700;
+            font-size: 0.9rem;
+            padding: 11px 22px;
+            border-radius: 6px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.2s ease;
+            width: 100%;
+            border: 1px solid var(--gold);
+        }
+
+        .btn-gold-cta:hover {
+            background-color: var(--gold-hover);
+            color: #0b1c2d;
+            transform: translateY(-2px);
+        }
+
+        /* Accordion FAQ Styling */
+        .accordion-item {
+            border: 1px solid var(--border-light);
+            margin-bottom: 14px;
+            border-radius: 8px !important;
+            overflow: hidden;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+        }
+
+        .accordion-button {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--primary);
+            background-color: #fcfbf9;
+            padding: 18px 22px;
+        }
+
+        .accordion-button:not(.collapsed) {
+            background-color: #f7f3e8;
+            color: var(--primary);
+            box-shadow: none;
+        }
+
+        .accordion-button:focus {
+            box-shadow: none;
+            border-color: rgba(201, 162, 77, 0.5);
+        }
+
+        .accordion-body {
+            font-size: 1.02rem;
+            color: #374151;
+            line-height: 1.75;
+            padding: 20px 22px;
+            background-color: #ffffff;
+        }
+
+        /* End CTA Block */
+        .article-end-cta {
+            background: linear-gradient(135deg, #0b1c2d 0%, #162e49 100%);
+            border-radius: 14px;
+            padding: 40px;
+            color: #ffffff;
+            margin: 3.5rem 0 2.5rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        .article-end-cta h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.85rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 15px;
+        }
+
+        .article-end-cta p {
+            color: #e2e8f0;
+            font-size: 1.05rem;
+            line-height: 1.75;
+            margin-bottom: 20px;
+        }
+
+        .article-end-cta ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 25px;
+        }
+
+        .article-end-cta li {
+            position: relative;
+            padding-left: 28px;
+            margin-bottom: 10px;
+            color: #f8fafc;
+        }
+
+        .article-end-cta li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--gold);
+            font-weight: bold;
+        }
+
+        .cta-btn-group {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .cta-btn-primary {
+            background-color: var(--gold);
+            color: #0b1c2d;
+            font-weight: 700;
+            padding: 12px 28px;
+            border-radius: 6px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s ease;
+        }
+
+        .cta-btn-primary:hover {
+            background-color: var(--gold-hover);
+            color: #0b1c2d;
+            transform: translateY(-2px);
+        }
+
+        .cta-btn-whatsapp {
+            background-color: #25d366;
+            color: #ffffff;
+            font-weight: 700;
+            padding: 12px 28px;
+            border-radius: 6px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s ease;
+        }
+
+        .cta-btn-whatsapp:hover {
+            background-color: #20ba59;
+            color: #ffffff;
+            transform: translateY(-2px);
+        }
+
+        /* Disclaimer Section */
+        .article-disclaimer {
+            background-color: #f8fafc;
+            border: 1px solid var(--border-light);
+            border-radius: 10px;
+            padding: 22px 26px;
+            margin-top: 2rem;
+            font-size: 0.92rem;
+            color: #64748b;
+            line-height: 1.65;
+        }
+
+        .article-disclaimer strong {
+            color: #334155;
+        }
+
+
+        @media (max-width: 991px) {
+            .article-hero {
+                padding-top: 135px;
+            }
+            .sidebar-sticky-wrapper {
+                margin-top: 40px;
+                position: static;
+            }
+        }
+    </style>
+
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "@id": "https://rrclawassociates.com/oci-card-benefits-restrictions-india/#article",
+          "isPartOf": {
+            "@type": "WebPage",
+            "@id": "https://rrclawassociates.com/oci-card-benefits-restrictions-india/"
+          },
+          "headline": "OCI Card Benefits and Restrictions: What OCI Cardholders Can and Cannot Do in India",
+          "description": "Understand OCI card benefits and restrictions in India, including travel, employment, property ownership, education, political rights and activities requiring special permission.",
+          "image": "https://rrclawassociates.com/assets/images/oci-card-benefits-restrictions.jpg",
+          "author": {
+            "@type": "Organization",
+            "name": "RRC Law Associates",
+            "url": "https://rrclawassociates.com/"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "RRC Law Associates",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://rrclawassociates.com/assets/images/logo.png"
+            }
+          },
+          "datePublished": "2026-10-13T12:00:00+05:30",
+          "dateModified": "2026-10-13T12:00:00+05:30",
+          "mainEntityOfPage": "https://rrclawassociates.com/oci-card-benefits-restrictions-india/"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://rrclawassociates.com/oci-card-benefits-restrictions-india/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://rrclawassociates.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "OCI Legal Guides",
+              "item": "https://rrclawassociates.com/oci-legal-guides/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "OCI Card Benefits and Restrictions in India",
+              "item": "https://rrclawassociates.com/oci-card-benefits-restrictions-india/"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://rrclawassociates.com/oci-card-benefits-restrictions-india/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Does an OCI card give the same rights as Indian citizenship?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. OCI cardholders remain foreign nationals. They receive specified benefits under Indian law but do not acquire all the rights of Indian citizens."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can an OCI cardholder live in India permanently?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The OCI scheme provides a multiple-entry, lifelong visa and an exemption from FRRO/FRO registration for any length of stay, subject to the applicable conditions. This is not the same as Indian citizenship or an unconditional right to undertake every activity in India."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can an OCI cardholder work in India?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "OCI cardholders may work in India subject to applicable laws and restrictions. Certain activities require prior permission, and public-service positions may be restricted."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can an OCI cardholder buy a house or apartment in India?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Generally, an OCI cardholder may purchase eligible immovable property other than agricultural land, a farmhouse or plantation property, subject to applicable laws and restrictions. A property-specific review is advisable before a transaction."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can an OCI cardholder buy agricultural land in India?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The official OCI scheme excludes the acquisition of agricultural land, farmhouses and plantation property under its stated property benefit. Other forms of transfer, including inheritance, require separate examination under the applicable laws."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can an OCI cardholder inherit ancestral property?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Potentially, depending on the succession law, the property, the nature of the transfer and any applicable restrictions. The title and inheritance documents should be reviewed before a transfer or mutation is undertaken."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can an OCI cardholder vote in Indian elections?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. OCI status does not confer the right to vote or contest elections for Parliament or State Legislatures."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can an OCI cardholder apply for Indian government employment?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Generally, OCI cardholders are not entitled to public-service appointments connected with the Union or a State unless a specific exception or special order applies. The recruitment rules for the particular post should be checked."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can an OCI cardholder become an Indian citizen?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "An eligible adult OCI cardholder may apply under Section 5(1)(g) of the Citizenship Act, 1955, subject to the applicable requirements. Citizenship is not granted automatically merely because a person has held an OCI card."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Where can I verify current OCI benefits and restrictions?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Consult the official OCI Services portal and the Ministry of External Affairs' OCI FAQ. Also check any relevant notifications or rules governing the specific activity or transaction."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+
+
+<!-- =========================================================
+     TOP BAR
+========================================================== -->
+
+<div class="rrc-topbar">
+
+    <div class="rrc-topbar-container">
+
+        <!-- LEFT SIDE -->
+        <div class="rrc-topbar-left">
+
+            <a href="tel:+9197511 82452">
+                <i class="bi bi-telephone-fill"></i>
+                +91 97511 82452
+            </a>
+
+            <span class="rrc-topbar-divider"></span>
+
+            <a href="mailto:dr.kumar@rrclawassociates.com">
+                <i class="bi bi-envelope-fill"></i>
+                dr.kumar@rrclawassociates.com
+            </a>
+
+        </div>
+
+
+        <!-- RIGHT SIDE -->
+        <div class="rrc-topbar-right">
+
+            <span>
+                <i class="bi bi-clock"></i>
+                Mon &#8211; Sat: 10:00 AM &#8211; 10:00 PM
+            </span>
+
+            <span class="rrc-topbar-divider"></span>
+
+            <a href="https://www.linkedin.com/company/rrclawassociates/" aria-label="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+            </a>
+
+            <a href="https://www.instagram.com/rrclawassociates/" aria-label="Instagram">
+                <i class="bi bi-instagram"></i>
+            </a>
+
+            <a href="https://www.facebook.com/rrclawassociates/" aria-label="Facebook">
+                <i class="bi bi-facebook"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+        <header class="header">
+            <nav class="container d-flex align-items-center justify-content-between">
+                <a href="index.html">
+                    <img src="assets/images/rrclogo.png" alt="RRC Logo" class="logo-img">
+                </a>
+
+                <div class="d-none d-lg-flex align-items-center ms-auto">
+                    <div class="dropdown">
+                        <a
+                            class="nav-link-custom border-0 bg-transparent p-0"
+                            href="index.html"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Home
+                        </a>
+                    </div>
+                    <div class="dropdown">
+                        <a
+                            class="nav-link-custom dropdown-toggle border-0 bg-transparent p-0"
+                            href="nri-services.html"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            NRI Services
+                        </a>
+                        <ul class="dropdown-menu shadow-lg">
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="oci-card-assistance.html">OCI Card &amp; Ancestry Assistance</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="nri-property-disputes.html">Property Dispute</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="nri-power-of-attorney.html">Power of Attorney</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="nri-criminal-case.html">Criminal Cases</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="nri-family-matrimonial.html">Family &amp; Matrimonial</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <a
+                            class="nav-link-custom dropdown-toggle border-0 bg-transparent p-0"
+                            href="core-practice-areas.html"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Core Practice Areas
+                        </a>
+                        <ul class="dropdown-menu shadow-lg">
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="family-law.html">Family Law Workspace</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="intellectual-property.html">Intellectual Property Advisory</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="employment-law.html">Labour &amp; Employment Protection</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="white-collar-crime.html">White Collar Crime Defense</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="property-law.html">Due Diligence Frameworks</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="cyber-law.html">Cyber Law Desk</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="litigation-dispute-resolution.html">Litigation &amp; Dispute Resolution</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <a
+                            class="nav-link-custom border-0 bg-transparent p-0"
+                            href="./partners.html"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Partners
+                        </a>
+                    </div>
+                    <div class="dropdown">
+                        <a
+                            class="nav-link-custom border-0 bg-transparent p-0"
+                            href="lawfirm-blog.html"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Blog
+                        </a>
+                    </div>
+                    <div class="dropdown">
+                        <a
+                            class="nav-link-custom border-0 bg-transparent p-0"
+                            href="index.html#contact"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-center gap-3">
+                    <div class="cta d-none d-sm-block">
+                        <a href="./booking.html" class="btn btn-gold">Book Consultation</a>
+                    </div>
+                    <button class="btn text-white d-lg-none fs-3 p-0" id="menuToggle">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </header>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <button class="close-menu" id="closeMenu">&#x2715;</button>
+            <div class="mt-5">
+                <a href="index.html" class="m-link">Home</a>
+                <div class="m-dropdown">
+                    <a class="m-link m-trigger" href="nri-services.html">
+                        NRI Services <i class="fa fa-chevron-down ms-2"></i>
+                    </a>
+                    <div class="m-submenu" id="mPracticeMenu">
+                        <a class="m-sub-item" href="oci-card-assistance.html">OCI Card &amp; Ancestry Assistance</a>
+                        <a class="m-sub-item" href="nri-property-disputes.html">Property Dispute</a>
+                        <a class="m-sub-item" href="nri-power-of-attorney.html">Power of Attorney</a>
+                        <a class="m-sub-item" href="nri-criminal-case.html">Criminal Case</a>
+                        <a class="m-sub-item" href="nri-family-matrimonial.html">Family &amp; Matrimonial</a>
+                    </div>
+                </div>
+                <div class="m-dropdown">
+                    <a class="m-link m-trigger" href="core-practice-areas.html">
+                        Core Practice Areas <i class="fa fa-chevron-down ms-2"></i>
+                    </a>
+                    <div class="m-submenu" id="mPracticeMenu2">
+                        <a class="m-sub-item" href="family-law.html">FAMILY, SUCCESSION &amp; PRIVATE CLIENT PRACTICE</a>
+                        <a class="m-sub-item" href="intellectual-property.html">INTELLECTUAL PROPERTY &amp; INNOVATION PROTECTION</a>
+                        <a class="m-sub-item" href="employment-law.html">LABOUR, EMPLOYMENT &amp; INDUSTRIAL RELATIONS</a>
+                        <a class="m-sub-item" href="white-collar-crime.html">WHITE COLLAR CRIMES &amp; FINANCIAL INVESTIGATIONS</a>
+                        <a class="m-sub-item" href="property-law.html">DOCUMENTATION, REGISTRATION &amp; DUE DILIGENCE</a>
+                        <a class="m-sub-item" href="cyber-law.html">CYBER LAW, DATA PROTECTION &amp; DIGITAL EVIDENCE</a>
+                        <a class="m-sub-item" href="litigation-dispute-resolution.html">LITIGATION &amp; DISPUTE RESOLUTION</a>
+                    </div>
+                </div>
+                <a href="partners.html" class="m-link">Partners</a>
+                <a href="lawfirm-blog.html" class="m-link">Blog</a>
+                <a href="index.html#contact" class="m-link">Contact</a>
+
+                <div class="mt-4">
+                    <a href="./booking.html" class="btn btn-gold w-100 py-3 text-center">Book Consultation</a>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- Article Hero Section -->
+    <section class="article-hero text-center">
+        <div class="container">
+            <div class="breadcrumbs-bar">
+                <a href="index.html">Home</a> &nbsp;/&nbsp;
+                <a href="oci-legal-guides.html">OCI Legal Guides</a> &nbsp;/&nbsp;
+                <span>Guide 7: OCI Card Benefits and Restrictions in India</span>
+            </div>
+            <span class="meta-text">OCI Legal Guides &bull; Guide 7</span>
+            <h1 class="article-title mt-2">OCI Card Benefits and Restrictions: What OCI Cardholders Can and Cannot Do in India</h1>
+            <p class="article-subtitle">
+                Understand OCI card benefits and restrictions in India, including travel, employment, property ownership, education, political rights and activities requiring special permission.
+            </p>
+            <div class="article-meta-row">
+                <div class="article-meta-item">
+                    <i class="bi bi-person-fill text-gold"></i>
+                    <span>RRC Law Associates Legal Editorial Team</span>
+                </div>
+                <div class="article-meta-item">
+                    <i class="bi bi-journal-text text-gold"></i>
+                    <span>OCI Legal Guides Series</span>
+                </div>
+            </div>
+
+            <!-- Featured Cover Image -->
+            <div class="featured-image-wrapper">
+                <img src="assets/images/oci-card-benefits-restrictions.jpg" alt="OCI Card Benefits and Restrictions: What OCI Cardholders Can and Cannot Do in India" class="featured-image">
+                <div class="featured-image-caption">
+                    Comprehensive legal overview of Overseas Citizen of India privileges, lifelong visa status, property ownership, professional practice and statutory limitations under Indian law.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content & Sidebar Layout -->
+    <main class="article-container">
+        <div class="row g-5">
+            <!-- Article Body Column -->
+            <div class="col-lg-8 article-content-col">
+                <article class="article-body">
+
+                    <!-- Introduction -->
+                    <div class="lead-intro">
+                        <p>An Overseas Citizen of India (OCI) card can make travel to India and certain activities in India more convenient for eligible foreign citizens of Indian origin. However, OCI status does not provide the same legal rights as Indian citizenship.</p>
+                        <p>OCI cardholders often have questions about whether they can live in India, work for an Indian employer, purchase property, pursue professional activities, enrol in educational institutions or participate in political life.</p>
+                        <p>The answers depend on the applicable provisions of the Citizenship Act, 1955, government notifications and, where relevant, other laws governing property, employment, education and professional practice.</p>
+                        <p>The central legal principle is that an OCI cardholder remains a foreign national. OCI status provides specified benefits, not unrestricted rights equivalent to those of an Indian citizen.</p>
+                        <p>This guide explains the principal benefits, restrictions and practical issues OCI cardholders should understand before making decisions concerning India.</p>
+                        <p>This article provides general legal information. Individual rights and obligations should be checked against the current law, government notifications and the rules applicable to the particular activity.</p>
+                    </div>
+
+                    <!-- Section 1 -->
+                    <section id="section-1">
+                        <h2>1. What Is an OCI Card?</h2>
+                        <p>The Overseas Citizenship of India scheme operates under the Citizenship Act, 1955. Section 7A identifies the categories of foreign nationals who may qualify for registration as OCI cardholders, subject to the applicable conditions.</p>
+                        <p>Despite the name, OCI status is not Indian citizenship.</p>
+                        <p>An OCI cardholder generally retains foreign citizenship and travels using the passport issued by the relevant foreign country. The OCI card provides specified immigration and other benefits under Indian law.</p>
+
+                        <div class="legal-highlight-box">
+                            <h4><i class="bi bi-shield-exclamation text-gold"></i> Fundamental Legal Distinction</h4>
+                            <p>The distinction matters because an OCI card does not automatically confer:</p>
+                            <ul class="mb-0">
+                                <li>The right to vote in Indian elections.</li>
+                                <li>The right to contest elections for Parliament or a State Legislature.</li>
+                                <li>Eligibility for constitutional offices reserved for Indian citizens.</li>
+                                <li>General eligibility for Indian government employment.</li>
+                                <li>The right to acquire agricultural land, farmhouses or plantation property in India.</li>
+                            </ul>
+                        </div>
+                        <p>These restrictions should be considered separately from the benefits that OCI status does provide.</p>
+                    </section>
+
+                    <!-- Section 2 -->
+                    <section id="section-2">
+                        <h2>2. Can OCI Cardholders Travel to India Without Applying for a Regular Visa Each Time?</h2>
+                        <p>One of the principal benefits of OCI registration is a multiple-entry, lifelong visa for visiting India, subject to the applicable rules and conditions.</p>
+                        <p>This facilitates repeated visits for purposes such as family visits, tourism and other permitted activities.</p>
+                        <p>However, the lifelong-visa benefit should not be interpreted as permission to undertake every possible activity in India without further approval.</p>
+
+                        <div class="caution-box">
+                            <h4><i class="bi bi-exclamation-triangle-fill"></i> Activities Requiring Prior Special Permission</h4>
+                            <p>The official OCI guidance identifies activities for which prior permission or a special permit may be required, including:</p>
+                            <ul class="mb-0">
+                                <li>Research activities.</li>
+                                <li>Missionary or Tabligh activities.</li>
+                                <li>Mountaineering activities.</li>
+                                <li>Journalism.</li>
+                                <li>Certain internships in foreign diplomatic missions or foreign government organisations in India.</li>
+                                <li>Employment in foreign diplomatic missions in India.</li>
+                                <li>Visits to protected, restricted or prohibited areas notified by the competent authority.</li>
+                            </ul>
+                        </div>
+                        <p>Before undertaking one of these activities, an OCI cardholder should check the current permission requirements with the competent authority, Indian Mission or FRRO, as applicable.</p>
+                    </section>
+
+                    <!-- Section 3 -->
+                    <section id="section-3">
+                        <h2>3. Can OCI Cardholders Live in India for Long Periods?</h2>
+                        <p>The official OCI scheme provides an exemption from registration with the Foreigners Regional Registration Officer (FRRO) or Foreigners Registration Officer (FRO) for any length of stay, subject to the applicable conditions.</p>
+                        <p>This is an important practical benefit for OCI cardholders who spend extended periods in India.</p>
+                        <p>Nevertheless, an OCI cardholder remains subject to Indian law and to the conditions applicable to foreign nationals.</p>
+                        <p>OCI cardholders who are normally resident in India are also required, under the official scheme guidance, to intimate the jurisdictional FRRO or FRO by email when their permanent residential address or occupation changes.</p>
+                        <p>Accordingly, an OCI cardholder planning a long-term move to India should check the current reporting requirements and maintain accurate records of residence and occupation.</p>
+                    </section>
+
+                    <!-- Section 4 -->
+                    <section id="section-4">
+                        <h2>4. Can OCI Cardholders Work in India?</h2>
+                        <p>OCI cardholders may undertake employment in India without obtaining a separate employment visa for ordinary employment covered by the scheme, subject to the applicable laws and restrictions.</p>
+                        <p>However, the right to work should not be confused with unrestricted eligibility for every position or profession.</p>
+                        <p>The official OCI guidance identifies certain benefits and specified professional activities. It also states that, in economic, financial and educational fields not covered by the relevant notifications, OCI cardholders generally have the rights and privileges applicable to foreigners.</p>
+                        <p>Before accepting an employment offer, the cardholder should consider:</p>
+                        <ul>
+                            <li>Whether the proposed work is permitted under OCI conditions.</li>
+                            <li>Whether the activity requires special permission.</li>
+                            <li>Whether the position is restricted to Indian citizens.</li>
+                            <li>Whether professional registration, licensing or qualifications are required.</li>
+                            <li>Whether any sector-specific law applies.</li>
+                            <li>Whether the employer has additional eligibility requirements.</li>
+                        </ul>
+                        <p>An OCI card should not be treated as proof of eligibility for a government post or a position restricted by law to Indian citizens.</p>
+
+                        <h3>Professional practice</h3>
+                        <p>The official OCI guidance provides parity with NRIs for specified professional activities, including the professions of doctors, dentists, nurses, pharmacists, advocates, architects and chartered accountants, subject to the applicable statutes and professional requirements.</p>
+                        <p>This does not eliminate the need for registration, recognition of qualifications or compliance with the rules governing the relevant profession.</p>
+                        <p>Anyone planning to practise a regulated profession should verify the current requirements of the relevant statutory or professional body.</p>
+                    </section>
+
+                    <!-- Section 5 -->
+                    <section id="section-5">
+                        <h2>5. Can OCI Cardholders Buy Property in India?</h2>
+                        <p>Property ownership is an important concern for many overseas Indians.</p>
+                        <p>The official OCI scheme provides parity with NRIs for the purchase or sale of immovable property, subject to the applicable legal framework. However, OCI cardholders are not entitled under the scheme to acquire agricultural land, farmhouses or plantation property.</p>
+                        <p>The property analysis should therefore begin by identifying the exact classification and legal status of the property.</p>
+
+                        <h3>Property that may be purchased</h3>
+                        <p>OCI cardholders may generally purchase immovable property other than agricultural land, a farmhouse or plantation property, subject to applicable laws and restrictions.</p>
+
+                        <div class="legal-highlight-box">
+                            <h4><i class="bi bi-file-earmark-check text-gold"></i> Pre-Purchase Legal Due Diligence Checklist</h4>
+                            <p>Before purchasing, the buyer should undertake appropriate due diligence, including examination of:</p>
+                            <ul class="mb-0">
+                                <li>The seller's title and chain of ownership.</li>
+                                <li>Encumbrances, mortgages and competing claims.</li>
+                                <li>Patta, revenue and land-classification records, where relevant.</li>
+                                <li>Planning and building approvals, where applicable.</li>
+                                <li>Existing leases, tenancies or possession disputes.</li>
+                                <li>Registration and stamp-duty requirements.</li>
+                                <li>Applicable foreign-exchange and property-transfer rules.</li>
+                            </ul>
+                        </div>
+                        <p>A property's description in a private agreement should not be treated as conclusive evidence of its legal classification.</p>
+
+                        <h3>Agricultural land, farmhouses and plantation property</h3>
+                        <p>The OCI scheme specifically excludes the acquisition of agricultural land, farmhouses and plantation property under the stated NRI-parity benefit.</p>
+                        <p>An OCI cardholder considering such property should not proceed on the assumption that the general right to purchase immovable property applies.</p>
+                        <p>Inheritance, gifts, transfers and other forms of acquisition can raise distinct legal questions. Their treatment should be examined under the applicable foreign-exchange regulations and other relevant laws rather than inferred from the ordinary purchase rules.</p>
+                        <p><strong>Practical recommendation:</strong> Obtain a property-specific legal review before signing an agreement, paying an advance or accepting a transfer involving land in India.</p>
+                    </section>
+
+                    <!-- Section 6 -->
+                    <section id="section-6">
+                        <h2>6. Can OCI Cardholders Inherit Property in India?</h2>
+                        <p>Inheritance is a separate issue from purchasing property.</p>
+                        <p>An OCI cardholder may have rights arising under a valid will, intestate succession or another legally recognised transfer. The outcome depends on the applicable succession law, the nature of the property, the deceased's legal status and any relevant restrictions on the proposed transfer.</p>
+                        <p>Where inherited property includes agricultural land, a farmhouse or plantation property, additional scrutiny is particularly important. The restrictions applicable to an ordinary purchase should not automatically be applied to every inheritance situation without examining the relevant law.</p>
+
+                        <div class="legal-highlight-box">
+                            <h4><i class="bi bi-diagram-3 text-gold"></i> Key Inquiries for Ancestral &amp; Inherited Property</h4>
+                            <p>Families dealing with ancestral property should establish:</p>
+                            <ul class="mb-0">
+                                <li>The identity of the legal heirs.</li>
+                                <li>The deceased's applicable personal or succession law.</li>
+                                <li>Whether a will exists and is legally effective.</li>
+                                <li>The property's classification and title history.</li>
+                                <li>Whether probate, letters of administration or other proceedings are necessary.</li>
+                                <li>Whether a partition, release, settlement or mutation is proposed.</li>
+                                <li>Whether any foreign-exchange restrictions affect the transaction.</li>
+                            </ul>
+                        </div>
+                        <p>An OCI card does not, by itself, establish ownership of an inherited property. Ownership must be supported by the applicable succession and title documents.</p>
+                    </section>
+
+                    <!-- Section 7 -->
+                    <section id="section-7">
+                        <h2>7. Can OCI Cardholders Vote or Contest Elections in India?</h2>
+                        <p>No. OCI cardholders are not entitled to vote in Indian elections by virtue of their OCI status.</p>
+                        <p>They are also not entitled, in that capacity, to become members of Parliament, a State Legislative Assembly or a State Legislative Council.</p>
+                        <p>The official scheme also excludes OCI cardholders from specified constitutional offices, including the offices of President and Vice-President and judicial offices identified in the relevant provisions.</p>
+                        <p>OCI status therefore should not be confused with political rights attached to Indian citizenship.</p>
+                        <p>A foreign national considering political participation in India should understand that immigration status, citizenship, election law and other applicable rules are separate legal questions. The fact that an OCI card permits entry into India does not itself create electoral rights.</p>
+                    </section>
+
+                    <!-- Section 8 -->
+                    <section id="section-8">
+                        <h2>8. Can OCI Cardholders Apply for Indian Government Jobs?</h2>
+                        <p>OCI cardholders are generally not entitled to appointment to public services and posts connected with the affairs of the Union or a State, except where the Central Government has specifically permitted eligibility by special order.</p>
+                        <p>This restriction is important for OCI cardholders considering civil-service examinations, government recruitment or public-sector positions.</p>
+                        <p>Before applying, check:</p>
+                        <ul>
+                            <li>Whether the post is open only to Indian citizens.</li>
+                            <li>Whether a special order or statutory exception applies.</li>
+                            <li>Whether the recruitment notification expressly addresses OCI candidates.</li>
+                            <li>Whether the applicable service rules impose nationality requirements.</li>
+                        </ul>
+                        <p>Do not rely solely on the eligibility criteria of a general examination. The specific post and recruitment rules must also be reviewed.</p>
+
+                        <h3>Academic appointments</h3>
+                        <p>The official OCI guidance identifies eligibility for appointment as teaching faculty in specified institutions, including IITs, NITs, IIMs, IISERs, IISc, Central Universities and the new AIIMS established under the relevant government programme.</p>
+                        <p>This is a specific stated benefit. It should not be interpreted as unrestricted eligibility for all government or publicly funded employment.</p>
+                        <p>The applicable recruitment notification and institutional requirements should always be checked.</p>
+                    </section>
+
+                    <!-- Section 9 -->
+                    <section id="section-9">
+                        <h2>9. Can OCI Cardholders Study in India?</h2>
+                        <p>OCI cardholders may be eligible for certain educational opportunities under the scheme, including parity with NRIs for specified all-India entrance examinations and admission categories.</p>
+                        <p>The official guidance identifies examinations such as NEET and JEE, subject to the applicable rules. It also makes clear that OCI cardholders are not eligible for admission against seats reserved exclusively for Indian citizens under the stated framework.</p>
+                        <p>The actual position may depend on the institution, course, examination rules, seat category and current admission policy.</p>
+                        <p>Families should verify:</p>
+                        <ul>
+                            <li>Whether the course accepts OCI candidates.</li>
+                            <li>Whether the candidate is eligible under the relevant entrance examination rules.</li>
+                            <li>Whether the seat is an NRI, supernumerary or other permitted category.</li>
+                            <li>Whether any seats are reserved exclusively for Indian citizens.</li>
+                            <li>Whether the institution imposes additional documentary or nationality requirements.</li>
+                        </ul>
+                        <p>Admission eligibility should be confirmed with the relevant institution and the current official admission brochure before making financial or educational commitments.</p>
+                    </section>
+
+                    <!-- Section 10 -->
+                    <section id="section-10">
+                        <h2>10. What Other Benefits Do OCI Cardholders Receive?</h2>
+                        <p>The official OCI scheme provides several additional benefits, subject to the relevant conditions.</p>
+                        <p>These include:</p>
+                        <ul>
+                            <li><strong>Domestic air travel:</strong> Parity with Indian nationals in domestic air-fare tariffs, as specified under the scheme.</li>
+                            <li><strong>Entry fees:</strong> Parity with Indian nationals for entry fees at national parks, wildlife sanctuaries, national monuments, historical sites and museums, as specified under the scheme.</li>
+                            <li><strong>Inter-country adoption:</strong> Parity with NRIs in inter-country adoption of Indian children, subject to the procedure prescribed by the competent authority.</li>
+                            <li><strong>Specified professional activities:</strong> Parity with NRIs in the professional fields identified in the official guidance, subject to the relevant statutes and regulatory requirements.</li>
+                            <li><strong>Specified academic appointments:</strong> Eligibility for teaching faculty appointments in the institutions identified in the official OCI guidance, subject to the applicable requirements.</li>
+                        </ul>
+                        <p>The precise scope of these benefits should be checked against current government notifications. A benefit in one field does not create a general right in every other field.</p>
+                    </section>
+
+                    <!-- Section 11 -->
+                    <section id="section-11">
+                        <h2>11. Do OCI Cardholders Need Special Permission for Certain Activities?</h2>
+                        <p>Yes. Certain activities require prior permission or a special permit even where the person holds an OCI card.</p>
+                        <p>The official OCI guidance specifically identifies research, missionary or Tabligh activities, mountaineering, journalism, certain internships and employment involving foreign diplomatic missions or foreign government organisations, and visits to protected or restricted areas.</p>
+                        <p>The cardholder should determine:</p>
+                        <ul>
+                            <li>Whether the proposed activity falls within a listed category.</li>
+                            <li>Which authority is competent to grant permission.</li>
+                            <li>Whether an online application or supporting documents are required.</li>
+                            <li>Whether the intended location is subject to additional restrictions.</li>
+                            <li>Whether any other sector-specific approval is necessary.</li>
+                        </ul>
+                        <p>Permission should be obtained before undertaking a restricted activity. An OCI card should not be treated as a substitute for an expressly required permit.</p>
+                    </section>
+
+                    <!-- Section 12 -->
+                    <section id="section-12">
+                        <h2>12. Can an OCI Card Be Cancelled?</h2>
+                        <p>OCI registration is subject to the provisions of the Citizenship Act, 1955, including Section 7D, which provides grounds for cancellation.</p>
+                        <p>The legal position depends on the particular statutory ground and the facts of the case. Issues may arise in connection with eligibility, fraud or material misrepresentation, conduct covered by the statutory provisions, or other grounds specified by law.</p>
+                        <p>A cardholder who receives a notice or communication concerning cancellation should:</p>
+                        <ul>
+                            <li>Read the notice carefully and identify the legal basis relied upon.</li>
+                            <li>Preserve the OCI card, passport, application and supporting records.</li>
+                            <li>Collect relevant correspondence and evidence.</li>
+                            <li>Check the applicable procedural requirements and response deadline.</li>
+                            <li>Obtain case-specific legal advice before submitting a response.</li>
+                        </ul>
+                        <p>Cancellation should not be assumed to follow automatically from every allegation or disputed event. Equally, the cardholder should not ignore an official notice or assume that OCI status is unconditional.</p>
+                    </section>
+
+                    <!-- Section 13 -->
+                    <section id="section-13">
+                        <h2>13. Can an OCI Cardholder Become an Indian Citizen Later?</h2>
+                        <p>OCI registration does not automatically convert into Indian citizenship.</p>
+                        <p>The official OCI guidance states that an eligible adult OCI cardholder may apply for Indian citizenship under Section 5(1)(g) of the Citizenship Act, 1955, subject to the statutory requirements. These include holding OCI registration for the prescribed period and ordinary residence in India for the prescribed period immediately before applying, as well as the other applicable legal conditions.</p>
+                        <p>The Central Government may relax the specified residence-period requirement in the special circumstances and within the limits described in the official guidance.</p>
+                        <p>This is an application route, not an automatic entitlement to citizenship. The applicant must meet the applicable requirements, and the competent authority decides the application.</p>
+                        <p>A person considering citizenship should also obtain advice on the consequences for existing nationality, because India does not generally permit simultaneous Indian citizenship and foreign citizenship.</p>
+                    </section>
+
+                    <!-- Section 14 -->
+                    <section id="section-14">
+                        <h2>14. Practical Checklist for OCI Cardholders Planning a Move, Purchase or Long Stay in India</h2>
+                        <p>Before taking an important step in India, an OCI cardholder should consider the following checklist.</p>
+
+                        <!-- Checklist 1 -->
+                        <div class="checklist-group">
+                            <div class="checklist-group-header">
+                                <i class="bi bi-airplane-engines text-gold fs-5"></i>
+                                <h4>For travel or long stays</h4>
+                            </div>
+                            <div class="checklist-group-body">
+                                <ul>
+                                    <li>Check the validity and consistency of the foreign passport and OCI documentation.</li>
+                                    <li>Confirm whether the intended activity requires special permission.</li>
+                                    <li>Review applicable reporting requirements if normally resident in India.</li>
+                                    <li>Maintain records of address and occupation changes where required.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Checklist 2 -->
+                        <div class="checklist-group">
+                            <div class="checklist-group-header">
+                                <i class="bi bi-briefcase text-gold fs-5"></i>
+                                <h4>For employment or professional practice</h4>
+                            </div>
+                            <div class="checklist-group-body">
+                                <ul>
+                                    <li>Confirm that the proposed role is permitted.</li>
+                                    <li>Check whether the position is restricted to Indian citizens.</li>
+                                    <li>Verify professional registration and qualification requirements.</li>
+                                    <li>Obtain any special permission required for the activity.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Checklist 3 -->
+                        <div class="checklist-group">
+                            <div class="checklist-group-header">
+                                <i class="bi bi-building-check text-gold fs-5"></i>
+                                <h4>For property transactions</h4>
+                            </div>
+                            <div class="checklist-group-body">
+                                <ul>
+                                    <li>Confirm the legal classification of the property.</li>
+                                    <li>Review title, encumbrances and revenue records.</li>
+                                    <li>Check whether the transaction is a purchase, gift, inheritance, release or another form of transfer.</li>
+                                    <li>Verify the applicable foreign-exchange and property-transfer rules.</li>
+                                    <li>Obtain legal review before executing documents or transferring funds.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Checklist 4 -->
+                        <div class="checklist-group">
+                            <div class="checklist-group-header">
+                                <i class="bi bi-mortarboard text-gold fs-5"></i>
+                                <h4>For education</h4>
+                            </div>
+                            <div class="checklist-group-body">
+                                <ul>
+                                    <li>Review the current examination and admission rules.</li>
+                                    <li>Confirm the relevant seat category.</li>
+                                    <li>Check nationality-based restrictions and documentary requirements.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Checklist 5 -->
+                        <div class="checklist-group">
+                            <div class="checklist-group-header">
+                                <i class="bi bi-shield-exclamation text-gold fs-5"></i>
+                                <h4>For official notices or disputes</h4>
+                            </div>
+                            <div class="checklist-group-body">
+                                <ul>
+                                    <li>Preserve the relevant records.</li>
+                                    <li>Identify the legal provision and deadline.</li>
+                                    <li>Seek case-specific advice where the issue may affect OCI status, property rights or immigration position.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Section FAQs -->
+                    <section id="section-faqs" class="mt-5">
+                        <h2>Frequently Asked Questions</h2>
+                        <div class="accordion mt-4" id="faqAccordion">
+
+                            <!-- FAQ 1 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingFaq1">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq1" aria-expanded="true" aria-controls="collapseFaq1">
+                                        1. Does an OCI card give the same rights as Indian citizenship?
+                                    </button>
+                                </h3>
+                                <div id="collapseFaq1" class="accordion-collapse collapse show" aria-labelledby="headingFaq1" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        No. OCI cardholders remain foreign nationals. They receive specified benefits under Indian law but do not acquire all the rights of Indian citizens.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 2 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingFaq2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq2" aria-expanded="false" aria-controls="collapseFaq2">
+                                        2. Can an OCI cardholder live in India permanently?
+                                    </button>
+                                </h3>
+                                <div id="collapseFaq2" class="accordion-collapse collapse" aria-labelledby="headingFaq2" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        The OCI scheme provides a multiple-entry, lifelong visa and an exemption from FRRO/FRO registration for any length of stay, subject to the applicable conditions. This is not the same as Indian citizenship or an unconditional right to undertake every activity in India.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 3 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingFaq3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq3" aria-expanded="false" aria-controls="collapseFaq3">
+                                        3. Can an OCI cardholder work in India?
+                                    </button>
+                                </h3>
+                                <div id="collapseFaq3" class="accordion-collapse collapse" aria-labelledby="headingFaq3" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        OCI cardholders may work in India subject to applicable laws and restrictions. Certain activities require prior permission, and public-service positions may be restricted.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 4 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingFaq4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq4" aria-expanded="false" aria-controls="collapseFaq4">
+                                        4. Can an OCI cardholder buy a house or apartment in India?
+                                    </button>
+                                </h3>
+                                <div id="collapseFaq4" class="accordion-collapse collapse" aria-labelledby="headingFaq4" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Generally, an OCI cardholder may purchase eligible immovable property other than agricultural land, a farmhouse or plantation property, subject to applicable laws and restrictions. A property-specific review is advisable before a transaction.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 5 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingFaq5">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq5" aria-expanded="false" aria-controls="collapseFaq5">
+                                        5. Can an OCI cardholder buy agricultural land in India?
+                                    </button>
+                                </h3>
+                                <div id="collapseFaq5" class="accordion-collapse collapse" aria-labelledby="headingFaq5" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        The official OCI scheme excludes the acquisition of agricultural land, farmhouses and plantation property under its stated property benefit. Other forms of transfer, including inheritance, require separate examination under the applicable laws.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 6 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingFaq6">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq6" aria-expanded="false" aria-controls="collapseFaq6">
+                                        6. Can an OCI cardholder inherit ancestral property?
+                                    </button>
+                                </h3>
+                                <div id="collapseFaq6" class="accordion-collapse collapse" aria-labelledby="headingFaq6" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Potentially, depending on the succession law, the property, the nature of the transfer and any applicable restrictions. The title and inheritance documents should be reviewed before a transfer or mutation is undertaken.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 7 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingFaq7">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq7" aria-expanded="false" aria-controls="collapseFaq7">
+                                        7. Can an OCI cardholder vote in Indian elections?
+                                    </button>
+                                </h3>
+                                <div id="collapseFaq7" class="accordion-collapse collapse" aria-labelledby="headingFaq7" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        No. OCI status does not confer the right to vote or contest elections for Parliament or State Legislatures.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 8 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingFaq8">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq8" aria-expanded="false" aria-controls="collapseFaq8">
+                                        8. Can an OCI cardholder apply for Indian government employment?
+                                    </button>
+                                </h3>
+                                <div id="collapseFaq8" class="accordion-collapse collapse" aria-labelledby="headingFaq8" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Generally, OCI cardholders are not entitled to public-service appointments connected with the Union or a State unless a specific exception or special order applies. The recruitment rules for the particular post should be checked.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 9 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingFaq9">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq9" aria-expanded="false" aria-controls="collapseFaq9">
+                                        9. Can an OCI cardholder become an Indian citizen?
+                                    </button>
+                                </h3>
+                                <div id="collapseFaq9" class="accordion-collapse collapse" aria-labelledby="headingFaq9" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        An eligible adult OCI cardholder may apply under Section 5(1)(g) of the Citizenship Act, 1955, subject to the applicable requirements. Citizenship is not granted automatically merely because a person has held an OCI card.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 10 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingFaq10">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFaq10" aria-expanded="false" aria-controls="collapseFaq10">
+                                        10. Where can I verify current OCI benefits and restrictions?
+                                    </button>
+                                </h3>
+                                <div id="collapseFaq10" class="accordion-collapse collapse" aria-labelledby="headingFaq10" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Consult the official OCI Services portal and the Ministry of External Affairs' OCI FAQ. Also check any relevant notifications or rules governing the specific activity or transaction.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <!-- Section CTA -->
+                    <section id="section-cta">
+                        <div class="article-end-cta">
+                            <h3>Need Advice on OCI Rights, Property or Documentation in India?</h3>
+                            <p>OCI status can be useful for families who travel frequently, maintain connections with India or plan to acquire or inherit property. However, the legal requirements differ depending on whether the issue concerns travel, employment, property, succession, education or citizenship.</p>
+                            <p>RRC Law Associates can assist with a structured legal and documentary review of matters involving:</p>
+                            <ul>
+                                <li>OCI eligibility and documentation.</li>
+                                <li>Indian property purchases and title due diligence.</li>
+                                <li>Inherited and ancestral property.</li>
+                                <li>Succession, partition and transfer documentation.</li>
+                                <li>Powers of attorney for overseas clients.</li>
+                                <li>Legal issues requiring coordination between overseas clients and Indian authorities.</li>
+                            </ul>
+                            <p>The scope of assistance depends on the facts and documents available. A review can help identify the applicable legal framework and the questions that need to be resolved before proceeding.</p>
+                            <p>Contact RRC Law Associates to discuss your OCI-related legal or property matter in India.</p>
+                            <div class="cta-btn-group mt-4">
+                                <a href="./booking.html" class="cta-btn-primary">
+                                    <i class="bi bi-calendar-check"></i> Book Legal Consultation
+                                </a>
+                                <a href="https://wa.me/919751182452" target="_blank" rel="noopener noreferrer" class="cta-btn-whatsapp">
+                                    <i class="bi bi-whatsapp"></i> Chat on WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Section Disclaimer -->
+                    <section id="section-disclaimer">
+                        <div class="article-disclaimer">
+                            <p class="mb-0"><strong>Legal disclaimer:</strong> This article is for general informational purposes and does not constitute legal advice on an individual case. OCI rights and restrictions are governed by the applicable legislation, notifications and other laws. Readers should verify current official requirements before acting. No particular application outcome, property transaction or government decision is guaranteed.</p>
+                        </div>
+                    </section>
+
+                </article>
+            </div>
+
+            <!-- Sticky Sidebar Column -->
+            <div class="col-lg-4">
+                <aside class="sidebar-sticky-wrapper">
+
+                    <!-- Table of Contents Card -->
+                    <div class="sidebar-card">
+                        <div class="sidebar-card-title">
+                            <i class="bi bi-list-nested text-gold"></i> Table of Contents
+                        </div>
+                        <ul class="toc-list">
+                            <li><a href="#section-1">1. What Is an OCI Card?</a></li>
+                            <li><a href="#section-2">2. Travel Privileges &amp; Visas</a></li>
+                            <li><a href="#section-3">3. Living in India &amp; FRRO</a></li>
+                            <li><a href="#section-4">4. Working &amp; Professional Practice</a></li>
+                            <li><a href="#section-5">5. Buying Property in India</a></li>
+                            <li><a href="#section-6">6. Inheriting Property &amp; Succession</a></li>
+                            <li><a href="#section-7">7. Voting &amp; Political Rights</a></li>
+                            <li><a href="#section-8">8. Indian Government Employment</a></li>
+                            <li><a href="#section-9">9. Higher Education &amp; Admissions</a></li>
+                            <li><a href="#section-10">10. Additional Official Benefits</a></li>
+                            <li><a href="#section-11">11. Special Permission Activities</a></li>
+                            <li><a href="#section-12">12. Cancellation of OCI Card</a></li>
+                            <li><a href="#section-13">13. Future Indian Citizenship</a></li>
+                            <li><a href="#section-14">14. Practical Action Checklist</a></li>
+                            <li><a href="#section-faqs">Frequently Asked Questions</a></li>
+                            <li><a href="#section-cta">Legal &amp; Property Consultation</a></li>
+                            <li><a href="#section-disclaimer">Legal Disclaimer</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Consultation Action Card -->
+                    <div class="sidebar-cta-card mb-4">
+                        <h4>Need Case-Specific OCI or Property Advice?</h4>
+                        <p>Speak with our senior advocates regarding your OCI rights, property title due diligence, inheritance documentation or special permissions in India.</p>
+                        <a href="./booking.html" class="btn-gold-cta mb-2">
+                            <i class="bi bi-calendar-event me-1"></i> Book Consultation
+                        </a>
+                        <div class="mt-2 text-center">
+                            <a href="https://wa.me/919751182452" target="_blank" rel="noopener noreferrer" style="color: #25d366; text-decoration: none; font-size: 0.88rem; font-weight: 600;">
+                                <i class="bi bi-whatsapp"></i> Instant WhatsApp Enquiry
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Related Guides -->
+                    <div class="sidebar-card">
+                        <div class="sidebar-card-title">
+                            <i class="bi bi-journal-bookmark-fill text-gold"></i> Related OCI Guides
+                        </div>
+                        <ul class="toc-list">
+                            <li>
+                                <a href="oci-legal-guides.html">
+                                    <strong><i class="bi bi-collection text-gold me-1"></i> OCI Legal Guides Hub</strong>
+                                    <div class="small text-muted">Master index of comprehensive guides</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-eligibility-legal-status.html">
+                                    <strong><i class="bi bi-shield-check text-gold me-1"></i> Guide 1: Eligibility &amp; Status</strong>
+                                    <div class="small text-muted">Meaning, qualifications &amp; legal rights</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-vs-nri-vs-indian-citizen.html">
+                                    <strong><i class="bi bi-people text-gold me-1"></i> Guide 2: OCI vs NRI vs Indian Citizen</strong>
+                                    <div class="small text-muted">Legal differences, rights &amp; status</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-application-documents.html">
+                                    <strong><i class="bi bi-file-earmark-text text-gold me-1"></i> Guide 3: Application &amp; Documents</strong>
+                                    <div class="small text-muted">Procedure, document checklist &amp; mistakes</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-indian-ancestry-assistance.html">
+                                    <strong><i class="bi bi-diagram-3 text-gold me-1"></i> Guide 4: Indian Ancestry</strong>
+                                    <div class="small text-muted">Proving Indian origin &amp; record search</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-foreign-spouse-eligibility.html">
+                                    <strong><i class="bi bi-heart text-gold me-1"></i> Guide 5: Foreign Spouses</strong>
+                                    <div class="small text-muted">Eligibility, marriage rules &amp; checklist</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-for-children-born-abroad.html">
+                                    <strong><i class="bi bi-person-heart text-gold me-1"></i> Guide 6: Children Born Abroad</strong>
+                                    <div class="small text-muted">Citizenship, eligibility &amp; documents</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-cardholders-inherit-sell-ancestral-property-india.html">
+                                    <strong><i class="bi bi-house-door text-gold me-1"></i> Guide 8: Ancestral Property</strong>
+                                    <div class="small text-muted">Inheriting, selling &amp; FEMA rules</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="nri-oci-property-due-diligence-india.html">
+                                    <strong><i class="bi bi-search text-gold me-1"></i> Guide 10: Property Due Diligence</strong>
+                                    <div class="small text-muted">Title verification, EC &amp; land records</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="nri-oci-property-tax-india.html">
+                                    <strong><i class="bi bi-cash-coin text-gold me-1"></i> Guide 11: Property Tax &amp; Repatriation</strong>
+                                    <div class="small text-muted">TDS, capital gains &amp; remittance</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-renewal-passport-update.html">
+                                    <strong><i class="bi bi-arrow-repeat text-gold me-1"></i> Guide 12: Renewal &amp; Passport Update</strong>
+                                    <div class="small text-muted">Passport updates, e-OCI &amp; re-issue</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-cancellation-grounds-remedies.html">
+                                    <strong><i class="bi bi-shield-x text-gold me-1"></i> Guide 13: OCI Card Cancellation</strong>
+                                    <div class="small text-muted">Section 7D, notices &amp; legal remedies</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-cancellation-section-7d-legal-remedies.html">
+                                    <strong><i class="bi bi-shield-lock text-gold me-1"></i> Guide 14: Section 7D &amp; Criminal Cases</strong>
+                                    <div class="small text-muted">Criminal proceedings, notifications &amp; writ review</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-assistance.html">
+                                    <strong><i class="bi bi-briefcase text-gold me-1"></i> OCI Legal Services</strong>
+                                    <div class="small text-muted">Our complete scope of representation</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </aside>
+            </div>
+        </div>
+    </main>
+
+
+        <footer class="footer">
+        <div class="footer-contain">
+
+            <div class="footer-grid">
+
+                <!-- Brand -->
+                <div class="footer-brand">
+                    <div class="logo-icon">
+                        <a href="index.html" title="Home">
+                            <img src="assets/images/logo.png" alt="Law Firm Logo" class="logo-img">
+
+                            <div>
+                                <strong>RRC</strong>
+                                <strong>Law Associates</strong>
+                            </div>
+                        </a>
+                    </div>
+
+                    <p>
+                        Providing trusted legal solutions with integrity since 2008. Your reliable
+                        partner for all legal matters in Tamil Nadu.
+                    </p>
+
+                    <div class="social"></div>
+                </div>
+
+                <!-- Practice Areas -->
+                <div>
+                    <h4>Practice Areas</h4>
+                    <ul>
+                        <li>
+                            <a href="family-law.html">Family Law</a>
+                        </li>
+                        <li>
+                            <a href="property-law.html">Property Law</a>
+                        </li>
+                        <li>
+                            <a href="employment-law.html">Employment Law</a>
+                        </li>
+                        <li>
+                            <a href="white-collar-crime.html">White Collar Crimes</a>
+                        </li>
+                        <li>
+                            <a href="intellectual-property.html">Intellectual Property</a>
+                        </li>
+                        <li>
+                            <a href="litigation-dispute-resolution.html">Litigation Dispute</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="nri-services.html">NRI Services</a>
+                        </li>
+                        <li>
+                            <a href="oci-card-assistance.html">OCI Card &amp; Ancestry</a>
+                        </li>
+                        <li>
+                            <a href="core-practice-areas.html">Practice Areas</a>
+                        </li>
+                        <li>
+                            <a href="lawfirm-blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="index.html#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4>Contact Us</h4>
+                    <ul class="contact">
+                        <li>
+                            <span>Address</span>
+                            <p>
+                                No 82/6B, Deen Complex, Mary's Corner, Parisutham Nagar, Thanjavur, Tamil Nadu-613001
+                            </p>
+                        </li>
+                        <li>
+                            <span>Phone</span>
+                            <a href="tel:+919751182452">+91 97511 82452</a>
+                        </li>
+                        <li>
+                            <span>Email</span>
+                            <a href="mailto:dr.kumar@rrclawassociates.com">
+                                dr.kumar@rrclawassociates.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Bottom -->
+            <div class="footer-bottom">
+                <p>&copy;
+                    <span id="year">2026</span>
+                    RRC Law Associates. All rights reserved.</p>
+                <div class="legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Disclaimer</a>
+                </div>
+            </div>
+
+        </div>
+        </footer>
+
+
+
+    <!-- Bootstrap and Custom JS Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Floating WhatsApp CTA -->
+    <a
+        href="https://wa.me/919751182452?text=Hello%20RRC%20Law%20Associates,%20I%20am%20looking%20for%20legal%20consultation."
+        class="whatsapp-float"
+        target="_blank"
+        rel="noopener"
+        aria-label="Chat with RRC Law Associates on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="float-text">Chat with us</span>
+    </a>
+
+    <!-- RRC AI Assistant Mount & Integration -->
+    <div data-rrc-ai-chat-root></div>
+    <script src="script.js?v=20261008-1" data-rrc-ai-only defer></script>
+</body>
+</html>

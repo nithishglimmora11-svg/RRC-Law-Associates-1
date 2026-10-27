@@ -1,0 +1,1749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NRI Property Tax in India: TDS, Capital Gains and Repatriation | RRC Law Associates</title>
+    <meta name="description" content="Selling or inheriting property in India as an NRI or OCI cardholder? Understand TDS, capital gains, inherited property taxation and repatriation rules.">
+    <meta name="keywords" content="NRI property tax India, OCI property tax India, NRI property sale TDS, capital gains on inherited property India, NRI sale proceeds repatriation, tax on ancestral property sale">
+    <link rel="canonical" href="https://rrclawassociates.com/nri-oci-property-tax-india/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://rrclawassociates.com/nri-oci-property-tax-india/">
+    <meta property="og:title" content="NRI Property Tax in India: TDS, Capital Gains and Repatriation | RRC Law Associates">
+    <meta property="og:description" content="Selling or inheriting property in India as an NRI or OCI cardholder? Understand TDS, capital gains, inherited property taxation and repatriation rules.">
+    <meta property="og:image" content="https://rrclawassociates.com/assets/images/nri-oci-property-tax-india.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://rrclawassociates.com/nri-oci-property-tax-india/">
+    <meta property="twitter:title" content="NRI Property Tax in India: TDS, Capital Gains and Repatriation | RRC Law Associates">
+    <meta property="twitter:description" content="Selling or inheriting property in India as an NRI or OCI cardholder? Understand TDS, capital gains, inherited property taxation and repatriation rules.">
+    <meta property="twitter:image" content="https://rrclawassociates.com/assets/images/nri-oci-property-tax-india.jpg">
+
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+    <!-- CSS Dependencies -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=20261008-1">
+    <link rel="stylesheet" href="style2.css?v=20261008-1">
+    <link rel="stylesheet" href="topbar.css?v=20261008-1">
+
+    <style>
+        :root {
+            --primary: #0b1c2d;
+            --secondary: #1a365d;
+            --gold: #c9a24d;
+            --gold-hover: #b38f40;
+            --gold-light: rgba(201, 162, 77, 0.12);
+            --gold-border: rgba(201, 162, 77, 0.35);
+            --cream: #fbf9f4;
+            --text-heading: #0b1c2d;
+            --text-body: #333333;
+            --text-muted: #64748b;
+            --border-light: #e2e8f0;
+            --bg-card: #ffffff;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            color: var(--text-body);
+            background-color: #ffffff;
+            line-height: 1.75;
+            overflow-x: hidden;
+            font-size: 17.5px;
+        }
+
+        /* Header Navigation Styles (Preserved) */
+
+        .header {
+            position: fixed;
+            top: 42px;
+            left: 0;
+            width: 100%;
+            z-index: 1190;
+            background: #000000 !important;
+            padding: 5px 0;
+            min-height: 80px;
+            display: flex;
+            align-items: center;
+            box-shadow: none;
+        }
+
+        .logo-img {
+            height: 60px;
+            width: auto;
+        }
+
+        .nav-link-custom {
+            color: #ffffff !important;
+            font-weight: 500;
+            padding: 8px 16px;
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.2s ease;
+        }
+
+        .nav-link-custom:hover {
+            color: var(--gold) !important;
+        }
+
+        .dropdown-menu {
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            border: 1px solid #e2e8f0;
+            padding: 10px 0;
+            background: #ffffff;
+        }
+
+        .dropdown-item {
+            padding: 8px 20px;
+            font-size: 0.9rem;
+            color: #1e293b;
+            transition: all 0.2s ease;
+        }
+
+        .dropdown-item:hover {
+            background-color: var(--gold-light);
+            color: #0b1c2d;
+            padding-left: 24px;
+        }
+
+        /* Mobile Drawer */
+        .mobile-menu {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 300px;
+            height: 100%;
+            background: #0b1c2d;
+            z-index: 1300;
+            transition: right 0.3s ease;
+            box-shadow: -5px 0 25px rgba(0, 0, 0, 0.5);
+            overflow-y: auto;
+        }
+
+        .mobile-menu.active {
+            right: 0;
+        }
+
+        /* Article Hero */
+        .article-hero {
+            padding-top: 170px;
+            padding-bottom: 50px;
+            background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .breadcrumbs-bar {
+            font-size: 0.88rem;
+            color: var(--text-muted);
+            margin-bottom: 18px;
+        }
+
+        .breadcrumbs-bar a {
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .breadcrumbs-bar a:hover {
+            color: var(--gold);
+        }
+
+        .meta-text {
+            display: inline-block;
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--gold);
+            font-weight: 700;
+            margin-bottom: 12px;
+            background: var(--gold-light);
+            padding: 4px 14px;
+            border-radius: 30px;
+            border: 1px solid var(--gold-border);
+        }
+
+        .article-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.7rem;
+            font-weight: 700;
+            color: var(--primary);
+            line-height: 1.25;
+            max-width: 1040px;
+            margin: 0 auto 20px;
+        }
+
+        .article-subtitle {
+            font-size: 1.2rem;
+            color: #475569;
+            max-width: 860px;
+            margin: 0 auto 25px;
+            line-height: 1.6;
+        }
+
+        .article-meta-row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 24px;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .article-meta-item {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Featured Image */
+        .featured-image-wrapper {
+            max-width: 1000px;
+            margin: 2.5rem auto 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+            border: 1px solid var(--border-light);
+        }
+
+        .featured-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            max-height: 520px;
+            object-fit: cover;
+        }
+
+        .featured-image-caption {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-align: center;
+            padding: 10px 15px;
+            background: #ffffff;
+            border-top: 1px solid var(--border-light);
+            font-style: italic;
+        }
+
+        /* Main Content Layout */
+        .article-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 50px 20px 80px;
+        }
+
+        .article-content-col {
+            max-width: 840px;
+        }
+
+        /* Typography & Headings */
+        .article-body h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #0b1c2d;
+            margin-top: 2.8rem;
+            margin-bottom: 1.2rem;
+            padding-bottom: 0.6rem;
+            border-bottom: 2px solid rgba(201, 162, 77, 0.35);
+            line-height: 1.35;
+        }
+
+        .article-body h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.35rem;
+            font-weight: 600;
+            color: #1a365d;
+            margin-top: 2rem;
+            margin-bottom: 0.9rem;
+            line-height: 1.4;
+        }
+
+        .article-body p {
+            margin-bottom: 1.4rem;
+            color: #2d3748;
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+
+        .article-body ul, .article-body ol {
+            margin-bottom: 1.5rem;
+            padding-left: 1.4rem;
+        }
+
+        .article-body li {
+            margin-bottom: 0.65rem;
+            color: #2d3748;
+            line-height: 1.7;
+        }
+
+        .lead-intro {
+            font-size: 1.12rem;
+            line-height: 1.85;
+            color: #1e293b;
+            background: #f8fafc;
+            border-left: 4px solid var(--gold);
+            padding: 24px 28px;
+            border-radius: 0 10px 10px 0;
+            margin-bottom: 2.5rem;
+        }
+
+        .lead-intro p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Step Card Styling */
+        .step-block {
+            background: #ffffff;
+            border: 1px solid var(--border-light);
+            border-radius: 10px;
+            padding: 20px 24px;
+            margin-bottom: 1.2rem;
+            border-left: 4px solid var(--gold);
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.02);
+        }
+
+        .step-block h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            color: var(--secondary);
+        }
+
+        .step-block p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Sidebar & Sticky Nav */
+        .sidebar-sticky-wrapper {
+            position: sticky;
+            top: 135px;
+        }
+
+        .sidebar-card {
+            background: #ffffff;
+            border: 1px solid var(--border-light);
+            border-radius: 12px;
+            padding: 26px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
+        }
+
+        .sidebar-card-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 18px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--gold-border);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .toc-list {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+
+        .toc-list li {
+            margin-bottom: 9px;
+            font-size: 0.88rem;
+            line-height: 1.45;
+        }
+
+        .toc-list a {
+            color: #475569;
+            text-decoration: none;
+            display: block;
+            padding: 5px 8px;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+        }
+
+        .toc-list a:hover, .toc-list a.active {
+            color: var(--primary);
+            background-color: var(--gold-light);
+            font-weight: 600;
+            padding-left: 12px;
+        }
+
+        .sidebar-cta-card {
+            background: linear-gradient(135deg, #0b1c2d 0%, #1a365d 100%);
+            color: #ffffff;
+            border-radius: 12px;
+            padding: 28px 24px;
+            text-align: center;
+        }
+
+        .sidebar-cta-card h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.35rem;
+            color: var(--gold);
+            margin-bottom: 12px;
+        }
+
+        .sidebar-cta-card p {
+            color: #cbd5e1;
+            font-size: 0.92rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .btn-gold-cta {
+            display: inline-block;
+            width: 100%;
+            background-color: var(--gold);
+            color: #0b1c2d;
+            font-weight: 700;
+            padding: 11px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            text-align: center;
+            font-size: 0.95rem;
+        }
+
+        .btn-gold-cta:hover {
+            background-color: #d8b25d;
+            color: #0b1c2d;
+            transform: translateY(-2px);
+        }
+
+        /* FAQ Accordion Styling */
+        .faq-accordion .accordion-item {
+            border: 1px solid var(--border-light);
+            border-radius: 8px !important;
+            margin-bottom: 14px;
+            overflow: hidden;
+            background: #ffffff;
+        }
+
+        .faq-accordion .accordion-button {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: var(--primary);
+            background: #ffffff;
+            padding: 18px 22px;
+            box-shadow: none;
+            border: none;
+        }
+
+        .faq-accordion .accordion-button:not(.collapsed) {
+            background-color: var(--cream);
+            color: var(--primary);
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .faq-accordion .accordion-button::after {
+            background-size: 14px;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .faq-accordion .accordion-body {
+            padding: 20px 24px;
+            color: #334155;
+            font-size: 1rem;
+            line-height: 1.75;
+            background: #ffffff;
+        }
+
+        /* Consultation CTA Box */
+        .article-cta-box {
+            background: linear-gradient(135deg, #0b1c2d 0%, #1a365d 100%);
+            color: #ffffff;
+            border-radius: 14px;
+            padding: 42px 36px;
+            margin: 3.5rem 0 2.5rem;
+            position: relative;
+            overflow: hidden;
+            border-left: 6px solid var(--gold);
+        }
+
+        .article-cta-box h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.85rem;
+            color: var(--gold);
+            margin-bottom: 14px;
+            font-weight: 700;
+        }
+
+        .article-cta-box p {
+            color: #e2e8f0;
+            font-size: 1.05rem;
+            line-height: 1.75;
+            margin-bottom: 1.2rem;
+        }
+
+        .cta-btn-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-top: 25px;
+        }
+
+        .cta-btn-primary {
+            background-color: var(--gold);
+            color: #0b1c2d;
+            font-weight: 700;
+            padding: 13px 26px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .cta-btn-primary:hover {
+            background-color: #d8b25d;
+            color: #0b1c2d;
+            transform: translateY(-2px);
+        }
+
+        .cta-btn-whatsapp {
+            background-color: #25d366;
+            color: #ffffff;
+            font-weight: 600;
+            padding: 13px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .cta-btn-whatsapp:hover {
+            background-color: #20bd5a;
+            color: #ffffff;
+            transform: translateY(-2px);
+        }
+
+        /* Disclaimer */
+        .article-disclaimer {
+            background-color: #f1f5f9;
+            border-radius: 10px;
+            padding: 22px 26px;
+            font-size: 0.88rem;
+            color: #475569;
+            line-height: 1.65;
+            margin-top: 2.5rem;
+            border: 1px solid var(--border-light);
+        }
+
+        /* Responsive Tweaks */
+        @media (max-width: 991px) {
+            .article-hero {
+                padding-top: 140px;
+            }
+            .article-title {
+                font-size: 2.1rem;
+            }
+            .article-subtitle {
+                font-size: 1.08rem;
+            }
+            .sidebar-sticky-wrapper {
+                position: static;
+                margin-top: 40px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .article-title {
+                font-size: 1.75rem;
+            }
+            .lead-intro {
+                padding: 18px 20px;
+            }
+            .cta-btn-group {
+                flex-direction: column;
+            }
+            .cta-btn-primary, .cta-btn-whatsapp {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "@id": "https://rrclawassociates.com/nri-oci-property-tax-india/#article",
+          "isPartOf": {
+            "@id": "https://rrclawassociates.com/#website"
+          },
+          "headline": "NRI and OCI Property Tax in India: TDS, Capital Gains and Repatriation",
+          "description": "Selling or inheriting property in India as an NRI or OCI cardholder? Understand TDS, capital gains, inherited property taxation and repatriation rules.",
+          "image": "https://rrclawassociates.com/assets/images/nri-oci-property-tax-india.jpg",
+          "datePublished": "2026-10-13T09:00:00+05:30",
+          "dateModified": "2026-10-13T09:00:00+05:30",
+          "inLanguage": "en-US",
+          "mainEntityOfPage": "https://rrclawassociates.com/nri-oci-property-tax-india/",
+          "author": {
+            "@type": "LegalService",
+            "name": "RRC Law Associates",
+            "url": "https://rrclawassociates.com/"
+          },
+          "publisher": {
+            "@type": "LegalService",
+            "name": "RRC Law Associates",
+            "url": "https://rrclawassociates.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://rrclawassociates.com/assets/images/logo.png"
+            }
+          },
+          "keywords": [
+            "NRI property tax India",
+            "OCI property tax India",
+            "NRI property sale TDS",
+            "capital gains on inherited property India",
+            "NRI sale proceeds repatriation",
+            "tax on ancestral property sale"
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://rrclawassociates.com/nri-oci-property-tax-india/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://rrclawassociates.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "OCI Legal Guides",
+              "item": "https://rrclawassociates.com/oci-legal-guides.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Guide 11: NRI and OCI Property Tax in India",
+              "item": "https://rrclawassociates.com/nri-oci-property-tax-india/"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://rrclawassociates.com/nri-oci-property-tax-india/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Does an NRI have to pay capital gains tax when selling property in India?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Capital gains tax may apply depending on the transaction and the applicable law. The computation depends on the acquisition history, sale consideration, allowable costs, holding period and any available relief."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is TDS applicable when an NRI sells property in India?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The buyer may have a withholding obligation under the applicable tax legislation. The correct treatment must be determined based on the seller's status, the transaction and the law applicable on the relevant date."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is TDS the final tax payable?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Not necessarily. TDS is a withholding mechanism. The final liability must be calculated under the applicable tax provisions."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How is capital gains tax calculated on inherited property?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The computation may involve the previous owner's acquisition cost and holding period, subject to the applicable law. The inheritance documents and historical acquisition records should be reviewed."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can an OCI cardholder remit all property sale proceeds abroad?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Not automatically. Repatriation depends on the applicable RBI regulations, the manner in which the property was acquired, relevant limits and documentary requirements."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can proceeds from inherited property be remitted abroad?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A remittance may be permitted under the applicable framework, subject to the conditions, limits and evidence required for the particular transaction."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does an NRI have to pay tax in both India and the country of residence?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Potentially, depending on the domestic laws of the relevant countries and any applicable tax treaty. Foreign tax relief may be available in appropriate circumstances, but it must be assessed individually."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does OCI status determine tax residence?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. OCI status and tax residence are separate legal concepts. Tax residence must be assessed under the applicable tax legislation."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What documents should be retained after selling property?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Relevant documents may include the acquisition deed, inheritance records, sale deed, bank statements, TDS records, tax returns and supporting evidence required for a repatriation application."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "When should I obtain tax advice?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ideally, before finalising the sale agreement or payment arrangements, especially where the seller is non-resident, the property was inherited or the sale proceeds are intended to be remitted abroad."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+
+
+<!-- =========================================================
+     TOP BAR
+========================================================== -->
+
+<div class="rrc-topbar">
+
+    <div class="rrc-topbar-container">
+
+        <!-- LEFT SIDE -->
+        <div class="rrc-topbar-left">
+
+            <a href="tel:+9197511 82452">
+                <i class="bi bi-telephone-fill"></i>
+                +91 97511 82452
+            </a>
+
+            <span class="rrc-topbar-divider"></span>
+
+            <a href="mailto:dr.kumar@rrclawassociates.com">
+                <i class="bi bi-envelope-fill"></i>
+                dr.kumar@rrclawassociates.com
+            </a>
+
+        </div>
+
+
+        <!-- RIGHT SIDE -->
+        <div class="rrc-topbar-right">
+
+            <span>
+                <i class="bi bi-clock"></i>
+                Mon &#8211; Sat: 10:00 AM &#8211; 10:00 PM
+            </span>
+
+            <span class="rrc-topbar-divider"></span>
+
+            <a href="https://www.linkedin.com/company/rrclawassociates/" aria-label="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+            </a>
+
+            <a href="https://www.instagram.com/rrclawassociates/" aria-label="Instagram">
+                <i class="bi bi-instagram"></i>
+            </a>
+
+            <a href="https://www.facebook.com/rrclawassociates/" aria-label="Facebook">
+                <i class="bi bi-facebook"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+        <header class="header">
+            <nav class="container d-flex align-items-center justify-content-between">
+                <a href="index.html">
+                    <img src="assets/images/rrclogo.png" alt="RRC Logo" class="logo-img">
+                </a>
+
+                <div class="d-none d-lg-flex align-items-center ms-auto">
+                    <div class="dropdown">
+                        <a
+                            class="nav-link-custom border-0 bg-transparent p-0"
+                            href="index.html"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Home
+                        </a>
+                    </div>
+                    <div class="dropdown">
+                        <a
+                            class="nav-link-custom dropdown-toggle border-0 bg-transparent p-0"
+                            href="nri-services.html"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            NRI Services
+                        </a>
+                        <ul class="dropdown-menu shadow-lg">
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="oci-card-assistance.html">OCI Card &amp; Ancestry Assistance</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="nri-property-disputes.html">Property Dispute</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="nri-power-of-attorney.html">Power of Attorney</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="nri-criminal-case.html">Criminal Cases</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="nri-family-matrimonial.html">Family &amp; Matrimonial</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <a
+                            class="nav-link-custom dropdown-toggle border-0 bg-transparent p-0"
+                            href="core-practice-areas.html"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Core Practice Areas
+                        </a>
+                        <ul class="dropdown-menu shadow-lg">
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="family-law.html">Family Law Workspace</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="intellectual-property.html">Intellectual Property Advisory</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="employment-law.html">Labour &amp; Employment Protection</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="white-collar-crime.html">White Collar Crime Defense</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="property-law.html">Due Diligence Frameworks</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="cyber-law.html">Cyber Law Desk</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="litigation-dispute-resolution.html">Litigation &amp; Dispute Resolution</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <a
+                            class="nav-link-custom border-0 bg-transparent p-0"
+                            href="./partners.html"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Partners
+                        </a>
+                    </div>
+                    <div class="dropdown">
+                        <a
+                            class="nav-link-custom border-0 bg-transparent p-0"
+                            href="lawfirm-blog.html"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Blog
+                        </a>
+                    </div>
+                    <div class="dropdown">
+                        <a
+                            class="nav-link-custom border-0 bg-transparent p-0"
+                            href="index.html#contact"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-center gap-3">
+                    <div class="cta d-none d-sm-block">
+                        <a href="./booking.html" class="btn btn-gold">Book Consultation</a>
+                    </div>
+                    <button class="btn text-white d-lg-none fs-3 p-0" id="menuToggle">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </header>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <button class="close-menu" id="closeMenu">&#x2715;</button>
+            <div class="mt-5">
+                <a href="index.html" class="m-link">Home</a>
+                <div class="m-dropdown">
+                    <a class="m-link m-trigger" href="nri-services.html">
+                        NRI Services <i class="fa fa-chevron-down ms-2"></i>
+                    </a>
+                    <div class="m-submenu" id="mPracticeMenu">
+                        <a class="m-sub-item" href="oci-card-assistance.html">OCI Card &amp; Ancestry Assistance</a>
+                        <a class="m-sub-item" href="nri-property-disputes.html">Property Dispute</a>
+                        <a class="m-sub-item" href="nri-power-of-attorney.html">Power of Attorney</a>
+                        <a class="m-sub-item" href="nri-criminal-case.html">Criminal Case</a>
+                        <a class="m-sub-item" href="nri-family-matrimonial.html">Family &amp; Matrimonial</a>
+                    </div>
+                </div>
+                <div class="m-dropdown">
+                    <a class="m-link m-trigger" href="core-practice-areas.html">
+                        Core Practice Areas <i class="fa fa-chevron-down ms-2"></i>
+                    </a>
+                    <div class="m-submenu" id="mPracticeMenu2">
+                        <a class="m-sub-item" href="family-law.html">FAMILY, SUCCESSION &amp; PRIVATE CLIENT PRACTICE</a>
+                        <a class="m-sub-item" href="intellectual-property.html">INTELLECTUAL PROPERTY &amp; INNOVATION PROTECTION</a>
+                        <a class="m-sub-item" href="employment-law.html">LABOUR, EMPLOYMENT &amp; INDUSTRIAL RELATIONS</a>
+                        <a class="m-sub-item" href="white-collar-crime.html">WHITE COLLAR CRIMES &amp; FINANCIAL INVESTIGATIONS</a>
+                        <a class="m-sub-item" href="property-law.html">DOCUMENTATION, REGISTRATION &amp; DUE DILIGENCE</a>
+                        <a class="m-sub-item" href="cyber-law.html">CYBER LAW, DATA PROTECTION &amp; DIGITAL EVIDENCE</a>
+                        <a class="m-sub-item" href="litigation-dispute-resolution.html">LITIGATION &amp; DISPUTE RESOLUTION</a>
+                    </div>
+                </div>
+                <a href="partners.html" class="m-link">Partners</a>
+                <a href="lawfirm-blog.html" class="m-link">Blog</a>
+                <a href="index.html#contact" class="m-link">Contact</a>
+
+                <div class="mt-4">
+                    <a href="./booking.html" class="btn btn-gold w-100 py-3 text-center">Book Consultation</a>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- Article Hero Section -->
+    <section class="article-hero text-center">
+        <div class="container">
+            <div class="breadcrumbs-bar">
+                <a href="index.html">Home</a> &nbsp;/&nbsp;
+                <a href="oci-legal-guides.html">OCI Legal Guides</a> &nbsp;/&nbsp;
+                <span>Guide 11: NRI and OCI Property Tax in India</span>
+            </div>
+            <span class="meta-text">OCI Legal Guides &bull; Guide 11</span>
+            <h1 class="article-title mt-2">NRI and OCI Property Tax in India: TDS, Capital Gains and Repatriation</h1>
+            <p class="article-subtitle">
+                Selling or inheriting property in India as an NRI or OCI cardholder? Understand TDS, capital gains, inherited property taxation and repatriation rules.
+            </p>
+            <div class="article-meta-row">
+                <div class="article-meta-item">
+                    <i class="bi bi-person-fill text-gold"></i>
+                    <span>RRC Law Associates Legal Editorial Team</span>
+                </div>
+                <div class="article-meta-item">
+                    <i class="bi bi-journal-text text-gold"></i>
+                    <span>OCI Legal Guides Series</span>
+                </div>
+            </div>
+
+            <!-- Featured Cover Image -->
+            <div class="featured-image-wrapper">
+                <img src="assets/images/nri-oci-property-tax-india.jpg" alt="NRI and OCI property tax, capital gains and repatriation review in India" class="featured-image">
+                <div class="featured-image-caption">
+                    Legal and compliance framework governing NRI and OCI property sales in India: TDS withholding, capital gains calculations, succession records and repatriation.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content & Sidebar Layout -->
+    <main class="article-container">
+        <div class="row g-5">
+            <!-- Article Body Column -->
+            <div class="col-lg-8 article-content-col">
+                <article class="article-body">
+
+                    <!-- Introduction -->
+                    <div class="lead-intro">
+                        <p>Buying, inheriting or selling property in India can raise important tax and compliance questions for Non-Resident Indians (NRIs) and Overseas Citizens of India (OCI) cardholders.</p>
+                        <p>An overseas property owner may need to determine whether capital gains tax applies, whether the buyer must deduct tax at source, how the cost of inherited property is calculated and whether sale proceeds can be transferred abroad.</p>
+                        <p>These questions become particularly important when the property was inherited from a parent or grandparent, purchased many years ago, or jointly owned by several family members.</p>
+                        <p>Indian property transactions can involve three distinct legal questions: the tax payable on the transaction, compliance with foreign-exchange regulations and the conditions governing remittance of money outside India. Satisfying one requirement does not automatically satisfy the others.</p>
+                        <p>This guide explains the principal considerations for NRIs and OCI cardholders dealing with property in India.</p>
+                        <p>This article provides general information and is not a substitute for individual tax advice. Tax rates, withholding requirements and statutory provisions must be checked under the legislation applicable to the transaction date.</p>
+                    </div>
+
+                    <!-- Section 1 -->
+                    <section id="section-1">
+                        <h2>1. Does an NRI or OCI Cardholder Have to Pay Tax on Property in India?</h2>
+                        <p>Potentially, yes. The tax treatment depends on the nature of the transaction, the person's tax status, the type of income and the applicable law.</p>
+                        <p>An NRI or OCI cardholder may have Indian tax obligations in connection with:</p>
+                        <ul>
+                            <li>Rental income from property situated in India.</li>
+                            <li>Capital gains arising from a property sale.</li>
+                            <li>Certain property-related payments or transactions.</li>
+                            <li>Other taxable income arising in India.</li>
+                        </ul>
+                        <p>The person's citizenship or possession of an OCI card does not, by itself, determine the tax treatment.</p>
+                        <p>Tax residence is a separate question governed by the applicable tax legislation. A person who is an Indian citizen or OCI cardholder may be non-resident for Indian income-tax purposes, while the same person may be resident under a different country's tax law.</p>
+                        <p>Before assessing a property transaction, establish:</p>
+                        <ul>
+                            <li>The person's tax residence for the relevant financial year.</li>
+                            <li>Whether the transaction generates taxable income.</li>
+                            <li>Whether the property is being sold, inherited, gifted or rented.</li>
+                            <li>The relevant acquisition and transfer dates.</li>
+                            <li>The applicable tax legislation and any available relief.</li>
+                            <li>Whether a tax treaty may be relevant.</li>
+                        </ul>
+                        <p>The tax analysis should be based on the actual facts rather than the person's immigration status alone.</p>
+                    </section>
+
+                    <!-- Section 2 -->
+                    <section id="section-2">
+                        <h2>2. What Is TDS When an NRI Sells Property in India?</h2>
+                        <p>Tax deducted at source, commonly called TDS, is a mechanism through which tax is deducted at the time of a specified payment and deposited with the government.</p>
+                        <p>When property is sold by a non-resident, the buyer may have a withholding obligation under the applicable income-tax legislation.</p>
+                        <p>This is an important difference from a property transaction involving a resident seller, where a different withholding framework may apply.</p>
+
+                        <h3>Why does the distinction matter?</h3>
+                        <p>A buyer who assumes that the rules applicable to a resident seller also apply to a non-resident seller may calculate the deduction incorrectly.</p>
+                        <p>The applicable withholding treatment may depend on:</p>
+                        <ul>
+                            <li>Whether the seller is resident or non-resident for the relevant tax provisions.</li>
+                            <li>The nature of the asset.</li>
+                            <li>The amount and character of the gain.</li>
+                            <li>The date of transfer.</li>
+                            <li>The applicable statutory rates and additional charges.</li>
+                            <li>Any relevant certificate or order issued by the tax authority.</li>
+                        </ul>
+                        <p>The buyer should not determine the withholding obligation solely from the seller's citizenship or the fact that the seller holds an OCI card.</p>
+
+                        <h3>Is TDS the same as the final tax payable?</h3>
+                        <p>No. TDS is a withholding mechanism. The final tax liability must be determined under the applicable tax law.</p>
+                        <p>Depending on the circumstances, the amount deducted may be higher or lower than the final liability determined after considering the applicable computation, deductions, exemptions and other provisions.</p>
+                        <p>The seller should retain the relevant transaction and withholding records and obtain professional advice on the appropriate return-filing and tax-compliance steps.</p>
+                    </section>
+
+                    <!-- Section 3 -->
+                    <section id="section-3">
+                        <h2>3. What Is Capital Gains Tax on Property in India?</h2>
+                        <p>Capital gains may arise when a property is transferred for consideration and the transaction falls within the relevant tax provisions.</p>
+                        <p>Broadly, the computation requires consideration of the transfer value, allowable expenditure, cost of acquisition, cost of improvement and any applicable relief or exemption.</p>
+                        <p>The result depends on the property, its acquisition history and the law applicable to the transfer.</p>
+
+                        <h3>What information is needed?</h3>
+                        <p>A proper assessment may require:</p>
+                        <ul>
+                            <li>The original purchase deed or other acquisition document.</li>
+                            <li>The date on which the property was acquired.</li>
+                            <li>The acquisition cost.</li>
+                            <li>Records of qualifying improvement expenditure.</li>
+                            <li>The proposed or actual sale consideration.</li>
+                            <li>Relevant transfer expenses.</li>
+                            <li>Valuation records, where relevant.</li>
+                            <li>The seller's tax residence and other relevant tax details.</li>
+                            <li>Documents establishing inheritance or gift, if applicable.</li>
+                        </ul>
+                        <p>The legal and tax treatment should be determined before finalising the transaction where practical.</p>
+
+                        <h3>Short-term and long-term classification</h3>
+                        <p>The applicable holding-period rules determine whether a property is treated as a short-term or long-term capital asset.</p>
+                        <p>The relevant period and the method of calculation must be verified under the legislation applicable to the transfer. Special rules may apply where the property was inherited or received by gift.</p>
+                        <p>Do not assume that the period begins only on the date when the current owner received the property. In specified inheritance and gift situations, the previous owner's holding period may be relevant.</p>
+                        <p>The classification can affect the computation and rate of tax.</p>
+                    </section>
+
+                    <!-- Section 4 -->
+                    <section id="section-4">
+                        <h2>4. How Is Capital Gains Tax Calculated on Inherited Property?</h2>
+                        <p>Inherited property presents a special issue because the heir ordinarily does not acquire the property through an ordinary purchase.</p>
+                        <p>The applicable tax rules contain provisions for determining the cost of acquisition and holding period in specified cases involving inheritance, succession, gifts and other modes of transfer.</p>
+                        <p>For that reason, the heir should not automatically treat the property's value on the date of inheritance as the cost for every capital gains calculation.</p>
+                        <p>The analysis may require examination of:</p>
+                        <ul>
+                            <li>The original owner's acquisition documents.</li>
+                            <li>The date and manner in which the original owner acquired the property.</li>
+                            <li>The date of inheritance.</li>
+                            <li>The applicable cost-of-acquisition rules.</li>
+                            <li>Relevant valuation evidence.</li>
+                            <li>Improvement expenditure incurred by the previous owner or the heir, where allowable.</li>
+                            <li>The sale consideration.</li>
+                            <li>Qualifying transfer expenses.</li>
+                            <li>Any available exemption or relief.</li>
+                        </ul>
+
+                        <h3>Example</h3>
+                        <p>Suppose an overseas heir inherits a house that a parent purchased several decades earlier.</p>
+                        <p>The heir later sells the property. The tax computation may require the parent's acquisition cost and the relevant holding-period rules to be examined rather than simply using the amount stated in a recent family document.</p>
+                        <p>The exact computation depends on the law applicable to the transaction and the available evidence.</p>
+
+                        <h3>Why original records matter</h3>
+                        <p>Where the original purchase deed, improvement bills or other historical records are missing, the tax calculation may require additional investigation.</p>
+                        <p>A valuation report or alternative evidence may be relevant in certain circumstances, but the acceptability and legal effect of the evidence must be assessed under the applicable tax provisions.</p>
+                        <p>An heir should not assume that a valuation prepared today automatically establishes the cost of acquisition for tax purposes.</p>
+                    </section>
+
+                    <!-- Section 5 -->
+                    <section id="section-5">
+                        <h2>5. What If the Property Was Acquired Before 1 April 2001?</h2>
+                        <p>Older property can raise valuation questions because the acquisition may have occurred many decades ago.</p>
+                        <p>Under the previous capital gains framework, special rules could permit the use of a specified historical fair market value for certain assets acquired before 1 April 2001, subject to the applicable conditions and limitations.</p>
+                        <p>However, the correct treatment must be verified under the legislation applicable to the particular transfer.</p>
+                        <p>The taxpayer should establish:</p>
+                        <ul>
+                            <li>The date on which the property was acquired.</li>
+                            <li>Whether the property was acquired by the current owner or a previous owner.</li>
+                            <li>Whether a historical valuation option is available.</li>
+                            <li>Whether any statutory valuation cap applies.</li>
+                            <li>What documentary evidence supports the valuation.</li>
+                            <li>Whether the current legislation changes the calculation.</li>
+                        </ul>
+                        <p>For inherited property, it is particularly important to identify the relevant previous owner and the manner in which the property entered the family.</p>
+                        <p>A tax professional should determine the appropriate acquisition-cost method before the capital gains computation is finalised.</p>
+                    </section>
+
+                    <!-- Section 6 -->
+                    <section id="section-6">
+                        <h2>6. Can an NRI or OCI Cardholder Claim Tax Relief When Selling Property?</h2>
+                        <p>Potentially, depending on the transaction and the applicable law.</p>
+                        <p>Certain capital gains provisions may provide relief where specified conditions are met. The availability of relief depends on factors such as the asset sold, the nature of the reinvestment, the taxpayer's circumstances and compliance with the statutory requirements.</p>
+                        <p>An overseas seller should not assume that a relief available to one taxpayer or for one transaction automatically applies to every NRI or OCI cardholder.</p>
+                        <p>Before relying on an exemption, verify:</p>
+                        <ul>
+                            <li>The statutory provision applicable to the transaction.</li>
+                            <li>Whether the taxpayer satisfies the eligibility conditions.</li>
+                            <li>Whether the replacement asset or reinvestment qualifies.</li>
+                            <li>The applicable investment period.</li>
+                            <li>Any monetary or other statutory limits.</li>
+                            <li>The required documentation and reporting.</li>
+                            <li>Whether the relief is compatible with the taxpayer's circumstances.</li>
+                        </ul>
+                        <p>The decision should be based on a calculation under the current law rather than a general statement that reinvesting property sale proceeds eliminates capital gains tax.</p>
+                    </section>
+
+                    <!-- Section 7 -->
+                    <section id="section-7">
+                        <h2>7. Can an NRI or OCI Cardholder Repatriate Property Sale Proceeds Abroad?</h2>
+                        <p>Repatriation means transferring eligible funds from India to an overseas account in accordance with the applicable foreign-exchange regulations.</p>
+                        <p>The fact that an overseas owner has sold property does not automatically mean that the entire sale proceeds can be remitted abroad without restriction.</p>
+                        <p>The available route depends on how the property was acquired, the applicable regulations, the nature of the proceeds and the documentation available.</p>
+                        <p>The Reserve Bank of India's framework addresses repatriation of certain property sale proceeds, subject to conditions.</p>
+                        <p>For example, the rules distinguish between property acquired through specified foreign-exchange channels and property acquired through inheritance, legacy or rupee funds.</p>
+
+                        <h3>What should be checked?</h3>
+                        <p>Before arranging a remittance, establish:</p>
+                        <ul>
+                            <li>How the property was acquired.</li>
+                            <li>Whether the acquisition complied with the foreign-exchange rules applicable at the time.</li>
+                            <li>Whether the seller acquired the property by purchase, inheritance, gift or another route.</li>
+                            <li>The source of funds used for acquisition, where relevant.</li>
+                            <li>Whether the proposed remittance falls within an applicable limit.</li>
+                            <li>Whether the property falls within a category subject to special restrictions.</li>
+                            <li>What evidence the authorised dealer bank requires.</li>
+                            <li>Whether tax compliance documents or certificates are necessary.</li>
+                        </ul>
+                        <p>The applicable RBI regulations and the bank's requirements should be checked for the particular transaction.</p>
+
+                        <h3>The USD 1 million facility</h3>
+                        <p>The RBI framework contains a facility permitting certain eligible remittances, including specified balances in NRO accounts and proceeds from inherited or legacy assets, subject to the applicable conditions and documentation.</p>
+                        <p>The facility should not be described as an unconditional right to remit any amount from any property sale.</p>
+                        <p>The eligibility requirements, applicable limit, documentary evidence and tax-compliance conditions must be verified before the remittance is arranged.</p>
+                    </section>
+
+                    <!-- Section 8 -->
+                    <section id="section-8">
+                        <h2>8. What Documents May Be Required for Repatriation?</h2>
+                        <p>The required documentation depends on the nature of the property and the proposed remittance.</p>
+                        <p>Relevant records may include:</p>
+                        <ul>
+                            <li>The original purchase deed or inheritance documents.</li>
+                            <li>The registered sale deed.</li>
+                            <li>Evidence of the consideration received.</li>
+                            <li>Bank statements and payment records.</li>
+                            <li>Documents establishing the source of acquisition funds, where relevant.</li>
+                            <li>Tax returns or tax-payment records.</li>
+                            <li>A tax certificate or other document required under the applicable process.</li>
+                            <li>The remitter's identity and overseas bank details.</li>
+                            <li>Forms and declarations required by the authorised dealer bank.</li>
+                        </ul>
+                        <p>The bank may request further records depending on the transaction and the applicable regulations.</p>
+                        <p>The seller should coordinate with the bank before completing the transaction where repatriation is an important objective.</p>
+                        <p>This can help identify documentary requirements early, particularly where the property was inherited or the original acquisition records are incomplete.</p>
+                    </section>
+
+                    <!-- Section 9 -->
+                    <section id="section-9">
+                        <h2>9. Does Selling Property in India Create Tax Obligations in Another Country?</h2>
+                        <p>It may. An overseas seller may also have reporting or tax obligations in the country where they are tax-resident.</p>
+                        <p>The treatment depends on that country's domestic tax law, the applicable tax treaty, if any, and the facts of the transaction.</p>
+                        <p>The seller should consider:</p>
+                        <ul>
+                            <li>Whether the overseas jurisdiction taxes worldwide income.</li>
+                            <li>Whether the property sale must be reported there.</li>
+                            <li>Whether foreign tax credit relief is available.</li>
+                            <li>Whether a tax treaty applies.</li>
+                            <li>Which records must be retained.</li>
+                            <li>Whether the Indian tax paid can be taken into account abroad.</li>
+                        </ul>
+                        <p>The existence of a tax treaty does not necessarily eliminate Indian tax on property situated in India. The allocation of taxing rights and the availability of relief must be examined under the relevant treaty and domestic legislation.</p>
+                        <p>A taxpayer with obligations in two countries may need advice from professionals familiar with both jurisdictions.</p>
+                    </section>
+
+                    <!-- Section 10 -->
+                    <section id="section-10">
+                        <h2>10. What Is the Difference Between Tax Residence and OCI Status?</h2>
+                        <p>OCI status is an immigration-related status under Indian law. Tax residence is determined separately under the applicable tax legislation.</p>
+                        <p>The two concepts should not be treated as interchangeable.</p>
+                        <p>An OCI cardholder may be resident or non-resident for Indian tax purposes depending on the applicable statutory tests and the facts.</p>
+                        <p>Similarly, a person may have tax obligations in another country because of residence there, even where the income arises from property in India.</p>
+                        <p>Before selling property, the owner should establish the relevant tax residence for the financial year and obtain advice on the consequences.</p>
+                        <p>This distinction is especially important for people who divide their time between India and another country or who have recently relocated.</p>
+                    </section>
+
+                    <!-- Section 11 -->
+                    <section id="section-11">
+                        <h2>11. What Should an Overseas Seller Do Before Signing the Sale Deed?</h2>
+                        <p>A structured review before completion can help identify tax, documentation and repatriation issues.</p>
+
+                        <div class="step-block">
+                            <h3>Step 1: Establish ownership</h3>
+                            <p>Confirm that the seller has legal title or the interest being transferred.</p>
+                        </div>
+
+                        <div class="step-block">
+                            <h3>Step 2: Identify the transaction</h3>
+                            <p>Determine whether the property was purchased, inherited, gifted or received through another legally recognised transfer.</p>
+                        </div>
+
+                        <div class="step-block">
+                            <h3>Step 3: Review the tax position</h3>
+                            <p>Calculate the potential capital gain under the applicable law and identify any relevant exemption or relief.</p>
+                        </div>
+
+                        <div class="step-block">
+                            <h3>Step 4: Confirm withholding obligations</h3>
+                            <p>Establish whether the buyer must deduct TDS and what procedure applies to the transaction.</p>
+                        </div>
+
+                        <div class="step-block">
+                            <h3>Step 5: Review the payment arrangement</h3>
+                            <p>Confirm how the consideration will be paid and what evidence will be retained.</p>
+                        </div>
+
+                        <div class="step-block">
+                            <h3>Step 6: Check repatriation eligibility</h3>
+                            <p>If the seller intends to remit funds abroad, verify the relevant RBI rules and bank requirements.</p>
+                        </div>
+
+                        <div class="step-block">
+                            <h3>Step 7: Preserve the records</h3>
+                            <p>Retain the acquisition deed, sale deed, bank records, tax documents and supporting evidence.</p>
+                        </div>
+
+                        <p>The appropriate process will vary according to the property and the seller's circumstances. A tax calculation should be completed before the parties rely on an assumed net sale amount.</p>
+                    </section>
+
+                    <!-- Section 12 -->
+                    <section id="section-12">
+                        <h2>12. How RRC Law Associates Can Assist Overseas Property Owners</h2>
+                        <p>An overseas property owner may need assistance with the legal documentation surrounding a sale, inheritance or transfer, while separate tax expertise may be required for the tax computation and return filing.</p>
+                        <p>RRC Law Associates can assist with the legal and documentary aspects of matters involving:</p>
+                        <ul>
+                            <li>Inherited and ancestral property.</li>
+                            <li>Title verification and succession documents.</li>
+                            <li>Sale, partition, release and settlement documentation.</li>
+                            <li>Powers of attorney for overseas owners.</li>
+                            <li>Review of property transaction documents.</li>
+                            <li>Identification of legal and documentary issues relevant to the proposed sale.</li>
+                            <li>Coordination of property documentation with the client's tax adviser and authorised dealer bank.</li>
+                        </ul>
+                        <p>Tax calculations, tax returns and tax-specific certificates should be handled by an appropriately qualified tax professional where required.</p>
+                        <p>The precise scope of assistance should be agreed at the beginning of the engagement. Legal documentation, tax compliance and foreign-exchange compliance are related but distinct services.</p>
+                    </section>
+
+                    <!-- Section FAQs -->
+                    <section id="section-faqs" class="mt-5">
+                        <h2>Frequently Asked Questions</h2>
+                        <div class="accordion faq-accordion mt-4" id="faqAccordion">
+
+                            <!-- FAQ 1 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="false" aria-controls="faqCollapse1">
+                                        1. Does an NRI have to pay capital gains tax when selling property in India?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse1" class="accordion-collapse collapse" aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <p>Capital gains tax may apply depending on the transaction and the applicable law. The computation depends on the acquisition history, sale consideration, allowable costs, holding period and any available relief.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 2 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                                        2. Is TDS applicable when an NRI sells property in India?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <p>The buyer may have a withholding obligation under the applicable tax legislation. The correct treatment must be determined based on the seller's status, the transaction and the law applicable on the relevant date.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 3 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+                                        3. Is TDS the final tax payable?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <p>Not necessarily. TDS is a withholding mechanism. The final liability must be calculated under the applicable tax provisions.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 4 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                                        4. How is capital gains tax calculated on inherited property?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <p>The computation may involve the previous owner's acquisition cost and holding period, subject to the applicable law. The inheritance documents and historical acquisition records should be reviewed.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 5 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading5">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                                        5. Can an OCI cardholder remit all property sale proceeds abroad?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <p>Not automatically. Repatriation depends on the applicable RBI regulations, the manner in which the property was acquired, relevant limits and documentary requirements.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 6 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading6">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
+                                        6. Can proceeds from inherited property be remitted abroad?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <p>A remittance may be permitted under the applicable framework, subject to the conditions, limits and evidence required for the particular transaction.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 7 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading7">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse7" aria-expanded="false" aria-controls="faqCollapse7">
+                                        7. Does an NRI have to pay tax in both India and the country of residence?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse7" class="accordion-collapse collapse" aria-labelledby="faqHeading7" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <p>Potentially, depending on the domestic laws of the relevant countries and any applicable tax treaty. Foreign tax relief may be available in appropriate circumstances, but it must be assessed individually.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 8 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading8">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse8" aria-expanded="false" aria-controls="faqCollapse8">
+                                        8. Does OCI status determine tax residence?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse8" class="accordion-collapse collapse" aria-labelledby="faqHeading8" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <p>No. OCI status and tax residence are separate legal concepts. Tax residence must be assessed under the applicable tax legislation.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 9 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading9">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse9" aria-expanded="false" aria-controls="faqCollapse9">
+                                        9. What documents should be retained after selling property?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse9" class="accordion-collapse collapse" aria-labelledby="faqHeading9" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <p>Relevant documents may include the acquisition deed, inheritance records, sale deed, bank statements, TDS records, tax returns and supporting evidence required for a repatriation application.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ 10 -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading10">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse10" aria-expanded="false" aria-controls="faqCollapse10">
+                                        10. When should I obtain tax advice?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse10" class="accordion-collapse collapse" aria-labelledby="faqHeading10" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <p>Ideally, before finalising the sale agreement or payment arrangements, especially where the seller is non-resident, the property was inherited or the sale proceeds are intended to be remitted abroad.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <!-- Section CTA -->
+                    <section id="section-cta">
+                        <div class="article-cta-box">
+                            <h3>Selling or Inheriting Property in India From Overseas?</h3>
+                            <p>A property transaction can involve title verification, succession, tax withholding, capital gains and foreign-exchange compliance. Addressing these issues early can help identify documentary gaps and reduce avoidable complications.</p>
+                            <p>RRC Law Associates assists overseas clients with property-related legal documentation, succession, title verification, sale transactions and powers of attorney in India.</p>
+                            <p>Contact the firm to discuss the property location, ownership history, proposed transaction and documentation available.</p>
+                            <p>Where tax computation, return filing or tax certificates are required, the appropriate tax professional should be involved.</p>
+                            <div class="cta-btn-group mt-4">
+                                <a href="./booking.html" class="cta-btn-primary">
+                                    <i class="bi bi-calendar-check"></i> Book Legal Consultation
+                                </a>
+                                <a href="https://wa.me/919751182452" target="_blank" rel="noopener noreferrer" class="cta-btn-whatsapp">
+                                    <i class="bi bi-whatsapp"></i> Chat on WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Section Disclaimer -->
+                    <section id="section-disclaimer">
+                        <div class="article-disclaimer">
+                            <p class="mb-0"><strong>Legal disclaimer:</strong> This article is for general informational purposes and does not constitute individual legal or tax advice. Tax treatment depends on the applicable legislation, transaction date, ownership history, tax residence and other relevant facts. Foreign-exchange and repatriation requirements must be verified with the applicable authority and authorised dealer bank. No tax saving, refund or repatriation outcome is guaranteed.</p>
+                        </div>
+                    </section>
+
+                </article>
+            </div>
+
+            <!-- Sticky Sidebar Column -->
+            <div class="col-lg-4">
+                <aside class="sidebar-sticky-wrapper">
+
+                    <!-- Table of Contents Card -->
+                    <div class="sidebar-card">
+                        <div class="sidebar-card-title">
+                            <i class="bi bi-list-nested text-gold"></i> Table of Contents
+                        </div>
+                        <ul class="toc-list">
+                            <li><a href="#section-1">1. Tax on Indian Property</a></li>
+                            <li><a href="#section-2">2. TDS When an NRI Sells</a></li>
+                            <li><a href="#section-3">3. Capital Gains Tax Basics</a></li>
+                            <li><a href="#section-4">4. Tax on Inherited Property</a></li>
+                            <li><a href="#section-5">5. Property Acquired Pre-2001</a></li>
+                            <li><a href="#section-6">6. Tax Relief &amp; Exemptions</a></li>
+                            <li><a href="#section-7">7. Repatriation of Sale Proceeds</a></li>
+                            <li><a href="#section-8">8. Repatriation Documents</a></li>
+                            <li><a href="#section-9">9. Overseas Tax Obligations</a></li>
+                            <li><a href="#section-10">10. Tax Residence vs OCI</a></li>
+                            <li><a href="#section-11">11. Checklist Before Signing</a></li>
+                            <li><a href="#section-12">12. How RRC Law Assists</a></li>
+                            <li><a href="#section-faqs">Frequently Asked Questions</a></li>
+                            <li><a href="#section-cta">Legal Assistance Enquiry</a></li>
+                            <li><a href="#section-disclaimer">Legal Disclaimer</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Consultation Action Card -->
+                    <div class="sidebar-cta-card mb-4">
+                        <h4>Selling Property from Overseas?</h4>
+                        <p>Speak with our senior advocates regarding title verification, power of attorney, succession deeds, TDS coordination and legal repatriation in India.</p>
+                        <a href="./booking.html" class="btn-gold-cta mb-2">
+                            <i class="bi bi-calendar-event me-1"></i> Book Consultation
+                        </a>
+                        <div class="mt-2 text-center">
+                            <a href="https://wa.me/919751182452" target="_blank" rel="noopener noreferrer" style="color: #25d366; text-decoration: none; font-size: 0.88rem; font-weight: 600;">
+                                <i class="bi bi-whatsapp"></i> Instant WhatsApp Enquiry
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Related Guides -->
+                    <div class="sidebar-card">
+                        <div class="sidebar-card-title">
+                            <i class="bi bi-journal-bookmark-fill text-gold"></i> Related OCI Guides
+                        </div>
+                        <ul class="toc-list">
+                            <li>
+                                <a href="oci-legal-guides.html">
+                                    <strong><i class="bi bi-collection text-gold me-1"></i> OCI Legal Guides Hub</strong>
+                                    <div class="small text-muted">Master index of comprehensive guides</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-eligibility-legal-status.html">
+                                    <strong><i class="bi bi-shield-check text-gold me-1"></i> Guide 1: Eligibility &amp; Status</strong>
+                                    <div class="small text-muted">Meaning, qualifications &amp; legal rights</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-vs-nri-vs-indian-citizen.html">
+                                    <strong><i class="bi bi-people text-gold me-1"></i> Guide 2: OCI vs NRI vs Indian Citizen</strong>
+                                    <div class="small text-muted">Legal differences, rights &amp; status</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-application-documents.html">
+                                    <strong><i class="bi bi-file-earmark-text text-gold me-1"></i> Guide 3: Application &amp; Documents</strong>
+                                    <div class="small text-muted">Procedure, document checklist &amp; mistakes</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-indian-ancestry-assistance.html">
+                                    <strong><i class="bi bi-diagram-3 text-gold me-1"></i> Guide 4: Indian Ancestry</strong>
+                                    <div class="small text-muted">Proving Indian origin &amp; record search</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-foreign-spouse-eligibility.html">
+                                    <strong><i class="bi bi-heart text-gold me-1"></i> Guide 5: Foreign Spouses</strong>
+                                    <div class="small text-muted">Eligibility, marriage rules &amp; checklist</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-for-children-born-abroad.html">
+                                    <strong><i class="bi bi-person-heart text-gold me-1"></i> Guide 6: Children Born Abroad</strong>
+                                    <div class="small text-muted">Citizenship, eligibility &amp; documents</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-benefits-restrictions-india.html">
+                                    <strong><i class="bi bi-shield-check text-gold me-1"></i> Guide 7: Benefits &amp; Restrictions</strong>
+                                    <div class="small text-muted">What OCI cardholders can &amp; cannot do</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-cardholders-inherit-sell-ancestral-property-india.html">
+                                    <strong><i class="bi bi-house-door text-gold me-1"></i> Guide 8: Ancestral Property</strong>
+                                    <div class="small text-muted">Inheriting, selling &amp; FEMA rules</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="nri-oci-property-due-diligence-india.html">
+                                    <strong><i class="bi bi-search text-gold me-1"></i> Guide 10: Property Due Diligence</strong>
+                                    <div class="small text-muted">Title verification, EC &amp; land records</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-renewal-passport-update.html">
+                                    <strong><i class="bi bi-arrow-repeat text-gold me-1"></i> Guide 12: Renewal &amp; Passport Update</strong>
+                                    <div class="small text-muted">Passport updates, e-OCI &amp; re-issue</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-cancellation-grounds-remedies.html">
+                                    <strong><i class="bi bi-shield-x text-gold me-1"></i> Guide 13: OCI Card Cancellation</strong>
+                                    <div class="small text-muted">Section 7D, notices &amp; legal remedies</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-cancellation-section-7d-legal-remedies.html">
+                                    <strong><i class="bi bi-shield-lock text-gold me-1"></i> Guide 14: Section 7D &amp; Criminal Cases</strong>
+                                    <div class="small text-muted">Criminal proceedings, notifications &amp; writ review</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-assistance.html">
+                                    <strong><i class="bi bi-briefcase text-gold me-1"></i> OCI Legal Services</strong>
+                                    <div class="small text-muted">Our complete scope of representation</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+
+        <footer class="footer">
+        <div class="footer-contain">
+
+            <div class="footer-grid">
+
+                <!-- Brand -->
+                <div class="footer-brand">
+                    <div class="logo-icon">
+                        <a href="index.html" title="Home">
+                            <img src="assets/images/logo.png" alt="Law Firm Logo" class="logo-img">
+
+                            <div>
+                                <strong>RRC</strong>
+                                <strong>Law Associates</strong>
+                            </div>
+                        </a>
+                    </div>
+
+                    <p>
+                        Providing trusted legal solutions with integrity since 2008. Your reliable
+                        partner for all legal matters in Tamil Nadu.
+                    </p>
+
+                    <div class="social"></div>
+                </div>
+
+                <!-- Practice Areas -->
+                <div>
+                    <h4>Practice Areas</h4>
+                    <ul>
+                        <li>
+                            <a href="family-law.html">Family Law</a>
+                        </li>
+                        <li>
+                            <a href="property-law.html">Property Law</a>
+                        </li>
+                        <li>
+                            <a href="employment-law.html">Employment Law</a>
+                        </li>
+                        <li>
+                            <a href="white-collar-crime.html">White Collar Crimes</a>
+                        </li>
+                        <li>
+                            <a href="intellectual-property.html">Intellectual Property</a>
+                        </li>
+                        <li>
+                            <a href="litigation-dispute-resolution.html">Litigation Dispute</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="nri-services.html">NRI Services</a>
+                        </li>
+                        <li>
+                            <a href="oci-card-assistance.html">OCI Card &amp; Ancestry</a>
+                        </li>
+                        <li>
+                            <a href="core-practice-areas.html">Practice Areas</a>
+                        </li>
+                        <li>
+                            <a href="lawfirm-blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="index.html#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4>Contact Us</h4>
+                    <ul class="contact">
+                        <li>
+                            <span>Address</span>
+                            <p>
+                                No 82/6B, Deen Complex, Mary's Corner, Parisutham Nagar, Thanjavur, Tamil Nadu-613001
+                            </p>
+                        </li>
+                        <li>
+                            <span>Phone</span>
+                            <a href="tel:+919751182452">+91 97511 82452</a>
+                        </li>
+                        <li>
+                            <span>Email</span>
+                            <a href="mailto:dr.kumar@rrclawassociates.com">
+                                dr.kumar@rrclawassociates.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Bottom -->
+            <div class="footer-bottom">
+                <p>&copy;
+                    <span id="year">2026</span>
+                    RRC Law Associates. All rights reserved.</p>
+                <div class="legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Disclaimer</a>
+                </div>
+            </div>
+
+        </div>
+        </footer>
+
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Interactive Navigation & TOC Script -->
+
+
+    <!-- Floating WhatsApp CTA -->
+    <a
+        href="https://wa.me/919751182452?text=Hello%20RRC%20Law%20Associates,%20I%20am%20looking%20for%20legal%20consultation."
+        class="whatsapp-float"
+        target="_blank"
+        rel="noopener"
+        aria-label="Chat with RRC Law Associates on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="float-text">Chat with us</span>
+    </a>
+
+    <!-- RRC AI Assistant Mount & Integration -->
+    <div data-rrc-ai-chat-root></div>
+    <script src="script.js?v=20261008-1" data-rrc-ai-only defer></script>
+</body>
+</html>

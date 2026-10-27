@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCI Card Assistance &amp; Indian Ancestry Research | RRC Law Associates</title>
+
+    <meta name="description" content="Need help with OCI documentation or tracing Indian ancestry? RRC Law Associates assists overseas clients with legal guidance, historical-record research and Indian documentation matters.">
+
+    <meta name="keywords" content="OCI card legal assistance India, OCI application assistance, Indian ancestry research, OCI documentation, ancestral records India, NABC assistance, NRI legal services">
+
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="RRC Law Associates">
+
+    <meta property="og:title" content="OCI Card Assistance &amp; Indian Ancestry Research | RRC Law Associates">
+    <meta property="og:description" content="Need help with OCI documentation or tracing Indian ancestry? RRC Law Associates assists overseas clients with legal guidance, historical-record research and Indian documentation matters.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://rrclawassociates.com/oci-card-indian-ancestry-assistance/">
+    <meta property="og:image" content="https://rrclawassociates.com/assets/images/oci-hero-bg.jpg">
+
+    <link rel="canonical" href="https://rrclawassociates.com/oci-card-indian-ancestry-assistance/">
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="OCI Card Assistance &amp; Indian Ancestry Research | RRC Law Associates">
+    <meta name="twitter:description" content="Need help with OCI documentation or tracing Indian ancestry? RRC Law Associates assists overseas clients with legal guidance, historical-record research and Indian documentation matters.">
+    <meta name="twitter:image" content="https://rrclawassociates.com/assets/images/oci-hero-bg.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css?v=20261008-1">
+    <link rel="stylesheet" href="style2.css?v=20261008-1">
+    <link rel="stylesheet" href="topbar.css?v=20261008-1">
+
+    <style>
+        :root {
+            --primary: #3c3819;
+            --gold: #c9a24d;
+            --cream: #f9f7f3;
+            --white: #ffffff;
+            --dark: #0b1c2d;
+        }
+
+        html {
+            scroll-padding-top: 140px;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--white);
+            color: var(--primary);
+            font-size: 18px;
+            line-height: 1.75;
+            position: relative;
+            z-index: 0;
+        }
+
+        /* 1. Article Shell & Centered Reading Container (760-850px on desktop) */
+        .article-shell {
+            max-width: 820px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+
+        .article-shell .row {
+            --bs-gutter-x: 0;
+            --bs-gutter-y: 0;
+            margin-left: 0;
+            margin-right: 0;
+            justify-content: center;
+        }
+
+        .content-body {
+            max-width: 100%;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        /* Header Navigation Styles (Preserved) */
+        .header {
+            position: fixed;
+            top: 42px;
+            left: 0;
+            width: 100%;
+            z-index: 1190;
+            background: #000000 !important;
+            padding: 5px 0;
+            min-height: 80px;
+            display: flex;
+            align-items: center;
+            box-shadow: none;
+        }
+
+        .logo-img {
+            height: 60px;
+            width: auto;
+        }
+
+        .nav-link-custom {
+            color: #ffffff !important;
+            text-decoration: none;
+            font-weight: 500;
+            margin: 0 15px;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .nav-link-custom:hover {
+            color: var(--gold) !important;
+        }
+
+        .dropdown-menu {
+            background-color: #000000 !important;
+            border: 1px solid #c9a24d !important;
+            margin-top: 10px !important;
+        }
+
+        .dropdown-item {
+            color: #ffffff !important;
+            padding: 10px 20px;
+        }
+
+        .dropdown-item:hover {
+            background-color: #1a1a1a !important;
+            color: var(--gold) !important;
+        }
+
+        @media (min-width: 992px) {
+            .header .dropdown:hover > .dropdown-menu,
+            .header .dropdown:focus-within > .dropdown-menu {
+                display: block !important;
+                margin-top: 0 !important;
+            }
+        }
+
+        /* 6. Sticky Header Clearance on Hero Section */
+        .article-hero {
+            position: relative;
+            z-index: 1;
+            padding-top: 155px; /* Header is 122px (42px topbar + 80px nav). 155px gives 33px clearance */
+            padding-bottom: 50px;
+            background-color: var(--cream);
+            border-bottom: 1px solid rgba(60, 56, 25, 0.08);
+        }
+
+        .meta-text {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 700;
+            color: var(--gold);
+        }
+
+        .article-title {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            color: #000000;
+            font-size: clamp(2.1rem, 2.8vw, 3.2rem);
+            line-height: 1.25;
+            max-width: 820px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .article-subtitle {
+            max-width: 780px;
+            margin: 0 auto 1.5rem;
+            font-size: clamp(1.05rem, 1.35vw, 1.25rem);
+            line-height: 1.6;
+            color: #555555;
+            font-weight: 500;
+        }
+
+        .article-visual {
+            margin: 1.75rem 0 2.25rem;
+            border-radius: 14px;
+            overflow: hidden;
+            background: #f4f1ea;
+            border: 1px solid rgba(60, 56, 25, 0.08);
+            box-shadow: 0 12px 30px rgba(12, 17, 24, 0.06);
+        }
+
+        .article-visual img {
+            display: block;
+            width: 100%;
+            height: auto;
+            max-height: 480px;
+            object-fit: cover;
+        }
+
+        /* 4. Visually Distinct Headings with Consistent Spacing */
+        .content-body h2 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            margin-top: 48px;
+            margin-bottom: 20px;
+            color: #0b1c2d;
+            position: relative;
+            padding-bottom: 12px;
+            font-size: clamp(1.85rem, 2.3vw, 2.35rem);
+            line-height: 1.3;
+            scroll-margin-top: 140px;
+        }
+
+        .content-body h2::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 44px;
+            height: 3px;
+            background-color: var(--gold);
+            border-radius: 2px;
+        }
+
+        .content-body h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.25rem, 1.5vw, 1.45rem);
+            line-height: 1.4;
+            font-weight: 700;
+            margin-top: 32px;
+            margin-bottom: 14px;
+            color: var(--primary);
+            scroll-margin-top: 140px;
+        }
+
+        /* 2 & 3. Readable Body Text (17-18px, 1.7-1.8 line-height, 16-20px paragraph margin) */
+        .content-body p {
+            margin-top: 0;
+            margin-bottom: 18px;
+            color: #333333;
+            font-size: 17.5px;
+            line-height: 1.75;
+        }
+
+        /* 5. Bullet Lists Alignment & Spacing */
+        .content-body ul,
+        .content-body ol {
+            margin-top: 8px;
+            margin-bottom: 22px;
+            padding-left: 26px;
+        }
+
+        .content-body li {
+            margin-bottom: 10px;
+            color: #333333;
+            font-size: 17.5px;
+            line-height: 1.75;
+            padding-left: 4px;
+        }
+
+        .content-body li:last-child {
+            margin-bottom: 0;
+        }
+
+        .content-body li::marker {
+            color: var(--gold);
+        }
+
+        /* Legal Callout / Disclaimer */
+        .legal-callout {
+            border-left: 4px solid var(--gold);
+            background-color: var(--cream);
+            padding: 22px 26px;
+            border-radius: 0 10px 10px 0;
+            margin: 28px 0;
+        }
+
+        .legal-callout p {
+            margin-bottom: 0;
+            color: #333333;
+            font-size: 17px;
+            line-height: 1.75;
+        }
+
+        /* FAQ Accordion Styling */
+        .article-faq {
+            margin: 28px 0;
+        }
+
+        .article-faq .accordion-item {
+            border: none;
+            border-bottom: 1px solid rgba(60, 56, 25, 0.12);
+            background: transparent;
+        }
+
+        .article-faq .accordion-button {
+            background: transparent !important;
+            color: var(--primary);
+            font-family: 'Playfair Display', serif;
+            font-weight: 600;
+            font-size: 1.12rem;
+            line-height: 1.45;
+            padding: 18px 0;
+            box-shadow: none !important;
+        }
+
+        .article-faq .accordion-button:not(.collapsed) {
+            color: var(--gold) !important;
+        }
+
+        .article-faq .accordion-body {
+            padding: 0 0 18px 0;
+            color: #444444;
+            font-size: 17px;
+            line-height: 1.75;
+        }
+
+        .article-faq .accordion-body p {
+            margin-bottom: 0;
+            font-size: 17px;
+            line-height: 1.75;
+            color: #444444;
+        }
+
+        .btn-gold {
+            background-color: var(--gold);
+            color: #000;
+            font-weight: 700;
+            padding: 12px 18px;
+            border-radius: 10px;
+            border: none;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-gold:hover {
+            background-color: #b38f40;
+            transform: translateY(-2px);
+        }
+
+        .footer {
+            background: linear-gradient(135deg, #081521, #0b1c2d);
+            color: white;
+            padding: 80px 0 30px;
+        }
+
+        .mobile-menu {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 80%;
+            max-width: 350px;
+            height: 100vh;
+            background: #000000;
+            z-index: 2000;
+            transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: -10px 0 30px rgba(0,0,0,0.5);
+            padding: 20px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .mobile-menu.open {
+            right: 0;
+        }
+
+        .m-link {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            display: block;
+            padding: 15px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            width: 100%;
+            text-align: left;
+        }
+
+        .m-trigger {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .m-submenu {
+            display: none;
+            background: rgba(255,255,255,0.05);
+            padding-left: 20px;
+        }
+
+        .m-submenu.active {
+            display: block;
+        }
+
+        .m-sub-item {
+            display: block;
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            padding: 10px 0;
+            font-size: 0.95rem;
+        }
+
+        .m-sub-item:hover {
+            color: var(--gold);
+        }
+
+        .close-menu {
+            background: transparent;
+            border: none;
+            color: #ffffff;
+            font-size: 2rem;
+            float: right;
+            cursor: pointer;
+        }
+
+        .whatsapp-float {
+            position: fixed;
+            bottom: calc(env(safe-area-inset-bottom, 0px) + 20px);
+            right: 20px;
+            background-color: #25d366;
+            color: #ffffff;
+            padding: 12px 20px;
+            border-radius: 50px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 1;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+            z-index: 1000;
+            transition: all 0.3s ease;
+            animation: pulse-green 2s infinite;
+        }
+
+        .whatsapp-float:hover {
+            background-color: #128c7e;
+            color: #ffffff;
+            transform: translateY(-3px);
+        }
+
+        @media (max-width: 600px) {
+            .whatsapp-float {
+                right: 16px;
+                bottom: calc(env(safe-area-inset-bottom, 0px) + 16px);
+                padding: 10px 16px;
+                font-size: 14px;
+                gap: 8px;
+            }
+            .whatsapp-float i {
+                font-size: 20px;
+            }
+        }
+
+        @keyframes pulse-green {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        /* 7. Responsive Breakpoint Adjustments (Tablet & Mobile) */
+        @media (max-width: 768px) {
+            .article-hero {
+                padding-top: 145px;
+                padding-bottom: 40px;
+            }
+
+            .article-title {
+                font-size: 2rem;
+            }
+
+            .article-subtitle {
+                font-size: 1.05rem;
+            }
+
+            .article-shell {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            .content-body p,
+            .content-body li {
+                font-size: 16.5px;
+                line-height: 1.72;
+            }
+
+            .content-body p {
+                margin-bottom: 16px;
+            }
+
+            .content-body h2 {
+                margin-top: 38px;
+                margin-bottom: 16px;
+                font-size: 1.75rem;
+            }
+
+            .content-body h3 {
+                margin-top: 26px;
+                margin-bottom: 12px;
+                font-size: 1.25rem;
+            }
+
+            .article-visual {
+                margin: 1.25rem 0 1.75rem;
+                border-radius: 10px;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .article-hero {
+                padding-top: 135px;
+                padding-bottom: 30px;
+            }
+
+            .article-title {
+                font-size: 1.75rem;
+            }
+
+            .article-subtitle {
+                font-size: 0.98rem;
+            }
+
+            .article-shell {
+                padding-left: 16px;
+                padding-right: 16px;
+            }
+
+            .content-body p,
+            .content-body li {
+                font-size: 16px;
+                line-height: 1.7;
+            }
+
+            .content-body ul,
+            .content-body ol {
+                padding-left: 20px;
+            }
+
+            .legal-callout {
+                padding: 18px 20px;
+            }
+        }
+    </style>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "OCI Card & Indian Ancestry Documentation Assistance",
+      "description": "Need help with OCI documentation or tracing Indian ancestry? RRC Law Associates assists overseas clients with legal guidance, historical-record research and Indian documentation matters.",
+      "author": {
+        "@type": "Organization",
+        "name": "RRC Law Associates"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "RRC Law Associates"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://rrclawassociates.com/oci-card-indian-ancestry-assistance/"
+      },
+      "image": "https://rrclawassociates.com/assets/images/oci-hero-bg.jpg"
+    }
+    </script>
+</head>
+<body>
+    <div class="rrc-topbar">
+        <div class="rrc-topbar-container">
+            <div class="rrc-topbar-left">
+                <a href="tel:+919751182452">
+                    <i class="bi bi-telephone-fill"></i>
+                    +91 97511 82452
+                </a>
+
+                <span class="rrc-topbar-divider"></span>
+
+                <a href="mailto:dr.kumar@rrclawassociates.com">
+                    <i class="bi bi-envelope-fill"></i>
+                    dr.kumar@rrclawassociates.com
+                </a>
+            </div>
+
+            <div class="rrc-topbar-right">
+                <span>
+                    <i class="bi bi-clock"></i>
+                    Mon – Sat: 10:00 AM – 10:00 PM
+                </span>
+
+                <span class="rrc-topbar-divider"></span>
+
+                <a href="https://www.linkedin.com/company/rrclawassociates/" aria-label="LinkedIn">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+
+                <a href="https://www.instagram.com/rrclawassociates/" aria-label="Instagram">
+                    <i class="bi bi-instagram"></i>
+                </a>
+
+                <a href="https://www.facebook.com/rrclawassociates/" aria-label="Facebook">
+                    <i class="bi bi-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <header class="header">
+        <nav class="container d-flex align-items-center justify-content-between">
+            <a href="index.html">
+                <img src="assets/images/rrclogo.png" alt="RRC Law Associates logo" class="logo-img">
+            </a>
+
+            <div class="d-none d-lg-flex align-items-center ms-auto">
+                <div class="dropdown">
+                    <a class="nav-link-custom border-0 bg-transparent p-0" href="index.html">Home</a>
+                </div>
+
+                <div class="dropdown">
+                    <a class="nav-link-custom dropdown-toggle border-0 bg-transparent p-0" href="nri-services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">NRI Services</a>
+                    <ul class="dropdown-menu shadow-lg">
+                        <li>
+                            <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="oci-card-assistance.html">OCI Card &amp; Ancestry Assistance</a>
+                        </li>
+                        <li><a class="dropdown-item text-uppercase" style="font-size: 14px;" href="nri-property-disputes.html">Property Dispute</a></li>
+                        <li><a class="dropdown-item text-uppercase" style="font-size: 14px;" href="nri-power-of-attorney.html">Power of Attorney</a></li>
+                        <li><a class="dropdown-item text-uppercase" style="font-size: 14px;" href="nri-criminal-case.html">Criminal Cases</a></li>
+                        <li><a class="dropdown-item text-uppercase" style="font-size: 14px;" href="nri-family-matrimonial.html">Family &amp; Matrimonial</a></li>
+                    </ul>
+                </div>
+
+                <div class="dropdown">
+                    <a class="nav-link-custom dropdown-toggle border-0 bg-transparent p-0" href="core-practice-areas.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Core Practice Areas</a>
+                    <ul class="dropdown-menu shadow-lg">
+                        <li><a class="dropdown-item text-uppercase" style="font-size: 14px;" href="family-law.html">Family Law Workspace</a></li>
+                        <li><a class="dropdown-item text-uppercase" style="font-size: 14px;" href="intellectual-property.html">Intellectual Property Advisory</a></li>
+                        <li><a class="dropdown-item text-uppercase" style="font-size: 14px;" href="employment-law.html">Labour &amp; Employment Protection</a></li>
+                        <li><a class="dropdown-item text-uppercase" style="font-size: 14px;" href="white-collar-crime.html">White Collar Crime Defense</a></li>
+                        <li><a class="dropdown-item text-uppercase" style="font-size: 14px;" href="property-law.html">Due Diligence Frameworks</a></li>
+                        <li><a class="dropdown-item text-uppercase" style="font-size: 14px;" href="cyber-law.html">Cyber Law Desk</a></li>
+                        <li><a class="dropdown-item text-uppercase" style="font-size: 14px;" href="litigation-dispute-resolution.html">Litigation &amp; Dispute Resolution</a></li>
+                    </ul>
+                </div>
+
+                <div class="dropdown">
+                    <a class="nav-link-custom border-0 bg-transparent p-0" href="partners.html">Partners</a>
+                </div>
+
+                <div class="dropdown">
+                    <a class="nav-link-custom border-0 bg-transparent p-0" href="lawfirm-blog.html">Blog</a>
+                </div>
+
+                <div class="dropdown">
+                    <a class="nav-link-custom border-0 bg-transparent p-0" href="index.html#contact">Contact</a>
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center gap-3">
+                <div class="cta d-none d-sm-block">
+                    <a href="./booking.html" class="btn btn-gold">Book Consultation</a>
+                </div>
+                <button class="btn text-white d-lg-none fs-3 p-0" id="menuToggle" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu" id="closeMenu" aria-label="Close navigation">✕</button>
+        <div class="mt-5">
+            <a href="index.html" class="m-link">Home</a>
+            <div class="m-dropdown">
+                <a class="m-link m-trigger" href="nri-services.html">NRI Services <i class="fa fa-chevron-down ms-2"></i></a>
+                <div class="m-submenu" id="mPracticeMenu">
+                    <a class="m-sub-item" href="oci-card-assistance.html">OCI Card &amp; Ancestry Assistance</a>
+                    <a class="m-sub-item" href="nri-property-disputes.html">Property Dispute</a>
+                    <a class="m-sub-item" href="nri-power-of-attorney.html">Power of Attorney</a>
+                    <a class="m-sub-item" href="nri-criminal-case.html">Criminal Case</a>
+                    <a class="m-sub-item" href="nri-family-matrimonial.html">Family &amp; Matrimonial</a>
+                </div>
+            </div>
+            <div class="m-dropdown">
+                <a class="m-link m-trigger" href="core-practice-areas.html">Core Practice Areas <i class="fa fa-chevron-down ms-2"></i></a>
+                <div class="m-submenu" id="mPracticeMenu2">
+                    <a class="m-sub-item" href="family-law.html">Family, Succession &amp; Private Client Practice</a>
+                    <a class="m-sub-item" href="intellectual-property.html">Intellectual Property &amp; Innovation Protection</a>
+                    <a class="m-sub-item" href="employment-law.html">Labour, Employment &amp; Industrial Relations</a>
+                    <a class="m-sub-item" href="white-collar-crime.html">White Collar Crimes &amp; Financial Investigations</a>
+                    <a class="m-sub-item" href="property-law.html">Documentation, Registration &amp; Due Diligence</a>
+                    <a class="m-sub-item" href="cyber-law.html">Cyber Law, Data Protection &amp; Digital Evidence</a>
+                    <a class="m-sub-item" href="litigation-dispute-resolution.html">Litigation &amp; Dispute Resolution</a>
+                </div>
+            </div>
+            <a href="partners.html" class="m-link">Partners</a>
+            <a href="lawfirm-blog.html" class="m-link">Blog</a>
+            <a href="index.html#contact" class="m-link">Contact</a>
+            <div class="mt-4">
+                <a href="./booking.html" class="btn btn-gold w-100 py-3 text-center">Book Consultation</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="article-hero">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-10">
+                    <span class="meta-text">OCI Legal Services</span>
+                    <h1 class="article-title mt-3 mb-4">OCI Card &amp; Indian Ancestry Documentation Assistance</h1>
+                    <p class="article-subtitle">Legal guidance and Indian document research for overseas Indians and foreign citizens of Indian origin.</p>
+                    <div class="d-flex justify-content-center gap-4 text-muted small flex-wrap">
+                        <span><i class="fas fa-gavel me-2"></i>Jurisdiction: India</span>
+                        <span><i class="fas fa-book-open me-2"></i>OCI &amp; Ancestry Law</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="container article-shell my-5">
+        <div class="row justify-content-center">
+            <article class="col-12 content-body">
+                <figure class="article-visual">
+                    <img src="assets/images/oci-hero-bg.jpg" alt="OCI Card &amp; Indian Ancestry Documentation Assistance" loading="eager" fetchpriority="high">
+                </figure>
+
+                <p>Tracing your Indian ancestry, establishing family connections, locating historical records or preparing documents for an Overseas Citizen of India (OCI) application can be challenging when you live abroad and have limited access to Indian records.</p>
+
+                <p>RRC Law Associates assists overseas clients with legal guidance, ancestry-related document research, Indian civil documentation issues and related property and succession matters.</p>
+
+                <p>Whether you are investigating your family roots in India, reviewing your OCI documentation requirements or dealing with an Indian legal matter from overseas, our approach begins with understanding your circumstances, examining the available evidence and identifying the appropriate next steps.</p>
+
+                <p>Need assistance with an OCI or Indian ancestry matter? Contact RRC Law Associates to discuss your circumstances and the documents available to you.</p>
+
+                <h2 id="how-we-can-assist">How We Can Assist</h2>
+
+                <h3 id="oci-eligibility-and-documentation-guidance">1. OCI Eligibility and Documentation Guidance</h3>
+
+                <p>OCI eligibility depends on the applicable statutory requirements, the applicant's family history and citizenship background, and the relevant government rules.</p>
+
+                <p>We can assist with reviewing the information and documents available to you, identifying potential documentary gaps and explaining the legal and administrative requirements relevant to your circumstances.</p>
+
+                <p>Our assistance may include:</p>
+
+                <ul>
+                    <li>Preliminary review of family history and eligibility-related documents.</li>
+                    <li>Identification of missing or inconsistent names, dates and family relationships.</li>
+                    <li>Guidance on supporting civil and historical records.</li>
+                    <li>Review of documentary issues requiring clarification before an application is submitted.</li>
+                    <li>Guidance on the appropriate application or document-correction process.</li>
+                </ul>
+
+                <p>Eligibility must be assessed against the applicable law and current official requirements. An initial review does not guarantee that an applicant qualifies for OCI registration.</p>
+
+                <h3 id="indian-ancestry-and-family-origin-research">2. Indian Ancestry and Family-Origin Research</h3>
+
+                <p>For overseas families, establishing an ancestral connection with India may require research across several generations.</p>
+
+                <p>Older records may contain spelling variations, incomplete dates, changes in district boundaries, historic place names or differences between civil, religious and administrative records.</p>
+
+                <p>RRC Law Associates can assess the available family information and assist in identifying possible avenues for further research.</p>
+
+                <p>Depending on the circumstances, this may involve:</p>
+
+                <ul>
+                    <li>Reviewing the names of ancestors and their known family relationships.</li>
+                    <li>Examining historical addresses, villages, towns and district information.</li>
+                    <li>Developing a documentary research plan based on the information available.</li>
+                    <li>Identifying potentially relevant archival, civil-registration or other official records.</li>
+                    <li>Reviewing records obtained by the client or through authorised research channels.</li>
+                    <li>Assessing whether the collected documents may assist in establishing the relevant family connection.</li>
+                </ul>
+
+                <p>The availability of records depends on the relevant archive, authority, time period and preservation of historical documents. Research may not always produce a record that conclusively establishes ancestry.</p>
+
+                <h3 id="historical-records-and-ancestral-document-tracing">3. Historical Records and Ancestral Document Tracing</h3>
+
+                <p>An overseas applicant may know the name of an Indian-born parent, grandparent or earlier ancestor but possess few original records.</p>
+
+                <p>The next step is to identify which records may exist, where they may be held and what information is needed to search for them.</p>
+
+                <p>Depending on the case, potentially relevant material may include:</p>
+
+                <ul>
+                    <li>Birth and death registration records.</li>
+                    <li>Marriage records.</li>
+                    <li>School or educational records.</li>
+                    <li>Older family documents and correspondence.</li>
+                    <li>Revenue or property records that help establish family relationships or historical residence.</li>
+                    <li>Archival records relating to a person's residence or family history.</li>
+                    <li>Other official records relevant to the particular ancestry question.</li>
+                </ul>
+
+                <p>Not every category will be available or relevant in every case. The appropriate research route depends on the ancestor's identity, location, approximate dates and the purpose for which the evidence is required.</p>
+
+                <p>We can help assess the available information, identify possible sources and explain the limitations of the records obtained.</p>
+
+                <h3 id="non-availability-of-birth-certificate-guidance">4. Non-Availability of Birth Certificate (NABC) Guidance</h3>
+
+                <p>In some cases, an applicant needs evidence relating to an ancestor's birth, but a birth certificate cannot be located.</p>
+
+                <p>The appropriate process depends on the place and period of birth, the applicable registration framework, the records maintained by the relevant authority and the evidence available.</p>
+
+                <p>We can assist in assessing the circumstances and explaining the possible administrative route for obtaining appropriate documentation, including whether a Non-Availability of Birth Certificate (NABC) or another form of official record or supporting evidence may be relevant.</p>
+
+                <p>Our assistance may include:</p>
+
+                <ul>
+                    <li>Reviewing the known birth details and historical address.</li>
+                    <li>Identifying the registration jurisdiction, where ascertainable.</li>
+                    <li>Assessing what searches or supporting documents may be required.</li>
+                    <li>Explaining the procedure for approaching the relevant authority.</li>
+                    <li>Reviewing documentary inconsistencies and identifying issues that may need clarification.</li>
+                </ul>
+
+                <p>An NABC is not automatically available in every case, and it does not by itself establish every fact required for an OCI application. The relevant authority determines the applicable procedure and whether a certificate can be issued.</p>
+
+                <h3 id="indian-passport-surrender-and-oci-documentation">5. Indian Passport Surrender and OCI Documentation</h3>
+
+                <p>Individuals who have acquired foreign citizenship may need to address issues concerning their former Indian citizenship and passport documentation.</p>
+
+                <p>The requirements depend on the individual's circumstances, including the date and manner of acquiring foreign citizenship and the documents already held.</p>
+
+                <p>We can assist with understanding the applicable documentary requirements and identifying inconsistencies that may affect subsequent OCI documentation.</p>
+
+                <p>Possible areas of assistance include:</p>
+
+                <ul>
+                    <li>Reviewing former Indian passport details.</li>
+                    <li>Identifying differences in names, dates of birth and other particulars.</li>
+                    <li>Explaining the relevance of passport-surrender documentation.</li>
+                    <li>Reviewing the documentary sequence for the proposed OCI process.</li>
+                    <li>Identifying missing records and issues requiring clarification.</li>
+                </ul>
+
+                <p>The applicable requirements should be verified against the current instructions of the competent Indian authorities and the relevant Indian mission or consulate.</p>
+
+                <h3 id="oci-re-issuance-and-miscellaneous-documentation-issues">6. OCI Re-Issuance and Miscellaneous Documentation Issues</h3>
+
+                <p>An existing OCI cardholder may need assistance when obtaining a new passport, correcting personal details or addressing a lost, damaged or inconsistent document.</p>
+
+                <p>The applicable requirements depend on the nature of the change and the current official rules.</p>
+
+                <p>We can help review the circumstances and identify the relevant documentation questions, including:</p>
+
+                <ul>
+                    <li>Changes in passport details.</li>
+                    <li>Differences in names or dates of birth.</li>
+                    <li>Supporting documents for personal-detail changes.</li>
+                    <li>Lost or damaged OCI documentation.</li>
+                    <li>Questions about re-issuance or miscellaneous OCI services.</li>
+                </ul>
+
+                <p>The applicable procedure should be confirmed against current official OCI instructions before submission.</p>
+
+                <h3 id="oci-related-property-inheritance-and-power-of-attorney-matters">7. OCI-Related Property, Inheritance and Power of Attorney Matters</h3>
+
+                <p>Many overseas clients also need assistance with Indian property or family matters.</p>
+
+                <p>RRC Law Associates can consider related legal issues involving:</p>
+
+                <ul>
+                    <li>Inheritance and succession to property in India.</li>
+                    <li>Review of property and family documents.</li>
+                    <li>Legal issues concerning property held by overseas family members.</li>
+                    <li>Drafting and review of Powers of Attorney for use in India.</li>
+                    <li>Coordination of documentation and legal processes in India.</li>
+                    <li>Preliminary assessment of disputes involving ancestral property.</li>
+                </ul>
+
+                <p>Property transactions involving OCI cardholders must be assessed under the applicable Indian property, succession and foreign-exchange laws. Special restrictions may apply to agricultural land, plantation property and farmhouses.</p>
+
+                <p>An OCI card or Power of Attorney does not, by itself, authorise a transaction prohibited by applicable law. The legal position must be examined in the context of the particular property, transaction and parties.</p>
+
+                <h2 id="our-approach-to-oci-and-ancestry-matters">Our Approach to OCI and Ancestry Matters</h2>
+
+                <h3 id="step-1-understand-your-family-history">Step 1: Understand Your Family History</h3>
+
+                <p>We begin by identifying the relevant ancestor, the claimed family relationship, the known place of origin and the purpose for which the documents are required.</p>
+
+                <h3 id="step-2-review-available-documents">Step 2: Review Available Documents</h3>
+
+                <p>We examine the documents available to you, which may include passports, birth certificates, marriage certificates, death certificates, family records and historical correspondence.</p>
+
+                <h3 id="step-3-identify-documentary-gaps">Step 3: Identify Documentary Gaps</h3>
+
+                <p>We identify missing records, inconsistent particulars and questions that may require additional research or clarification.</p>
+
+                <h3 id="step-4-develop-a-research-and-documentation-plan">Step 4: Develop a Research and Documentation Plan</h3>
+
+                <p>Based on the available information, we identify possible sources of evidence, relevant authorities and potential administrative or legal procedures.</p>
+
+                <h3 id="step-5-review-the-evidence-obtained">Step 5: Review the Evidence Obtained</h3>
+
+                <p>Where further records are obtained, we can review their relevance, consistency and potential usefulness for the stated purpose.</p>
+
+                <h3 id="step-6-explain-the-next-legal-or-administrative-steps">Step 6: Explain the Next Legal or Administrative Steps</h3>
+
+                <p>We explain the available next steps, the limitations of the evidence and any further work that may be necessary.</p>
+
+                <p>The precise scope and sequence of work will depend on the individual matter.</p>
+
+                <h2 id="who-may-benefit-from-these-services">Who May Benefit from These Services?</h2>
+
+                <p>Our OCI-related legal and documentation assistance may be relevant to:</p>
+
+                <ul>
+                    <li>Australian, Canadian, British, American and other foreign citizens investigating Indian ancestry.</li>
+                    <li>Families seeking records relating to an Indian-born parent, grandparent or earlier ancestor.</li>
+                    <li>Overseas applicants who have incomplete family documentation.</li>
+                    <li>Individuals who need to investigate the availability of historical birth records.</li>
+                    <li>Former Indian citizens addressing passport-surrender and related documentation questions.</li>
+                    <li>Existing OCI cardholders dealing with document discrepancies or changes in personal particulars.</li>
+                    <li>Overseas families managing inheritance, property or Power of Attorney matters in India.</li>
+                </ul>
+
+                <p>The availability of a particular service and the appropriate legal route depend on the facts of each case.</p>
+
+                <h2 id="documents-that-may-help-us-assess-your-matter">Documents That May Help Us Assess Your Matter</h2>
+
+                <p>If available, please prepare copies of the following documents for an initial assessment:</p>
+
+                <ul>
+                    <li>Your current foreign passport.</li>
+                    <li>Your existing OCI card, if applicable.</li>
+                    <li>Former Indian passport or Indian citizenship-related documents, where relevant.</li>
+                    <li>Birth certificates of the applicant and relevant family members.</li>
+                    <li>Marriage or death certificates relevant to the family relationship.</li>
+                    <li>Names and approximate dates of birth of the ancestor whose records are being investigated.</li>
+                    <li>The ancestor's known village, town, district or historical address in India.</li>
+                    <li>School records, family documents, letters or other historical material.</li>
+                    <li>Any correspondence with Indian registration offices, archives or government authorities.</li>
+                    <li>A short written explanation of the purpose for which the documents are required.</li>
+                </ul>
+
+                <p>Please do not send original documents unless specifically requested through an appropriate and secure process. The documents needed will vary according to the circumstances, and the absence of one document does not necessarily mean that no further avenue of investigation exists.</p>
+
+                <h2 id="why-obtain-a-preliminary-legal-assessment">Why Obtain a Preliminary Legal Assessment?</h2>
+
+                <p>An ancestry or OCI documentation matter can involve several separate questions:</p>
+
+                <ul>
+                    <li>Is the applicant potentially eligible under the applicable OCI provisions?</li>
+                    <li>Which family relationship needs to be established?</li>
+                    <li>What records may exist for the relevant ancestor and period?</li>
+                    <li>Which authority or archive may hold those records?</li>
+                    <li>Is an alternative documentary route available if a record cannot be located?</li>
+                    <li>Will the proposed documents address the specific requirement for which they are intended?</li>
+                </ul>
+
+                <p>A preliminary assessment helps identify these questions before substantial time and expense are committed to further research.</p>
+
+                <p>It can also help distinguish between a document that establishes a historical fact, a document that supports a family relationship and a document that satisfies a specific government requirement. These functions are not necessarily interchangeable.</p>
+
+                <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+
+                <div class="accordion article-faq" id="blogFaq">
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                1. Can a foreign citizen apply for an OCI card through Indian ancestry?
+                            </button>
+                        </h3>
+                        <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#blogFaq">
+                            <div class="accordion-body">
+                                <p>Potentially, yes, if the applicant satisfies the applicable eligibility provisions. Eligibility depends on the statutory criteria, the relevant family relationship, the applicant's circumstances and any applicable exclusions. The relationship and supporting documents must be assessed against current official requirements.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                2. What if I do not have my grandfather's or great-grandfather's birth certificate?
+                            </button>
+                        </h3>
+                        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#blogFaq">
+                            <div class="accordion-body">
+                                <p>The absence of a birth certificate does not automatically establish that no further research is possible. Depending on the place and period of birth, it may be possible to investigate registration records, archives or other relevant documentary sources. The available alternatives and their legal significance must be assessed individually.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                3. Can you help trace an ancestor who lived in India many decades ago?
+                            </button>
+                        </h3>
+                        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#blogFaq">
+                            <div class="accordion-body">
+                                <p>We can assess the information available and identify potential avenues for historical-record research. The prospects of locating records depend on the accuracy of the identifying information, the location, the period and the preservation and accessibility of the relevant records.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                4. What is a Non-Availability of Birth Certificate?
+                            </button>
+                        </h3>
+                        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#blogFaq">
+                            <div class="accordion-body">
+                                <p>An NABC is generally a certificate issued by the competent authority in circumstances where the relevant birth registration cannot be located, subject to the applicable rules and procedure. Whether an NABC is appropriate or can be issued depends on the particular case and the relevant authority's requirements.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                5. Does an NABC guarantee OCI approval?
+                            </button>
+                        </h3>
+                        <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#blogFaq">
+                            <div class="accordion-body">
+                                <p>No. An NABC may address a particular documentary issue, but it does not automatically establish OCI eligibility or satisfy every requirement. The competent authority determines whether the complete application and supporting evidence meet the applicable criteria.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                                6. Can RRC Law Associates guarantee that historical records will be found?
+                            </button>
+                        </h3>
+                        <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#blogFaq">
+                            <div class="accordion-body">
+                                <p>No. Historical research depends on the records that exist, their preservation, accessibility and the information available to identify them. We can assess potential research routes, but cannot guarantee that a particular record will be found.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7">
+                                7. Can you assist clients who live outside India?
+                            </button>
+                        </h3>
+                        <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#blogFaq">
+                            <div class="accordion-body">
+                                <p>Yes, subject to the scope of the engagement and the procedures applicable to the particular matter. Initial discussions and document review may be conducted remotely where appropriate. Certain steps may require formalities, original documents, local verification or action before an Indian authority.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq8">
+                                8. Can you assist with Indian property matters for OCI cardholders?
+                            </button>
+                        </h3>
+                        <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#blogFaq">
+                            <div class="accordion-body">
+                                <p>We can assess property, inheritance and related documentation issues under the applicable Indian laws. The position depends on the property, the nature of the proposed transaction, the parties and the relevant legal restrictions.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq9">
+                                9. How much does OCI ancestry research cost?
+                            </button>
+                        </h3>
+                        <div id="faq9" class="accordion-collapse collapse" data-bs-parent="#blogFaq">
+                            <div class="accordion-body">
+                                <p>Fees depend on the complexity of the family history, the number of records to be investigated, the relevant locations, the time period and the work required. After an initial assessment, the proposed scope, professional fees, anticipated third-party expenses and payment stages can be explained before further work is undertaken.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq10">
+                                10. What should I provide for an initial assessment?
+                            </button>
+                        </h3>
+                        <div id="faq10" class="accordion-collapse collapse" data-bs-parent="#blogFaq">
+                            <div class="accordion-body">
+                                <p>Please provide a short family-history summary, the ancestor's known name and location, approximate dates, the relationship between the ancestor and applicant, the purpose of the proposed application and copies of the documents already available. Please redact unrelated sensitive information where appropriate.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 id="request-an-initial-assessment">Request an Initial Assessment</h2>
+
+                <p>If you are investigating your Indian ancestry, dealing with incomplete historical records or seeking legal guidance on OCI-related documentation, RRC Law Associates can review the information available and discuss possible next steps.</p>
+
+                <p>To help us understand your matter, please include:</p>
+
+                <ul>
+                    <li>Your country of citizenship and current country of residence.</li>
+                    <li>The name of the ancestor whose Indian connection is relevant.</li>
+                    <li>The ancestor's known village, town or district in India.</li>
+                    <li>The approximate year of birth or period of residence, if known.</li>
+                    <li>Your relationship to that ancestor.</li>
+                    <li>The documents you already possess.</li>
+                    <li>The specific purpose for which you need the records or legal assistance.</li>
+                </ul>
+
+                <p>Contact RRC Law Associates to discuss the scope of your matter and the appropriate next steps.</p>
+
+                <h2 id="important-legal-notice">Important Legal Notice</h2>
+
+                <div class="legal-callout">
+                    <p>This page provides general information and does not constitute individual legal advice or a determination of OCI eligibility. Applicable laws, rules, government instructions and documentation requirements may change. Each matter must be assessed on its own facts. Decisions concerning OCI registration, civil certificates and official records remain with the competent government authorities. No guarantee is made that an application will be approved, a certificate will be issued or a historical record will be located.</p>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-contain">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo-icon">
+                        <a href="index.html">
+                            <img src="assets/images/logo.png" alt="RRC Law Associates logo" class="logo-img">
+                            <div class="logo-text">
+                                <strong>RRC</strong>
+                                <strong>Law Associates</strong>
+                            </div>
+                        </a>
+                    </div>
+                    <p>Providing trusted legal solutions with integrity since 2008. Your reliable partner for all legal matters in Tamil Nadu.</p>
+                    <div class="social"></div>
+                </div>
+
+                <div>
+                    <h4>Practice Areas</h4>
+                    <ul>
+                        <li><a href="family-law.html">Family Law</a></li>
+                        <li><a href="property-law.html">Property Law</a></li>
+                        <li><a href="employment-law.html">Employment Law</a></li>
+                        <li><a href="white-collar-crime.html">White Collar Crimes</a></li>
+                        <li><a href="intellectual-property.html">Intellectual Property</a></li>
+                        <li><a href="litigation-dispute-resolution.html">Litigation Dispute</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="nri-services.html">NRI Services</a></li>
+                        <li><a href="oci-card-assistance.html">OCI Card &amp; Ancestry</a></li>
+                        <li><a href="core-practice-areas.html">Practice Areas</a></li>
+                        <li><a href="lawfirm-blog.html">Blog</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Contact Us</h4>
+                    <ul class="contact">
+                        <li>
+                            <span style="color: #c9a24d;">Address</span>
+                            No 82/6B, Deen Complex, Mary’s Corner, Parisutham Nagar, Thanjavur, Tamil Nadu-613001
+                        </li>
+                        <li>
+                            <span style="color: #c9a24d;">Phone</span>
+                            <a href="tel:+919751182452">+91 97511 82452</a>
+                        </li>
+                        <li>
+                            <span style="color: #c9a24d;">Email</span>
+                            <a href="mailto:dr.kumar@rrclawassociates.com">dr.kumar@rrclawassociates.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© <span id="year">2026</span> Branzyne. All rights reserved.</p>
+                <div class="legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Disclaimer</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/919751182452?text=Hello! I am looking for legal consultation." class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="float-text">Chat with us</span>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuToggle = document.getElementById('menuToggle');
+            const mobileMenu = document.getElementById('mobileMenu');
+            const closeMenu = document.getElementById('closeMenu');
+
+            if (menuToggle) {
+                menuToggle.addEventListener('click', () => mobileMenu.classList.add('open'));
+            }
+
+            if (closeMenu) {
+                closeMenu.addEventListener('click', () => mobileMenu.classList.remove('open'));
+            }
+
+            document.querySelectorAll('.m-trigger').forEach(trigger => {
+                trigger.addEventListener('click', function(e) {
+                    const submenu = this.nextElementSibling;
+                    if (!submenu) return;
+                    e.preventDefault();
+                    const isOpen = submenu.classList.contains('active');
+                    document.querySelectorAll('.m-submenu').forEach(m => m.classList.remove('active'));
+                    if (!isOpen) submenu.classList.add('active');
+                });
+            });
+        });
+    </script>
+<script src="script.js?v=20261008-1" data-rrc-ai-only defer></script>
+<div data-rrc-ai-chat-root></div>
+</body>
+</html>

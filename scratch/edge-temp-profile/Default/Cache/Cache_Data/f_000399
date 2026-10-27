@@ -1,0 +1,1655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCI Card Renewal and Passport Update: Latest Rules for 2026 | RRC Law Associates</title>
+    <meta name="description" content="Learn the latest OCI card rules for passport changes, personal-detail updates, lost cards and e-OCI, including the documents and online procedures to check.">
+    <meta name="keywords" content="OCI card renewal and passport update, OCI card reissue, OCI passport update, OCI card lost, e-OCI card, OCI miscellaneous services">
+    <link rel="canonical" href="https://rrclawassociates.com/oci-card-renewal-passport-update/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://rrclawassociates.com/oci-card-renewal-passport-update/">
+    <meta property="og:title" content="OCI Card Renewal and Passport Update: Latest Rules for 2026 | RRC Law Associates">
+    <meta property="og:description" content="Learn the latest OCI card rules for passport changes, personal-detail updates, lost cards and e-OCI, including the documents and online procedures to check.">
+    <meta property="og:image" content="https://rrclawassociates.com/assets/images/oci-card-renewal-passport-update.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://rrclawassociates.com/oci-card-renewal-passport-update/">
+    <meta property="twitter:title" content="OCI Card Renewal and Passport Update: Latest Rules for 2026 | RRC Law Associates">
+    <meta property="twitter:description" content="Learn the latest OCI card rules for passport changes, personal-detail updates, lost cards and e-OCI, including the documents and online procedures to check.">
+    <meta property="twitter:image" content="https://rrclawassociates.com/assets/images/oci-card-renewal-passport-update.jpg">
+
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+    <!-- CSS Dependencies -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=20261008-1">
+    <link rel="stylesheet" href="style2.css?v=20261008-1">
+    <link rel="stylesheet" href="topbar.css?v=20261008-1">
+
+    <style>
+        :root {
+            --primary: #0b1c2d;
+            --secondary: #1a365d;
+            --gold: #c9a24d;
+            --gold-hover: #b38f40;
+            --gold-light: rgba(201, 162, 77, 0.12);
+            --gold-border: rgba(201, 162, 77, 0.35);
+            --cream: #fbf9f4;
+            --text-heading: #0b1c2d;
+            --text-body: #333333;
+            --text-muted: #64748b;
+            --border-light: #e2e8f0;
+            --bg-card: #ffffff;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            color: var(--text-body);
+            background-color: #ffffff;
+            line-height: 1.75;
+            overflow-x: hidden;
+            font-size: 17.5px;
+        }
+
+        /* Header Navigation Styles (Preserved) */
+
+        .header {
+            position: fixed;
+            top: 42px;
+            left: 0;
+            width: 100%;
+            z-index: 1190;
+            background: #000000 !important;
+            padding: 5px 0;
+            min-height: 80px;
+            display: flex;
+            align-items: center;
+            box-shadow: none;
+        }
+
+        .logo-img {
+            height: 60px;
+            width: auto;
+        }
+
+        .nav-link-custom {
+            color: #ffffff !important;
+            font-weight: 500;
+            padding: 8px 16px;
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.2s ease;
+        }
+
+        .nav-link-custom:hover {
+            color: var(--gold) !important;
+        }
+
+        .dropdown-menu {
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            border: 1px solid #e2e8f0;
+            padding: 10px 0;
+            background: #ffffff;
+        }
+
+        .dropdown-item {
+            padding: 8px 20px;
+            font-size: 0.9rem;
+            color: #1e293b;
+            transition: all 0.2s ease;
+        }
+
+        .dropdown-item:hover {
+            background-color: var(--gold-light);
+            color: #0b1c2d;
+            padding-left: 24px;
+        }
+
+        /* Mobile Drawer */
+        .mobile-menu {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 300px;
+            height: 100%;
+            background: #0b1c2d;
+            z-index: 1300;
+            transition: right 0.3s ease;
+            box-shadow: -5px 0 25px rgba(0, 0, 0, 0.5);
+            overflow-y: auto;
+        }
+
+        .mobile-menu.active {
+            right: 0;
+        }
+
+        /* Article Hero */
+        .article-hero {
+            padding-top: 170px;
+            padding-bottom: 50px;
+            background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .breadcrumbs-bar {
+            font-size: 0.88rem;
+            color: var(--text-muted);
+            margin-bottom: 18px;
+        }
+
+        .breadcrumbs-bar a {
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .breadcrumbs-bar a:hover {
+            color: var(--gold);
+        }
+
+        .meta-text {
+            display: inline-block;
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--gold);
+            font-weight: 700;
+            margin-bottom: 12px;
+            background: var(--gold-light);
+            padding: 4px 14px;
+            border-radius: 30px;
+            border: 1px solid var(--gold-border);
+        }
+
+        .article-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.7rem;
+            font-weight: 700;
+            color: var(--primary);
+            line-height: 1.25;
+            max-width: 1040px;
+            margin: 0 auto 20px;
+        }
+
+        .article-subtitle {
+            font-size: 1.2rem;
+            color: #475569;
+            max-width: 860px;
+            margin: 0 auto 25px;
+            line-height: 1.6;
+        }
+
+        .article-meta-row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 24px;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .article-meta-item {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Featured Image */
+        .featured-image-wrapper {
+            max-width: 1000px;
+            margin: 2.5rem auto 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+            border: 1px solid var(--border-light);
+        }
+
+        .featured-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            max-height: 520px;
+            object-fit: cover;
+        }
+
+        .featured-image-caption {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-align: center;
+            padding: 10px 15px;
+            background: #ffffff;
+            border-top: 1px solid var(--border-light);
+            font-style: italic;
+        }
+
+        /* Main Content Layout */
+        .article-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 50px 20px 80px;
+        }
+
+        .article-content-col {
+            max-width: 840px;
+        }
+
+        /* Typography & Headings */
+        .article-body h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #0b1c2d;
+            margin-top: 2.8rem;
+            margin-bottom: 1.2rem;
+            padding-bottom: 0.6rem;
+            border-bottom: 2px solid rgba(201, 162, 77, 0.35);
+            line-height: 1.35;
+        }
+
+        .article-body h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.35rem;
+            font-weight: 600;
+            color: #1a365d;
+            margin-top: 2rem;
+            margin-bottom: 0.9rem;
+            line-height: 1.4;
+        }
+
+        .article-body p {
+            margin-bottom: 1.25rem;
+            color: #334155;
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+
+        .article-body ul, .article-body ol {
+            margin-bottom: 1.5rem;
+            padding-left: 1.5rem;
+        }
+
+        .article-body li {
+            margin-bottom: 0.65rem;
+            color: #334155;
+            line-height: 1.7;
+        }
+
+        .lead-intro p:first-of-type {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #1e293b;
+            font-weight: 400;
+        }
+
+        /* Callout Box */
+        .callout-box {
+            background-color: #f8fafc;
+            border-left: 4px solid var(--gold);
+            padding: 22px 26px;
+            border-radius: 0 10px 10px 0;
+            margin: 2rem 0;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+            border-top: 1px solid #edf2f7;
+            border-right: 1px solid #edf2f7;
+            border-bottom: 1px solid #edf2f7;
+        }
+
+        .callout-box.alert-callout {
+            border-left-color: #3b82f6;
+            background-color: #eff6ff;
+        }
+
+        .callout-title {
+            font-weight: 700;
+            color: #0b1c2d;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 1.05rem;
+        }
+
+        .callout-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Styled Checklist */
+        .styled-checklist {
+            list-style: none;
+            padding-left: 0;
+            margin: 1.5rem 0;
+        }
+
+        .styled-checklist li {
+            position: relative;
+            padding-left: 32px;
+            margin-bottom: 12px;
+            color: #334155;
+        }
+
+        .styled-checklist li::before {
+            content: "\F26A";
+            font-family: "bootstrap-icons";
+            position: absolute;
+            left: 0;
+            top: 2px;
+            color: var(--gold);
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+
+        .warning-checklist li::before {
+            content: "\F33A";
+            color: #dc2626;
+        }
+
+        /* Sidebar Elements */
+        .sidebar-sticky-wrapper {
+            position: sticky;
+            top: 135px;
+        }
+
+        .sidebar-card {
+            background: #ffffff;
+            border-radius: 12px;
+            border: 1px solid var(--border-light);
+            padding: 26px 24px;
+            margin-bottom: 25px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.04);
+        }
+
+        .sidebar-card-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 18px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--gold-light);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .toc-list {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .toc-list li {
+            margin-bottom: 0;
+            font-size: 0.92rem;
+            line-height: 1.45;
+        }
+
+        .toc-list a {
+            color: #475569;
+            text-decoration: none;
+            display: block;
+            padding: 6px 10px;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+        }
+
+        .toc-list a:hover, .toc-list a.active {
+            color: #0b1c2d;
+            background-color: var(--gold-light);
+            font-weight: 600;
+            padding-left: 14px;
+        }
+
+        .sidebar-cta-card {
+            background: linear-gradient(135deg, #0b1c2d 0%, #1a365d 100%);
+            color: #ffffff;
+            border-radius: 12px;
+            padding: 30px 24px;
+            text-align: center;
+            border-top: 4px solid var(--gold);
+        }
+
+        .sidebar-cta-card h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.35rem;
+            color: #ffffff;
+            margin-bottom: 12px;
+        }
+
+        .sidebar-cta-card p {
+            color: #cbd5e1;
+            font-size: 0.92rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .btn-gold-cta {
+            background-color: var(--gold);
+            color: #0b1c2d;
+            font-weight: 700;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.2s ease;
+            width: 100%;
+        }
+
+        .btn-gold-cta:hover {
+            background-color: #d8b25d;
+            color: #0b1c2d;
+            transform: translateY(-2px);
+        }
+
+        /* FAQ Accordion */
+        .faq-accordion .accordion-item {
+            border: 1px solid var(--border-light);
+            border-radius: 10px !important;
+            margin-bottom: 14px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+        }
+
+        .faq-accordion .accordion-button {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: #0b1c2d;
+            background-color: #f8fafc;
+            padding: 18px 22px;
+            box-shadow: none !important;
+        }
+
+        .faq-accordion .accordion-button:not(.collapsed) {
+            color: var(--primary);
+            background-color: var(--gold-light);
+            border-bottom: 1px solid var(--gold-border);
+        }
+
+        .faq-accordion .accordion-button::after {
+            background-size: 14px;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .faq-accordion .accordion-body {
+            padding: 20px 24px;
+            color: #334155;
+            font-size: 1rem;
+            line-height: 1.75;
+            background: #ffffff;
+        }
+
+        /* Consultation CTA Box */
+        .article-cta-box {
+            background: linear-gradient(135deg, #0b1c2d 0%, #1a365d 100%);
+            color: #ffffff;
+            border-radius: 14px;
+            padding: 42px 36px;
+            margin: 3.5rem 0 2.5rem;
+            position: relative;
+            overflow: hidden;
+            border-left: 6px solid var(--gold);
+        }
+
+        .article-cta-box h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.85rem;
+            color: var(--gold);
+            margin-bottom: 14px;
+            font-weight: 700;
+        }
+
+        .article-cta-box p {
+            color: #e2e8f0;
+            font-size: 1.05rem;
+            line-height: 1.75;
+            margin-bottom: 1.2rem;
+        }
+
+        .cta-btn-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-top: 25px;
+        }
+
+        .cta-btn-primary {
+            background-color: var(--gold);
+            color: #0b1c2d;
+            font-weight: 700;
+            padding: 13px 26px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .cta-btn-primary:hover {
+            background-color: #d8b25d;
+            color: #0b1c2d;
+            transform: translateY(-2px);
+        }
+
+        .cta-btn-whatsapp {
+            background-color: #25d366;
+            color: #ffffff;
+            font-weight: 600;
+            padding: 13px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .cta-btn-whatsapp:hover {
+            background-color: #20bd5a;
+            color: #ffffff;
+            transform: translateY(-2px);
+        }
+
+        /* Disclaimer */
+        .article-disclaimer {
+            background-color: #f1f5f9;
+            border-radius: 10px;
+            padding: 22px 26px;
+            font-size: 0.88rem;
+            color: #475569;
+            line-height: 1.65;
+            margin-top: 2.5rem;
+            border: 1px solid var(--border-light);
+        }
+
+        /* Responsive Tweaks */
+        @media (max-width: 991px) {
+            .article-hero {
+                padding-top: 140px;
+            }
+            .article-title {
+                font-size: 2.1rem;
+            }
+            .sidebar-sticky-wrapper {
+                position: static;
+                margin-top: 40px;
+            }
+            .cta-btn-group {
+                flex-direction: column;
+            }
+            .cta-btn-primary, .cta-btn-whatsapp {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "@id": "https://rrclawassociates.com/oci-card-renewal-passport-update/#article",
+          "isPartOf": {
+            "@id": "https://rrclawassociates.com/#website"
+          },
+          "headline": "OCI Card Renewal, Re-Issue and Passport Changes: Updated Rules for 2026",
+          "description": "Learn the latest OCI card rules for passport changes, personal-detail updates, lost cards and e-OCI, including the documents and online procedures to check.",
+          "image": "https://rrclawassociates.com/assets/images/oci-card-renewal-passport-update.jpg",
+          "datePublished": "2026-10-13T10:00:00+05:30",
+          "dateModified": "2026-10-13T10:00:00+05:30",
+          "inLanguage": "en-US",
+          "mainEntityOfPage": "https://rrclawassociates.com/oci-card-renewal-passport-update/",
+          "author": {
+            "@type": "LegalService",
+            "name": "RRC Law Associates",
+            "url": "https://rrclawassociates.com/"
+          },
+          "publisher": {
+            "@type": "LegalService",
+            "name": "RRC Law Associates",
+            "url": "https://rrclawassociates.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://rrclawassociates.com/assets/images/logo.png"
+            }
+          },
+          "keywords": [
+            "OCI card renewal and passport update",
+            "OCI card reissue",
+            "OCI passport update",
+            "OCI card lost",
+            "e-OCI card",
+            "OCI miscellaneous services"
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://rrclawassociates.com/oci-card-renewal-passport-update/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://rrclawassociates.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "OCI Legal Guides",
+              "item": "https://rrclawassociates.com/oci-legal-guides.html"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Guide 12: OCI Card Renewal and Passport Update",
+              "item": "https://rrclawassociates.com/oci-card-renewal-passport-update/"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://rrclawassociates.com/oci-card-renewal-passport-update/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Does an OCI card need to be reissued every time a passport is renewed?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The Government announced revised OCI procedures in July 2026, including discontinuing the requirement to reissue the physical card when a new passport is issued. Cardholders should follow the current passport-update instructions on the official portal."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is e-OCI the same as a new immigration status?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. The e-OCI is an electronic version of the OCI card. It does not itself create a different immigration status."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are existing physical OCI cards still valid?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The official OCI portal states that existing physical OCI booklets continue to be accepted. Cardholders should check the latest official instructions relevant to their circumstances."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What should I do if my OCI card is lost?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Check the current miscellaneous-services procedure, prepare the required supporting documents and follow the instructions issued by the competent authority. Additional verification may be required."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I correct an incorrect name on my OCI record?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A correction may be possible through the prescribed service, subject to supporting evidence and the applicable procedure."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does a child need to update OCI details after receiving a new passport?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Parents should check the current procedure for minor OCI cardholders and ensure that the child's passport particulars and other required information are updated correctly."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are spouse-based OCI updates different?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Additional requirements may apply to foreign spouses registered on the basis of marriage. The current official instructions should be checked for any declarations or supporting documents."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can every OCI update be completed online?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Not necessarily. Some services may require further verification or other steps. Check the instructions for the particular service."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Where should I apply for OCI miscellaneous services?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Use the official Government of India OCI Services portal and follow the instructions for the relevant service."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Should I use an agent to update my OCI details?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Applicants can use the official process directly. Professional assistance may be useful where the record contains errors, the supporting documents conflict or the correct procedure is unclear. No representative can guarantee approval."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+
+
+<!-- =========================================================
+     TOP BAR
+========================================================== -->
+
+<div class="rrc-topbar">
+
+    <div class="rrc-topbar-container">
+
+        <!-- LEFT SIDE -->
+        <div class="rrc-topbar-left">
+
+            <a href="tel:+9197511 82452">
+                <i class="bi bi-telephone-fill"></i>
+                +91 97511 82452
+            </a>
+
+            <span class="rrc-topbar-divider"></span>
+
+            <a href="mailto:dr.kumar@rrclawassociates.com">
+                <i class="bi bi-envelope-fill"></i>
+                dr.kumar@rrclawassociates.com
+            </a>
+
+        </div>
+
+
+        <!-- RIGHT SIDE -->
+        <div class="rrc-topbar-right">
+
+            <span>
+                <i class="bi bi-clock"></i>
+                Mon &#8211; Sat: 10:00 AM &#8211; 10:00 PM
+            </span>
+
+            <span class="rrc-topbar-divider"></span>
+
+            <a href="https://www.linkedin.com/company/rrclawassociates/" aria-label="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+            </a>
+
+            <a href="https://www.instagram.com/rrclawassociates/" aria-label="Instagram">
+                <i class="bi bi-instagram"></i>
+            </a>
+
+            <a href="https://www.facebook.com/rrclawassociates/" aria-label="Facebook">
+                <i class="bi bi-facebook"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+        <header class="header">
+            <nav class="container d-flex align-items-center justify-content-between">
+                <a href="index.html">
+                    <img src="assets/images/rrclogo.png" alt="RRC Logo" class="logo-img">
+                </a>
+
+                <div class="d-none d-lg-flex align-items-center ms-auto">
+                    <div class="dropdown">
+                        <a
+                            class="nav-link-custom border-0 bg-transparent p-0"
+                            href="index.html"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Home
+                        </a>
+                    </div>
+                    <div class="dropdown">
+                        <a
+                            class="nav-link-custom dropdown-toggle border-0 bg-transparent p-0"
+                            href="nri-services.html"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            NRI Services
+                        </a>
+                        <ul class="dropdown-menu shadow-lg">
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="oci-card-assistance.html">OCI Card &amp; Ancestry Assistance</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="nri-property-disputes.html">Property Dispute</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="nri-power-of-attorney.html">Power of Attorney</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="nri-criminal-case.html">Criminal Cases</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="nri-family-matrimonial.html">Family &amp; Matrimonial</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <a
+                            class="nav-link-custom dropdown-toggle border-0 bg-transparent p-0"
+                            href="core-practice-areas.html"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Core Practice Areas
+                        </a>
+                        <ul class="dropdown-menu shadow-lg">
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="family-law.html">Family Law Workspace</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="intellectual-property.html">Intellectual Property Advisory</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="employment-law.html">Labour &amp; Employment Protection</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="white-collar-crime.html">White Collar Crime Defense</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="property-law.html">Due Diligence Frameworks</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="cyber-law.html">Cyber Law Desk</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="litigation-dispute-resolution.html">Litigation &amp; Dispute Resolution</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <a
+                            class="nav-link-custom border-0 bg-transparent p-0"
+                            href="./partners.html"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Partners
+                        </a>
+                    </div>
+                    <div class="dropdown">
+                        <a
+                            class="nav-link-custom border-0 bg-transparent p-0"
+                            href="lawfirm-blog.html"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Blog
+                        </a>
+                    </div>
+                    <div class="dropdown">
+                        <a
+                            class="nav-link-custom border-0 bg-transparent p-0"
+                            href="index.html#contact"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-center gap-3">
+                    <div class="cta d-none d-sm-block">
+                        <a href="./booking.html" class="btn btn-gold">Book Consultation</a>
+                    </div>
+                    <button class="btn text-white d-lg-none fs-3 p-0" id="menuToggle">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </header>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <button class="close-menu" id="closeMenu">&#x2715;</button>
+            <div class="mt-5">
+                <a href="index.html" class="m-link">Home</a>
+                <div class="m-dropdown">
+                    <a class="m-link m-trigger" href="nri-services.html">
+                        NRI Services <i class="fa fa-chevron-down ms-2"></i>
+                    </a>
+                    <div class="m-submenu" id="mPracticeMenu">
+                        <a class="m-sub-item" href="oci-card-assistance.html">OCI Card &amp; Ancestry Assistance</a>
+                        <a class="m-sub-item" href="nri-property-disputes.html">Property Dispute</a>
+                        <a class="m-sub-item" href="nri-power-of-attorney.html">Power of Attorney</a>
+                        <a class="m-sub-item" href="nri-criminal-case.html">Criminal Case</a>
+                        <a class="m-sub-item" href="nri-family-matrimonial.html">Family &amp; Matrimonial</a>
+                    </div>
+                </div>
+                <div class="m-dropdown">
+                    <a class="m-link m-trigger" href="core-practice-areas.html">
+                        Core Practice Areas <i class="fa fa-chevron-down ms-2"></i>
+                    </a>
+                    <div class="m-submenu" id="mPracticeMenu2">
+                        <a class="m-sub-item" href="family-law.html">FAMILY, SUCCESSION &amp; PRIVATE CLIENT PRACTICE</a>
+                        <a class="m-sub-item" href="intellectual-property.html">INTELLECTUAL PROPERTY &amp; INNOVATION PROTECTION</a>
+                        <a class="m-sub-item" href="employment-law.html">LABOUR, EMPLOYMENT &amp; INDUSTRIAL RELATIONS</a>
+                        <a class="m-sub-item" href="white-collar-crime.html">WHITE COLLAR CRIMES &amp; FINANCIAL INVESTIGATIONS</a>
+                        <a class="m-sub-item" href="property-law.html">DOCUMENTATION, REGISTRATION &amp; DUE DILIGENCE</a>
+                        <a class="m-sub-item" href="cyber-law.html">CYBER LAW, DATA PROTECTION &amp; DIGITAL EVIDENCE</a>
+                        <a class="m-sub-item" href="litigation-dispute-resolution.html">LITIGATION &amp; DISPUTE RESOLUTION</a>
+                    </div>
+                </div>
+                <a href="partners.html" class="m-link">Partners</a>
+                <a href="lawfirm-blog.html" class="m-link">Blog</a>
+                <a href="index.html#contact" class="m-link">Contact</a>
+
+                <div class="mt-4">
+                    <a href="./booking.html" class="btn btn-gold w-100 py-3 text-center">Book Consultation</a>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- Article Hero Section -->
+    <section class="article-hero text-center">
+        <div class="container">
+            <div class="breadcrumbs-bar">
+                <a href="index.html">Home</a> &nbsp;/&nbsp;
+                <a href="oci-legal-guides.html">OCI Legal Guides</a> &nbsp;/&nbsp;
+                <span>Guide 12: OCI Card Renewal and Passport Update</span>
+            </div>
+            <span class="meta-text">OCI Legal Guides &bull; Guide 12</span>
+            <h1 class="article-title mt-2">OCI Card Renewal, Re-Issue and Passport Changes: Updated Rules for 2026</h1>
+            <p class="article-subtitle">
+                Learn the latest OCI card rules for passport changes, personal-detail updates, lost cards and e-OCI, including the documents and online procedures to check.
+            </p>
+            <div class="article-meta-row">
+                <div class="article-meta-item">
+                    <i class="bi bi-person-fill text-gold"></i>
+                    <span>RRC Law Associates Legal Editorial Team</span>
+                </div>
+                <div class="article-meta-item">
+                    <i class="bi bi-journal-text text-gold"></i>
+                    <span>OCI Legal Guides Series</span>
+                </div>
+            </div>
+
+            <!-- Featured Cover Image -->
+            <div class="featured-image-wrapper">
+                <img src="assets/images/oci-card-renewal-passport-update.jpg" alt="OCI card renewal, passport updates and e-OCI guidance for 2026" class="featured-image">
+                <div class="featured-image-caption">
+                    Official procedures for updating passport particulars, e-OCI access, miscellaneous services and document corrections under Government of India guidelines.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content & Sidebar Layout -->
+    <main class="article-container">
+        <div class="row g-5">
+            <!-- Article Body Column -->
+            <div class="col-lg-8 article-content-col">
+                <article class="article-body">
+
+                    <!-- Introduction -->
+                    <div class="lead-intro">
+                        <p>An Overseas Citizen of India (OCI) cardholder may need to update passport details, correct personal information, report a lost card or address a discrepancy between the OCI record and the current passport.</p>
+                        <p>For families living overseas, these issues can create uncertainty, particularly when a passport is renewed shortly before travel to India.</p>
+                        <p>The Government of India has introduced changes to OCI documentation procedures, including the electronic OCI card (e-OCI) and revised arrangements for updating passport particulars. As a result, older articles describing mandatory physical-card reissuance may no longer reflect the current procedure.</p>
+                        <p>The first step is to identify the exact service required. A new passport, a change of personal particulars, a lost OCI card and an incorrect OCI record are different situations and may require different procedures.</p>
+                        <p>This guide explains the principal issues OCI cardholders should check before applying for an update or replacement.</p>
+                        <p>This article provides general information. Always verify the current instructions on the official OCI portal and with the Indian Mission, Post or FRRO responsible for your case.</p>
+                    </div>
+
+                    <!-- Section 1 -->
+                    <section id="section-1">
+                        <h2>1. Does an OCI Card Need to Be Reissued When a New Passport Is Issued?</h2>
+                        <p>The Government of India announced changes to OCI documentation procedures in July 2026, including discontinuing the requirement to reissue the physical OCI card upon issuance of a new passport.</p>
+                        <p>Under the updated approach, OCI cardholders must update their passport particulars through the prescribed online process. The revised guidance also addresses biometric information requirements.</p>
+                        <p>Accordingly, OCI cardholders should not automatically follow older instructions stating that a physical OCI card must be reissued every time a passport is renewed.</p>
+                        <p>Before applying, check:</p>
+                        <ul class="styled-checklist">
+                            <li>Whether the new passport details have been updated in the OCI system.</li>
+                            <li>Whether the prescribed passport copy and recent photograph must be uploaded.</li>
+                            <li>Whether biometric information must be provided under the applicable procedure.</li>
+                            <li>Whether any special requirements apply because of the cardholder's age or registration category.</li>
+                            <li>Whether the current OCI record is available electronically through the official portal.</li>
+                        </ul>
+                        <p>The relevant instructions should be checked at the time of application because procedures may differ according to the service requested.</p>
+                    </section>
+
+                    <!-- Section 2 -->
+                    <section id="section-2">
+                        <h2>2. What Is the Procedure After Renewing a Passport?</h2>
+                        <p>When an OCI cardholder receives a new foreign passport, the passport particulars should be updated through the prescribed OCI online service.</p>
+                        <p>The current instructions should be consulted to establish the applicable deadline, supporting documents and whether any in-person step is required.</p>
+                        <p>Depending on the case, relevant documents may include:</p>
+                        <ul class="styled-checklist">
+                            <li>The current passport containing the holder's photograph.</li>
+                            <li>The previous passport, where available and required.</li>
+                            <li>The existing OCI registration details.</li>
+                            <li>A recent photograph meeting the prescribed specifications.</li>
+                            <li>Additional records required for a special category of applicant.</li>
+                        </ul>
+                        <p>The process should be completed using the official OCI portal rather than an unofficial website.</p>
+                        <div class="callout-box">
+                            <div class="callout-title">
+                                <i class="bi bi-lightbulb-fill text-gold"></i> Practical Recommendation
+                            </div>
+                            <p>Do not leave passport-detail updates until immediately before travel. Check the current requirements when the new passport is issued and retain the online acknowledgement or other evidence of the completed update.</p>
+                        </div>
+                    </section>
+
+                    <!-- Section 3 -->
+                    <section id="section-3">
+                        <h2>3. What If the OCI Cardholder Is a Child?</h2>
+                        <p>Minor OCI cardholders should follow the current passport-update procedure applicable to their circumstances.</p>
+                        <p>Parents should check the child's age, passport details, existing OCI record and the current requirements for photographs and supporting documents.</p>
+                        <p>The rules and procedures applicable to children may differ from those for adults, particularly where the identity photograph, parental information or other personal particulars need updating.</p>
+                        <p>Parents should verify:</p>
+                        <ul class="styled-checklist">
+                            <li>That the child's current passport details are correctly recorded.</li>
+                            <li>Whether a recent photograph must be uploaded.</li>
+                            <li>Whether the existing OCI record matches the child's identity documents.</li>
+                            <li>Whether any additional documents are required.</li>
+                            <li>Whether the child's details need correction rather than a routine passport update.</li>
+                        </ul>
+                        <p>Where the child's name or date of birth differs across documents, the discrepancy should be addressed using the procedure applicable to the specific correction.</p>
+                    </section>
+
+                    <!-- Section 4 -->
+                    <section id="section-4">
+                        <h2>4. What If the OCI Cardholder Is a Foreign Spouse of an Indian Citizen or OCI Cardholder?</h2>
+                        <p>Spouse-based OCI registration can involve additional requirements.</p>
+                        <p>The current official guidance should be checked for any declarations or supporting documents required when the spouse's passport is renewed.</p>
+                        <p>Depending on the applicable procedure, the documents may include the new passport, a recent photograph, a declaration that the marriage continues to subsist and relevant details of the Indian-citizen or OCI-cardholder spouse.</p>
+                        <p>The applicant should not assume that the requirements applicable to a person registered through Indian ancestry are identical to those for a person registered on the basis of marriage.</p>
+                        <p>Where the marriage has ended, the spouse has remarried or the spouse's status has changed, the matter may require a separate legal assessment rather than a routine passport update.</p>
+                    </section>
+
+                    <!-- Section 5 -->
+                    <section id="section-5">
+                        <h2>5. What Is an e-OCI Card?</h2>
+                        <p>The Government of India has introduced the electronic OCI card, known as e-OCI.</p>
+                        <p>The e-OCI is an electronic version of the OCI card that can be accessed through the official OCI system. It contains the particulars held in the OCI records and provides a digital means of accessing the cardholder's information.</p>
+                        <p>The official portal states that the e-OCI does not replace the validity or status of existing OCI cardholders. Existing physical OCI booklets continue to be accepted under the published guidance.</p>
+                        <p>The e-OCI facility is intended to make access to OCI records more convenient. Cardholders should use the official portal and follow the prescribed process to access or download their electronic card.</p>
+                        <p>Before travelling, check the current instructions concerning the documents and electronic records that should be carried or made available.</p>
+                    </section>
+
+                    <!-- Section 6 -->
+                    <section id="section-6">
+                        <h2>6. What If the OCI Card Is Lost, Stolen or Damaged?</h2>
+                        <p>A lost or damaged OCI card is different from a routine passport update.</p>
+                        <p>The cardholder should consult the current OCI miscellaneous-services instructions and establish which application, report or supporting evidence is required.</p>
+                        <p>Depending on the circumstances, relevant steps may include:</p>
+                        <ul class="styled-checklist">
+                            <li>Recording the circumstances of the loss or damage.</li>
+                            <li>Obtaining a police or other relevant report where required.</li>
+                            <li>Locating any available copy of the existing OCI card.</li>
+                            <li>Submitting the prescribed online application.</li>
+                            <li>Uploading the documents required for the relevant service.</li>
+                            <li>Following any verification or interview instructions issued by the competent authority.</li>
+                            <li>Retaining the acknowledgement and subsequent correspondence.</li>
+                        </ul>
+                        <p>The precise procedure, applicable fee and verification requirements should be checked on the official portal.</p>
+                        <p>Do not assume that the process for a lost card is identical to the procedure for correcting personal information or updating a passport.</p>
+                    </section>
+
+                    <!-- Section 7 -->
+                    <section id="section-7">
+                        <h2>7. What If the Name or Date of Birth Is Incorrect on the OCI Record?</h2>
+                        <p>An error in an OCI record should be addressed through the appropriate correction procedure.</p>
+                        <p>Examples include:</p>
+                        <ul class="styled-checklist">
+                            <li>A spelling difference in the cardholder's name.</li>
+                            <li>An incorrect date of birth.</li>
+                            <li>An error in the father's or mother's name.</li>
+                            <li>A discrepancy between the passport and OCI record.</li>
+                            <li>A change in nationality or another personal particular.</li>
+                        </ul>
+                        <p>The applicant should identify the source of the error and collect supporting evidence before submitting the correction request.</p>
+                        <p>Depending on the correction, relevant documents may include the current passport, birth certificate, official name-change record or other evidence accepted by the competent authority.</p>
+                        <p>Where several documents contain inconsistent information, the applicant should not assume that changing one record automatically corrects every other record.</p>
+                        <p>A structured document review can help determine which records need correction and what evidence should accompany the request.</p>
+                    </section>
+
+                    <!-- Section 8 -->
+                    <section id="section-8">
+                        <h2>8. Can an OCI Cardholder Update an Address or Occupation?</h2>
+                        <p>The OCI miscellaneous-services framework includes procedures for updating certain personal particulars, including address and occupation.</p>
+                        <p>The applicable process should be checked on the official portal.</p>
+                        <p>Before submitting an update, establish:</p>
+                        <ul class="styled-checklist">
+                            <li>Which particulars have changed.</li>
+                            <li>Whether supporting evidence is required.</li>
+                            <li>Whether an online declaration or document upload is necessary.</li>
+                            <li>Whether the service is free of charge or attracts a fee under the current instructions.</li>
+                            <li>Whether the update has been acknowledged or completed.</li>
+                        </ul>
+                        <p>Cardholders should retain evidence of the submission and any confirmation received.</p>
+                        <p>An address or occupation update should not be confused with a change in nationality or another alteration that may require a different procedure.</p>
+                    </section>
+
+                    <!-- Section 9 -->
+                    <section id="section-9">
+                        <h2>9. Do OCI Updates Require a Visit to an Indian Mission or FRRO?</h2>
+                        <p>Not every OCI service follows the same procedure.</p>
+                        <p>Some updates may be completed through the online system, while other matters may require document verification, biometric information or attendance before the competent authority.</p>
+                        <p>The applicable process depends on the service requested and the current instructions.</p>
+                        <p>Before arranging travel or an appointment, check:</p>
+                        <ul class="styled-checklist">
+                            <li>Whether the application is entirely online.</li>
+                            <li>Whether original documents must be presented.</li>
+                            <li>Whether biometric information is required.</li>
+                            <li>Whether an appointment is necessary.</li>
+                            <li>Which Indian Mission, Post or FRRO has jurisdiction.</li>
+                            <li>Whether any additional requirements apply to the applicant's category.</li>
+                        </ul>
+                        <p>Do not rely on an old checklist or another person's experience without verifying that it applies to the current application.</p>
+                    </section>
+
+                    <!-- Section 10 -->
+                    <section id="section-10">
+                        <h2>10. What Documents Should Be Prepared?</h2>
+                        <p>The precise checklist depends on the service requested.</p>
+                        <p>For a routine passport update, the applicant may need the current passport, relevant OCI particulars and a recent photograph.</p>
+                        <p>For a lost card, the checklist may include evidence of the loss and a police report where required.</p>
+                        <p>For a correction of personal details, the applicant may need documents proving the correct information.</p>
+                        <p>For a spouse-based registration, additional declarations or spouse-related records may be required under the applicable procedure.</p>
+                        <p>Before submitting the application, compare the proposed document set against the current official instructions.</p>
+                    </section>
+
+                    <!-- Section 11 -->
+                    <section id="section-11">
+                        <h2>11. Common Mistakes to Avoid</h2>
+                        <p>OCI cardholders should avoid the following errors:</p>
+                        <ul class="styled-checklist warning-checklist">
+                            <li>Following outdated guidance on physical-card reissuance.</li>
+                            <li>Assuming that every new passport requires the same application.</li>
+                            <li>Using an unofficial website to submit personal information.</li>
+                            <li>Uploading documents with inconsistent names or dates without explanation.</li>
+                            <li>Assuming that a passport update automatically corrects other personal particulars.</li>
+                            <li>Ignoring special requirements applicable to spouse-based registrations.</li>
+                            <li>Assuming that a lost-card application follows the same process as a routine update.</li>
+                            <li>Failing to retain application acknowledgements and supporting records.</li>
+                            <li>Relying on an estimated processing time without checking the current official guidance.</li>
+                        </ul>
+                        <p>The safest approach is to identify the correct service, verify the latest instructions and prepare the required documents before submission.</p>
+                    </section>
+
+                    <!-- Section 12 -->
+                    <section id="section-12">
+                        <h2>12. How RRC Law Associates Can Assist</h2>
+                        <p>An OCI update may appear straightforward, but discrepancies between passports, OCI records and supporting documents can create uncertainty.</p>
+                        <p>RRC Law Associates can assist with a structured review of matters involving:</p>
+                        <ul class="styled-checklist">
+                            <li>Passport-detail updates.</li>
+                            <li>Incorrect names or personal particulars.</li>
+                            <li>Lost or damaged OCI documentation.</li>
+                            <li>Supporting-document consistency.</li>
+                            <li>OCI records involving children.</li>
+                            <li>Spouse-based documentation issues.</li>
+                            <li>Historical or ancestry documents relevant to OCI records.</li>
+                            <li>Identifying the appropriate official procedure for the matter.</li>
+                        </ul>
+                        <p>The scope of assistance depends on the documents and circumstances involved.</p>
+                        <p>The competent Indian authority remains responsible for deciding applications and determining whether the prescribed requirements have been satisfied.</p>
+                    </section>
+
+                    <!-- FAQ Section -->
+                    <section id="section-faqs" class="mt-5">
+                        <h2>Frequently Asked Questions</h2>
+                        <div class="accordion faq-accordion mt-4" id="ociFaqAccordion">
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="false" aria-controls="faqCollapse1">
+                                        1. Does an OCI card need to be reissued every time a passport is renewed?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse1" class="accordion-collapse collapse" aria-labelledby="faqHeading1" data-bs-parent="#ociFaqAccordion">
+                                    <div class="accordion-body">
+                                        The Government announced revised OCI procedures in July 2026, including discontinuing the requirement to reissue the physical card when a new passport is issued. Cardholders should follow the current passport-update instructions on the official portal.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                                        2. Is e-OCI the same as a new immigration status?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#ociFaqAccordion">
+                                    <div class="accordion-body">
+                                        No. The e-OCI is an electronic version of the OCI card. It does not itself create a different immigration status.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+                                        3. Are existing physical OCI cards still valid?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#ociFaqAccordion">
+                                    <div class="accordion-body">
+                                        The official OCI portal states that existing physical OCI booklets continue to be accepted. Cardholders should check the latest official instructions relevant to their circumstances.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                                        4. What should I do if my OCI card is lost?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#ociFaqAccordion">
+                                    <div class="accordion-body">
+                                        Check the current miscellaneous-services procedure, prepare the required supporting documents and follow the instructions issued by the competent authority. Additional verification may be required.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading5">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                                        5. Can I correct an incorrect name on my OCI record?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#ociFaqAccordion">
+                                    <div class="accordion-body">
+                                        A correction may be possible through the prescribed service, subject to supporting evidence and the applicable procedure.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading6">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
+                                        6. Does a child need to update OCI details after receiving a new passport?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6" data-bs-parent="#ociFaqAccordion">
+                                    <div class="accordion-body">
+                                        Parents should check the current procedure for minor OCI cardholders and ensure that the child's passport particulars and other required information are updated correctly.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading7">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse7" aria-expanded="false" aria-controls="faqCollapse7">
+                                        7. Are spouse-based OCI updates different?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse7" class="accordion-collapse collapse" aria-labelledby="faqHeading7" data-bs-parent="#ociFaqAccordion">
+                                    <div class="accordion-body">
+                                        Additional requirements may apply to foreign spouses registered on the basis of marriage. The current official instructions should be checked for any declarations or supporting documents.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading8">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse8" aria-expanded="false" aria-controls="faqCollapse8">
+                                        8. Can every OCI update be completed online?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse8" class="accordion-collapse collapse" aria-labelledby="faqHeading8" data-bs-parent="#ociFaqAccordion">
+                                    <div class="accordion-body">
+                                        Not necessarily. Some services may require further verification or other steps. Check the instructions for the particular service.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading9">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqHeading9" aria-expanded="false" aria-controls="faqCollapse9">
+                                        9. Where should I apply for OCI miscellaneous services?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse9" class="accordion-collapse collapse" aria-labelledby="faqHeading9" data-bs-parent="#ociFaqAccordion">
+                                    <div class="accordion-body">
+                                        Use the official Government of India OCI Services portal and follow the instructions for the relevant service.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faqHeading10">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse10" aria-expanded="false" aria-controls="faqCollapse10">
+                                        10. Should I use an agent to update my OCI details?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse10" class="accordion-collapse collapse" aria-labelledby="faqHeading10" data-bs-parent="#ociFaqAccordion">
+                                    <div class="accordion-body">
+                                        Applicants can use the official process directly. Professional assistance may be useful where the record contains errors, the supporting documents conflict or the correct procedure is unclear. No representative can guarantee approval.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <!-- Section CTA -->
+                    <section id="section-cta" class="article-cta-box">
+                        <h3>Need Assistance With an OCI Passport Update or Documentation Issue?</h3>
+                        <p>If your passport details have changed, your OCI record contains an error or your card has been lost or damaged, first identify the appropriate official procedure and supporting documents.</p>
+                        <p>RRC Law Associates provides legal and documentary assistance relating to OCI records, personal-particular corrections, ancestry documentation and related matters.</p>
+                        <p>Contact the firm to discuss the issue, the documents available and the assistance required.</p>
+                        <div class="cta-btn-group">
+                            <a href="./booking.html" class="cta-btn-primary">
+                                <i class="bi bi-calendar-check"></i> Book Legal Consultation
+                            </a>
+                            <a href="https://wa.me/919751182452" target="_blank" rel="noopener noreferrer" class="cta-btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                            </a>
+                        </div>
+                    </section>
+
+                    <!-- Section Disclaimer -->
+                    <section id="section-disclaimer" class="article-disclaimer">
+                        <strong>Legal disclaimer:</strong> This article is for general informational purposes and does not constitute individual legal advice. OCI procedures may change. Always verify the current requirements on the official OCI portal and with the competent Indian authority. No particular processing time or application outcome is guaranteed.
+                    </section>
+
+                </article>
+            </div>
+
+            <!-- Sticky Sidebar Column -->
+            <div class="col-lg-4">
+                <aside class="sidebar-sticky-wrapper">
+
+                    <!-- Table of Contents Card -->
+                    <div class="sidebar-card">
+                        <div class="sidebar-card-title">
+                            <i class="bi bi-list-nested text-gold"></i> Table of Contents
+                        </div>
+                        <ul class="toc-list">
+                            <li><a href="#section-1">1. Does OCI Need Reissue?</a></li>
+                            <li><a href="#section-2">2. Procedure After Renewing</a></li>
+                            <li><a href="#section-3">3. Minor Child OCI Holders</a></li>
+                            <li><a href="#section-4">4. Foreign Spouse Requirements</a></li>
+                            <li><a href="#section-5">5. What Is an e-OCI Card?</a></li>
+                            <li><a href="#section-6">6. Lost, Stolen or Damaged OCI</a></li>
+                            <li><a href="#section-7">7. Incorrect Name or DOB</a></li>
+                            <li><a href="#section-8">8. Address or Occupation Updates</a></li>
+                            <li><a href="#section-9">9. Indian Mission / FRRO Visits</a></li>
+                            <li><a href="#section-10">10. Documents to Prepare</a></li>
+                            <li><a href="#section-11">11. Common Mistakes to Avoid</a></li>
+                            <li><a href="#section-12">12. How RRC Law Can Assist</a></li>
+                            <li><a href="#section-faqs">Frequently Asked Questions</a></li>
+                            <li><a href="#section-cta">Assistance Enquiry</a></li>
+                            <li><a href="#section-disclaimer">Legal Disclaimer</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Consultation Action Card -->
+                    <div class="sidebar-cta-card mb-4">
+                        <h4>Need OCI Assistance?</h4>
+                        <p>Speak with our senior advocates regarding passport updates, document corrections, lost OCI replacement and representation before Indian Missions.</p>
+                        <a href="./booking.html" class="btn-gold-cta mb-2">
+                            <i class="bi bi-calendar-event me-1"></i> Book Consultation
+                        </a>
+                        <div class="mt-2 text-center">
+                            <a href="https://wa.me/919751182452" target="_blank" rel="noopener noreferrer" style="color: #25d366; text-decoration: none; font-size: 0.88rem; font-weight: 600;">
+                                <i class="bi bi-whatsapp"></i> Instant WhatsApp Enquiry
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Related Guides -->
+                    <div class="sidebar-card">
+                        <div class="sidebar-card-title">
+                            <i class="bi bi-journal-bookmark-fill text-gold"></i> Related OCI Guides
+                        </div>
+                        <ul class="toc-list">
+                            <li>
+                                <a href="oci-legal-guides.html">
+                                    <strong><i class="bi bi-collection text-gold me-1"></i> OCI Legal Guides Hub</strong>
+                                    <div class="small text-muted">Master index of comprehensive guides</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-eligibility-legal-status.html">
+                                    <strong><i class="bi bi-shield-check text-gold me-1"></i> Guide 1: Eligibility &amp; Status</strong>
+                                    <div class="small text-muted">Meaning, qualifications &amp; legal rights</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-vs-nri-vs-indian-citizen.html">
+                                    <strong><i class="bi bi-people text-gold me-1"></i> Guide 2: OCI vs NRI vs Indian Citizen</strong>
+                                    <div class="small text-muted">Legal differences, rights &amp; status</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-application-documents.html">
+                                    <strong><i class="bi bi-file-earmark-text text-gold me-1"></i> Guide 3: Application &amp; Documents</strong>
+                                    <div class="small text-muted">Procedure, document checklist &amp; mistakes</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-foreign-spouse-eligibility.html">
+                                    <strong><i class="bi bi-heart text-gold me-1"></i> Guide 5: Foreign Spouses</strong>
+                                    <div class="small text-muted">Eligibility, marriage rules &amp; documents</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-for-children-born-abroad.html">
+                                    <strong><i class="bi bi-person-heart text-gold me-1"></i> Guide 6: Children Born Abroad</strong>
+                                    <div class="small text-muted">Citizenship, eligibility &amp; documents</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-benefits-restrictions-india.html">
+                                    <strong><i class="bi bi-shield-check text-gold me-1"></i> Guide 7: Benefits &amp; Restrictions</strong>
+                                    <div class="small text-muted">What OCI cardholders can &amp; cannot do</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-cardholders-inherit-sell-ancestral-property-india.html">
+                                    <strong><i class="bi bi-house-door text-gold me-1"></i> Guide 8: Ancestral Property</strong>
+                                    <div class="small text-muted">Inheriting, selling &amp; FEMA rules</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="nri-oci-property-due-diligence-india.html">
+                                    <strong><i class="bi bi-search text-gold me-1"></i> Guide 10: Property Due Diligence</strong>
+                                    <div class="small text-muted">Title verification, EC &amp; land records</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="nri-oci-property-tax-india.html">
+                                    <strong><i class="bi bi-cash-coin text-gold me-1"></i> Guide 11: Property Tax &amp; Repatriation</strong>
+                                    <div class="small text-muted">TDS, capital gains &amp; remittance</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-cancellation-grounds-remedies.html">
+                                    <strong><i class="bi bi-shield-x text-gold me-1"></i> Guide 13: OCI Card Cancellation</strong>
+                                    <div class="small text-muted">Section 7D, notices &amp; legal remedies</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-cancellation-section-7d-legal-remedies.html">
+                                    <strong><i class="bi bi-shield-lock text-gold me-1"></i> Guide 14: Section 7D &amp; Criminal Cases</strong>
+                                    <div class="small text-muted">Criminal proceedings, notifications &amp; writ review</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="oci-card-assistance.html">
+                                    <strong><i class="bi bi-briefcase text-gold me-1"></i> OCI Legal Services</strong>
+                                    <div class="small text-muted">Our complete scope of representation</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+
+        <footer class="footer">
+        <div class="footer-contain">
+
+            <div class="footer-grid">
+
+                <!-- Brand -->
+                <div class="footer-brand">
+                    <div class="logo-icon">
+                        <a href="index.html" title="Home">
+                            <img src="assets/images/logo.png" alt="Law Firm Logo" class="logo-img">
+
+                            <div>
+                                <strong>RRC</strong>
+                                <strong>Law Associates</strong>
+                            </div>
+                        </a>
+                    </div>
+
+                    <p>
+                        Providing trusted legal solutions with integrity since 2008. Your reliable
+                        partner for all legal matters in Tamil Nadu.
+                    </p>
+
+                    <div class="social"></div>
+                </div>
+
+                <!-- Practice Areas -->
+                <div>
+                    <h4>Practice Areas</h4>
+                    <ul>
+                        <li>
+                            <a href="family-law.html">Family Law</a>
+                        </li>
+                        <li>
+                            <a href="property-law.html">Property Law</a>
+                        </li>
+                        <li>
+                            <a href="employment-law.html">Employment Law</a>
+                        </li>
+                        <li>
+                            <a href="white-collar-crime.html">White Collar Crimes</a>
+                        </li>
+                        <li>
+                            <a href="intellectual-property.html">Intellectual Property</a>
+                        </li>
+                        <li>
+                            <a href="litigation-dispute-resolution.html">Litigation Dispute</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="nri-services.html">NRI Services</a>
+                        </li>
+                        <li>
+                            <a href="oci-card-assistance.html">OCI Card &amp; Ancestry</a>
+                        </li>
+                        <li>
+                            <a href="core-practice-areas.html">Practice Areas</a>
+                        </li>
+                        <li>
+                            <a href="lawfirm-blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="index.html#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4>Contact Us</h4>
+                    <ul class="contact">
+                        <li>
+                            <span>Address</span>
+                            <p>
+                                No 82/6B, Deen Complex, Mary's Corner, Parisutham Nagar, Thanjavur, Tamil Nadu-613001
+                            </p>
+                        </li>
+                        <li>
+                            <span>Phone</span>
+                            <a href="tel:+919751182452">+91 97511 82452</a>
+                        </li>
+                        <li>
+                            <span>Email</span>
+                            <a href="mailto:dr.kumar@rrclawassociates.com">
+                                dr.kumar@rrclawassociates.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Bottom -->
+            <div class="footer-bottom">
+                <p>&copy;
+                    <span id="year">2026</span>
+                    RRC Law Associates. All rights reserved.</p>
+                <div class="legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Disclaimer</a>
+                </div>
+            </div>
+
+        </div>
+        </footer>
+
+
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <!-- Floating WhatsApp CTA -->
+    <a
+        href="https://wa.me/919751182452?text=Hello%20RRC%20Law%20Associates,%20I%20am%20looking%20for%20legal%20consultation."
+        class="whatsapp-float"
+        target="_blank"
+        rel="noopener"
+        aria-label="Chat with RRC Law Associates on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="float-text">Chat with us</span>
+    </a>
+
+    <!-- RRC AI Assistant Mount & Integration -->
+    <div data-rrc-ai-chat-root></div>
+    <script src="script.js?v=20261008-1" data-rrc-ai-only defer></script>
+</body>
+</html>

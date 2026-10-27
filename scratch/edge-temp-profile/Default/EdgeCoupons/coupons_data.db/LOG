@@ -1,0 +1,6 @@
+2026/10/16-15:14:44.328 1ba8 Reusing MANIFEST C:\Users\nithi\RRC-Law-Associates-1\scratch\edge-temp-profile\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2026/10/16-15:14:44.331 1ba8 Recovering log #4
+2026/10/16-15:14:44.332 1ba8 Reusing old log C:\Users\nithi\RRC-Law-Associates-1\scratch\edge-temp-profile\Default\EdgeCoupons/coupons_data.db/000004.log 
+2026/10/16-15:14:44.797 3624 Level-0 table #8: started
+2026/10/16-15:14:44.821 3624 Level-0 table #8: 683515 bytes OK
+2026/10/16-15:14:44.825 3624 Delete type=0 #4

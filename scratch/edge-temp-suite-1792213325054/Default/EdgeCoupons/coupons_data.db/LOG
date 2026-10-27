@@ -1,0 +1,5 @@
+2026/10/17-10:32:09.430 29bc Creating DB C:\Users\nithi\RRC-Law-Associates-1\scratch\edge-temp-suite-1792213325054\Default\EdgeCoupons/coupons_data.db since it was missing.
+2026/10/17-10:32:09.498 29bc Reusing MANIFEST C:\Users\nithi\RRC-Law-Associates-1\scratch\edge-temp-suite-1792213325054\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2026/10/17-10:32:11.241 5940 Level-0 table #5: started
+2026/10/17-10:32:11.249 5940 Level-0 table #5: 683273 bytes OK
+2026/10/17-10:32:11.256 5940 Delete type=0 #3

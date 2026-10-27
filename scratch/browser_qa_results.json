@@ -1,0 +1,156 @@
+{
+  "viewports": {
+    "320": {
+      "docWidth": 320,
+      "winWidth": 320,
+      "hasOverflow": false,
+      "overflowingElements": []
+    },
+    "375": {
+      "docWidth": 375,
+      "winWidth": 375,
+      "hasOverflow": false,
+      "overflowingElements": []
+    },
+    "430": {
+      "docWidth": 430,
+      "winWidth": 430,
+      "hasOverflow": false,
+      "overflowingElements": []
+    },
+    "768": {
+      "docWidth": 768,
+      "winWidth": 768,
+      "hasOverflow": false,
+      "overflowingElements": []
+    },
+    "1024": {
+      "docWidth": 1009,
+      "winWidth": 1024,
+      "hasOverflow": false,
+      "overflowingElements": []
+    },
+    "1440": {
+      "docWidth": 1425,
+      "winWidth": 1440,
+      "hasOverflow": false,
+      "overflowingElements": []
+    }
+  },
+  "overflowErrors": [],
+  "consoleErrors": [],
+  "images": [
+    {
+      "src": "http://127.0.0.1:5577/assets/images/rrclogo.png",
+      "alt": "RRC Law Associates Brand Logo",
+      "naturalWidth": 666,
+      "naturalHeight": 182,
+      "complete": true
+    },
+    {
+      "src": "http://127.0.0.1:5577/assets/images/wills-probate-hero.webp",
+      "alt": "RRC Law Associates Wills, Probate and Estate Planning Chambers",
+      "naturalWidth": 1376,
+      "naturalHeight": 768,
+      "complete": true
+    },
+    {
+      "src": "http://127.0.0.1:5577/assets/images/wills-drafting-estate-planning.webp",
+      "alt": "Will Drafting and Testamentary Estate Planning in India",
+      "naturalWidth": 1376,
+      "naturalHeight": 768,
+      "complete": true
+    },
+    {
+      "src": "http://127.0.0.1:5577/assets/images/probate-court-procedures.jpg",
+      "alt": "Probate Petitions and Court Case Review in Tamil Nadu",
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "complete": false
+    },
+    {
+      "src": "http://127.0.0.1:5577/assets/images/inherited-property-administration.jpg",
+      "alt": "Inherited Property Documentation and Revenue Mutation in Tamil Nadu",
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "complete": false
+    },
+    {
+      "src": "http://127.0.0.1:5577/assets/images/poa-adjudication.png",
+      "alt": "NRI Power of Attorney and FEMA Compliance",
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "complete": false
+    },
+    {
+      "src": "http://127.0.0.1:5577/assets/images/settlement-banner.png",
+      "alt": "Resolving Contested Inheritance and Family Settlements",
+      "naturalWidth": 0,
+      "naturalHeight": 0,
+      "complete": false
+    },
+    {
+      "src": "http://127.0.0.1:5577/assets/images/logo.png",
+      "alt": "RRC Law Associates Brand Logo - Top Law Firm in Thanjavur",
+      "naturalWidth": 500,
+      "naturalHeight": 500,
+      "complete": true
+    }
+  ],
+  "navigation": {
+    "directUrl": "http://127.0.0.1:5577/wills-probate-estate-administration",
+    "title": "Wills, Probate & Estate Lawyers in Tamil Nadu | RRC Law Associates",
+    "reloadUrl": "http://127.0.0.1:5577/wills-probate-estate-administration",
+    "mobileMenuOpen": {
+      "clicked": true,
+      "isOpen": true
+    },
+    "mobileSubmenuToggle": {
+      "clicked": true,
+      "isActive": true
+    },
+    "mobileMenuClose": {
+      "clicked": true,
+      "isOpen": false
+    },
+    "desktopDropdown": {
+      "dropdownExists": true,
+      "menuExists": true,
+      "willsLinkExists": true,
+      "willsLinkText": "Wills, Probate & Estate Administration"
+    },
+    "bookingPage": {
+      "url": "http://127.0.0.1:5577/booking.html",
+      "serviceSelectExists": true,
+      "hasWillsOption": true,
+      "options": [
+        "Select Category",
+        "Property Disputes",
+        "Property Litigation",
+        "Matrimonial / Divorce",
+        "Criminal Defense",
+        "Cyber Crime",
+        "Cheque Bounce",
+        "Power of Attorney",
+        "Corporate Litigation",
+        "Wills, Probate & Estate Administration",
+        "Others"
+      ]
+    },
+    "liveServerClickResult": {
+      "error": "Link not found"
+    }
+  },
+  "accessibility": {
+    "seo": {
+      "h1Count": 1,
+      "h1": "Wills, Probate & Estate Administration in Tamil Nadu",
+      "canonical": "https://rrclawassociates.com/wills-probate-estate-administration",
+      "metaDesc": "Expert legal assistance for Will drafting, probate petitions before the Madras High Court & District Courts, succession certificates, and estate administration in Tamil Nadu.",
+      "ogTitle": "Wills, Probate & Estate Lawyers in Tamil Nadu | RRC Law Associates",
+      "ogUrl": "https://rrclawassociates.com/wills-probate-estate-administration",
+      "ogImage": "https://rrclawassociates.com/assets/images/wills-probate-hero.jpg",
+      "jsonLdCount": 1
+    }
+  }
+}

@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCI Card Assistance in Thanjavur &amp; Tamil Nadu | RRC Law Associates</title>
+    <meta name="description" content="Need OCI card assistance in Thanjavur or Tamil Nadu? RRC Law Associates provides OCI eligibility guidance, Indian ancestry research, historical record assistance, and application documentation support.">
+    <meta name="keywords" content="OCI card assistance, Indian ancestry tracing, Overseas Citizen of India lawyer, OCI documentation help, missing Indian birth certificate NABC, ancestral land records OCI, NRI legal services">
+
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://rrclawassociates.com/oci-card-assistance">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "RRC Law Associates - OCI Card & Indian Ancestry Assistance",
+      "url": "https://rrclawassociates.com/oci-card-assistance",
+      "logo": "https://rrclawassociates.com/assets/images/logo.png",
+      "image": "https://rrclawassociates.com/assets/images/oci-hero-bg.jpg",
+      "telephone": "+91-9751182452",
+      "email": "dr.kumar@rrclawassociates.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "No 82/6B, Deen Complex, Mary's Corner, Parisutham Nagar",
+        "addressLocality": "Thanjavur",
+        "addressRegion": "Tamil Nadu",
+        "postalCode": "613001",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 10.7870,
+        "longitude": 79.1378
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "10:00",
+        "closes": "22:00"
+      },
+      "priceRange": "$$",
+      "description": "Legal assistance for Overseas Citizenship of India (OCI) cards, Indian ancestry tracing, historical record retrieval, and documentation guidance.",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "OCI & Ancestry Legal Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "OCI Eligibility & Document Verification"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Indian Ancestry & Heritage Tracing"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Archival Record Search & Revenue Documentation"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rrclawassociates.com/oci-card-assistance">
+    <meta property="og:title" content="OCI Card Assistance in Thanjavur &amp; Tamil Nadu | RRC Law Associates">
+    <meta property="og:description" content="Need OCI card assistance in Thanjavur or Tamil Nadu? RRC Law Associates provides OCI eligibility guidance, Indian ancestry research, historical record assistance, and application documentation support.">
+    <meta property="og:image" content="https://rrclawassociates.com/assets/images/oci-hero-bg.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="OCI Card Assistance in Thanjavur &amp; Tamil Nadu | RRC Law Associates">
+    <meta name="twitter:description" content="Need OCI card assistance in Thanjavur or Tamil Nadu? RRC Law Associates provides OCI eligibility guidance, Indian ancestry research, historical record assistance, and application documentation support.">
+    <meta name="twitter:image" content="https://rrclawassociates.com/assets/images/oci-hero-bg.jpg">
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="/assets/images/logo.png">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Typography & Vendor CSS (Identical to Existing Website) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Existing Site Shared Stylesheets -->
+    <link rel="stylesheet" href="/style2.css?v=20261008-1">
+    <link rel="stylesheet" href="/style.css?v=20261008-1">
+    <link rel="stylesheet" href="/topbar.css?v=20261008-1">
+
+    <!-- Scoped OCI Page Stylesheet -->
+    <link rel="stylesheet" href="/oci-style.css?v=20261014-final">
+
+    <!-- Existing Header & Navigation Core Rules (Matches nri-services.html) -->
+    <style>
+        :root {
+            --primary: #3c3819;
+            --gold: #c9a24d;
+            --cream: #f9f7f3;
+            --white: #ffffff;
+            --dark: #000000;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--white);
+            color: var(--primary);
+        }
+
+        /* --- NAVIGATION STYLES --- */
+        .header {
+            background: #000000 !important;
+            padding: 10px 0;
+            position: fixed;
+            top: 42px !important;
+            width: 100%;
+            z-index: 1000;
+            height: 80px;
+        }
+
+        .logo-img { height: 60px; width: auto; }
+
+        .nav-link-custom {
+            color: #ffffff !important;
+            text-decoration: none;
+            font-weight: 500;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+
+        .nav-link-custom:hover, .dropdown-item:hover {
+            color: var(--gold) !important;
+        }
+
+        .dropdown-menu {
+            background-color: #000000 !important;
+            border: 1px solid var(--gold) !important;
+            margin-top: 10px !important;
+        }
+
+        .dropdown-item { color: #ffffff !important; padding: 10px 20px; }
+        .dropdown-item:hover { background-color: #1a1a1a !important; }
+
+        /* Mega Menu Positioning */
+        .mega-dropdown-static { position: static !important; }
+        .mega-menu {
+            width: 100vw;
+            max-width: 1200px;
+            left: 50% !important;
+            transform: translateX(-50%) !important;
+            padding: 30px !important;
+        }
+
+        /* Mobile Menu */
+        .mobile-menu {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 80%;
+            max-width: 350px;
+            height: 100vh;
+            background: #000000;
+            z-index: 2000;
+            transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            padding: 20px;
+        }
+
+        .mobile-menu.open { right: 0; }
+        .mobile-link {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            display: block;
+            padding: 15px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .m-submenu { display: none; background: rgba(255, 255, 255, 0.05); padding-left: 20px; }
+        .m-submenu.active { display: block; }
+        .m-sub-item { display: block; color: rgba(255,255,255,0.7); text-decoration: none; padding: 10px 0; font-size: 0.95rem; }
+
+        .close-menu { background: transparent; border: none; color: #ffffff; font-size: 2rem; float: right; }
+
+        @media (min-width: 992px) {
+            .header .dropdown:hover > .dropdown-menu,
+            .header .dropdown:focus-within > .dropdown-menu {
+                display: block !important;
+                margin-top: 0 !important;
+            }
+        }
+    </style>
+</head>
+<body class="oci-page">
+
+    <!-- =========================================================
+         SECTION A: TOP BAR (Original RRC Law Associates Topbar)
+         ========================================================== -->
+    <div class="rrc-topbar">
+        <div class="rrc-topbar-container">
+            <!-- LEFT SIDE -->
+            <div class="rrc-topbar-left">
+                <a href="tel:+9197511 82452">
+                    <i class="bi bi-telephone-fill"></i>
+                    +91 97511 82452
+                </a>
+
+                <span class="rrc-topbar-divider"></span>
+
+                <a href="mailto:dr.kumar@rrclawassociates.com">
+                    <i class="bi bi-envelope-fill"></i>
+                    dr.kumar@rrclawassociates.com
+                </a>
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="rrc-topbar-right">
+                <span>
+                    <i class="bi bi-clock"></i>
+                    Mon – Sat: 10:00 AM – 10:00 PM
+                </span>
+
+                <span class="rrc-topbar-divider"></span>
+
+                <a href="https://www.linkedin.com/company/rrclawassociates/" aria-label="LinkedIn">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+
+                <a href="https://www.instagram.com/rrclawassociates/" aria-label="Instagram">
+                    <i class="bi bi-instagram"></i>
+                </a>
+
+                <a href="https://www.facebook.com/rrclawassociates/" aria-label="Facebook">
+                    <i class="bi bi-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- =========================================================
+         MAIN NAVIGATION HEADER (Original RRC Law Associates Header)
+         ========================================================== -->
+    <header class="header">
+        <nav class="container d-flex align-items-center justify-content-between">
+            <a href="/">
+                <img src="/assets/images/rrclogo.png" alt="RRC Logo" class="logo-img">
+            </a>
+
+            <div class="d-none d-lg-flex align-items-center ms-auto">
+                <div class="dropdown">
+                    <a
+                        class="nav-link-custom border-0 bg-transparent p-0"
+                        href="/"
+                        role="button"
+                        aria-expanded="false">
+                        Home
+                    </a>
+                </div>
+                <div class="dropdown">
+                    <a
+                        class="nav-link-custom dropdown-toggle border-0 bg-transparent p-0"
+                        href="/nri-services.html"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        NRI Services
+                    </a>
+                    <ul class="dropdown-menu shadow-lg">
+                        <li>
+                            <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="/oci-card-assistance.html">OCI Card &amp; Ancestry Assistance</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="/nri-property-disputes.html">Property Dispute</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="/nri-power-of-attorney.html">Power of Attorney</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="/nri-criminal-case.html">Criminal Cases</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="/nri-family-matrimonial.html">Family &amp; Matrimonial</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <a
+                        class="nav-link-custom dropdown-toggle border-0 bg-transparent p-0"
+                        href="/core-practice-areas.html"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Core Practice Areas
+                    </a>
+                   <ul class="dropdown-menu shadow-lg">
+                        <li>
+                            <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="/family-law.html">Family Law Workspace</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="/intellectual-property.html">Intellectual Property Advisory</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="/employment-law.html">Labour &amp; Employment Protection</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="/white-collar-crime.html">White Collar Crime Defense</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="/property-law.html">Due Diligence Frameworks</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="/cyber-law.html">Cyber Law Desk</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="/litigation-dispute-resolution.html">Litigation &amp; Dispute Resolution</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <a
+                        class="nav-link-custom border-0 bg-transparent p-0"
+                        href="/partners.html"
+                        role="button"
+                        aria-expanded="false">
+                        Partners
+                    </a>
+                </div>
+                <div class="dropdown">
+                    <a
+                        class="nav-link-custom border-0 bg-transparent p-0"
+                        href="/lawfirm-blog.html"
+                        role="button"
+                        aria-expanded="false">
+                        Blog
+                    </a>
+                </div>
+                <div class="dropdown">
+                    <a
+                        class="nav-link-custom border-0 bg-transparent p-0"
+                        href="/#contact"
+                        role="button"
+                        aria-expanded="false">
+                        Contact
+                    </a>
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center gap-3">
+                <div class="cta d-none d-sm-block">
+                    <a href="/booking.html" class="btn btn-gold">Book Consultation</a>
+                </div>
+                <button class="btn text-white d-lg-none fs-3 p-0" id="menuToggle" aria-label="Toggle Navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- =========================================================
+         MOBILE MENU DRAWER (Original RRC Law Associates Drawer)
+         ========================================================== -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu" id="closeMenu" aria-label="Close Navigation">✕</button>
+        <div class="mt-5">
+            <a href="/" class="m-link">Home</a>
+            <div class="m-dropdown">
+                <a class="m-link m-trigger" href="/nri-services.html">
+                    NRI Services <i class="fa fa-chevron-down ms-2"></i>
+                </a>
+                <div class="m-submenu" id="mNriMenu">
+                    <a class="m-sub-item" href="/oci-card-assistance.html">OCI Card &amp; Ancestry Assistance</a>
+                    <a class="m-sub-item" href="/nri-property-disputes.html">Property Dispute</a>
+                    <a class="m-sub-item" href="/nri-power-of-attorney.html">Power of Attorney</a>
+                    <a class="m-sub-item" href="/nri-criminal-case.html">Criminal Case</a>
+                    <a class="m-sub-item" href="/nri-family-matrimonial.html">Family &amp; Matrimonial</a>
+                </div>
+            </div>
+            <div class="m-dropdown">
+                <a class="m-link m-trigger" href="/core-practice-areas.html">
+                    Core Practice Areas <i class="fa fa-chevron-down ms-2"></i>
+                </a>
+                <div class="m-submenu" id="mPracticeMenu">
+                    <a class="m-sub-item" href="/family-law.html">FAMILY, SUCCESSION &amp; PRIVATE CLIENT PRACTICE</a>
+                    <a class="m-sub-item" href="/intellectual-property.html">INTELLECTUAL PROPERTY &amp; INNOVATION PROTECTION</a>
+                    <a class="m-sub-item" href="/employment-law.html">LABOUR, EMPLOYMENT &amp; INDUSTRIAL RELATIONS</a>
+                    <a class="m-sub-item" href="/white-collar-crime.html">WHITE COLLAR CRIMES &amp; FINANCIAL INVESTIGATIONS</a>
+                    <a class="m-sub-item" href="/property-law.html">DOCUMENTATION, REGISTRATION &amp; DUE DILIGENCE</a>
+                    <a class="m-sub-item" href="/cyber-law.html">CYBER LAW, DATA PROTECTION &amp; DIGITAL EVIDENCE</a>
+                    <a class="m-sub-item" href="/litigation-dispute-resolution.html">LITIGATION &amp; DISPUTE RESOLUTION</a>
+                </div>
+            </div>
+            <a href="/partners.html" class="m-link">Partners</a>
+            <a href="/lawfirm-blog.html" class="m-link">Blog</a>
+            <a href="/#contact" class="m-link">Contact</a>
+
+            <div class="mt-4">
+                <a href="/booking.html" class="btn btn-gold w-100 py-3 text-center">Book Consultation</a>
+            </div>
+        </div>
+    </div>
+
+    <main id="main-content">
+        <!-- =========================================================
+             SECTION B: HERO BANNER
+             Screenshot Match: Dark navy, text on left, archival imagery on right
+             Starts immediately below the fixed header
+             ========================================================== -->
+        <section class="oci-hero-section" aria-labelledby="hero-heading">
+            <div class="oci-hero-video-media" aria-hidden="true">
+                <div class="oci-hero-video-wrapper is-active" id="ociHeroWrapper0">
+                    <video id="ociHeroVideo0" class="oci-hero-video" src="/assets/videos/oci-scene-1.mp4" muted playsinline preload="auto" tabindex="-1"></video>
+                </div>
+                <div class="oci-hero-video-wrapper" id="ociHeroWrapper1">
+                    <video id="ociHeroVideo1" class="oci-hero-video" src="/assets/videos/oci-scene-2.mp4" muted playsinline preload="metadata" tabindex="-1"></video>
+                </div>
+                <div class="oci-hero-video-wrapper" id="ociHeroWrapper2">
+                    <video id="ociHeroVideo2" class="oci-hero-video" src="/assets/videos/oci-scene-3.mp4" muted playsinline preload="none" tabindex="-1"></video>
+                </div>
+                <div class="oci-hero-overlay"></div>
+            </div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <div class="oci-hero-content">
+                            <span class="oci-badge-eyebrow">NRI LEGAL SERVICES</span>
+                            <h1 id="hero-heading" class="oci-hero-title">
+                                OCI Card &amp;<br>Indian Ancestry Assistance
+                            </h1>
+                            <p class="oci-hero-subtitle">
+                                Eligibility guidance, ancestral record research and documentation support for eligible foreign citizens of Indian origin.
+                            </p>
+                            <div class="oci-hero-actions">
+                                <a href="/booking.html" class="oci-btn-primary">
+                                    Discuss Your OCI Eligibility <i class="bi bi-arrow-right"></i>
+                                </a>
+                                <a href="/oci-legal-guides.html" class="oci-btn-secondary">
+                                    Explore OCI Guides <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION C: FOUR SERVICE HIGHLIGHTS STRIP
+             Screenshot Match: Light horizontal strip with 4 key services
+             ========================================================== -->
+        <section class="oci-highlights-strip" aria-label="Key Service Highlights">
+            <div class="container">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-3 col-6">
+                        <div class="oci-highlight-item">
+                            <div class="oci-highlight-icon" aria-hidden="true">
+                                <i class="bi bi-file-earmark-text"></i>
+                            </div>
+                            <div class="oci-highlight-text">
+                                <h4>Eligibility Review</h4>
+                                <p>Understanding your legal position</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="oci-highlight-item">
+                            <div class="oci-highlight-icon" aria-hidden="true">
+                                <i class="bi bi-diagram-3"></i>
+                            </div>
+                            <div class="oci-highlight-text">
+                                <h4>Ancestry Research</h4>
+                                <p>Tracing your Indian family records</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="oci-highlight-item">
+                            <div class="oci-highlight-icon" aria-hidden="true">
+                                <i class="bi bi-folder2-open"></i>
+                            </div>
+                            <div class="oci-highlight-text">
+                                <h4>Historical Records</h4>
+                                <p>Identifying relevant documents</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="oci-highlight-item">
+                            <div class="oci-highlight-icon" aria-hidden="true">
+                                <i class="bi bi-journal-check"></i>
+                            </div>
+                            <div class="oci-highlight-text">
+                                <h4>Application Documentation</h4>
+                                <p>Organising and preparing your application</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION D: THREE MAIN SERVICE CARDS & DETAILED SCOPE
+             Screenshot Match: 3 prominent cards immediately follow highlights strip
+             Content Match: 1-OCI.docx Sections 1 & 2
+             ========================================================== -->
+        <section class="oci-services-section" id="oci-services" aria-labelledby="services-heading">
+            <div class="container">
+                <!-- 3 Top Featured Cards (Exact Screenshot Reproduction) -->
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <a href="#comprehensive-services" class="oci-service-card">
+                            <div class="oci-service-card-left">
+                                <div class="oci-service-icon-box" aria-hidden="true">
+                                    <i class="bi bi-file-earmark-person"></i>
+                                </div>
+                                <div class="oci-service-card-body">
+                                    <h3>OCI Eligibility &amp; Application</h3>
+                                    <p>Assessment of eligibility, document review and application support for eligible applicants.</p>
+                                </div>
+                            </div>
+                            <div class="oci-service-card-arrow" aria-hidden="true">
+                                <i class="bi bi-chevron-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a href="#ancestry-diagram" class="oci-service-card">
+                            <div class="oci-service-card-left">
+                                <div class="oci-service-icon-box" aria-hidden="true">
+                                    <i class="bi bi-tree"></i>
+                                </div>
+                                <div class="oci-service-card-body">
+                                    <h3>Indian Ancestry Tracing</h3>
+                                    <p>Assistance in establishing the documentary connection to your Indian-origin ancestor.</p>
+                                </div>
+                            </div>
+                            <div class="oci-service-card-arrow" aria-hidden="true">
+                                <i class="bi bi-chevron-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <a href="#comprehensive-services" class="oci-service-card">
+                            <div class="oci-service-card-left">
+                                <div class="oci-service-icon-box" aria-hidden="true">
+                                    <i class="bi bi-archive"></i>
+                                </div>
+                                <div class="oci-service-card-body">
+                                    <h3>Missing Historical Records</h3>
+                                    <p>Guidance on options where old birth, marriage or other records are not available.</p>
+                                </div>
+                            </div>
+                            <div class="oci-service-card-arrow" aria-hidden="true">
+                                <i class="bi bi-chevron-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Comprehensive Approved DOCX Service Scope & Substantive Legal Counsel -->
+                <div class="oci-comprehensive-services" id="comprehensive-services">
+                    <div class="oci-comprehensive-header d-flex justify-content-between align-items-center flex-wrap gap-2">
+                        <div>
+                            <span class="oci-badge-eyebrow mb-1">CORE PRACTICE CAPABILITIES</span>
+                            <h3 class="oci-serif oci-comprehensive-title mb-1">
+                                OCI Card Assistance for Foreign Citizens of Indian Origin
+                            </h3>
+                            <p class="oci-comprehensive-desc mb-0">
+                                Practical legal counsel, ancestral record research and documentation support covered by our specialized NRI desk.
+                            </p>
+                        </div>
+                        <a href="/booking.html" class="btn btn-sm btn-outline-dark oci-btn-sm-enquire">
+                            Enquire About Specific Case
+                        </a>
+                    </div>
+
+                    <!-- Substantive Legal Counsel Lead (DOCX Section 1) -->
+                    <div class="oci-intro-counsel mb-3">
+                        <p class="oci-intro-lead mb-3">
+                            Are you a foreign citizen of Indian origin seeking an Overseas Citizen of India (OCI) Card?
+                        </p>
+                        <div class="row g-3">
+                            <div class="col-lg-6">
+                                <p class="oci-intro-p mb-0">
+                                    RRC Law Associates provides legal and documentation assistance to eligible applicants seeking OCI registration, particularly where establishing Indian ancestry, tracing historical family records or resolving documentary discrepancies presents a challenge.
+                                </p>
+                            </div>
+                            <div class="col-lg-6">
+                                <p class="oci-intro-p mb-0">
+                                    An OCI application may require more than completing an online form. Depending on circumstances, it may be necessary to examine citizenship history, establish multi-generational family links, locate historical records, and address documentary gaps before submission.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="oci-comprehensive-grid">
+                        <div class="oci-subservice-item">
+                            <h4><i class="bi bi-check2-circle"></i> OCI Eligibility Assessment</h4>
+                            <p>Preliminary review of the applicant's citizenship history, ancestry and potential eligibility under the Citizenship Act.</p>
+                        </div>
+                        <div class="oci-subservice-item">
+                            <h4><i class="bi bi-check2-circle"></i> OCI Application Documentation</h4>
+                            <p>Organising supporting documents, cross-checking certifications and identifying inconsistencies across jurisdictions.</p>
+                        </div>
+                        <div class="oci-subservice-item">
+                            <h4><i class="bi bi-check2-circle"></i> Indian Ancestry Tracing</h4>
+                            <p>Research into family history and establishing the verifiable documentary connection to an Indian-origin ancestor.</p>
+                        </div>
+                        <div class="oci-subservice-item">
+                            <h4><i class="bi bi-check2-circle"></i> Historical Record Research</h4>
+                            <p>Identifying potential sources of old birth, marriage, death, school, land and other official historical records.</p>
+                        </div>
+                        <div class="oci-subservice-item">
+                            <h4><i class="bi bi-check2-circle"></i> Non-Availability of Birth Certificate (NABC)</h4>
+                            <p>Assistance with exploring the appropriate registration authority and documentation process where a birth record cannot be located.</p>
+                        </div>
+                        <div class="oci-subservice-item">
+                            <h4><i class="bi bi-check2-circle"></i> Ancestral Document Verification</h4>
+                            <p>Reviewing available family records to identify missing links, missing apostilles or evidentiary inconsistencies.</p>
+                        </div>
+                        <div class="oci-subservice-item">
+                            <h4><i class="bi bi-check2-circle"></i> Passport Surrender &amp; Citizenship Records</h4>
+                            <p>Assistance with understanding relevant passport surrender certificates, renunciation declarations, and citizenship documentation.</p>
+                        </div>
+                        <div class="oci-subservice-item">
+                            <h4><i class="bi bi-check2-circle"></i> OCI Application Support</h4>
+                            <p>Assistance with document preparation and procedural requirements, subject to the applicable rules and guidelines.</p>
+                        </div>
+                        <div class="oci-subservice-item">
+                            <h4><i class="bi bi-check2-circle"></i> OCI Documentation Problems</h4>
+                            <p>Assistance in examining name variations, date-of-birth discrepancies, ancestral land records, and incomplete lineage records.</p>
+                        </div>
+                    </div>
+
+                    <!-- Mandatory Legal Notice from DOCX -->
+                    <div class="oci-disclaimer-notice">
+                        <strong>Important Regulatory Note:</strong> Describe only services RRC actually undertakes or can coordinate. In particular, historical record retrieval, NABC issuance and decisions on OCI applications remain subject to the relevant government authorities and applicable statutory procedures.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION E: INDIAN ANCESTRY RELATIONSHIP DIAGRAM
+             Screenshot Match: Cream box, left header, 4 horizontal nodes, callout card
+             ========================================================== -->
+        <section class="oci-ancestry-section" id="ancestry-diagram" aria-labelledby="ancestry-heading">
+            <div class="container">
+                <div class="oci-ancestry-card">
+                    <!-- Ancestry Relationship Layout (CSS Grid / Responsive Flex) -->
+                    <div class="oci-ancestry-layout">
+                        <!-- Header Area: Title & Context -->
+                        <div class="oci-ancestry-header-area">
+                            <div class="oci-ancestry-header">
+                                <h2 id="ancestry-heading">
+                                    Build the documentary link<br>to your Indian ancestry
+                                </h2>
+                                <p>
+                                    Depending on your circumstances, you may be able to apply for an OCI card through your parent, grandparent or great-grandparent, subject to the applicable legal requirements and supporting documents.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Statutory Callout Area: Placed in a separate layout area to avoid overlap -->
+                        <div class="oci-ancestry-callout-area">
+                            <div class="oci-ancestry-callout">
+                                <div class="oci-ancestry-callout-icon" aria-hidden="true">
+                                    <i class="bi bi-file-earmark-ruled"></i>
+                                </div>
+                                <p>
+                                    <strong>Statutory Rule:</strong> Eligibility depends on the applicable legal category and supporting records. Ancestral eligibility is not established merely by stating that one's family originated in India.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Diagram Area: Full Width Ancestry Progression Chain -->
+                        <div class="oci-ancestry-diagram-area">
+                            <div class="oci-chain-flow" role="list" aria-label="Ancestry documentary chain">
+                                <!-- Node 1: Applicant -->
+                                <div class="oci-chain-node" role="listitem">
+                                    <div class="oci-chain-avatar oci-avatar-applicant" aria-hidden="true">
+                                        <i class="bi bi-person-fill"></i>
+                                    </div>
+                                    <span class="oci-chain-title">Applicant</span>
+                                    <span class="oci-chain-desc">(Foreign Citizen)</span>
+                                </div>
+
+                                <div class="oci-chain-arrow" aria-hidden="true">
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
+
+                                <!-- Node 2: Parent -->
+                                <div class="oci-chain-node" role="listitem">
+                                    <div class="oci-chain-avatar oci-avatar-ancestor" aria-hidden="true">
+                                        <i class="bi bi-person"></i>
+                                    </div>
+                                    <span class="oci-chain-title">Parent</span>
+                                    <span class="oci-chain-desc">(Born in / connected to India)</span>
+                                </div>
+
+                                <div class="oci-chain-arrow" aria-hidden="true">
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
+
+                                <!-- Node 3: Grandparent -->
+                                <div class="oci-chain-node" role="listitem">
+                                    <div class="oci-chain-avatar oci-avatar-ancestor" aria-hidden="true">
+                                        <i class="bi bi-person-heart"></i>
+                                    </div>
+                                    <span class="oci-chain-title">Grandparent</span>
+                                    <span class="oci-chain-desc">(Born in / connected to India)</span>
+                                </div>
+
+                                <div class="oci-chain-arrow" aria-hidden="true">
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
+
+                                <!-- Node 4: Great-grandparent -->
+                                <div class="oci-chain-node" role="listitem">
+                                    <div class="oci-chain-avatar oci-avatar-ancestor" aria-hidden="true">
+                                        <i class="bi bi-people-fill"></i>
+                                    </div>
+                                    <span class="oci-chain-title">Great-grandparent</span>
+                                    <span class="oci-chain-desc">(Born in / connected to India)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Documentary Records Substantive Breakdown (DOCX Section 3) -->
+                    <div class="oci-records-details">
+                        <div class="row g-4">
+                            <div class="col-lg-5">
+                                <h3 class="oci-serif oci-records-heading">
+                                    Establishing Your Indian Ancestry for an OCI Application
+                                </h3>
+                                <p class="oci-records-p mb-3">
+                                    For some applicants, the principal challenge is not the OCI application itself but proving the family connection to India. You may be a foreign citizen whose parents, grandparents or great-grandparents lived in India. However, old family documents may be incomplete, names may have changed over generations, and historical birth or marriage records may be difficult to locate.
+                                </p>
+                                <p class="oci-records-p-sub mb-0">
+                                    Our objective is to help applicants establish a clear, consistent and verifiable documentary connection with their Indian ancestry, where the applicable statutory requirements can be satisfied.
+                                </p>
+                            </div>
+                            <div class="col-lg-7">
+                                <span class="oci-badge-eyebrow mb-1">RELEVANT RECORDS TO EXAMINE</span>
+                                <ul class="oci-records-list">
+                                    <li><i class="bi bi-file-check"></i> Birth &amp; marriage certificates across successive generations</li>
+                                    <li><i class="bi bi-passport"></i> Old Indian passports &amp; citizenship certificates</li>
+                                    <li><i class="bi bi-book"></i> School records, family registers &amp; educational certificates</li>
+                                    <li><i class="bi bi-geo-alt"></i> Historical land records &amp; revenue documentation</li>
+                                    <li><i class="bi bi-journal-bookmark"></i> Death certificates establishing relationships between generations</li>
+                                    <li><i class="bi bi-building"></i> Records available through relevant registration authorities or archives</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION F: OUR APPROACH
+             Screenshot Match: 3 Gold numbered circles with connecting flow
+             DOCX Match: Complete 6-Step Methodology
+             ========================================================== -->
+        <section class="oci-approach-section" id="our-approach" aria-labelledby="approach-heading">
+            <div class="container">
+                <div class="row align-items-center g-4 mb-3">
+                    <!-- Left: Header Block -->
+                    <div class="col-lg-4">
+                        <h2 id="approach-heading" class="oci-approach-title">Our Approach</h2>
+                        <p class="oci-approach-desc mb-0">
+                            A structured process to understand your eligibility and documentation requirements.
+                        </p>
+                    </div>
+
+                    <!-- Right: Three Visual Stage Process (Screenshot Reproduction) -->
+                    <div class="col-lg-8">
+                        <div class="oci-approach-steps" role="list" aria-label="Three stage process">
+                            <!-- Stage 1: Assess -->
+                            <div class="oci-step-item" role="listitem">
+                                <div class="oci-step-number" aria-hidden="true">1</div>
+                                <div class="oci-step-text">
+                                    <h4>Assess</h4>
+                                    <p>Understand your citizenship, family history and potential OCI eligibility.</p>
+                                </div>
+                            </div>
+
+                            <div class="oci-step-arrow" aria-hidden="true">
+                                <i class="bi bi-arrow-right"></i>
+                            </div>
+
+                            <!-- Stage 2: Trace -->
+                            <div class="oci-step-item" role="listitem">
+                                <div class="oci-step-number" aria-hidden="true">2</div>
+                                <div class="oci-step-text">
+                                    <h4>Trace</h4>
+                                    <p>Identify and explore relevant historical records and documentary evidence.</p>
+                                </div>
+                            </div>
+
+                            <div class="oci-step-arrow" aria-hidden="true">
+                                <i class="bi bi-arrow-right"></i>
+                            </div>
+
+                            <!-- Stage 3: Prepare -->
+                            <div class="oci-step-item" role="listitem">
+                                <div class="oci-step-number" aria-hidden="true">3</div>
+                                <div class="oci-step-text">
+                                    <h4>Prepare</h4>
+                                    <p>Organise documents, address discrepancies and assist with the application process.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Complete 6-Step Implementation Roadmap (DOCX Section 4) -->
+                <div class="oci-full-roadmap">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-2">
+                        <h3 class="oci-serif oci-roadmap-title mb-0">
+                            The 6-Step Client Engagement Methodology
+                        </h3>
+                        <span class="oci-roadmap-subtitle">Comprehensive documentation lifecycle</span>
+                    </div>
+                    <div class="oci-roadmap-grid">
+                        <div class="oci-roadmap-card">
+                            <span class="oci-roadmap-card-tag">Step 1</span>
+                            <h5>Initial Assessment</h5>
+                            <p>Understand the applicant's citizenship, family history and reason for seeking OCI registration.</p>
+                        </div>
+                        <div class="oci-roadmap-card">
+                            <span class="oci-roadmap-card-tag">Step 2</span>
+                            <h5>Eligibility Review</h5>
+                            <p>Identify the potentially applicable OCI eligibility category and any restrictions requiring further examination.</p>
+                        </div>
+                        <div class="oci-roadmap-card">
+                            <span class="oci-roadmap-card-tag">Step 3</span>
+                            <h5>Document Review</h5>
+                            <p>Examine existing passports, birth certificates, marriage records and other supporting documents.</p>
+                        </div>
+                        <div class="oci-roadmap-card">
+                            <span class="oci-roadmap-card-tag">Step 4</span>
+                            <h5>Ancestry Research</h5>
+                            <p>Where necessary, identify potential sources for missing historical records and documentary evidence.</p>
+                        </div>
+                        <div class="oci-roadmap-card">
+                            <span class="oci-roadmap-card-tag">Step 5</span>
+                            <h5>Documentation Support</h5>
+                            <p>Organise available evidence and identify inconsistencies, name differences or unresolved gaps.</p>
+                        </div>
+                        <div class="oci-roadmap-card">
+                            <span class="oci-roadmap-card-tag">Step 6</span>
+                            <h5>Application Assistance</h5>
+                            <p>Assist with the relevant application and documentation process, subject to applicable government requirements.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION: WHO SHOULD CONTACT RRC & STRATEGIC POSITIONING
+             Preserving DOCX Sections 5 & 7 (Sell the Solution, Not Just Forms)
+             ========================================================== -->
+        <section class="oci-positioning-section" aria-labelledby="positioning-heading">
+            <div class="container">
+                <div class="row g-4">
+                    <!-- Left: Who Should Contact RRC -->
+                    <div class="col-lg-6">
+                        <div class="oci-audience-card">
+                            <span class="oci-badge-eyebrow">WHO BENEFITS</span>
+                            <h3 id="positioning-heading" class="oci-serif oci-audience-title">
+                                Who Should Contact RRC?
+                            </h3>
+                            <ul class="oci-audience-list">
+                                <li>
+                                    <i class="bi bi-check-circle-fill"></i>
+                                    <span>Foreign citizens whose parents or grandparents were connected with India.</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle-fill"></i>
+                                    <span>Applicants whose Indian-origin family records are incomplete or scattered.</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle-fill"></i>
+                                    <span>Families trying to establish a connection to an ancestor who lived in India many decades ago.</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle-fill"></i>
+                                    <span>Applicants facing difficulties obtaining old birth or marriage records (including NABC cases).</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle-fill"></i>
+                                    <span>Applicants with spelling inconsistencies in names, dates of birth or family relationships.</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle-fill"></i>
+                                    <span>Former Indian citizens who need assistance understanding passport surrender and renunciation records.</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle-fill"></i>
+                                    <span>Foreign spouses and eligible children who need guidance on applicable OCI requirements.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Right: Strategic Positioning Table -->
+                    <div class="col-lg-6">
+                        <div class="oci-audience-card">
+                            <span class="oci-badge-eyebrow">STRATEGIC DIFFERENCE</span>
+                            <h3 class="oci-serif oci-audience-title">
+                                Strategic Legal Counsel vs. Routine Form-Filling
+                            </h3>
+                            <div class="table-responsive">
+                                <table class="oci-compare-table" aria-label="Comparison between routine assistance and RRC legal positioning">
+                                    <thead>
+                                        <tr>
+                                            <th>Routine OCI Form Assistance</th>
+                                            <th>RRC's Legal &amp; Documentary Positioning</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Completing an online form</td>
+                                            <td>Assessing the applicable statutory eligibility category</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Uploading documents</td>
+                                            <td>Examining documentary consistency &amp; legal validity</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Asking for a birth certificate</td>
+                                            <td>Exploring legal options when historical records are unavailable</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Collecting family documents</td>
+                                            <td>Establishing documentary relationships between generations</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Submitting an application</td>
+                                            <td>Identifying legal and documentary issues before submission</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Giving general OCI information</td>
+                                            <td>Providing case-specific legal and documentation assistance</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION G: OCI LEGAL GUIDES
+             Screenshot Match: Left heading, 3 featured article cards on right
+             DOCX Match: OCI Knowledge Center series
+             ========================================================== -->
+        <section class="oci-guides-section" id="oci-guides" aria-labelledby="guides-heading">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <!-- Left: Header Block -->
+                    <div class="col-lg-3">
+                        <div class="oci-guides-header">
+                            <span class="oci-badge-eyebrow">KNOWLEDGE CENTRE</span>
+                            <h2 id="guides-heading">OCI Legal Guides</h2>
+                            <p>
+                                Practical articles on OCI eligibility, documentation, ancestry and related legal issues.
+                            </p>
+                            <a href="/lawfirm-blog.html" class="btn btn-sm btn-outline-dark d-none d-lg-inline-flex align-items-center gap-1" style="border-radius: 6px;">
+                                View All Legal Updates <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Right: Three Featured Cards (Exact Screenshot Reproduction) -->
+                    <div class="col-lg-9">
+                        <div class="row g-3">
+                            <!-- Card 1: Eligibility -->
+                            <div class="col-md-4">
+                                <a href="/oci-card-eligibility-legal-status.html" class="oci-guide-card">
+                                    <div class="oci-guide-img-wrap">
+                                        <img src="/assets/images/oci-blog-eligibility.jpg" alt="Indian heritage landmark representing OCI eligibility" loading="lazy">
+                                    </div>
+                                    <div class="oci-guide-body">
+                                        <span class="oci-guide-category">OCI GUIDE</span>
+                                        <h3 class="oci-guide-title">
+                                            OCI Eligibility: Who Can Apply and What Are the Requirements?
+                                        </h3>
+                                        <span class="oci-guide-link">
+                                            Read Article <i class="bi bi-arrow-right"></i>
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- Card 2: Ancestry via Grandparents -->
+                            <div class="col-md-4">
+                                <a href="/lawfirm-blog.html" class="oci-guide-card">
+                                    <div class="oci-guide-img-wrap">
+                                        <img src="/assets/images/oci-blog-family.jpg" alt="Vintage Indian multi-generational family portrait" loading="lazy">
+                                    </div>
+                                    <div class="oci-guide-body">
+                                        <span class="oci-guide-category">OCI GUIDE</span>
+                                        <h3 class="oci-guide-title">
+                                            Can I Apply for an OCI Card Through My Grandparents?
+                                        </h3>
+                                        <span class="oci-guide-link">
+                                            Read Article <i class="bi bi-arrow-right"></i>
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- Card 3: Missing Birth Records -->
+                            <div class="col-md-4">
+                                <a href="/oci-card-application-documents.html" class="oci-guide-card">
+                                    <div class="oci-guide-img-wrap">
+                                        <img src="/assets/images/oci-blog-records.jpg" alt="Historical archival Indian records stack" loading="lazy">
+                                    </div>
+                                    <div class="oci-guide-body">
+                                        <span class="oci-guide-category">DOCUMENTATION</span>
+                                        <h3 class="oci-guide-title">
+                                            What If an Indian Birth Record Is Missing?
+                                        </h3>
+                                        <span class="oci-guide-link">
+                                            Read Article <i class="bi bi-arrow-right"></i>
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION H: CONSULTATION CTA BANNER
+             Screenshot Match: Full width banner with background heritage image,
+             dark navy overlay, light text, gold CTA
+             ========================================================== -->
+        <section class="oci-cta-banner" aria-labelledby="banner-cta-heading">
+            <div class="container">
+                <div class="oci-cta-banner-content">
+                    <div class="oci-cta-text">
+                        <h2 id="banner-cta-heading">Tell us about your family history and available documents</h2>
+                        <p>
+                            RRC Law Associates can help identify the relevant legal and documentary requirements for your OCI application.
+                        </p>
+                    </div>
+                    <div class="oci-cta-action">
+                        <a href="/booking.html" class="oci-btn-banner-cta">
+                            Request an Initial Discussion <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- =========================================================
+         SECTION I: FOOTER (Original RRC Law Associates Shared Footer)
+         ========================================================== -->
+    <footer class="footer">
+        <div class="footer-contain">
+            <div class="footer-grid">
+
+                <!-- Brand -->
+                <div class="footer-brand">
+                    <div class="logo-icon">
+                        <a href="/" title="Home">
+                            <img src="/assets/images/logo.png" alt="Law Firm Logo" class="logo-img">
+                            <div class="logo-text">
+                                <strong>RRC</strong>
+                                <strong>Law Associates</strong>
+                            </div>
+                        </a>
+                    </div>
+                    <p>
+                        Providing trusted legal solutions with integrity since 2008. Your reliable
+                        partner for all legal matters in Tamil Nadu.
+                    </p>
+                    <div class="social"></div>
+                </div>
+
+                <!-- Practice Areas -->
+                <div>
+                    <h4>Practice Areas</h4>
+                    <ul>
+                        <li>
+                            <a href="/family-law.html">Family Law</a>
+                        </li>
+                        <li>
+                            <a href="/property-law.html">Property Law</a>
+                        </li>
+                        <li>
+                            <a href="/employment-law.html">Employment Law</a>
+                        </li>
+                        <li>
+                            <a href="/white-collar-crime.html">White Collar Crimes</a>
+                        </li>
+                        <li>
+                            <a href="/intellectual-property.html">Intellectual Property</a>
+                        </li>
+                        <li>
+                            <a href="/litigation-dispute-resolution.html">Litigation Dispute</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        <li>
+                            <a href="/nri-services.html">NRI Services</a>
+                        </li>
+                        <li>
+                            <a href="/oci-card-assistance.html">OCI Card &amp; Ancestry</a>
+                        </li>
+                        <li>
+                            <a href="/core-practice-areas.html">Practice Areas</a>
+                        </li>
+                        <li>
+                            <a href="/lawfirm-blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="/#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4>Contact Us</h4>
+                    <ul class="contact">
+                        <li>
+                            <span>Address</span>
+                            <br>
+                            No 82/6B, Deen Complex,Mary's Corner, Parisutham Nagar,<br>
+                            Thanjavur, Tamil Nadu-613001
+                        </li>
+                        <li>
+                            <span>Phone</span>
+                            <br>
+                            <a href="tel:+919751182452">+91 97511 82452</a>
+                        </li>
+                        <li>
+                            <span>Email</span>
+                            <br>
+                            <a href="mailto:dr.kumar@rrclawassociates.com">
+                                dr.kumar@rrclawassociates.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Bottom -->
+            <div class="footer-bottom">
+                <p>©
+                    <span id="year">2026</span>
+                    Branzyne. All rights reserved.</p>
+                <div class="legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Disclaimer</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Action Button (matches homepage) -->
+    <a
+        href="https://wa.me/919751182452?text=Hello%20RRC%20Law%20Associates,%20I%20am%20seeking%20assistance%20regarding%20OCI%20Card%20and%20Indian%20Ancestry%20Documentation."
+        class="whatsapp-float"
+        target="_blank"
+        rel="noopener"
+        aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="float-text">Chat with us</span>
+    </a>
+
+    <!-- Lucide Icons & Bootstrap Bundle -->
+    <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Existing Site Scripts -->
+    <script src="/script.js?v=20261008-1" defer></script>
+    <script src="/script2.js?v=20261008-1" defer></script>
+
+    <!-- OCI Hero Background Video Sequence & Smooth Crossfade -->
+    <script>
+    (function () {
+        'use strict';
+
+        // 1. Accessibility check: Respect prefers-reduced-motion
+        if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            return;
+        }
+
+        var mediaContainer = document.querySelector('.oci-hero-video-media');
+        var wrappers = [
+            document.getElementById('ociHeroWrapper0'),
+            document.getElementById('ociHeroWrapper1'),
+            document.getElementById('ociHeroWrapper2')
+        ];
+        var videos = [
+            document.getElementById('ociHeroVideo0'),
+            document.getElementById('ociHeroVideo1'),
+            document.getElementById('ociHeroVideo2')
+        ];
+
+        if (!mediaContainer || !wrappers[0] || !videos[0]) {
+            return;
+        }
+
+        var totalScenes = videos.length;
+        var currentScene = 0;
+        var isTransitioning = false;
+        var transitionTimer = null;
+
+        // Permanent mute enforcement across all clips
+        function enforceMute(v) {
+            if (!v) return;
+            v.muted = true;
+            v.defaultMuted = true;
+            try {
+                v.volume = 0;
+            } catch (e) {}
+            v.setAttribute('muted', '');
+            v.setAttribute('playsinline', '');
+        }
+
+        videos.forEach(function (v) {
+            if (v) {
+                enforceMute(v);
+                v.addEventListener('error', function () {
+                    fallbackToStatic();
+                });
+            }
+        });
+
+        function fallbackToStatic() {
+            if (mediaContainer) {
+                mediaContainer.style.display = 'none';
+            }
+            videos.forEach(function (v) {
+                if (v) {
+                    try {
+                        v.pause();
+                    } catch (e) {}
+                }
+            });
+        }
+
+        function advanceToNextScene() {
+            if (isTransitioning) return;
+            isTransitioning = true;
+
+            var outgoingIndex = currentScene;
+            var incomingIndex = (currentScene + 1) % totalScenes;
+
+            var outgoingWrapper = wrappers[outgoingIndex];
+            var incomingWrapper = wrappers[incomingIndex];
+            var outgoingVideo = videos[outgoingIndex];
+            var incomingVideo = videos[incomingIndex];
+
+            // Ensure incoming video starts cleanly from frame 0, fully muted
+            enforceMute(incomingVideo);
+            try {
+                incomingVideo.currentTime = 0;
+            } catch (e) {}
+
+            var playPromise = incomingVideo.play();
+            if (playPromise !== undefined) {
+                playPromise.catch(function (err) {
+                    console.warn('Hero video playback error:', err);
+                    fallbackToStatic();
+                });
+            }
+
+            // Incoming video fades in at z-index 3 over the final frame of outgoing video at z-index 2
+            incomingWrapper.classList.add('is-incoming');
+            incomingWrapper.classList.add('is-active');
+
+            clearTimeout(transitionTimer);
+            transitionTimer = setTimeout(function () {
+                // Outgoing clip is now fully obscured by incoming clip
+                outgoingWrapper.classList.remove('is-active');
+                outgoingWrapper.classList.remove('is-incoming');
+                try {
+                    outgoingVideo.pause();
+                    outgoingVideo.currentTime = 0;
+                } catch (e) {}
+
+                // Incoming clip settles into standard active layer at z-index 2
+                incomingWrapper.classList.remove('is-incoming');
+
+                currentScene = incomingIndex;
+                isTransitioning = false;
+
+                // Preload subsequent clip on demand without downloading all 3 simultaneously
+                var nextToPreload = (incomingIndex + 1) % totalScenes;
+                if (videos[nextToPreload]) {
+                    enforceMute(videos[nextToPreload]);
+                    videos[nextToPreload].preload = 'auto';
+                    videos[nextToPreload].load();
+                }
+            }, 950);
+        }
+
+        // Each clip plays its entire duration before advancing
+        videos.forEach(function (v, idx) {
+            if (!v) return;
+
+            v.addEventListener('ended', function () {
+                if (idx === currentScene && !isTransitioning) {
+                    advanceToNextScene();
+                }
+            });
+
+            // Safety boundary check for browsers that might delay the 'ended' event
+            v.addEventListener('timeupdate', function () {
+                if (idx === currentScene && !isTransitioning) {
+                    if (v.duration && v.currentTime >= v.duration - 0.05) {
+                        advanceToNextScene();
+                    }
+                }
+            });
+        });
+
+        // Handle browser tab visibility changes
+        document.addEventListener('visibilitychange', function () {
+            if (!document.hidden && !isTransitioning) {
+                var active = videos[currentScene];
+                if (active && active.paused) {
+                    enforceMute(active);
+                    var p = active.play();
+                    if (p !== undefined) {
+                        p.catch(function () {});
+                    }
+                }
+            }
+        });
+
+        // Initialize playback of first scene
+        function initHeroAnimation() {
+            enforceMute(videos[0]);
+            var startPlay = videos[0].play();
+            if (startPlay !== undefined) {
+                startPlay.then(function () {
+                    wrappers[0].classList.add('is-active');
+                    // Preload scene 2 once scene 1 starts playing
+                    if (videos[1]) {
+                        enforceMute(videos[1]);
+                        videos[1].preload = 'auto';
+                        videos[1].load();
+                    }
+                }).catch(function (err) {
+                    console.warn('Initial hero video autoplay blocked or failed:', err);
+                    fallbackToStatic();
+                });
+            } else {
+                wrappers[0].classList.add('is-active');
+                if (videos[1]) {
+                    enforceMute(videos[1]);
+                    videos[1].preload = 'auto';
+                    videos[1].load();
+                }
+            }
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initHeroAnimation);
+        } else {
+            initHeroAnimation();
+        }
+    })();
+    </script>
+
+<div data-rrc-ai-chat-root></div>
+</body>
+</html>
