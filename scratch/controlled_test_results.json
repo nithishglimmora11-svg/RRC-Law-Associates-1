@@ -1,0 +1,11 @@
+{
+  "testTimestamp": "2026-10-28T06:09:14.875Z",
+  "endpoint": "https://api.web3forms.com/submit",
+  "httpStatus": null,
+  "statusText": null,
+  "apiResponseBody": null,
+  "uiConfirmationVisible": false,
+  "formHidden": false,
+  "errorAlertDisplayed": true,
+  "errorAlertMessage": "Failed to fetch"
+}

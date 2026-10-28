@@ -1,0 +1,2361 @@
+# -*- coding: utf-8 -*-
+import os
+
+with open('partners.html.bak', 'r', encoding='utf-8') as f:
+    orig = f.read()
+
+# Extract topbar and header up to hero section
+topbar_idx = orig.find('<div class="rrc-topbar">')
+hero_idx = orig.find('<section class="opps-hero"')
+nav_markup = orig[topbar_idx:hero_idx].strip()
+
+# Fix duplicate ID bug in mobile menu
+nav_markup = nav_markup.replace(
+    '<a class="m-link m-trigger" href="core-practice-areas.html">\n                        Core Practice Areas <i class="fa fa-chevron-down ms-2"></i>\n                    </a>\n                    <div class="m-submenu" id="mPracticeMenu">',
+    '<a class="m-link m-trigger" href="core-practice-areas.html">\n                        Core Practice Areas <i class="fa fa-chevron-down ms-2"></i>\n                    </a>\n                    <div class="m-submenu" id="mCorePracticeMenu">'
+)
+
+# Highlight Partners link in desktop navigation
+nav_markup = nav_markup.replace(
+    '<a\n                            class="nav-link-custom border-0 bg-transparent p-0"\n                            href="partners.html"\n                            role="button"\n                            data-bs-toggle="dropdown"\n                            aria-expanded="false">\n                            Partners\n                        </a>',
+    '<a\n                            class="nav-link-custom border-0 bg-transparent p-0 active-partner-link"\n                            href="partners.html"\n                            role="button"\n                            data-bs-toggle="dropdown"\n                            aria-expanded="false"\n                            style="color: #c9a24d !important; font-weight: 700; border-bottom: 2px solid #c9a24d; padding-bottom: 2px;">\n                            Legal Partners\n                        </a>'
+)
+
+# Highlight Partners link in mobile menu
+nav_markup = nav_markup.replace(
+    '<a href="partners.html" class="m-link">Partners</a>',
+    '<a href="partners.html" class="m-link" style="color: #c9a24d !important; font-weight: 700;">Legal Partners</a>'
+)
+
+# Extract footer and whatsapp float
+footer_idx = orig.find('<footer class="footer">')
+script_idx = orig.find('<script src="https://cdn.jsdelivr.net/npm/bootstrap')
+footer_markup = orig[footer_idx:script_idx].strip()
+
+html_content = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Partners Network | RRC Law Associates</title>
+    <meta name="description" content="Connect with RRC Law Associates through a professional legal network for advocates, law firms, and legal specialists across India and internationally.">
+    <meta name="keywords" content="legal partners network, advocate collaboration, law firm network India, international legal associates, cross-border legal collaboration, RRC Law Associates">
+    <link rel="canonical" href="https://rrclawassociates.com/partners.html">
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rrclawassociates.com/partners.html">
+    <meta property="og:title" content="Legal Partners Network | RRC Law Associates">
+    <meta property="og:description" content="Stronger Together. Greater Impact. A global network of trusted legal professionals collaborating for broader solutions, deeper expertise, and lasting client value.">
+    <meta property="og:image" content="https://rrclawassociates.com/assets/images/legal-partners-hero.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://rrclawassociates.com/partners.html">
+    <meta name="twitter:title" content="Legal Partners Network | RRC Law Associates">
+    <meta name="twitter:description" content="Building Stronger Legal Connections Across Borders with independent advocates, law firms, and specialist legal professionals.">
+    <meta name="twitter:image" content="https://rrclawassociates.com/assets/images/legal-partners-hero.jpg">
+
+    <!-- CSS Dependencies -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css?v=20261008-1">
+    <link rel="stylesheet" href="style2.css?v=20261008-1">
+    <link rel="stylesheet" href="topbar.css?v=20261008-1">
+
+    <!-- Google Fonts Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+    <!-- Scoped Legal Partners Styling -->
+    <style>
+
+        :root {{
+            --lp-navy: #0b1c2d;
+            --lp-navy-dark: #071320;
+            --lp-navy-light: #122b46;
+            --lp-gold: #c9a24d;
+            --lp-gold-hover: #b38d38;
+            --lp-gold-light: #fcf9ee;
+            --lp-gold-border: rgba(201, 162, 77, 0.3);
+            --lp-cream: #f9f7f3;
+            --lp-text-dark: #1a2530;
+            --lp-text-muted: #5a6675;
+            --lp-border-light: #e6ebf1;
+            --lp-white: #ffffff;
+        }}
+
+        body {{
+            font-family: 'Inter', sans-serif;
+            color: var(--lp-text-dark);
+            background-color: var(--lp-white);
+            line-height: 1.65;
+        }}
+
+        /* --- GLOBAL HEADER PRESERVATION ASSURANCES --- */
+        .header {{
+            background: #000000 !important;
+            padding: 5px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1100;
+            min-height: 80px;
+            display: flex;
+            align-items: center;
+        }}
+        .logo-img {{ height: 60px; width: auto; }}
+        .nav-link-custom {{
+            color: #ffffff !important;
+            text-decoration: none;
+            font-weight: 500;
+            margin: 0 15px;
+            white-space: nowrap !important;
+            transition: 0.3s;
+            cursor: pointer;
+        }}
+        .nav-link-custom:hover {{ color: var(--lp-gold) !important; }}
+        .dropdown-menu {{ background-color: #000000 !important; border: 1px solid #c9a24d !important; margin-top: 10px !important; }}
+        .dropdown-item {{ color: #ffffff !important; padding: 10px 20px; }}
+        .dropdown-item:hover {{ background-color: #1a1a1a !important; color: var(--lp-gold) !important; }}
+
+        /* Intermediate Desktop Breakpoint for Single-Line Nav */
+        @media (min-width: 992px) and (max-width: 1240px) {{
+            .nav-link-custom {{
+                margin: 0 8px !important;
+                font-size: 0.92rem !important;
+                white-space: nowrap !important;
+            }}
+            .header .btn-gold {{
+                padding: 8px 14px !important;
+                font-size: 0.85rem !important;
+                white-space: nowrap !important;
+            }}
+        }}
+
+        /* --- SECTION 1: LEGAL PARTNERS HERO SECTION --- */
+        .lp-hero {{
+            position: relative;
+            background: linear-gradient(135deg, rgba(7, 19, 32, 0.92) 0%, rgba(11, 28, 45, 0.88) 100%), url('assets/images/legal-partners-hero.jpg') center/cover no-repeat;
+            padding-top: 135px;
+            padding-bottom: 50px;
+            color: #ffffff;
+            overflow: hidden;
+            border-bottom: 1px solid rgba(201, 162, 77, 0.25);
+        }}
+        .lp-hero::before {{
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at 85% 30%, rgba(201, 162, 77, 0.12) 0%, transparent 60%);
+            pointer-events: none;
+        }}
+        .lp-eyebrow {{
+            color: var(--lp-gold);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 700;
+            font-size: 0.82rem;
+            display: inline-block;
+            margin-bottom: 10px;
+        }}
+        .lp-hero-title {{
+            font-family: 'Playfair Display', serif;
+            font-size: 3.2rem;
+            font-weight: 700;
+            line-height: 1.15;
+            color: #ffffff;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }}
+        .lp-hero-subtitle {{
+            font-family: 'Playfair Display', serif;
+            font-size: 1.55rem;
+            color: #f1f5f9;
+            font-weight: 400;
+            margin-bottom: 16px;
+            line-height: 1.3;
+        }}
+        .lp-hero-lead {{
+            font-size: 1.05rem;
+            color: #cbd5e1;
+            max-width: 650px;
+            line-height: 1.65;
+            margin-bottom: 24px;
+        }}
+        .lp-btn-primary {{
+            background: var(--lp-gold);
+            color: var(--lp-navy) !important;
+            font-weight: 700;
+            padding: 10px 26px;
+            border-radius: 30px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            border: 1px solid var(--lp-gold);
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(201, 162, 77, 0.25);
+            font-size: 0.95rem;
+        }}
+        .lp-btn-primary:hover {{
+            background: var(--lp-gold-hover);
+            border-color: var(--lp-gold-hover);
+            color: #000000 !important;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(201, 162, 77, 0.35);
+        }}
+        .lp-btn-secondary {{
+            background: rgba(11, 28, 45, 0.6);
+            color: #ffffff !important;
+            font-weight: 600;
+            padding: 10px 24px;
+            border-radius: 30px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            transition: all 0.3s ease;
+            backdrop-filter: blur(4px);
+            font-size: 0.95rem;
+        }}
+        .lp-btn-secondary:hover {{
+            background: rgba(255, 255, 255, 0.15);
+            border-color: var(--lp-gold);
+            color: var(--lp-gold) !important;
+            transform: translateY(-2px);
+        }}
+
+        /* --- SECTION 2: THREE BENEFIT BLOCKS --- */
+        .lp-benefits {{
+            background: #ffffff;
+            padding: 38px 0 42px;
+            position: relative;
+        }}
+        .lp-benefit-card {{
+            text-align: center;
+            padding: 24px 20px;
+            border-radius: 14px;
+            background: #ffffff;
+            border: 1px solid var(--lp-border-light);
+            transition: all 0.3s ease;
+            height: 100%;
+            position: relative;
+        }}
+        .lp-benefit-card:hover {{
+            transform: translateY(-5px);
+            border-color: var(--lp-gold);
+            box-shadow: 0 12px 28px rgba(11, 28, 45, 0.07);
+        }}
+        .lp-benefit-icon {{
+            width: 56px;
+            height: 56px;
+            margin: 0 auto 14px;
+            border-radius: 50%;
+            background: var(--lp-gold-light);
+            border: 1px solid var(--lp-gold-border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--lp-gold);
+            font-size: 1.35rem;
+            transition: all 0.3s ease;
+        }}
+        .lp-benefit-card:hover .lp-benefit-icon {{
+            background: var(--lp-gold);
+            color: #ffffff;
+            transform: scale(1.06);
+        }}
+        .lp-benefit-title {{
+            font-family: 'Playfair Display', serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--lp-navy);
+            margin-bottom: 8px;
+        }}
+        .lp-benefit-text {{
+            color: var(--lp-text-muted);
+            font-size: 0.92rem;
+            line-height: 1.55;
+            margin-bottom: 0;
+        }}
+
+        /* --- SECTION 3: OUR LEGAL PARTNER NETWORK --- */
+        .lp-network-section {{
+            background-color: #fbfbfd;
+            padding: 42px 0 48px;
+            border-top: 1px solid #f0f3f6;
+            border-bottom: 1px solid #f0f3f6;
+        }}
+        .lp-section-header {{
+            margin-bottom: 22px;
+        }}
+        .lp-section-title {{
+            font-family: 'Playfair Display', serif;
+            font-size: 2.1rem;
+            font-weight: 700;
+            color: var(--lp-navy);
+            margin-bottom: 6px;
+        }}
+        .lp-section-subtitle {{
+            color: var(--lp-text-muted);
+            font-size: 0.98rem;
+            max-width: 650px;
+        }}
+        .lp-view-all-link {{
+            color: var(--lp-navy);
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.92rem;
+            transition: 0.3s;
+        }}
+        .lp-view-all-link i {{
+            color: var(--lp-gold);
+            transition: transform 0.3s ease;
+        }}
+        .lp-view-all-link:hover {{
+            color: var(--lp-gold);
+        }}
+        .lp-view-all-link:hover i {{
+            transform: translateX(4px);
+        }}
+
+        /* Interactive World Map */
+        .lp-map-container {{
+            background: #ffffff;
+            border: 1px solid var(--lp-border-light);
+            border-radius: 16px;
+            padding: 18px 16px 12px;
+            box-shadow: 0 4px 16px rgba(11, 28, 45, 0.03);
+            margin-bottom: 24px;
+            position: relative;
+        }}
+        .lp-map-svg {{
+            width: 100%;
+            height: auto;
+            max-height: 290px;
+        }}
+        .map-continent {{
+            fill: #dce3eb;
+            transition: fill 0.3s;
+        }}
+        .map-pin {{
+            cursor: pointer;
+            transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }}
+        .map-pin:hover {{
+            transform: scale(1.35);
+        }}
+        .pin-pulse {{
+            animation: pulse-ring 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+            transform-origin: center;
+        }}
+        @keyframes pulse-ring {{
+            0% {{ r: 6; opacity: 0.8; stroke-width: 2; }}
+            80%, 100% {{ r: 20; opacity: 0; stroke-width: 0.5; }}
+        }}
+
+        /* Statistics Strip */
+        .lp-stats-row {{
+            margin-bottom: 28px;
+        }}
+        .lp-stat-box {{
+            background: #ffffff;
+            border: 1px solid var(--lp-border-light);
+            border-radius: 12px;
+            padding: 16px 14px;
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.02);
+            height: 100%;
+        }}
+        .lp-stat-box:hover {{
+            border-color: var(--lp-gold);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(201, 162, 77, 0.08);
+        }}
+        .lp-stat-num {{
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: var(--lp-gold);
+            line-height: 1;
+            margin-bottom: 4px;
+        }}
+        .lp-stat-label {{
+            font-size: 0.78rem;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            color: var(--lp-navy);
+            font-weight: 700;
+            margin: 0;
+        }}
+
+        /* Filter Pills */
+        .lp-filter-btn {{
+            background: #ffffff;
+            border: 1px solid rgba(11, 28, 45, 0.15);
+            color: var(--lp-text-muted);
+            padding: 5px 16px;
+            border-radius: 20px;
+            font-size: 0.84rem;
+            font-weight: 600;
+            transition: all 0.25s ease;
+            margin-right: 6px;
+            margin-bottom: 8px;
+        }}
+        .lp-filter-btn:hover, .lp-filter-btn.active {{
+            background: var(--lp-navy);
+            color: #ffffff;
+            border-color: var(--lp-navy);
+        }}
+        .lp-filter-btn.active {{
+            background: var(--lp-gold);
+            color: var(--lp-navy);
+            border-color: var(--lp-gold);
+        }}
+
+        /* Partner Directory Cards */
+        .lp-partner-card {{
+            background: #ffffff;
+            border: 1px solid var(--lp-border-light);
+            border-radius: 14px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.02);
+        }}
+        .lp-partner-card:hover {{
+            transform: translateY(-5px);
+            border-color: var(--lp-gold);
+            box-shadow: 0 12px 28px rgba(11, 28, 45, 0.08);
+        }}
+        .lp-card-thumb-wrap {{
+            position: relative;
+            height: 155px;
+            overflow: hidden;
+            background-color: var(--lp-navy);
+        }}
+        .lp-card-thumb {{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }}
+        .lp-partner-card:hover .lp-card-thumb {{
+            transform: scale(1.05);
+        }}
+        .lp-country-badge {{
+            position: absolute;
+            bottom: 10px;
+            left: 12px;
+            background: #ffffff;
+            color: var(--lp-navy);
+            font-size: 0.74rem;
+            font-weight: 700;
+            padding: 3px 10px;
+            border-radius: 4px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+            border-left: 3px solid var(--lp-gold);
+        }}
+        .lp-card-body {{
+            padding: 18px 18px 14px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }}
+        .lp-partner-name {{
+            font-family: 'Playfair Display', serif;
+            font-size: 1.22rem;
+            font-weight: 700;
+            color: var(--lp-navy);
+            margin-bottom: 3px;
+            line-height: 1.25;
+        }}
+        .lp-partner-location {{
+            color: var(--lp-text-muted);
+            font-size: 0.84rem;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }}
+        .lp-partner-location i {{
+            color: var(--lp-gold);
+            font-size: 0.8rem;
+        }}
+        .lp-partner-desc {{
+            color: #4b5563;
+            font-size: 0.86rem;
+            line-height: 1.5;
+            margin-bottom: 12px;
+            flex-grow: 1;
+        }}
+        .lp-card-action {{
+            margin-top: auto;
+            padding-top: 10px;
+            border-top: 1px solid #f1f5f9;
+        }}
+        .lp-view-profile-btn {{
+            color: var(--lp-navy);
+            font-weight: 700;
+            font-size: 0.86rem;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            transition: 0.25s;
+            background: none;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+        }}
+        .lp-view-profile-btn i {{
+            color: var(--lp-gold);
+            transition: transform 0.25s;
+        }}
+        .lp-view-profile-btn:hover {{
+            color: var(--lp-gold);
+        }}
+        .lp-view-profile-btn:hover i {{
+            transform: translateX(4px);
+        }}
+
+        /* --- SECTION 4: BECOME A LEGAL PARTNER CTA --- */
+        .lp-cta-banner {{
+            background: linear-gradient(135deg, #071320 0%, #0b1c2d 60%, #122b46 100%);
+            padding: 44px 0 48px;
+            color: #ffffff;
+            position: relative;
+            overflow: hidden;
+            border-top: 2px solid var(--lp-gold);
+            border-bottom: 2px solid var(--lp-gold);
+        }}
+        .lp-cta-banner::after {{
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 450px;
+            height: 450px;
+            background: radial-gradient(circle, rgba(201, 162, 77, 0.1) 0%, transparent 70%);
+            pointer-events: none;
+        }}
+        .lp-cta-title {{
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 8px;
+        }}
+        .lp-cta-subtitle {{
+            color: #cbd5e1;
+            font-size: 1.02rem;
+            margin-bottom: 24px;
+        }}
+        .lp-prop-item {{
+            text-align: center;
+            padding: 8px 6px;
+        }}
+        .lp-prop-icon {{
+            width: 50px;
+            height: 50px;
+            margin: 0 auto 10px;
+            border-radius: 50%;
+            background: rgba(201, 162, 77, 0.12);
+            border: 1px solid rgba(201, 162, 77, 0.35);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--lp-gold);
+            font-size: 1.25rem;
+            transition: transform 0.3s;
+        }}
+        .lp-prop-item:hover .lp-prop-icon {{
+            transform: translateY(-3px);
+            background: var(--lp-gold);
+            color: var(--lp-navy);
+        }}
+        .lp-prop-title {{
+            font-weight: 700;
+            font-size: 0.98rem;
+            color: #ffffff;
+            margin-bottom: 4px;
+        }}
+        .lp-prop-text {{
+            font-size: 0.84rem;
+            color: #94a3b8;
+            line-height: 1.45;
+            margin: 0;
+        }}
+
+        /* --- SECTION 5: PARTNER TESTIMONIALS --- */
+        .lp-testimonials {{
+            background: #ffffff;
+            padding: 42px 0 46px;
+        }}
+        .lp-testim-card {{
+            background: #ffffff;
+            border: 1px solid var(--lp-border-light);
+            border-radius: 14px;
+            padding: 22px 20px;
+            height: 100%;
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            box-shadow: 0 4px 18px rgba(11, 28, 45, 0.03);
+            transition: all 0.3s ease;
+        }}
+        .lp-testim-card:hover {{
+            transform: translateY(-4px);
+            border-color: var(--lp-gold);
+            box-shadow: 0 10px 24px rgba(11, 28, 45, 0.07);
+        }}
+        .lp-testim-avatar {{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid var(--lp-gold);
+            flex-shrink: 0;
+        }}
+        .lp-testim-quote {{
+            font-size: 0.92rem;
+            color: #334155;
+            line-height: 1.55;
+            font-style: italic;
+            margin-bottom: 10px;
+            position: relative;
+        }}
+        .lp-testim-author {{
+            font-weight: 700;
+            font-size: 0.88rem;
+            color: var(--lp-navy);
+            margin-bottom: 2px;
+        }}
+        .lp-testim-role {{
+            font-size: 0.78rem;
+            color: var(--lp-text-muted);
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }}
+
+        /* --- SECTION 6: 4-STEP APPLICATION WORKFLOW --- */
+        .lp-app-section {{
+            background: #fbfbfd;
+            padding: 42px 0 48px;
+            border-top: 1px solid #f0f3f6;
+        }}
+        .lp-breadcrumb {{
+            font-size: 0.82rem;
+            color: var(--lp-text-muted);
+            margin-bottom: 8px;
+        }}
+        .lp-breadcrumb a {{
+            color: var(--lp-text-muted);
+            text-decoration: none;
+        }}
+        .lp-breadcrumb a:hover {{
+            color: var(--lp-gold);
+        }}
+        .lp-form-box {{
+            background: #ffffff;
+            border: 1px solid var(--lp-border-light);
+            border-radius: 16px;
+            padding: 28px 24px;
+            box-shadow: 0 6px 24px rgba(11, 28, 45, 0.04);
+            margin-bottom: 28px;
+        }}
+        /* Stepper */
+        .lp-stepper {{
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            margin-bottom: 24px;
+        }}
+        .lp-stepper::before {{
+            content: '';
+            position: absolute;
+            top: 18px;
+            left: 5%;
+            right: 5%;
+            height: 2px;
+            background: #e2e8f0;
+            z-index: 1;
+        }}
+        .lp-step-item {{
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            flex: 1;
+        }}
+        .lp-step-circle {{
+            width: 36px;
+            height: 36px;
+            margin: 0 auto 6px;
+            border-radius: 50%;
+            background: #ffffff;
+            border: 2px solid #cbd5e1;
+            color: #64748b;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.88rem;
+            transition: all 0.3s;
+        }}
+        .lp-step-item.active .lp-step-circle {{
+            background: var(--lp-gold);
+            border-color: var(--lp-gold);
+            color: var(--lp-navy);
+            box-shadow: 0 0 0 3px rgba(201, 162, 77, 0.25);
+        }}
+        .lp-step-item.completed .lp-step-circle {{
+            background: var(--lp-navy);
+            border-color: var(--lp-navy);
+            color: #ffffff;
+        }}
+        .lp-step-label {{
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #64748b;
+            margin: 0;
+        }}
+        .lp-step-item.active .lp-step-label {{
+            color: var(--lp-navy);
+            font-weight: 700;
+        }}
+
+        /* Form Inputs */
+        .lp-form-label {{
+            font-weight: 600;
+            font-size: 0.88rem;
+            color: #334155;
+            margin-bottom: 5px;
+        }}
+        .lp-form-control {{
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            padding: 10px 14px;
+            font-size: 0.92rem;
+            color: #1e293b;
+            transition: all 0.2s ease;
+            width: 100%;
+        }}
+        .lp-form-control:focus {{
+            border-color: var(--lp-gold);
+            box-shadow: 0 0 0 3px rgba(201, 162, 77, 0.2);
+            outline: none;
+        }}
+        .lp-practice-badge-check {{
+            display: none;
+        }}
+        .lp-practice-badge-label {{
+            display: inline-block;
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            color: #475569;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.25s;
+            user-select: none;
+        }}
+        .lp-practice-badge-check:checked + .lp-practice-badge-label {{
+            background: var(--lp-navy);
+            border-color: var(--lp-navy);
+            color: #ffffff;
+        }}
+
+        /* Workflow Visual */
+        .lp-workflow-box {{
+            background: #ffffff;
+            border: 1px solid var(--lp-border-light);
+            border-radius: 14px;
+            padding: 22px 18px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.02);
+            margin-top: 24px;
+        }}
+        .lp-wf-step {{
+            text-align: center;
+            position: relative;
+        }}
+        .lp-wf-icon {{
+            width: 48px;
+            height: 48px;
+            margin: 0 auto 8px;
+            border-radius: 50%;
+            background: var(--lp-gold-light);
+            border: 1px solid var(--lp-gold-border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--lp-gold);
+            font-size: 1.2rem;
+        }}
+        .lp-wf-title {{
+            font-weight: 700;
+            font-size: 0.86rem;
+            color: var(--lp-navy);
+            margin-bottom: 2px;
+        }}
+        .lp-wf-sub {{
+            font-size: 0.75rem;
+            color: var(--lp-text-muted);
+            margin: 0;
+        }}
+
+        /* Success Screen */
+        .lp-success-box {{
+            display: none;
+            background: #ffffff;
+            border: 1px solid var(--lp-border-light);
+            border-radius: 16px;
+            padding: 45px 24px;
+            text-align: center;
+            box-shadow: 0 8px 25px rgba(11, 28, 45, 0.05);
+            margin-bottom: 30px;
+        }}
+        .lp-success-icon {{
+            width: 72px;
+            height: 72px;
+            margin: 0 auto 18px;
+            border-radius: 50%;
+            background: #ecfdf5;
+            border: 2px solid #10b981;
+            color: #10b981;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.2rem;
+        }}
+
+        /* --- SECTION 7: PRESERVED DESKS & FAQS --- */
+        .lp-preserved-section {{
+            background: #ffffff;
+            padding: 38px 0 44px;
+            border-top: 1px solid #f0f3f6;
+        }}
+        .lp-desk-card {{
+            background: #ffffff;
+            border: 1px solid var(--lp-border-light);
+            border-radius: 12px;
+            padding: 18px 16px;
+            transition: all 0.3s;
+            height: 100%;
+            border-left: 4px solid var(--lp-gold);
+        }}
+        .lp-desk-card:hover {{
+            box-shadow: 0 6px 20px rgba(11, 28, 45, 0.05);
+            transform: translateY(-2px);
+        }}
+
+        /* Responsive Breakpoints */
+        @media (max-width: 991px) {{
+            .lp-hero {{ padding-top: 120px; padding-bottom: 45px; }}
+            .lp-hero-title {{ font-size: 2.4rem; }}
+            .lp-hero-subtitle {{ font-size: 1.3rem; }}
+            .lp-testim-card {{ margin-bottom: 16px; }}
+            .lp-stat-box {{ margin-bottom: 12px; }}
+            .lp-form-box {{ padding: 22px 16px; }}
+        }}
+        @media (max-width: 575px) {{
+            .lp-hero-title {{ font-size: 2rem; }}
+            .lp-hero-subtitle {{ font-size: 1.1rem; }}
+            .lp-btn-primary, .lp-btn-secondary {{ width: 100%; justify-content: center; }}
+            .lp-step-label {{ font-size: 0.72rem; }}
+            .lp-stepper {{ margin-bottom: 20px; }}
+            .lp-step-circle {{ width: 32px; height: 32px; font-size: 0.82rem; }}
+        }}
+
+    </style>
+
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {{
+        "@context": "https://schema.org",
+        "@type": "LegalService",
+        "name": "RRC Law Associates - Legal Partners Network",
+        "url": "https://rrclawassociates.com/partners.html",
+        "logo": "https://rrclawassociates.com/assets/images/logo.png",
+        "image": "https://rrclawassociates.com/assets/images/legal-partners-hero.jpg",
+        "description": "A strategic collaboration network connecting independent advocates, law firms, and specialist legal professionals across India and international partner desks.",
+        "telephone": "+919751182452",
+        "email": "dr.kumar@rrclawassociates.com",
+        "address": {{
+            "@type": "PostalAddress",
+            "streetAddress": "No 82/6B, Deen Complex, Mary's Corner, Parisutham Nagar",
+            "addressLocality": "Thanjavur",
+            "addressRegion": "Tamil Nadu",
+            "postalCode": "613001",
+            "addressCountry": "IN"
+        }},
+        "openingHours": "Mo-Sa 10:00-22:00",
+        "priceRange": "$$"
+    }}
+    </script>
+</head>
+<body>
+
+{nav_markup}
+
+<main class="legal-partners-page">
+
+    <!-- =========================================================
+         SECTION 1: LEGAL PARTNERS HERO
+    ========================================================== -->
+    <section class="lp-hero" id="hero">
+        <div class="container position-relative">
+            <div class="row align-items-center">
+                <div class="col-lg-9 col-xl-8">
+                    <span class="lp-eyebrow">
+                        <i class="fa fa-handshake-angle me-2"></i>Legal Collaboration Network
+                    </span>
+                    <h1 class="lp-hero-title">Legal Partners</h1>
+                    <div class="lp-hero-subtitle">Stronger Together. Greater Impact.</div>
+                    <p class="lp-hero-lead">
+                        A global network of trusted legal professionals collaborating for broader solutions, deeper expertise, and lasting client value across Indian courts and international jurisdictions.
+                    </p>
+                    <div class="d-flex flex-wrap gap-3 pt-2">
+                        <a href="#partner-application" class="lp-btn-primary">
+                            <span>Apply to Become a Partner</span>
+                            <i class="fa fa-arrow-right"></i>
+                        </a>
+                        <a href="#partner-network" class="lp-btn-secondary">
+                            <span>Explore Our Network</span>
+                            <i class="fa fa-compass"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================================
+         SECTION 2: THREE BENEFIT BLOCKS
+    ========================================================== -->
+    <section class="lp-benefits">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Benefit 1 -->
+                <div class="col-md-4">
+                    <div class="lp-benefit-card">
+                        <div class="lp-benefit-icon">
+                            <i class="fa fa-users-line"></i>
+                        </div>
+                        <h3 class="lp-benefit-title">Collaborate</h3>
+                        <p class="lp-benefit-text">
+                            Work together on cross-border and multi-disciplinary matters with dedicated local liaison support.
+                        </p>
+                    </div>
+                </div>
+                <!-- Benefit 2 -->
+                <div class="col-md-4">
+                    <div class="lp-benefit-card">
+                        <div class="lp-benefit-icon">
+                            <i class="fa fa-arrow-trend-up"></i>
+                        </div>
+                        <h3 class="lp-benefit-title">Grow</h3>
+                        <p class="lp-benefit-text">
+                            Access new opportunities and referral networks across Indian municipal and international jurisdictions.
+                        </p>
+                    </div>
+                </div>
+                <!-- Benefit 3 -->
+                <div class="col-md-4">
+                    <div class="lp-benefit-card">
+                        <div class="lp-benefit-icon">
+                            <i class="fa fa-globe"></i>
+                        </div>
+                        <h3 class="lp-benefit-title">Create Impact</h3>
+                        <p class="lp-benefit-text">
+                            Deliver better solutions for clients worldwide with coordinated, ethical, and quality-assured representation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================================
+         SECTION 3: OUR LEGAL PARTNER NETWORK
+    ========================================================== -->
+    <section class="lp-network-section" id="partner-network">
+        <div class="container">
+
+            <!-- Section Heading -->
+            <div class="row align-items-end lp-section-header">
+                <div class="col-md-8">
+                    <span class="lp-eyebrow">Global Footprint</span>
+                    <h2 class="lp-section-title">Our Legal Partner Network</h2>
+                    <p class="lp-section-subtitle mb-0">
+                        A curated network of approved legal partners across India and key global jurisdictions facilitating seamless cross-border liaison desks.
+                    </p>
+                </div>
+                <div class="col-md-4 text-md-end mt-3 mt-md-0">
+                    <a href="#partner-directory" class="lp-view-all-link" onclick="filterPartners('all', document.querySelector('.lp-filter-btn'))">
+                        View All Partners <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- World Map Container -->
+            <div class="lp-map-container text-center">
+                <svg class="lp-map-svg" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Interactive World Map showing RRC Legal Partner Network Desks">
+    <defs>
+        <radialGradient id="pinGlow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#c9a24d" stop-opacity="0.8"/>
+            <stop offset="100%" stop-color="#c9a24d" stop-opacity="0"/>
+        </radialGradient>
+        <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+        </filter>
+    </defs>
+
+    <!-- World Continents (Accurate Simplified Silhouette) -->
+    <g fill="#d8e1eb" stroke="#c5d1df" stroke-width="0.75" filter="url(#shadow)">
+        <!-- North America -->
+        <path d="M 170,60 L 190,55 L 220,60 L 250,55 L 280,65 L 300,85 L 295,105 L 270,110 L 250,115 L 245,135 L 275,145 L 290,165 L 285,185 L 265,195 L 250,210 L 235,230 L 220,250 L 210,240 L 190,215 L 180,185 L 155,175 L 135,160 L 120,135 L 110,105 L 130,85 Z" />
+        <!-- Greenland -->
+        <path d="M 330,40 L 375,35 L 390,65 L 360,95 L 340,90 L 330,65 Z" />
+        <!-- Central America & Caribbean -->
+        <path d="M 210,240 L 230,255 L 245,280 L 265,295 L 260,305 L 245,300 L 230,285 L 210,260 Z" />
+        <!-- South America -->
+        <path d="M 265,295 L 300,290 L 335,310 L 370,335 L 385,365 L 370,405 L 340,445 L 320,480 L 305,485 L 295,455 L 290,410 L 275,370 L 265,335 L 260,305 Z" />
+        <!-- Europe -->
+        <path d="M 470,95 L 505,80 L 530,90 L 545,115 L 530,135 L 540,150 L 525,165 L 500,160 L 485,175 L 465,170 L 450,150 L 460,125 L 470,110 Z" />
+        <!-- Scandinavia & Baltic -->
+        <path d="M 505,80 L 525,55 L 540,50 L 550,75 L 540,110 L 525,110 Z" />
+        <!-- United Kingdom & Ireland -->
+        <path d="M 445,115 L 460,110 L 465,130 L 450,140 Z M 435,125 L 445,120 L 445,135 L 435,135 Z" />
+        <!-- Africa -->
+        <path d="M 465,175 L 525,170 L 565,195 L 600,230 L 610,270 L 585,320 L 560,370 L 540,420 L 515,445 L 490,430 L 480,380 L 460,330 L 440,280 L 435,230 L 445,200 Z" />
+        <!-- Madagascar -->
+        <path d="M 610,360 L 625,370 L 615,415 L 600,405 Z" />
+        <!-- Asia (Northern & Central) -->
+        <path d="M 550,75 L 620,60 L 710,55 L 810,65 L 890,85 L 880,120 L 830,135 L 780,130 L 740,145 L 700,155 L 650,160 L 600,165 L 565,150 L 545,115 Z" />
+        <!-- Middle East -->
+        <path d="M 565,195 L 605,190 L 635,215 L 640,255 L 615,270 L 590,260 L 580,225 Z" />
+        <!-- India Subcontinent -->
+        <path d="M 655,195 L 705,190 L 730,225 L 735,260 L 715,300 L 690,325 L 675,290 L 665,245 Z" />
+        <!-- East Asia / China -->
+        <path d="M 740,145 L 810,140 L 855,175 L 840,225 L 805,250 L 765,245 L 730,225 L 715,185 Z" />
+        <!-- Southeast Asia -->
+        <path d="M 765,245 L 795,255 L 800,285 L 785,310 L 770,300 L 765,270 Z" />
+        <!-- Malaysia, Indonesia & Archipelago -->
+        <path d="M 760,295 L 780,295 L 790,305 L 775,315 Z M 785,325 L 830,320 L 845,340 L 810,350 Z M 835,285 L 860,295 L 850,325 L 830,315 Z" />
+        <!-- Japan -->
+        <path d="M 875,150 L 890,165 L 880,205 L 865,190 Z" />
+        <!-- Australia -->
+        <path d="M 790,370 L 850,350 L 895,375 L 905,420 L 870,455 L 825,450 L 785,425 L 775,390 Z" />
+        <!-- New Zealand -->
+        <path d="M 930,445 L 945,455 L 935,485 L 920,470 Z" />
+    </g>
+
+    <!-- Jurisdictions with Interactive Radar Pins -->
+    <!-- 1. Malaysia Desk (Primary Partner Hub: KL, Seremban, Johor Bahru) -->
+    <g class="map-pin" transform="translate(775, 305)" onclick="showPinInfo('Malaysia Hub', 'Kuala Lumpur HQ, Seremban & Johor Bahru', 'Chee & Partners & Guna & Chandrika Advocates: Active Cross-Border Liaison Desks')">
+        <circle class="pin-pulse" cx="0" cy="0" r="12" fill="none" stroke="#c9a24d" />
+        <circle cx="0" cy="0" r="7" fill="#c9a24d" filter="url(#shadow)" />
+        <circle cx="0" cy="0" r="3" fill="#0b1c2d" />
+        <text x="14" y="5" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#0b1c2d">Malaysia (Active Hub)</text>
+    </g>
+
+    <!-- 2. India (HQ: Thanjavur, Chennai, New Delhi) -->
+    <g class="map-pin" transform="translate(695, 260)" onclick="showPinInfo('India (National HQ)', 'New Delhi, Chennai & Thanjavur HQ', 'Full Litigation, Property Due Diligence, High Court Writs & Private Client Desks')">
+        <circle class="pin-pulse" cx="0" cy="0" r="12" fill="none" stroke="#0b1c2d" />
+        <circle cx="0" cy="0" r="7" fill="#0b1c2d" filter="url(#shadow)" />
+        <circle cx="0" cy="0" r="3" fill="#c9a24d" />
+        <text x="-65" y="-12" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#0b1c2d">India (HQ)</text>
+    </g>
+
+    <!-- 3. Singapore Desk -->
+    <g class="map-pin" transform="translate(785, 318)" onclick="showPinInfo('Singapore', 'Cross-Border Corporate Desk', 'M&A Advisory, Financial Services & Dispute Resolution Coordination')">
+        <circle cx="0" cy="0" r="5" fill="#c9a24d" />
+    </g>
+
+    <!-- 4. United Kingdom (London Desk) -->
+    <g class="map-pin" transform="translate(458, 128)" onclick="showPinInfo('United Kingdom', 'London Partner Desk', 'NRI Property Injunctions, Cross-Border Probate & Consular Attestation')">
+        <circle class="pin-pulse" cx="0" cy="0" r="10" fill="none" stroke="#c9a24d" />
+        <circle cx="0" cy="0" r="6" fill="#c9a24d" />
+        <text x="-85" y="-6" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#0b1c2d">United Kingdom</text>
+    </g>
+
+    <!-- 5. UAE (Dubai Middle East Desk) -->
+    <g class="map-pin" transform="translate(620, 235)" onclick="showPinInfo('UAE', 'Middle East Liaison Desk', 'Gulf NRI Legal Advisory, POA Adjudication & Property Rights Protection')">
+        <circle cx="0" cy="0" r="6" fill="#c9a24d" />
+        <text x="-32" y="18" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#64748b">UAE</text>
+    </g>
+
+    <!-- 6. United States (North America Desk) -->
+    <g class="map-pin" transform="translate(235, 175)" onclick="showPinInfo('USA', 'North America Desk', 'US NRI Matrimonial, Foreign Decree Validation & Ancestral Estate Coordination')">
+        <circle cx="0" cy="0" r="6" fill="#c9a24d" />
+        <text x="-30" y="18" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#64748b">USA</text>
+    </g>
+</svg>
+
+                <div id="mapInfoTooltip" class="small text-muted mt-2" style="min-height: 24px;">
+                    <i class="fa fa-circle-info text-gold me-1"></i> Click on any map marker to view active partner jurisdiction information.
+                </div>
+            </div>
+
+            <!-- Statistics Strip -->
+            <div class="row g-3 lp-stats-row">
+                <div class="col-6 col-lg-3">
+                    <div class="lp-stat-box">
+                        <div class="lp-stat-num">50+</div>
+                        <div class="lp-stat-label">Partners Worldwide</div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="lp-stat-box">
+                        <div class="lp-stat-num">20+</div>
+                        <div class="lp-stat-label">Countries Connected</div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="lp-stat-box">
+                        <div class="lp-stat-num">15+</div>
+                        <div class="lp-stat-label">Practice Areas</div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="lp-stat-box">
+                        <div class="lp-stat-num">1</div>
+                        <div class="lp-stat-label">Shared Vision</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Filter Tabs -->
+            <div class="d-flex flex-wrap align-items-center justify-content-between mb-4" id="partner-directory">
+                <div class="d-flex flex-wrap">
+                    <button class="lp-filter-btn active" onclick="filterPartners('all', this)">All Partners</button>
+                    <button class="lp-filter-btn" onclick="filterPartners('seremban', this)">Negeri Sembilan</button>
+                    <button class="lp-filter-btn" onclick="filterPartners('kl', this)">Kuala Lumpur</button>
+                    <button class="lp-filter-btn" onclick="filterPartners('johor', this)">Johor Bahru</button>
+                    <button class="lp-filter-btn" onclick="filterPartners('practice', this)">Cross-Border Desks</button>
+                </div>
+                <div class="text-muted small mt-2 mt-sm-0">
+                    Showing <strong id="partnerCount">4</strong> verified international partner hubs
+                </div>
+            </div>
+
+            <!-- Partner Directory Cards Grid -->
+            <div class="row g-4" id="partnerCardsGrid">
+
+                <!-- 1. Chee & Partners - Negeri Sembilan Hub -->
+                <div class="col-md-6 col-lg-6 partner-item" data-category="seremban">
+                    <div class="lp-partner-card">
+                        <div class="lp-card-thumb-wrap">
+                            <img src="assets/images/malaysia-seremban-landmark.jpg" alt="Chee & Partners Negeri Sembilan Hub" class="lp-card-thumb">
+                            <span class="lp-country-badge">
+                                <i class="fa fa-location-dot me-1"></i>Malaysia
+                            </span>
+                        </div>
+                        <div class="lp-card-body">
+                            <h3 class="lp-partner-name">Chee &amp; Partners</h3>
+                            <div class="lp-partner-location">
+                                <i class="fa fa-building-columns"></i>
+                                <span>Negeri Sembilan Hub &bull; Seremban 2</span>
+                            </div>
+                            <p class="lp-partner-desc">
+                                Specialized cross-border legal liaison desk assisting expatriates and NRIs with multi-jurisdictional documentation, commercial transactions, and advisory.
+                            </p>
+                            <div class="d-flex flex-wrap gap-1 mb-3">
+                                <span class="badge bg-light text-dark border">Cross-Border Liaison</span>
+                                <span class="badge bg-light text-dark border">NRI Advisory</span>
+                                <span class="badge bg-light text-dark border">Commercial Law</span>
+                            </div>
+                            <div class="lp-card-action d-flex justify-content-between align-items-center">
+                                <button type="button" class="lp-view-profile-btn" data-bs-toggle="modal" data-bs-target="#modalCheeSeremban">
+                                    View Profile <i class="fa fa-arrow-right ms-1"></i>
+                                </button>
+                                <a href="https://wa.me/919751182452?text=Inquiry%20regarding%20Chee%20%26%20Partners%20Seremban%20Desk" target="_blank" class="btn btn-sm btn-outline-success rounded-pill px-3">
+                                    <i class="fab fa-whatsapp me-1"></i>Liaison Desk
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Chee & Partners - Kuala Lumpur HQ -->
+                <div class="col-md-6 col-lg-6 partner-item" data-category="kl">
+                    <div class="lp-partner-card">
+                        <div class="lp-card-thumb-wrap">
+                            <img src="assets/images/malaysia-kl-landmark.jpg" alt="Chee & Partners Kuala Lumpur HQ" class="lp-card-thumb">
+                            <span class="lp-country-badge">
+                                <i class="fa fa-location-dot me-1"></i>Malaysia
+                            </span>
+                        </div>
+                        <div class="lp-card-body">
+                            <h3 class="lp-partner-name">Chee &amp; Partners</h3>
+                            <div class="lp-partner-location">
+                                <i class="fa fa-building-columns"></i>
+                                <span>Kuala Lumpur HQ &bull; Mont Kiara</span>
+                            </div>
+                            <p class="lp-partner-desc">
+                                Corporate legal liaison headquarters managing complex cross-border arbitration, business investments, and international commercial litigation support.
+                            </p>
+                            <div class="d-flex flex-wrap gap-1 mb-3">
+                                <span class="badge bg-light text-dark border">Corporate Law</span>
+                                <span class="badge bg-light text-dark border">Arbitration</span>
+                                <span class="badge bg-light text-dark border">Cross-Border Disputes</span>
+                            </div>
+                            <div class="lp-card-action d-flex justify-content-between align-items-center">
+                                <button type="button" class="lp-view-profile-btn" data-bs-toggle="modal" data-bs-target="#modalCheeKL">
+                                    View Profile <i class="fa fa-arrow-right ms-1"></i>
+                                </button>
+                                <a href="https://wa.me/919751182452?text=Inquiry%20regarding%20Chee%20%26%20Partners%20Kuala%20Lumpur%20Desk" target="_blank" class="btn btn-sm btn-outline-success rounded-pill px-3">
+                                    <i class="fab fa-whatsapp me-1"></i>Liaison Desk
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. S. Gunasegaran - Guna & Chandrika -->
+                <div class="col-md-6 col-lg-6 partner-item" data-category="johor">
+                    <div class="lp-partner-card">
+                        <div class="lp-card-thumb-wrap">
+                            <img src="assets/images/malaysia-johor-landmark.jpg" alt="Guna & Chandrika Advocates Johor Tower" class="lp-card-thumb">
+                            <span class="lp-country-badge">
+                                <i class="fa fa-location-dot me-1"></i>Malaysia
+                            </span>
+                        </div>
+                        <div class="lp-card-body">
+                            <h3 class="lp-partner-name">S. Gunasegaran</h3>
+                            <div class="lp-partner-location">
+                                <i class="fa fa-user-tie"></i>
+                                <span>LL.B. (Hons) (Malaya) &bull; Johor Bahru</span>
+                            </div>
+                            <p class="text-uppercase small fw-bold mb-2" style="color: var(--lp-gold); letter-spacing: 0.5px;">
+                                Guna &amp; Chandrika Advocates &amp; Solicitors
+                            </p>
+                            <p class="lp-partner-desc">
+                                Senior advocate facilitating cross-border bilateral legal representation, property succession, civil dispute resolution, and consular liaison coordination.
+                            </p>
+                            <div class="d-flex flex-wrap gap-1 mb-3">
+                                <span class="badge bg-light text-dark border">Civil Litigation</span>
+                                <span class="badge bg-light text-dark border">Succession</span>
+                                <span class="badge bg-light text-dark border">Consular Attestation</span>
+                            </div>
+                            <div class="lp-card-action d-flex justify-content-between align-items-center">
+                                <button type="button" class="lp-view-profile-btn" data-bs-toggle="modal" data-bs-target="#modalGuna">
+                                    View Profile <i class="fa fa-arrow-right ms-1"></i>
+                                </button>
+                                <a href="https://wa.me/919751182452?text=Inquiry%20regarding%20S.%20Gunasegaran%20Johor%20Desk" target="_blank" class="btn btn-sm btn-outline-success rounded-pill px-3">
+                                    <i class="fab fa-whatsapp me-1"></i>Liaison Desk
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. J. Chandrika - Guna & Chandrika -->
+                <div class="col-md-6 col-lg-6 partner-item" data-category="johor">
+                    <div class="lp-partner-card">
+                        <div class="lp-card-thumb-wrap">
+                            <img src="assets/images/malaysia-johor-landmark.jpg" alt="Guna & Chandrika Advocates Johor Bahru" class="lp-card-thumb">
+                            <span class="lp-country-badge">
+                                <i class="fa fa-location-dot me-1"></i>Malaysia
+                            </span>
+                        </div>
+                        <div class="lp-card-body">
+                            <h3 class="lp-partner-name">J. Chandrika</h3>
+                            <div class="lp-partner-location">
+                                <i class="fa fa-user-tie"></i>
+                                <span>LL.B. Hons (Malaya) &bull; Johor Bahru</span>
+                            </div>
+                            <p class="text-uppercase small fw-bold mb-2" style="color: var(--lp-gold); letter-spacing: 0.5px;">
+                                Guna &amp; Chandrika Advocates &amp; Solicitors
+                            </p>
+                            <p class="lp-partner-desc">
+                                Advocate &amp; Solicitor managing international private client disputes, cross-border family estates, corporate agreements, and property verification.
+                            </p>
+                            <div class="d-flex flex-wrap gap-1 mb-3">
+                                <span class="badge bg-light text-dark border">Private Client</span>
+                                <span class="badge bg-light text-dark border">Real Estate</span>
+                                <span class="badge bg-light text-dark border">Commercial Contracts</span>
+                            </div>
+                            <div class="lp-card-action d-flex justify-content-between align-items-center">
+                                <button type="button" class="lp-view-profile-btn" data-bs-toggle="modal" data-bs-target="#modalChandrika">
+                                    View Profile <i class="fa fa-arrow-right ms-1"></i>
+                                </button>
+                                <a href="https://wa.me/919751182452?text=Inquiry%20regarding%20J.%20Chandrika%20Johor%20Desk" target="_blank" class="btn btn-sm btn-outline-success rounded-pill px-3">
+                                    <i class="fab fa-whatsapp me-1"></i>Liaison Desk
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================================
+         SECTION 4: BECOME A LEGAL PARTNER CTA BANNER
+    ========================================================== -->
+    <section class="lp-cta-banner" id="become-partner">
+        <div class="container position-relative">
+            <div class="text-center mb-4">
+                <span class="lp-eyebrow text-gold">Strategic Collaboration</span>
+                <h2 class="lp-cta-title">Become a Legal Partner</h2>
+                <p class="lp-cta-subtitle">
+                    Join a trusted network of independent law firms and legal professionals committed to professional excellence and client advocacy.
+                </p>
+            </div>
+
+            <!-- Four Value Propositions Grid -->
+            <div class="row g-3 mb-4">
+                <div class="col-sm-6 col-lg-3">
+                    <div class="lp-prop-item">
+                        <div class="lp-prop-icon">
+                            <i class="fa fa-shield-halved"></i>
+                        </div>
+                        <h4 class="lp-prop-title">Reputation</h4>
+                        <p class="lp-prop-text">
+                            Be part of a credible, quality-assured, and established legal alliance network.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="lp-prop-item">
+                        <div class="lp-prop-icon">
+                            <i class="fa fa-diagram-project"></i>
+                        </div>
+                        <h4 class="lp-prop-title">Opportunities</h4>
+                        <p class="lp-prop-text">
+                            Gain access to cross-border mandates, reciprocal referrals, and joint legal representations.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="lp-prop-item">
+                        <div class="lp-prop-icon">
+                            <i class="fa fa-people-arrows"></i>
+                        </div>
+                        <h4 class="lp-prop-title">Knowledge Sharing</h4>
+                        <p class="lp-prop-text">
+                            Collaborate and learn from senior peers on multi-jurisdictional legal precedents.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="lp-prop-item">
+                        <div class="lp-prop-icon">
+                            <i class="fa fa-globe"></i>
+                        </div>
+                        <h4 class="lp-prop-title">Global Reach</h4>
+                        <p class="lp-prop-text">
+                            Enhance your practice visibility across Indian high courts and international markets.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Center Action Button -->
+            <div class="text-center">
+                <a href="#partner-application" class="lp-btn-primary px-5 py-3 fs-6">
+                    <span>Apply Now</span>
+                    <i class="fa fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================================
+         SECTION 5: PARTNER TESTIMONIALS
+    ========================================================== -->
+    <section class="lp-testimonials" id="testimonials">
+        <div class="container">
+            <div class="text-center mb-4">
+                <span class="lp-eyebrow">Peer Perspectives</span>
+                <h2 class="lp-section-title">Our Partners Say</h2>
+                <div class="mx-auto" style="width: 50px; height: 3px; background-color: var(--lp-gold); border-radius: 2px;"></div>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Testimonial 1 -->
+                <div class="col-lg-6">
+                    <div class="lp-testim-card">
+                        <img src="assets/images/advocate-1.png" alt="Partner Avatar" class="lp-testim-avatar">
+                        <div>
+                            <div class="text-warning mb-2" style="font-size: 0.85rem;">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                            <p class="lp-testim-quote">
+                                &ldquo;Being part of RRC's partner network has helped us collaborate on cross-border matters and deliver greater value to our clients requiring Indian High Court coordination.&rdquo;
+                            </p>
+                            <div class="lp-testim-author">Managing Partner</div>
+                            <div class="lp-testim-role">UK Desk Collaborator</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="col-lg-6">
+                    <div class="lp-testim-card">
+                        <img src="assets/images/advocate-2.png" alt="Partner Avatar" class="lp-testim-avatar">
+                        <div>
+                            <div class="text-warning mb-2" style="font-size: 0.85rem;">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                            <p class="lp-testim-quote">
+                                &ldquo;The network provides excellent referral opportunities and a platform to engage with like-minded legal professionals committed to ethical, transparent client service.&rdquo;
+                            </p>
+                            <div class="lp-testim-author">Partner</div>
+                            <div class="lp-testim-role">Singapore Desk Collaborator</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================================
+         SECTION 6: 4-STEP PARTNER APPLICATION WORKFLOW
+    ========================================================== -->
+    <section class="lp-app-section" id="partner-application">
+        <div class="container" style="max-width: 900px;">
+
+            <!-- Header and Breadcrumb -->
+            <div class="text-center mb-4">
+                <div class="lp-breadcrumb">
+                    <a href="index.html">Home</a> &gt; <a href="partners.html">Legal Partners</a> &gt; <span>Apply</span>
+                </div>
+                <h2 class="lp-section-title">Apply to Become a Legal Partner</h2>
+                <p class="text-muted mx-auto" style="max-width: 650px;">
+                    We welcome applications from reputed law firms and legal professionals who share our values and commitment to legal excellence.
+                </p>
+            </div>
+
+            <!-- Stepper Progress Tracker -->
+            <div class="lp-stepper">
+                <div class="lp-step-item active" id="stepIndicator1">
+                    <div class="lp-step-circle">1</div>
+                    <div class="lp-step-label">Firm Details</div>
+                </div>
+                <div class="lp-step-item" id="stepIndicator2">
+                    <div class="lp-step-circle">2</div>
+                    <div class="lp-step-label">Practice Areas</div>
+                </div>
+                <div class="lp-step-item" id="stepIndicator3">
+                    <div class="lp-step-circle">3</div>
+                    <div class="lp-step-label">Documents</div>
+                </div>
+                <div class="lp-step-item" id="stepIndicator4">
+                    <div class="lp-step-circle">4</div>
+                    <div class="lp-step-label">Review</div>
+                </div>
+            </div>
+
+            <!-- The Form Box -->
+            <div class="lp-form-box" id="formWrapper">
+                <form id="partnerApplicationForm" novalidate>
+
+                    <!-- Hidden Meta Tokens for Web3Forms -->
+                    <input type="hidden" name="access_key" value="070a477f-e139-4bcf-838c-49abddcc0959">
+                    <input type="hidden" name="from_name" value="RRC Law Associates - Legal Partners Network">
+                    <input type="hidden" name="subject" value="New Legal Partner Application Submission">
+                    <input type="hidden" name="botcheck" style="display: none;">
+
+                    <!-- STEP 1: FIRM / PROFESSIONAL DETAILS -->
+                    <div class="form-step-pane" id="stepPane1">
+                        <h4 class="fw-bold mb-3" style="color: var(--lp-navy); font-family: 'Playfair Display', serif;">
+                            Firm / Professional Details
+                        </h4>
+                        <div class="row g-3">
+                            <div class="col-md-8">
+                                <label class="lp-form-label" for="appName">Name of Firm / Professional <span class="text-danger">*</span></label>
+                                <input type="text" id="appName" name="Name of Firm or Professional" class="lp-form-control" placeholder="Enter full firm or practitioner name" required>
+                                <div class="invalid-feedback">Please provide your firm or professional name.</div>
+                            </div>
+                            <div class="col-md-4">
+                                <label class="lp-form-label" for="appCategory">Applicant Category <span class="text-danger">*</span></label>
+                                <select id="appCategory" name="Applicant Category" class="lp-form-control form-select" required>
+                                    <option value="" disabled selected>Select category</option>
+                                    <option value="Law Firm">Law Firm</option>
+                                    <option value="Independent Advocate">Independent Advocate</option>
+                                    <option value="International Legal Associate">International Legal Associate</option>
+                                    <option value="Specialist Professional">Specialist Professional</option>
+                                </select>
+                                <div class="invalid-feedback">Please select an applicant category.</div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label class="lp-form-label" for="appEmail">Professional Email <span class="text-danger">*</span></label>
+                                <input type="email" id="appEmail" name="Professional Email" class="lp-form-control" placeholder="office@yourfirm.com" required>
+                                <div class="invalid-feedback">Please provide a valid professional email.</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="lp-form-label" for="appPhone">Direct Phone / WhatsApp <span class="text-danger">*</span></label>
+                                <input type="tel" id="appPhone" name="Professional Phone" class="lp-form-control" placeholder="+ Country Code & Number" required>
+                                <div class="invalid-feedback">Please provide a phone number with country code.</div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label class="lp-form-label" for="appCountry">Country <span class="text-danger">*</span></label>
+                                <select id="appCountry" name="Country" class="lp-form-control form-select" required>
+                                    <option value="" disabled selected>Select country</option>
+                                    <option value="India">India</option>
+                                    <option value="Malaysia">Malaysia</option>
+                                    <option value="Singapore">Singapore</option>
+                                    <option value="United Kingdom">United Kingdom</option>
+                                    <option value="United Arab Emirates">United Arab Emirates</option>
+                                    <option value="United States">United States</option>
+                                    <option value="Canada">Canada</option>
+                                    <option value="Australia">Australia</option>
+                                    <option value="Other">Other International Jurisdiction</option>
+                                </select>
+                                <div class="invalid-feedback">Please select your primary country.</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="lp-form-label" for="appCity">City <span class="text-danger">*</span></label>
+                                <input type="text" id="appCity" name="City" class="lp-form-control" placeholder="Enter city" required>
+                                <div class="invalid-feedback">Please specify your practice city.</div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label class="lp-form-label" for="appYear">Year of Establishment</label>
+                                <select id="appYear" name="Year of Establishment" class="lp-form-control form-select">
+                                    <option value="" selected>Select year</option>
+                                    <option value="2026">2026</option>
+                                    <option value="2025">2025</option>
+                                    <option value="2024">2024</option>
+                                    <option value="2023">2023</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2020-2021">2020 - 2021</option>
+                                    <option value="2015-2019">2015 - 2019</option>
+                                    <option value="2010-2014">2010 - 2014</option>
+                                    <option value="2000-2009">2000 - 2009</option>
+                                    <option value="Before 2000">Before 2000</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="lp-form-label" for="appWebsite">Website / Firm Profile URL</label>
+                                <input type="url" id="appWebsite" name="Website" class="lp-form-control" placeholder="https://yourfirm.com">
+                            </div>
+
+                            <div class="col-12">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <label class="lp-form-label" for="appOverview">Brief Overview <span class="text-danger">*</span></label>
+                                    <span class="small text-muted" id="charCounter">0/500</span>
+                                </div>
+                                <textarea id="appOverview" name="Brief Overview" class="lp-form-control" rows="4" maxlength="500" placeholder="Tell us about your firm, key strengths, and unique value proposition..." required></textarea>
+                                <div class="invalid-feedback">Please provide a brief professional overview.</div>
+                            </div>
+                        </div>
+
+                        <div class="mt-4 pt-2 text-end">
+                            <button type="button" class="lp-btn-primary px-4 py-2" onclick="goToStep(2)">
+                                <span>Save &amp; Next</span>
+                                <i class="fa fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- STEP 2: PRACTICE AREAS & CREDENTIALS -->
+                    <div class="form-step-pane" id="stepPane2" style="display: none;">
+                        <h4 class="fw-bold mb-3" style="color: var(--lp-navy); font-family: 'Playfair Display', serif;">
+                            Practice Areas &amp; Credentials
+                        </h4>
+                        <div class="row g-3">
+                            <div class="col-12">
+                                <label class="lp-form-label d-block">Primary Practice Areas <span class="text-danger">*</span></label>
+                                <div class="d-flex flex-wrap gap-2 pt-1" id="practiceAreaBadges">
+                                    <input type="checkbox" id="pa1" name="Practice Areas" value="NRI Property Protection" class="lp-practice-badge-check">
+                                    <label for="pa1" class="lp-practice-badge-label">NRI Property Protection</label>
+
+                                    <input type="checkbox" id="pa2" name="Practice Areas" value="Commercial & Contract Law" class="lp-practice-badge-check">
+                                    <label for="pa2" class="lp-practice-badge-label">Commercial &amp; Contract Law</label>
+
+                                    <input type="checkbox" id="pa3" name="Practice Areas" value="Civil & Criminal Litigation" class="lp-practice-badge-check">
+                                    <label for="pa3" class="lp-practice-badge-label">Civil &amp; Criminal Litigation</label>
+
+                                    <input type="checkbox" id="pa4" name="Practice Areas" value="Family & Matrimonial Law" class="lp-practice-badge-check">
+                                    <label for="pa4" class="lp-practice-badge-label">Family &amp; Matrimonial Law</label>
+
+                                    <input type="checkbox" id="pa5" name="Practice Areas" value="Cyber Law & Digital Forensics" class="lp-practice-badge-check">
+                                    <label for="pa5" class="lp-practice-badge-label">Cyber Law &amp; Digital Forensics</label>
+
+                                    <input type="checkbox" id="pa6" name="Practice Areas" value="Intellectual Property" class="lp-practice-badge-check">
+                                    <label for="pa6" class="lp-practice-badge-label">Intellectual Property</label>
+
+                                    <input type="checkbox" id="pa7" name="Practice Areas" value="Real Estate & RERA" class="lp-practice-badge-check">
+                                    <label for="pa7" class="lp-practice-badge-label">Real Estate &amp; RERA</label>
+
+                                    <input type="checkbox" id="pa8" name="Practice Areas" value="Wills, Probate & Estate" class="lp-practice-badge-check">
+                                    <label for="pa8" class="lp-practice-badge-label">Wills, Probate &amp; Estate</label>
+                                </div>
+                                <div class="text-danger small mt-2 d-none" id="practiceAreaError">Please select at least one practice area.</div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label class="lp-form-label" for="appBarNumber">Bar Enrolment / Licensing Authority</label>
+                                <input type="text" id="appBarNumber" name="Bar Registration or Authority" class="lp-form-control" placeholder="e.g., Bar Council of TN / Malaysian Bar / Law Society">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="lp-form-label" for="appExp">Years of Professional Experience <span class="text-danger">*</span></label>
+                                <select id="appExp" name="Years of Experience" class="lp-form-control form-select" required>
+                                    <option value="" disabled selected>Select experience</option>
+                                    <option value="1-3 Years">1 - 3 Years</option>
+                                    <option value="3-5 Years">3 - 5 Years</option>
+                                    <option value="5-10 Years">5 - 10 Years</option>
+                                    <option value="10-15 Years">10 - 15 Years</option>
+                                    <option value="15+ Years">15+ Years</option>
+                                </select>
+                                <div class="invalid-feedback">Please select your years of experience.</div>
+                            </div>
+
+                            <div class="col-12">
+                                <label class="lp-form-label" for="appJurisdictions">Jurisdictions Served <span class="text-danger">*</span></label>
+                                <input type="text" id="appJurisdictions" name="Jurisdictions Served" class="lp-form-control" placeholder="e.g., Madras High Court, Federal Court of Malaysia, Singapore SICC" required>
+                                <div class="invalid-feedback">Please specify jurisdictions served.</div>
+                            </div>
+                        </div>
+
+                        <div class="mt-4 pt-2 d-flex justify-content-between">
+                            <button type="button" class="btn btn-outline-secondary px-4 py-2 rounded-pill" onclick="goToStep(1)">
+                                <i class="fa fa-arrow-left me-1"></i> Previous
+                            </button>
+                            <button type="button" class="lp-btn-primary px-4 py-2" onclick="goToStep(3)">
+                                <span>Save &amp; Next</span>
+                                <i class="fa fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- STEP 3: DOCUMENTS & CONSENTS -->
+                    <div class="form-step-pane" id="stepPane3" style="display: none;">
+                        <h4 class="fw-bold mb-3" style="color: var(--lp-navy); font-family: 'Playfair Display', serif;">
+                            Documents &amp; Consents
+                        </h4>
+                        <div class="row g-3">
+                            <div class="col-12">
+                                <label class="lp-form-label" for="appDocLink">Credentials Portfolio / Firm Profile Link (Cloud Link or Drive)</label>
+                                <input type="url" id="appDocLink" name="Credentials Reference Link" class="lp-form-control" placeholder="https://drive.google.com/... or firm presentation link">
+                                <div class="form-text small">Provide a cloud link to your firm brochure, credentials, or registration proof if available.</div>
+                            </div>
+
+                            <div class="col-12 mt-4">
+                                <div class="p-3 rounded-3 bg-light border">
+                                    <div class="form-check mb-3">
+                                        <input class="form-check-input" type="checkbox" id="checkDeclaration" required>
+                                        <label class="form-check-label small" for="checkDeclaration">
+                                            <strong>Accuracy Declaration:</strong> I confirm that the submitted information is true and accurate to the best of my knowledge, and I am authorized to apply on behalf of this professional practice. <span class="text-danger">*</span>
+                                        </label>
+                                        <div class="invalid-feedback">You must accept the accuracy declaration.</div>
+                                    </div>
+                                    <div class="form-check mb-3">
+                                        <input class="form-check-input" type="checkbox" id="checkPrivacy" required>
+                                        <label class="form-check-label small" for="checkPrivacy">
+                                            <strong>Privacy Notice:</strong> I agree to the processing of this application for evaluation in accordance with RRC Law Associates privacy policy and applicable DPDP guidelines. <span class="text-danger">*</span>
+                                        </label>
+                                        <div class="invalid-feedback">You must accept the privacy notice.</div>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="checkDirectoryConsent" name="Directory Publication Consent" value="Yes">
+                                        <label class="form-check-label small" for="checkDirectoryConsent">
+                                            <strong>Public Directory Listing:</strong> If approved, I consent to displaying our verified firm / advocate profile in RRC Law Associates public Legal Partners directory. (Optional)
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-4 pt-2 d-flex justify-content-between">
+                            <button type="button" class="btn btn-outline-secondary px-4 py-2 rounded-pill" onclick="goToStep(2)">
+                                <i class="fa fa-arrow-left me-1"></i> Previous
+                            </button>
+                            <button type="button" class="lp-btn-primary px-4 py-2" onclick="goToStep(4)">
+                                <span>Save &amp; Next</span>
+                                <i class="fa fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- STEP 4: REVIEW & SUBMIT -->
+                    <div class="form-step-pane" id="stepPane4" style="display: none;">
+                        <h4 class="fw-bold mb-3" style="color: var(--lp-navy); font-family: 'Playfair Display', serif;">
+                            Review &amp; Submission
+                        </h4>
+                        <p class="text-muted small mb-3">
+                            Please review your application summary carefully before submitting to our admissions desk.
+                        </p>
+
+                        <!-- Summary Review Box -->
+                        <div class="p-4 rounded-3 border bg-light mb-4" id="reviewSummaryCard">
+                            <!-- Populated dynamically via JS -->
+                        </div>
+
+                        <!-- Alert Box for Submission Errors -->
+                        <div class="alert alert-danger d-none" id="submissionErrorAlert" role="alert">
+                            <i class="fa fa-triangle-exclamation me-2"></i>
+                            <span id="submissionErrorMessage">There was an error transmitting your application. Please check your network connection and retry.</span>
+                        </div>
+
+                        <div class="mt-4 pt-2 d-flex justify-content-between">
+                            <button type="button" class="btn btn-outline-secondary px-4 py-2 rounded-pill" onclick="goToStep(3)">
+                                <i class="fa fa-arrow-left me-1"></i> Previous
+                            </button>
+                            <button type="submit" class="lp-btn-primary px-5 py-3" id="submitAppBtn">
+                                <span id="submitBtnText">Submit Application for Review</span>
+                                <i class="fa fa-paper-plane" id="submitBtnIcon"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+
+            <!-- SUCCESS CONFIRMATION SCREEN (MATCHES REFERENCE EXACTLY) -->
+            <div class="lp-success-box" id="successBox">
+                <div class="lp-success-icon">
+                    <i class="fa fa-check"></i>
+                </div>
+                <h3 class="fw-bold mb-3" style="font-family: 'Playfair Display', serif; color: var(--lp-navy); font-size: 2.2rem;">
+                    Application Submitted
+                </h3>
+                <p class="text-muted mx-auto mb-4" style="max-width: 580px; font-size: 1.05rem; line-height: 1.7;">
+                    Thank you for applying to become a Legal Partner. Our team will review your application and get back to you within 7–10 business days.
+                </p>
+                <div class="d-flex flex-wrap justify-content-center gap-3 pt-2">
+                    <a href="index.html" class="lp-btn-primary px-4 py-2">
+                        <i class="fa fa-house me-1"></i> Back to Home
+                    </a>
+                    <a href="#partner-network" class="btn btn-outline-dark rounded-pill px-4 py-2" onclick="location.reload()">
+                        <i class="fa fa-network-wired me-1"></i> View Our Partner Network
+                    </a>
+                </div>
+            </div>
+
+            <!-- WORKFLOW VISUAL INFOGRAPHIC (MATCHES REFERENCE) -->
+            <div class="lp-workflow-box">
+                <div class="text-center mb-4">
+                    <span class="text-uppercase small fw-bold" style="color: var(--lp-gold); letter-spacing: 1.5px;">Admissions Pathway</span>
+                    <h5 class="fw-bold mb-0" style="color: var(--lp-navy); font-family: 'Playfair Display', serif;">Application Workflow</h5>
+                </div>
+                <div class="row g-3 justify-content-center">
+                    <div class="col-6 col-md-3">
+                        <div class="lp-wf-step">
+                            <div class="lp-wf-icon"><i class="fa fa-file-lines"></i></div>
+                            <div class="lp-wf-title">Fill Application</div>
+                            <div class="lp-wf-sub">4 Streamlined Steps</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="lp-wf-step">
+                            <div class="lp-wf-icon"><i class="fa fa-user-shield"></i></div>
+                            <div class="lp-wf-title">Review</div>
+                            <div class="lp-wf-sub">By RRC Admissions Desk</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="lp-wf-step">
+                            <div class="lp-wf-icon"><i class="fa fa-envelope-open-text"></i></div>
+                            <div class="lp-wf-title">Approval Notification</div>
+                            <div class="lp-wf-sub">Credentials &amp; Scopes</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="lp-wf-step">
+                            <div class="lp-wf-icon"><i class="fa fa-users-viewfinder"></i></div>
+                            <div class="lp-wf-title">Listed in Directory</div>
+                            <div class="lp-wf-sub">Public Partner Profile</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- =========================================================
+         SECTION 7: PRESERVED PRACTICE DESKS, PUBLICATIONS & FAQS
+    ========================================================== -->
+    <section class="lp-preserved-section">
+        <div class="container">
+
+            <!-- Cross-Border Practice Desks -->
+            <div class="text-center mb-4">
+                <span class="lp-eyebrow">Synergistic Specializations</span>
+                <h2 class="lp-section-title">Cross-Border Practice Desks</h2>
+                <div class="mx-auto" style="width: 45px; height: 3px; background-color: var(--lp-gold); border-radius: 2px;"></div>
+                <p class="text-muted mt-2 mx-auto" style="max-width: 650px;">
+                    Core legal domains collaboratively coordinated between our domestic litigators and international liaison offices.
+                </p>
+            </div>
+
+            <div class="row g-3 mb-4">
+                <div class="col-md-4">
+                    <div class="lp-desk-card">
+                        <h4 class="h6 fw-bold mb-2 text-dark"><i class="fa fa-passport text-gold me-2"></i>NRI Legal Services</h4>
+                        <p class="small text-muted mb-0">Cross-border property preservation, partition, family representation, and civil dispute resolution.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="lp-desk-card">
+                        <h4 class="h6 fw-bold mb-2 text-dark"><i class="fa fa-building text-gold me-2"></i>Real Estate Due Diligence</h4>
+                        <p class="small text-muted mb-0">Title investigation, encumbrance tracing, revenue mutation, and SRO registration assistance.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="lp-desk-card">
+                        <h4 class="h6 fw-bold mb-2 text-dark"><i class="fa fa-gavel text-gold me-2"></i>Litigation &amp; Dispute Resolution</h4>
+                        <p class="small text-muted mb-0">High Court writ petitions, commercial contract arbitration, and civil-criminal trial coordination.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="lp-desk-card">
+                        <h4 class="h6 fw-bold mb-2 text-dark"><i class="fa fa-laptop-code text-gold me-2"></i>Cyber Law &amp; Forensics</h4>
+                        <p class="small text-muted mb-0">DPDP compliance audits, digital fraud defense, electronic evidence certification under BSA.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="lp-desk-card">
+                        <h4 class="h6 fw-bold mb-2 text-dark"><i class="fa fa-copyright text-gold me-2"></i>Intellectual Property</h4>
+                        <p class="small text-muted mb-0">Trademarks, patent portfolio strategies, copyright infringement defense, and trade secret protection.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="lp-desk-card">
+                        <h4 class="h6 fw-bold mb-2 text-dark"><i class="fa fa-people-roof text-gold me-2"></i>Family &amp; Matrimonial Law</h4>
+                        <p class="small text-muted mb-0">Foreign divorce decree validation, cross-border child custody, and ancestral property partition.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Preserved Cross-Border Publications -->
+            <div class="row align-items-center g-3 p-3 rounded-4 bg-light border mb-4">
+                <div class="col-md-8">
+                    <span class="badge bg-white text-dark border mb-2 px-3 py-1">Cross-Border Publication</span>
+                    <h4 class="fw-bold mb-2" style="font-family: 'Playfair Display', serif; color: var(--lp-navy);">
+                        Rights and Remedies of NRIs Regarding Possession of Property in India
+                    </h4>
+                    <p class="text-muted small mb-0">
+                        A practical legal treatise on NRI property disputes, illegal occupant eviction, Power of Attorney fraud safeguards, and judicial recovery procedures.
+                    </p>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <a href="./blog-nri-property-remedies.html" class="btn btn-outline-dark rounded-pill px-4">
+                        Read Document <i class="fa fa-arrow-right ms-1"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Network FAQs -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="text-center mb-4">
+                        <span class="lp-eyebrow">Clarity &amp; Governance</span>
+                        <h3 class="lp-section-title" style="font-size: 1.85rem;">Frequently Asked Questions</h3>
+                    </div>
+
+                    <div class="accordion custom-faq-accordion shadow-sm rounded-3 overflow-hidden" id="networkFaq">
+                        <div class="accordion-item border-0 border-bottom">
+                            <h2 class="accordion-header" id="faqH1">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqC1">
+                                    1. Who is eligible to apply for the Legal Partners Network?
+                                </button>
+                            </h2>
+                            <div id="faqC1" class="accordion-collapse collapse" data-bs-parent="#networkFaq">
+                                <div class="accordion-body text-muted">
+                                    Independent advocates, registered law firms, and qualified international legal associates who are licensed to practise in their respective jurisdictions and maintain good professional standing are eligible to apply.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border-0 border-bottom">
+                            <h2 class="accordion-header" id="faqH2">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqC2">
+                                    2. Can international and overseas law firms join?
+                                </button>
+                            </h2>
+                            <div id="faqC2" class="accordion-collapse collapse" data-bs-parent="#networkFaq">
+                                <div class="accordion-body text-muted">
+                                    Yes. We actively collaborate with international law firms and foreign advocates across key NRI migration corridors (Malaysia, Singapore, UK, UAE, USA) to coordinate local depositions, attestation, and client liaison support.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border-0 border-bottom">
+                            <h2 class="accordion-header" id="faqH3">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqC3">
+                                    3. Does submitting an application guarantee admission or client referrals?
+                                </button>
+                            </h2>
+                            <div id="faqC3" class="accordion-collapse collapse" data-bs-parent="#networkFaq">
+                                <div class="accordion-body text-muted">
+                                    No. Every application undergoes strict credential and regulatory verification by RRC Law Associates. In accordance with legal ethics, inclusion in the network does not guarantee client instructions or revenue.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header" id="faqH4">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqC4">
+                                    4. How is confidential case data protected across partner desks?
+                                </button>
+                            </h2>
+                            <div id="faqC4" class="accordion-collapse collapse" data-bs-parent="#networkFaq">
+                                <div class="accordion-body text-muted">
+                                    All communications and matter referrals are governed by strict advocate-client privilege layers, formal non-disclosure protocols, and international data protection standards compliant with the Digital Personal Data Protection (DPDP) Act.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<!-- =========================================================
+     PARTNER PROFILE MODALS (ACCESSIBLE POPUPS)
+========================================================== -->
+<!-- Modal 1: Chee & Partners Seremban -->
+<div class="modal fade" id="modalCheeSeremban" tabindex="-1" aria-labelledby="modalCheeSerembanLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg" style="border-radius: 16px; overflow: hidden;">
+            <div class="modal-header text-white" style="background-color: var(--lp-navy); border-bottom: 2px solid var(--lp-gold);">
+                <h5 class="modal-title fw-bold" id="modalCheeSerembanLabel" style="font-family: 'Playfair Display', serif;">Chee &amp; Partners</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-4">
+                <span class="badge bg-light text-dark border mb-3">Negeri Sembilan Hub, Malaysia</span>
+                <h6 class="fw-bold text-dark mb-1">Office Address:</h6>
+                <p class="text-muted mb-3" style="line-height: 1.6;">
+                    1700-G, Jalan S2 A39, Aviva Green, Seremban 2,<br>
+                    70300 Seremban, Negeri Sembilan, <strong>Malaysia</strong>
+                </p>
+                <h6 class="fw-bold text-dark mb-1">Operating Hours:</h6>
+                <p class="text-muted mb-3"><i class="fa fa-clock text-gold me-2"></i>By Appointment Only</p>
+                <div class="pt-3 border-top">
+                    <a href="https://wa.me/919751182452?text=Inquiry%20regarding%20Chee%20%26%20Partners%20Seremban%20Desk" target="_blank" class="btn btn-success w-100 rounded-pill py-2 fw-bold">
+                        <i class="fab fa-whatsapp me-2"></i>Connect with Liaison Desk
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 2: Chee & Partners KL -->
+<div class="modal fade" id="modalCheeKL" tabindex="-1" aria-labelledby="modalCheeKLLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg" style="border-radius: 16px; overflow: hidden;">
+            <div class="modal-header text-white" style="background-color: var(--lp-navy); border-bottom: 2px solid var(--lp-gold);">
+                <h5 class="modal-title fw-bold" id="modalCheeKLLabel" style="font-family: 'Playfair Display', serif;">Chee &amp; Partners</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-4">
+                <span class="badge bg-light text-dark border mb-3">Kuala Lumpur HQ, Malaysia</span>
+                <h6 class="fw-bold text-dark mb-1">Office Address:</h6>
+                <p class="text-muted mb-3" style="line-height: 1.6;">
+                    S-26-13, Wisma YNH, Kiara 163,<br>
+                    No. 8, Jalan Kiara, 50480 Mont Kiara, Kuala Lumpur, <strong>Malaysia</strong>
+                </p>
+                <h6 class="fw-bold text-dark mb-1">Operating Hours:</h6>
+                <p class="text-muted mb-3"><i class="fa fa-clock text-gold me-2"></i>By Appointment Only</p>
+                <div class="pt-3 border-top">
+                    <a href="https://wa.me/919751182452?text=Inquiry%20regarding%20Chee%20%26%20Partners%20Kuala%20Lumpur%20Desk" target="_blank" class="btn btn-success w-100 rounded-pill py-2 fw-bold">
+                        <i class="fab fa-whatsapp me-2"></i>Connect with Liaison Desk
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 3: S. Gunasegaran -->
+<div class="modal fade" id="modalGuna" tabindex="-1" aria-labelledby="modalGunaLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg" style="border-radius: 16px; overflow: hidden;">
+            <div class="modal-header text-white" style="background-color: var(--lp-navy); border-bottom: 2px solid var(--lp-gold);">
+                <h5 class="modal-title fw-bold" id="modalGunaLabel" style="font-family: 'Playfair Display', serif;">S. Gunasegaran</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-4">
+                <span class="badge bg-light text-dark border mb-2">LL.B. (Hons) (Malaya) &bull; Johor Bahru</span>
+                <p class="small text-uppercase fw-bold text-muted mb-3">Guna &amp; Chandrika Advocates &amp; Solicitors</p>
+                <h6 class="fw-bold text-dark mb-1">Chambers Address:</h6>
+                <p class="text-muted mb-3" style="line-height: 1.6;">
+                    Suite 1409, 14th Floor, Johor Tower,<br>
+                    Jalan Gereja, 80100 Johor Bahru, Johor, <strong>Malaysia</strong>
+                </p>
+                <h6 class="fw-bold text-dark mb-1">Direct Contact:</h6>
+                <p class="text-muted small mb-1"><i class="fa fa-phone text-gold me-2"></i><a href="tel:+6072221599" class="text-muted text-decoration-none">+607-222 1599</a> / <a href="tel:+6072225653" class="text-muted text-decoration-none">+607-222 5653</a></p>
+                <p class="text-muted small mb-1"><i class="fa fa-fax text-gold me-2"></i>+607-224 3535</p>
+                <p class="text-muted small mb-3"><i class="fa fa-envelope text-gold me-2"></i><a href="mailto:janggunaoffice@gmail.com" class="text-muted text-decoration-none">janggunaoffice@gmail.com</a></p>
+                <div class="pt-3 border-top">
+                    <a href="https://wa.me/919751182452?text=Inquiry%20for%20S.%20Gunasegaran%20Johor%20Liaison" target="_blank" class="btn btn-success w-100 rounded-pill py-2 fw-bold">
+                        <i class="fab fa-whatsapp me-2"></i>Contact via WhatsApp Liaison
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 4: J. Chandrika -->
+<div class="modal fade" id="modalChandrika" tabindex="-1" aria-labelledby="modalChandrikaLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg" style="border-radius: 16px; overflow: hidden;">
+            <div class="modal-header text-white" style="background-color: var(--lp-navy); border-bottom: 2px solid var(--lp-gold);">
+                <h5 class="modal-title fw-bold" id="modalChandrikaLabel" style="font-family: 'Playfair Display', serif;">J. Chandrika</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-4">
+                <span class="badge bg-light text-dark border mb-2">LL.B. Hons (Malaya) &bull; Johor Bahru</span>
+                <p class="small text-uppercase fw-bold text-muted mb-3">Guna &amp; Chandrika Advocates &amp; Solicitors</p>
+                <h6 class="fw-bold text-dark mb-1">Chambers Address:</h6>
+                <p class="text-muted mb-3" style="line-height: 1.6;">
+                    Suite 1409, 14th Floor, Johor Tower,<br>
+                    Jalan Gereja, 80100 Johor Bahru, Johor, <strong>Malaysia</strong>
+                </p>
+                <h6 class="fw-bold text-dark mb-1">Direct Contact:</h6>
+                <p class="text-muted small mb-1"><i class="fa fa-phone text-gold me-2"></i><a href="tel:+6072221599" class="text-muted text-decoration-none">+607-222 1599</a> / <a href="tel:+6072225653" class="text-muted text-decoration-none">+607-222 5653</a></p>
+                <p class="text-muted small mb-1"><i class="fa fa-fax text-gold me-2"></i>+607-224 3535</p>
+                <p class="text-muted small mb-3"><i class="fa fa-envelope text-gold me-2"></i><a href="mailto:janggunaoffice@gmail.com" class="text-muted text-decoration-none">janggunaoffice@gmail.com</a></p>
+                <div class="pt-3 border-top">
+                    <a href="https://wa.me/919751182452?text=Inquiry%20for%20J.%20Chandrika%20Johor%20Liaison" target="_blank" class="btn btn-success w-100 rounded-pill py-2 fw-bold">
+                        <i class="fab fa-whatsapp me-2"></i>Contact via WhatsApp Liaison
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{footer_markup}
+
+<!-- Bootstrap 5 Bundle JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Legal Partners Interactive Logic -->
+<script>
+// --- 1. MOBILE MENU TOGGLE ---
+document.addEventListener('DOMContentLoaded', function () {{
+    const menuToggle = document.getElementById('menuToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const closeMenu = document.getElementById('closeMenu');
+
+    if (menuToggle && mobileMenu) {{
+        menuToggle.addEventListener('click', (e) => {{
+            e.preventDefault();
+            mobileMenu.classList.add('open');
+        }});
+    }}
+    if (closeMenu && mobileMenu) {{
+        closeMenu.addEventListener('click', () => {{
+            mobileMenu.classList.remove('open');
+        }});
+    }}
+
+    // Mobile submenu toggle
+    const triggers = document.querySelectorAll('.m-trigger');
+    triggers.forEach(trig => {{
+        trig.addEventListener('click', function(e) {{
+            const submenu = this.nextElementSibling;
+            if (submenu && !submenu.classList.contains('active')) {{
+                e.preventDefault();
+                submenu.classList.add('active');
+                const icon = this.querySelector('i');
+                if (icon) icon.style.transform = 'rotate(180deg)';
+            }}
+        }});
+    }});
+}});
+
+// --- 2. PARTNER DIRECTORY FILTERING ---
+function filterPartners(category, btnElement) {{
+    const buttons = document.querySelectorAll('.lp-filter-btn');
+    buttons.forEach(b => b.classList.remove('active'));
+    if (btnElement) btnElement.classList.add('active');
+
+    const items = document.querySelectorAll('.partner-item');
+    let count = 0;
+    items.forEach(item => {{
+        const cat = item.getAttribute('data-category');
+        if (category === 'all' || cat === category || category === 'practice') {{
+            item.style.display = 'block';
+            count++;
+        }} else {{
+            item.style.display = 'none';
+        }}
+    }});
+    const countEl = document.getElementById('partnerCount');
+    if (countEl) countEl.innerText = count;
+}}
+
+// --- 3. MAP TOOLTIP INTERACTION ---
+function showPinInfo(country, hub, desc) {{
+    const tip = document.getElementById('mapInfoTooltip');
+    if (tip) {{
+        tip.innerHTML = `<strong class="text-dark">${{country}}</strong> &bull; <span class="text-gold fw-bold">${{hub}}</span> &mdash; ${{desc}}`;
+    }}
+}}
+
+// --- 4. CHARACTER COUNTER ---
+const overviewTextarea = document.getElementById('appOverview');
+const charCounter = document.getElementById('charCounter');
+if (overviewTextarea && charCounter) {{
+    overviewTextarea.addEventListener('input', function() {{
+        charCounter.textContent = this.value.length + '/500';
+    }});
+}}
+
+// --- 5. MULTI-STEP FORM LOGIC ---
+let currentStep = 1;
+
+function goToStep(step) {{
+    if (step > currentStep) {{
+        // Validate current step before advancing
+        if (!validateStep(currentStep)) {{
+            return;
+        }}
+    }}
+
+    // Hide all panes
+    for (let i = 1; i <= 4; i++) {{
+        const pane = document.getElementById('stepPane' + i);
+        if (pane) pane.style.display = 'none';
+
+        const ind = document.getElementById('stepIndicator' + i);
+        if (ind) {{
+            ind.classList.remove('active');
+            if (i < step) {{
+                ind.classList.add('completed');
+            }} else {{
+                ind.classList.remove('completed');
+            }}
+        }}
+    }}
+
+    // Show target pane
+    const targetPane = document.getElementById('stepPane' + step);
+    if (targetPane) targetPane.style.display = 'block';
+
+    const targetInd = document.getElementById('stepIndicator' + step);
+    if (targetInd) targetInd.classList.add('active');
+
+    currentStep = step;
+
+    // If reaching step 4, compile review summary
+    if (step === 4) {{
+        compileReviewSummary();
+    }}
+
+    // Scroll smoothly to form top
+    const wrapper = document.getElementById('partner-application');
+    if (wrapper) {{
+        wrapper.scrollIntoView({{ behavior: 'smooth', block: 'start' }});
+    }}
+}}
+
+function validateStep(step) {{
+    let valid = true;
+    if (step === 1) {{
+        const reqIds = ['appName', 'appCategory', 'appEmail', 'appPhone', 'appCountry', 'appCity', 'appOverview'];
+        reqIds.forEach(id => {{
+            const el = document.getElementById(id);
+            if (el && !el.value.trim()) {{
+                el.classList.add('is-invalid');
+                valid = false;
+            }} else if (el) {{
+                el.classList.remove('is-invalid');
+            }}
+        }});
+    }} else if (step === 2) {{
+        const badges = document.querySelectorAll('#practiceAreaBadges input:checked');
+        const badgeErr = document.getElementById('practiceAreaError');
+        if (badges.length === 0) {{
+            if (badgeErr) badgeErr.classList.remove('d-none');
+            valid = false;
+        }} else if (badgeErr) {{
+            badgeErr.classList.add('d-none');
+        }}
+
+        const exp = document.getElementById('appExp');
+        const jur = document.getElementById('appJurisdictions');
+        if (exp && !exp.value) {{
+            exp.classList.add('is-invalid');
+            valid = false;
+        }} else if (exp) {{
+            exp.classList.remove('is-invalid');
+        }}
+        if (jur && !jur.value.trim()) {{
+            jur.classList.add('is-invalid');
+            valid = false;
+        }} else if (jur) {{
+            jur.classList.remove('is-invalid');
+        }}
+    }} else if (step === 3) {{
+        const dec = document.getElementById('checkDeclaration');
+        const priv = document.getElementById('checkPrivacy');
+        if (dec && !dec.checked) {{
+            dec.classList.add('is-invalid');
+            valid = false;
+        }} else if (dec) {{
+            dec.classList.remove('is-invalid');
+        }}
+        if (priv && !priv.checked) {{
+            priv.classList.add('is-invalid');
+            valid = false;
+        }} else if (priv) {{
+            priv.classList.remove('is-invalid');
+        }}
+    }}
+    return valid;
+}}
+
+function compileReviewSummary() {{
+    const card = document.getElementById('reviewSummaryCard');
+    if (!card) return;
+
+    const name = document.getElementById('appName')?.value || 'N/A';
+    const category = document.getElementById('appCategory')?.value || 'N/A';
+    const email = document.getElementById('appEmail')?.value || 'N/A';
+    const phone = document.getElementById('appPhone')?.value || 'N/A';
+    const country = document.getElementById('appCountry')?.value || 'N/A';
+    const city = document.getElementById('appCity')?.value || 'N/A';
+    const year = document.getElementById('appYear')?.value || 'Not specified';
+    const website = document.getElementById('appWebsite')?.value || 'None';
+    const overview = document.getElementById('appOverview')?.value || 'N/A';
+
+    const selectedPAs = Array.from(document.querySelectorAll('#practiceAreaBadges input:checked'))
+        .map(cb => cb.value)
+        .join(', ') || 'None selected';
+    const bar = document.getElementById('appBarNumber')?.value || 'None specified';
+    const exp = document.getElementById('appExp')?.value || 'N/A';
+    const jur = document.getElementById('appJurisdictions')?.value || 'N/A';
+    const dirConsent = document.getElementById('checkDirectoryConsent')?.checked ? 'Granted' : 'Private';
+
+    card.innerHTML = `
+        <div class="row g-3">
+            <div class="col-md-6">
+                <span class="text-muted small d-block">Firm / Professional Name:</span>
+                <strong class="text-dark">${{name}}</strong> (${{category}})
+            </div>
+            <div class="col-md-6">
+                <span class="text-muted small d-block">Location:</span>
+                <strong class="text-dark">${{city}}, ${{country}}</strong>
+            </div>
+            <div class="col-md-6">
+                <span class="text-muted small d-block">Direct Contact:</span>
+                <span class="text-dark">${{email}} &bull; ${{phone}}</span>
+            </div>
+            <div class="col-md-6">
+                <span class="text-muted small d-block">Experience & Bar Authority:</span>
+                <span class="text-dark">${{exp}} &bull; ${{bar}}</span>
+            </div>
+            <div class="col-12">
+                <span class="text-muted small d-block">Practice Areas:</span>
+                <span class="badge bg-white text-dark border me-1">${{selectedPAs}}</span>
+            </div>
+            <div class="col-12">
+                <span class="text-muted small d-block">Jurisdictions Served:</span>
+                <span class="text-dark">${{jur}}</span>
+            </div>
+            <div class="col-12">
+                <span class="text-muted small d-block">Directory Publication Consent:</span>
+                <span class="badge ${{dirConsent === 'Granted' ? 'bg-success' : 'bg-secondary'}}">${{dirConsent}}</span>
+            </div>
+        </div>
+    `;
+}}
+
+// --- 6. REAL ASYNCHRONOUS WEB3FORMS SUBMISSION ---
+const form = document.getElementById('partnerApplicationForm');
+if (form) {{
+    form.addEventListener('submit', async function (e) {{
+        e.preventDefault();
+
+        const submitBtn = document.getElementById('submitAppBtn');
+        const submitText = document.getElementById('submitBtnText');
+        const submitIcon = document.getElementById('submitBtnIcon');
+        const errorAlert = document.getElementById('submissionErrorAlert');
+        const errorMsg = document.getElementById('submissionErrorMessage');
+
+        // Final verification check
+        if (!validateStep(1) || !validateStep(2) || !validateStep(3)) {{
+            if (errorAlert) {{
+                errorMsg.textContent = 'Please complete all required fields across steps 1, 2, and 3 before submitting.';
+                errorAlert.classList.remove('d-none');
+            }}
+            return;
+        }}
+
+        // Set Loading State
+        submitBtn.disabled = true;
+        submitText.textContent = 'Submitting Application...';
+        submitIcon.className = 'fa fa-spinner fa-spin';
+        if (errorAlert) errorAlert.classList.add('d-none');
+
+        // Compile Form Data
+        const formData = new FormData(form);
+
+        // Append explicit consolidated practice areas string
+        const selectedPAs = Array.from(document.querySelectorAll('#practiceAreaBadges input:checked'))
+            .map(cb => cb.value)
+            .join('; ');
+        formData.set('Consolidated Practice Areas', selectedPAs);
+
+        try {{
+            const response = await fetch('https://api.web3forms.com/submit', {{
+                method: 'POST',
+                body: formData
+            }});
+
+            const data = await response.json();
+
+            if (response.ok && data.success) {{
+                // Submission actually succeeded! Display exact confirmation screen
+                document.getElementById('formWrapper').style.display = 'none';
+                document.getElementById('successBox').style.display = 'block';
+                document.getElementById('partner-application').scrollIntoView({{ behavior: 'smooth' }});
+            }} else {{
+                // Handle provider error
+                throw new Error(data.message || 'Submission was not accepted by the intake server.');
+            }}
+        }} catch (err) {{
+            // Display genuine error state without simulating success
+            if (errorAlert) {{
+                errorMsg.textContent = err.message || 'Network error occurred. Please verify your connection or reach us via dr.kumar@rrclawassociates.com.';
+                errorAlert.classList.remove('d-none');
+            }}
+        }} finally {{
+            // Reset button state
+            submitBtn.disabled = false;
+            submitText.textContent = 'Submit Application for Review';
+            submitIcon.className = 'fa fa-paper-plane';
+        }}
+    }});
+}}
+</script>
+
+<script src="script.js?v=20261008-1" data-rrc-ai-only defer></script>
+<div data-rrc-ai-chat-root></div>
+</body>
+</html>'''
+
+with open('partners.html', 'w', encoding='utf-8') as f:
+    f.write(html_content)
+
+print(f"Successfully generated partners.html! Total length: {len(html_content)} characters.")

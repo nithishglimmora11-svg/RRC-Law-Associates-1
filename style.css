@@ -48,7 +48,21 @@ html, body {
     text-decoration: none;
     font-weight: 500;
     margin: 0 15px;
+    white-space: nowrap !important;
     transition: color 0.3s;
+}
+
+@media (min-width: 992px) and (max-width: 1240px) {
+    .nav-link-custom {
+        margin: 0 8px !important;
+        font-size: 0.92rem !important;
+        white-space: nowrap !important;
+    }
+    .header .btn-gold {
+        padding: 8px 14px !important;
+        font-size: 0.85rem !important;
+        white-space: nowrap !important;
+    }
 }
 
 .nav-link-custom:hover, .dropdown-item:hover {

@@ -39,6 +39,18 @@ RewriteRule ^(oci-legal-guides|oci-card-eligibility-legal-status|oci-vs-nri-vs-i
 # 4. Route legacy hierarchical OCI service URL to canonical service landing page
 RewriteRule ^nri-legal-services/oci-card-assistance/?$ https://rrclawassociates.com/oci-card-assistance [R=301,L,NC]
 RewriteRule ^wills-probate-estate-administration/$ https://rrclawassociates.com/wills-probate-estate-administration [R=301,L,NC]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+nri-landlord-tenant-eviction\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/nri-landlord-tenant-eviction/ [R=301,L,QSA]
+RewriteRule ^nri-landlord-tenant-eviction$ https://rrclawassociates.com/nri-landlord-tenant-eviction/ [R=301,L,QSA]
+RewriteRule ^nri-landlord-tenant-eviction/$ /nri-landlord-tenant-eviction.html [L,NC,QSA]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+nri-rera-builder-disputes\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/nri-rera-builder-disputes/ [R=301,L,QSA]
+RewriteRule ^nri-rera-builder-disputes$ https://rrclawassociates.com/nri-rera-builder-disputes/ [R=301,L,QSA]
+RewriteRule ^nri-rera-builder-disputes/$ /nri-rera-builder-disputes.html [L,NC,QSA]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+nri-business-commercial-advisory\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/nri-business-commercial-advisory/ [R=301,L,QSA]
+RewriteRule ^nri-business-commercial-advisory$ https://rrclawassociates.com/nri-business-commercial-advisory/ [R=301,L,QSA]
+RewriteRule ^nri-business-commercial-advisory/$ /nri-business-commercial-advisory.html [L,NC,QSA]
 
 # 5. Site-wide clean URL: 301 redirect remaining .html requests to clean URLs (without trailing slash)
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.html(?:\?[^\s]*)?\s [NC]

@@ -81,19 +81,20 @@
             try {
                 const targetUrl = new URL(href, window.location.origin);
                 const pathname = targetUrl.pathname;
-                // If clean route without extension (e.g. /wills-probate-estate-administration)
-                if (pathname.length > 1 && !pathname.includes('.') && !pathname.endsWith('/')) {
+                const cleanPath = (pathname.length > 1 && pathname.endsWith('/')) ? pathname.slice(0, -1) : pathname;
+                // If clean route without extension (e.g. /wills-probate-estate-administration or /nri-landlord-tenant-eviction/)
+                if (cleanPath.length > 1 && !cleanPath.includes('.')) {
                     e.preventDefault();
                     fetch(targetUrl.href, { method: 'HEAD' })
                         .then(res => {
                             if (res.ok) {
                                 window.location.href = targetUrl.pathname + targetUrl.search + targetUrl.hash;
                             } else {
-                                window.location.href = targetUrl.pathname + '.html' + targetUrl.search + targetUrl.hash;
+                                window.location.href = cleanPath + '.html' + targetUrl.search + targetUrl.hash;
                             }
                         })
                         .catch(() => {
-                            window.location.href = targetUrl.pathname + '.html' + targetUrl.search + targetUrl.hash;
+                            window.location.href = cleanPath + '.html' + targetUrl.search + targetUrl.hash;
                         });
                 }
             } catch (_) {

@@ -75,15 +75,12 @@ const server = http.createServer((req, res) => {
         return;
     }
 
-    // 2. Trailing slash redirect (mirroring .htaccess)
+    // 2. Trailing slash resolution (serving canonical clean URLs like /nri-landlord-tenant-eviction/)
     if (pathname.length > 1 && pathname.endsWith('/')) {
         const trimmed = pathname.slice(0, -1);
         const candidateHtml = path.join(ROOT, trimmed + '.html');
         if (fs.existsSync(candidateHtml) && fs.statSync(candidateHtml).isFile()) {
-            res.writeHead(301, {
-                'Location': trimmed + (parsedUrl.search || '')
-            });
-            res.end();
+            sendFile(res, candidateHtml, MIME_TYPES['.html']);
             return;
         }
     }
