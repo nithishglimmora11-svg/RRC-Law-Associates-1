@@ -1,0 +1,1974 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NRI Landlord–Tenant and Eviction Lawyers in Tamil Nadu | RRC Law Associates</title>
+    <meta name="description" content="Specialized legal representation for NRIs facing tenant disputes, unlawful possession, non-payment of rent, and summary eviction in Tamil Nadu under the TNRRRLT Act 2017.">
+    <meta name="keywords" content="nri landlord tenant lawyers tamil nadu, eviction advocate thanjavur, tenant eviction lawyer chennai, tnrrrlt act 2017 advocate, rent court summary eviction trichy, nri rental property dispute advocate, recovery of possession madras high court">
+
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://rrclawassociates.com/nri-landlord-tenant-eviction/">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LegalService",
+          "@id": "https://rrclawassociates.com/nri-landlord-tenant-eviction/#service",
+          "name": "RRC Law Associates - NRI Landlord-Tenant & Eviction Legal Services",
+          "url": "https://rrclawassociates.com/nri-landlord-tenant-eviction/",
+          "logo": "https://rrclawassociates.com/assets/images/logo.png",
+          "image": "https://rrclawassociates.com/assets/images/nri-landlord-tenant-hero.jpg",
+          "telephone": "+91-9751182452",
+          "email": "dr.kumar@rrclawassociates.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "No 82/6B, Deen Complex, Mary's Corner, Parisutham Nagar",
+            "addressLocality": "Thanjavur",
+            "addressRegion": "Tamil Nadu",
+            "postalCode": "613001",
+            "addressCountry": "IN"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 10.7870,
+            "longitude": 79.1378
+          },
+          "areaServed": [
+            { "@type": "City", "name": "Thanjavur" },
+            { "@type": "City", "name": "Chennai" },
+            { "@type": "City", "name": "Tiruchirappalli" },
+            { "@type": "City", "name": "Coimbatore" },
+            { "@type": "City", "name": "Madurai" },
+            { "@type": "AdministrativeArea", "name": "Tamil Nadu" },
+            { "@type": "Country", "name": "India" }
+          ],
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "10:00",
+            "closes": "22:00"
+          },
+          "priceRange": "$$",
+          "description": "Comprehensive remote legal representation for NRI and overseas property owners dealing with tenant eviction, rent default, unregistered lease disputes, and recovery of vacant possession across Tamil Nadu under the TNRRRLT Act 2017.",
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Landlord-Tenant & Eviction Legal Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "TNRRRLT Act 2017 Tenancy Agreement Drafting & Portal Registration"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Statutory Legal Notice under Section 106 & Eviction Notice"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Rent Court Summary Eviction Petitions (Section 21(2))"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Recovery of Rent Arrears, Utility Dues & Property Restitution"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Court Bailiff Execution Warrants & Police Assistance (Section 37)"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Zero-Travel NRI Representation via Special Power of Attorney"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://rrclawassociates.com/nri-landlord-tenant-eviction/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://rrclawassociates.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "NRI Services",
+              "item": "https://rrclawassociates.com/nri-services"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Landlord–Tenant & Eviction",
+              "item": "https://rrclawassociates.com/nri-landlord-tenant-eviction/"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://rrclawassociates.com/nri-landlord-tenant-eviction/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How long does it take to evict a defaulting tenant under the TNRRRLT Act 2017?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Unlike the older 1960 Rent Control Act where cases dragged on for years, the TNRRRLT Act 2017 establishes designated Rent Courts operating on summary proceedings with an express statutory disposal timeline of 90 days from service of notice. In contested proceedings involving appeals to the Rent Tribunal, resolution typically occurs within 6 to 9 months, offering a swift legal remedy for NRI property owners."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is registration of tenancy agreements mandatory in Tamil Nadu, and what is the T-Number?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Under Section 4 of the TNRRRLT Act 2017, all tenancy agreements (residential and commercial) must be executed in writing and registered on the Tamil Nadu Tenancy Registration portal (tenancy.tn.gov.in). Upon registration, the Rent Authority generates a unique Tenancy Registration Number (T-Number), which serves as conclusive statutory proof of the tenancy before Rent Courts."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What happens if an NRI landlord does not have a registered written rental agreement?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Under Section 4(2) of the Act, if the landlord and tenant fail to execute a registered tenancy agreement, either party has a statutory right to approach the Rent Court. If the tenant refuses to execute or renew the tenancy agreement within the statutory timeframe, the landlord can directly apply to the Rent Court for repossession and summary eviction under Section 21(2)(a)."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can an NRI landlord evict a tenant without traveling to India?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, absolutely. Non-Resident Indians (NRIs) and Overseas Citizens of India (OCIs) can manage the entire eviction and legal process remotely by executing a Special Power of Attorney (PoA) in favor of their advocate or trusted local representative. The PoA is attested at the Indian Embassy or Consulate abroad and subsequently adjudicated before the District Registrar in Tamil Nadu."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How much security deposit can a landlord legally collect in Tamil Nadu?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Under Section 13(1) of the TNRRRLT Act 2017, the maximum security deposit a landlord can collect is capped at three months' agreed rent for residential premises, and up to six months' rent for non-residential premises. Demanding excessive deposits beyond statutory limits is legally impermissible under the current state framework."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can a tenant claim adverse possession or ownership over rental property?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. Under established Indian jurisprudence and Section 116 of the Indian Evidence Act, a tenant entering into possession under a landlord is statutorily estopped from denying the landlord's title. Permissive possession under a tenancy cannot transform into hostile adverse possession unless the tenant formally surrenders possession and re-enters under a distinct, open claim of title."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What are the valid legal grounds for eviction under Section 21(2) of the Act?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Key statutory grounds under Section 21(2) include: (a) failure to pay agreed rent for consecutive months, (b) refusal to vacate upon expiration of the tenancy period or notice, (c) unauthorized subletting without landlord consent, (d) misuse or substantial damage to the premises, and (g) bona fide personal requirement of the landlord or their family members."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can a landlord cut off electricity, water, or lock out a defaulting tenant?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No, absolutely not. Under Section 20 of the TNRRRLT Act 2017, a landlord is strictly prohibited from withholding or cutting off essential services such as electricity, water supply, or drainage, or forcibly dispossessing a tenant without due process of law. Doing so constitutes a statutory violation punishable by monetary penalties and court injunctions. Eviction must strictly proceed through the designated Rent Court."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rrclawassociates.com/nri-landlord-tenant-eviction/">
+    <meta property="og:title" content="NRI Landlord–Tenant and Eviction Lawyers in Tamil Nadu | RRC Law Associates">
+    <meta property="og:description" content="Specialized legal representation for NRIs facing tenant disputes, unlawful possession, non-payment of rent, and summary eviction in Tamil Nadu under the TNRRRLT Act 2017.">
+    <meta property="og:image" content="https://rrclawassociates.com/assets/images/nri-landlord-tenant-hero.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="NRI Landlord–Tenant and Eviction Lawyers in Tamil Nadu | RRC Law Associates">
+    <meta name="twitter:description" content="Specialized legal representation for NRIs facing tenant disputes, unlawful possession, non-payment of rent, and summary eviction in Tamil Nadu under the TNRRRLT Act 2017.">
+    <meta name="twitter:image" content="https://rrclawassociates.com/assets/images/nri-landlord-tenant-hero.jpg">
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="/assets/images/logo.png">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Typography & Vendor CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Existing Site Shared Stylesheets -->
+    <link rel="stylesheet" href="/style2.css?v=20261008-1">
+    <link rel="stylesheet" href="/style.css?v=20261008-1">
+    <link rel="stylesheet" href="/topbar.css?v=20261008-1">
+
+    <style>
+        :root {
+            --primary: #3c3819;
+            --gold: #c9a24d;
+            --gold-hover: #b38f40;
+            --gold-light: #fdfaf3;
+            --gold-border: rgba(201, 162, 77, 0.35);
+            --cream: #f9f7f3;
+            --white: #ffffff;
+            --dark-navy: #0b1c2d;
+            --navy-mid: #102a45;
+            --navy-accent: #164e87;
+            --text-heading: #0b1c2d;
+            --text-body: #1e293b;
+            --text-muted: #64748b;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 130px;
+        }
+
+        html, body {
+            overflow-x: hidden;
+            width: 100%;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #ffffff;
+            color: var(--text-body);
+            font-size: 16.5px;
+            line-height: 1.7;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Accessibility: Skip Link & Focus States */
+        .skip-link {
+            position: absolute;
+            top: -50px;
+            left: 15px;
+            background: var(--gold);
+            color: #000000;
+            padding: 8px 16px;
+            z-index: 9999;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: top 0.2s ease;
+        }
+        .skip-link:focus {
+            top: 15px;
+        }
+
+        a:focus-visible,
+        button:focus-visible,
+        input:focus-visible,
+        select:focus-visible,
+        textarea:focus-visible,
+        [tabindex="0"]:focus-visible {
+            outline: 2.5px solid var(--gold) !important;
+            outline-offset: 3px !important;
+        }
+
+        /* Fixed Navigation Header — Matches Site Standard */
+        .header {
+            position: fixed;
+            top: 42px;
+            left: 0;
+            width: 100%;
+            z-index: 1190;
+            background: #000000 !important;
+            padding: 5px 0;
+            min-height: 80px;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-img {
+            height: 60px;
+            width: auto;
+        }
+
+        .nav-link-custom {
+            color: #ffffff !important;
+            text-decoration: none;
+            font-weight: 500;
+            margin: 0 14px;
+            transition: 0.3s;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        .nav-link-custom:hover {
+            color: var(--gold) !important;
+        }
+
+        .dropdown-menu {
+            background-color: #000000 !important;
+            border: 1px solid #c9a24d !important;
+            margin-top: 10px !important;
+        }
+
+        .dropdown-item {
+            color: #ffffff !important;
+            padding: 9px 18px;
+            font-size: 13.5px;
+        }
+
+        .dropdown-item:hover,
+        .dropdown-item.active {
+            background-color: #1a1a1a !important;
+            color: var(--gold) !important;
+        }
+
+        @media (min-width: 992px) {
+            .header .dropdown:hover > .dropdown-menu,
+            .header .dropdown:focus-within > .dropdown-menu {
+                display: block !important;
+                margin-top: 0 !important;
+            }
+        }
+
+        .btn-gold {
+            background-color: var(--gold);
+            color: #000000;
+            font-weight: 700;
+            padding: 11px 22px;
+            border-radius: 8px;
+            border: none;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: all 0.25s ease;
+            font-size: 15px;
+        }
+
+        .btn-gold:hover {
+            background-color: #b38f40;
+            color: #000000;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(201, 162, 77, 0.3);
+        }
+
+        /* --- HERO BANNER (Matches Existing NRI Service Pages: Warm Cream #fdfaf3) --- */
+        .tenant-hero-section {
+            padding-top: 135px;
+            padding-bottom: 38px;
+            background-color: #fdfaf3;
+            border-bottom: 1px solid rgba(201, 162, 77, 0.22);
+            position: relative;
+        }
+
+        .breadcrumbs-bar {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            font-size: 0.85rem;
+            color: #64748b;
+            margin-bottom: 14px;
+        }
+
+        .breadcrumbs-bar a {
+            color: #475569;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .breadcrumbs-bar a:hover {
+            color: var(--gold);
+            text-decoration: underline;
+        }
+
+        .breadcrumbs-bar .sep {
+            color: #94a3b8;
+        }
+
+        .breadcrumbs-bar .cur {
+            color: var(--dark-navy);
+            font-weight: 600;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: rgba(201, 162, 77, 0.12);
+            border: 1px solid var(--gold);
+            color: #8c6d23;
+            padding: 4px 12px;
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            border-radius: 50px;
+            margin-bottom: 12px;
+        }
+
+        .hero-h1 {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: clamp(2rem, 3vw, 2.85rem);
+            font-weight: 700;
+            line-height: 1.25;
+            color: #0b1c2d;
+            margin-bottom: 14px;
+        }
+
+        .hero-lead {
+            font-size: 1.08rem;
+            line-height: 1.75;
+            color: #334155;
+            margin-bottom: 22px;
+            max-width: 650px;
+        }
+
+        .hero-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .btn-outline-dark-law {
+            background: transparent;
+            color: #0b1c2d;
+            border: 1.5px solid #0b1c2d;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.25s ease;
+            font-size: 15px;
+        }
+
+        .btn-outline-dark-law:hover {
+            background: #0b1c2d;
+            color: #ffffff;
+            border-color: #0b1c2d;
+        }
+
+        .hero-image-wrapper {
+            position: relative;
+            background: #ffffff;
+            border: 1px solid rgba(201, 162, 77, 0.35);
+            border-radius: 14px;
+            padding: 7px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+            transition: transform 0.3s ease;
+        }
+
+        .hero-image-wrapper:hover {
+            transform: translateY(-3px);
+            border-color: var(--gold);
+        }
+
+        /* 4 Highlights Bar */
+        .highlights-strip {
+            background: #ffffff;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 18px 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
+        }
+
+        .highlight-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 6px 10px;
+        }
+
+        .highlight-icon {
+            width: 42px;
+            height: 42px;
+            background: var(--gold-light);
+            border: 1px solid var(--gold-border);
+            color: var(--gold);
+            border-radius: 9px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            flex-shrink: 0;
+        }
+
+        .highlight-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--dark-navy);
+            margin-bottom: 2px;
+        }
+
+        .highlight-desc {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin: 0;
+            line-height: 1.35;
+        }
+
+        /* --- CONTENT SECTIONS (Whitespace Optimized: 46px Desktop, 32px Mobile) --- */
+        .content-section {
+            padding: 46px 0;
+        }
+
+        .content-section.bg-cream {
+            background-color: var(--cream);
+        }
+
+        /* --------------------------------------------------------------------------
+           Counteracts global style.css line 344: p { color: rgba(255,255,255,0.8); margin-bottom: 48px; }
+           Guarantees all paragraphs on light white/cream content sections render in high-contrast dark slate.
+           Explicitly scoped so dark banners and footer maintain their intended light styling.
+           -------------------------------------------------------------------------- */
+        #main-content p,
+        .content-section p,
+        .tenant-hero-section p,
+        .highlights-strip p {
+            color: var(--text-body);
+            font-size: 1rem;
+            line-height: 1.7;
+            max-width: none;
+            margin-bottom: 14px;
+        }
+
+        #main-content p strong,
+        .content-section p strong {
+            color: var(--dark-navy);
+            font-weight: 600;
+        }
+
+        #main-content ul li,
+        .content-section ul li {
+            color: var(--text-body);
+            font-size: 0.98rem;
+            line-height: 1.68;
+        }
+
+        #main-content ul li strong,
+        .content-section ul li strong {
+            color: var(--dark-navy);
+            font-weight: 600;
+        }
+
+        .section-eyebrow {
+            color: #8c6d23;
+            font-weight: 700;
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 6px;
+            display: block;
+        }
+
+        /* Card and step descriptions text contrast (7.0:1 on white) */
+        .legal-card p,
+        .process-step-card p,
+        .highlight-desc {
+            color: #475569 !important;
+        }
+
+        /* Explicitly keep high contrast on dark CTA banner */
+        .cta-banner p {
+            color: #f8fafc !important;
+            margin-bottom: 16px;
+        }
+
+        .cta-banner .text-white-50 {
+            color: rgba(255, 255, 255, 0.7) !important;
+        }
+
+        .section-heading {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: clamp(1.75rem, 2.3vw, 2.3rem);
+            color: var(--dark-navy);
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 14px;
+        }
+
+        .section-lead {
+            font-size: 1.05rem;
+            color: var(--text-body);
+            line-height: 1.75;
+            margin-bottom: 18px;
+        }
+
+        .legal-card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 22px;
+            height: 100%;
+            box-shadow: 0 3px 14px rgba(0, 0, 0, 0.03);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .legal-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.07);
+            border-color: var(--gold-border);
+        }
+
+        .legal-card-icon {
+            font-size: 1.8rem;
+            color: var(--gold);
+            margin-bottom: 12px;
+        }
+
+        .legal-card-title {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 1.22rem;
+            color: var(--dark-navy);
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        /* Comparative Table */
+        .table-custom-wrapper {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+            margin: 20px 0;
+        }
+
+        .table-custom {
+            margin: 0;
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .table-custom th {
+            background: #0b1c2d;
+            color: #ffffff;
+            padding: 14px 18px;
+            font-weight: 600;
+            font-size: 0.92rem;
+            border-bottom: 2px solid var(--gold);
+        }
+
+        .table-custom td {
+            padding: 13px 18px;
+            font-size: 0.92rem;
+            border-bottom: 1px solid #edf2f7;
+            vertical-align: top;
+        }
+
+        .table-custom tr:last-child td {
+            border-bottom: none;
+        }
+
+        .table-custom tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+
+        /* Process Steps */
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 16px;
+            margin-top: 22px;
+        }
+
+        .process-step-card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 20px;
+            position: relative;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .process-step-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+            border-color: var(--gold);
+        }
+
+        .step-num {
+            position: absolute;
+            top: 12px;
+            right: 16px;
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: rgba(201, 162, 77, 0.25);
+            font-family: 'Playfair Display', serif;
+        }
+
+        .step-title {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--dark-navy);
+            margin-bottom: 8px;
+            padding-right: 30px;
+        }
+
+        /* Checklist Block */
+        .checklist-box {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 24px;
+            height: 100%;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
+        }
+
+        .checklist-box h3 {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 1.25rem;
+            color: var(--dark-navy);
+            font-weight: 700;
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--gold);
+        }
+
+        .check-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            margin-bottom: 12px;
+            font-size: 0.94rem;
+        }
+
+        .check-item i {
+            color: #16a34a;
+            font-size: 1.1rem;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        /* FAQ Accordion */
+        .faq-accordion .accordion-item {
+            border: 1px solid #e2e8f0;
+            border-radius: 10px !important;
+            margin-bottom: 10px;
+            overflow: hidden;
+            background: #ffffff;
+        }
+
+        .faq-accordion .accordion-button {
+            font-weight: 600;
+            color: var(--dark-navy);
+            font-size: 1rem;
+            padding: 16px 20px;
+            background-color: #ffffff;
+            box-shadow: none;
+        }
+
+        .faq-accordion .accordion-button:not(.collapsed) {
+            color: #8c6d23;
+            background-color: #fdfaf3;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .faq-accordion .accordion-body {
+            padding: 18px 20px;
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: #334155;
+            background: #ffffff;
+        }
+
+        /* CTA Banner */
+        .cta-banner {
+            background: linear-gradient(135deg, #0b1c2d 0%, #164e87 100%);
+            border: 1px solid var(--gold-border);
+            border-radius: 14px;
+            padding: 38px 28px;
+            color: #ffffff;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        /* Dedicated Consultation Form Card */
+        .consultation-form-card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 14px;
+            padding: 32px 28px;
+            box-shadow: 0 8px 28px rgba(0, 0, 0, 0.05);
+        }
+
+        .consultation-form-card .form-label {
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--dark-navy);
+            margin-bottom: 5px;
+        }
+
+        .consultation-form-card .form-control,
+        .consultation-form-card .form-select {
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            padding: 10px 14px;
+            font-size: 0.95rem;
+            color: var(--text-body);
+        }
+
+        .consultation-form-card .form-control:focus,
+        .consultation-form-card .form-select:focus {
+            border-color: var(--gold);
+            box-shadow: 0 0 0 3px rgba(201, 162, 77, 0.2);
+        }
+
+        /* Utilities */
+        .max-w-750 { max-width: 750px; }
+        .max-w-850 { max-width: 850px; }
+        .max-w-680 { max-width: 680px; }
+
+        @media (max-width: 991px) {
+            .header {
+                top: 0;
+            }
+            .tenant-hero-section {
+                padding-top: 110px;
+                padding-bottom: 30px;
+            }
+            .hero-h1 {
+                font-size: 2.1rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .content-section {
+                padding: 32px 0;
+            }
+            .hero-actions {
+                flex-direction: column;
+            }
+            .btn-gold, .btn-outline-dark-law {
+                width: 100%;
+                text-align: center;
+            }
+            .highlight-item {
+                padding: 8px 0;
+            }
+            .consultation-form-card {
+                padding: 24px 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Accessibility Skip Link -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- =========================================================
+         APPROVED TOP BAR (Matches index.html & Shared Site Format)
+         ========================================================== -->
+    <div class="rrc-topbar">
+        <div class="rrc-topbar-container">
+            <!-- LEFT SIDE -->
+            <div class="rrc-topbar-left">
+                <a href="tel:+919751182452">
+                    <i class="bi bi-telephone-fill"></i>
+                    +91 97511 82452
+                </a>
+                <span class="rrc-topbar-divider"></span>
+                <a href="mailto:dr.kumar@rrclawassociates.com">
+                    <i class="bi bi-envelope-fill"></i>
+                    dr.kumar@rrclawassociates.com
+                </a>
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="rrc-topbar-right">
+                <span>
+                    <i class="bi bi-clock"></i>
+                    Mon – Sat: 10:00 AM – 10:00 PM
+                </span>
+                <span class="rrc-topbar-divider"></span>
+                <a href="https://www.linkedin.com/company/rrclawassociates/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/rrclawassociates/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/rrclawassociates/" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- =========================================================
+         FIXED NAVIGATION HEADER (Matches Site Standard)
+         ========================================================== -->
+    <header class="header">
+        <nav class="container d-flex align-items-center justify-content-between" aria-label="Main Navigation">
+            <a href="/" aria-label="RRC Law Associates Home">
+                <img src="/assets/images/rrclogo.png" alt="RRC Law Associates Logo" class="logo-img" width="180" height="60">
+            </a>
+
+            <div class="d-none d-lg-flex align-items-center ms-auto">
+                <div class="dropdown">
+                    <a class="nav-link-custom border-0 bg-transparent p-0" href="/">
+                        Home
+                    </a>
+                </div>
+
+                <div class="dropdown">
+                    <a class="nav-link-custom dropdown-toggle border-0 bg-transparent p-0" href="/nri-services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: var(--gold) !important;">
+                        NRI Services
+                    </a>
+                    <ul class="dropdown-menu shadow-lg">
+                        <li>
+                            <a class="dropdown-item text-uppercase" href="/oci-card-assistance.html">OCI Card &amp; Ancestry Assistance</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-uppercase" href="/wills-probate-estate-administration">Wills, Probate &amp; Estate Administration</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-uppercase active" href="/nri-landlord-tenant-eviction/" style="color: var(--gold) !important; font-weight: 600;">Landlord–Tenant &amp; Eviction</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="/nri-rera-builder-disputes/">RERA &amp; Builder Disputes</a>
+                        </li>
+                            <li>
+                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="/nri-business-commercial-advisory/">Business &amp; Commercial Advisory</a>
+                            </li>
+                        <li>
+                            <a class="dropdown-item text-uppercase" href="/nri-property-disputes.html">Property Dispute</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-uppercase" href="/nri-power-of-attorney.html">Power of Attorney</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-uppercase" href="/nri-criminal-case.html">Criminal Cases</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item text-uppercase" href="/nri-family-matrimonial.html">Family &amp; Matrimonial</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="dropdown">
+                    <a class="nav-link-custom dropdown-toggle border-0 bg-transparent p-0" href="/core-practice-areas.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Core Practice Areas
+                    </a>
+                    <ul class="dropdown-menu shadow-lg">
+                        <li><a class="dropdown-item text-uppercase" href="/family-law.html">Family Law Workspace</a></li>
+                        <li><a class="dropdown-item text-uppercase" href="/intellectual-property.html">Intellectual Property Advisory</a></li>
+                        <li><a class="dropdown-item text-uppercase" href="/employment-law.html">Labour &amp; Employment Protection</a></li>
+                        <li><a class="dropdown-item text-uppercase" href="/white-collar-crime.html">White Collar Crime Defense</a></li>
+                        <li><a class="dropdown-item text-uppercase" href="/property-law.html">Due Diligence Frameworks</a></li>
+                        <li><a class="dropdown-item text-uppercase" href="/cyber-law.html">Cyber Law Desk</a></li>
+                        <li><a class="dropdown-item text-uppercase" href="/litigation-dispute-resolution.html">Litigation &amp; Dispute Resolution</a></li>
+                    </ul>
+                </div>
+
+                <div class="dropdown">
+                    <a class="nav-link-custom border-0 bg-transparent p-0" href="/partners.html">
+                        Partners
+                    </a>
+                </div>
+
+                <div class="dropdown">
+                    <a class="nav-link-custom border-0 bg-transparent p-0" href="/lawfirm-blog.html">
+                        Blog
+                    </a>
+                </div>
+
+                <div class="dropdown">
+                    <a class="nav-link-custom border-0 bg-transparent p-0" href="/#contact">
+                        Contact
+                    </a>
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center gap-3">
+                <div class="cta d-none d-sm-block">
+                    <a href="/booking.html" class="btn btn-gold">Book Consultation</a>
+                </div>
+                <button class="btn text-white d-lg-none fs-3 p-0" id="menuToggle" aria-label="Open mobile navigation menu">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-menu" id="mobileMenu" aria-label="Mobile Navigation Menu">
+        <button class="close-menu" id="closeMenu" aria-label="Close mobile navigation menu">&times;</button>
+        <div class="mt-5">
+            <a href="/" class="m-link">Home</a>
+
+            <div class="m-dropdown">
+                <a class="m-link m-trigger" href="/nri-services.html" style="color: var(--gold) !important;">
+                    NRI Services <i class="fa fa-chevron-down ms-2"></i>
+                </a>
+                <div class="m-submenu active" id="mNriMenu">
+                    <a class="m-sub-item" href="/oci-card-assistance.html">OCI Card &amp; Ancestry Assistance</a>
+                    <a class="m-sub-item" href="/wills-probate-estate-administration">Wills, Probate &amp; Estate Administration</a>
+                    <a class="m-sub-item" href="/nri-landlord-tenant-eviction/" style="color: var(--gold) !important; font-weight: 600;">Landlord–Tenant &amp; Eviction</a>
+                    <a class="m-sub-item" href="/nri-rera-builder-disputes/">RERA &amp; Builder Disputes</a>
+                        <a class="m-sub-item" href="/nri-business-commercial-advisory/">Business &amp; Commercial Advisory</a>
+                    <a class="m-sub-item" href="/nri-property-disputes.html">Property Dispute</a>
+                    <a class="m-sub-item" href="/nri-power-of-attorney.html">Power of Attorney</a>
+                    <a class="m-sub-item" href="/nri-criminal-case.html">Criminal Case</a>
+                    <a class="m-sub-item" href="/nri-family-matrimonial.html">Family &amp; Matrimonial</a>
+                </div>
+            </div>
+
+            <div class="m-dropdown">
+                <a class="m-link m-trigger" href="/core-practice-areas.html">
+                    Core Practice Areas <i class="fa fa-chevron-down ms-2"></i>
+                </a>
+                <div class="m-submenu" id="mPracticeMenu">
+                    <a class="m-sub-item" href="/family-law.html">FAMILY, SUCCESSION &amp; PRIVATE CLIENT PRACTICE</a>
+                    <a class="m-sub-item" href="/intellectual-property.html">INTELLECTUAL PROPERTY &amp; INNOVATION PROTECTION</a>
+                    <a class="m-sub-item" href="/employment-law.html">LABOUR, EMPLOYMENT &amp; INDUSTRIAL RELATIONS</a>
+                    <a class="m-sub-item" href="/white-collar-crime.html">WHITE COLLAR CRIMES &amp; FINANCIAL INVESTIGATIONS</a>
+                    <a class="m-sub-item" href="/property-law.html">DOCUMENTATION, REGISTRATION &amp; DUE DILIGENCE</a>
+                    <a class="m-sub-item" href="/cyber-law.html">CYBER LAW, DATA PROTECTION &amp; DIGITAL EVIDENCE</a>
+                    <a class="m-sub-item" href="/litigation-dispute-resolution.html">LITIGATION &amp; DISPUTE RESOLUTION</a>
+                </div>
+            </div>
+
+            <a href="/partners.html" class="m-link">Partners</a>
+            <a href="/lawfirm-blog.html" class="m-link">Blog</a>
+            <a href="/#contact" class="m-link">Contact</a>
+
+            <div class="mt-4">
+                <a href="/booking.html" class="btn btn-gold w-100 py-3 text-center">Book Consultation</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN BODY CONTENT -->
+    <main id="main-content">
+
+        <!-- =========================================================
+             SECTION 1: HERO BANNER (Matches Existing NRI Pages)
+             ========================================================== -->
+        <section class="tenant-hero-section">
+            <div class="container">
+                <!-- Breadcrumbs -->
+                <nav class="breadcrumbs-bar" aria-label="Breadcrumb">
+                    <a href="/">Home</a>
+                    <span class="sep">&gt;</span>
+                    <a href="/nri-services.html">NRI Services</a>
+                    <span class="sep">&gt;</span>
+                    <span class="cur">Landlord–Tenant &amp; Eviction</span>
+                </nav>
+
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-7">
+                        <span class="hero-badge">TAMIL NADU TENANCY &amp; RENT CONTROL PRACTICE</span>
+                        <h1 class="hero-h1">Landlord–Tenant and Eviction Legal Services for NRIs</h1>
+                        <p class="hero-lead">
+                            Decisive, time-bound legal representation for overseas property owners, NRI/OCI landlords, and diaspora families. Enforce tenancy agreements, recover rent arrears, and secure lawful vacant possession across Tamil Nadu under the <strong>TNRRRLT Act 2017</strong> — entirely without international travel.
+                        </p>
+                        <div class="hero-actions">
+                            <a href="#consultation-form" class="btn btn-gold">
+                                Schedule Case Assessment <i class="bi bi-arrow-right"></i>
+                            </a>
+                            <a href="tel:+919751182452" class="btn btn-outline-dark-law">
+                                <i class="bi bi-telephone-fill" style="color: #8c6d23;"></i> +91 97511 82452
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="hero-image-wrapper">
+                            <picture>
+                                <source srcset="/assets/images/nri-landlord-tenant-hero.webp" type="image/webp">
+                                <img src="/assets/images/nri-landlord-tenant-hero.jpg" alt="NRI Luxury Rental Property Management in Tamil Nadu" class="img-fluid rounded-3 w-100" width="1376" height="768" fetchpriority="high">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION 2: KEY SERVICE HIGHLIGHTS STRIP
+             ========================================================== -->
+        <section class="highlights-strip">
+            <div class="container">
+                <div class="row g-3">
+                    <div class="col-6 col-lg-3">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="bi bi-file-earmark-ruled"></i>
+                            </div>
+                            <div>
+                                <h3 class="highlight-title">TNRRRLT Act 2017</h3>
+                                <p class="highlight-desc">Mandatory portal registration &amp; Rent Court jurisdiction</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="bi bi-globe-americas"></i>
+                            </div>
+                            <div>
+                                <h3 class="highlight-title">Zero-Travel Handling</h3>
+                                <p class="highlight-desc">Consular Special PoA adjudication &amp; remote litigation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="bi bi-shield-check"></i>
+                            </div>
+                            <div>
+                                <h3 class="highlight-title">Summary Eviction</h3>
+                                <p class="highlight-desc">Expedited 90-day statutory trial timeline under Sec 21(2)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="bi bi-geo-alt"></i>
+                            </div>
+                            <div>
+                                <h3 class="highlight-title">Pan-Tamil Nadu Reach</h3>
+                                <p class="highlight-desc">Thanjavur, Chennai, Trichy, Madurai, Coimbatore</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION 3: INTRODUCTION & NRI LANDLORD LEGAL REALITIES
+             ========================================================== -->
+        <section class="content-section" id="overview">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <span class="section-eyebrow">Strategic Property Protection</span>
+                        <h2 class="section-heading">Safeguarding Rental Investments for Overseas Property Owners</h2>
+                        <p class="section-lead">
+                            Managing valuable residential and commercial real estate in India while residing abroad presents significant legal and operational vulnerabilities.
+                        </p>
+                        <p>
+                            Non-Resident Indians frequently confront uncooperative tenants who exploit geographic distance, time zone differences, and lack of direct physical oversight. Common tenant malpractices include <strong>chronic default on agreed monthly rents, unauthorized subletting to third parties, illegal structural modifications, and outright refusal to vacate</strong> upon lease expiration.
+                        </p>
+                        <p>
+                            Historically, tenancy litigation in India was infamous for dragging through Civil Courts for decades under the archaic Tamil Nadu Buildings (Lease and Rent Control) Act of 1960. Recognizing these structural flaws, the Government of Tamil Nadu enacted the landmark <strong>Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017 (TNRRRLT Act 2017)</strong>, which came into full effect in February 2019.
+                        </p>
+                        <p>
+                            Under this modern framework, dispute adjudication is transferred exclusively to designated <strong>Rent Courts (presided by Sub-Judges or District Munsifs) and Rent Tribunals (Principal District Judges)</strong>. The Act mandates summary trials, strictly curbs frivolous adjournments, establishes an expedited 90-day disposal timeline, and recognizes clear statutory eviction grounds — providing NRI landlords with an unprecedented legal advantage.
+                        </p>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="hero-image-wrapper">
+                            <picture>
+                                <source srcset="/assets/images/tenancy-agreement-review.webp" type="image/webp">
+                                <img src="/assets/images/tenancy-agreement-review.jpg" alt="Tamil Nadu Tenancy Agreement Legal Review and Drafting" class="img-fluid rounded-3 w-100" width="1376" height="768">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION 4: CORE LEGAL SERVICES FOR LANDLORDS (6 CARDS)
+             ========================================================== -->
+        <section class="content-section bg-cream" id="services">
+            <div class="container">
+                <div class="text-center max-w-750 mx-auto mb-4">
+                    <span class="section-eyebrow">Comprehensive Practice Scope</span>
+                    <h2 class="section-heading">Dedicated Landlord–Tenant Legal Services</h2>
+                    <p class="section-lead">From preventive lease drafting and statutory compliance to aggressive Rent Court eviction litigation and court-assisted physical repossession.</p>
+                </div>
+
+                <div class="row g-4">
+                    <!-- Service 1 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="legal-card">
+                            <div class="legal-card-icon">
+                                <i class="bi bi-file-text"></i>
+                            </div>
+                            <h3 class="legal-card-title">TNRRRLT Tenancy Agreements &amp; Portal Registration</h3>
+                            <p>
+                                Drafting bulletproof residential and commercial tenancy agreements fully compliant with the TNRRRLT Act 2017. We manage the mandatory registration on the Tamil Nadu Tenancy portal (<strong>tenancy.tn.gov.in</strong>) to generate the official Tenancy Registration Number (T-Number), enforce the statutory 3-month security deposit cap (Section 13(1)), and structure airtight rent escalation and default clauses.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="legal-card">
+                            <div class="legal-card-icon">
+                                <i class="bi bi-envelope-exclamation"></i>
+                            </div>
+                            <h3 class="legal-card-title">Section 106 Statutory Legal Demand Notices</h3>
+                            <p>
+                                Issuing formal, legally sound demand and termination notices under Section 106 of the Transfer of Property Act, 1882 and Section 21 of the TNRRRLT Act. Our advocates ensure precise statutory calculation of rent arrears, formal termination of leasehold rights, and documented postal service via registered speed post with acknowledgment due.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="legal-card">
+                            <div class="legal-card-icon">
+                                <i class="bi bi-bank"></i>
+                            </div>
+                            <h3 class="legal-card-title">Rent Court Summary Eviction Petitions</h3>
+                            <p>
+                                Institution and vigorous representation in summary eviction petitions before designated Rent Courts across Tamil Nadu under Section 21(2). We represent landlords on grounds of persistent non-payment of rent (Sec 21(2)(a)), refusal to vacate upon lease expiry (Sec 21(2)(b)), unauthorized subletting (Sec 21(2)(c)), and bona fide personal requirement (Sec 21(2)(g)).
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="legal-card">
+                            <div class="legal-card-icon">
+                                <i class="bi bi-currency-rupee"></i>
+                            </div>
+                            <h3 class="legal-card-title">Recovery of Rent Arrears &amp; Property Damages</h3>
+                            <p>
+                                Initiating aggressive recovery proceedings to attach tenant bank accounts, salary/movable assets, or business receivables for unpaid rent, unpaid property taxes, electricity dues, and structural damages caused during unauthorized occupancy. We secure enforceable money decrees alongside possession orders.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Service 5 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="legal-card">
+                            <div class="legal-card-icon">
+                                <i class="bi bi-shield-lock"></i>
+                            </div>
+                            <h3 class="legal-card-title">Defense Against Bogus Tenant Claims &amp; Injunctions</h3>
+                            <p>
+                                Defeating frivolous civil suits filed by rogue tenants attempting to restrain landlords or claim sham agreements, oral perpetual leases, or fictitious mortgage rights. We secure immediate dismissal of malicious injunction applications and invoke statutory estoppel under Section 116 of the Indian Evidence Act.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Service 6 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="legal-card">
+                            <div class="legal-card-icon">
+                                <i class="bi bi-key"></i>
+                            </div>
+                            <h3 class="legal-card-title">Court Execution Warrants &amp; Police Protection</h3>
+                            <p>
+                                Enforcing Rent Court eviction orders through execution petitions under Section 37 of the TNRRRLT Act. Our advocates coordinate directly with Court Bailiffs, obtain court-ordered police protection when tenants offer unlawful resistance, supervise lock replacement, and issue formal judicial handover certificates.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION 5: COMMON DISPUTES & LEGAL SOLUTIONS (COMPARISON)
+             ========================================================== -->
+        <section class="content-section" id="disputes">
+            <div class="container">
+                <div class="text-center max-w-750 mx-auto mb-4">
+                    <span class="section-eyebrow">Actionable Legal Remedies</span>
+                    <h2 class="section-heading">Common Landlord–Tenant Disputes &amp; Legal Solutions</h2>
+                    <p class="section-lead">How Tamil Nadu law resolves typical challenges faced by Non-Resident Indian property owners.</p>
+                </div>
+
+                <div class="row align-items-center g-4 mb-4">
+                    <div class="col-lg-6">
+                        <div class="hero-image-wrapper">
+                            <picture>
+                                <source srcset="/assets/images/tenant-dispute-consultation.webp" type="image/webp">
+                                <img src="/assets/images/tenant-dispute-consultation.jpg" alt="Indian Legal Advocate Tenant Dispute Resolution Consultation" class="img-fluid rounded-3 w-100" width="1376" height="768">
+                            </picture>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <p>
+                            Under the TNRRRLT Act 2017, the rights of landlords have been substantially fortified. Unlike general civil litigation where injunction suits drag on endlessly, the Rent Court functions with streamlined summary powers. 
+                        </p>
+                        <p>
+                            Whether dealing with an expired unregistered lease, an aggressive commercial tenant withholding rent, or unauthorized modifications to ancestral property, statutory remedies are clear, concrete, and enforceable without requiring the overseas owner to spend months in Indian courtrooms.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="table-custom-wrapper">
+                    <table class="table-custom" aria-label="Tenant Dispute Scenarios and Statutory Legal Solutions in Tamil Nadu">
+                        <thead>
+                            <tr>
+                                <th style="width: 25%;">Dispute Scenario</th>
+                                <th style="width: 35%;">Practical Challenge for NRIs</th>
+                                <th style="width: 40%;">Statutory Legal Remedy (TNRRRLT Act 2017)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Non-Payment of Rent (Chronic Default)</strong></td>
+                                <td>Tenant defaults for months, ignores overseas WhatsApp/phone reminders, or issues dishonored cheques.</td>
+                                <td>Statutory demand notice under Section 106 followed by a summary petition under <strong>Section 21(2)(a)</strong> before Rent Court. Fast-track order for eviction and simultaneous attachment of tenant bank accounts for arrears.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Expired Lease &amp; Illegal Holding Over</strong></td>
+                                <td>Tenancy term of 11 months or registered lease expired, but tenant stubbornly refuses to vacate premises.</td>
+                                <td>Notice of non-renewal followed by eviction application under <strong>Section 21(2)(b)</strong>. Landlord is entitled to claim damages / double rent for the period of unauthorized occupation post-expiry.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Lack of Registered Tenancy Agreement</strong></td>
+                                <td>Tenancy commenced on oral understanding, informal receipts, or expired stamp paper without portal T-Number.</td>
+                                <td>Under <strong>Section 4(2)</strong>, if tenant fails or refuses to execute a registered tenancy contract, landlord can approach Rent Court directly. The court will order summary repossession since registered tenancy is mandatory.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Unauthorized Subletting</strong></td>
+                                <td>Tenant rents out portions or entire premises to commercial third parties without written landlord consent.</td>
+                                <td>Eviction petition under <strong>Section 21(2)(c)</strong>. We file for appointment of an Advocate Commissioner to conduct a spot inspection, document third-party possession, and secure immediate eviction.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Structural Damage or Commercial Misuse</strong></td>
+                                <td>Residential home altered structurally, damaged, or converted into an unauthorized commercial godown or hostel.</td>
+                                <td>Application under <strong>Section 21(2)(d)</strong> for breach of covenant and material damage, paired with an immediate interim restraint order to prevent further structural demolition.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Bona Fide Landlord Requirement</strong></td>
+                                <td>NRI landlord returning to India, or needs the premises for immediate family settlement or elder care.</td>
+                                <td>Priority petition under <strong>Section 21(2)(g)</strong> for personal occupation. Courts accord expedited summary hearing status to genuine landlord necessity petitions.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION 6: STEP-BY-STEP LEGAL EVICTION PROCESS
+             ========================================================== -->
+        <section class="content-section bg-cream" id="process">
+            <div class="container">
+                <div class="text-center max-w-750 mx-auto mb-4">
+                    <span class="section-eyebrow">Structured Legal Roadmap</span>
+                    <h2 class="section-heading">Step-by-Step Eviction Process in Tamil Nadu</h2>
+                    <p class="section-lead">A transparent, legally rigorous 6-step framework designed for overseas landlords seeking fast repossession.</p>
+                </div>
+
+                <div class="process-grid">
+                    <!-- Step 1 -->
+                    <div class="process-step-card">
+                        <span class="step-num">01</span>
+                        <h3 class="step-title">Tenancy Audit &amp; Evidence Formulation</h3>
+                        <p>
+                            Comprehensive review of original title deeds, parent documents, lease agreements, Tenancy Registration Number (if generated), rent payment history, WhatsApp communications, and utility bill statements to establish undisputed title and breach.
+                        </p>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="process-step-card">
+                        <span class="step-num">02</span>
+                        <h3 class="step-title">Special PoA Execution &amp; Adjudication</h3>
+                        <p>
+                            For NRIs living abroad, our advocates draft an airtight Special Power of Attorney (PoA) authorizing legal representation. The client signs and attests it at the nearest Indian Embassy or Consulate abroad, followed by prompt adjudication before the District Registrar in Tamil Nadu.
+                        </p>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="process-step-card">
+                        <span class="step-num">03</span>
+                        <h3 class="step-title">Statutory Legal Notice</h3>
+                        <p>
+                            Drafting and serving a formal statutory legal demand notice under Section 106 of the Transfer of Property Act, 1882 and Section 21 of the TNRRRLT Act. We demand rectification of default or unconditional handover of vacant possession within 15 to 30 days.
+                        </p>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="process-step-card">
+                        <span class="step-num">04</span>
+                        <h3 class="step-title">Filing Rent Court Petition</h3>
+                        <p>
+                            Instituting a formal summary eviction petition before the competent Rent Court (jurisdictional District Munsif or Sub-Court) with supporting affidavits, certified documents, and interim applications for payment of arrears into court registry.
+                        </p>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="process-step-card">
+                        <span class="step-num">05</span>
+                        <h3 class="step-title">Summary Trial &amp; Eviction Order</h3>
+                        <p>
+                            Vigorous advocacy during summary hearings. The court adheres strictly to the statutory 90-day guideline, eliminates frivolous delays, dismisses dilatory tenant defenses, and pronounces a formal judicial eviction order and decree.
+                        </p>
+                    </div>
+
+                    <!-- Step 6 -->
+                    <div class="process-step-card">
+                        <span class="step-num">06</span>
+                        <h3 class="step-title">Warrant Execution &amp; Possession Handover</h3>
+                        <p>
+                            Filing an Execution Petition (EP) under Section 37. Our advocates coordinate with Court Bailiffs, secure police protection where required, supervise physical repossession, install new locks, and deliver the judicial possession certificate to the landlord.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION 7: MANDATORY DOCUMENTS CHECKLIST
+             ========================================================== -->
+        <section class="content-section" id="documents">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <span class="section-eyebrow">Documentation Readiness</span>
+                        <h2 class="section-heading">Essential Document Checklist for Eviction Proceedings</h2>
+                        <p class="section-lead">A well-documented legal file ensures prompt interim relief and eliminates procedural objections in court.</p>
+
+                        <div class="row g-3">
+                            <div class="col-12">
+                                <div class="checklist-box">
+                                    <h3>A. Ownership &amp; Contractual Proofs</h3>
+                                    <div class="check-item">
+                                        <i class="bi bi-check-circle-fill"></i>
+                                        <div><strong>Registered Title Deed:</strong> Certified copy of Sale Deed, Settlement Deed, or Partition Deed establishing landlord title.</div>
+                                    </div>
+                                    <div class="check-item">
+                                        <i class="bi bi-check-circle-fill"></i>
+                                        <div><strong>Tenancy Agreement &amp; T-Number:</strong> Copy of the registered agreement or portal registration certificate from tenancy.tn.gov.in.</div>
+                                    </div>
+                                    <div class="check-item">
+                                        <i class="bi bi-check-circle-fill"></i>
+                                        <div><strong>Revenue Records:</strong> Latest Patta / Chitta extract and Encumbrance Certificate (EC) confirming unencumbered ownership.</div>
+                                    </div>
+                                    <div class="check-item">
+                                        <i class="bi bi-check-circle-fill"></i>
+                                        <div><strong>Consular Special PoA:</strong> Duly attested by Indian Embassy/Consulate and adjudicated in Tamil Nadu (for NRIs).</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="checklist-box">
+                                    <h3>B. Breach &amp; Default Evidence</h3>
+                                    <div class="check-item">
+                                        <i class="bi bi-check-circle-fill"></i>
+                                        <div><strong>Payment Ledger / Bank Records:</strong> Bank statements showing stopped rental payments, dishonored cheques, or bounced transactions.</div>
+                                    </div>
+                                    <div class="check-item">
+                                        <i class="bi bi-check-circle-fill"></i>
+                                        <div><strong>Written Notices &amp; Delivery Proofs:</strong> Statutory legal notices, India Post registered speed-post tracking receipts, and acknowledgments.</div>
+                                    </div>
+                                    <div class="check-item">
+                                        <i class="bi bi-check-circle-fill"></i>
+                                        <div><strong>Electronic Communications:</strong> Exported WhatsApp conversations, emails, or text reminders requesting rent or vacating.</div>
+                                    </div>
+                                    <div class="check-item">
+                                        <i class="bi bi-check-circle-fill"></i>
+                                        <div><strong>Site Inspection Records:</strong> Photographs documenting structural modifications, damage, or commercial signage.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="hero-image-wrapper">
+                            <picture>
+                                <source srcset="/assets/images/property-possession-handover.webp" type="image/webp">
+                                <img src="/assets/images/property-possession-handover.jpg" alt="Tamil Nadu Property Possession Recovery and Due Diligence Documentation" class="img-fluid rounded-3 w-100" width="1376" height="768">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION 8: REMOTE LEGAL ASSISTANCE FOR NRIs
+             ========================================================== -->
+        <section class="content-section bg-cream" id="remote-assistance">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6 order-lg-2">
+                        <span class="section-eyebrow">Zero-Travel Framework</span>
+                        <h2 class="section-heading">Remote Legal Assistance for NRIs Worldwide</h2>
+                        <p class="section-lead">You never have to sacrifice work, travel thousands of miles, or disrupt your overseas life to protect your property in Tamil Nadu.</p>
+                        <p>
+                            At RRC Law Associates, our NRI Property Practice is purpose-built to bridge the cross-border divide. We regularly advise and represent clients based across the <strong>United States, United Kingdom, UAE (Dubai, Abu Dhabi), Singapore, Malaysia, Australia, Canada, and Europe</strong>.
+                        </p>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="bi bi-check2-circle text-gold me-2"></i> <strong>Consultations Across Time Zones:</strong> Scheduled video conferences via Zoom or Google Meet tailored to US, European, Middle East, or Asia-Pacific hours.</li>
+                            <li class="mb-2"><i class="bi bi-check2-circle text-gold me-2"></i> <strong>Airtight PoA Drafting:</strong> Custom Special Power of Attorney drafting conforming strictly to Indian Registration Department rules, preventing registry rejections.</li>
+                            <li class="mb-2"><i class="bi bi-check2-circle text-gold me-2"></i> <strong>Transparent Digital Updates:</strong> Live case diary updates, court hearing summaries, and certified copies of judicial orders emailed promptly.</li>
+                            <li class="mb-2"><i class="bi bi-check2-circle text-gold me-2"></i> <strong>Post-Eviction Handover Protocols:</strong> Coordinate meter reconciliation (TANGEDCO electricity, water boards), lock changes, and secure key custody until re-letting or sale.</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="hero-image-wrapper">
+                            <picture>
+                                <source srcset="/assets/images/remote-nri-property-assistance.webp" type="image/webp">
+                                <img src="/assets/images/remote-nri-property-assistance.jpg" alt="Remote NRI Legal Representation and Virtual Advocate Consultation" class="img-fluid rounded-3 w-100" width="1376" height="768">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION 9: FREQUENTLY ASKED QUESTIONS (8 FAQS)
+             ========================================================== -->
+        <section class="content-section" id="faq">
+            <div class="container">
+                <div class="text-center max-w-750 mx-auto mb-4">
+                    <span class="section-eyebrow">Legal Insights</span>
+                    <h2 class="section-heading">Frequently Asked Questions</h2>
+                    <p class="section-lead">Clear, authoritative answers to essential questions regarding tenancy enforcement, eviction, and Rent Court practice in Tamil Nadu.</p>
+                </div>
+
+                <div class="accordion faq-accordion max-w-850 mx-auto" id="tenantFaqAccordion">
+
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                1. How long does it take to evict a defaulting tenant under the TNRRRLT Act 2017?
+                            </button>
+                        </h3>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#tenantFaqAccordion">
+                            <div class="accordion-body">
+                                Under the previous 1960 Rent Control Act, eviction suits routinely languished for years. In stark contrast, the <strong>TNRRRLT Act 2017</strong> mandates that Rent Courts follow summary trial procedures with a statutory target timeline of <strong>90 days from the date of service of summons</strong>. While contested matters involving appeals to the Rent Tribunal may require 6 to 9 months, summary eviction is drastically faster than ordinary civil suits.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                2. Is registration of tenancy agreements mandatory in Tamil Nadu, and what is the T-Number?
+                            </button>
+                        </h3>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#tenantFaqAccordion">
+                            <div class="accordion-body">
+                                Yes. Under Section 4 of the TNRRRLT Act 2017, all tenancy agreements (residential and commercial) must be reduced to writing and registered on the official Tamil Nadu Tenancy portal (<strong>tenancy.tn.gov.in</strong>). Once registered, the Rent Authority generates a unique <strong>Tenancy Registration Number (T-Number)</strong>. Having a T-Number provides prima facie statutory evidence of tenancy terms before the Rent Court.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                3. What happens if an NRI landlord does not have a registered written rental agreement?
+                            </button>
+                        </h3>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#tenantFaqAccordion">
+                            <div class="accordion-body">
+                                Under Section 4(2) of the Act, if the landlord and tenant fail to execute a registered agreement within the statutory transitional window, either party may apply to the Rent Court. If the tenant refuses or fails to enter into a registered contract upon notice, the landlord is entitled to petition the Rent Court for summary repossession under <strong>Section 21(2)(a)</strong>. The absence of a registered lease works in favor of the landlord seeking repossession, rather than the tenant.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                4. Can an NRI landlord evict a tenant without traveling to India?
+                            </button>
+                        </h3>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#tenantFaqAccordion">
+                            <div class="accordion-body">
+                                Yes, entirely. Non-Resident Indians (NRIs) and Overseas Citizens of India (OCIs) can manage the entire litigation remotely by executing a Special Power of Attorney (PoA) in favor of their advocate or trusted local representative. The PoA is attested at the nearest Indian Embassy or Consulate abroad, dispatched to India, and duly adjudicated before the jurisdictional District Registrar in Tamil Nadu. Our advocates represent you at every court hearing.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                5. How much security deposit can a landlord legally collect in Tamil Nadu?
+                            </button>
+                        </h3>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#tenantFaqAccordion">
+                            <div class="accordion-body">
+                                Under Section 13(1) of the TNRRRLT Act 2017, the advance security deposit payable by a tenant is legally capped at a maximum of <strong>three months' agreed rent</strong> for residential premises, and up to six months' rent for commercial premises. The security deposit must be refunded to the tenant upon handing over vacant possession, subject to lawful deductions for rent arrears or documented physical damages.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                6. Can a tenant claim adverse possession or ownership over rental property?
+                            </button>
+                        </h3>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#tenantFaqAccordion">
+                            <div class="accordion-body">
+                                No. Under Section 116 of the Indian Evidence Act, a tenant who enters property under a landlord is statutorily estopped from denying the landlord's title. Long permissive possession as a tenant, even across several decades or after lease expiry, can <strong>never mature into adverse possession</strong>. The Supreme Court of India has repeatedly held that a tenant's possession remains permissive until vacant possession is formally surrendered.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                7. What are the valid legal grounds for eviction under Section 21(2) of the Act?
+                            </button>
+                        </h3>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#tenantFaqAccordion">
+                            <div class="accordion-body">
+                                The primary grounds under Section 21(2) include: <strong>(a)</strong> default in payment of agreed rent, <strong>(b)</strong> refusal to vacate after expiry of the agreed period or termination notice, <strong>(c)</strong> unauthorized subletting of all or part of the premises, <strong>(d)</strong> substantial damage or unauthorized structural alteration, and <strong>(g)</strong> bona fide requirement of the premises for personal occupation by the landlord or their family members.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="headingEight">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                8. Can the landlord cut off electricity, water, or lock out a defaulting tenant?
+                            </button>
+                        </h3>
+                        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#tenantFaqAccordion">
+                            <div class="accordion-body">
+                                No, absolutely not. Under Section 20 of the TNRRRLT Act 2017, landlords are strictly prohibited from disconnecting or withholding essential services (such as water, electricity, or sanitation) or taking the law into their own hands through lockouts. Engaging in extrajudicial dispossession exposes the landlord to court injunctions and statutory fines. Eviction must always be conducted through the lawful mechanism of the Rent Court.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION 10: STATEWIDE LEGAL CALLOUT & FINAL CTA BANNER
+             ========================================================== -->
+        <section class="content-section bg-cream">
+            <div class="container">
+                <div class="cta-banner">
+                    <span class="hero-badge mb-2">CONFIDENTIAL CASE REVIEW</span>
+                    <h3 class="h3 fw-bold text-white mb-2">Protect Your Rental Assets &amp; Regain Control</h3>
+                    <p class="max-w-680 mx-auto text-light mb-3">
+                        Whether you are facing persistent rent default, an overstaying tenant holding over after lease expiration, or require an airtight TNRRRLT-compliant agreement, our advocates are prepared to act swiftly.
+                    </p>
+                    <div class="d-flex justify-content-center gap-3 flex-wrap">
+                        <a href="#consultation-form" class="btn btn-gold py-2 px-4">
+                            Submit Case Details <i class="bi bi-arrow-down-circle"></i>
+                        </a>
+                        <a href="tel:+919751182452" class="btn btn-outline-light py-2 px-4">
+                            <i class="bi bi-telephone-fill text-gold"></i> Call +91 97511 82452
+                        </a>
+                    </div>
+                    <p class="small text-white-50 mt-3 mb-0">Headquartered in Mary's Corner, Thanjavur. Representing NRI property owners across Chennai, Trichy, Madurai, Coimbatore, and all Cauvery Delta districts.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION 11: DEDICATED WORKING CONSULTATION ENQUIRY FORM
+             ========================================================== -->
+        <section class="content-section" id="consultation-form">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="consultation-form-card">
+                            <div class="text-center mb-4">
+                                <span class="section-eyebrow">Direct Advocate Inquiry</span>
+                                <h3 class="section-heading mb-2">Request an NRI Tenancy Legal Assessment</h3>
+                                <p class="text-muted small">Share your property and tenancy dispute details. Our senior advocates will review your documents and provide a confidential legal strategy.</p>
+                            </div>
+
+                            <form action="https://api.web3forms.com/submit" method="POST" id="tenancyInquiryForm">
+                                <input type="hidden" name="access_key" value="16bc44fb-4f4f-403d-9748-d675c7dcaf69">
+                                <input type="hidden" name="subject" value="New Inquiry: NRI Landlord-Tenant & Eviction Legal Services">
+                                <input type="hidden" name="from_name" value="RRC Law Associates - Tenancy Practice">
+
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="fullName" class="form-label">Full Name *</label>
+                                        <input type="text" id="fullName" name="name" class="form-control" placeholder="Your Full Name" required>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="emailAddress" class="form-label">Email Address *</label>
+                                        <input type="email" id="emailAddress" name="email" class="form-control" placeholder="name@domain.com" required>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="phoneNumber" class="form-label">Phone / WhatsApp *</label>
+                                        <div class="input-group">
+                                            <select class="form-select border-end-0" style="max-width: 100px;" name="Country_Code" aria-label="Country Dialing Code">
+                                                <option value="+91">🇮🇳 +91</option>
+                                                <option value="+1">🇺🇸 +1</option>
+                                                <option value="+44">🇬🇧 +44</option>
+                                                <option value="+65">🇸🇬 +65</option>
+                                                <option value="+60">🇲🇾 +60</option>
+                                                <option value="+971">🇦🇪 +971</option>
+                                                <option value="+61">🇦🇺 +61</option>
+                                                <option value="+1-CA">🇨🇦 +1</option>
+                                                <option value="Other">Other</option>
+                                            </select>
+                                            <input type="tel" id="phoneNumber" name="phone" class="form-control" placeholder="Contact Number" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="currentCountry" class="form-label">Your Country of Residence *</label>
+                                        <input type="text" id="currentCountry" name="Client_Residence_Country" class="form-control" placeholder="e.g. USA, UK, UAE, Singapore" required>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="propertyDistrict" class="form-label">Property District in Tamil Nadu *</label>
+                                        <select id="propertyDistrict" name="Property_District" class="form-select" required>
+                                            <option value="" selected disabled>Select District</option>
+                                            <option value="Thanjavur">Thanjavur</option>
+                                            <option value="Chennai">Chennai</option>
+                                            <option value="Tiruchirappalli">Tiruchirappalli (Trichy)</option>
+                                            <option value="Coimbatore">Coimbatore</option>
+                                            <option value="Madurai">Madurai</option>
+                                            <option value="Chengalpattu / Kanchipuram">Chengalpattu / Kanchipuram</option>
+                                            <option value="Tirunelveli">Tirunelveli</option>
+                                            <option value="Salem">Salem</option>
+                                            <option value="Tiruvarur / Nagapattinam">Tiruvarur / Nagapattinam</option>
+                                            <option value="Other Tamil Nadu District">Other Tamil Nadu District</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="propertyType" class="form-label">Property Type *</label>
+                                        <select id="propertyType" name="Property_Type" class="form-select" required>
+                                            <option value="" selected disabled>Select Property Type</option>
+                                            <option value="Residential Apartment">Residential Apartment</option>
+                                            <option value="Independent House / Villa">Independent House / Villa</option>
+                                            <option value="Commercial Shop / Retail">Commercial Shop / Retail</option>
+                                            <option value="Office Space / Commercial Building">Office Space / Commercial Building</option>
+                                            <option value="Industrial / Warehouse">Industrial / Warehouse</option>
+                                            <option value="Agricultural Land / Farmhouse">Agricultural Land / Farmhouse</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="legalIssue" class="form-label">Primary Tenancy Dispute / Requirement *</label>
+                                        <select id="legalIssue" name="Dispute_Category" class="form-select" required>
+                                            <option value="" selected disabled>Select Legal Concern</option>
+                                            <option value="Non-Payment of Rent (Arrears Recovery)">Non-Payment of Rent (Arrears Recovery)</option>
+                                            <option value="Expired Lease / Tenant Refusal to Vacate">Expired Lease / Tenant Refusal to Vacate</option>
+                                            <option value="Filing Rent Court Summary Eviction Petition">Filing Rent Court Summary Eviction Petition</option>
+                                            <option value="Unregistered Lease / Mandatory TNRRRLT Regularization">Unregistered Lease / Mandatory TNRRRLT Regularization</option>
+                                            <option value="Unauthorized Subletting or Misuse">Unauthorized Subletting or Misuse</option>
+                                            <option value="Drafting New Tenancy Agreement & Portal Registration">Drafting New Tenancy Agreement &amp; Portal Registration</option>
+                                            <option value="Bona Fide Personal Requirement Repossession">Bona Fide Personal Requirement Repossession</option>
+                                            <option value="Defense Against Frivolous Tenant Injunction">Defense Against Frivolous Tenant Injunction</option>
+                                            <option value="General NRI Landlord Advisory">General NRI Landlord Advisory</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="caseSummary" class="form-label">Brief Summary of Matter</label>
+                                        <textarea id="caseSummary" name="case_details" class="form-control" rows="3" placeholder="Please describe rental duration, months of unpaid rent, whether a written lease exists, and any communication sent so far."></textarea>
+                                    </div>
+
+                                    <div class="col-12 mt-4">
+                                        <button type="submit" class="btn btn-gold w-100 py-3">
+                                            Submit Tenancy Case for Assessment <i class="bi bi-send-fill ms-2"></i>
+                                        </button>
+                                        <p class="text-center small text-muted mt-2 mb-0">
+                                            <i class="bi bi-shield-lock-fill text-gold me-1"></i> Strictly confidential under Advocate–Client Privilege. No obligation.
+                                        </p>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- =========================================================
+         APPROVED RRC LAW ASSOCIATES SHARED FOOTER
+         Matches index.html and wills-probate-estate-administration.html
+         ========================================================== -->
+    <footer class="footer">
+        <div class="footer-contain">
+            <div class="footer-grid">
+
+                <!-- Brand -->
+                <div class="footer-brand">
+                    <div class="logo-icon">
+                        <a href="/" title="Home" class="d-flex align-items-center gap-2 text-decoration-none">
+                            <img src="/assets/images/logo.png" alt="RRC Law Associates Logo" class="logo-img" width="50" height="50">
+                            <div>
+                                <strong>RRC</strong>
+                                <strong>Law Associates</strong>
+                            </div>
+                        </a>
+                    </div>
+
+                    <p style="color: whitesmoke; font-size: 15px; line-height: 1.7; margin-bottom: 20px;">
+                        Providing trusted legal solutions with integrity since 2008. Your reliable partner for all property, estate, testamentary, tenancy, and NRI legal matters in Tamil Nadu.
+                    </p>
+
+                    <div class="social"></div>
+                </div>
+
+                <!-- Practice Areas -->
+                <div>
+                    <h4>Practice Areas</h4>
+                    <ul>
+                        <li><a href="/family-law.html">Family Law</a></li>
+                        <li><a href="/property-law.html">Property Law</a></li>
+                        <li><a href="/employment-law.html">Employment Law</a></li>
+                        <li><a href="/white-collar-crime.html">White Collar Crimes</a></li>
+                        <li><a href="/intellectual-property.html">Intellectual Property</a></li>
+                        <li><a href="/litigation-dispute-resolution.html">Litigation Dispute</a></li>
+                    </ul>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/nri-services.html">NRI Services</a></li>
+                        <li><a href="/oci-card-assistance.html">OCI Card &amp; Ancestry</a></li>
+                        <li><a href="/wills-probate-estate-administration">Wills &amp; Probate</a></li>
+                        <li><a href="/nri-landlord-tenant-eviction/" style="color: var(--gold); font-weight: 600;">Landlord–Tenant &amp; Eviction</a></li>
+                        <li><a href="/nri-rera-builder-disputes/">RERA &amp; Builder Disputes</a></li>
+                        <li><a href="/nri-business-commercial-advisory/">Business &amp; Commercial Advisory</a></li>
+                        <li><a href="/core-practice-areas.html">Practice Areas</a></li>
+                        <li><a href="/lawfirm-blog.html">Blog</a></li>
+                        <li><a href="/#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4>Contact Us</h4>
+                    <ul class="contact">
+                        <li>
+                            <span>Address</span>
+                            <p style="color: #f1f5f9; margin-bottom: 8px;">
+                                No 82/6B, Deen Complex, Mary's Corner, Parisutham Nagar, Thanjavur, Tamil Nadu-613001
+                            </p>
+                        </li>
+                        <li>
+                            <span>Phone</span>
+                            <a href="tel:+919751182452" style="color: #f8fafc; font-weight: 500;">+91 97511 82452</a>
+                        </li>
+                        <li>
+                            <span>Email</span>
+                            <a href="mailto:dr.kumar@rrclawassociates.com" style="color: #f8fafc; font-weight: 500;">dr.kumar@rrclawassociates.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Bottom -->
+            <div class="footer-bottom">
+                <p style="color: #94a3b8;">&copy; <span id="year">2026</span> RRC Law Associates. All rights reserved.</p>
+                <div class="legal">
+                    <a href="/privacy-policy" style="color: #cbd5e1;">Privacy Policy</a>
+                    <a href="/disclaimer" style="color: #cbd5e1;">Disclaimer</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Bootstrap & Shared Website Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/script2.js?v=20261008-1" defer></script>
+    <script src="/script.js?v=20261008-1" data-rrc-ai-only defer></script>
+
+    <!-- Mobile Drawer & Accordion Functionality -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuToggle = document.getElementById('menuToggle');
+            const mobileMenu = document.getElementById('mobileMenu');
+            const closeMenu = document.getElementById('closeMenu');
+
+            // 1. Mobile Menu Open/Close
+            if (menuToggle && mobileMenu) {
+                menuToggle.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    mobileMenu.classList.add('open');
+                    document.body.style.overflow = 'hidden';
+                });
+            }
+
+            if (closeMenu && mobileMenu) {
+                closeMenu.addEventListener('click', () => {
+                    mobileMenu.classList.remove('open');
+                    document.body.style.overflow = '';
+                });
+            }
+
+            // Close on outside click
+            document.addEventListener('click', (e) => {
+                if (mobileMenu && mobileMenu.classList.contains('open')) {
+                    if (!mobileMenu.contains(e.target) && menuToggle && !menuToggle.contains(e.target)) {
+                        mobileMenu.classList.remove('open');
+                        document.body.style.overflow = '';
+                    }
+                }
+            });
+
+            // Close on Escape key
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && mobileMenu && mobileMenu.classList.contains('open')) {
+                    mobileMenu.classList.remove('open');
+                    document.body.style.overflow = '';
+                }
+            });
+
+            // 2. Mobile Submenu Accordion
+            const mobileTriggers = document.querySelectorAll('.m-trigger');
+            mobileTriggers.forEach(trigger => {
+                trigger.addEventListener('click', function (e) {
+                    const submenu = this.nextElementSibling;
+                    if (!submenu) return;
+
+                    if (!submenu.classList.contains('active')) {
+                        e.preventDefault();
+                        document.querySelectorAll('.m-submenu').forEach(m => m.classList.remove('active'));
+                        document.querySelectorAll('.m-trigger i').forEach(i => i.style.transform = 'rotate(0deg)');
+                        submenu.classList.add('active');
+                        const icon = this.querySelector('i');
+                        if (icon) icon.style.transform = 'rotate(180deg)';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+

@@ -2,6 +2,12 @@
     "liveServer.settings.port": 5501,
     "liveServer.settings.mount": [
         ["/wills-probate-estate-administration", "./wills-probate-estate-administration.html"],
+        ["/nri-landlord-tenant-eviction", "./nri-landlord-tenant-eviction.html"],
+        ["/nri-landlord-tenant-eviction/", "./nri-landlord-tenant-eviction.html"],
+        ["/nri-rera-builder-disputes", "./nri-rera-builder-disputes.html"],
+        ["/nri-rera-builder-disputes/", "./nri-rera-builder-disputes.html"],
+        ["/nri-business-commercial-advisory", "./nri-business-commercial-advisory.html"],
+        ["/nri-business-commercial-advisory/", "./nri-business-commercial-advisory.html"],
         ["/oci-card-assistance", "./oci-card-assistance.html"],
         ["/nri-services", "./nri-services.html"],
         ["/nri-property-disputes", "./nri-property-disputes.html"],
