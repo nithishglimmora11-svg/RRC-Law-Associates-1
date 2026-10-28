@@ -1039,10 +1039,22 @@
                         </div>
 
                         <div class="col-md-7 form-area">
-                            <form action="https://api.web3forms.com/submit" method="POST">
-                                <input type="hidden" name="access_key" value="16bc44fb-4f4f-403d-9748-d675c7dcaf69">
-                                <input type="hidden" name="subject" value="16bc44fb-4f4f-403d-9748-d675c7dcaf69">
+                            <div id="bookingSuccessBox" class="text-center p-5 rounded-4 bg-white shadow-sm d-none">
+                                <div class="mb-3 text-gold" style="font-size: 3rem;">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <h3 class="fw-bold mb-2" style="color: #0b1c2d; font-family: 'Playfair Display', serif;">Consultation Booked Successfully</h3>
+                                <p class="text-muted mb-4">
+                                    Thank you for scheduling your consultation with RRC Law Associates. Our legal coordinator will contact you via WhatsApp / Phone to confirm your appointment time.
+                                </p>
+                                <button type="button" class="btn-gold py-2 px-4" onclick="location.reload()">Book Another Consultation</button>
+                            </div>
+
+                            <form action="https://api.web3forms.com/submit" method="POST" id="consultationBookingForm">
+                                <input type="hidden" name="access_key" value="c7cfef9d-f2e7-4c43-95e8-9a54f3e5773b">
+                                <input type="hidden" name="subject" value="New Legal Consultation Booking Request">
                                 <input type="hidden" name="from_name" value="RRC Law Associates">
+                                <input type="checkbox" name="botcheck" class="d-none" style="display: none;">
 
                                 <div class="row mb-4">
                                     <div class="col-6">
@@ -1116,7 +1128,11 @@
                                         <textarea name="message" class="form-control" rows="3" placeholder="How can we help?"></textarea>
                                     </div>
                                     <div class="col-12 mt-4">
-                                        <button type="submit" class="btn-gold py-3 w-100">
+                                        <div class="alert alert-danger d-none mb-3" id="bookingErrorAlert" role="alert">
+                                            <i class="fas fa-exclamation-triangle me-2"></i>
+                                            <span id="bookingErrorMessage">Unable to submit your booking. Please try again or reach us at +91 97511 82452.</span>
+                                        </div>
+                                        <button type="submit" class="btn-gold py-3 w-100" id="bookingSubmitBtn">
                                             Book Consultation
                                         </button>
                                         <p class="text-center small text-muted mt-3">You will receive an instant email with your free resources.</p>
@@ -1507,6 +1523,57 @@ scrollTopBtn.addEventListener('click', function () {
         <script src="script2.js?v=20261008-1" defer="defer"></script>
 <script src="script.js?v=20261008-1" data-rrc-ai-only defer></script>
 <div data-rrc-ai-chat-root></div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const bookingForm = document.getElementById('consultationBookingForm');
+    if (bookingForm) {
+        bookingForm.addEventListener('submit', async function (e) {
+            e.preventDefault();
+            const submitBtn = document.getElementById('bookingSubmitBtn');
+            const errorAlert = document.getElementById('bookingErrorAlert');
+            const errorMsg = document.getElementById('bookingErrorMessage');
+            const successBox = document.getElementById('bookingSuccessBox');
+
+            // Prevent duplicate submissions
+            if (submitBtn) {
+                submitBtn.disabled = true;
+                submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Booking Consultation...';
+            }
+            if (errorAlert) errorAlert.classList.add('d-none');
+
+            const formData = new FormData(bookingForm);
+
+            try {
+                const response = await fetch('https://api.web3forms.com/submit', {
+                    method: 'POST',
+                    body: formData
+                });
+                const data = await response.json();
+                if (response.ok && data.success) {
+                    bookingForm.classList.add('d-none');
+                    if (successBox) {
+                        successBox.classList.remove('d-none');
+                        successBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }
+                } else {
+                    throw new Error(data.message || 'Intake server did not accept the request.');
+                }
+            } catch (err) {
+                if (errorAlert) {
+                    errorMsg.textContent = err.message || 'Unable to connect to submission server. Please try again or reach us directly at +91 97511 82452.';
+                    errorAlert.classList.remove('d-none');
+                }
+            } finally {
+                if (submitBtn) {
+                    submitBtn.disabled = false;
+                    submitBtn.innerHTML = 'Book Consultation';
+                }
+            }
+        });
+    }
+});
+</script>
 </body>
 
 </html>
