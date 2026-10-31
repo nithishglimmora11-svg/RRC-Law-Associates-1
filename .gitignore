@@ -18,3 +18,4 @@ __pycache__/
 # Deployment and packaging archives
 rrc-law-ai-deploy.zip
 rrc-law-ai.zip
+*.backup

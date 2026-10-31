@@ -5,6 +5,9 @@
 RewriteEngine On
 RewriteBase /
 
+# Explicit primary index configuration for LiteSpeed & Apache web servers
+DirectoryIndex index.html index.php
+
 # --------------------------------------------------------------------
 # A. CANONICAL NON-WWW SECURE HTTPS ROUTING
 # --------------------------------------------------------------------
@@ -28,6 +31,9 @@ RewriteRule ^index\.html$ https://rrclawassociates.com/ [L,R=301]
 
 # Deny direct browser access to internal development, backend, and git directories
 RewriteRule ^(scratch|tools|rrc-law-ai|\.git|\.github)(/|$) - [F,L,NC]
+
+# Preserve Node.js AI chatbot API endpoints (pass through to Passenger / backend)
+RewriteRule ^api(/.*)?$ - [L]
 
 # --------------------------------------------------------------------
 # B. CLEAN URL ENGINE & OCI LEGAL GUIDES ROUTING
@@ -158,11 +164,15 @@ RewriteRule ^([^/]+)$ $1.html [L]
 # G. SERVER DIRECTORY & ERROR RECOVERY MAP
 # --------------------------------------------------------------------
 
+# Explicit primary index configuration
+DirectoryIndex index.html index.php
+
 # Block structural folder list views from exposing background source lineages publicly
 Options -Indexes
 
-# Map standard 404 response codes directly to your custom page asset
+# Map standard 404 and 403 response codes directly to your custom page asset
 ErrorDocument 404 /404.html
+ErrorDocument 403 /404.html
 
 # Protect sensitive configuration files and archives from direct HTTP retrieval
 <FilesMatch "^(\.env|\.cpanel\.yml|\.gitignore|.*\.zip)$">
