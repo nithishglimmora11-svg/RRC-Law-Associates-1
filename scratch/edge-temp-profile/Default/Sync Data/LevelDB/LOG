@@ -1,6 +1,0 @@
-2026/10/16-15:14:40.043 6d80 Reusing MANIFEST C:\Users\nithi\RRC-Law-Associates-1\scratch\edge-temp-profile\Default\Sync Data\LevelDB/MANIFEST-000001
-2026/10/16-15:14:40.044 6d80 Recovering log #4
-2026/10/16-15:14:40.045 6d80 Reusing old log C:\Users\nithi\RRC-Law-Associates-1\scratch\edge-temp-profile\Default\Sync Data\LevelDB/000004.log 
-2026/10/16-15:15:40.795 36b0 Level-0 table #8: started
-2026/10/16-15:15:40.811 36b0 Level-0 table #8: 100966 bytes OK
-2026/10/16-15:15:40.822 36b0 Delete type=0 #4

@@ -1,3 +1,20 @@
+# Security and environment credentials
+.env
+*.env
+*.env.*
 
+# Temporary development and test artifacts
+scratch/
+temp_prof_*
+cdp_temp_*
+edge-temp-*
+chrome_*
+
+# Browser and test artifacts
+*.pma
+*.log
+__pycache__/
+
+# Deployment and packaging archives
 rrc-law-ai-deploy.zip
 rrc-law-ai.zip

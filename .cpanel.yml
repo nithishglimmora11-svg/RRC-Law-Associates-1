@@ -2,5 +2,15 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/rrcltdbn/public_html/
-    - cp -R * $DEPLOYPATH
+    # 1. Primary: Use rsync with explicit exclusions if available on the server
+    # 2. Fallback: Copy via strict allowlist so development/backend folders can never reach public_html even temporarily
+    - |
+      if command -v rsync >/dev/null 2>&1; then
+        rsync -av --exclude='scratch' --exclude='tools' --exclude='rrc-law-ai' --exclude='.git*' --exclude='node_modules' --exclude='*.zip' --exclude='*.log' . $DEPLOYPATH
+      else
+        mkdir -p $DEPLOYPATH/assets $DEPLOYPATH/nri-landlord-tenant-eviction
+        cp *.html *.css *.js sitemap.xml robots.txt site.webmanifest asset-version.txt llms.txt $DEPLOYPATH/ 2>/dev/null || true
+        cp -R assets/* $DEPLOYPATH/assets/ 2>/dev/null || true
+        cp -R nri-landlord-tenant-eviction/* $DEPLOYPATH/nri-landlord-tenant-eviction/ 2>/dev/null || true
+      fi
     - cp .htaccess $DEPLOYPATH

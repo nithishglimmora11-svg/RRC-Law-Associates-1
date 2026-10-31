@@ -23,6 +23,13 @@ RewriteCond %{THE_REQUEST} /index\.html [NC]
 RewriteRule ^index\.html$ https://rrclawassociates.com/ [L,R=301]
 
 # --------------------------------------------------------------------
+# SECURITY GUARDS: BLOCK ACCESS TO INTERNAL TOOLS & REPOSITORY DIRS
+# --------------------------------------------------------------------
+
+# Deny direct browser access to internal development, backend, and git directories
+RewriteRule ^(scratch|tools|rrc-law-ai|\.git|\.github)(/|$) - [F,L,NC]
+
+# --------------------------------------------------------------------
 # B. CLEAN URL ENGINE & OCI LEGAL GUIDES ROUTING
 # --------------------------------------------------------------------
 
@@ -51,6 +58,10 @@ RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+nri-business-commercial-advisory\.html(
 RewriteRule ^ https://rrclawassociates.com/nri-business-commercial-advisory/ [R=301,L,QSA]
 RewriteRule ^nri-business-commercial-advisory$ https://rrclawassociates.com/nri-business-commercial-advisory/ [R=301,L,QSA]
 RewriteRule ^nri-business-commercial-advisory/$ /nri-business-commercial-advisory.html [L,NC,QSA]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+us-india-documentation-services\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/us-india-documentation-services/ [R=301,L,QSA]
+RewriteRule ^us-india-documentation-services$ https://rrclawassociates.com/us-india-documentation-services/ [R=301,L,QSA]
+RewriteRule ^us-india-documentation-services/$ /us-india-documentation-services.html [L,NC,QSA]
 
 # 5. Site-wide clean URL: 301 redirect remaining .html requests to clean URLs (without trailing slash)
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.html(?:\?[^\s]*)?\s [NC]
@@ -152,3 +163,8 @@ Options -Indexes
 
 # Map standard 404 response codes directly to your custom page asset
 ErrorDocument 404 /404.html
+
+# Protect sensitive configuration files and archives from direct HTTP retrieval
+<FilesMatch "^(\.env|\.cpanel\.yml|\.gitignore|.*\.zip)$">
+    Require all denied
+</FilesMatch>
