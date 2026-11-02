@@ -4961,6 +4961,9 @@ button:disabled,
 
   .header .dropdown:hover>.dropdown-menu-nri,
   .header .dropdown:focus-within>.dropdown-menu-nri,
+  .header .dropdown:hover>.dropdown-menu.dropdown-menu-nri,
+  .header .dropdown:focus-within>.dropdown-menu.dropdown-menu-nri,
+  .header .dropdown>.dropdown-menu.dropdown-menu-nri.show,
   .dropdown-menu-nri.show {
     display: grid !important;
   }

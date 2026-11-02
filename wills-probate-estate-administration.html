@@ -334,10 +334,10 @@
 
         @media (min-width: 992px) {
 
-            .header .dropdown:hover>.dropdown-menu,
-            .header .dropdown:focus-within>.dropdown-menu {
-                display: block !important;
-                margin-top: 0 !important;
+            .header .dropdown:hover > .dropdown-menu:not(.dropdown-menu-nri),
+            .header .dropdown:focus-within > .dropdown-menu:not(.dropdown-menu-nri) {
+                display: block;
+                margin-top: 0;
             }
         }
 
