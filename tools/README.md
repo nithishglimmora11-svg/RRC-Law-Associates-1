@@ -1,4 +1,4 @@
-﻿# RRC Law Associates â€” Developer Tooling Suite
+# RRC Law Associates — Developer Tooling Suite
 
 This directory contains standalone, zero-dependency developer utilities for maintaining, auditing, and deploying the RRC Law Associates website.
 

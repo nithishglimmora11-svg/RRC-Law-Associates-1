@@ -1,5 +1,5 @@
-﻿/**
- * RRC Law Associates â€” Automated Browser Regression Verification Suite
+/**
+ * RRC Law Associates - Automated Browser Regression Verification Suite
  *
  * Runs automated headless browser verification against a local development server:
  * - Checks for JavaScript console errors and network 404s on core landing pages.
@@ -46,7 +46,7 @@ async function runRegressionSuite() {
   }
 
   console.log('====================================================');
-  console.log('  RRC Law Associates â€” Browser Regression Suite      ');
+  console.log('  RRC Law Associates - Browser Regression Suite      ');
   console.log(`  Target: ${BASE_URL}                                `);
   console.log('====================================================\n');
 

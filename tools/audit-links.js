@@ -1,10 +1,10 @@
-﻿/**
- * RRC Law Associates â€” Link & Asset Integrity Auditor
+/**
+ * RRC Law Associates - Link & Asset Integrity Auditor
  *
  * Scans all HTML files across the project for broken internal links,
  * missing image/script/CSS assets, and broken anchor (#hash) targets.
  *
- * Zero dependencies â€” runs on standard Node.js.
+ * Zero dependencies - runs on standard Node.js.
  * Usage: node tools/audit-links.js
  */
 
@@ -32,7 +32,7 @@ function getHtmlFiles(dir) {
 
 function runAudit() {
   console.log('====================================================');
-  console.log('  RRC Law Associates â€” Link & Asset Integrity Audit  ');
+  console.log('  RRC Law Associates - Link & Asset Integrity Audit  ');
   console.log('====================================================\n');
 
   const htmlFiles = getHtmlFiles(ROOT);

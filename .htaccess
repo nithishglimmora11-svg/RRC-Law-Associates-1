@@ -9,6 +9,12 @@ RewriteBase /
 DirectoryIndex index.html index.php
 
 # --------------------------------------------------------------------
+# DEFAULT CHARACTER ENCODING (Standard UTF-8 across all responses)
+# --------------------------------------------------------------------
+AddDefaultCharset UTF-8
+AddCharset UTF-8 .html .css .js .xml .json
+
+# --------------------------------------------------------------------
 # A. CANONICAL NON-WWW SECURE HTTPS ROUTING
 # --------------------------------------------------------------------
 
