@@ -38,6 +38,9 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
 
+    <!-- Preload First Hero Carousel Image -->
+    <link rel="preload" as="image" href="/assets/images/customs-carousel/customs-carousel-port.webp" type="image/webp" fetchpriority="high">
+
     <!-- Fonts & Vendor CSS with preconnect and swap -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -209,83 +212,191 @@
         }
 
         /* ========================================================
-           SECTION 1: HERO SECTION
+           SECTION 1: HERO SECTION & DYNAMIC AI BACKGROUND SLIDESHOW
         ======================================================== */
         .customs-hero {
             position: relative;
-            background: radial-gradient(circle at 82% 28%, rgba(20, 52, 94, 0.75) 0%, #0E1C2F 72%),
-                        linear-gradient(135deg, #091524 0%, #0E1C2F 50%, #0a182b 100%);
+            min-height: 580px;
+            background: #242321;
             color: #ffffff;
             overflow: hidden;
-            border-bottom: 3px solid var(--gold);
+            border-bottom: 3px solid #D5AD60;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
-        .customs-hero-bg-overlay {
+        /* Full-Width Carousel Background Track */
+        .customs-carousel-track {
             position: absolute;
             inset: 0;
-            background-image: radial-gradient(rgba(254, 212, 136, 0.12) 1px, transparent 1px);
-            background-size: 28px 28px;
-            opacity: 0.35;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
             pointer-events: none;
+            overflow: hidden;
         }
 
-        .customs-hero-inner {
-            width: min(100% - 48px, 1280px);
-            margin-inline: auto;
-            display: grid;
-            grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
-            align-items: center;
-            gap: 48px;
-            padding: 56px 0 64px;
-            position: relative;
+        .customs-carousel-slide {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+            will-change: opacity;
+        }
+
+        .customs-carousel-slide.active {
+            opacity: 1;
+            visibility: visible;
             z-index: 2;
         }
 
-        /* Hero Heading: Playfair Display, 500-600 Weight */
+        .customs-carousel-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center right;
+            transform: scale(1.0);
+            transition: transform 6.5s ease-out;
+        }
+
+        .customs-carousel-slide.active img {
+            transform: scale(1.04);
+        }
+
+        /* Sophisticated Warm Charcoal & Bronze-Toned Gradient Overlay */
+        .customs-hero-bg-overlay {
+            position: absolute;
+            inset: 0;
+            z-index: 3;
+            pointer-events: none;
+            background:
+                linear-gradient(90deg,
+                    rgba(36, 35, 33, 0.94) 0%,
+                    rgba(36, 35, 33, 0.90) 25%,
+                    rgba(48, 43, 39, 0.82) 45%,
+                    rgba(48, 43, 39, 0.52) 65%,
+                    rgba(112, 83, 51, 0.22) 80%,
+                    rgba(36, 35, 33, 0.10) 100%),
+                linear-gradient(180deg,
+                    rgba(36, 35, 33, 0.45) 0%,
+                    transparent 30%,
+                    transparent 65%,
+                    rgba(36, 35, 33, 0.60) 100%);
+        }
+
+        .customs-hero-bg-overlay::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: radial-gradient(rgba(213, 173, 96, 0.07) 1px, transparent 1px);
+            background-size: 28px 28px;
+            opacity: 0.6;
+        }
+
+        /* Hero Content Container - Properly Constrained & Centered */
+        .customs-hero-inner {
+            width: 100%;
+            max-width: 1400px;
+            margin-inline: auto;
+            padding: 72px 48px;
+            position: relative;
+            z-index: 4;
+            display: flex;
+            align-items: center;
+            box-sizing: border-box;
+        }
+
+        .customs-hero-content {
+            width: 100%;
+            max-width: 720px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: left;
+            position: relative;
+        }
+
+        /* Backward compatibility if text-col is referenced */
+        .customs-hero-text-col {
+            width: 100%;
+            max-width: 720px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: left;
+            position: relative;
+        }
+
+        /* Hero Heading: Playfair Display, 52-60px, Line-height 1.14 */
         .customs-hero-title {
             font-family: var(--font-serif);
-            font-size: var(--fs-hero);
+            font-size: clamp(2.5rem, 3.4vw, 3.625rem);
             font-weight: 600;
-            line-height: 1.20;
+            line-height: 1.14;
             color: #ffffff;
-            letter-spacing: -0.018em;
-            margin-bottom: 16px;
+            letter-spacing: -0.015em;
+            margin: 0 0 18px 0;
+            padding: 0;
+            text-align: left;
+            text-wrap: balance;
+            text-shadow: 0 2px 16px rgba(0, 0, 0, 0.6);
+            width: 100%;
         }
 
-        /* Hero Subtitle: Plus Jakarta Sans */
+        /* Hero Subtitle: Plus Jakarta Sans, 18-20px, Line-height 1.6 */
         .customs-hero-subtitle {
             font-family: var(--font-sans);
-            font-size: clamp(1rem, 1.25vw, 1.15rem);
+            font-size: clamp(1.0625rem, 1.2vw, 1.25rem);
             font-weight: 500;
-            line-height: 1.55;
-            color: var(--gold-bright);
-            margin-bottom: 20px;
+            line-height: 1.60;
+            color: #FED488;
+            margin: 0 0 22px 0;
+            padding: 0;
+            text-align: left;
             max-width: 62ch;
+            text-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+            width: 100%;
         }
 
-        /* Hero Topics: Plus Jakarta Sans */
+        /* Hero Topics: Clean horizontal flex layout with generous gold separators */
         .customs-hero-topics {
             display: flex;
             flex-wrap: wrap;
             align-items: center;
-            gap: 8px 10px;
+            gap: 10px 16px;
             font-family: var(--font-sans);
-            font-size: var(--fs-meta);
+            font-size: clamp(0.8125rem, 0.9vw, 0.875rem);
             font-weight: 500;
-            color: rgba(255, 255, 255, 0.85);
-            margin-bottom: 28px;
+            color: rgba(255, 255, 255, 0.95);
+            margin: 0 0 32px 0;
+            padding: 0;
+            text-align: left;
+            width: 100%;
+        }
+
+        .customs-hero-topics span:not(.topic-sep) {
+            letter-spacing: 0.02em;
         }
 
         .customs-hero-topics .topic-sep {
-            color: var(--gold);
-            opacity: 0.6;
+            color: #D5AD60;
+            opacity: 0.85;
+            user-select: none;
         }
 
+        /* CTA Actions: Flush left-aligned with consistent 16px gap */
         .customs-hero-actions {
             display: flex;
             flex-wrap: wrap;
             gap: 16px;
             align-items: center;
+            margin: 0;
+            padding: 0;
+            width: 100%;
         }
 
         .btn-customs-explore {
@@ -293,23 +404,29 @@
             font-size: var(--fs-btn);
             font-weight: 600;
             letter-spacing: 0.01em;
-            background: linear-gradient(135deg, var(--gold) 0%, #b8913d 100%);
-            color: #081320 !important;
-            padding: 13px 26px;
+            background: linear-gradient(135deg, #D5AD60 0%, #b88d3d 100%);
+            color: #1a1715 !important;
+            padding: 14px 28px;
+            min-height: 52px;
             border-radius: 6px;
             display: inline-flex;
             align-items: center;
+            justify-content: center;
             gap: 10px;
             text-decoration: none;
-            box-shadow: 0 4px 18px rgba(201, 162, 77, 0.35);
+            box-shadow: 0 4px 18px rgba(112, 83, 51, 0.4);
+            border: 1px solid #D5AD60;
+            box-sizing: border-box;
             transition: all 0.25s ease;
         }
 
-        .btn-customs-explore:hover {
-            background: linear-gradient(135deg, var(--gold-bright) 0%, var(--gold) 100%);
+        .btn-customs-explore:hover,
+        .btn-customs-explore:focus-visible {
+            background: linear-gradient(135deg, #FED488 0%, #D5AD60 100%);
             transform: translateY(-2px);
-            box-shadow: 0 6px 22px rgba(201, 162, 77, 0.5);
-            color: #081320 !important;
+            box-shadow: 0 6px 22px rgba(213, 173, 96, 0.5);
+            color: #1a1715 !important;
+            outline: none;
         }
 
         .btn-customs-articles {
@@ -317,50 +434,40 @@
             font-size: var(--fs-btn);
             font-weight: 600;
             letter-spacing: 0.01em;
-            background: rgba(255, 255, 255, 0.08);
-            border: 1px solid rgba(255, 255, 255, 0.25);
+            background: rgba(48, 43, 39, 0.55);
+            border: 1.5px solid rgba(213, 173, 96, 0.45);
             color: #ffffff !important;
-            padding: 13px 24px;
+            padding: 14px 26px;
+            min-height: 52px;
             border-radius: 6px;
             display: inline-flex;
             align-items: center;
+            justify-content: center;
             gap: 10px;
             text-decoration: none;
+            backdrop-filter: blur(8px);
+            box-sizing: border-box;
             transition: all 0.25s ease;
-            backdrop-filter: blur(4px);
         }
 
-        .btn-customs-articles:hover {
-            background: rgba(255, 255, 255, 0.16);
-            border-color: var(--gold);
-            color: var(--gold-bright) !important;
+        .btn-customs-articles:hover,
+        .btn-customs-articles:focus-visible {
+            background: rgba(112, 83, 51, 0.45);
+            border-color: #D5AD60;
+            color: #FED488 !important;
             transform: translateY(-2px);
+            outline: none;
         }
 
-        .customs-hero-image-col {
-            position: relative;
-        }
-
-        .customs-hero-image-card {
-            position: relative;
-            border-radius: 12px;
-            overflow: hidden;
-            border: 2px solid rgba(201, 162, 77, 0.55);
-            box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
-            aspect-ratio: 16 / 9;
-            background: #081320;
-        }
-
-        .customs-hero-image-card img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-            transition: transform 0.6s ease;
-        }
-
-        .customs-hero-image-card:hover img {
-            transform: scale(1.025);
+        /* Reduced Motion */
+        @media (prefers-reduced-motion: reduce) {
+            .customs-carousel-slide {
+                transition: none !important;
+            }
+            .customs-carousel-slide img {
+                transition: none !important;
+                transform: none !important;
+            }
         }
 
         /* ========================================================
@@ -1023,11 +1130,37 @@
             }
         }
 
-        @media (max-width: 991.98px) {
+        @media (max-width: 1200px) {
             .customs-hero-inner {
-                grid-template-columns: 1fr;
-                padding: 44px 0 52px;
-                gap: 32px;
+                padding: 64px 36px;
+            }
+            .customs-hero-content,
+            .customs-hero-text-col {
+                max-width: 640px;
+            }
+        }
+
+        @media (max-width: 991.98px) {
+            .customs-hero {
+                min-height: 500px;
+                height: auto;
+            }
+            .customs-hero-inner {
+                padding: 52px 32px;
+            }
+            .customs-hero-content,
+            .customs-hero-text-col {
+                max-width: 100%;
+            }
+            .customs-hero-title {
+                font-size: clamp(2.15rem, 4.5vw, 2.75rem);
+            }
+            .customs-hero-bg-overlay {
+                background:
+                    linear-gradient(180deg,
+                        rgba(36, 35, 33, 0.88) 0%,
+                        rgba(48, 43, 39, 0.80) 60%,
+                        rgba(36, 35, 33, 0.90) 100%);
             }
             .customs-practice-grid {
                 grid-template-columns: repeat(2, 1fr);
@@ -1044,8 +1177,22 @@
         }
 
         @media (max-width: 600px) {
+            .customs-hero {
+                min-height: 440px;
+            }
             .customs-hero-inner {
-                padding: 32px 0 40px;
+                padding: 40px 20px;
+            }
+            .customs-hero-title {
+                font-size: clamp(1.85rem, 6.5vw, 2.25rem);
+                line-height: 1.18;
+            }
+            .customs-hero-subtitle {
+                font-size: 1rem;
+            }
+            .customs-hero-topics {
+                gap: 8px 12px;
+                margin-bottom: 24px;
             }
             .customs-practice-grid {
                 grid-template-columns: 1fr;
@@ -1299,13 +1446,60 @@
         </div>
     </nav>
 
-    <!-- SECTION 1: HERO SECTION -->
-    <section class="customs-hero" id="hero">
-        <div class="customs-hero-bg-overlay"></div>
+    <!-- SECTION 1: HERO SECTION WITH AUTOMATIC AI BACKGROUND SLIDESHOW -->
+    <section class="customs-hero" id="hero" aria-label="Customs Law Practice Highlights">
+        <!-- 5 AI-Generated Photographic Background Slides -->
+        <div class="customs-carousel-track">
+            <!-- Slide 1: International Shipping Port -->
+            <div class="customs-carousel-slide active" aria-hidden="false" data-index="0">
+                <img src="/assets/images/customs-carousel/customs-carousel-port.webp"
+                    alt="Aerial view of commercial shipping port terminal with container vessel and gantry cranes at golden hour"
+                    loading="eager"
+                    fetchpriority="high"
+                    width="1920"
+                    height="1080">
+            </div>
+            <!-- Slide 2: International Cargo Operations -->
+            <div class="customs-carousel-slide" aria-hidden="true" data-index="1">
+                <img src="/assets/images/customs-carousel/customs-carousel-cargo-operations.webp"
+                    alt="Commercial shipping terminal with gantry cranes loading and unloading container freight"
+                    loading="lazy"
+                    width="1920"
+                    height="1080">
+            </div>
+            <!-- Slide 3: Customs Cargo Inspection -->
+            <div class="customs-carousel-slide" aria-hidden="true" data-index="2">
+                <img src="/assets/images/customs-carousel/customs-carousel-inspection.webp"
+                    alt="Customs inspection officers reviewing shipping documentation and examining imported cargo containers"
+                    loading="lazy"
+                    width="1920"
+                    height="1080">
+            </div>
+            <!-- Slide 4: Customs Legal Documentation -->
+            <div class="customs-carousel-slide" aria-hidden="true" data-index="3">
+                <img src="/assets/images/customs-carousel/customs-carousel-legal-documentation.webp"
+                    alt="Advocate desk with customs case files, import-export legal documentation and law library"
+                    loading="lazy"
+                    width="1920"
+                    height="1080">
+            </div>
+            <!-- Slide 5: International Maritime Trade -->
+            <div class="customs-carousel-slide" aria-hidden="true" data-index="4">
+                <img src="/assets/images/customs-carousel/customs-carousel-international-trade.webp"
+                    alt="International cargo container vessel navigating commercial harbor during golden hour"
+                    loading="lazy"
+                    width="1920"
+                    height="1080">
+            </div>
+        </div>
+
+        <!-- Sophisticated Warm Charcoal & Bronze-Toned Gradient Overlay -->
+        <div class="customs-hero-bg-overlay" aria-hidden="true"></div>
+
+        <!-- Centered Constrained Hero Content Container -->
         <div class="customs-hero-inner">
-            <!-- Left Column: Title, Subtitle, Supporting Topics & Actions -->
-            <div class="customs-hero-text-col">
-                <h1 class="customs-hero-title">Customs Law &mdash; Advisory<br class="d-none d-md-inline"> &amp; Litigation</h1>
+            <div class="customs-hero-content">
+                <h1 class="customs-hero-title">Customs Law &mdash; Advisory &amp; Litigation</h1>
                 <div class="customs-hero-subtitle">Strategic Legal Support for Import, Export and Customs Disputes</div>
                 <div class="customs-hero-topics">
                     <span>Investigations</span>
@@ -1324,25 +1518,14 @@
                 </div>
                 <div class="customs-hero-actions">
                     <a href="#practice-areas" class="btn-customs-explore">
-                        <i class="fa-solid fa-scale-balanced"></i>
+                        <i class="fa-solid fa-scale-balanced" aria-hidden="true"></i>
                         <span>Explore Practice Areas</span>
-                        <i class="fa-solid fa-arrow-right ms-1"></i>
+                        <i class="fa-solid fa-arrow-right ms-1" aria-hidden="true"></i>
                     </a>
                     <a href="#priority-articles" class="btn-customs-articles">
-                        <i class="fa-regular fa-file-lines"></i>
+                        <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
                         <span>View Priority Articles</span>
                     </a>
-                </div>
-            </div>
-
-            <!-- Right Column: Approved Commercial Shipping Port Photograph -->
-            <div class="customs-hero-image-col">
-                <div class="customs-hero-image-card">
-                    <img src="/assets/images/customs-hero-port-original.jpg"
-                        alt="Commercial shipping port with docked container vessel, gantry cranes and golden sunset - Customs Law Advisory"
-                        loading="eager"
-                        width="1024"
-                        height="576">
                 </div>
             </div>
         </div>
@@ -2444,6 +2627,93 @@
                     });
                 }
             }
+
+            // 5. Dynamic AI-Generated Image Hero Slideshow (Automatic Transitions Only)
+            (function initCustomsHeroSlideshow() {
+                const hero = document.getElementById('hero');
+                if (!hero) return;
+
+                const slides = hero.querySelectorAll('.customs-carousel-slide');
+                if (!slides.length) return;
+
+                let currentIndex = 0;
+                const totalSlides = slides.length;
+                const SLIDE_INTERVAL = 5000;
+                let slideshowTimer = null;
+
+                const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+                function preloadNext(index) {
+                    const nextIdx = (index + 1) % totalSlides;
+                    const nextImg = slides[nextIdx].querySelector('img');
+                    if (nextImg && nextImg.src) {
+                        const preloader = new Image();
+                        preloader.src = nextImg.src;
+                    }
+                }
+
+                function showSlide(index) {
+                    const targetIndex = (index + totalSlides) % totalSlides;
+                    if (targetIndex === currentIndex && slides[currentIndex].classList.contains('active')) return;
+
+                    slides[currentIndex].classList.remove('active');
+                    slides[currentIndex].setAttribute('aria-hidden', 'true');
+
+                    currentIndex = targetIndex;
+
+                    slides[currentIndex].classList.add('active');
+                    slides[currentIndex].setAttribute('aria-hidden', 'false');
+
+                    preloadNext(currentIndex);
+                }
+
+                function nextSlide() {
+                    showSlide(currentIndex + 1);
+                }
+
+                function startAutoplay() {
+                    if (prefersReducedMotion) return;
+                    stopAutoplay();
+                    slideshowTimer = setInterval(() => {
+                        if (document.visibilityState === 'visible') {
+                            nextSlide();
+                        }
+                    }, SLIDE_INTERVAL);
+                }
+
+                function stopAutoplay() {
+                    if (slideshowTimer) {
+                        clearInterval(slideshowTimer);
+                        slideshowTimer = null;
+                    }
+                }
+
+                // Pause when browser tab is hidden to save memory and battery
+                document.addEventListener('visibilitychange', () => {
+                    if (document.hidden) {
+                        stopAutoplay();
+                    } else {
+                        startAutoplay();
+                    }
+                });
+
+                // Static first-slide fallback for prefers-reduced-motion
+                if (prefersReducedMotion) {
+                    slides.forEach((slide, i) => {
+                        if (i === 0) {
+                            slide.classList.add('active');
+                            slide.setAttribute('aria-hidden', 'false');
+                        } else {
+                            slide.classList.remove('active');
+                            slide.setAttribute('aria-hidden', 'true');
+                        }
+                    });
+                    return;
+                }
+
+                preloadNext(0);
+                startAutoplay();
+            })();
         });
 
     </script>
