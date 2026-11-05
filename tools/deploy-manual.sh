@@ -13,7 +13,7 @@ echo "[DEPLOY] Starting RRC Law Associates production deployment..."
 echo "[DEPLOY] Target destination: $DEPLOYPATH"
 
 # 1. Ensure required subdirectories exist
-/bin/mkdir -p "$DEPLOYPATH/assets" "$DEPLOYPATH/nri-landlord-tenant-eviction"
+/bin/mkdir -p "$DEPLOYPATH/assets" "$DEPLOYPATH/nri-landlord-tenant-eviction" "$DEPLOYPATH/practice-areas" "$DEPLOYPATH/practice-areas/customs-law"
 
 # 2. Deploy core HTML pages (homepage, practice areas, NRI services, OCI guides)
 echo "[DEPLOY] Deploying HTML files..."
@@ -22,7 +22,7 @@ echo "[DEPLOY] Deploying HTML files..."
 # 3. Deploy stylesheets and JavaScript
 echo "[DEPLOY] Deploying CSS & JavaScript..."
 /bin/cp *.css "$DEPLOYPATH/"
-/bin/cp script.js script2.js "$DEPLOYPATH/"
+/bin/cp *.js "$DEPLOYPATH/"
 
 # 4. Deploy metadata, SEO, and cache-busting identifiers
 echo "[DEPLOY] Deploying SEO and metadata..."
@@ -34,6 +34,7 @@ echo "[DEPLOY] Deploying assets..."
 
 # 6. Deploy multi-level directories
 /bin/cp -R nri-landlord-tenant-eviction/* "$DEPLOYPATH/nri-landlord-tenant-eviction/"
+/bin/cp -R practice-areas/* "$DEPLOYPATH/practice-areas/"
 
 # 7. Deploy production .htaccess configuration
 echo "[DEPLOY] Deploying .htaccess..."
@@ -42,9 +43,11 @@ echo "[DEPLOY] Deploying .htaccess..."
 # 8. Enforce standard secure hosting permissions
 echo "[DEPLOY] Setting permissions (755 for dirs, 644 for files)..."
 /bin/chmod 755 "$DEPLOYPATH"
-/bin/chmod 755 "$DEPLOYPATH/assets" "$DEPLOYPATH/nri-landlord-tenant-eviction"
+/bin/chmod 755 "$DEPLOYPATH/assets" "$DEPLOYPATH/nri-landlord-tenant-eviction" "$DEPLOYPATH/practice-areas" "$DEPLOYPATH/practice-areas/customs-law"
 /bin/find "$DEPLOYPATH/assets" -type d -exec /bin/chmod 755 {} +
 /bin/find "$DEPLOYPATH/assets" -type f -exec /bin/chmod 644 {} +
+/bin/find "$DEPLOYPATH/practice-areas" -type d -exec /bin/chmod 755 {} +
+/bin/find "$DEPLOYPATH/practice-areas" -type f -exec /bin/chmod 644 {} +
 /bin/chmod 644 "$DEPLOYPATH"/*.html "$DEPLOYPATH"/*.css "$DEPLOYPATH"/*.js "$DEPLOYPATH"/.htaccess
 
 echo "[DEPLOY] Production deployment completed successfully!"
