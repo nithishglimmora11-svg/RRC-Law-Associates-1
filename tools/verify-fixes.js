@@ -110,6 +110,7 @@ async function runRegressionSuite() {
 
     const pagesToCheck = [
       'index.html',
+      'practice-areas/customs-law/',
       'oci-card-assistance.html',
       'core-practice-areas.html',
       'lawfirm-blog.html',

@@ -75,6 +75,15 @@ const server = http.createServer((req, res) => {
         return;
     }
 
+    // 1b. Directory index match (e.g. /practice-areas/customs-law/ or /nri-landlord-tenant-eviction/)
+    if (fs.existsSync(fullPath) && fs.statSync(fullPath).isDirectory()) {
+        const dirIndex = path.join(fullPath, 'index.html');
+        if (fs.existsSync(dirIndex) && fs.statSync(dirIndex).isFile()) {
+            sendFile(res, dirIndex, MIME_TYPES['.html']);
+            return;
+        }
+    }
+
     // 2. Trailing slash resolution (serving canonical clean URLs like /nri-landlord-tenant-eviction/)
     if (pathname.length > 1 && pathname.endsWith('/')) {
         const trimmed = pathname.slice(0, -1);

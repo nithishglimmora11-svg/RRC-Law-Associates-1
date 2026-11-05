@@ -172,6 +172,7 @@
 .m-submenu {
     max-height: 420px;
     overflow-y: auto;
+    overflow-x: hidden !important;
     scrollbar-width: none;
 }
 
@@ -628,22 +629,25 @@
 }
 
 /* =========================================================
-   TWO-COLUMN NRI SERVICES DROPDOWN (Matching Practice Areas)
+   PREMIUM UNIFIED TWO-COLUMN MEGA-MENUS
+   (NRI Services & Practice Areas Standardized System)
    ========================================================= */
 @media (min-width: 992px) {
-    .dropdown-menu-nri {
+    /* Shared Dropdown Mega-Menu Geometry & Aesthetics */
+    .dropdown-menu-nri,
+    .dropdown-menu-practice {
         width: 540px !important;
         max-width: calc(100vw - 32px) !important;
+        max-height: calc(100vh - 140px) !important;
+        overflow-y: auto !important;
         padding: 16px 18px !important;
-        background-color: #000000 !important;
-        /* Pure Black matching Practice Areas */
-        border: 1px solid #c9a24d !important;
-        /* Solid Gold border matching Practice Areas */
         border-radius: 6px !important;
-        /* 6px border radius matching Practice Areas */
-        box-shadow: 0 16px 48px rgba(0, 0, 0, 0.55) !important;
+        background-color: #000000 !important;
+        border: 1px solid #C9A24D !important;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.28) !important;
 
-        /* Positioning: anchored beneath NRI Services, opens flush below header bar */
+        /* Positioning: anchored beneath navigation item, flush below header bar */
+        position: absolute !important;
         top: calc(100% + 30.5px) !important;
         margin-top: 0 !important;
         left: 50% !important;
@@ -655,19 +659,47 @@
         grid-auto-flow: column !important;
         column-gap: 20px !important;
         row-gap: 4px !important;
+        z-index: 1250 !important;
     }
 
-    .header .dropdown:hover>.dropdown-menu-nri,
-    .header .dropdown:focus-within>.dropdown-menu-nri,
-    .header .dropdown:hover>.dropdown-menu.dropdown-menu-nri,
-    .header .dropdown:focus-within>.dropdown-menu.dropdown-menu-nri,
-    .header .dropdown>.dropdown-menu.dropdown-menu-nri.show,
-    .dropdown-menu-nri.show {
+    /* Elegant Vertical Column Divider */
+    .dropdown-menu-nri::after,
+    .dropdown-menu-practice::after {
+        content: "" !important;
+        position: absolute !important;
+        top: 16px !important;
+        bottom: 16px !important;
+        left: 50% !important;
+        width: 1px !important;
+        background: rgba(201, 164, 77, 0.25) !important;
+        pointer-events: none !important;
+    }
+
+    /* Open Display States */
+    .dropdown-menu-nri.is-active,
+    .dropdown-menu-practice.is-active,
+    .dropdown-menu-nri.show,
+    .dropdown-menu-practice.show,
+    .header .dropdown:hover > .dropdown-menu-nri:not(.is-closed),
+    .header .dropdown:focus-within > .dropdown-menu-nri:not(.is-closed),
+    .header .dropdown:hover > .dropdown-menu-practice:not(.is-closed),
+    .header .dropdown:focus-within > .dropdown-menu-practice:not(.is-closed) {
         display: grid !important;
     }
 
-    /* Invisible hover bridge to prevent menu from closing across the 30.5px header gap */
-    .header .dropdown-menu-nri::before {
+    /* Closed Suppression State (Guarantees zero simultaneous display) */
+    .header .dropdown > .dropdown-menu-nri.is-closed,
+    .header .dropdown > .dropdown-menu-practice.is-closed,
+    .header .dropdown:hover > .dropdown-menu-nri.is-closed,
+    .header .dropdown:hover > .dropdown-menu-practice.is-closed,
+    .dropdown-menu-nri.is-closed,
+    .dropdown-menu-practice.is-closed {
+        display: none !important;
+    }
+
+    /* Invisible hover bridge to prevent menu from closing across header gap */
+    .header .dropdown-menu-nri::before,
+    .header .dropdown-menu-practice::before {
         content: "" !important;
         position: absolute !important;
         top: -35px !important;
@@ -677,48 +709,145 @@
         background: transparent !important;
     }
 
-    .dropdown-menu-nri>li {
+    .dropdown-menu-nri > li,
+    .dropdown-menu-practice > li {
         list-style: none !important;
         margin: 0 !important;
         padding: 0 !important;
         display: flex !important;
     }
 
-    .dropdown-menu-nri .dropdown-item {
-        color: #ffffff !important;
+    /* Unified Menu Item Typography & Sizing */
+    .dropdown-menu-nri .dropdown-item,
+    .dropdown-menu-practice .dropdown-item {
         font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
-        font-size: 13.5px !important;
+        font-size: 14px !important;
         font-weight: 500 !important;
+        color: #FFFFFF !important;
         padding: 9px 12px !important;
         border-radius: 4px !important;
         text-transform: uppercase !important;
         letter-spacing: 0.3px !important;
         white-space: normal !important;
-        line-height: 1.35 !important;
+        line-height: 1.5 !important;
         display: flex !important;
         align-items: center !important;
         width: 100% !important;
         background-color: transparent !important;
         border-left: 2.5px solid transparent !important;
-        transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, transform 0.15s ease !important;
+        transition: color 0.18s ease, background-color 0.18s ease, border-color 0.18s ease, transform 0.15s ease !important;
     }
 
+    /* Unified Hover and Focus States */
     .dropdown-menu-nri .dropdown-item:hover,
-    .dropdown-menu-nri .dropdown-item:focus {
-        background-color: #1a1a1a !important;
-        /* Matches Practice Areas hover background */
-        color: #c9a24d !important;
-        /* Matches Practice Areas hover gold */
-        border-left-color: #c9a24d !important;
+    .dropdown-menu-nri .dropdown-item:focus,
+    .dropdown-menu-practice .dropdown-item:hover,
+    .dropdown-menu-practice .dropdown-item:focus {
+        background-color: #1C1C1C !important;
+        color: #FED488 !important;
+        border-left-color: #C9A24D !important;
         transform: translateX(3px) !important;
     }
 
+    /* Unified Active States */
     .dropdown-menu-nri .dropdown-item.active,
     .dropdown-menu-nri .dropdown-item.active-item,
-    .dropdown-menu-nri .dropdown-item.text-gold {
-        background-color: #1a1a1a !important;
-        color: #c9a24d !important;
-        font-weight: 700 !important;
-        border-left-color: #c9a24d !important;
+    .dropdown-menu-nri .dropdown-item.text-gold,
+    .dropdown-menu-practice .dropdown-item.active,
+    .dropdown-menu-practice .dropdown-item.active-item,
+    .dropdown-menu-practice .dropdown-item.text-gold {
+        background-color: #1C1C1C !important;
+        color: #FED488 !important;
+        font-weight: 600 !important;
+        border-left-color: #C9A24D !important;
+    }
+}
+
+
+/* =========================================================
+   PRACTICE AREAS SPLIT NAVIGATION TRIGGER
+   Matches NRI Services dimensions, margins, colors, and typography
+========================================================= */
+.header .dropdown.practice-dropdown-container {
+    display: inline-flex !important;
+    align-items: center !important;
+    position: relative !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.header .dropdown.practice-dropdown-container .practice-text-link {
+    color: #ffffff !important;
+    text-decoration: none !important;
+    font-weight: 500 !important;
+    font-size: 0.90rem !important;
+    white-space: nowrap !important;
+    margin: 0 0 0 15px !important;
+    padding: 0 !important;
+    line-height: inherit !important;
+    cursor: pointer !important;
+    transition: color 0.3s ease !important;
+    background: transparent !important;
+    border: none !important;
+}
+
+.header .dropdown.practice-dropdown-container .practice-text-link:hover,
+.header .dropdown.practice-dropdown-container .practice-text-link:focus {
+    color: #c9a24d !important;
+}
+
+.header .dropdown.practice-dropdown-container .practice-arrow-btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: #ffffff !important;
+    background: transparent !important;
+    border: none !important;
+    margin: 0 15px 0 4px !important;
+    padding: 4px 2px !important;
+    cursor: pointer !important;
+    line-height: 1 !important;
+    box-shadow: none !important;
+    outline: none !important;
+    transition: color 0.3s ease !important;
+}
+
+.header .dropdown.practice-dropdown-container .practice-arrow-btn:hover,
+.header .dropdown.practice-dropdown-container .practice-arrow-btn:focus,
+.header .dropdown.practice-dropdown-container .practice-arrow-btn[aria-expanded="true"] {
+    color: #c9a24d !important;
+}
+
+.header .dropdown.practice-dropdown-container .practice-arrow-btn::after {
+    display: inline-block !important;
+    margin-left: 0 !important;
+    vertical-align: 0.15em !important;
+    content: "" !important;
+    border-top: 0.3em solid !important;
+    border-right: 0.3em solid transparent !important;
+    border-bottom: 0 !important;
+    border-left: 0.3em solid transparent !important;
+    border-top-color: currentColor !important;
+    pointer-events: none !important;
+}
+
+/* Tablet & intermediate desktop responsiveness matching .nav-link-custom */
+@media (min-width: 992px) and (max-width: 1240px) {
+    .header .dropdown.practice-dropdown-container .practice-text-link {
+        margin: 0 0 0 8px !important;
+        font-size: 0.92rem !important;
+    }
+    .header .dropdown.practice-dropdown-container .practice-arrow-btn {
+        margin: 0 8px 0 3px !important;
+    }
+}
+
+@media (max-width: 1100px) {
+    .header .dropdown.practice-dropdown-container .practice-text-link {
+        margin: 0 0 0 7px !important;
+        font-size: 0.90rem !important;
+    }
+    .header .dropdown.practice-dropdown-container .practice-arrow-btn {
+        margin: 0 7px 0 3px !important;
     }
 }

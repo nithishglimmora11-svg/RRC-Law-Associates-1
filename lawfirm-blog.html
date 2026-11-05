@@ -968,7 +968,69 @@
         padding-top: 90px !important;
     }
 }
-    </style>
+
+    /* ===================================
+       BLOG CATEGORY FILTER PILLS
+       =================================== */
+    .blog-filter-container {
+        max-width: 1400px;
+        margin: 0 auto 2.5rem;
+        padding: 0 2%;
+    }
+    .blog-filter-pills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .filter-pill-btn {
+        background: #ffffff;
+        border: 1.5px solid #e2e8f0;
+        color: #1e293b;
+        padding: 8px 18px;
+        border-radius: 30px;
+        font-size: 0.92rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.25s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+    }
+    .filter-pill-btn:hover {
+        border-color: #cbd5e1;
+        background: #f8fafc;
+        transform: translateY(-1px);
+    }
+    .filter-pill-btn.active {
+        background: #0E1C2F !important;
+        color: #FED488 !important;
+        border-color: #0E1C2F !important;
+        box-shadow: 0 4px 14px rgba(14, 28, 47, 0.18);
+    }
+    .filter-pill-btn.filter-gold.active {
+        background: #c9a24d !important;
+        color: #0E1C2F !important;
+        border-color: #c9a24d !important;
+    }
+    .filter-count {
+        background: rgba(201, 162, 77, 0.25);
+        color: inherit;
+        font-size: 0.78rem;
+        padding: 2px 8px;
+        border-radius: 12px;
+        font-weight: 700;
+    }
+    .filter-pill-btn.active .filter-count {
+        background: rgba(0, 0, 0, 0.2);
+    }
+    .read-more-link:hover {
+        text-decoration: underline !important;
+    }
+
+</style>
     <link rel="stylesheet" href="topbar.css?v=20261008-1">
 </head>
 
@@ -1057,54 +1119,39 @@
                             NRI Services
                         </a>
                         <ul class="dropdown-menu dropdown-menu-nri shadow-lg">
-                        <li><a class="dropdown-item text-uppercase" href="oci-card-assistance.html">OCI Card &amp; Ancestry Assistance</a></li>
+                        <li><a class="dropdown-item text-uppercase" href="/oci-card-assistance">OCI Card &amp; Ancestry Assistance</a></li>
                         <li><a class="dropdown-item text-uppercase" href="/wills-probate-estate-administration">Wills, Probate &amp; Estate Administration</a></li>
                         <li><a class="dropdown-item text-uppercase" href="/nri-landlord-tenant-eviction/">Landlord–Tenant &amp; Eviction</a></li>
                         <li><a class="dropdown-item text-uppercase" href="/nri-rera-builder-disputes/">RERA &amp; Builder Disputes</a></li>
                         <li><a class="dropdown-item text-uppercase" href="/nri-business-commercial-advisory/">Business &amp; Commercial Advisory</a></li>
-                        <li><a class="dropdown-item text-uppercase" href="nri-property-disputes.html">Property Disputes</a></li>
-                        <li><a class="dropdown-item text-uppercase" href="nri-power-of-attorney.html">Power of Attorney</a></li>
-                        <li><a class="dropdown-item text-uppercase" href="us-india-documentation-services.html">U.S.–India Documentation</a></li>
-                        <li><a class="dropdown-item text-uppercase" href="nri-criminal-case.html">Criminal Cases</a></li>
-                        <li><a class="dropdown-item text-uppercase" href="nri-family-matrimonial.html">Family &amp; Matrimonial</a></li>
+                        <li><a class="dropdown-item text-uppercase" href="/nri-property-disputes">Property Disputes</a></li>
+                        <li><a class="dropdown-item text-uppercase" href="/nri-power-of-attorney">Power of Attorney</a></li>
+                        <li><a class="dropdown-item text-uppercase" href="/us-india-documentation-services/">U.S.–India Documentation</a></li>
+                        <li><a class="dropdown-item text-uppercase" href="/nri-criminal-case">Criminal Cases</a></li>
+                        <li><a class="dropdown-item text-uppercase" href="/nri-family-matrimonial">Family &amp; Matrimonial</a></li>
                     </ul>
                     </div>
-                    <div class="dropdown">
-                        <a
-                            class="nav-link-custom dropdown-toggle border-0 bg-transparent p-0"
-                            href="core-practice-areas.html"
-                            role="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Practice Areas
-                        </a>
-                       <ul class="dropdown-menu shadow-lg">
-                            <li>
-                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="family-law.html">Family Law Workspace</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="intellectual-property.html">Intellectual Property Advisory</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="employment-law.html">Labour &amp; Employment Protection</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="white-collar-crime.html">White Collar Crime Defense</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="property-law.html">Property Law &amp; Due Diligence</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="cyber-law.html">Cyber Law Desk</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="litigation-dispute-resolution.html">Litigation &amp; Dispute Resolution</a>
-                            </li>
-                        <li>
-                            <a class="dropdown-item text-uppercase" style="font-size: 14px;" href="cheque-bounce-lawyer.html">Cheque Bounce Lawyer</a>
-                        </li>
-                        </ul>
-                    </div>
+                                    <div class="dropdown practice-dropdown-container">
+                    <a class="nav-link-custom practice-text-link border-0 bg-transparent p-0"
+                        href="/core-practice-areas.html">
+                        Practice Areas
+                    </a>
+                    <button class="nav-link-custom practice-arrow-btn dropdown-toggle dropdown-toggle-split border-0 bg-transparent p-0"
+                        type="button" id="practiceDropdown" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="practiceMenu" aria-label="Toggle Practice Areas dropdown">
+                        <span class="visually-hidden">Toggle Practice Areas</span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-practice shadow-lg" id="practiceMenu" aria-labelledby="practiceDropdown">
+                        <li><a class="dropdown-item text-uppercase" href="/practice-areas/customs-law/">Customs Law Advisory &amp; Litigation</a></li>
+                        <li><a class="dropdown-item text-uppercase" href="/family-law.html">Family Law Workspace</a></li>
+                        <li><a class="dropdown-item text-uppercase" href="/intellectual-property.html">Intellectual Property Advisory</a></li>
+                        <li><a class="dropdown-item text-uppercase" href="/employment-law.html">Labour &amp; Employment Protection</a></li>
+                        <li><a class="dropdown-item text-uppercase" href="/white-collar-crime.html">White Collar Crime Defense</a></li>
+                        <li><a class="dropdown-item text-uppercase" href="/property-law.html">Property Law &amp; Due Diligence</a></li>
+                        <li><a class="dropdown-item text-uppercase" href="/cyber-law.html">Cyber Law Desk</a></li>
+                        <li><a class="dropdown-item text-uppercase" href="/litigation-dispute-resolution.html">Litigation &amp; Dispute Resolution</a></li>
+                        <li><a class="dropdown-item text-uppercase" href="/cheque-bounce-lawyer.html">Cheque Bounce Lawyer</a></li>
+                    </ul>
+                </div>
                     <!-- <div class="dropdown">
                         <a
                             class="nav-link-custom dropdown-toggle border-0 bg-transparent p-0"
@@ -1182,38 +1229,22 @@
             <button class="close-menu" id="closeMenu">✕</button>
             <div class="mt-5">
                 <a href="index.html" class="m-link">Home</a>
-                <div class="m-dropdown">
-                    <a class="m-link m-trigger" href="nri-services.html">
-                        NRI Services <i class="fa fa-chevron-down ms-2"></i>
-                    </a>
-                    <div class="m-submenu">
-                    <a href="oci-card-assistance.html" class="m-sub-item">OCI Card &amp; Ancestry Assistance</a>
-                    <a href="/wills-probate-estate-administration" class="m-sub-item">Wills, Probate &amp; Estate Administration</a>
-                    <a href="/nri-landlord-tenant-eviction/" class="m-sub-item">Landlord–Tenant &amp; Eviction</a>
-                    <a href="/nri-rera-builder-disputes/" class="m-sub-item">RERA &amp; Builder Disputes</a>
-                    <a href="/nri-business-commercial-advisory/" class="m-sub-item">Business &amp; Commercial Advisory</a>
-                    <a href="nri-property-disputes.html" class="m-sub-item">Property Disputes</a>
-                    <a href="nri-power-of-attorney.html" class="m-sub-item">Power of Attorney</a>
-                    <a href="us-india-documentation-services.html" class="m-sub-item">U.S.–India Documentation</a>
-                    <a href="nri-criminal-case.html" class="m-sub-item">Criminal Cases</a>
-                    <a href="nri-family-matrimonial.html" class="m-sub-item">Family &amp; Matrimonial</a>
+                            <div class="m-dropdown">
+                <a class="m-link m-trigger" href="/core-practice-areas.html">
+                    Practice Areas <i class="fa fa-chevron-down ms-2"></i>
+                </a>
+                <div class="m-submenu" id="mPracticeMenu">
+                    <a class="m-sub-item" href="/practice-areas/customs-law/">Customs Law Advisory &amp; Litigation</a>
+                    <a class="m-sub-item" href="/family-law.html">Family Law Workspace</a>
+                    <a class="m-sub-item" href="/intellectual-property.html">Intellectual Property Advisory</a>
+                    <a class="m-sub-item" href="/employment-law.html">Labour &amp; Employment Protection</a>
+                    <a class="m-sub-item" href="/white-collar-crime.html">White Collar Crime Defense</a>
+                    <a class="m-sub-item" href="/property-law.html">Property Law &amp; Due Diligence</a>
+                    <a class="m-sub-item" href="/cyber-law.html">Cyber Law Desk</a>
+                    <a class="m-sub-item" href="/litigation-dispute-resolution.html">Litigation &amp; Dispute Resolution</a>
+                    <a class="m-sub-item" href="/cheque-bounce-lawyer.html">Cheque Bounce Lawyer</a>
                 </div>
-                </div>
-                <div class="m-dropdown">
-                    <a class="m-link m-trigger" href="core-practice-areas.html">
-                        Practice Areas <i class="fa fa-chevron-down ms-2"></i>
-                    </a>
-                    <div class="m-submenu" id="mPracticeMenu">
-                        <a class="m-sub-item" href="family-law.html">FAMILY, SUCCESSION &amp; PRIVATE CLIENT PRACTICE</a>
-                        <a class="m-sub-item" href="intellectual-property.html">INTELLECTUAL PROPERTY &amp; INNOVATION PROTECTION</a>
-                        <a class="m-sub-item" href="employment-law.html">LABOUR, EMPLOYMENT &amp; INDUSTRIAL RELATIONS</a>
-                        <a class="m-sub-item" href="white-collar-crime.html">WHITE COLLAR CRIMES &amp; FINANCIAL INVESTIGATIONS</a>
-                        <a class="m-sub-item" href="property-law.html">PROPERTY LAW &amp; DUE DILIGENCE</a>
-                        <a class="m-sub-item" href="cyber-law.html">CYBER LAW, DATA PROTECTION &amp; DIGITAL EVIDENCE</a>
-                        <a class="m-sub-item" href="litigation-dispute-resolution.html">LITIGATION &amp; DISPUTE RESOLUTION</a>
-                        <a class="m-sub-item" href="cheque-bounce-lawyer.html">CHEQUE BOUNCE LAWYER</a>
-                    </div>
-                </div>
+            </div>
                 <!-- <div class="m-dropdown">
                     <a class="m-link m-trigger" href="">
                         Sectors <i class="fa fa-chevron-down ms-2"></i>
@@ -1283,8 +1314,454 @@
                 <p>Stay informed with our expert legal insights</p>
             </center>
         </div>
+                <!-- Blog Category Filter Navigation -->
+        <div class="blog-filter-container">
+            <div class="blog-filter-pills" role="tablist" aria-label="Blog Categories">
+                <button class="filter-pill-btn active" data-filter="all" type="button" role="tab" aria-selected="true">
+                    <i class="fa-solid fa-layer-group me-1"></i> All Articles
+                </button>
+                <button class="filter-pill-btn filter-gold" data-filter="customs-law" type="button" role="tab" aria-selected="false">
+                    <i class="fa-solid fa-ship me-1"></i> Customs Law <span class="filter-count">15</span>
+                </button>
+                <button class="filter-pill-btn" data-filter="property" type="button" role="tab" aria-selected="false">
+                    <i class="fa-solid fa-building me-1"></i> Property &amp; Real Estate
+                </button>
+                <button class="filter-pill-btn" data-filter="nri-oci" type="button" role="tab" aria-selected="false">
+                    <i class="fa-solid fa-passport me-1"></i> NRI &amp; OCI Services
+                </button>
+                <button class="filter-pill-btn" data-filter="cyber" type="button" role="tab" aria-selected="false">
+                    <i class="fa-solid fa-shield-halved me-1"></i> Cyber Law &amp; Tech
+                </button>
+                <button class="filter-pill-btn" data-filter="family" type="button" role="tab" aria-selected="false">
+                    <i class="fa-solid fa-people-roof me-1"></i> Family &amp; Matrimonial
+                </button>
+                <button class="filter-pill-btn" data-filter="criminal" type="button" role="tab" aria-selected="false">
+                    <i class="fa-solid fa-scale-balanced me-1"></i> Criminal &amp; Corporate
+                </button>
+            </div>
+        </div>
         <div class="blog-grid" id="blogGrid">
-            <div class="blog-card" data-published="2026-07-08">
+
+            <!-- Article 01: Customs Show Cause Notice: How to Prepare an Effective Legal Reply -->
+            <div class="blog-card" data-published="2026-11-04" data-category="customs-law">
+                <div class="blog-card-image">
+                    <picture>
+                        <source srcset="/assets/images/customs-law-articles/customs-show-cause-notice.webp" type="image/webp">
+                        <img src="/assets/images/customs-law-articles/customs-show-cause-notice.jpg" alt="Customs Show Cause Notice: How to Prepare an Effective Legal Reply" loading="lazy" width="400" height="225">
+                    </picture>
+                    <div class="featured-badge" style="background: #c9a24d; color: #0E1C2F; font-weight: 700;">Customs Law</div>
+                </div>
+                <div class="blog-card-content">
+                    <span class="category-tag" style="background: rgba(201, 162, 77, 0.15); color: #775A19; font-weight: 600;">Customs Law</span>
+                    <span class="category-tag">SCNs & Adjudication</span>
+                    <h3>
+                        <a href="/customs-show-cause-notice-legal-reply/">Customs Show Cause Notice: How to Prepare an Effective Legal Reply</a>
+                    </h3>
+                    <p class="blog-card-excerpt">
+                        When the Indian Customs Department suspects an under-valuation, incorrect classification, irregular duty exemption, or non-compliance during import or export, it initiates formal proceedings by issuing a Show Cause...
+                    </p>
+                    <div class="blog-card-footer">
+                        <div class="author-info">
+                            <div class="author-avatar" style="background: #0E1C2F; color: #FED488;">RRC</div>
+                            <span>RRC Law Associates</span>
+                        </div>
+                        <a href="/customs-show-cause-notice-legal-reply/" class="read-more-link" style="color: #775A19; font-weight: 600; text-decoration: none; font-size: 0.9rem;">Read Article &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Article 02: Customs Seizure: Legal Remedies and Procedure for Release of Goods -->
+            <div class="blog-card" data-published="2026-11-04" data-category="customs-law">
+                <div class="blog-card-image">
+                    <picture>
+                        <source srcset="/assets/images/customs-law-articles/customs-seizure-release.webp" type="image/webp">
+                        <img src="/assets/images/customs-law-articles/customs-seizure-release.jpg" alt="Customs Seizure: Legal Remedies and Procedure for Release of Goods" loading="lazy" width="400" height="225">
+                    </picture>
+                    <div class="featured-badge" style="background: #c9a24d; color: #0E1C2F; font-weight: 700;">Customs Law</div>
+                </div>
+                <div class="blog-card-content">
+                    <span class="category-tag" style="background: rgba(201, 162, 77, 0.15); color: #775A19; font-weight: 600;">Customs Law</span>
+                    <span class="category-tag">Confiscation & Provisional Release</span>
+                    <h3>
+                        <a href="/customs-seizure-release-of-goods/">Customs Seizure: Legal Remedies and Procedure for Release of Goods</a>
+                    </h3>
+                    <p class="blog-card-excerpt">
+                        In international commerce, the physical seizure of import consignments, export containers, or conveyance vessels by Indian Customs represents one of the most severe disruptions a business can face....
+                    </p>
+                    <div class="blog-card-footer">
+                        <div class="author-info">
+                            <div class="author-avatar" style="background: #0E1C2F; color: #FED488;">RRC</div>
+                            <span>RRC Law Associates</span>
+                        </div>
+                        <a href="/customs-seizure-release-of-goods/" class="read-more-link" style="color: #775A19; font-weight: 600; text-decoration: none; font-size: 0.9rem;">Read Article &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Article 03: Provisional Release of Seized Goods under the Customs Act -->
+            <div class="blog-card" data-published="2026-11-04" data-category="customs-law">
+                <div class="blog-card-image">
+                    <picture>
+                        <source srcset="/assets/images/customs-law-articles/customs-provisional-release.webp" type="image/webp">
+                        <img src="/assets/images/customs-law-articles/customs-provisional-release.jpg" alt="Provisional Release of Seized Goods under the Customs Act" loading="lazy" width="400" height="225">
+                    </picture>
+                    <div class="featured-badge" style="background: #c9a24d; color: #0E1C2F; font-weight: 700;">Customs Law</div>
+                </div>
+                <div class="blog-card-content">
+                    <span class="category-tag" style="background: rgba(201, 162, 77, 0.15); color: #775A19; font-weight: 600;">Customs Law</span>
+                    <span class="category-tag">Confiscation & Provisional Release</span>
+                    <h3>
+                        <a href="/customs-provisional-release-seized-goods/">Provisional Release of Seized Goods under the Customs Act</a>
+                    </h3>
+                    <p class="blog-card-excerpt">
+                        When customs authorities seize commercial consignments at ports, air cargo complexes, or inland container depots (ICDs), the formal adjudication process—spanning investigation, Show Cause Notice issuance, evidence gathering, personal...
+                    </p>
+                    <div class="blog-card-footer">
+                        <div class="author-info">
+                            <div class="author-avatar" style="background: #0E1C2F; color: #FED488;">RRC</div>
+                            <span>RRC Law Associates</span>
+                        </div>
+                        <a href="/customs-provisional-release-seized-goods/" class="read-more-link" style="color: #775A19; font-weight: 600; text-decoration: none; font-size: 0.9rem;">Read Article &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Article 04: Confiscation, Redemption Fine and Penalties under Customs Law -->
+            <div class="blog-card" data-published="2026-11-04" data-category="customs-law">
+                <div class="blog-card-image">
+                    <picture>
+                        <source srcset="/assets/images/customs-law-articles/customs-confiscation-penalties.webp" type="image/webp">
+                        <img src="/assets/images/customs-law-articles/customs-confiscation-penalties.jpg" alt="Confiscation, Redemption Fine and Penalties under Customs Law" loading="lazy" width="400" height="225">
+                    </picture>
+                    <div class="featured-badge" style="background: #c9a24d; color: #0E1C2F; font-weight: 700;">Customs Law</div>
+                </div>
+                <div class="blog-card-content">
+                    <span class="category-tag" style="background: rgba(201, 162, 77, 0.15); color: #775A19; font-weight: 600;">Customs Law</span>
+                    <span class="category-tag">Confiscation & Provisional Release</span>
+                    <h3>
+                        <a href="/customs-confiscation-redemption-fine-penalties/">Confiscation, Redemption Fine and Penalties under Customs Law</a>
+                    </h3>
+                    <p class="blog-card-excerpt">
+                        In the architecture of Indian customs law, confiscation and statutory penalties represent the harshest deterrent mechanisms deployed against non-compliant international trade. When an adjudicating authority orders absolute confiscation,...
+                    </p>
+                    <div class="blog-card-footer">
+                        <div class="author-info">
+                            <div class="author-avatar" style="background: #0E1C2F; color: #FED488;">RRC</div>
+                            <span>RRC Law Associates</span>
+                        </div>
+                        <a href="/customs-confiscation-redemption-fine-penalties/" class="read-more-link" style="color: #775A19; font-weight: 600; text-decoration: none; font-size: 0.9rem;">Read Article &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Article 05: Customs Appeals: Guide to Commissioner (Appeals), CESTAT and Higher Courts -->
+            <div class="blog-card" data-published="2026-11-04" data-category="customs-law">
+                <div class="blog-card-image">
+                    <picture>
+                        <source srcset="/assets/images/customs-law-articles/customs-appeals-cestat.webp" type="image/webp">
+                        <img src="/assets/images/customs-law-articles/customs-appeals-cestat.jpg" alt="Customs Appeals: Guide to Commissioner (Appeals), CESTAT and Higher Courts" loading="lazy" width="400" height="225">
+                    </picture>
+                    <div class="featured-badge" style="background: #c9a24d; color: #0E1C2F; font-weight: 700;">Customs Law</div>
+                </div>
+                <div class="blog-card-content">
+                    <span class="category-tag" style="background: rgba(201, 162, 77, 0.15); color: #775A19; font-weight: 600;">Customs Law</span>
+                    <span class="category-tag">Appeals & Litigation</span>
+                    <h3>
+                        <a href="/customs-appeals-cestat-high-courts/">Customs Appeals: Guide to Commissioner (Appeals), CESTAT and Higher Courts</a>
+                    </h3>
+                    <p class="blog-card-excerpt">
+                        When an adverse customs adjudication order (Order-in-Original) is passed confirming crippling duty demands, ordering cargo confiscation, or imposing heavy personal penalties, the legal battle is far from over....
+                    </p>
+                    <div class="blog-card-footer">
+                        <div class="author-info">
+                            <div class="author-avatar" style="background: #0E1C2F; color: #FED488;">RRC</div>
+                            <span>RRC Law Associates</span>
+                        </div>
+                        <a href="/customs-appeals-cestat-high-courts/" class="read-more-link" style="color: #775A19; font-weight: 600; text-decoration: none; font-size: 0.9rem;">Read Article &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Article 06: Customs Investigation: Rights During Search, Summons and Examination -->
+            <div class="blog-card" data-published="2026-11-04" data-category="customs-law">
+                <div class="blog-card-image">
+                    <picture>
+                        <source srcset="/assets/images/customs-law-articles/customs-investigation-summons.webp" type="image/webp">
+                        <img src="/assets/images/customs-law-articles/customs-investigation-summons.jpg" alt="Customs Investigation: Rights During Search, Summons and Examination" loading="lazy" width="400" height="225">
+                    </picture>
+                    <div class="featured-badge" style="background: #c9a24d; color: #0E1C2F; font-weight: 700;">Customs Law</div>
+                </div>
+                <div class="blog-card-content">
+                    <span class="category-tag" style="background: rgba(201, 162, 77, 0.15); color: #775A19; font-weight: 600;">Customs Law</span>
+                    <span class="category-tag">Investigation & Search</span>
+                    <h3>
+                        <a href="/customs-investigation-search-summons-rights/">Customs Investigation: Rights During Search, Summons and Examination</a>
+                    </h3>
+                    <p class="blog-card-excerpt">
+                        Facing a customs investigation initiated by the Directorate of Revenue Intelligence (DRI), the Special Intelligence and Investigation Branch (SIIB), or the Customs Preventive Wing is an intensely stressful...
+                    </p>
+                    <div class="blog-card-footer">
+                        <div class="author-info">
+                            <div class="author-avatar" style="background: #0E1C2F; color: #FED488;">RRC</div>
+                            <span>RRC Law Associates</span>
+                        </div>
+                        <a href="/customs-investigation-search-summons-rights/" class="read-more-link" style="color: #775A19; font-weight: 600; text-decoration: none; font-size: 0.9rem;">Read Article &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Article 07: Gold and Jewellery at Indian Airports: Customs Rules and Legal Issues -->
+            <div class="blog-card" data-published="2026-11-04" data-category="customs-law">
+                <div class="blog-card-image">
+                    <picture>
+                        <source srcset="/assets/images/customs-law-articles/customs-gold-jewellery.webp" type="image/webp">
+                        <img src="/assets/images/customs-law-articles/customs-gold-jewellery.jpg" alt="Gold and Jewellery at Indian Airports: Customs Rules and Legal Issues" loading="lazy" width="400" height="225">
+                    </picture>
+                    <div class="featured-badge" style="background: #c9a24d; color: #0E1C2F; font-weight: 700;">Customs Law</div>
+                </div>
+                <div class="blog-card-content">
+                    <span class="category-tag" style="background: rgba(201, 162, 77, 0.15); color: #775A19; font-weight: 600;">Customs Law</span>
+                    <span class="category-tag">Passenger Baggage, Gold & Jewellery</span>
+                    <h3>
+                        <a href="/customs-gold-jewellery-airports/">Gold and Jewellery at Indian Airports: Customs Rules and Legal Issues</a>
+                    </h3>
+                    <p class="blog-card-excerpt">
+                        Every day, thousands of Non-Resident Indians (NRIs), overseas professionals, and international tourists arrive at international airports across Tamil Nadu—including Chennai, Tiruchirappalli (Trichy), Madurai, and Coimbatore—carrying gold jewellery for...
+                    </p>
+                    <div class="blog-card-footer">
+                        <div class="author-info">
+                            <div class="author-avatar" style="background: #0E1C2F; color: #FED488;">RRC</div>
+                            <span>RRC Law Associates</span>
+                        </div>
+                        <a href="/customs-gold-jewellery-airports/" class="read-more-link" style="color: #775A19; font-weight: 600; text-decoration: none; font-size: 0.9rem;">Read Article &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Article 08: Detention of Passenger Baggage: Legal Remedies and Release Procedure -->
+            <div class="blog-card" data-published="2026-11-04" data-category="customs-law">
+                <div class="blog-card-image">
+                    <picture>
+                        <source srcset="/assets/images/customs-law-articles/customs-passenger-baggage.webp" type="image/webp">
+                        <img src="/assets/images/customs-law-articles/customs-passenger-baggage.jpg" alt="Detention of Passenger Baggage: Legal Remedies and Release Procedure" loading="lazy" width="400" height="225">
+                    </picture>
+                    <div class="featured-badge" style="background: #c9a24d; color: #0E1C2F; font-weight: 700;">Customs Law</div>
+                </div>
+                <div class="blog-card-content">
+                    <span class="category-tag" style="background: rgba(201, 162, 77, 0.15); color: #775A19; font-weight: 600;">Customs Law</span>
+                    <span class="category-tag">Passenger Baggage, Gold & Jewellery</span>
+                    <h3>
+                        <a href="/customs-passenger-baggage-detention-release/">Detention of Passenger Baggage: Legal Remedies and Release Procedure</a>
+                    </h3>
+                    <p class="blog-card-excerpt">
+                        Arriving at an international airport only to have personal luggage, electronic equipment, professional instruments, or commercial samples detained by Indian Customs is an intimidating and disruptive experience. International...
+                    </p>
+                    <div class="blog-card-footer">
+                        <div class="author-info">
+                            <div class="author-avatar" style="background: #0E1C2F; color: #FED488;">RRC</div>
+                            <span>RRC Law Associates</span>
+                        </div>
+                        <a href="/customs-passenger-baggage-detention-release/" class="read-more-link" style="color: #775A19; font-weight: 600; text-decoration: none; font-size: 0.9rem;">Read Article &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Article 09: Customs Duty Demands and Limitation under Section 28 -->
+            <div class="blog-card" data-published="2026-11-04" data-category="customs-law">
+                <div class="blog-card-image">
+                    <picture>
+                        <source srcset="/assets/images/customs-law-articles/customs-duty-demands-section-28.webp" type="image/webp">
+                        <img src="/assets/images/customs-law-articles/customs-duty-demands-section-28.jpg" alt="Customs Duty Demands and Limitation under Section 28" loading="lazy" width="400" height="225">
+                    </picture>
+                    <div class="featured-badge" style="background: #c9a24d; color: #0E1C2F; font-weight: 700;">Customs Law</div>
+                </div>
+                <div class="blog-card-content">
+                    <span class="category-tag" style="background: rgba(201, 162, 77, 0.15); color: #775A19; font-weight: 600;">Customs Law</span>
+                    <span class="category-tag">SCNs & Adjudication</span>
+                    <h3>
+                        <a href="/customs-duty-demand-limitation-section-28/">Customs Duty Demands and Limitation under Section 28</a>
+                    </h3>
+                    <p class="blog-card-excerpt">
+                        Years after an imported consignment has been cleared, manufactured, sold, or distributed into the Indian market, businesses are frequently hit with unexpected, massive duty demands from the Customs...
+                    </p>
+                    <div class="blog-card-footer">
+                        <div class="author-info">
+                            <div class="author-avatar" style="background: #0E1C2F; color: #FED488;">RRC</div>
+                            <span>RRC Law Associates</span>
+                        </div>
+                        <a href="/customs-duty-demand-limitation-section-28/" class="read-more-link" style="color: #775A19; font-weight: 600; text-decoration: none; font-size: 0.9rem;">Read Article &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Article 10: Customs Valuation Disputes and Related-Party Imports -->
+            <div class="blog-card" data-published="2026-11-04" data-category="customs-law">
+                <div class="blog-card-image">
+                    <picture>
+                        <source srcset="/assets/images/customs-law-articles/customs-valuation-related-party.webp" type="image/webp">
+                        <img src="/assets/images/customs-law-articles/customs-valuation-related-party.jpg" alt="Customs Valuation Disputes and Related-Party Imports" loading="lazy" width="400" height="225">
+                    </picture>
+                    <div class="featured-badge" style="background: #c9a24d; color: #0E1C2F; font-weight: 700;">Customs Law</div>
+                </div>
+                <div class="blog-card-content">
+                    <span class="category-tag" style="background: rgba(201, 162, 77, 0.15); color: #775A19; font-weight: 600;">Customs Law</span>
+                    <span class="category-tag">Customs Valuation</span>
+                    <h3>
+                        <a href="/customs-valuation-related-party-imports/">Customs Valuation Disputes and Related-Party Imports</a>
+                    </h3>
+                    <p class="blog-card-excerpt">
+                        In modern multinational commerce, an overwhelming volume of international trade occurs between corporate affiliates: foreign parent corporations exporting capital machinery, raw materials, or finished products to their Indian...
+                    </p>
+                    <div class="blog-card-footer">
+                        <div class="author-info">
+                            <div class="author-avatar" style="background: #0E1C2F; color: #FED488;">RRC</div>
+                            <span>RRC Law Associates</span>
+                        </div>
+                        <a href="/customs-valuation-related-party-imports/" class="read-more-link" style="color: #775A19; font-weight: 600; text-decoration: none; font-size: 0.9rem;">Read Article &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Article 11: HSN Classification Disputes and Customs Tariff Interpretation -->
+            <div class="blog-card" data-published="2026-11-04" data-category="customs-law">
+                <div class="blog-card-image">
+                    <picture>
+                        <source srcset="/assets/images/customs-law-articles/customs-hsn-classification.webp" type="image/webp">
+                        <img src="/assets/images/customs-law-articles/customs-hsn-classification.jpg" alt="HSN Classification Disputes and Customs Tariff Interpretation" loading="lazy" width="400" height="225">
+                    </picture>
+                    <div class="featured-badge" style="background: #c9a24d; color: #0E1C2F; font-weight: 700;">Customs Law</div>
+                </div>
+                <div class="blog-card-content">
+                    <span class="category-tag" style="background: rgba(201, 162, 77, 0.15); color: #775A19; font-weight: 600;">Customs Law</span>
+                    <span class="category-tag">Classification & Tariff</span>
+                    <h3>
+                        <a href="/customs-hsn-classification-disputes/">HSN Classification Disputes and Customs Tariff Interpretation</a>
+                    </h3>
+                    <p class="blog-card-excerpt">
+                        In the day-to-day administration of Indian customs, no single area generates more persistent dispute, high-stakes duty demands, and appellate litigation than tariff classification under the Harmonized Commodity Description...
+                    </p>
+                    <div class="blog-card-footer">
+                        <div class="author-info">
+                            <div class="author-avatar" style="background: #0E1C2F; color: #FED488;">RRC</div>
+                            <span>RRC Law Associates</span>
+                        </div>
+                        <a href="/customs-hsn-classification-disputes/" class="read-more-link" style="color: #775A19; font-weight: 600; text-decoration: none; font-size: 0.9rem;">Read Article &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Article 12: Customs Refunds, Re-imports and Drawback Claims -->
+            <div class="blog-card" data-published="2026-11-04" data-category="customs-law">
+                <div class="blog-card-image">
+                    <picture>
+                        <source srcset="/assets/images/customs-law-articles/customs-refunds-drawback.webp" type="image/webp">
+                        <img src="/assets/images/customs-law-articles/customs-refunds-drawback.jpg" alt="Customs Refunds, Re-imports and Drawback Claims" loading="lazy" width="400" height="225">
+                    </picture>
+                    <div class="featured-badge" style="background: #c9a24d; color: #0E1C2F; font-weight: 700;">Customs Law</div>
+                </div>
+                <div class="blog-card-content">
+                    <span class="category-tag" style="background: rgba(201, 162, 77, 0.15); color: #775A19; font-weight: 600;">Customs Law</span>
+                    <span class="category-tag">Refunds, Drawback & Export Incentives</span>
+                    <h3>
+                        <a href="/customs-refunds-reimports-drawback/">Customs Refunds, Re-imports and Drawback Claims</a>
+                    </h3>
+                    <p class="blog-card-excerpt">
+                        In the complex operational environment of international trade, cash flow liquidity is the lifeblood of commercial viability. Importers frequently pay excess customs duties due to computational errors, provisional...
+                    </p>
+                    <div class="blog-card-footer">
+                        <div class="author-info">
+                            <div class="author-avatar" style="background: #0E1C2F; color: #FED488;">RRC</div>
+                            <span>RRC Law Associates</span>
+                        </div>
+                        <a href="/customs-refunds-reimports-drawback/" class="read-more-link" style="color: #775A19; font-weight: 600; text-decoration: none; font-size: 0.9rem;">Read Article &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Article 13: Import of Restricted and Prohibited Goods: Legal Framework -->
+            <div class="blog-card" data-published="2026-11-04" data-category="customs-law">
+                <div class="blog-card-image">
+                    <picture>
+                        <source srcset="/assets/images/customs-law-articles/customs-restricted-prohibited.webp" type="image/webp">
+                        <img src="/assets/images/customs-law-articles/customs-restricted-prohibited.jpg" alt="Import of Restricted and Prohibited Goods: Legal Framework" loading="lazy" width="400" height="225">
+                    </picture>
+                    <div class="featured-badge" style="background: #c9a24d; color: #0E1C2F; font-weight: 700;">Customs Law</div>
+                </div>
+                <div class="blog-card-content">
+                    <span class="category-tag" style="background: rgba(201, 162, 77, 0.15); color: #775A19; font-weight: 600;">Customs Law</span>
+                    <span class="category-tag">Import & Export Compliance</span>
+                    <h3>
+                        <a href="/customs-restricted-prohibited-goods-import/">Import of Restricted and Prohibited Goods: Legal Framework</a>
+                    </h3>
+                    <p class="blog-card-excerpt">
+                        In the modern regulatory landscape of Indian foreign trade, importing goods involves far more than simply calculating customs tariffs. Under Section 11 of the Customs Act, 1962, read...
+                    </p>
+                    <div class="blog-card-footer">
+                        <div class="author-info">
+                            <div class="author-avatar" style="background: #0E1C2F; color: #FED488;">RRC</div>
+                            <span>RRC Law Associates</span>
+                        </div>
+                        <a href="/customs-restricted-prohibited-goods-import/" class="read-more-link" style="color: #775A19; font-weight: 600; text-decoration: none; font-size: 0.9rem;">Read Article &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Article 14: Customs Broker Liability and Importer/Exporter Compliance -->
+            <div class="blog-card" data-published="2026-11-04" data-category="customs-law">
+                <div class="blog-card-image">
+                    <picture>
+                        <source srcset="/assets/images/customs-law-articles/customs-broker-liability.webp" type="image/webp">
+                        <img src="/assets/images/customs-law-articles/customs-broker-liability.jpg" alt="Customs Broker Liability and Importer/Exporter Compliance" loading="lazy" width="400" height="225">
+                    </picture>
+                    <div class="featured-badge" style="background: #c9a24d; color: #0E1C2F; font-weight: 700;">Customs Law</div>
+                </div>
+                <div class="blog-card-content">
+                    <span class="category-tag" style="background: rgba(201, 162, 77, 0.15); color: #775A19; font-weight: 600;">Customs Law</span>
+                    <span class="category-tag">Customs Audit & Compliance</span>
+                    <h3>
+                        <a href="/customs-broker-liability-importer-exporter-compliance/">Customs Broker Liability and Importer/Exporter Compliance</a>
+                    </h3>
+                    <p class="blog-card-excerpt">
+                        In the complex operational chain of international trade, the Customs Broker (formerly known as Custom House Agent / CHA) occupies a pivotal regulatory nexus connecting commercial importers, overseas...
+                    </p>
+                    <div class="blog-card-footer">
+                        <div class="author-info">
+                            <div class="author-avatar" style="background: #0E1C2F; color: #FED488;">RRC</div>
+                            <span>RRC Law Associates</span>
+                        </div>
+                        <a href="/customs-broker-liability-importer-exporter-compliance/" class="read-more-link" style="color: #775A19; font-weight: 600; text-decoration: none; font-size: 0.9rem;">Read Article &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Article 15: Customs Prosecution, Arrest and Bail: Legal Framework -->
+            <div class="blog-card" data-published="2026-11-04" data-category="customs-law">
+                <div class="blog-card-image">
+                    <picture>
+                        <source srcset="/assets/images/customs-law-articles/customs-prosecution-bail.webp" type="image/webp">
+                        <img src="/assets/images/customs-law-articles/customs-prosecution-bail.jpg" alt="Customs Prosecution, Arrest and Bail: Legal Framework" loading="lazy" width="400" height="225">
+                    </picture>
+                    <div class="featured-badge" style="background: #c9a24d; color: #0E1C2F; font-weight: 700;">Customs Law</div>
+                </div>
+                <div class="blog-card-content">
+                    <span class="category-tag" style="background: rgba(201, 162, 77, 0.15); color: #775A19; font-weight: 600;">Customs Law</span>
+                    <span class="category-tag">Prosecution & Compounding</span>
+                    <h3>
+                        <a href="/customs-prosecution-arrest-bail/">Customs Prosecution, Arrest and Bail: Legal Framework</a>
+                    </h3>
+                    <p class="blog-card-excerpt">
+                        While customs adjudication primarily involves financial demands, cargo confiscation, and civil penalties, serious customs infractions cross the boundary into criminal law. Under the Customs Act, 1962, the department...
+                    </p>
+                    <div class="blog-card-footer">
+                        <div class="author-info">
+                            <div class="author-avatar" style="background: #0E1C2F; color: #FED488;">RRC</div>
+                            <span>RRC Law Associates</span>
+                        </div>
+                        <a href="/customs-prosecution-arrest-bail/" class="read-more-link" style="color: #775A19; font-weight: 600; text-decoration: none; font-size: 0.9rem;">Read Article &rarr;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-card" data-category="property" data-published="2026-07-08">
                 <div class="blog-card-image">
                     <img src="assets/images/property.jpeg" alt="Blog Card Image" loading="lazy">
                     <div class="featured-badge">Featured</div>
@@ -1307,7 +1784,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog-card" data-published="2026-07-08">
+            <div class="blog-card" data-category="property" data-published="2026-07-08">
                 <div class="blog-card-image">
                     <img src="./assets/images/blog.jpeg" alt="Blog Card Image" loading="lazy">
                     <div class="featured-badge">Featured</div>
@@ -1330,7 +1807,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog-card" data-published="2026-07-08">
+            <div class="blog-card" data-category="property" data-published="2026-07-08">
                 <div class="blog-card-image">
                     <img src="./assets/images/familylaw.jpeg" alt="Blog Card Image" loading="lazy">
                     <div class="featured-badge">Featured</div>
@@ -1353,7 +1830,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog-card" data-published="2026-05-23">
+            <div class="blog-card" data-category="nri-oci" data-published="2026-05-23">
                 <div class="blog-card-image">
                     <img src="https://img.magnific.com/free-photo/passport-travel-essentials-wooden-surface_23-2151983553.jpg?semt=ais_hybrid&w=740&q=80" alt="Seizing Passports &amp; Restricting International Travel Law in India" loading="lazy">
                 </div>
@@ -1375,7 +1852,7 @@
                 </div>
             </div>
 
-            <div class="blog-card">
+            <div class="blog-card" data-category="nri-oci">
                 <div class="blog-card-image">
                     <img src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=600&h=400&fit=crop" alt="Deepfake Harassment and AI Identity Protection Law in India">
                 </div>
@@ -1397,7 +1874,7 @@
                 </div>
             </div>
 
-            <div class="blog-card" data-published="2026-05-23">
+            <div class="blog-card" data-category="property" data-published="2026-05-23">
                 <div class="blog-card-image">
                     <img src="assets/images/property.jpeg" alt="Blog Post">
 
@@ -1420,7 +1897,7 @@
                 </div>
             </div>
 
-            <div class="blog-card" data-published="2026-05-23">
+            <div class="blog-card" data-category="nri-oci" data-published="2026-05-23">
                 <div class="blog-card-image">
                     <img src="https://images.unsplash.com/photo-1779527168107-6a1814c0655d?q=80&w=1243&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Blog Post">
 
@@ -1443,7 +1920,7 @@
                 </div>
             </div>
 
-            <div class="blog-card" data-published="2026-09-26" data-current-new="true">
+            <div class="blog-card" data-category="nri-oci" data-published="2026-09-26" data-current-new="true">
                 <div class="blog-card-image">
                     <img src="assets/images/nri_child_custody.png" alt="Family meeting with a lawyer for a cross-border child custody consultation" loading="lazy">
                     <div class="featured-badge">Featured</div>
@@ -1466,7 +1943,7 @@
                 </div>
             </div>
 
-            <div class="blog-card" data-published="2026-09-26" data-current-new="true">
+            <div class="blog-card" data-category="nri-oci" data-published="2026-09-26" data-current-new="true">
                 <div class="blog-card-image">
                     <img src="assets/images/Cross-Border Child Custody.png" alt="Cross-border child custody in India and foreign court order review" loading="lazy">
                     <div class="featured-badge">Featured</div>
@@ -1490,7 +1967,7 @@
             </div>
 
             <!-- Blog Card 1 -->
-            <div class="blog-card">
+            <div class="blog-card" data-category="property">
                 <div class="blog-card-image">
                     <img src="assets/images/iplaw.jpeg" alt="Blog Post">
                 </div>
@@ -1513,7 +1990,7 @@
             </div>
 
             <!-- Blog Card 2 -->
-            <div class="blog-card">
+            <div class="blog-card" data-category="nri-oci">
                 <div class="blog-card-image">
                     <img src="assets/images/el.jpeg" alt="Blog Post">
                 </div>
@@ -1533,7 +2010,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog-card" data-undated-recent="true" data-current-new="true">
+            <div class="blog-card" data-category="property" data-undated-recent="true" data-current-new="true">
                 <div class="blog-card-image">
                     <img src="assets/images/ancestral-property-partition-dispute.jpg" alt="Family reviewing ancestral property documents during a partition discussion" loading="lazy">
                     <div class="featured-badge">Featured</div>
@@ -1556,7 +2033,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog-card" data-undated-recent="true" data-current-new="true">
+            <div class="blog-card" data-category="nri-oci" data-undated-recent="true" data-current-new="true">
                 <div class="blog-card-image">
                     <img src="assets/images/oci-hero-bg.jpg" alt="OCI Card &amp; Indian Ancestry Documentation Assistance" loading="lazy">
                     <div class="featured-badge">Featured</div>
@@ -1579,7 +2056,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog-card" data-undated-recent="true" data-current-new="true">
+            <div class="blog-card" data-category="nri-oci" data-undated-recent="true" data-current-new="true">
                 <div class="blog-card-image">
                     <img src="assets/images/law-office-meeting.jpg" alt="How to Apply for an OCI Card: Documents, Procedure and Common Mistakes" loading="lazy">
                     <div class="featured-badge">Featured</div>
@@ -1602,7 +2079,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog-card" data-undated-recent="true" data-current-new="true">
+            <div class="blog-card" data-category="nri-oci" data-undated-recent="true" data-current-new="true">
                 <div class="blog-card-image">
                     <img src="assets/images/oci-blog-eligibility.jpg" alt="OCI Card for Foreign Citizens of Indian Origin: Eligibility, Meaning and Legal Status" loading="lazy">
                     <div class="featured-badge">Featured</div>
@@ -1625,7 +2102,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog-card" data-undated-recent="true" data-current-new="true">
+            <div class="blog-card" data-category="property" data-undated-recent="true" data-current-new="true">
                 <div class="blog-card-image">
                     <img src="assets/images/nri-law-1.jpg" alt="OCI vs NRI vs Indian Citizen: What Is the Difference?" loading="lazy">
                     <div class="featured-badge">Featured</div>
@@ -1648,7 +2125,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog-card" data-undated-recent="true" data-current-new="true">
+            <div class="blog-card" data-category="nri-oci" data-undated-recent="true" data-current-new="true">
                 <div class="blog-card-image">
                     <img src="assets/images/oci-foreign-spouse-eligibility.jpg" alt="Foreign spouse reviewing OCI eligibility and application documents" loading="lazy">
                     <div class="featured-badge">Featured</div>
@@ -1671,7 +2148,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog-card" data-undated-recent="true" data-current-new="true">
+            <div class="blog-card" data-category="nri-oci" data-undated-recent="true" data-current-new="true">
                 <div class="blog-card-image">
                     <img src="assets/images/oci-for-children-born-abroad.jpg" alt="Indian-origin family preparing OCI documents for a child born abroad" loading="lazy">
                     <div class="featured-badge">Featured</div>
@@ -1694,7 +2171,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog-card" data-undated-recent="true" data-current-new="true">
+            <div class="blog-card" data-category="property" data-undated-recent="true" data-current-new="true">
                 <div class="blog-card-image">
                     <img src="assets/images/oci-card-benefits-restrictions.jpg" alt="OCI Card Benefits and Restrictions: What OCI Cardholders Can and Cannot Do in India" loading="lazy">
                     <div class="featured-badge">Featured</div>
@@ -1717,7 +2194,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog-card" data-undated-recent="true" data-current-new="true">
+            <div class="blog-card" data-category="property" data-undated-recent="true" data-current-new="true">
                 <div class="blog-card-image">
                     <img src="assets/images/oci-ancestral-property-india.jpg" alt="Can OCI Cardholders Inherit or Sell Ancestral Property in India?" loading="lazy">
                     <div class="featured-badge">Featured</div>
@@ -1740,7 +2217,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog-card" data-undated-recent="true" data-current-new="true">
+            <div class="blog-card" data-category="property" data-undated-recent="true" data-current-new="true">
                 <div class="blog-card-image">
                     <img src="assets/images/nri-oci-property-due-diligence.jpg" alt="NRI and OCI Property Due Diligence: How to Verify Title Before Buying Property in India" loading="lazy">
                     <div class="featured-badge">Featured</div>
@@ -1763,7 +2240,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog-card" data-undated-recent="true" data-current-new="true">
+            <div class="blog-card" data-category="property" data-undated-recent="true" data-current-new="true">
                 <div class="blog-card-image">
                     <img src="assets/images/nri-oci-property-tax-india.jpg" alt="NRI and OCI Property Tax in India: TDS, Capital Gains and Repatriation" loading="lazy">
                     <div class="featured-badge">Featured</div>
@@ -1786,7 +2263,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog-card" data-undated-recent="true" data-current-new="true">
+            <div class="blog-card" data-category="nri-oci" data-undated-recent="true" data-current-new="true">
                 <div class="blog-card-image">
                     <img src="assets/images/oci-card-renewal-passport-update.jpg" alt="OCI Card Renewal, Re-Issue and Passport Changes: Updated Rules for 2026" loading="lazy">
                     <div class="featured-badge">Featured</div>
@@ -1809,7 +2286,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog-card" data-undated-recent="true" data-current-new="true">
+            <div class="blog-card" data-category="nri-oci" data-undated-recent="true" data-current-new="true">
                 <div class="blog-card-image">
                     <img src="assets/images/oci-card-cancellation-grounds-remedies.jpg" alt="OCI Card Cancellation: Grounds, Legal Consequences and Legal Remedies" loading="lazy">
                     <div class="featured-badge">Featured</div>
@@ -1832,7 +2309,7 @@
                     </div>
                 </div>
             </div>
-            <div class="blog-card" data-undated-recent="true" data-current-new="true">
+            <div class="blog-card" data-category="nri-oci" data-undated-recent="true" data-current-new="true">
                 <div class="blog-card-image">
                     <img src="assets/images/oci-card-cancellation-section-7d-legal-remedies.jpg" alt="OCI Card Cancellation Under Section 7D: Grounds, Criminal Proceedings and Legal Remedies" loading="lazy">
                     <div class="featured-badge">Featured</div>
@@ -1952,6 +2429,7 @@
         <div>
             <h4>Practice Areas</h4>
                     <ul>
+                        <li><a href="/practice-areas/customs-law/">Customs Law</a></li>
                         <li>
                             <a href="family-law.html">Family Law</a>
                         </li>
@@ -2080,14 +2558,7 @@
         });
 
         // 4. Desktop Navigation (Clicking parent link)
-        const practiceDropdown = document.getElementById('practiceDropdown');
-        if (practiceDropdown) {
-            practiceDropdown.addEventListener('click', function() {
-                if (window.innerWidth > 992) {
-                    window.location.href = this.getAttribute('href');
-                }
-            });
-        }
+        /* practiceDropdown click override removed */
     });
     </script>
     <script>
@@ -2144,13 +2615,7 @@
                 });
             });
 
-            // Special case for Practice Areas clickable parent
-            const practiceBtn = document.getElementById('practiceDropdown');
-            if (practiceBtn) {
-                practiceBtn.addEventListener('click', function() {
-                    window.location.href = "core-practice-areas.html";
-                });
-            }
+            /* practice redirect removed */
         }
     });
     </script>
@@ -2361,5 +2826,77 @@
     });
     </script>
 <div data-rrc-ai-chat-root></div>
+<script>
+
+    // Blog Category Filter Script with URL Parameter Support (?category=customs-law)
+    document.addEventListener('DOMContentLoaded', function () {
+        const filterButtons = document.querySelectorAll('.filter-pill-btn');
+        const blogGrid = document.getElementById('blogGrid');
+        if (!blogGrid) return;
+        const blogCards = blogGrid.querySelectorAll(':scope > .blog-card');
+
+        function filterCategory(targetCategory) {
+            // Update active button state
+            filterButtons.forEach(btn => {
+                const isActive = btn.dataset.filter === targetCategory;
+                btn.classList.toggle('active', isActive);
+                btn.setAttribute('aria-selected', isActive ? 'true' : 'false');
+            });
+
+            // Show/hide cards
+            blogCards.forEach(card => {
+                const cardCat = card.dataset.category || '';
+                const cardText = (card.innerText || '').toLowerCase();
+                let matches = false;
+
+                if (targetCategory === 'all') {
+                    matches = true;
+                } else if (targetCategory === 'customs-law') {
+                    matches = cardCat === 'customs-law' || cardText.includes('customs');
+                } else if (targetCategory === 'property') {
+                    matches = cardCat === 'property' || cardText.includes('property') || cardText.includes('real estate') || cardText.includes('ancestral');
+                } else if (targetCategory === 'nri-oci') {
+                    matches = cardCat === 'nri-oci' || cardText.includes('nri') || cardText.includes('oci');
+                } else if (targetCategory === 'cyber') {
+                    matches = cardCat === 'cyber' || cardText.includes('cyber') || cardText.includes('deepfake') || cardText.includes('digital evidence');
+                } else if (targetCategory === 'family') {
+                    matches = cardCat === 'family' || cardText.includes('custody') || cardText.includes('divorce') || cardText.includes('matrimonial');
+                } else if (targetCategory === 'criminal') {
+                    matches = cardCat === 'criminal' || cardText.includes('criminal') || cardText.includes('cheque') || cardText.includes('corporate');
+                }
+
+                if (matches) {
+                    card.style.display = 'block';
+                    card.classList.add('visible');
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                } else {
+                    card.style.display = 'none';
+                    card.classList.remove('visible');
+                }
+            });
+        }
+
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', function () {
+                filterCategory(this.dataset.filter);
+            });
+        });
+
+        // Check URL query param e.g. ?category=customs-law or hash #customs-law
+        const urlParams = new URLSearchParams(window.location.search);
+        const catQuery = urlParams.get('category') || (window.location.hash ? window.location.hash.replace('#', '') : null);
+        if (catQuery) {
+            filterCategory(catQuery);
+            // Smooth scroll to blog grid if targeted by link
+            const targetEl = document.querySelector('.blog-filter-container');
+            if (targetEl) {
+                setTimeout(() => targetEl.scrollIntoView({ behavior: 'smooth' }), 200);
+            }
+        }
+    });
+
+</script>
+<script src="/mega-menu.js?v=20261105-1" defer></script>
 </body>
 </html>

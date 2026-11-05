@@ -283,6 +283,56 @@ body {
     flex-wrap: nowrap !important;
 }
 
+/* Ensure dropdown styling and structural integrity */
+.header .dropdown-menu {
+    display: none;
+    position: absolute;
+    list-style: none !important;
+    padding-left: 0 !important;
+    margin: 0;
+}
+
+.header .dropdown-menu li {
+    list-style: none !important;
+}
+
+/* Desktop navigation layout guarantees (992px and above) */
+@media (min-width: 992px) {
+    .header nav.container {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+    }
+
+    .header .d-none.d-lg-flex {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+    }
+
+    .header #menuToggle,
+    .header .d-lg-none {
+        display: none !important;
+    }
+
+    .header .dropdown:hover > .dropdown-menu:not(.dropdown-menu-nri):not(.dropdown-menu-practice),
+    .header .dropdown:focus-within > .dropdown-menu:not(.dropdown-menu-nri):not(.dropdown-menu-practice) {
+        display: block !important;
+    }
+}
+
+/* Mobile layout guarantees (< 992px) */
+@media (max-width: 991.98px) {
+    .header .d-none.d-lg-flex {
+        display: none !important;
+    }
+
+    .header #menuToggle,
+    .header .d-lg-none {
+        display: inline-block !important;
+    }
+}
+
 /* Laptop / Small Desktop (992px to 1240px) */
 @media (min-width: 992px) and (max-width: 1240px) {
     .header .logo-img {
@@ -350,5 +400,268 @@ body {
         bottom: calc(env(safe-area-inset-bottom, 0px) + 76px) !important;
         width: 52px !important;
         height: 52px !important;
+    }
+}
+
+/* =========================================================
+   PREMIUM UNIFIED TWO-COLUMN MEGA-MENUS
+   (NRI Services & Practice Areas Standardized System)
+   ========================================================= */
+@media (min-width: 992px) {
+    /* Shared Dropdown Mega-Menu Geometry & Aesthetics */
+    .dropdown-menu-nri,
+    .dropdown-menu-practice {
+        width: 540px !important;
+        max-width: calc(100vw - 32px) !important;
+        max-height: calc(100vh - 140px) !important;
+        overflow-y: auto !important;
+        padding: 16px 18px !important;
+        border-radius: 6px !important;
+        background-color: #000000 !important;
+        border: 1px solid #C9A24D !important;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.28) !important;
+
+        /* Positioning: anchored beneath navigation item, flush below header bar */
+        position: absolute !important;
+        top: calc(100% + 30.5px) !important;
+        margin-top: 0 !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+
+        display: none;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        grid-template-rows: repeat(5, auto) !important;
+        grid-auto-flow: column !important;
+        column-gap: 20px !important;
+        row-gap: 4px !important;
+        z-index: 1250 !important;
+    }
+
+    /* Elegant Vertical Column Divider */
+    .dropdown-menu-nri::after,
+    .dropdown-menu-practice::after {
+        content: "" !important;
+        position: absolute !important;
+        top: 16px !important;
+        bottom: 16px !important;
+        left: 50% !important;
+        width: 1px !important;
+        background: rgba(201, 164, 77, 0.25) !important;
+        pointer-events: none !important;
+    }
+
+    /* Open Display States */
+    .dropdown-menu-nri.is-active,
+    .dropdown-menu-practice.is-active,
+    .dropdown-menu-nri.show,
+    .dropdown-menu-practice.show,
+    .header .dropdown:hover > .dropdown-menu-nri:not(.is-closed),
+    .header .dropdown:focus-within > .dropdown-menu-nri:not(.is-closed),
+    .header .dropdown:hover > .dropdown-menu-practice:not(.is-closed),
+    .header .dropdown:focus-within > .dropdown-menu-practice:not(.is-closed) {
+        display: grid !important;
+    }
+
+    /* Closed Suppression State (Guarantees zero simultaneous display) */
+    .header .dropdown > .dropdown-menu-nri.is-closed,
+    .header .dropdown > .dropdown-menu-practice.is-closed,
+    .header .dropdown:hover > .dropdown-menu-nri.is-closed,
+    .header .dropdown:hover > .dropdown-menu-practice.is-closed,
+    .dropdown-menu-nri.is-closed,
+    .dropdown-menu-practice.is-closed {
+        display: none !important;
+    }
+
+    /* Invisible hover bridge to prevent menu from closing across header gap */
+    .header .dropdown-menu-nri::before,
+    .header .dropdown-menu-practice::before {
+        content: "" !important;
+        position: absolute !important;
+        top: -35px !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 35px !important;
+        background: transparent !important;
+    }
+
+    .dropdown-menu-nri > li,
+    .dropdown-menu-practice > li {
+        list-style: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: flex !important;
+    }
+
+    /* Unified Menu Item Typography & Sizing */
+    .dropdown-menu-nri .dropdown-item,
+    .dropdown-menu-practice .dropdown-item {
+        font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
+        font-size: 14px !important;
+        font-weight: 500 !important;
+        color: #FFFFFF !important;
+        padding: 9px 12px !important;
+        border-radius: 4px !important;
+        text-transform: uppercase !important;
+        letter-spacing: 0.3px !important;
+        white-space: normal !important;
+        line-height: 1.5 !important;
+        display: flex !important;
+        align-items: center !important;
+        width: 100% !important;
+        background-color: transparent !important;
+        border-left: 2.5px solid transparent !important;
+        transition: color 0.18s ease, background-color 0.18s ease, border-color 0.18s ease, transform 0.15s ease !important;
+    }
+
+    /* Unified Hover and Focus States */
+    .dropdown-menu-nri .dropdown-item:hover,
+    .dropdown-menu-nri .dropdown-item:focus,
+    .dropdown-menu-practice .dropdown-item:hover,
+    .dropdown-menu-practice .dropdown-item:focus {
+        background-color: #1C1C1C !important;
+        color: #FED488 !important;
+        border-left-color: #C9A24D !important;
+        transform: translateX(3px) !important;
+    }
+
+    /* Unified Active States */
+    .dropdown-menu-nri .dropdown-item.active,
+    .dropdown-menu-nri .dropdown-item.active-item,
+    .dropdown-menu-nri .dropdown-item.text-gold,
+    .dropdown-menu-practice .dropdown-item.active,
+    .dropdown-menu-practice .dropdown-item.active-item,
+    .dropdown-menu-practice .dropdown-item.text-gold {
+        background-color: #1C1C1C !important;
+        color: #FED488 !important;
+        font-weight: 600 !important;
+        border-left-color: #C9A24D !important;
+    }
+}
+
+/* Mobile accordion guarantees across all viewports */
+.mobile-menu {
+    overflow-x: hidden !important;
+    max-width: 100vw !important;
+}
+
+.mobile-menu .m-submenu {
+    display: none;
+    max-height: 420px;
+    overflow-y: auto;
+    overflow-x: hidden !important;
+    background: rgba(255, 255, 255, 0.05);
+    border-left: 2px solid #c9a24d;
+    margin-bottom: 10px;
+    padding-left: 12px;
+}
+
+.mobile-menu .m-submenu.active,
+.mobile-menu .m-submenu.show {
+    display: block !important;
+}
+
+.mobile-menu .m-submenu .m-sub-item {
+    display: block;
+    padding: 8px 12px;
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 1.4;
+    transition: color 0.2s ease, background 0.2s ease;
+}
+
+.mobile-menu .m-submenu .m-sub-item:hover,
+.mobile-menu .m-submenu .m-sub-item:focus {
+    color: #c9a24d !important;
+    background: rgba(201, 162, 77, 0.1);
+}
+
+
+
+/* =========================================================
+   PRACTICE AREAS SPLIT NAVIGATION TRIGGER
+   Matches NRI Services dimensions, margins, colors, and typography
+========================================================= */
+.header .dropdown.practice-dropdown-container {
+    display: inline-flex !important;
+    align-items: center !important;
+    position: relative !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.header .dropdown.practice-dropdown-container .practice-text-link {
+    color: #ffffff !important;
+    text-decoration: none !important;
+    font-weight: 500 !important;
+    font-size: 0.90rem !important;
+    white-space: nowrap !important;
+    margin: 0 0 0 15px !important;
+    padding: 0 !important;
+    line-height: inherit !important;
+    cursor: pointer !important;
+    transition: color 0.3s ease !important;
+    background: transparent !important;
+    border: none !important;
+}
+
+.header .dropdown.practice-dropdown-container .practice-text-link:hover,
+.header .dropdown.practice-dropdown-container .practice-text-link:focus {
+    color: #c9a24d !important;
+}
+
+.header .dropdown.practice-dropdown-container .practice-arrow-btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: #ffffff !important;
+    background: transparent !important;
+    border: none !important;
+    margin: 0 15px 0 4px !important;
+    padding: 4px 2px !important;
+    cursor: pointer !important;
+    line-height: 1 !important;
+    box-shadow: none !important;
+    outline: none !important;
+    transition: color 0.3s ease !important;
+}
+
+.header .dropdown.practice-dropdown-container .practice-arrow-btn:hover,
+.header .dropdown.practice-dropdown-container .practice-arrow-btn:focus,
+.header .dropdown.practice-dropdown-container .practice-arrow-btn[aria-expanded="true"] {
+    color: #c9a24d !important;
+}
+
+.header .dropdown.practice-dropdown-container .practice-arrow-btn::after {
+    display: inline-block !important;
+    margin-left: 0 !important;
+    vertical-align: 0.15em !important;
+    content: "" !important;
+    border-top: 0.3em solid !important;
+    border-right: 0.3em solid transparent !important;
+    border-bottom: 0 !important;
+    border-left: 0.3em solid transparent !important;
+    border-top-color: currentColor !important;
+    pointer-events: none !important;
+}
+
+/* Tablet & intermediate desktop responsiveness matching .nav-link-custom */
+@media (min-width: 992px) and (max-width: 1240px) {
+    .header .dropdown.practice-dropdown-container .practice-text-link {
+        margin: 0 0 0 8px !important;
+        font-size: 0.92rem !important;
+    }
+    .header .dropdown.practice-dropdown-container .practice-arrow-btn {
+        margin: 0 8px 0 3px !important;
+    }
+}
+
+@media (max-width: 1100px) {
+    .header .dropdown.practice-dropdown-container .practice-text-link {
+        margin: 0 0 0 7px !important;
+        font-size: 0.90rem !important;
+    }
+    .header .dropdown.practice-dropdown-container .practice-arrow-btn {
+        margin: 0 7px 0 3px !important;
     }
 }

@@ -67,6 +67,11 @@
   </url>
 
   <url>
+    <loc>https://rrclawassociates.com/practice-areas/customs-law/</loc>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
     <loc>https://rrclawassociates.com/family-law</loc>
     <priority>0.8</priority>
   </url>
@@ -236,4 +241,94 @@
     <priority>0.85</priority>
   </url>
 
+  <url>
+    <loc>https://rrclawassociates.com/customs-show-cause-notice-legal-reply/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://rrclawassociates.com/customs-seizure-release-of-goods/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://rrclawassociates.com/customs-provisional-release-seized-goods/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://rrclawassociates.com/customs-confiscation-redemption-fine-penalties/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://rrclawassociates.com/customs-appeals-cestat-high-courts/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://rrclawassociates.com/customs-investigation-search-summons-rights/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://rrclawassociates.com/customs-gold-jewellery-airports/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://rrclawassociates.com/customs-passenger-baggage-detention-release/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://rrclawassociates.com/customs-duty-demand-limitation-section-28/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://rrclawassociates.com/customs-valuation-related-party-imports/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://rrclawassociates.com/customs-hsn-classification-disputes/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://rrclawassociates.com/customs-refunds-reimports-drawback/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://rrclawassociates.com/customs-restricted-prohibited-goods-import/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://rrclawassociates.com/customs-broker-liability-importer-exporter-compliance/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://rrclawassociates.com/customs-prosecution-arrest-bail/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
 </urlset>

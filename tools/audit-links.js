@@ -77,8 +77,8 @@ function runAudit() {
       }
 
       // Internal file/route link
-      const [rawPath] = href.split('#');
-      let targetPath = rawPath.replace(/^\//, ''); // remove leading slash
+      const cleanPath = href.split('#')[0].split('?')[0];
+      let targetPath = cleanPath.replace(/^\//, ''); // remove leading slash
 
       // Clean URL mapping: e.g. "nri-services" or "nri-services/" -> "nri-services.html"
       if (targetPath.endsWith('/')) {

@@ -55,6 +55,19 @@ RewriteRule ^(oci-legal-guides|oci-card-eligibility-legal-status|oci-vs-nri-vs-i
 # 3. OCI Legal Guides: Internally resolve canonical trailing-slash clean URLs directly to HTML files
 RewriteRule ^(oci-legal-guides|oci-card-eligibility-legal-status|oci-vs-nri-vs-indian-citizen|oci-card-application-documents|oci-card-indian-ancestry-assistance|oci-foreign-spouse-eligibility|oci-for-children-born-abroad|oci-card-benefits-restrictions-india|oci-cardholders-inherit-sell-ancestral-property-india|nri-oci-property-due-diligence-india|nri-oci-property-tax-india|oci-card-renewal-passport-update|oci-card-cancellation-grounds-remedies|oci-card-cancellation-section-7d-legal-remedies)/$ /$1.html [L,NC,QSA]
 
+# --------------------------------------------------------------------
+# Customs Law 15 Articles: Clean Canonical Trailing-Slash URLs
+# --------------------------------------------------------------------
+# 1. 301 redirect incoming legacy .html requests to canonical trailing-slash clean URLs
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+(customs-show-cause-notice-legal-reply|customs-seizure-release-of-goods|customs-provisional-release-seized-goods|customs-confiscation-redemption-fine-penalties|customs-appeals-cestat-high-courts|customs-investigation-search-summons-rights|customs-gold-jewellery-airports|customs-passenger-baggage-detention-release|customs-duty-demand-limitation-section-28|customs-valuation-related-party-imports|customs-hsn-classification-disputes|customs-refunds-reimports-drawback|customs-restricted-prohibited-goods-import|customs-broker-liability-importer-exporter-compliance|customs-prosecution-arrest-bail)\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/%1/ [R=301,L,QSA]
+
+# 2. 301 redirect non-trailing-slash requests to canonical trailing-slash clean URLs
+RewriteRule ^(customs-show-cause-notice-legal-reply|customs-seizure-release-of-goods|customs-provisional-release-seized-goods|customs-confiscation-redemption-fine-penalties|customs-appeals-cestat-high-courts|customs-investigation-search-summons-rights|customs-gold-jewellery-airports|customs-passenger-baggage-detention-release|customs-duty-demand-limitation-section-28|customs-valuation-related-party-imports|customs-hsn-classification-disputes|customs-refunds-reimports-drawback|customs-restricted-prohibited-goods-import|customs-broker-liability-importer-exporter-compliance|customs-prosecution-arrest-bail)$ https://rrclawassociates.com/$1/ [R=301,L,QSA]
+
+# 3. Internally resolve canonical trailing-slash clean URLs directly to HTML files
+RewriteRule ^(customs-show-cause-notice-legal-reply|customs-seizure-release-of-goods|customs-provisional-release-seized-goods|customs-confiscation-redemption-fine-penalties|customs-appeals-cestat-high-courts|customs-investigation-search-summons-rights|customs-gold-jewellery-airports|customs-passenger-baggage-detention-release|customs-duty-demand-limitation-section-28|customs-valuation-related-party-imports|customs-hsn-classification-disputes|customs-refunds-reimports-drawback|customs-restricted-prohibited-goods-import|customs-broker-liability-importer-exporter-compliance|customs-prosecution-arrest-bail)/$ /$1.html [L,NC,QSA]
+
 # 4. Route legacy hierarchical OCI service URL to canonical service landing page
 RewriteRule ^nri-legal-services/oci-card-assistance/?$ https://rrclawassociates.com/oci-card-assistance [R=301,L,NC]
 RewriteRule ^wills-probate-estate-administration/$ https://rrclawassociates.com/wills-probate-estate-administration [R=301,L,NC]
@@ -74,6 +87,12 @@ RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+us-india-documentation-services\.html(?
 RewriteRule ^ https://rrclawassociates.com/us-india-documentation-services/ [R=301,L,QSA]
 RewriteRule ^us-india-documentation-services$ https://rrclawassociates.com/us-india-documentation-services/ [R=301,L,QSA]
 RewriteRule ^us-india-documentation-services/$ /us-india-documentation-services.html [L,NC,QSA]
+
+# Practice Areas - Customs Law Clean URL routing
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+practice-areas/customs-law/index\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/practice-areas/customs-law/ [R=301,L,QSA]
+RewriteRule ^practice-areas/customs-law$ https://rrclawassociates.com/practice-areas/customs-law/ [R=301,L,QSA]
+RewriteRule ^customs-law/?$ https://rrclawassociates.com/practice-areas/customs-law/ [R=301,L,NC]
 
 # 5. Site-wide clean URL: 301 redirect remaining .html requests to clean URLs (without trailing slash)
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.html(?:\?[^\s]*)?\s [NC]
