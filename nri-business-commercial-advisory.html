@@ -947,17 +947,25 @@
                     <a class="nav-link-custom dropdown-toggle border-0 bg-transparent p-0" href="/nri-services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: var(--gold) !important;">
                         NRI Services
                     </a>
-                    <ul class="dropdown-menu dropdown-menu-nri shadow-lg">
-                        <li><a class="dropdown-item text-uppercase" href="/oci-card-assistance">OCI Card &amp; Ancestry Assistance</a></li>
-                        <li><a class="dropdown-item text-uppercase" href="/wills-probate-estate-administration">Wills, Probate &amp; Estate Administration</a></li>
-                        <li><a class="dropdown-item text-uppercase" href="/nri-landlord-tenant-eviction/">Landlord–Tenant &amp; Eviction</a></li>
-                        <li><a class="dropdown-item text-uppercase" href="/nri-rera-builder-disputes/">RERA &amp; Builder Disputes</a></li>
-                        <li><a class="dropdown-item text-uppercase active text-gold fw-bold" href="/nri-business-commercial-advisory/">Business &amp; Commercial Advisory</a></li>
-                        <li><a class="dropdown-item text-uppercase" href="/nri-property-disputes">Property Disputes</a></li>
-                        <li><a class="dropdown-item text-uppercase" href="/nri-power-of-attorney">Power of Attorney</a></li>
-                        <li><a class="dropdown-item text-uppercase" href="/us-india-documentation-services/">U.S.–India Documentation</a></li>
-                        <li><a class="dropdown-item text-uppercase" href="/nri-criminal-case">Criminal Cases</a></li>
-                        <li><a class="dropdown-item text-uppercase" href="/nri-family-matrimonial">Family &amp; Matrimonial</a></li>
+                                        <ul class="dropdown-menu dropdown-menu-nri shadow-lg" id="nriMenu" aria-labelledby="nriDropdown">
+                        <li class="nri-column-wrap">
+                            <span class="dropdown-header text-gold">Property &amp; Personal Legal</span>
+                            <a class="dropdown-item text-uppercase" href="/oci-card-assistance">OCI Card &amp; Ancestry Assistance</a>
+                            <a class="dropdown-item text-uppercase" href="/wills-probate-estate-administration">Wills, Probate &amp; Estate Administration</a>
+                            <a class="dropdown-item text-uppercase" href="/nri-landlord-tenant-eviction/">Landlord–Tenant &amp; Eviction</a>
+                            <a class="dropdown-item text-uppercase" href="/nri-rera-builder-disputes/">RERA &amp; Builder Disputes</a>
+                            <a class="dropdown-item text-uppercase" href="/nri-property-disputes">Property Disputes</a>
+                            <a class="dropdown-item text-uppercase" href="/nri-power-of-attorney">Power of Attorney</a>
+                        </li>
+                        <li class="nri-column-wrap">
+                            <span class="dropdown-header text-gold">Business &amp; International Legal</span>
+                            <a class="dropdown-item text-uppercase" href="/us-india-documentation-services/">U.S.–India Documentation</a>
+                            <a class="dropdown-item text-uppercase" href="/immigration-services/">Immigration &amp; Visa Advisory</a>
+                            <a class="dropdown-item text-uppercase" href="/translation-services/">Certified Legal Translations</a>
+                            <a class="dropdown-item text-uppercase" href="/nri-business-commercial-advisory/" class="active text-gold fw-bold">Business &amp; Commercial Advisory</a>
+                            <a class="dropdown-item text-uppercase" href="/nri-criminal-case">Criminal Cases</a>
+                            <a class="dropdown-item text-uppercase" href="/nri-family-matrimonial">Family &amp; Matrimonial</a>
+                        </li>
                     </ul>
                 </div>
 
@@ -971,6 +979,7 @@
                         <span class="visually-hidden">Toggle Practice Areas</span>
                     </button>
                     <ul class="dropdown-menu dropdown-menu-practice shadow-lg" id="practiceMenu" aria-labelledby="practiceDropdown">
+                        <li><a class="dropdown-item text-uppercase" href="/company-incorporation/">Company Incorporation &amp; Corporate Law</a></li>
                         <li><a class="dropdown-item text-uppercase" href="/practice-areas/customs-law/">Customs Law Advisory &amp; Litigation</a></li>
                         <li><a class="dropdown-item text-uppercase" href="/family-law.html">Family Law Workspace</a></li>
                         <li><a class="dropdown-item text-uppercase" href="/intellectual-property.html">Intellectual Property Advisory</a></li>
@@ -1019,11 +1028,32 @@
         <div class="mt-5">
             <a href="/" class="m-link">Home</a>
 
-                        <div class="m-dropdown">
+            <div class="m-dropdown">
+                <a class="m-link m-trigger" href="javascript:void(0);">
+                    NRI Services <i class="fa fa-chevron-down ms-2"></i>
+                </a>
+                <div class="m-submenu" id="mNriMenu">
+                    <a class="m-sub-item" href="/oci-card-assistance">OCI Card &amp; Ancestry Assistance</a>
+                    <a class="m-sub-item" href="/wills-probate-estate-administration">Wills, Probate &amp; Estate Administration</a>
+                    <a class="m-sub-item" href="/nri-landlord-tenant-eviction/">Landlord–Tenant &amp; Eviction</a>
+                    <a class="m-sub-item" href="/nri-rera-builder-disputes/">RERA &amp; Builder Disputes</a>
+                    <a class="m-sub-item" href="/nri-property-disputes">Property Disputes</a>
+                    <a class="m-sub-item" href="/nri-power-of-attorney">Power of Attorney</a>
+                    <a class="m-sub-item" href="/us-india-documentation-services/">U.S.–India Documentation</a>
+                    <a class="m-sub-item" href="/immigration-services/">Immigration &amp; Visa Advisory</a>
+                    <a class="m-sub-item" href="/translation-services/">Certified Legal Translations</a>
+                    <a class="m-sub-item active text-gold fw-bold" href="/nri-business-commercial-advisory/">Business &amp; Commercial Advisory</a>
+                    <a class="m-sub-item" href="/nri-criminal-case">Criminal Cases</a>
+                    <a class="m-sub-item" href="/nri-family-matrimonial">Family &amp; Matrimonial</a>
+                </div>
+            </div>
+
+            <div class="m-dropdown">
                 <a class="m-link m-trigger" href="/core-practice-areas.html">
                     Practice Areas <i class="fa fa-chevron-down ms-2"></i>
                 </a>
                 <div class="m-submenu" id="mPracticeMenu">
+                    <a class="m-sub-item" href="/company-incorporation/">Company Incorporation &amp; Corporate Law</a>
                     <a class="m-sub-item" href="/practice-areas/customs-law/">Customs Law Advisory &amp; Litigation</a>
                     <a class="m-sub-item" href="/family-law.html">Family Law Workspace</a>
                     <a class="m-sub-item" href="/intellectual-property.html">Intellectual Property Advisory</a>
@@ -1343,6 +1373,12 @@
                             </tr>
                         </tbody>
                     </table>
+                </div>
+                <div class="mt-4 p-3 rounded-3" style="background: rgba(201, 162, 77, 0.08); border-left: 4px solid var(--gold);">
+                    <p class="mb-0" style="font-size: 0.95rem; color: #1a2238;">
+                        <i class="fas fa-info-circle text-gold me-2"></i>
+                        <strong>Seeking Full Incorporation &amp; MCA Registration?</strong> Explore our dedicated practice for end-to-end statutory company formation, DIN, DSC, SPICe+, and post-incorporation ROC compliance at <a href="/company-incorporation/" class="fw-bold text-decoration-underline" style="color: var(--gold);">Company Incorporation Services &rarr;</a>
+                    </p>
                 </div>
             </div>
         </section>
@@ -1782,6 +1818,7 @@
                 <div>
                     <h4>Practice Areas</h4>
                     <ul>
+                        <li><a href="/company-incorporation/">Company Incorporation</a></li>
                         <li><a href="/practice-areas/customs-law/">Customs Law</a></li>
                         <li><a href="/family-law.html">Family Law</a></li>
                         <li><a href="/property-law.html">Property Law</a></li>

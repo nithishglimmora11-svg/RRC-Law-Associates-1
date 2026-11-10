@@ -10,8 +10,7 @@
     background: #080808;
 
     border-bottom:
-        1px solid
-        rgba(201, 162, 39, 0.20);
+        1px solid rgba(201, 162, 39, 0.20);
 
     color: #ffffff;
 
@@ -180,10 +179,8 @@ html {
 
     .rrc-topbar-container {
         width:
-            min(
-                100% - 30px,
-                700px
-            );
+            min(100% - 30px,
+                700px);
     }
 
     .rrc-topbar-right span {
@@ -315,8 +312,8 @@ body {
         display: none !important;
     }
 
-    .header .dropdown:hover > .dropdown-menu:not(.dropdown-menu-nri):not(.dropdown-menu-practice),
-    .header .dropdown:focus-within > .dropdown-menu:not(.dropdown-menu-nri):not(.dropdown-menu-practice) {
+    .header .dropdown:hover>.dropdown-menu:not(.dropdown-menu-nri):not(.dropdown-menu-practice),
+    .header .dropdown:focus-within>.dropdown-menu:not(.dropdown-menu-nri):not(.dropdown-menu-practice) {
         display: block !important;
     }
 }
@@ -339,11 +336,13 @@ body {
         height: 44px !important;
         max-height: 44px !important;
     }
+
     .header .nav-link-custom {
         margin: 0 7px !important;
         font-size: 0.90rem !important;
         white-space: nowrap !important;
     }
+
     .header .btn-gold {
         padding: 7px 12px !important;
         font-size: 0.85rem !important;
@@ -394,6 +393,7 @@ body {
 }
 
 @media (max-width: 600px) {
+
     [data-rrc-ai-chat-root],
     [data-rrc-ai-chat-root] .rrc-ai-chat {
         right: 16px !important;
@@ -408,10 +408,10 @@ body {
    (NRI Services & Practice Areas Standardized System)
    ========================================================= */
 @media (min-width: 992px) {
-    /* Shared Dropdown Mega-Menu Geometry & Aesthetics */
+
+    /* Shared Base Dropdown Mega-Menu Geometry & Aesthetics */
     .dropdown-menu-nri,
     .dropdown-menu-practice {
-        width: 540px !important;
         max-width: calc(100vw - 32px) !important;
         max-height: calc(100vh - 140px) !important;
         overflow-y: auto !important;
@@ -427,18 +427,21 @@ body {
         margin-top: 0 !important;
         left: 50% !important;
         transform: translateX(-50%) !important;
-
-        display: none;
-        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-        grid-template-rows: repeat(5, auto) !important;
-        grid-auto-flow: column !important;
-        column-gap: 20px !important;
-        row-gap: 4px !important;
         z-index: 1250 !important;
     }
 
-    /* Elegant Vertical Column Divider */
-    .dropdown-menu-nri::after,
+    /* Practice Areas: 11 items in 2 balanced columns (6 rows x 2 cols) */
+    .dropdown-menu-practice {
+        width: 580px !important;
+        display: none;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        grid-template-rows: repeat(6, auto) !important;
+        grid-auto-flow: column !important;
+        column-gap: 24px !important;
+        row-gap: 4px !important;
+    }
+
+    /* Elegant Vertical Column Divider for Practice Areas */
     .dropdown-menu-practice::after {
         content: "" !important;
         position: absolute !important;
@@ -450,23 +453,89 @@ body {
         pointer-events: none !important;
     }
 
+    /* NRI Services: 12 items in 2 balanced columns (Side-by-side, no vertical scrollbar) */
+    .dropdown-menu-nri {
+        width: 720px !important;
+        max-width: calc(100vw - 32px) !important;
+        max-height: none !important;
+        overflow-y: visible !important;
+        display: none;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        grid-template-rows: auto !important;
+        grid-auto-flow: row !important;
+        column-gap: 28px !important;
+        row-gap: 0 !important;
+        padding: 18px 22px !important;
+    }
+
+    .dropdown-menu-nri>.nri-column-wrap {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 2px !important;
+        list-style: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+    }
+
+    .dropdown-menu-nri>.nri-column-wrap:first-child {
+        grid-column: 1 !important;
+        grid-row: 1 !important;
+    }
+
+    .dropdown-menu-nri>.nri-column-wrap:last-child {
+        grid-column: 2 !important;
+        grid-row: 1 !important;
+    }
+
+    .dropdown-menu-nri .dropdown-header {
+        font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
+        font-size: 11px !important;
+        font-weight: 700 !important;
+        color: #C9A24D !important;
+        text-transform: uppercase !important;
+        letter-spacing: 0.08em !important;
+        padding: 6px 12px 6px 12px !important;
+        border-bottom: 1px solid rgba(201, 164, 77, 0.25) !important;
+        margin-bottom: 6px !important;
+    }
+
+    /* Fallback for flat list structure */
+    .dropdown-menu-nri:not(:has(.nri-column-wrap)) {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        grid-template-rows: repeat(6, auto) !important;
+        grid-auto-flow: column !important;
+    }
+
+    /* Vertical Column Divider */
+    .dropdown-menu-nri::after {
+        content: "" !important;
+        position: absolute !important;
+        top: 18px !important;
+        bottom: 18px !important;
+        left: 50% !important;
+        width: 1px !important;
+        background: rgba(201, 164, 77, 0.2) !important;
+        pointer-events: none !important;
+    }
+
     /* Open Display States */
     .dropdown-menu-nri.is-active,
     .dropdown-menu-practice.is-active,
     .dropdown-menu-nri.show,
     .dropdown-menu-practice.show,
-    .header .dropdown:hover > .dropdown-menu-nri:not(.is-closed),
-    .header .dropdown:focus-within > .dropdown-menu-nri:not(.is-closed),
-    .header .dropdown:hover > .dropdown-menu-practice:not(.is-closed),
-    .header .dropdown:focus-within > .dropdown-menu-practice:not(.is-closed) {
+    .header .dropdown:hover>.dropdown-menu-nri:not(.is-closed),
+    .header .dropdown:focus-within>.dropdown-menu-nri:not(.is-closed),
+    .header .dropdown:hover>.dropdown-menu-practice:not(.is-closed),
+    .header .dropdown:focus-within>.dropdown-menu-practice:not(.is-closed) {
         display: grid !important;
     }
 
     /* Closed Suppression State (Guarantees zero simultaneous display) */
-    .header .dropdown > .dropdown-menu-nri.is-closed,
-    .header .dropdown > .dropdown-menu-practice.is-closed,
-    .header .dropdown:hover > .dropdown-menu-nri.is-closed,
-    .header .dropdown:hover > .dropdown-menu-practice.is-closed,
+    .header .dropdown>.dropdown-menu-nri.is-closed,
+    .header .dropdown>.dropdown-menu-practice.is-closed,
+    .header .dropdown:hover>.dropdown-menu-nri.is-closed,
+    .header .dropdown:hover>.dropdown-menu-practice.is-closed,
     .dropdown-menu-nri.is-closed,
     .dropdown-menu-practice.is-closed {
         display: none !important;
@@ -484,8 +553,8 @@ body {
         background: transparent !important;
     }
 
-    .dropdown-menu-nri > li,
-    .dropdown-menu-practice > li {
+    .dropdown-menu-nri>li,
+    .dropdown-menu-practice>li {
         list-style: none !important;
         margin: 0 !important;
         padding: 0 !important;
@@ -651,6 +720,7 @@ body {
         margin: 0 0 0 8px !important;
         font-size: 0.92rem !important;
     }
+
     .header .dropdown.practice-dropdown-container .practice-arrow-btn {
         margin: 0 8px 0 3px !important;
     }
@@ -661,6 +731,7 @@ body {
         margin: 0 0 0 7px !important;
         font-size: 0.90rem !important;
     }
+
     .header .dropdown.practice-dropdown-container .practice-arrow-btn {
         margin: 0 7px 0 3px !important;
     }

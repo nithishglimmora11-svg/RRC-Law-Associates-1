@@ -3260,23 +3260,55 @@ button:disabled,
 
 .footer-brand p {
   color: whitesmoke;
+  color: #D1D5DB;
   font-size: 15px;
   line-height: 1.7;
   margin-bottom: 20px;
 }
 
 /* Social */
+.footer .social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 14px;
+}
 
+.footer .social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  color: #CBD5E1;
+  font-size: 15px;
+  transition: all 0.25s ease;
+  text-decoration: none;
+}
+
+.footer .social a::after {
+  display: none;
+}
+
+.footer .social a:hover {
+  background: #C9A24D;
+  color: #081521;
+  transform: translateY(-2px);
+}
 
 /* Lists */
 .footer h4 {
   color: goldenrod;
+  color: #FED488;
   font-size: 18px;
   margin-bottom: 18px;
 }
 
 .footer ul {
   color: lightgrey;
+  color: #E2E8F0;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -3288,6 +3320,7 @@ button:disabled,
 
 .footer a {
   color: var(--muted);
+  color: #E2E8F0;
   text-decoration: none;
   position: relative;
   transition: color 0.3s;
@@ -3306,6 +3339,7 @@ button:disabled,
 
 .footer a:hover {
   color: var(--gold);
+  color: #FED488;
 }
 
 .footer a:hover::after {
@@ -3316,13 +3350,24 @@ button:disabled,
 .contact span {
   display: block;
   color: var(--gold);
+  color: #FED488;
   font-size: 12px;
   margin-bottom: 4px;
+}
+
+.contact p,
+.contact a {
+  color: #D1D5DB;
+}
+
+.contact a:hover {
+  color: #FED488;
 }
 
 /* Bottom */
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
   padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -3330,6 +3375,12 @@ button:disabled,
   gap: 16px;
   font-size: 14px;
   color: var(--muted);
+  color: #CBD5E1;
+}
+
+.footer-bottom p {
+  color: #CBD5E1;
+  margin: 0;
 }
 
 .legal {
@@ -3341,6 +3392,7 @@ button:disabled,
 .legal a {
   color: rgba(245, 243, 239, 0.7);
   /* muted off-white */
+  color: #CBD5E1;
   text-decoration: none;
   font-size: 14px;
   position: relative;
@@ -3349,6 +3401,7 @@ button:disabled,
 
 .legal a:hover {
   color: #ffd700;
+  color: #FED488;
 }
 
 
@@ -4933,10 +4986,10 @@ button:disabled,
    (NRI Services & Practice Areas Standardized System)
    ========================================================= */
 @media (min-width: 992px) {
-  /* Shared Dropdown Mega-Menu Geometry & Aesthetics */
+
+  /* Shared Base Dropdown Mega-Menu Geometry & Aesthetics */
   .dropdown-menu-nri,
   .dropdown-menu-practice {
-    width: 540px !important;
     max-width: calc(100vw - 32px) !important;
     max-height: calc(100vh - 140px) !important;
     overflow-y: auto !important;
@@ -4952,18 +5005,21 @@ button:disabled,
     margin-top: 0 !important;
     left: 50% !important;
     transform: translateX(-50%) !important;
+    z-index: 1250 !important;
+  }
 
+  /* Practice Areas: 10 items in 2 balanced columns (5 rows x 2 cols) */
+  .dropdown-menu-practice {
+    width: 540px !important;
     display: none;
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
     grid-template-rows: repeat(5, auto) !important;
     grid-auto-flow: column !important;
     column-gap: 20px !important;
     row-gap: 4px !important;
-    z-index: 1250 !important;
   }
 
-  /* Elegant Vertical Column Divider */
-  .dropdown-menu-nri::after,
+  /* Elegant Vertical Column Divider for Practice Areas */
   .dropdown-menu-practice::after {
     content: "" !important;
     position: absolute !important;
@@ -4975,23 +5031,89 @@ button:disabled,
     pointer-events: none !important;
   }
 
+  /* NRI Services: 12 items in 2 balanced columns (Side-by-side, no vertical scrollbar) */
+  .dropdown-menu-nri {
+    width: 720px !important;
+    max-width: calc(100vw - 32px) !important;
+    max-height: none !important;
+    overflow-y: visible !important;
+    display: none;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-template-rows: auto !important;
+    grid-auto-flow: row !important;
+    column-gap: 28px !important;
+    row-gap: 0 !important;
+    padding: 18px 22px !important;
+  }
+
+  .dropdown-menu-nri>.nri-column-wrap {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2px !important;
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  .dropdown-menu-nri>.nri-column-wrap:first-child {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+  }
+
+  .dropdown-menu-nri>.nri-column-wrap:last-child {
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+  }
+
+  .dropdown-menu-nri .dropdown-header {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    color: #C9A24D !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.08em !important;
+    padding: 6px 12px 6px 12px !important;
+    border-bottom: 1px solid rgba(201, 164, 77, 0.25) !important;
+    margin-bottom: 6px !important;
+  }
+
+  /* Fallback for flat list structure */
+  .dropdown-menu-nri:not(:has(.nri-column-wrap)) {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-template-rows: repeat(6, auto) !important;
+    grid-auto-flow: column !important;
+  }
+
+  /* Vertical Column Divider */
+  .dropdown-menu-nri::after {
+    content: "" !important;
+    position: absolute !important;
+    top: 18px !important;
+    bottom: 18px !important;
+    left: 50% !important;
+    width: 1px !important;
+    background: rgba(201, 164, 77, 0.2) !important;
+    pointer-events: none !important;
+  }
+
   /* Open Display States */
   .dropdown-menu-nri.is-active,
   .dropdown-menu-practice.is-active,
   .dropdown-menu-nri.show,
   .dropdown-menu-practice.show,
-  .header .dropdown:hover > .dropdown-menu-nri:not(.is-closed),
-  .header .dropdown:focus-within > .dropdown-menu-nri:not(.is-closed),
-  .header .dropdown:hover > .dropdown-menu-practice:not(.is-closed),
-  .header .dropdown:focus-within > .dropdown-menu-practice:not(.is-closed) {
+  .header .dropdown:hover>.dropdown-menu-nri:not(.is-closed),
+  .header .dropdown:focus-within>.dropdown-menu-nri:not(.is-closed),
+  .header .dropdown:hover>.dropdown-menu-practice:not(.is-closed),
+  .header .dropdown:focus-within>.dropdown-menu-practice:not(.is-closed) {
     display: grid !important;
   }
 
   /* Closed Suppression State (Guarantees zero simultaneous display) */
-  .header .dropdown > .dropdown-menu-nri.is-closed,
-  .header .dropdown > .dropdown-menu-practice.is-closed,
-  .header .dropdown:hover > .dropdown-menu-nri.is-closed,
-  .header .dropdown:hover > .dropdown-menu-practice.is-closed,
+  .header .dropdown>.dropdown-menu-nri.is-closed,
+  .header .dropdown>.dropdown-menu-practice.is-closed,
+  .header .dropdown:hover>.dropdown-menu-nri.is-closed,
+  .header .dropdown:hover>.dropdown-menu-practice.is-closed,
   .dropdown-menu-nri.is-closed,
   .dropdown-menu-practice.is-closed {
     display: none !important;
@@ -5009,8 +5131,8 @@ button:disabled,
     background: transparent !important;
   }
 
-  .dropdown-menu-nri > li,
-  .dropdown-menu-practice > li {
+  .dropdown-menu-nri>li,
+  .dropdown-menu-practice>li {
     list-style: none !important;
     margin: 0 !important;
     padding: 0 !important;
@@ -5069,85 +5191,87 @@ button:disabled,
    Matches NRI Services dimensions, margins, colors, and typography
 ========================================================= */
 .header .dropdown.practice-dropdown-container {
-    display: inline-flex !important;
-    align-items: center !important;
-    position: relative !important;
-    margin: 0 !important;
-    padding: 0 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  position: relative !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .header .dropdown.practice-dropdown-container .practice-text-link {
-    color: #ffffff !important;
-    text-decoration: none !important;
-    font-weight: 500 !important;
-    font-size: 0.90rem !important;
-    white-space: nowrap !important;
-    margin: 0 0 0 15px !important;
-    padding: 0 !important;
-    line-height: inherit !important;
-    cursor: pointer !important;
-    transition: color 0.3s ease !important;
-    background: transparent !important;
-    border: none !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+  font-size: 0.90rem !important;
+  white-space: nowrap !important;
+  margin: 0 0 0 15px !important;
+  padding: 0 !important;
+  line-height: inherit !important;
+  cursor: pointer !important;
+  transition: color 0.3s ease !important;
+  background: transparent !important;
+  border: none !important;
 }
 
 .header .dropdown.practice-dropdown-container .practice-text-link:hover,
 .header .dropdown.practice-dropdown-container .practice-text-link:focus {
-    color: #c9a24d !important;
+  color: #c9a24d !important;
 }
 
 .header .dropdown.practice-dropdown-container .practice-arrow-btn {
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    color: #ffffff !important;
-    background: transparent !important;
-    border: none !important;
-    margin: 0 15px 0 4px !important;
-    padding: 4px 2px !important;
-    cursor: pointer !important;
-    line-height: 1 !important;
-    box-shadow: none !important;
-    outline: none !important;
-    transition: color 0.3s ease !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #ffffff !important;
+  background: transparent !important;
+  border: none !important;
+  margin: 0 15px 0 4px !important;
+  padding: 4px 2px !important;
+  cursor: pointer !important;
+  line-height: 1 !important;
+  box-shadow: none !important;
+  outline: none !important;
+  transition: color 0.3s ease !important;
 }
 
 .header .dropdown.practice-dropdown-container .practice-arrow-btn:hover,
 .header .dropdown.practice-dropdown-container .practice-arrow-btn:focus,
 .header .dropdown.practice-dropdown-container .practice-arrow-btn[aria-expanded="true"] {
-    color: #c9a24d !important;
+  color: #c9a24d !important;
 }
 
 .header .dropdown.practice-dropdown-container .practice-arrow-btn::after {
-    display: inline-block !important;
-    margin-left: 0 !important;
-    vertical-align: 0.15em !important;
-    content: "" !important;
-    border-top: 0.3em solid !important;
-    border-right: 0.3em solid transparent !important;
-    border-bottom: 0 !important;
-    border-left: 0.3em solid transparent !important;
-    border-top-color: currentColor !important;
-    pointer-events: none !important;
+  display: inline-block !important;
+  margin-left: 0 !important;
+  vertical-align: 0.15em !important;
+  content: "" !important;
+  border-top: 0.3em solid !important;
+  border-right: 0.3em solid transparent !important;
+  border-bottom: 0 !important;
+  border-left: 0.3em solid transparent !important;
+  border-top-color: currentColor !important;
+  pointer-events: none !important;
 }
 
 /* Tablet & intermediate desktop responsiveness matching .nav-link-custom */
 @media (min-width: 992px) and (max-width: 1240px) {
-    .header .dropdown.practice-dropdown-container .practice-text-link {
-        margin: 0 0 0 8px !important;
-        font-size: 0.92rem !important;
-    }
-    .header .dropdown.practice-dropdown-container .practice-arrow-btn {
-        margin: 0 8px 0 3px !important;
-    }
+  .header .dropdown.practice-dropdown-container .practice-text-link {
+    margin: 0 0 0 8px !important;
+    font-size: 0.92rem !important;
+  }
+
+  .header .dropdown.practice-dropdown-container .practice-arrow-btn {
+    margin: 0 8px 0 3px !important;
+  }
 }
 
 @media (max-width: 1100px) {
-    .header .dropdown.practice-dropdown-container .practice-text-link {
-        margin: 0 0 0 7px !important;
-        font-size: 0.90rem !important;
-    }
-    .header .dropdown.practice-dropdown-container .practice-arrow-btn {
-        margin: 0 7px 0 3px !important;
-    }
+  .header .dropdown.practice-dropdown-container .practice-text-link {
+    margin: 0 0 0 7px !important;
+    font-size: 0.90rem !important;
+  }
+
+  .header .dropdown.practice-dropdown-container .practice-arrow-btn {
+    margin: 0 7px 0 3px !important;
+  }
 }

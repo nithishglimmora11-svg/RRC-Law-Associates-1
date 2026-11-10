@@ -1,0 +1,1282 @@
+/**
+ * RRC Law Associates — Official Practice Area Design System
+ * Version: 20261110-2
+ *
+ * Applied strictly to:
+ * - /company-incorporation/ (.company-incorporation-page)
+ * - /immigration-services/   (.immigration-services-page)
+ * - /translation-services/   (.translation-services-page)
+ *
+ * Re-aligned with Established RRC Law Associates Brand Design:
+ * - Signature Gold: #c9a24d (Hover: #b38f40 / #e2b759)
+ * - Gold Dark: #775A19 / #8c6d23 (for text badges & icons)
+ * - Gold Tint: rgba(201, 162, 77, 0.12)
+ * - Gold Border: rgba(201, 162, 77, 0.35)
+ * - Dark Navy / Charcoal: #0E1C2F / #0b1c2d (Headings & Primary Accents)
+ * - Body Text: #1e293b / #334155 (High contrast, readable)
+ * - Muted Text: #64748b
+ * - Clean White: #ffffff
+ * - Signature Cream: #f9f7f3 (Alternating section contrast matching style.css)
+ * - Soft Border: #e2e8f0
+ *
+ * Compact whitespace rules:
+ * - Hero: 125px top (header clearance) / 38px bottom
+ * - Section padding: 48px–54px desktop / 36px tablet / 28px mobile
+ * - Card padding: 22px 20px
+ * - Grid gap: 20px–24px
+ * - Form padding: 26px 24px
+ * - Anchor scroll-margin-top: 105px (prevents sticky header obscuring)
+ */
+
+/* ==========================================================================
+   1. GLOBAL PAGE CONTAINER & CSS VARIABLES
+   ========================================================================== */
+:root {
+  --rrc-gold: #c9a24d;
+  --rrc-gold-hover: #b38f40;
+  --rrc-gold-light: rgba(201, 162, 77, 0.12);
+  --rrc-gold-border: rgba(201, 162, 77, 0.32);
+  --rrc-gold-dark: #775A19;
+  --rrc-dark-navy: #0E1C2F;
+  --rrc-text-heading: #0E1C2F;
+  --rrc-text-body: #1e293b;
+  --rrc-text-muted: #64748b;
+  --rrc-white: #ffffff;
+  --rrc-cream: #f9f7f3;
+  --rrc-border-soft: #e2e8f0;
+  --rrc-shadow-sm: 0 3px 12px rgba(0, 0, 0, 0.03);
+  --rrc-shadow-md: 0 8px 24px rgba(14, 28, 47, 0.06);
+  --rrc-shadow-lg: 0 14px 32px rgba(14, 28, 47, 0.09);
+  --rrc-radius-sm: 8px;
+  --rrc-radius-md: 12px;
+  --rrc-radius-lg: 16px;
+}
+
+/* Smooth Scrolling & Sticky Header Anchor Compensation */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 105px;
+}
+
+/* Page Body Base */
+.service-page-body {
+  background-color: var(--rrc-white) !important;
+  color: var(--rrc-text-body) !important;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
+  line-height: 1.62;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Accessibility: Skip Link */
+.service-page-body .skip-link {
+  position: absolute;
+  top: -60px;
+  left: 15px;
+  background: var(--rrc-dark-navy);
+  color: #ffffff;
+  padding: 8px 16px;
+  z-index: 99999;
+  border-radius: var(--rrc-radius-sm);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: top 0.2s ease;
+}
+
+.service-page-body .skip-link:focus {
+  top: 15px;
+}
+
+/* Typography Hierarchy & Strict Content Visibility Guarantees */
+.service-page-body {
+  color: var(--rrc-text-body);
+}
+
+.service-page-body main h1,
+.service-page-body main h2,
+.service-page-body main h3,
+.service-page-body main h4,
+.service-page-body main h5,
+.service-page-body main h6,
+.service-page-body main .srv-serif,
+.service-page-body .srv-section h1,
+.service-page-body .srv-section h2,
+.service-page-body .srv-section h3,
+.service-page-body .srv-section h4,
+.service-page-body .srv-section h5,
+.service-page-body .srv-section h6 {
+  font-family: 'Playfair Display', Georgia, serif;
+  color: var(--rrc-text-heading) !important;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.service-page-body p,
+.service-page-body li,
+.service-page-body label,
+.service-page-body input,
+.service-page-body select,
+.service-page-body textarea,
+.service-page-body button {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Eliminate style.css white-on-white text and excessive 48px paragraph gaps */
+.service-page-body main p,
+.service-page-body .srv-section p {
+  color: var(--rrc-text-body) !important;
+  font-size: 1rem;
+  line-height: 1.65;
+  margin-bottom: 14px;
+  max-width: 100%;
+}
+
+.service-page-body main li,
+.service-page-body .srv-section li {
+  color: var(--rrc-text-body) !important;
+}
+
+.service-page-body .srv-lead-p,
+.service-page-body .srv-enquiry-subtitle,
+.service-page-body .srv-section-lead,
+.service-page-body .srv-section-sub,
+.service-page-body .srv-card-text {
+  color: var(--rrc-text-body) !important;
+}
+
+.service-page-body .text-muted,
+.service-page-body .srv-text-muted {
+  color: var(--rrc-text-muted) !important;
+}
+
+/* Color Utility Helpers */
+.service-page-body .text-gold {
+  color: var(--rrc-gold) !important;
+}
+
+.service-page-body .text-gold-dark {
+  color: var(--rrc-gold-dark) !important;
+}
+
+.service-page-body .text-dark-navy,
+.service-page-body .text-olive {
+  color: var(--rrc-dark-navy) !important;
+}
+
+.service-page-body .text-sage {
+  color: var(--rrc-gold-dark) !important;
+}
+
+/* ==========================================================================
+   2. EYEBROW BADGES & BREADCRUMBS
+   ========================================================================== */
+.service-page-body .srv-badge,
+.service-page-body .srv-badge-gold,
+.service-page-body .srv-badge-olive {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 13px;
+  background-color: var(--rrc-gold-light);
+  color: var(--rrc-gold-dark);
+  border: 1px solid var(--rrc-gold-border);
+  border-radius: 50px;
+  font-size: 0.785rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 12px;
+}
+
+.service-page-body .srv-badge i,
+.service-page-body .srv-badge-gold i,
+.service-page-body .srv-badge-olive i {
+  color: var(--rrc-gold);
+  font-size: 0.85rem;
+}
+
+/* Breadcrumbs Bar */
+.service-page-body .srv-breadcrumbs-bar,
+.service-page-body .srv-breadcrumb {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: 0.84rem;
+  color: var(--rrc-text-muted);
+  margin-bottom: 14px;
+}
+
+.service-page-body .srv-breadcrumbs-bar a,
+.service-page-body .srv-breadcrumb a {
+  color: #475569;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.service-page-body .srv-breadcrumbs-bar a:hover,
+.service-page-body .srv-breadcrumb a:hover {
+  color: var(--rrc-gold-dark);
+  text-decoration: underline;
+}
+
+.service-page-body .srv-breadcrumbs-bar .sep,
+.service-page-body .srv-breadcrumb-sep {
+  color: #94a3b8;
+  font-size: 0.75rem;
+}
+
+.service-page-body .srv-breadcrumbs-bar .cur,
+.service-page-body .srv-breadcrumb-current {
+  color: var(--rrc-dark-navy);
+  font-weight: 600;
+}
+
+/* ==========================================================================
+   3. HERO SECTION (COMPACT & BALANCED)
+   ========================================================================== */
+.service-page-body .srv-hero-section {
+  padding-top: 125px;
+  /* Exact clearance for 42px topbar + 75px fixed header */
+  padding-bottom: 38px;
+  background: linear-gradient(180deg, #fbfbfd 0%, var(--rrc-cream) 100%);
+  border-bottom: 1px solid var(--rrc-border-soft);
+  position: relative;
+  overflow: hidden;
+}
+
+.service-page-body .srv-hero-h1 {
+  font-size: clamp(1.95rem, 3.1vw, 2.75rem);
+  line-height: 1.22;
+  color: var(--rrc-dark-navy);
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.service-page-body .srv-hero-lead {
+  font-size: clamp(0.975rem, 1.15vw, 1.05rem);
+  line-height: 1.65;
+  color: #334155;
+  margin-bottom: 20px;
+  max-width: 640px;
+}
+
+.service-page-body .srv-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+/* Hero Trust Badges List */
+.service-page-body .srv-trust-list,
+.service-page-body .srv-hero-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.service-page-body .srv-trust-list li,
+.service-page-body .srv-hero-highlight-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.84rem;
+  font-weight: 500;
+  color: var(--rrc-text-muted);
+}
+
+.service-page-body .srv-trust-list li i,
+.service-page-body .srv-hero-highlight-item i {
+  color: var(--rrc-gold);
+  font-size: 0.95rem;
+}
+
+/* Hero Image Card (Balanced Vertical Scale) */
+.service-page-body .srv-hero-image-card {
+  position: relative;
+  border-radius: var(--rrc-radius-md);
+  overflow: hidden;
+  box-shadow: var(--rrc-shadow-md);
+  border: 1px solid var(--rrc-gold-border);
+  background-color: var(--rrc-white);
+  padding: 6px;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.service-page-body .srv-hero-image-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--rrc-gold);
+}
+
+.service-page-body .srv-hero-image-card img {
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+  display: block;
+  border-radius: 9px;
+  aspect-ratio: 16 / 10;
+}
+
+.service-page-body .srv-floating-pill {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  right: 16px;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--rrc-gold-border);
+  border-radius: 10px;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 8px 20px rgba(14, 28, 47, 0.08);
+}
+
+.service-page-body .srv-floating-pill-icon,
+.service-page-body .srv-floating-pill i {
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  background-color: var(--rrc-gold-light);
+  color: var(--rrc-gold-dark);
+  border: 1px solid var(--rrc-gold-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.service-page-body .srv-floating-pill-title,
+.service-page-body .srv-floating-pill strong {
+  font-size: 0.865rem;
+  font-weight: 700;
+  color: var(--rrc-dark-navy);
+  margin-bottom: 2px;
+  display: block;
+}
+
+.service-page-body .srv-floating-pill-desc,
+.service-page-body .srv-floating-pill span {
+  font-size: 0.775rem;
+  color: var(--rrc-text-muted);
+  margin: 0;
+  display: block;
+  line-height: 1.35;
+}
+
+/* ==========================================================================
+   4. BUTTONS (MATCHING RRC SIGNATURE STYLES)
+   ========================================================================== */
+/* Primary Brand Gold Button */
+.service-page-body .btn-srv-primary,
+.service-page-body .btn-srv-gold,
+.service-page-body .btn-gold {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: var(--rrc-gold) !important;
+  color: #0E1C2F !important;
+  font-weight: 700;
+  font-size: 0.925rem;
+  padding: 11px 22px;
+  border-radius: var(--rrc-radius-sm);
+  border: 1.5px solid var(--rrc-gold) !important;
+  text-decoration: none !important;
+  transition: all 0.22s ease;
+  box-shadow: 0 3px 10px rgba(201, 162, 77, 0.25);
+  cursor: pointer;
+}
+
+.service-page-body .btn-srv-primary:hover,
+.service-page-body .btn-srv-primary:focus,
+.service-page-body .btn-srv-gold:hover,
+.service-page-body .btn-gold:hover {
+  background-color: var(--rrc-gold-hover) !important;
+  border-color: var(--rrc-gold-hover) !important;
+  color: #0E1C2F !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(201, 162, 77, 0.35);
+}
+
+/* Secondary / Outline Button */
+.service-page-body .btn-srv-secondary,
+.service-page-body .btn-srv-outline,
+.service-page-body .btn-outline-dark-law {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: transparent !important;
+  color: var(--rrc-dark-navy) !important;
+  font-weight: 600;
+  font-size: 0.925rem;
+  padding: 10px 20px;
+  border-radius: var(--rrc-radius-sm);
+  border: 1.5px solid var(--rrc-dark-navy) !important;
+  text-decoration: none !important;
+  transition: all 0.22s ease;
+  cursor: pointer;
+}
+
+.service-page-body .btn-srv-secondary:hover,
+.service-page-body .btn-srv-secondary:focus,
+.service-page-body .btn-srv-outline:hover,
+.service-page-body .btn-outline-dark-law:hover {
+  background-color: var(--rrc-dark-navy) !important;
+  color: #ffffff !important;
+  border-color: var(--rrc-dark-navy) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(14, 28, 47, 0.15);
+}
+
+/* Subtle Olive / Dark Pill Buttons */
+.service-page-body .btn-srv-olive {
+  background-color: var(--rrc-dark-navy) !important;
+  border-color: var(--rrc-dark-navy) !important;
+  color: #ffffff !important;
+}
+
+.service-page-body .btn-srv-olive:hover {
+  background-color: #1a2c42 !important;
+  border-color: #1a2c42 !important;
+}
+
+/* ==========================================================================
+   5. SECTION CONTAINERS & WHITESPACE CONTROL
+   ========================================================================== */
+.service-page-body .srv-section,
+.service-page-body .content-section {
+  padding: 48px 0;
+  position: relative;
+  scroll-margin-top: 105px;
+}
+
+/* Background Variations */
+.service-page-body .srv-section-white,
+.service-page-body .bg-white {
+  background-color: var(--rrc-white);
+}
+
+.service-page-body .srv-section-sand,
+.service-page-body .srv-section-ivory,
+.service-page-body .bg-cream {
+  background-color: var(--rrc-cream);
+  border-top: 1px solid var(--rrc-border-soft);
+  border-bottom: 1px solid var(--rrc-border-soft);
+}
+
+/* Section Header (Compact Spacing) */
+.service-page-body .srv-section-header {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto 26px auto;
+}
+
+.service-page-body .srv-section-h2,
+.service-page-body .section-heading {
+  font-size: clamp(1.65rem, 2.4vw, 2.2rem);
+  color: var(--rrc-dark-navy);
+  margin-bottom: 8px;
+  line-height: 1.28;
+}
+
+.service-page-body .srv-section-lead,
+.service-page-body .srv-section-sub,
+.service-page-body .section-lead {
+  font-size: 0.985rem;
+  color: var(--rrc-text-muted);
+  line-height: 1.62;
+  margin: 0 auto;
+  max-width: 740px;
+}
+
+/* Anchor Scroll Margin Targets */
+.service-page-body section[id],
+.service-page-body div[id],
+.service-page-body .srv-form-card,
+.service-page-body .srv-enquiry-card {
+  scroll-margin-top: 105px;
+}
+
+/* ==========================================================================
+   6. SERVICE CARDS & FEATURE CONTAINERS
+   ========================================================================== */
+.service-page-body .srv-card,
+.service-page-body .legal-card,
+.service-page-body .service-card {
+  background-color: var(--rrc-white);
+  border: 1px solid var(--rrc-border-soft);
+  border-radius: var(--rrc-radius-md);
+  padding: 22px 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  box-shadow: var(--rrc-shadow-sm);
+}
+
+.service-page-body .srv-card:hover,
+.service-page-body .legal-card:hover,
+.service-page-body .service-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--rrc-shadow-md);
+  border-color: var(--rrc-gold-border);
+}
+
+/* Card Icons */
+.service-page-body .srv-card-icon,
+.service-page-body .srv-icon-olive,
+.service-page-body .srv-icon-sage,
+.service-page-body .srv-icon-gold,
+.service-page-body .legal-card-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background-color: var(--rrc-gold-light);
+  color: var(--rrc-gold-dark);
+  border: 1px solid var(--rrc-gold-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  margin-bottom: 14px;
+  transition: all 0.22s ease;
+  flex-shrink: 0;
+}
+
+.service-page-body .srv-card:hover .srv-card-icon,
+.service-page-body .legal-card:hover .legal-card-icon {
+  background-color: var(--rrc-dark-navy);
+  color: var(--rrc-gold);
+  border-color: var(--rrc-dark-navy);
+}
+
+.service-page-body .srv-card-title {
+  font-size: 1.15rem;
+  color: var(--rrc-dark-navy);
+  margin-bottom: 8px;
+  font-weight: 700;
+  line-height: 1.32;
+}
+
+.service-page-body .srv-card-text {
+  font-size: 0.9rem;
+  color: #475569;
+  line-height: 1.58;
+  margin-bottom: 14px;
+}
+
+/* Bullet Lists Inside Cards */
+.service-page-body .srv-card-bullets,
+.service-page-body .srv-card-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 14px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-size: 0.855rem;
+  color: #334155;
+}
+
+.service-page-body .srv-card-bullets li,
+.service-page-body .srv-card-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.service-page-body .srv-card-bullets li i,
+.service-page-body .srv-card-list li i {
+  color: var(--rrc-gold-dark);
+  font-size: 0.85rem;
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.service-page-body .srv-card-footer {
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px dashed var(--rrc-border-soft);
+}
+
+.service-page-body .srv-statute-pill {
+  display: inline-block;
+  padding: 3px 8px;
+  background: var(--rrc-cream);
+  color: var(--rrc-gold-dark);
+  border: 1px solid var(--rrc-gold-border);
+  border-radius: 4px;
+  font-size: 0.745rem;
+  font-weight: 600;
+  margin-right: 5px;
+  margin-bottom: 4px;
+}
+
+/* Feature Item Lists */
+.service-page-body .srv-feature-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-page-body .srv-feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 0.915rem;
+  line-height: 1.55;
+}
+
+.service-page-body .srv-check-icon,
+.service-page-body .srv-feature-item i {
+  color: var(--rrc-gold);
+  font-size: 1.05rem;
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.service-page-body .srv-feature-item strong {
+  color: var(--rrc-dark-navy);
+  display: block;
+  margin-bottom: 2px;
+}
+
+.service-page-body .srv-feature-item span {
+  color: #475569;
+}
+
+/* ==========================================================================
+   7. PROCESS TIMELINES & WORKFLOW STEPS
+   ========================================================================== */
+.service-page-body .srv-process-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+/* 5-Step Process Layout: Balanced 3 on Row 1 + 2 Centered on Row 2 */
+@media (min-width: 992px) {
+
+  .service-page-body .srv-process-grid-5,
+  .service-page-body .srv-process-grid:has(> :nth-child(5):last-child) {
+    display: grid !important;
+    grid-template-columns: repeat(6, 1fr) !important;
+    gap: 20px !important;
+  }
+
+  .service-page-body .srv-process-grid-5> :nth-child(1),
+  .service-page-body .srv-process-grid-5> :nth-child(2),
+  .service-page-body .srv-process-grid-5> :nth-child(3),
+  .service-page-body .srv-process-grid:has(> :nth-child(5):last-child)> :nth-child(1),
+  .service-page-body .srv-process-grid:has(> :nth-child(5):last-child)> :nth-child(2),
+  .service-page-body .srv-process-grid:has(> :nth-child(5):last-child)> :nth-child(3) {
+    grid-column: span 2 !important;
+  }
+
+  .service-page-body .srv-process-grid-5> :nth-child(4),
+  .service-page-body .srv-process-grid:has(> :nth-child(5):last-child)> :nth-child(4) {
+    grid-column: 2 / span 2 !important;
+  }
+
+  .service-page-body .srv-process-grid-5> :nth-child(5),
+  .service-page-body .srv-process-grid:has(> :nth-child(5):last-child)> :nth-child(5) {
+    grid-column: 4 / span 2 !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+
+  .service-page-body .srv-process-grid-5,
+  .service-page-body .srv-process-grid:has(> :nth-child(5):last-child) {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 16px !important;
+  }
+
+  .service-page-body .srv-process-grid-5> :nth-child(5),
+  .service-page-body .srv-process-grid:has(> :nth-child(5):last-child)> :nth-child(5) {
+    grid-column: span 2 !important;
+    max-width: 65%;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 575.98px) {
+
+  .service-page-body .srv-process-grid-5,
+  .service-page-body .srv-process-grid:has(> :nth-child(5):last-child) {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+  }
+}
+
+/* 6-Step Process Layout: Clean 3x2 Grid */
+@media (min-width: 992px) {
+
+  .service-page-body .srv-process-grid-6,
+  .service-page-body .srv-process-grid:has(> :nth-child(6):last-child) {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 20px !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+
+  .service-page-body .srv-process-grid-6,
+  .service-page-body .srv-process-grid:has(> :nth-child(6):last-child) {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 16px !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+
+  .service-page-body .srv-process-grid-6,
+  .service-page-body .srv-process-grid:has(> :nth-child(6):last-child) {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+  }
+}
+
+.service-page-body .srv-process-card,
+.service-page-body .srv-step-card {
+  background-color: var(--rrc-white);
+  border: 1px solid var(--rrc-border-soft);
+  border-radius: var(--rrc-radius-md);
+  padding: 20px 18px;
+  position: relative;
+  box-shadow: var(--rrc-shadow-sm);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.service-page-body .srv-process-card:hover,
+.service-page-body .srv-step-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--rrc-shadow-md);
+  border-color: var(--rrc-gold-border);
+}
+
+.service-page-body .srv-step-number,
+.service-page-body .srv-step-num {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.85rem;
+  font-weight: 700;
+  color: var(--rrc-gold);
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.service-page-body .srv-process-card .srv-card-title,
+.service-page-body .srv-step-title {
+  font-size: 1.05rem;
+  color: var(--rrc-dark-navy);
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.service-page-body .srv-process-card .srv-card-text,
+.service-page-body .srv-step-desc {
+  font-size: 0.865rem;
+  color: #475569;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* ==========================================================================
+   8. ADVISORY & STATUTORY CALLOUT BANNERS
+   ========================================================================== */
+.service-page-body .srv-info-callout,
+.service-page-body .srv-disclaimer-box {
+  background-color: #fcfbf7;
+  border-left: 4px solid var(--rrc-gold);
+  border-top: 1px solid var(--rrc-border-soft);
+  border-right: 1px solid var(--rrc-border-soft);
+  border-bottom: 1px solid var(--rrc-border-soft);
+  border-radius: var(--rrc-radius-sm);
+  padding: 16px 20px;
+  font-size: 0.915rem;
+  color: #334155;
+  line-height: 1.6;
+}
+
+.service-page-body .srv-info-callout i,
+.service-page-body .srv-disclaimer-box i {
+  color: var(--rrc-gold);
+}
+
+.service-page-body .srv-info-callout h4,
+.service-page-body .srv-disclaimer-box h4 {
+  color: var(--rrc-dark-navy);
+  font-size: 1.025rem;
+  margin-bottom: 4px;
+}
+
+/* ==========================================================================
+   9. ACCORDION FAQS (TIGHTER PADDING & SUBTLE TRANSITIONS)
+   ========================================================================== */
+.service-page-body .srv-accordion .accordion-item {
+  background-color: var(--rrc-white);
+  border: 1px solid var(--rrc-border-soft);
+  border-radius: var(--rrc-radius-sm) !important;
+  margin-bottom: 9px;
+  overflow: hidden;
+  box-shadow: var(--rrc-shadow-sm);
+  transition: border-color 0.2s ease;
+}
+
+.service-page-body .srv-accordion .accordion-item:hover {
+  border-color: var(--rrc-gold-border);
+}
+
+.service-page-body .srv-accordion .accordion-button {
+  background-color: var(--rrc-white);
+  color: var(--rrc-dark-navy);
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  padding: 14px 18px;
+  box-shadow: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.service-page-body .srv-accordion .accordion-button:not(.collapsed) {
+  background-color: var(--rrc-cream);
+  color: var(--rrc-dark-navy);
+  border-bottom: 1px solid var(--rrc-border-soft);
+}
+
+.service-page-body .srv-accordion .accordion-button::after {
+  background-size: 1rem;
+}
+
+.service-page-body .srv-accordion .accordion-body {
+  padding: 16px 20px;
+  font-size: 0.915rem;
+  line-height: 1.65;
+  color: #475569;
+  background-color: var(--rrc-white);
+}
+
+/* ==========================================================================
+   10. ENQUIRY FORM CONTAINER (COMPACT & CLEAN)
+   ========================================================================== */
+.service-page-body .srv-form-card,
+.service-page-body .srv-enquiry-card,
+.service-page-body .srv-hero-form-card {
+  background-color: var(--rrc-white);
+  border: 1px solid var(--rrc-border-soft);
+  border-radius: var(--rrc-radius-md);
+  padding: 28px 24px;
+  box-shadow: var(--rrc-shadow-md);
+}
+
+.service-page-body .srv-cta-banner {
+  background-color: var(--rrc-cream);
+  border: 1px solid var(--rrc-border-soft);
+  border-radius: var(--rrc-radius-md);
+  padding: 32px 28px;
+}
+
+.service-page-body .srv-cta-banner h2 {
+  color: var(--rrc-dark-navy) !important;
+  margin-bottom: 12px;
+}
+
+.service-page-body .srv-cta-banner p {
+  color: var(--rrc-text-body) !important;
+  line-height: 1.65;
+  margin-bottom: 20px;
+}
+
+.service-page-body .srv-hero-form-card {
+  border-top: 3px solid var(--rrc-gold);
+  padding: 22px 20px;
+  box-shadow: 0 10px 28px rgba(14, 28, 47, 0.08);
+}
+
+.service-page-body .srv-hero-form-card .srv-enquiry-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--rrc-dark-navy);
+  margin-bottom: 4px;
+}
+
+.service-page-body .srv-hero-form-card .srv-enquiry-subtitle {
+  font-size: 0.835rem;
+  color: var(--rrc-text-muted) !important;
+  line-height: 1.5;
+  margin-bottom: 14px;
+}
+
+.service-page-body .srv-hero-form-card .srv-form-group {
+  margin-bottom: 12px;
+}
+
+.service-page-body .srv-hero-form-card .srv-form-label {
+  font-size: 0.775rem;
+  margin-bottom: 4px;
+}
+
+.service-page-body .srv-hero-form-card .srv-form-control,
+.service-page-body .srv-hero-form-card .srv-form-select {
+  padding: 8px 11px;
+  font-size: 0.875rem;
+}
+
+.service-page-body .srv-hero-form-card .srv-consent-text {
+  font-size: 0.735rem;
+  line-height: 1.45;
+  color: var(--rrc-text-muted);
+  margin-bottom: 12px;
+}
+
+.service-page-body .srv-form-label {
+  display: block;
+  font-size: 0.825rem;
+  font-weight: 700;
+  color: var(--rrc-dark-navy);
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.service-page-body .srv-form-control,
+.service-page-body .srv-form-select {
+  width: 100%;
+  padding: 9px 13px;
+  font-size: 0.915rem;
+  color: var(--rrc-dark-navy);
+  background-color: #fafafc;
+  border: 1px solid var(--rrc-border-soft);
+  border-radius: var(--rrc-radius-sm);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  outline: none;
+}
+
+.service-page-body .srv-form-control:focus,
+.service-page-body .srv-form-select:focus {
+  background-color: #ffffff;
+  border-color: var(--rrc-gold);
+  box-shadow: 0 0 0 3px rgba(201, 162, 77, 0.18);
+}
+
+.service-page-body .srv-form-control::placeholder {
+  color: #94a3b8;
+}
+
+/* Comparison Tables */
+.service-page-body .srv-table-wrapper {
+  background: var(--rrc-white);
+  border: 1px solid var(--rrc-border-soft);
+  border-radius: var(--rrc-radius-md);
+  overflow-x: auto;
+  box-shadow: var(--rrc-shadow-sm);
+  margin: 20px 0;
+}
+
+.service-page-body .srv-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.service-page-body .srv-table th {
+  background: var(--rrc-cream);
+  color: var(--rrc-dark-navy);
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 12px 16px;
+  border-bottom: 1.5px solid var(--rrc-border-soft);
+}
+
+.service-page-body .srv-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--rrc-border-soft);
+  color: #334155;
+  vertical-align: top;
+}
+
+.service-page-body .srv-table tr:hover td {
+  background-color: rgba(201, 162, 77, 0.04);
+}
+
+/* ==========================================================================
+   11. RESPONSIVE BREAKPOINTS (TABLET & MOBILE)
+   ========================================================================== */
+@media (max-width: 991.98px) {
+  .service-page-body .srv-hero-section {
+    padding-top: 115px;
+    padding-bottom: 34px;
+  }
+
+  .service-page-body .srv-section,
+  .service-page-body .content-section {
+    padding: 38px 0;
+  }
+
+  .service-page-body .srv-section-header {
+    margin-bottom: 22px;
+  }
+
+  .service-page-body .srv-hero-image-card {
+    margin-top: 24px;
+  }
+
+  .service-page-body .srv-hero-image-card img {
+    height: 290px;
+  }
+
+  .service-page-body .srv-form-card,
+  .service-page-body .srv-enquiry-card {
+    padding: 24px 20px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .service-page-body .srv-hero-section {
+    padding-top: 105px;
+    padding-bottom: 26px;
+  }
+
+  .service-page-body .srv-hero-h1 {
+    font-size: 1.75rem;
+    line-height: 1.25;
+  }
+
+  .service-page-body .srv-hero-lead {
+    font-size: 0.94rem;
+    margin-bottom: 16px;
+  }
+
+  .service-page-body .srv-hero-actions {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .service-page-body .srv-hero-actions a,
+  .service-page-body .srv-hero-actions button {
+    width: 100%;
+  }
+
+  .service-page-body .srv-section,
+  .service-page-body .content-section {
+    padding: 30px 0;
+  }
+
+  .service-page-body .srv-card,
+  .service-page-body .legal-card,
+  .service-page-body .service-card {
+    padding: 18px 16px;
+  }
+
+  .service-page-body .srv-floating-pill {
+    position: static;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 9px 12px;
+  }
+
+  .service-page-body .srv-hero-image-card img {
+    height: 220px;
+  }
+
+  .service-page-body .srv-form-card,
+  .service-page-body .srv-enquiry-card {
+    padding: 20px 16px;
+  }
+}
+
+/* ==========================================================================
+   11. DESKTOP NAVIGATION DROPDOWN GUARANTEES
+   ========================================================================== */
+@media (min-width: 992px) {
+  .dropdown-menu-nri {
+    width: 720px !important;
+    max-width: calc(100vw - 32px) !important;
+    max-height: none !important;
+    overflow-y: visible !important;
+    display: none;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-template-rows: auto !important;
+    grid-auto-flow: row !important;
+    column-gap: 28px !important;
+    row-gap: 0 !important;
+    padding: 18px 22px !important;
+  }
+
+  .dropdown-menu-nri>.nri-column-wrap {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2px !important;
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  .dropdown-menu-nri>.nri-column-wrap:first-child {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+  }
+
+  .dropdown-menu-nri>.nri-column-wrap:last-child {
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+  }
+
+  .dropdown-menu-nri .dropdown-header {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    color: #C9A24D !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.08em !important;
+    padding: 6px 12px 6px 12px !important;
+    border-bottom: 1px solid rgba(201, 164, 77, 0.25) !important;
+    margin-bottom: 6px !important;
+  }
+
+  .dropdown-menu-nri:not(:has(.nri-column-wrap)) {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-template-rows: repeat(6, auto) !important;
+    grid-auto-flow: column !important;
+  }
+
+  .dropdown-menu-nri::after {
+    content: "" !important;
+    position: absolute !important;
+    top: 18px !important;
+    bottom: 18px !important;
+    left: 50% !important;
+    width: 1px !important;
+    background: rgba(201, 164, 77, 0.2) !important;
+    pointer-events: none !important;
+  }
+}
+
+/* ==========================================================================
+   12. APPROVED RRC LAW ASSOCIATES FOOTER — HIGH CONTRAST PROTECTION
+   ========================================================================== */
+.service-page-body .footer,
+.service-page-body footer {
+  background: linear-gradient(135deg, #081521, #0b1c2d) !important;
+  color: #cbd5e1 !important;
+}
+
+.service-page-body .footer h3,
+.service-page-body .footer h4,
+.service-page-body .footer h5 {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
+  color: #c9a24d !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.02em !important;
+  margin-bottom: 18px !important;
+}
+
+.service-page-body .footer .footer-brand strong {
+  color: #c9a24d !important;
+  font-size: 20px !important;
+}
+
+.service-page-body .footer .footer-brand p,
+.service-page-body .footer p {
+  color: #cbd5e1 !important;
+  font-size: 15px !important;
+  line-height: 1.7 !important;
+  margin-bottom: 16px !important;
+}
+
+.service-page-body .footer ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.service-page-body .footer li {
+  color: #cbd5e1 !important;
+  margin-bottom: 12px !important;
+}
+
+.service-page-body .footer a {
+  color: #cbd5e1 !important;
+  text-decoration: none !important;
+  transition: color 0.25s ease !important;
+}
+
+.service-page-body .footer a:hover,
+.service-page-body .footer a:focus {
+  color: #fed488 !important;
+}
+
+.service-page-body .footer .contact span {
+  display: block !important;
+  color: #c9a24d !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  margin-bottom: 4px !important;
+}
+
+.service-page-body .footer .contact p {
+  color: #f1f5f9 !important;
+  margin-bottom: 8px !important;
+  font-size: 14px !important;
+}
+
+.service-page-body .footer .contact a {
+  color: #f8fafc !important;
+  font-weight: 500 !important;
+}
+
+.service-page-body .footer .contact a:hover {
+  color: #fed488 !important;
+}
+
+.service-page-body .footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.12) !important;
+  padding-top: 20px !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
+  gap: 16px !important;
+  font-size: 14px !important;
+  color: #94a3b8 !important;
+}
+
+.service-page-body .footer-bottom p {
+  color: #94a3b8 !important;
+  margin-bottom: 0 !important;
+}
+
+.service-page-body .footer-bottom .legal a {
+  color: #cbd5e1 !important;
+}
+
+.service-page-body .footer-bottom .legal a:hover {
+  color: #fed488 !important;
+}

@@ -280,10 +280,12 @@
                             <a class="m-sub-item" href="/wills-probate-estate-administration">Wills, Probate &amp; Estate Administration</a>
                             <a class="m-sub-item" href="/nri-landlord-tenant-eviction/">Landlord–Tenant &amp; Eviction</a>
                             <a class="m-sub-item" href="/nri-rera-builder-disputes/">RERA &amp; Builder Disputes</a>
-                            <a class="m-sub-item" href="/nri-business-commercial-advisory/">Business &amp; Commercial Advisory</a>
                             <a class="m-sub-item" href="/nri-property-disputes">Property Disputes</a>
                             <a class="m-sub-item" href="/nri-power-of-attorney">Power of Attorney</a>
                             <a class="m-sub-item" href="/us-india-documentation-services/">U.S.–India Documentation</a>
+                            <a class="m-sub-item" href="/immigration-services/">Immigration &amp; Visa Advisory</a>
+                            <a class="m-sub-item" href="/translation-services/">Certified Legal Translations</a>
+                            <a class="m-sub-item" href="/nri-business-commercial-advisory/">Business &amp; Commercial Advisory</a>
                             <a class="m-sub-item" href="/nri-criminal-case">Criminal Cases</a>
                             <a class="m-sub-item" href="/nri-family-matrimonial">Family &amp; Matrimonial</a>
                         </div>

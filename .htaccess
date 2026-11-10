@@ -88,6 +88,24 @@ RewriteRule ^ https://rrclawassociates.com/us-india-documentation-services/ [R=3
 RewriteRule ^us-india-documentation-services$ https://rrclawassociates.com/us-india-documentation-services/ [R=301,L,QSA]
 RewriteRule ^us-india-documentation-services/$ /us-india-documentation-services.html [L,NC,QSA]
 
+# Company Incorporation Services: Canonical Clean Trailing-Slash URL
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+company-incorporation\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/company-incorporation/ [R=301,L,QSA]
+RewriteRule ^company-incorporation$ https://rrclawassociates.com/company-incorporation/ [R=301,L,QSA]
+RewriteRule ^company-incorporation/$ /company-incorporation.html [L,NC,QSA]
+
+# Immigration & Visa Legal Services: Canonical Clean Trailing-Slash URL
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+immigration-services\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/immigration-services/ [R=301,L,QSA]
+RewriteRule ^immigration-services$ https://rrclawassociates.com/immigration-services/ [R=301,L,QSA]
+RewriteRule ^immigration-services/$ /immigration-services.html [L,NC,QSA]
+
+# Certified Legal Translation Services: Canonical Clean Trailing-Slash URL
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+translation-services\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/translation-services/ [R=301,L,QSA]
+RewriteRule ^translation-services$ https://rrclawassociates.com/translation-services/ [R=301,L,QSA]
+RewriteRule ^translation-services/$ /translation-services.html [L,NC,QSA]
+
 # Practice Areas - Directory Guard & Customs Law Clean URL routing
 RewriteRule ^practice-areas/?$ https://rrclawassociates.com/core-practice-areas [R=301,L,NC]
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+practice-areas/customs-law/index\.html(?:\?[^\s]*)?\s [NC]
@@ -95,6 +113,13 @@ RewriteRule ^ https://rrclawassociates.com/practice-areas/customs-law/ [R=301,L,
 RewriteRule ^practice-areas/customs-law$ https://rrclawassociates.com/practice-areas/customs-law/ [R=301,L,QSA]
 RewriteRule ^customs-law/?$ https://rrclawassociates.com/practice-areas/customs-law/ [R=301,L,NC]
 RewriteRule ^practice-areas/customs-law/$ /practice-areas/customs-law/index.html [L,NC,QSA]
+
+# Practice Areas - SARFAESI Proceedings Clean URL routing
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+practice-areas/sarfaesi-proceedings/index\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/practice-areas/sarfaesi-proceedings/ [R=301,L,QSA]
+RewriteRule ^practice-areas/sarfaesi-proceedings$ https://rrclawassociates.com/practice-areas/sarfaesi-proceedings/ [R=301,L,QSA]
+RewriteRule ^sarfaesi-proceedings/?$ https://rrclawassociates.com/practice-areas/sarfaesi-proceedings/ [R=301,L,NC]
+RewriteRule ^practice-areas/sarfaesi-proceedings/$ /practice-areas/sarfaesi-proceedings/index.html [L,NC,QSA]
 
 # 5. Site-wide clean URL: 301 redirect remaining .html requests to clean URLs (without trailing slash)
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.html(?:\?[^\s]*)?\s [NC]

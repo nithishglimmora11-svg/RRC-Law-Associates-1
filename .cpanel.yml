@@ -2,7 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/rrcltdbn/public_html
-    - /bin/mkdir -p /home/rrcltdbn/public_html/assets /home/rrcltdbn/public_html/nri-landlord-tenant-eviction /home/rrcltdbn/public_html/practice-areas /home/rrcltdbn/public_html/practice-areas/customs-law
+    - /bin/mkdir -p /home/rrcltdbn/public_html/assets /home/rrcltdbn/public_html/nri-landlord-tenant-eviction /home/rrcltdbn/public_html/practice-areas /home/rrcltdbn/public_html/practice-areas/customs-law /home/rrcltdbn/public_html/practice-areas/sarfaesi-proceedings
     - /bin/cp *.html /home/rrcltdbn/public_html/
     - /bin/cp *.css /home/rrcltdbn/public_html/
     - /bin/cp *.js /home/rrcltdbn/public_html/
@@ -12,7 +12,7 @@ deployment:
     - /bin/cp -R practice-areas/* /home/rrcltdbn/public_html/practice-areas/
     - /bin/cp .htaccess /home/rrcltdbn/public_html/
     - /bin/chmod 755 /home/rrcltdbn/public_html
-    - /bin/chmod 755 /home/rrcltdbn/public_html/assets /home/rrcltdbn/public_html/nri-landlord-tenant-eviction /home/rrcltdbn/public_html/practice-areas /home/rrcltdbn/public_html/practice-areas/customs-law
+    - /bin/chmod 755 /home/rrcltdbn/public_html/assets /home/rrcltdbn/public_html/nri-landlord-tenant-eviction /home/rrcltdbn/public_html/practice-areas /home/rrcltdbn/public_html/practice-areas/customs-law /home/rrcltdbn/public_html/practice-areas/sarfaesi-proceedings
     - /bin/find /home/rrcltdbn/public_html/assets -type d -exec /bin/chmod 755 {} +
     - /bin/find /home/rrcltdbn/public_html/assets -type f -exec /bin/chmod 644 {} +
     - /bin/find /home/rrcltdbn/public_html/practice-areas -type d -exec /bin/chmod 755 {} +
