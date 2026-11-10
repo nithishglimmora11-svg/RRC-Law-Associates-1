@@ -27,6 +27,42 @@
         if (nriMenu) {
             if (!nriMenu.id) nriMenu.id = 'nriMenu';
             nriMenu.setAttribute('aria-labelledby', 'nriDropdown');
+
+            // Standardize NRI Services Mega Menu: Guarantee 12 services in 2 column wraps with headers
+            if (!nriMenu.querySelector('.nri-column-wrap') || nriMenu.querySelectorAll('.dropdown-item').length < 12) {
+                const activeItem = nriMenu.querySelector('.dropdown-item.active, .dropdown-item.active-item, .dropdown-item.text-gold');
+                const activeHref = activeItem ? activeItem.getAttribute('href') : null;
+                const currentPath = window.location.pathname.replace(/\/$/, '');
+
+                nriMenu.innerHTML = `
+                    <li class="nri-column-wrap">
+                        <span class="dropdown-header text-gold">Property &amp; Personal Legal</span>
+                        <a class="dropdown-item text-uppercase" href="/oci-card-assistance">OCI Card &amp; Ancestry Assistance</a>
+                        <a class="dropdown-item text-uppercase" href="/wills-probate-estate-administration">Wills, Probate &amp; Estate Administration</a>
+                        <a class="dropdown-item text-uppercase" href="/nri-landlord-tenant-eviction/">Landlord–Tenant &amp; Eviction</a>
+                        <a class="dropdown-item text-uppercase" href="/nri-rera-builder-disputes/">RERA &amp; Builder Disputes</a>
+                        <a class="dropdown-item text-uppercase" href="/nri-property-disputes">Property Disputes</a>
+                        <a class="dropdown-item text-uppercase" href="/nri-power-of-attorney">Power of Attorney</a>
+                    </li>
+                    <li class="nri-column-wrap">
+                        <span class="dropdown-header text-gold">Business &amp; International Legal</span>
+                        <a class="dropdown-item text-uppercase" href="/us-india-documentation-services/">U.S.–India Documentation</a>
+                        <a class="dropdown-item text-uppercase" href="/immigration-services/">Immigration &amp; Visa Advisory</a>
+                        <a class="dropdown-item text-uppercase" href="/translation-services/">Certified Legal Translations</a>
+                        <a class="dropdown-item text-uppercase" href="/nri-business-commercial-advisory/">Business &amp; Commercial Advisory</a>
+                        <a class="dropdown-item text-uppercase" href="/nri-criminal-case">Criminal Cases</a>
+                        <a class="dropdown-item text-uppercase" href="/nri-family-matrimonial">Family &amp; Matrimonial</a>
+                    </li>
+                `;
+
+                nriMenu.querySelectorAll('.dropdown-item').forEach(link => {
+                    const href = link.getAttribute('href')?.replace(/\/$/, '');
+                    if ((activeHref && link.getAttribute('href') === activeHref) ||
+                        (href && href === currentPath && currentPath !== '')) {
+                        link.classList.add('active', 'text-gold', 'fw-bold');
+                    }
+                });
+            }
         }
 
         // 2. Locate Practice Areas dropdown elements & auto-split fallback
@@ -256,6 +292,11 @@
         }
 
         // Link Navigation closes menu
+        header.addEventListener('click', function (e) {
+            if (e.target.closest('.dropdown-menu-nri a, .dropdown-menu-practice a')) {
+                setActiveMenu(null);
+            }
+        });
         document.querySelectorAll('.dropdown-menu-nri a, .dropdown-menu-practice a').forEach(link => {
             link.addEventListener('click', function () {
                 setActiveMenu(null);

@@ -184,7 +184,49 @@ Automated testing using Microsoft Edge (CDP) verified zero horizontal overflow, 
 
 ---
 
-## 7. RECOMMENDATIONS & NEXT STEPS
+## 8. PHASE 8: NRI SERVICES MEGA-DROPDOWN STANDARDIZATION ACROSS ALL PAGES
+
+### 8.1 Root Cause of Inconsistent Dropdown
+During navigation comparison audits between the Homepage (`index.html`) and the SARFAESI page (`practice-areas/sarfaesi-proceedings/index.html`):
+1. **Outdated Flat HTML Markup:** While `index.html` and `nri-services.html` implemented the 12-item mega menu using two `<li class="nri-column-wrap">` containers with category headings, `practice-areas/sarfaesi-proceedings/index.html` contained an older flat list markup with direct `<li><a class="dropdown-item">...</a></li>` elements.
+2. **Missing Category Headers:** The flat structure omitted the `<span class="dropdown-header text-gold">` headers for **"Property & Personal Legal"** and **"Business & International Legal"**.
+3. **Missing Services (10 vs 12):** The older flat markup had only 10 services, omitting:
+   - `/immigration-services/` ("Immigration & Visa Advisory")
+   - `/translation-services/` ("Certified Legal Translations")
+4. **Layout Geometry:** Because it lacked `.nri-column-wrap`, the menu fell back to CSS Grid auto-flow with only 10 items, producing an abbreviated height (272px vs standard 320px) and missing the visual symmetry of the 2-column layout.
+
+### 8.2 Standardized 12-Service Architecture
+Both desktop and mobile navigation now strictly reflect the complete 12 services across two balanced columns:
+
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│                        NRI SERVICES MEGA-MENU (720px)                  │
+├───────────────────────────────────┬────────────────────────────────────┤
+│ COLUMN 1: PROPERTY & PERSONAL     │ COLUMN 2: BUSINESS & INTERNATIONAL │
+├───────────────────────────────────┼────────────────────────────────────┤
+│ 1. OCI Card & Ancestry Assistance │ 1. U.S.–India Documentation        │
+│ 2. Wills, Probate & Estate Admin  │ 2. Immigration & Visa Advisory     │
+│ 3. Landlord–Tenant & Eviction     │ 3. Certified Legal Translations    │
+│ 4. RERA & Builder Disputes        │ 4. Business & Commercial Advisory  │
+│ 5. Property Disputes              │ 5. Criminal Cases                  │
+│ 6. Power of Attorney              │ 6. Family & Matrimonial            │
+└───────────────────────────────────┴────────────────────────────────────┘
+```
+
+### 8.3 Dual-Layer Implementation (HTML + JavaScript Normalizer)
+1. **Static HTML Standardization:** Standardized `.dropdown-menu-nri` across all target pages (`practice-areas/sarfaesi-proceedings/index.html`, `practice-areas/customs-law/index.html`, `property-law.html`, `litigation-dispute-resolution.html`), embedding the exact 2-column wrap structure with category headings.
+2. **`mega-menu.js` Self-Healing Fallback:** Added a dynamic fallback normalizer in `mega-menu.js`. If any page on the website renders `.dropdown-menu-nri` without `.nri-column-wrap` or with fewer than 12 items, `mega-menu.js` instantly upgrades it on initialization to the standardized 12-item mega menu while preserving active page highlighting and delegating menu-close click events.
+
+### 8.4 Multi-Page Verification Results (7 Viewports)
+All 6 key pages were tested via Chrome DevTools Protocol (CDP) across all 7 required viewports:
+- **Mobile (360px, 390px, 768px):** 0px horizontal overflow, all 12 NRI services accessible in mobile navigation drawer (`#mNriMenu`).
+- **Desktop (1024px, 1280px, 1440px, 1920px):** 0px horizontal overflow, width 720px, height 320px, 2 column wraps, 2 category headers, exactly 6 items in Column 1 and 6 items in Column 2.
+- **Behavioral Tests:** Initial load closed, mutual exclusivity between NRI Services and Practice Areas (opening one closes the other), outside click dismissal, and Escape key accessibility verified with 100% pass rate.
+- **Proof Artifacts:** High-resolution screenshots saved to `scratch/nri_dropdown_homepage_verified.png` and `scratch/nri_dropdown_sarfaesi_verified.png`.
+
+---
+
+## 9. RECOMMENDATIONS & NEXT STEPS
 
 1. **Review Locally:** Verify the page locally at `http://127.0.0.1:5501/practice-areas/sarfaesi-proceedings/` or `practice-areas/sarfaesi-proceedings/index.html`.
 2. **Management Approval for Bank Representation:** The page currently emphasizes borrower, guarantor, and property owner defenses. Representation of financial institutions can be incorporated upon management confirmation.
