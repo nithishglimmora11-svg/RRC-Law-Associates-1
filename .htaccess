@@ -93,6 +93,9 @@ RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+international-professional-associates\.
 RewriteRule ^ https://rrclawassociates.com/international-professional-associates/ [R=301,L,QSA]
 RewriteRule ^international-professional-associates$ https://rrclawassociates.com/international-professional-associates/ [R=301,L,QSA]
 RewriteRule ^international-professional-associates/$ /international-professional-associates.html [L,NC,QSA]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^international-professional-associates/(assets/.*|style\.css.*|style2\.css.*|topbar\.css.*|mega-menu\.js.*)$ /$1 [L,NC,QSA]
 
 # Company Incorporation Services: Canonical Clean Trailing-Slash URL
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+company-incorporation\.html(?:\?[^\s]*)?\s [NC]
