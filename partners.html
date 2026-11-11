@@ -1016,16 +1016,21 @@
                             </li>
                         </ul>
                     </div> -->
-                    <div class="dropdown">
+                    <div class="dropdown partners-dropdown-container">
                         <a
-                            class="nav-link-custom border-0 bg-transparent p-0 active-partner-link"
+                            class="nav-link-custom dropdown-toggle border-0 bg-transparent p-0 active-partner-link"
                             href="partners.html"
                             role="button"
+                            id="partnersDropdown"
                             data-bs-toggle="dropdown"
                             aria-expanded="false"
                             style="color: #c9a24d !important; font-weight: 700; border-bottom: 2px solid #c9a24d; padding-bottom: 2px;">
                             Legal Partners
                         </a>
+                        <ul class="dropdown-menu dropdown-menu-partners shadow-lg" id="partnersMenu" aria-labelledby="partnersDropdown">
+                            <li><a class="dropdown-item text-uppercase active text-gold fw-bold" href="/partners.html">Legal Partners Network</a></li>
+                            <li><a class="dropdown-item text-uppercase" href="/international-professional-associates.html">International Professional Associates</a></li>
+                        </ul>
                     </div>
                     <div class="dropdown">
                         <a
@@ -1093,7 +1098,15 @@
                         <a class="m-sub-item" href="sectors.html#international-sector">INTERNATIONAL, NRI &amp; CROSS-BORDER</a>
                     </div>
                 </div> -->
-                <a href="partners.html" class="m-link" style="color: #c9a24d !important; font-weight: 700;">Legal Partners</a>
+                <div class="m-dropdown">
+                    <a class="m-link m-trigger" href="javascript:void(0);" style="color: #c9a24d !important; font-weight: 700;">
+                        Legal Partners <i class="fa fa-chevron-down ms-2"></i>
+                    </a>
+                    <div class="m-submenu" id="mPartnersMenu">
+                        <a class="m-sub-item text-gold fw-bold" href="/partners.html">Legal Partners Network</a>
+                        <a class="m-sub-item" href="/international-professional-associates.html">International Professional Associates</a>
+                    </div>
+                </div>
                 <a href="lawfirm-blog.html" class="m-link">Blog</a>
                 <a href="index.html#contact" class="m-link">Contact</a>
 
@@ -1342,6 +1355,24 @@
                 </div>
                 <div class="text-muted small mt-2 mt-sm-0">
                     Showing <strong id="partnerCount">4</strong> verified international partner hubs
+                </div>
+            </div>
+
+            <!-- Featured International Professional Associate Callout -->
+            <div class="p-4 mb-4 rounded-3 border border-warning" style="background: linear-gradient(135deg, #0E1C2F 0%, #162C47 100%); color: #ffffff; box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
+                <div class="row align-items-center g-3">
+                    <div class="col-md-8">
+                        <span class="badge bg-gold text-dark fw-bold mb-2 text-uppercase" style="background-color: #C9A24D !important; letter-spacing: 1px;">Featured International Associate</span>
+                        <h4 class="text-white mb-2" style="font-family: 'Playfair Display', serif;">Notary Pin, Inc. – United States of America</h4>
+                        <p class="mb-0 text-slate-300" style="color: #CBD5E1; font-size: 0.95rem;">
+                            Discover our dedicated US-based documentation and apostille associate offering Remote Online Notarisation (RON) and Hague Apostille services across all 50 US states.
+                        </p>
+                    </div>
+                    <div class="col-md-4 text-md-end">
+                        <a href="/international-professional-associates.html" class="btn btn-gold px-4 py-2 fw-bold" style="background-color: #C9A24D; color: #0E1C2F;">
+                            View Associate Profile <i class="fa fa-arrow-right ms-1"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
 

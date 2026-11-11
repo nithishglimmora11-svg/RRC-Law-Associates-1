@@ -337,7 +337,6 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-nri shadow-lg" id="nriMenu" aria-labelledby="nriDropdown">
                         <li class="nri-column-wrap">
-                            <span class="dropdown-header text-gold">Property &amp; Personal Legal</span>
                             <a class="dropdown-item text-uppercase" href="/oci-card-assistance">OCI Card &amp; Ancestry
                                 Assistance</a>
                             <a class="dropdown-item text-uppercase" href="/wills-probate-estate-administration">Wills,
@@ -350,7 +349,6 @@
                             <a class="dropdown-item text-uppercase" href="/nri-power-of-attorney">Power of Attorney</a>
                         </li>
                         <li class="nri-column-wrap">
-                            <span class="dropdown-header text-gold">Business &amp; International Legal</span>
                             <a class="dropdown-item text-uppercase" href="/us-india-documentation-services/">U.S.–India
                                 Documentation</a>
                             <a class="dropdown-item text-uppercase" href="/immigration-services/">Immigration &amp; Visa
@@ -432,11 +430,18 @@
                             </li>
                         </ul>
                     </div> -->
-                <div class="dropdown">
-                    <a class="nav-link-custom border-0 bg-transparent p-0" href="./partners.html" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="dropdown partners-dropdown-container">
+                    <a class="nav-link-custom dropdown-toggle border-0 bg-transparent p-0"
+                        href="partners.html" role="button" id="partnersDropdown" data-bs-toggle="dropdown"
+                        aria-expanded="false">
                         Legal Partners
                     </a>
+                    <ul class="dropdown-menu dropdown-menu-partners shadow-lg" id="partnersMenu"
+                        aria-labelledby="partnersDropdown">
+                        <li><a class="dropdown-item text-uppercase" href="/partners.html">Legal Partners Network</a></li>
+                        <li><a class="dropdown-item text-uppercase"
+                                href="/international-professional-associates.html">International Professional Associates</a></li>
+                    </ul>
                 </div>
                 <div class="dropdown">
                     <a class="nav-link-custom border-0 bg-transparent p-0" href="lawfirm-blog.html" role="button"
@@ -456,7 +461,8 @@
                 <div class="cta d-none d-sm-block">
                     <a href="./booking.html" class="btn btn-gold">Book Consultation</a>
                 </div>
-                <button class="btn text-white d-lg-none fs-3 p-0" id="menuToggle">
+                <button class="btn text-white d-lg-none fs-3 p-0" id="menuToggle"
+                    aria-label="Open mobile navigation menu">
                     <i class="fa fa-bars"></i>
                 </button>
             </div>
@@ -521,7 +527,16 @@
                         <a class="m-sub-item" href="sectors.html#international-sector">INTERNATIONAL, NRI &amp; CROSS-BORDER</a>
                     </div>
                 </div> -->
-            <a href="partners.html" class="m-link">Legal Partners</a>
+            <div class="m-dropdown">
+                <a class="m-link m-trigger" href="javascript:void(0);">
+                    Legal Partners <i class="fa fa-chevron-down ms-2"></i>
+                </a>
+                <div class="m-submenu" id="mPartnersMenu">
+                    <a class="m-sub-item" href="/partners.html">Legal Partners Network</a>
+                    <a class="m-sub-item" href="/international-professional-associates.html">International Professional
+                        Associates</a>
+                </div>
+            </div>
             <a href="lawfirm-blog.html" class="m-link">Blog</a>
             <a href="index.html#contact" class="m-link">Contact</a>
 
@@ -2346,7 +2361,7 @@ dr.kumar@rrclawassociates.com">
 
         if (practiceLink && window.innerWidth > 992) {
             /* practice redirect removed */
-}
+        }
     });
 </script>
 <script>
@@ -2356,7 +2371,7 @@ dr.kumar@rrclawassociates.com">
 
         if (practiceLink && window.innerWidth > 992) {
             /* practice redirect removed */
-}
+        }
     });
 </script>
 <script>
@@ -2366,7 +2381,7 @@ dr.kumar@rrclawassociates.com">
 
         if (practiceLink && window.innerWidth > 992) {
             /* practice redirect removed */
-}
+        }
     });
 </script>
 

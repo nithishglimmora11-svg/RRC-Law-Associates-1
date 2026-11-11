@@ -5043,7 +5043,7 @@ button:disabled,
     grid-auto-flow: row !important;
     column-gap: 28px !important;
     row-gap: 0 !important;
-    padding: 18px 22px !important;
+    padding: 16px 20px !important;
   }
 
   .dropdown-menu-nri>.nri-column-wrap {
@@ -5067,15 +5067,12 @@ button:disabled,
   }
 
   .dropdown-menu-nri .dropdown-header {
-    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
-    font-size: 11px !important;
-    font-weight: 700 !important;
-    color: #C9A24D !important;
-    text-transform: uppercase !important;
-    letter-spacing: 0.08em !important;
-    padding: 6px 12px 6px 12px !important;
-    border-bottom: 1px solid rgba(201, 164, 77, 0.25) !important;
-    margin-bottom: 6px !important;
+    display: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    height: 0 !important;
+    visibility: hidden !important;
   }
 
   /* Fallback for flat list structure */
@@ -5089,8 +5086,8 @@ button:disabled,
   .dropdown-menu-nri::after {
     content: "" !important;
     position: absolute !important;
-    top: 18px !important;
-    bottom: 18px !important;
+    top: 16px !important;
+    bottom: 16px !important;
     left: 50% !important;
     width: 1px !important;
     background: rgba(201, 164, 77, 0.2) !important;

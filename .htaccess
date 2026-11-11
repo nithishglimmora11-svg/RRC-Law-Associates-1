@@ -88,6 +88,12 @@ RewriteRule ^ https://rrclawassociates.com/us-india-documentation-services/ [R=3
 RewriteRule ^us-india-documentation-services$ https://rrclawassociates.com/us-india-documentation-services/ [R=301,L,QSA]
 RewriteRule ^us-india-documentation-services/$ /us-india-documentation-services.html [L,NC,QSA]
 
+# International Professional Associates: Canonical Clean Trailing-Slash URL
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+international-professional-associates\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/international-professional-associates/ [R=301,L,QSA]
+RewriteRule ^international-professional-associates$ https://rrclawassociates.com/international-professional-associates/ [R=301,L,QSA]
+RewriteRule ^international-professional-associates/$ /international-professional-associates.html [L,NC,QSA]
+
 # Company Incorporation Services: Canonical Clean Trailing-Slash URL
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+company-incorporation\.html(?:\?[^\s]*)?\s [NC]
 RewriteRule ^ https://rrclawassociates.com/company-incorporation/ [R=301,L,QSA]
