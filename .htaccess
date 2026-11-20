@@ -115,6 +115,12 @@ RewriteRule ^ https://rrclawassociates.com/translation-services/ [R=301,L,QSA]
 RewriteRule ^translation-services$ https://rrclawassociates.com/translation-services/ [R=301,L,QSA]
 RewriteRule ^translation-services/$ /translation-services.html [L,NC,QSA]
 
+# Professional Notary Services: Canonical Clean Trailing-Slash URL
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+notary-services\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/notary-services/ [R=301,L,QSA]
+RewriteRule ^notary-services$ https://rrclawassociates.com/notary-services/ [R=301,L,QSA]
+RewriteRule ^notary-services/$ /notary-services.html [L,NC,QSA]
+
 # Practice Areas - Directory Guard & Customs Law Clean URL routing
 RewriteRule ^practice-areas/?$ https://rrclawassociates.com/core-practice-areas [R=301,L,NC]
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+practice-areas/customs-law/index\.html(?:\?[^\s]*)?\s [NC]

@@ -1,0 +1,1638 @@
+/**
+ * RRC Law Associates — Notary Services Page Stylesheet
+ * File: notary-services.css
+ * URL: https://rrclawassociates.com/notary-services/
+ *
+ * Design Tokens & Brand System:
+ * - Primary Navy: #0E1C2F
+ * - Navy Dark: #081521
+ * - Primary Gold: #775A19
+ * - Accent Gold: #FED488
+ * - Gold Brand Accent: #c9a24d
+ * - Gold Hover: #b38f40
+ * - Main Background: #F9F9FF
+ * - Clean White: #FFFFFF
+ * - Warm Cream/Sand: #F9F7F3
+ * - Body Text: #1e293b
+ * - Muted Text: #64748b
+ * - Soft Border: #e2e8f0
+ *
+ * Typography:
+ * - Headings: 'Playfair Display', Georgia, serif
+ * - Body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif
+ *
+ * Standard Spacing System:
+ * - Container max-width: 1340px (Desktop 1440px+), 1380px (1600px+)
+ * - Section padding: 60px 0 (Desktop) / 44px 0 (Tablet) / 36px 0 (Mobile)
+ * - Section header margin-bottom: 24px
+ * - Heading margins: 8px - 12px
+ * - Card padding: 24px 22px
+ * - Grid gap: 22px - 26px
+ */
+
+:root {
+  --primary-navy: #0E1C2F;
+  --navy-dark: #081521;
+  --primary-gold: #775A19;
+  --accent-gold: #FED488;
+  --gold-accent: #c9a24d;
+  --gold-hover: #b38f40;
+  --gold-light: rgba(201, 162, 77, 0.12);
+  --gold-border: rgba(201, 162, 77, 0.35);
+  --main-background: #F9F9FF;
+  --white: #FFFFFF;
+  --cream: #F9F7F3;
+  --text-body: #1e293b;
+  --text-muted: #64748b;
+  --border-soft: #e2e8f0;
+  --shadow-sm: 0 4px 12px rgba(14, 28, 47, 0.04);
+  --shadow-md: 0 8px 24px rgba(14, 28, 47, 0.08);
+  --shadow-lg: 0 16px 36px rgba(14, 28, 47, 0.12);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+}
+
+/* ==========================================================================
+   0. SMOOTH SCROLLING, STICKY HEADER CLEARANCE & BRAND SELECTION
+   ========================================================================== */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 135px;
+}
+
+/* Brand-Aligned Text Selection: Light Surfaces */
+.notary-page-body ::selection {
+  background-color: rgba(201, 162, 77, 0.25);
+  color: #0E1C2F;
+}
+
+.notary-page-body ::-moz-selection {
+  background-color: rgba(201, 162, 77, 0.25);
+  color: #0E1C2F;
+}
+
+/* Brand-Aligned Text Selection: Dark Surfaces */
+.notary-page-body .notary-cta-banner ::selection,
+.notary-page-body .notary-carousel-caption ::selection,
+.notary-page-body footer.footer ::selection {
+  background-color: #c9a24d;
+  color: #FFFFFF;
+}
+
+.notary-page-body .notary-cta-banner ::-moz-selection,
+.notary-page-body .notary-carousel-caption ::-moz-selection,
+.notary-page-body footer.footer ::-moz-selection {
+  background-color: #c9a24d;
+  color: #FFFFFF;
+}
+
+/* Universal Sticky Header Anchor Clearance */
+.notary-section,
+section[id],
+div[id] {
+  scroll-margin-top: 135px;
+}
+
+@media (max-width: 991.98px) {
+  html {
+    scroll-padding-top: 122px;
+  }
+  .notary-section,
+  section[id],
+  div[id] {
+    scroll-margin-top: 122px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  html {
+    scroll-padding-top: 110px;
+  }
+  .notary-section,
+  section[id],
+  div[id] {
+    scroll-margin-top: 110px;
+  }
+}
+
+/* ==========================================================================
+   1. SCOPED RESPONSIVE CONTAINER SYSTEM (FULL-WIDTH FEELING)
+   ========================================================================== */
+.notary-page-body .container {
+  width: 100% !important;
+  max-width: 1320px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+}
+
+@media (min-width: 1440px) {
+  .notary-page-body .container {
+    max-width: 1340px !important;
+    padding-left: 28px !important;
+    padding-right: 28px !important;
+  }
+}
+
+@media (min-width: 1600px) {
+  .notary-page-body .container {
+    max-width: 1380px !important;
+    padding-left: 32px !important;
+    padding-right: 32px !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .notary-page-body .container {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .notary-page-body .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .notary-page-body .container {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+}
+
+/* ==========================================================================
+   2. GLOBAL TYPOGRAPHY & BASE STYLES
+   ========================================================================== */
+.notary-page-body {
+  background-color: var(--white) !important;
+  color: var(--text-body);
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.notary-page-body main {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.notary-page-body main h1,
+.notary-page-body main h2,
+.notary-page-body main h3,
+.notary-page-body main h4,
+.notary-page-body main h5,
+.notary-page-body main h6 {
+  font-family: 'Playfair Display', Georgia, serif;
+  color: var(--primary-navy);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-top: 0;
+}
+
+.notary-page-body main p {
+  color: var(--text-body);
+  font-size: 1rem;
+  line-height: 1.68;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.notary-page-body .skip-link {
+  position: absolute;
+  top: -60px;
+  left: 15px;
+  background: var(--primary-navy);
+  color: var(--white);
+  padding: 8px 16px;
+  z-index: 99999;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: top 0.2s ease;
+}
+
+.notary-page-body .skip-link:focus {
+  top: 15px;
+}
+
+/* Breadcrumbs Bar */
+.notary-breadcrumbs-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+}
+
+.notary-breadcrumbs-bar a {
+  color: #475569;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.notary-breadcrumbs-bar a:hover {
+  color: var(--primary-gold);
+  text-decoration: underline;
+}
+
+.notary-breadcrumbs-bar .sep {
+  color: #94a3b8;
+  font-size: 0.75rem;
+}
+
+.notary-breadcrumbs-bar .cur {
+  color: var(--primary-navy);
+  font-weight: 600;
+}
+
+/* Eyebrow Badges */
+.notary-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  background-color: var(--gold-light);
+  color: var(--primary-gold);
+  border: 1px solid var(--gold-border);
+  border-radius: 50px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 12px;
+}
+
+.notary-eyebrow i {
+  color: var(--gold-accent);
+}
+
+.notary-eyebrow-gold {
+  background: rgba(254, 212, 136, 0.12) !important;
+  border-color: rgba(254, 212, 136, 0.35) !important;
+  color: #FED488 !important;
+}
+
+.notary-eyebrow-gold i {
+  color: #FED488 !important;
+}
+
+/* ==========================================================================
+   3. TOP BREADCRUMB BAR (Solid Black Strip with Gold Trim & High Contrast)
+   ========================================================================== */
+.notary-breadcrumb-bar {
+  background: #000000 !important;
+  border-bottom: 1px solid rgba(201, 162, 77, 0.25) !important;
+  padding: 11px 0 !important;
+  margin-top: 118px !important; /* Clearance for fixed topbar (44px) + sticky header (74px) */
+  position: relative !important;
+  z-index: 20 !important;
+}
+
+@media (max-width: 991.98px) {
+  .notary-breadcrumb-bar {
+    margin-top: 124px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .notary-breadcrumb-bar {
+    margin-top: 108px !important;
+  }
+}
+
+.notary-breadcrumb-bar ol {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  font-size: 0.8125rem !important;
+  font-family: var(--font-sans) !important;
+}
+
+.notary-breadcrumb-bar li {
+  color: rgba(255, 255, 255, 0.85) !important;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.85) !important;
+  font-size: 0.8125rem !important;
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+.notary-breadcrumb-bar a {
+  color: rgba(255, 255, 255, 0.85) !important;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.85) !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease !important;
+}
+
+.notary-breadcrumb-bar a:hover {
+  color: #FED488 !important;
+  -webkit-text-fill-color: #FED488 !important;
+}
+
+.notary-breadcrumb-bar .separator {
+  color: #D5AD60 !important; /* Muted gold separator */
+  -webkit-text-fill-color: #D5AD60 !important;
+  opacity: 0.85 !important;
+  user-select: none !important;
+}
+
+.notary-breadcrumb-bar .active,
+.notary-breadcrumb-bar li.active {
+  color: #FED488 !important; /* Bright accessible gold */
+  -webkit-text-fill-color: #FED488 !important;
+  font-weight: 600 !important;
+}
+
+/* ==========================================================================
+   4. FULL-WIDTH CINEMATIC HERO SLIDESHOW (Customs Law Benchmark Layout)
+   ========================================================================== */
+.notary-hero {
+  position: relative !important;
+  min-height: 580px !important;
+  background: #0E1C2F !important;
+  color: #ffffff !important;
+  overflow: hidden !important;
+  border-bottom: 3px solid #D5AD60 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+}
+
+/* Full-Width Carousel Background Track */
+.notary-carousel-track {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 1 !important;
+  pointer-events: none !important;
+  overflow: hidden !important;
+}
+
+.notary-carousel-slide {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  transition: opacity 1.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  will-change: opacity !important;
+}
+
+.notary-carousel-slide.active {
+  opacity: 1 !important;
+  visibility: visible !important;
+  z-index: 2 !important;
+}
+
+.notary-carousel-slide img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center right !important;
+  transform: scale(1.0) !important;
+  transition: transform 6.5s ease-out !important;
+}
+
+.notary-carousel-slide.active img {
+  transform: scale(1.04) !important;
+}
+
+/* Balanced Gradient Overlay: Dark on left for text contrast, transparent on right for photograph */
+.notary-hero-bg-overlay {
+  position: absolute !important;
+  inset: 0 !important;
+  z-index: 3 !important;
+  pointer-events: none !important;
+  background:
+    linear-gradient(90deg,
+      rgba(14, 28, 47, 0.94) 0%,
+      rgba(14, 28, 47, 0.88) 32%,
+      rgba(14, 28, 47, 0.62) 50%,
+      rgba(14, 28, 47, 0.20) 70%,
+      rgba(14, 28, 47, 0.02) 85%,
+      transparent 100%),
+    linear-gradient(180deg,
+      rgba(14, 28, 47, 0.35) 0%,
+      transparent 25%,
+      transparent 75%,
+      rgba(14, 28, 47, 0.45) 100%) !important;
+}
+
+.notary-hero-bg-overlay::before {
+  content: '' !important;
+  position: absolute !important;
+  inset: 0 !important;
+  background-image: radial-gradient(rgba(213, 173, 96, 0.08) 1px, transparent 1px) !important;
+  background-size: 28px 28px !important;
+  opacity: 0.5 !important;
+}
+
+/* Hero Content Container - Properly Constrained to 1400px Max Width */
+.notary-hero-inner {
+  width: 100% !important;
+  max-width: 1400px !important;
+  margin-inline: auto !important;
+  padding: 72px 48px !important;
+  position: relative !important;
+  z-index: 4 !important;
+  display: flex !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+}
+
+.notary-hero-content-wrapper {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  grid-template-rows: 1fr !important;
+  width: 100% !important;
+  max-width: 720px !important;
+  position: relative !important;
+  z-index: 5 !important;
+}
+
+/* Inactive slides are strictly display: none and invisible (No ghost text or duplicates) */
+.notary-hero-text-slide {
+  grid-area: 1 / 1 !important;
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  transform: translateY(10px) !important;
+  pointer-events: none !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  text-align: left !important;
+  width: 100% !important;
+  z-index: 1 !important;
+  transition: opacity 0.45s cubic-bezier(0.25, 1, 0.5, 1), transform 0.45s cubic-bezier(0.25, 1, 0.5, 1) !important;
+}
+
+/* Active slide is cleanly rendered with full opacity */
+.notary-hero-text-slide.active {
+  display: flex !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: translateY(0) !important;
+  pointer-events: auto !important;
+  z-index: 3 !important;
+}
+
+/* Leaving slide animates out smoothly before being removed from the render tree */
+.notary-hero-text-slide.leaving {
+  display: flex !important;
+  opacity: 0 !important;
+  visibility: visible !important;
+  transform: translateY(-8px) !important;
+  pointer-events: none !important;
+  z-index: 2 !important;
+  transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Hero Eyebrow Badge */
+.notary-hero .notary-hero-eyebrow {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  font-family: var(--font-sans) !important;
+  font-size: 0.8125rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  color: #FED488 !important;
+  -webkit-text-fill-color: #FED488 !important;
+  background: rgba(254, 212, 136, 0.12) !important;
+  border: 1px solid rgba(254, 212, 136, 0.35) !important;
+  padding: 6px 14px !important;
+  border-radius: 20px !important;
+  margin-bottom: 18px !important;
+}
+
+.notary-hero .notary-hero-eyebrow i {
+  color: #FED488 !important;
+  -webkit-text-fill-color: #FED488 !important;
+}
+
+/* Hero Heading: Playfair Display, Bold, Crisp Pure White */
+.notary-hero .notary-hero-title,
+.notary-hero h1.notary-hero-title,
+.notary-hero h2.notary-hero-title {
+  font-family: 'Playfair Display', Georgia, serif !important;
+  font-size: clamp(2.35rem, 3.4vw, 3.5rem) !important;
+  font-weight: 700 !important;
+  line-height: 1.15 !important;
+  color: #FFFFFF !important;
+  -webkit-text-fill-color: #FFFFFF !important;
+  letter-spacing: -0.015em !important;
+  margin: 0 0 16px 0 !important;
+  padding: 0 !important;
+  text-align: left !important;
+  text-wrap: balance !important;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.65) !important;
+  background: none !important;
+  width: 100% !important;
+}
+
+/* Hero Subtitle: Plus Jakarta Sans, Warm Bright Gold */
+.notary-hero .notary-hero-subtitle {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
+  font-size: clamp(1.0625rem, 1.2vw, 1.25rem) !important;
+  font-weight: 600 !important;
+  line-height: 1.55 !important;
+  color: #FED488 !important;
+  -webkit-text-fill-color: #FED488 !important;
+  margin: 0 0 18px 0 !important;
+  padding: 0 !important;
+  text-align: left !important;
+  max-width: 62ch !important;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.5) !important;
+  background: none !important;
+  width: 100% !important;
+}
+
+/* Hero Topics: Pure White with Gold Vertical Separators */
+.notary-hero .notary-hero-topics {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  gap: 10px 14px !important;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
+  font-size: clamp(0.8125rem, 0.9vw, 0.885rem) !important;
+  font-weight: 600 !important;
+  color: #FFFFFF !important;
+  margin: 0 0 16px 0 !important;
+  padding: 0 !important;
+  text-align: left !important;
+  width: 100% !important;
+}
+
+.notary-hero .notary-hero-topics span:not(.topic-sep) {
+  letter-spacing: 0.02em !important;
+  color: #FFFFFF !important;
+  -webkit-text-fill-color: #FFFFFF !important;
+}
+
+.notary-hero .notary-hero-topics .topic-sep {
+  color: #D5AD60 !important;
+  -webkit-text-fill-color: #D5AD60 !important;
+  opacity: 0.9 !important;
+  user-select: none !important;
+}
+
+/* Hero Supporting Description: Readable Crisp Light White */
+.notary-hero .notary-hero-desc {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
+  font-size: clamp(0.92rem, 0.95vw, 1rem) !important;
+  line-height: 1.68 !important;
+  color: #F8FAFC !important;
+  -webkit-text-fill-color: #F8FAFC !important;
+  margin: 0 0 28px 0 !important;
+  padding: 0 !important;
+  max-width: 60ch !important;
+  text-align: left !important;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.6) !important;
+  background: none !important;
+}
+
+/* CTA Actions: Flush left-aligned with consistent 16px gap */
+.notary-hero .notary-hero-actions {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 16px !important;
+  align-items: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+/* Primary Button (Matches Customs Law .btn-customs-explore) */
+.notary-hero .btn-notary-explore,
+.notary-hero .btn-notary-primary {
+  font-family: var(--font-sans) !important;
+  font-size: 0.9375rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.01em !important;
+  background: linear-gradient(135deg, #D5AD60 0%, #b88d3d 100%) !important;
+  color: #0E1C2F !important;
+  -webkit-text-fill-color: #0E1C2F !important;
+  padding: 14px 28px !important;
+  min-height: 52px !important;
+  border-radius: 6px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 10px !important;
+  text-decoration: none !important;
+  box-shadow: 0 4px 18px rgba(112, 83, 51, 0.4) !important;
+  border: 1px solid #D5AD60 !important;
+  box-sizing: border-box !important;
+  transition: all 0.25s ease !important;
+  cursor: pointer !important;
+}
+
+.notary-hero .btn-notary-explore:hover,
+.notary-hero .btn-notary-explore:focus-visible,
+.notary-hero .btn-notary-primary:hover,
+.notary-hero .btn-notary-primary:focus-visible {
+  background: linear-gradient(135deg, #FED488 0%, #D5AD60 100%) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 22px rgba(213, 173, 96, 0.5) !important;
+  color: #0E1C2F !important;
+  -webkit-text-fill-color: #0E1C2F !important;
+  outline: none !important;
+}
+
+/* Secondary Button (Matches Customs Law .btn-customs-articles) */
+.notary-hero .btn-notary-articles,
+.notary-hero .btn-notary-secondary {
+  font-family: var(--font-sans) !important;
+  font-size: 0.9375rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.01em !important;
+  background: rgba(14, 28, 47, 0.65) !important;
+  border: 1.5px solid rgba(213, 173, 96, 0.6) !important;
+  color: #FFFFFF !important;
+  -webkit-text-fill-color: #FFFFFF !important;
+  padding: 14px 26px !important;
+  min-height: 52px !important;
+  border-radius: 6px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 10px !important;
+  text-decoration: none !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  box-sizing: border-box !important;
+  transition: all 0.25s ease !important;
+  cursor: pointer !important;
+}
+
+.notary-hero .btn-notary-articles:hover,
+.notary-hero .btn-notary-articles:focus-visible,
+.notary-hero .btn-notary-secondary:hover,
+.notary-hero .btn-notary-secondary:focus-visible {
+  background: rgba(119, 90, 25, 0.45) !important;
+  border-color: #FED488 !important;
+  color: #FED488 !important;
+  -webkit-text-fill-color: #FED488 !important;
+  transform: translateY(-2px) !important;
+  outline: none !important;
+}
+
+/* Responsive Breakpoints for Full-Width Hero */
+@media (max-width: 991.98px) {
+  .notary-hero-inner {
+    padding: 56px 32px !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .notary-hero {
+    min-height: 520px !important;
+  }
+  .notary-hero-inner {
+    padding: 44px 20px !important;
+  }
+  .notary-hero-actions {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 12px !important;
+  }
+  .notary-hero .btn-notary-explore,
+  .notary-hero .btn-notary-primary,
+  .notary-hero .btn-notary-articles,
+  .notary-hero .btn-notary-secondary {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .notary-hero-inner {
+    padding: 36px 16px !important;
+  }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  .notary-carousel-slide {
+    transition: none !important;
+  }
+  .notary-carousel-slide img {
+    transition: none !important;
+    transform: none !important;
+  }
+  .notary-hero-text-slide {
+    transition: none !important;
+    transform: none !important;
+  }
+}
+
+/* ==========================================================================
+   5. COMMON SECTION LAYOUT (BALANCED VERTICAL SPACING)
+   ========================================================================== */
+.notary-section {
+  padding: 60px 0;
+  position: relative;
+  scroll-margin-top: 135px;
+}
+
+.notary-section-white {
+  background-color: var(--white);
+}
+
+.notary-section-cream {
+  background-color: var(--cream);
+  border-top: 1px solid var(--border-soft);
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.notary-section-header {
+  text-align: center;
+  max-width: 820px;
+  margin: 0 auto 24px auto;
+}
+
+.notary-section-title {
+  font-size: clamp(1.8rem, 2.5vw, 2.35rem);
+  color: var(--primary-navy) !important;
+  margin-bottom: 8px;
+  line-height: 1.25;
+}
+
+.notary-section-lead {
+  font-size: 1.02rem;
+  color: var(--text-muted) !important;
+  line-height: 1.65;
+  margin: 0 auto;
+}
+
+/* ==========================================================================
+   6. SECTION 2: ABOUT NOTARY SERVICES
+   ========================================================================== */
+.notary-about-card {
+  background-color: var(--white);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-md);
+  padding: 30px 28px;
+  box-shadow: var(--shadow-sm);
+  height: 100%;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.notary-about-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.notary-about-card h3 {
+  font-size: 1.35rem;
+  color: var(--primary-navy) !important;
+  margin-bottom: 12px;
+}
+
+.notary-about-card p {
+  color: #334155 !important;
+  font-size: 0.95rem;
+  line-height: 1.68;
+}
+
+.notary-about-features {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.notary-about-features li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.92rem;
+  color: #334155;
+  line-height: 1.5;
+}
+
+.notary-about-features li i {
+  color: var(--gold-accent);
+  font-size: 1rem;
+  margin-top: 2px;
+}
+
+/* ==========================================================================
+   7. SECTION 3: OUR NOTARY SERVICES (6 CARDS)
+   ========================================================================== */
+.notary-service-card {
+  background-color: var(--white);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.notary-service-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--gold-border);
+  box-shadow: var(--shadow-md);
+}
+
+.notary-service-thumb,
+.notary-service-image {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background-color: var(--navy-dark);
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+}
+
+.notary-service-thumb img,
+.notary-service-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.4s ease;
+  display: block;
+}
+
+.notary-service-card:hover .notary-service-thumb img,
+.notary-service-card:hover .notary-service-image img {
+  transform: scale(1.03);
+}
+
+/* Individual object positions for Section 3 to avoid awkward cropping */
+.notary-service-card img[src*="notary-consultation"] {
+  object-position: 25% 25%;
+}
+
+.notary-service-card img[src*="notary-nri"] {
+  object-position: center 25%;
+}
+
+.notary-service-body {
+  padding: 22px 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.notary-service-icon-box {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-sm);
+  background-color: var(--gold-light);
+  border: 1px solid var(--gold-border);
+  color: var(--primary-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15rem;
+  margin-bottom: 12px;
+}
+
+.notary-service-title {
+  font-size: 1.18rem;
+  font-weight: 700;
+  color: var(--primary-navy) !important;
+  margin-bottom: 8px;
+}
+
+.notary-service-desc {
+  font-size: 0.905rem;
+  color: #475569 !important;
+  line-height: 1.6;
+  margin-bottom: 14px;
+  flex-grow: 1;
+}
+
+.notary-service-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.865rem;
+  font-weight: 700;
+  color: var(--primary-gold) !important;
+  text-decoration: none;
+  transition: gap 0.2s ease, color 0.2s ease;
+}
+
+.notary-service-link:hover {
+  color: #b38f40 !important;
+  gap: 10px;
+}
+
+/* ==========================================================================
+   8. SECTION 4: DOCUMENTS WE ASSIST WITH (7 CATEGORIES)
+   ========================================================================== */
+.notary-docs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 22px;
+}
+
+.notary-doc-category-card {
+  background-color: var(--white);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-md);
+  padding: 22px 20px;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.notary-doc-category-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.notary-doc-category-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.notary-doc-category-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  background: var(--gold-light);
+  color: var(--primary-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.notary-doc-category-head h3 {
+  font-size: 1.05rem;
+  margin: 0;
+  color: var(--primary-navy) !important;
+}
+
+.notary-doc-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.notary-doc-list li {
+  font-size: 0.885rem;
+  color: #334155;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  line-height: 1.45;
+}
+
+.notary-doc-list li i {
+  color: var(--gold-accent);
+  font-size: 0.8rem;
+  margin-top: 3px;
+}
+
+/* ==========================================================================
+   9. SECTION 5: WHY CHOOSE RRC LAW ASSOCIATES (4 CARDS)
+   ========================================================================== */
+.notary-why-card {
+  background-color: var(--white);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-md);
+  padding: 24px 22px;
+  height: 100%;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.notary-why-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--gold-border);
+  box-shadow: var(--shadow-md);
+}
+
+.notary-why-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-sm);
+  background-color: var(--gold-light);
+  border: 1px solid var(--gold-border);
+  color: var(--primary-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  margin-bottom: 14px;
+}
+
+.notary-why-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--primary-navy) !important;
+  margin-bottom: 8px;
+}
+
+.notary-why-desc {
+  font-size: 0.905rem;
+  color: #475569 !important;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+/* ==========================================================================
+   10. SECTION 6: OUR NOTARIZATION PROCESS (4 EQUAL CARDS)
+   ========================================================================== */
+.notary-timeline-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+  position: relative;
+}
+
+.notary-step-card {
+  background-color: var(--white);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-md);
+  padding: 24px 20px;
+  position: relative;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.notary-step-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--gold-border);
+  box-shadow: var(--shadow-md);
+}
+
+.notary-step-number {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.95rem;
+  font-weight: 700;
+  color: var(--primary-gold);
+  line-height: 1;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.notary-step-number::after {
+  content: "";
+  height: 2px;
+  width: 28px;
+  background: linear-gradient(90deg, var(--gold-accent), transparent);
+  display: inline-block;
+}
+
+.notary-step-title {
+  font-size: 1.12rem;
+  font-weight: 700;
+  color: var(--primary-navy) !important;
+  margin-bottom: 8px;
+}
+
+.notary-step-desc {
+  font-size: 0.915rem;
+  color: #475569 !important;
+  line-height: 1.58;
+  margin-bottom: 0;
+}
+
+@media (max-width: 991.98px) {
+  .notary-timeline-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+}
+
+@media (max-width: 599.98px) {
+  .notary-timeline-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+/* ==========================================================================
+   11. SECTION 7: WHO NEEDS NOTARY SERVICES (4 CARDS)
+   ========================================================================== */
+.notary-audience-card {
+  background-color: var(--white);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-md);
+  padding: 24px 22px;
+  height: 100%;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.notary-audience-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--gold-border);
+  box-shadow: var(--shadow-md);
+}
+
+.notary-audience-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-sm);
+  background-color: var(--gold-light);
+  border: 1px solid var(--gold-border);
+  color: var(--primary-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15rem;
+  margin-bottom: 12px;
+}
+
+.notary-audience-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--primary-navy) !important;
+  margin-bottom: 8px;
+}
+
+.notary-audience-desc {
+  font-size: 0.905rem;
+  color: #475569 !important;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+/* ==========================================================================
+   12. SECTION 8: FREQUENTLY ASKED QUESTIONS (ACCORDION)
+   ========================================================================== */
+.notary-faq-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.notary-page-body .accordion-item {
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-sm) !important;
+  margin-bottom: 12px;
+  overflow: hidden;
+  background-color: var(--white);
+  box-shadow: 0 2px 6px rgba(14, 28, 47, 0.03);
+}
+
+.notary-page-body .accordion-button {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary-navy);
+  padding: 16px 20px;
+  background-color: var(--white);
+  box-shadow: none;
+}
+
+.notary-page-body .accordion-button:not(.collapsed) {
+  color: var(--primary-gold);
+  background-color: rgba(201, 162, 77, 0.06);
+  border-bottom: 1px solid rgba(201, 162, 77, 0.2);
+}
+
+.notary-page-body .accordion-button:focus {
+  border-color: var(--gold-accent);
+  box-shadow: 0 0 0 3px rgba(201, 162, 77, 0.15);
+}
+
+.notary-page-body .accordion-body {
+  font-size: 0.935rem;
+  line-height: 1.65;
+  color: #334155;
+  padding: 18px 20px;
+  background-color: var(--white);
+}
+
+/* ==========================================================================
+   13. SECTION 9: FINAL CONSULTATION & ENQUIRY SECTION (2-COLUMN INTEGRATED)
+   ========================================================================== */
+.notary-consultation-section {
+  padding: 60px 0;
+  background-color: var(--cream);
+  border-top: 1px solid var(--border-soft);
+  position: relative;
+  scroll-margin-top: 135px;
+}
+
+/* Left CTA Banner (Deep Navy Panel with High Contrast) */
+.notary-page-body .notary-cta-banner {
+  background: linear-gradient(135deg, #081521 0%, #0E1C2F 100%) !important;
+  color: #FFFFFF !important;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(201, 162, 77, 0.35);
+  padding: 34px 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: var(--shadow-md);
+}
+
+.notary-page-body .notary-cta-banner h2,
+.notary-page-body .notary-cta-banner #ctaHeading {
+  font-size: clamp(1.75rem, 2.2vw, 2.15rem);
+  color: #FED488 !important; /* Warm gold heading */
+  margin-bottom: 12px;
+  line-height: 1.25;
+}
+
+.notary-page-body .notary-cta-banner p {
+  font-size: 0.965rem;
+  color: #E2E8F0 !important; /* Light grey/white description */
+  line-height: 1.65;
+  margin-bottom: 20px;
+}
+
+.notary-page-body .notary-cta-banner .notary-cta-channel-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.notary-page-body .notary-cta-banner .notary-cta-channel-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 0.925rem;
+  color: #FFFFFF !important;
+}
+
+.notary-page-body .notary-cta-banner .notary-cta-channel-item i {
+  color: #FED488 !important; /* Gold contact icons */
+  font-size: 1.15rem;
+  margin-top: 2px;
+  min-width: 18px;
+}
+
+.notary-page-body .notary-cta-banner .notary-cta-channel-item div {
+  color: #FFFFFF !important; /* Pure white text for hours, address, email */
+  line-height: 1.5;
+}
+
+.notary-page-body .notary-cta-banner .notary-cta-channel-item strong {
+  color: #FED488 !important; /* Warm gold for labels */
+  font-weight: 700;
+  margin-right: 4px;
+}
+
+.notary-page-body .notary-cta-banner .notary-cta-channel-item a {
+  color: #FFFFFF !important;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.notary-page-body .notary-cta-banner .notary-cta-channel-item a:hover {
+  color: #FED488 !important;
+  text-decoration: underline;
+}
+
+.notary-page-body .notary-cta-banner-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: auto;
+}
+
+.btn-cta-phone {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #FED488 0%, #c9a24d 100%) !important;
+  color: #0E1C2F !important;
+  font-weight: 700;
+  font-size: 0.935rem;
+  padding: 11px 22px;
+  border-radius: var(--radius-sm);
+  border: 1px solid #FED488 !important;
+  text-decoration: none !important;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 14px rgba(254, 212, 136, 0.25);
+}
+
+.btn-cta-phone:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(254, 212, 136, 0.4);
+  color: #0E1C2F !important;
+}
+
+.btn-cta-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: rgba(255, 255, 255, 0.12) !important;
+  color: #FFFFFF !important;
+  font-weight: 600;
+  font-size: 0.935rem;
+  padding: 11px 20px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(255, 255, 255, 0.35) !important;
+  text-decoration: none !important;
+  transition: all 0.25s ease;
+}
+
+.btn-cta-whatsapp:hover {
+  background-color: #25D366 !important;
+  border-color: #25D366 !important;
+  color: #FFFFFF !important;
+  transform: translateY(-2px);
+}
+
+/* Right Enquiry Form Card (Clean White Surface with High Contrast Navy) */
+.notary-page-body .notary-enquiry-card {
+  background-color: var(--white) !important;
+  border: 1px solid var(--border-soft);
+  border-top: 3px solid var(--primary-gold);
+  border-radius: var(--radius-md);
+  padding: 32px 30px;
+  box-shadow: var(--shadow-md);
+  height: 100%;
+}
+
+.notary-page-body .notary-enquiry-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #0E1C2F !important; /* Deep navy */
+  margin-bottom: 4px;
+}
+
+.notary-page-body .notary-enquiry-subtitle {
+  font-size: 0.885rem;
+  color: #64748b !important; /* Readable grey */
+  margin: 0;
+}
+
+.notary-page-body .notary-form-label {
+  display: block;
+  font-size: 0.825rem;
+  font-weight: 700;
+  color: #0E1C2F !important; /* Deep navy */
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.notary-page-body .notary-form-control,
+.notary-page-body .notary-form-select {
+  width: 100%;
+  height: 46px;
+  padding: 10px 14px;
+  font-size: 0.935rem;
+  color: #0E1C2F !important; /* Dark navy */
+  background-color: #fafafc;
+  border: 1.5px solid var(--border-soft);
+  border-radius: var(--radius-sm);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  outline: none;
+}
+
+.notary-page-body .notary-form-control::placeholder {
+  color: #64748b !important; /* Accessible muted grey (WCAG AA compliant) */
+  opacity: 1;
+}
+
+.notary-page-body .notary-form-control:focus,
+.notary-page-body .notary-form-select:focus {
+  background-color: #FFFFFF;
+  border-color: var(--gold-accent);
+  box-shadow: 0 0 0 3px rgba(201, 162, 77, 0.18);
+  color: #0E1C2F !important;
+}
+
+.notary-page-body textarea.notary-form-control {
+  height: auto;
+  min-height: 92px;
+}
+
+.notary-page-body .notary-form-consent {
+  font-size: 0.765rem;
+  line-height: 1.45;
+  color: #64748b !important; /* Readable grey */
+  margin-top: 4px;
+}
+
+/* ==========================================================================
+   14. FOOTER DEFENSIVE CLEARANCE & STACKING ISOLATION
+   ========================================================================== */
+.notary-page-body footer.footer {
+  position: relative !important;
+  clear: both !important;
+  display: block !important;
+  width: 100% !important;
+  margin-top: 0 !important;
+  background: linear-gradient(135deg, #081521, #0b1c2d) !important;
+  color: #cbd5e1 !important;
+  padding: 60px 20px 28px !important;
+  box-sizing: border-box !important;
+  z-index: 10 !important;
+}
+
+.notary-page-body footer.footer h3,
+.notary-page-body footer.footer h4 {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
+  color: #FED488 !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.02em !important;
+  margin-bottom: 18px !important;
+}
+
+.notary-page-body footer.footer .footer-brand strong {
+  color: #FED488 !important;
+  font-size: 20px !important;
+}
+
+.notary-page-body footer.footer .footer-brand p,
+.notary-page-body footer.footer p {
+  color: #D1D5DB !important;
+  font-size: 15px !important;
+  line-height: 1.7 !important;
+  margin-bottom: 16px !important;
+}
+
+.notary-page-body footer.footer ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.notary-page-body footer.footer li {
+  color: #E2E8F0 !important;
+  margin-bottom: 12px !important;
+}
+
+.notary-page-body footer.footer a {
+  color: #E2E8F0 !important;
+  text-decoration: none !important;
+  transition: color 0.25s ease !important;
+}
+
+.notary-page-body footer.footer a:hover,
+.notary-page-body footer.footer a:focus {
+  color: #FED488 !important;
+}
+
+.notary-page-body footer.footer .contact span {
+  display: block !important;
+  color: #FED488 !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  margin-bottom: 4px !important;
+}
+
+.notary-page-body footer.footer .contact p {
+  color: #D1D5DB !important;
+  margin-bottom: 8px !important;
+  font-size: 14px !important;
+}
+
+.notary-page-body footer.footer .contact a {
+  color: #E2E8F0 !important;
+}
+
+.notary-page-body footer.footer .social-icons a {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 36px !important;
+  height: 36px !important;
+  border-radius: 50% !important;
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  color: #E2E8F0 !important;
+  margin-right: 8px !important;
+  transition: all 0.25s ease !important;
+}
+
+.notary-page-body footer.footer .social-icons a:hover {
+  background-color: var(--primary-gold) !important;
+  color: #FFFFFF !important;
+  transform: translateY(-2px) !important;
+}
+
+.notary-page-body footer.footer .footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+  padding-top: 20px !important;
+  margin-top: 36px !important;
+  font-size: 14px !important;
+  color: #94a3b8 !important;
+}
+
+/* ==========================================================================
+   15. RESPONSIVE BREAKPOINT REFINEMENTS
+   ========================================================================== */
+@media (max-width: 991.98px) {
+  .notary-hero-section {
+    padding-top: 120px;
+    padding-bottom: 44px;
+  }
+
+  .notary-section {
+    padding: 44px 0;
+  }
+
+  .notary-section-header {
+    margin-bottom: 20px;
+  }
+
+  .notary-carousel-container {
+    margin-top: 24px;
+  }
+
+  .notary-docs-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .notary-consultation-section {
+    padding: 44px 0;
+  }
+
+  .notary-cta-banner {
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .notary-hero-section {
+    padding-top: 110px;
+    padding-bottom: 36px;
+  }
+
+  .notary-section {
+    padding: 36px 0;
+  }
+
+  .notary-section-header {
+    margin-bottom: 18px;
+  }
+
+  .notary-hero-title {
+    font-size: 2rem;
+  }
+
+  .notary-hero-lead {
+    font-size: 0.95rem;
+    min-height: auto;
+    margin-bottom: 18px;
+  }
+
+  .notary-hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .btn-notary-primary,
+  .btn-notary-secondary {
+    width: 100%;
+  }
+
+  .notary-docs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .notary-about-card,
+  .notary-step-card,
+  .notary-cta-banner,
+  .notary-enquiry-card {
+    padding: 22px 18px;
+  }
+
+  .notary-consultation-section {
+    padding: 36px 0;
+  }
+}
