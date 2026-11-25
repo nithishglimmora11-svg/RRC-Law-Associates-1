@@ -1,0 +1,155 @@
+/**
+ * RRC Law Associates — NRI Tax Legal Guides Series (Articles 4, 5 & 6)
+ * File: assets/css/nri-tax-guides-remaining.css
+ * Dedicated stylesheet for:
+ * - nri-residential-status-india.html (Article 4)
+ * - dtaa-benefits-for-nris-india.html (Article 5)
+ * - nri-tds-refund-india.html (Article 6)
+ */
+
+@import url("/assets/css/nri-tax-guides.css?v=20261121-2");
+
+/* Scoped enhancements for new articles */
+body.nri-guide-new-articles .nri-guide-lead-box {
+  border-left: 4px solid var(--nri-gold, #775A19);
+  background: #fdfbf7;
+  padding: 24px 28px;
+  border-radius: 0 10px 10px 0;
+  margin-bottom: 32px;
+}
+
+body.nri-guide-new-articles .nri-guide-lead-box p {
+  color: #1F2937;
+  font-size: 16.5px;
+  line-height: 1.75;
+  margin-bottom: 12px;
+}
+
+body.nri-guide-new-articles .nri-guide-lead-box p:last-child {
+  margin-bottom: 0;
+}
+
+/* Statutory badge styling */
+body.nri-guide-new-articles .nri-statutory-box {
+  background: #f0f7ff;
+  border: 1px solid #bfdbfe;
+  border-left: 4px solid #2563eb;
+  padding: 20px 24px;
+  border-radius: 0 8px 8px 0;
+  margin: 24px 0;
+}
+
+body.nri-guide-new-articles .nri-statutory-box-title {
+  font-weight: 700;
+  color: #1e3a8a;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Comparison and decision matrices */
+body.nri-guide-new-articles .nri-matrix-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  margin: 28px 0;
+}
+
+body.nri-guide-new-articles .nri-matrix-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 22px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+body.nri-guide-new-articles .nri-matrix-card h4 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 18px;
+  color: #0E1C2F;
+  margin-bottom: 10px;
+}
+
+/* Strict contrast protection overrides */
+body.nri-guide-new-articles .footer h4 {
+  color: #FED488 !important;
+  font-family: 'Playfair Display', Georgia, serif !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+
+body.nri-guide-new-articles .footer p,
+body.nri-guide-new-articles .footer-brand p,
+body.nri-guide-new-articles .footer .contact p {
+  color: #D1D5DB !important;
+  font-size: 14.5px !important;
+  line-height: 1.7 !important;
+}
+
+body.nri-guide-new-articles .footer a,
+body.nri-guide-new-articles .footer ul li a,
+body.nri-guide-new-articles .footer .contact a {
+  color: #E5E7EB !important;
+  transition: color 0.25s ease-in-out !important;
+}
+
+body.nri-guide-new-articles .footer a:hover,
+body.nri-guide-new-articles .footer ul li a:hover,
+body.nri-guide-new-articles .footer .contact a:hover {
+  color: #FED488 !important;
+}
+
+body.nri-guide-new-articles .nri-sidebar-card.nri-sidebar-cta-card h4 {
+  color: #FED488 !important;
+}
+
+body.nri-guide-new-articles .nri-sidebar-card.nri-sidebar-cta-card p {
+  color: #F3F4F6 !important;
+}
+
+/* Service CTA banner inside article */
+body.nri-guide-new-articles .nri-guide-service-cta {
+  background: linear-gradient(135deg, #0E1C2F 0%, #152438 100%);
+  border-radius: 12px;
+  padding: 36px 32px;
+  color: #ffffff;
+  margin: 40px 0;
+  text-align: center;
+  border: 1px solid rgba(201, 162, 77, 0.3);
+}
+
+body.nri-guide-new-articles .nri-guide-service-cta h3 {
+  color: #FED488 !important;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+body.nri-guide-new-articles .nri-guide-service-cta p {
+  color: #E2E8F0 !important;
+  font-size: 16px;
+  max-width: 680px;
+  margin: 0 auto 24px auto;
+  line-height: 1.7;
+}
+
+body.nri-guide-new-articles .nri-guide-service-cta .btn-gold {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #C59B27;
+  color: #0E1C2F !important;
+  font-weight: 700;
+  padding: 12px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+body.nri-guide-new-articles .nri-guide-service-cta .btn-gold:hover {
+  background-color: #FED488;
+  color: #0E1C2F !important;
+  transform: translateY(-2px);
+}
+

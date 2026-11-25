@@ -1,0 +1,1649 @@
+/* ====================================================================
+   RRC LAW ASSOCIATES — NRI TAX DISPUTE RESOLUTION SERVICE PAGE STYLES
+   Master Production Design System v1.0 (2026)
+   Scoped to: body.nri-tax-dispute-page
+   ==================================================================== */
+
+:root {
+    /* Brand Color Tokens */
+    --ntd-navy-dark: #0E1C2F;
+    --ntd-navy-mid: #0b1e36;
+    --ntd-navy-card: #0f2442;
+    --ntd-navy-surface: #132a4a;
+    --ntd-navy-light: #1e3a5f;
+    --ntd-gold: #c9a24d;
+    --ntd-gold-hover: #b38f40;
+    --ntd-gold-bright: #FED488;
+    --ntd-gold-accent: #775A19;
+    --ntd-gold-light: #fbf7ee;
+    --ntd-gold-border: #e5d7b5;
+    --ntd-slate-light: #f9f9ff;
+    --ntd-bg-page: #f9f9ff;
+    --ntd-bg-surface: #ffffff;
+    --ntd-bg-alt: #f4f6fa;
+    --ntd-text-dark: #0f2137;
+    --ntd-text-body: #334155;
+    --ntd-text-muted: #64748b;
+    --ntd-border-light: #e2e8f0;
+    --ntd-border-subtle: rgba(201, 162, 77, 0.25);
+
+    /* Typography Tokens */
+    --ntd-font-serif: 'Playfair Display', Georgia, Cambria, serif;
+    --ntd-font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+    /* Responsive Font Scale Hierarchy */
+    --ntd-fs-hero: clamp(2.25rem, 3.4vw, 3.25rem);
+    --ntd-fs-hero-sub: clamp(1rem, 1.15vw, 1.15rem);
+    --ntd-fs-section: clamp(1.85rem, 2.3vw, 2.25rem);
+    --ntd-fs-section-sub: clamp(0.925rem, 1vw, 1.05rem);
+    --ntd-fs-card-title: clamp(1.15rem, 1.25vw, 1.35rem);
+    --ntd-fs-body: 1rem;
+    --ntd-fs-body-sm: 0.9375rem;
+    --ntd-fs-meta: 0.84rem;
+    --ntd-fs-btn: 0.9375rem;
+
+    /* Line Heights */
+    --ntd-lh-heading: 1.22;
+    --ntd-lh-card-title: 1.34;
+    --ntd-lh-body: 1.68;
+
+    /* Shadows & Transitions */
+    --ntd-shadow-sm: 0 2px 8px rgba(14, 28, 47, 0.05);
+    --ntd-shadow-md: 0 6px 20px rgba(14, 28, 47, 0.08);
+    --ntd-shadow-lg: 0 12px 32px rgba(14, 28, 47, 0.12);
+    --ntd-shadow-gold: 0 6px 20px rgba(201, 162, 77, 0.25);
+    --ntd-transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ====================================================================
+   BASE RESETS & ISOLATION
+   ==================================================================== */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 125px;
+}
+
+@media (max-width: 991.98px) {
+    html { scroll-padding-top: 120px; }
+}
+
+@media (max-width: 600px) {
+    html { scroll-padding-top: 105px; }
+}
+
+body.nri-tax-dispute-page {
+    font-family: var(--ntd-font-sans);
+    font-size: var(--ntd-fs-body);
+    color: var(--ntd-text-body);
+    background-color: var(--ntd-bg-page);
+    line-height: var(--ntd-lh-body);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ====================================================================
+   STRONG PARAGRAPH & TYPOGRAPHY ISOLATION
+   Permanently neutralizes style.css white-on-white text & excessive margins
+   ==================================================================== */
+body.nri-tax-dispute-page .ntd-section:not(.ntd-section-dark) p,
+body.nri-tax-dispute-page .ntd-intro-p,
+body.nri-tax-dispute-page .ntd-service-desc,
+body.nri-tax-dispute-page .ntd-step-desc,
+body.nri-tax-dispute-page .ntd-trust-desc,
+body.nri-tax-dispute-page .ntd-challenge-desc,
+body.nri-tax-dispute-page .ntd-faq-content p,
+body.nri-tax-dispute-page .ntd-related-desc {
+    font-family: var(--ntd-font-sans) !important;
+    color: var(--ntd-text-body) !important;
+    line-height: var(--ntd-lh-body) !important;
+    margin-top: 0 !important;
+    margin-bottom: 14px !important;
+    max-width: 100% !important;
+    overflow-wrap: break-word !important;
+}
+
+body.nri-tax-dispute-page .ntd-section p:last-child,
+body.nri-tax-dispute-page .ntd-faq-content p:last-child {
+    margin-bottom: 0 !important;
+}
+
+/* Specific body copy sizes */
+body.nri-tax-dispute-page .ntd-intro-p {
+    font-size: var(--ntd-fs-body) !important;
+}
+
+body.nri-tax-dispute-page .ntd-service-desc,
+body.nri-tax-dispute-page .ntd-step-desc,
+body.nri-tax-dispute-page .ntd-trust-desc,
+body.nri-tax-dispute-page .ntd-challenge-desc,
+body.nri-tax-dispute-page .ntd-faq-content p,
+body.nri-tax-dispute-page .ntd-related-desc {
+    font-size: var(--ntd-fs-body-sm) !important;
+    line-height: 1.62 !important;
+}
+
+/* Dark Section & Dark Banner Paragraphs */
+body.nri-tax-dispute-page .ntd-hero p,
+body.nri-tax-dispute-page .ntd-hero-desc,
+body.nri-tax-dispute-page .ntd-section-dark p,
+body.nri-tax-dispute-page .ntd-country-desc,
+body.nri-tax-dispute-page .ntd-section .ntd-bottom-cta-card p,
+body.nri-tax-dispute-page .ntd-section .ntd-bottom-cta-card .ntd-bottom-cta-desc,
+body.nri-tax-dispute-page .ntd-section .ntd-bottom-cta-desc,
+body.nri-tax-dispute-page .ntd-bottom-cta-card p,
+body.nri-tax-dispute-page .ntd-bottom-cta-desc,
+.ntd-bottom-cta-card p,
+.ntd-bottom-cta-desc {
+    color: #F9FAFB !important;
+}
+
+/* Lead text and highlights */
+body.nri-tax-dispute-page .ntd-lead-text {
+    font-size: 1.05rem !important;
+    font-weight: 500 !important;
+    color: var(--ntd-navy-dark) !important;
+    line-height: 1.65 !important;
+    margin-bottom: 14px !important;
+}
+
+body.nri-tax-dispute-page .ntd-highlight-box {
+    background: #f8fafc;
+    border-left: 4px solid var(--ntd-gold);
+    padding: 16px 20px;
+    border-radius: 0 6px 6px 0;
+    margin: 18px 0;
+}
+
+body.nri-tax-dispute-page .ntd-highlight-box p {
+    color: var(--ntd-navy-dark) !important;
+    font-size: 0.9375rem !important;
+    font-weight: 500 !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+}
+
+/* Headings Isolation */
+body.nri-tax-dispute-page h1,
+body.nri-tax-dispute-page h2,
+body.nri-tax-dispute-page h3,
+body.nri-tax-dispute-page .ntd-hero-title,
+body.nri-tax-dispute-page .ntd-section-title,
+body.nri-tax-dispute-page .ntd-service-title,
+body.nri-tax-dispute-page .ntd-challenge-title,
+body.nri-tax-dispute-page .ntd-step-title,
+body.nri-tax-dispute-page .ntd-trust-title,
+body.nri-tax-dispute-page .ntd-doc-cat-title,
+body.nri-tax-dispute-page .ntd-country-name,
+body.nri-tax-dispute-page .ntd-related-title,
+body.nri-tax-dispute-page .ntd-bottom-cta-title {
+    font-family: var(--ntd-font-serif) !important;
+    letter-spacing: -0.01em !important;
+    overflow-wrap: break-word !important;
+}
+
+/* Universal Section Scroll Margin */
+body.nri-tax-dispute-page .ntd-section,
+body.nri-tax-dispute-page [id] {
+    scroll-margin-top: 125px;
+}
+
+@media (max-width: 991.98px) {
+    body.nri-tax-dispute-page .ntd-section,
+    body.nri-tax-dispute-page [id] { scroll-margin-top: 120px; }
+}
+
+@media (max-width: 600px) {
+    body.nri-tax-dispute-page .ntd-section,
+    body.nri-tax-dispute-page [id] { scroll-margin-top: 105px; }
+}
+
+/* ====================================================================
+   PRESERVED GLOBAL FOOTER HIGH-CONTRAST PROTECTION
+   (Adheres to proven WCAG AAA standards from previous audit)
+   ==================================================================== */
+body.nri-tax-dispute-page .footer h4 {
+    color: #FED488 !important;
+    font-family: var(--ntd-font-serif) !important;
+    font-size: 1.15rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.02em !important;
+    margin-bottom: 22px !important;
+}
+
+body.nri-tax-dispute-page .footer p,
+body.nri-tax-dispute-page .footer-brand p,
+body.nri-tax-dispute-page .footer .contact p,
+body.nri-tax-dispute-page .footer-bottom p {
+    color: #D1D5DB !important;
+    font-size: 14.5px !important;
+    line-height: 1.7 !important;
+}
+
+body.nri-tax-dispute-page .footer a,
+body.nri-tax-dispute-page .footer ul li a,
+body.nri-tax-dispute-page .footer .contact a {
+    color: #E5E7EB !important;
+    text-decoration: none !important;
+}
+
+body.nri-tax-dispute-page .footer a:hover,
+body.nri-tax-dispute-page .footer ul li a:hover {
+    color: #FED488 !important;
+    padding-left: 4px;
+}
+
+body.nri-tax-dispute-page .footer .contact span {
+    color: #FED488 !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.08em !important;
+    text-transform: uppercase !important;
+}
+
+body.nri-tax-dispute-page .footer-bottom .legal a {
+    color: #CBD5E1 !important;
+}
+
+/* ====================================================================
+   TOP BREADCRUMB BAR
+   ==================================================================== */
+.ntd-breadcrumb-bar {
+    background: #000000;
+    border-bottom: 1px solid rgba(201, 162, 77, 0.25);
+    padding: 8px 0;
+    margin-top: 118px;
+    position: relative;
+    z-index: 10;
+}
+
+@media (max-width: 991.98px) {
+    .ntd-breadcrumb-bar { margin-top: 124px; }
+}
+
+@media (max-width: 600px) {
+    .ntd-breadcrumb-bar { margin-top: 108px; }
+}
+
+.ntd-breadcrumb-bar ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: var(--ntd-fs-meta);
+}
+
+.ntd-breadcrumb-bar a {
+    color: rgba(255, 255, 255, 0.72);
+    text-decoration: none;
+    transition: var(--ntd-transition);
+}
+
+.ntd-breadcrumb-bar a:hover {
+    color: var(--ntd-gold);
+}
+
+.ntd-breadcrumb-bar .active {
+    color: var(--ntd-gold-bright);
+    font-weight: 600;
+}
+
+.ntd-breadcrumb-bar .separator {
+    color: rgba(255, 255, 255, 0.35);
+}
+
+/* ====================================================================
+   SECTION 1: HERO CAROUSEL (3 SLIDES - 100% AUTOMATIC)
+   ==================================================================== */
+.ntd-hero {
+    position: relative;
+    min-height: 520px;
+    background: var(--ntd-navy-dark);
+    color: #ffffff;
+    overflow: hidden;
+    border-bottom: 3px solid var(--ntd-gold);
+    display: flex;
+    align-items: center;
+}
+
+.ntd-carousel-track {
+    position: relative;
+    width: 100%;
+    min-height: 520px;
+}
+
+.ntd-carousel-slide {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1), visibility 0.8s ease;
+    will-change: opacity;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.ntd-carousel-slide.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    z-index: 2;
+}
+
+.ntd-slide-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.ntd-slide-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center right;
+    transform: scale(1.0);
+    transition: transform 6s ease-out;
+}
+
+.ntd-carousel-slide.active .ntd-slide-bg img {
+    transform: scale(1.04);
+}
+
+.ntd-slide-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    pointer-events: none;
+    background:
+        linear-gradient(90deg,
+            rgba(14, 28, 47, 0.96) 0%,
+            rgba(14, 28, 47, 0.92) 32%,
+            rgba(14, 28, 47, 0.78) 55%,
+            rgba(14, 28, 47, 0.48) 75%,
+            rgba(14, 28, 47, 0.20) 100%),
+        linear-gradient(180deg,
+            rgba(14, 28, 47, 0.55) 0%,
+            transparent 30%,
+            transparent 70%,
+            rgba(14, 28, 47, 0.75) 100%);
+}
+
+.ntd-slide-overlay::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgba(201, 162, 77, 0.08) 1px, transparent 1px);
+    background-size: 28px 28px;
+    opacity: 0.65;
+}
+
+.ntd-slide-content-wrap {
+    position: relative;
+    z-index: 4;
+    width: 100%;
+    padding: 56px 0 68px 0;
+}
+
+.ntd-slide-content {
+    max-width: 740px;
+}
+
+.ntd-hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(201, 162, 77, 0.16);
+    border: 1px solid rgba(201, 162, 77, 0.45);
+    color: var(--ntd-gold-bright);
+    padding: 5px 13px;
+    border-radius: 30px;
+    font-size: var(--ntd-fs-meta);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.ntd-hero-title {
+    font-family: var(--ntd-font-serif);
+    font-size: var(--ntd-fs-hero);
+    font-weight: 700;
+    line-height: var(--ntd-lh-heading);
+    color: #ffffff;
+    letter-spacing: -0.015em;
+    margin-bottom: 16px;
+    text-shadow: 0 2px 14px rgba(0, 0, 0, 0.6);
+}
+
+.ntd-hero-desc {
+    font-family: var(--ntd-font-sans);
+    font-size: var(--ntd-fs-hero-sub);
+    font-weight: 400;
+    line-height: 1.65;
+    color: #e2e8f0;
+    margin-bottom: 24px;
+    max-width: 640px;
+    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+.ntd-hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    align-items: center;
+}
+
+.ntd-btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    background: linear-gradient(135deg, #c9a24d 0%, #b38f40 100%);
+    color: #000000 !important;
+    font-weight: 700;
+    font-size: var(--ntd-fs-btn);
+    padding: 12px 26px;
+    border-radius: 6px;
+    border: 1px solid var(--ntd-gold);
+    text-decoration: none;
+    box-shadow: 0 4px 16px rgba(201, 162, 77, 0.32);
+    transition: var(--ntd-transition);
+    cursor: pointer;
+}
+
+.ntd-btn-primary:hover,
+.ntd-btn-primary:focus-visible {
+    background: linear-gradient(135deg, #FED488 0%, #c9a24d 100%);
+    transform: translateY(-2px);
+    box-shadow: var(--ntd-shadow-gold);
+    color: #000000 !important;
+    outline: none;
+}
+
+.ntd-btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    background: rgba(14, 28, 47, 0.6);
+    border: 1.5px solid rgba(201, 162, 77, 0.55);
+    color: #ffffff !important;
+    font-weight: 600;
+    font-size: var(--ntd-fs-btn);
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    backdrop-filter: blur(4px);
+    transition: var(--ntd-transition);
+}
+
+.ntd-btn-secondary:hover,
+.ntd-btn-secondary:focus-visible {
+    background: rgba(201, 162, 77, 0.15);
+    border-color: var(--ntd-gold-bright);
+    color: var(--ntd-gold-bright) !important;
+    transform: translateY(-2px);
+    outline: none;
+}
+
+/* Carousel Decorative Controls */
+.ntd-carousel-controls {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    z-index: 6;
+}
+
+.ntd-carousel-controls-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ntd-carousel-dots {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ntd-dot {
+    width: 28px;
+    height: 5px;
+    border-radius: 3px;
+    border: none;
+    background: rgba(255, 255, 255, 0.35);
+    cursor: pointer;
+    transition: var(--ntd-transition);
+    padding: 0;
+}
+
+.ntd-dot:hover {
+    background: rgba(255, 255, 255, 0.65);
+}
+
+.ntd-dot.active {
+    background: var(--ntd-gold-bright);
+    width: 42px;
+    box-shadow: 0 0 8px rgba(254, 212, 136, 0.6);
+}
+
+.ntd-carousel-arrows {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ntd-arrow-btn {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: rgba(14, 28, 47, 0.7);
+    border: 1px solid rgba(201, 162, 77, 0.45);
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: var(--ntd-transition);
+    font-size: 0.875rem;
+}
+
+.ntd-arrow-btn:hover,
+.ntd-arrow-btn:focus-visible {
+    background: var(--ntd-gold);
+    color: #000000;
+    border-color: var(--ntd-gold);
+    outline: none;
+}
+
+/* ====================================================================
+   SECTION COMMON SYSTEM
+   ==================================================================== */
+.ntd-section {
+    padding: 60px 0;
+    position: relative;
+    background-color: var(--ntd-bg-surface);
+}
+
+.ntd-section-alt {
+    background-color: var(--ntd-bg-alt);
+    border-top: 1px solid var(--ntd-border-light);
+    border-bottom: 1px solid var(--ntd-border-light);
+}
+
+.ntd-section-dark {
+    background-color: var(--ntd-navy-dark);
+    color: #ffffff;
+    border-top: 2px solid var(--ntd-gold);
+    border-bottom: 2px solid var(--ntd-gold);
+}
+
+.ntd-section-header {
+    margin-bottom: 24px;
+    text-align: left;
+}
+
+.ntd-section-header.text-center {
+    text-align: center;
+}
+
+.ntd-section-tag {
+    display: inline-block;
+    font-size: var(--ntd-fs-meta);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ntd-gold-accent);
+    margin-bottom: 6px;
+}
+
+.ntd-section-dark .ntd-section-tag {
+    color: var(--ntd-gold-bright);
+}
+
+.ntd-section-title {
+    font-family: var(--ntd-font-serif);
+    font-size: var(--ntd-fs-section);
+    font-weight: 700;
+    color: var(--ntd-text-dark);
+    line-height: var(--ntd-lh-heading);
+    margin-bottom: 10px;
+    letter-spacing: -0.01em;
+}
+
+.ntd-section-dark .ntd-section-title {
+    color: #ffffff;
+}
+
+.ntd-section-subtitle {
+    font-size: var(--ntd-fs-section-sub);
+    color: var(--ntd-text-muted);
+    max-width: 760px;
+    line-height: 1.62;
+    margin-bottom: 0;
+}
+
+.ntd-section-header.text-center .ntd-section-subtitle {
+    margin-inline: auto;
+}
+
+.ntd-section-dark .ntd-section-subtitle {
+    color: #cbd5e1;
+}
+
+/* ====================================================================
+   SECTION 2: INTRODUCTION
+   ==================================================================== */
+.ntd-intro-card {
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px solid var(--ntd-border-light);
+    box-shadow: var(--ntd-shadow-sm);
+    overflow: hidden;
+    height: auto;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ntd-intro-img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    display: block;
+}
+
+.ntd-intro-card-body {
+    padding: 22px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.ntd-stat-pill {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--ntd-gold-light);
+    border: 1px solid var(--ntd-gold-border);
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-top: 16px;
+}
+
+.ntd-stat-pill i {
+    font-size: 1.35rem;
+    color: var(--ntd-gold-accent);
+}
+
+.ntd-stat-pill-text strong {
+    display: block;
+    color: var(--ntd-navy-dark);
+    font-size: 1.05rem;
+    line-height: 1.25;
+}
+
+.ntd-stat-pill-text span {
+    font-size: var(--ntd-fs-meta);
+    color: var(--ntd-text-muted);
+}
+
+/* ====================================================================
+   SECTION 3: OUR SERVICES (6 Cards - 3x2 Grid)
+   ==================================================================== */
+.ntd-service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+@media (max-width: 991.98px) {
+    .ntd-service-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+    .ntd-service-grid { grid-template-columns: 1fr; }
+}
+
+.ntd-service-card {
+    background: #ffffff;
+    border: 1px solid var(--ntd-border-light);
+    border-radius: 8px;
+    padding: 24px 22px;
+    box-shadow: var(--ntd-shadow-sm);
+    display: flex;
+    flex-direction: column;
+    transition: var(--ntd-transition);
+    border-top: 3px solid transparent;
+}
+
+.ntd-service-card:hover {
+    border-top-color: var(--ntd-gold);
+    transform: translateY(-3px);
+    box-shadow: var(--ntd-shadow-md);
+}
+
+.ntd-service-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(201, 162, 77, 0.12);
+    border: 1px solid rgba(201, 162, 77, 0.25);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--ntd-gold-accent);
+    font-size: 1.25rem;
+    margin-bottom: 16px;
+    transition: var(--ntd-transition);
+}
+
+.ntd-service-card:hover .ntd-service-icon {
+    background: var(--ntd-gold);
+    color: #ffffff;
+}
+
+.ntd-service-title {
+    font-family: var(--ntd-font-serif);
+    font-size: var(--ntd-fs-card-title);
+    font-weight: 700;
+    color: var(--ntd-navy-dark);
+    margin-bottom: 10px;
+    line-height: var(--ntd-lh-card-title);
+}
+
+.ntd-service-list {
+    list-style: none;
+    padding: 0;
+    margin: 12px 0 0 0;
+    flex-grow: 1;
+}
+
+.ntd-service-list li {
+    font-size: var(--ntd-fs-body-sm);
+    color: var(--ntd-text-body);
+    padding: 5px 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    line-height: 1.55;
+}
+
+.ntd-service-list li i {
+    color: #16a34a;
+    font-size: 0.8rem;
+    margin-top: 4px;
+    flex-shrink: 0;
+}
+
+.ntd-statutory-notice {
+    background: rgba(201, 162, 77, 0.08);
+    border: 1px solid var(--ntd-gold-border);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-top: 28px;
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.ntd-statutory-notice i {
+    font-size: 1.25rem;
+    color: var(--ntd-gold-accent);
+    margin-top: 2px;
+}
+
+.ntd-statutory-notice p {
+    margin: 0 !important;
+    font-size: 0.88rem !important;
+    color: var(--ntd-navy-dark) !important;
+    line-height: 1.58 !important;
+}
+
+/* ====================================================================
+   SECTION 4: COMMON TAX CHALLENGES (9 Cards - 3x3 Grid)
+   ==================================================================== */
+.ntd-challenge-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 991.98px) {
+    .ntd-challenge-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+    .ntd-challenge-grid { grid-template-columns: 1fr; }
+}
+
+.ntd-challenge-card {
+    background: #ffffff;
+    border: 1px solid var(--ntd-border-light);
+    border-radius: 8px;
+    padding: 22px 20px;
+    box-shadow: var(--ntd-shadow-sm);
+    transition: var(--ntd-transition);
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.ntd-challenge-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--ntd-shadow-md);
+    border-color: rgba(201, 162, 77, 0.4);
+}
+
+.ntd-challenge-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    background: var(--ntd-navy-dark);
+    color: var(--ntd-gold-bright);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.15rem;
+    flex-shrink: 0;
+}
+
+.ntd-challenge-content {
+    flex-grow: 1;
+}
+
+.ntd-challenge-title {
+    font-family: var(--ntd-font-serif);
+    font-size: 1.08rem;
+    font-weight: 700;
+    color: var(--ntd-navy-dark);
+    margin-bottom: 6px;
+    line-height: 1.3;
+}
+
+.ntd-challenge-desc {
+    font-size: var(--ntd-fs-body-sm);
+    color: var(--ntd-text-body);
+    line-height: 1.58;
+    margin: 0;
+}
+
+/* ====================================================================
+   SECTION 5: LEGAL ASSISTANCE PROCESS (6 Steps Timeline)
+   ==================================================================== */
+.ntd-timeline-wrap {
+    position: relative;
+    max-width: 920px;
+    margin-inline: auto;
+}
+
+.ntd-timeline-wrap::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 24px;
+    width: 2px;
+    background: linear-gradient(180deg, var(--ntd-gold) 0%, rgba(201, 162, 77, 0.2) 100%);
+    border-radius: 2px;
+}
+
+@media (min-width: 768px) {
+    .ntd-timeline-wrap::before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.ntd-timeline-item {
+    position: relative;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ntd-timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .ntd-timeline-item {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .ntd-timeline-item:nth-child(even) {
+        justify-content: flex-start;
+    }
+}
+
+.ntd-timeline-badge {
+    position: absolute;
+    left: 4px;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--ntd-navy-dark);
+    border: 2.5px solid var(--ntd-gold);
+    color: var(--ntd-gold-bright);
+    font-family: var(--ntd-font-serif);
+    font-weight: 700;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    box-shadow: 0 0 10px rgba(201, 162, 77, 0.35);
+}
+
+@media (min-width: 768px) {
+    .ntd-timeline-badge {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.ntd-timeline-card {
+    background: #ffffff;
+    border: 1px solid var(--ntd-border-light);
+    border-radius: 8px;
+    padding: 20px 22px;
+    box-shadow: var(--ntd-shadow-sm);
+    margin-left: 58px;
+    position: relative;
+    transition: var(--ntd-transition);
+}
+
+@media (min-width: 768px) {
+    .ntd-timeline-card {
+        margin-left: 0;
+        width: 46%;
+    }
+}
+
+.ntd-timeline-card:hover {
+    box-shadow: var(--ntd-shadow-md);
+    border-color: rgba(201, 162, 77, 0.4);
+}
+
+.ntd-step-subtitle {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--ntd-gold-accent);
+    letter-spacing: 0.05em;
+    margin-bottom: 4px;
+}
+
+.ntd-step-title {
+    font-family: var(--ntd-font-serif);
+    font-size: 1.18rem;
+    font-weight: 700;
+    color: var(--ntd-navy-dark);
+    margin-bottom: 8px;
+}
+
+.ntd-step-desc {
+    font-size: var(--ntd-fs-body-sm);
+    color: var(--ntd-text-body);
+    line-height: 1.62;
+    margin-bottom: 0;
+}
+
+/* ====================================================================
+   SECTION 6: DOCUMENTS REQUIRED (Checklist Grid)
+   ==================================================================== */
+.ntd-doc-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+}
+
+@media (max-width: 767.98px) {
+    .ntd-doc-grid { grid-template-columns: 1fr; }
+}
+
+.ntd-doc-card {
+    background: #ffffff;
+    border: 1px solid var(--ntd-border-light);
+    border-radius: 8px;
+    padding: 22px 20px;
+    box-shadow: var(--ntd-shadow-sm);
+}
+
+.ntd-doc-cat-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 2px solid var(--ntd-gold-light);
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+}
+
+.ntd-doc-cat-header i {
+    font-size: 1.2rem;
+    color: var(--ntd-gold-accent);
+}
+
+.ntd-doc-cat-title {
+    font-family: var(--ntd-font-serif);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--ntd-navy-dark);
+    margin: 0;
+}
+
+.ntd-doc-checklist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ntd-doc-checklist li {
+    font-size: var(--ntd-fs-body-sm);
+    color: var(--ntd-text-body);
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    line-height: 1.5;
+}
+
+.ntd-doc-checklist li i {
+    color: #16a34a;
+    font-size: 0.9rem;
+    margin-top: 3px;
+    flex-shrink: 0;
+}
+
+.ntd-doc-note {
+    background: rgba(201, 162, 77, 0.08);
+    border: 1px solid var(--ntd-gold-border);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-top: 22px;
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.ntd-doc-note i {
+    font-size: 1.25rem;
+    color: var(--ntd-gold-accent);
+    margin-top: 2px;
+}
+
+.ntd-doc-note p {
+    margin: 0 !important;
+    font-size: 0.9rem !important;
+    color: var(--ntd-navy-dark) !important;
+    line-height: 1.6 !important;
+    font-weight: 500 !important;
+}
+
+/* ====================================================================
+   SECTION 7: WHY CHOOSE RRC (6 Trust Cards)
+   ==================================================================== */
+.ntd-trust-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+@media (max-width: 991.98px) {
+    .ntd-trust-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+    .ntd-trust-grid { grid-template-columns: 1fr; }
+}
+
+.ntd-trust-card {
+    background: #ffffff;
+    border: 1px solid var(--ntd-border-light);
+    border-radius: 8px;
+    padding: 24px 22px;
+    box-shadow: var(--ntd-shadow-sm);
+    transition: var(--ntd-transition);
+}
+
+.ntd-trust-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--ntd-shadow-md);
+    border-color: rgba(201, 162, 77, 0.45);
+}
+
+.ntd-trust-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    background: var(--ntd-navy-dark);
+    color: var(--ntd-gold-bright);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    margin-bottom: 14px;
+}
+
+.ntd-trust-title {
+    font-family: var(--ntd-font-serif);
+    font-size: 1.18rem;
+    font-weight: 700;
+    color: var(--ntd-navy-dark);
+    margin-bottom: 8px;
+}
+
+.ntd-trust-desc {
+    font-size: var(--ntd-fs-body-sm);
+    color: var(--ntd-text-body);
+    line-height: 1.62;
+    margin: 0;
+}
+
+/* ====================================================================
+   SECTION 8: WHO CAN BENEFIT - GLOBAL NRI CARDS (Dark Theme)
+   ==================================================================== */
+.ntd-global-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 1199.98px) {
+    .ntd-global-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+    .ntd-global-grid { grid-template-columns: 1fr; }
+}
+
+.ntd-country-card {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(201, 162, 77, 0.28);
+    border-radius: 8px;
+    padding: 20px 18px;
+    transition: var(--ntd-transition);
+    backdrop-filter: blur(4px);
+}
+
+.ntd-country-card:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: var(--ntd-gold-bright);
+    transform: translateY(-3px);
+}
+
+.ntd-country-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.ntd-country-icon {
+    font-size: 1.25rem;
+    color: var(--ntd-gold-bright);
+}
+
+.ntd-country-name {
+    font-family: var(--ntd-font-serif);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+}
+
+.ntd-country-desc {
+    font-size: var(--ntd-fs-body-sm);
+    color: #e2e8f0;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.ntd-remote-assurance {
+    background: rgba(201, 162, 77, 0.14);
+    border: 1px solid rgba(201, 162, 77, 0.35);
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin-top: 28px;
+    text-align: center;
+}
+
+.ntd-remote-assurance h4 {
+    font-family: var(--ntd-font-serif);
+    font-size: 1.18rem;
+    color: var(--ntd-gold-bright);
+    margin-bottom: 8px;
+}
+
+.ntd-remote-assurance p {
+    color: #f1f5f9;
+    font-size: 0.925rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* ====================================================================
+   SECTION 9: FREQUENTLY ASKED QUESTIONS (Accordion)
+   ==================================================================== */
+.ntd-faq-container {
+    max-width: 880px;
+    margin-inline: auto;
+}
+
+.ntd-faq-item {
+    background: #ffffff;
+    border: 1px solid var(--ntd-border-light);
+    border-radius: 6px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: var(--ntd-transition);
+}
+
+.ntd-faq-item.active {
+    border-color: var(--ntd-gold);
+    box-shadow: 0 3px 14px rgba(201, 162, 77, 0.12);
+}
+
+.ntd-faq-btn {
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 16px 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    cursor: pointer;
+    font-family: var(--ntd-font-sans);
+    font-size: 1.025rem;
+    font-weight: 600;
+    color: var(--ntd-navy-dark);
+    transition: var(--ntd-transition);
+}
+
+.ntd-faq-btn:hover {
+    color: var(--ntd-gold-accent);
+}
+
+.ntd-faq-btn:focus-visible {
+    outline: 2px solid var(--ntd-gold);
+    outline-offset: -2px;
+}
+
+.ntd-faq-chevron {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #f1f5f9;
+    color: var(--ntd-navy-dark);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: transform 0.28s ease, background 0.28s ease;
+    font-size: 0.8rem;
+}
+
+.ntd-faq-item.active .ntd-faq-chevron {
+    transform: rotate(180deg);
+    background: var(--ntd-gold);
+    color: #ffffff;
+}
+
+.ntd-faq-panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.32s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ntd-faq-content {
+    padding: 0 20px 18px 20px;
+    font-size: var(--ntd-fs-body-sm);
+    color: var(--ntd-text-body);
+    line-height: 1.65;
+    border-top: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.ntd-faq-content p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+/* ====================================================================
+   SECTION 10: RELATED NRI SERVICES
+   ==================================================================== */
+.ntd-related-services-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 991.98px) {
+    .ntd-related-services-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+    .ntd-related-services-grid { grid-template-columns: 1fr; }
+}
+
+.ntd-service-nav-card {
+    background: #ffffff;
+    border: 1px solid var(--ntd-border-light);
+    border-radius: 8px;
+    padding: 22px 18px;
+    box-shadow: var(--ntd-shadow-sm);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: var(--ntd-transition);
+    text-decoration: none;
+    border-top: 3px solid transparent;
+}
+
+.ntd-service-nav-card:hover {
+    border-top-color: var(--ntd-gold);
+    transform: translateY(-3px);
+    box-shadow: var(--ntd-shadow-md);
+}
+
+.ntd-service-nav-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    background: rgba(201, 162, 77, 0.12);
+    color: var(--ntd-gold-accent);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-bottom: 14px;
+    transition: var(--ntd-transition);
+}
+
+.ntd-service-nav-card:hover .ntd-service-nav-icon {
+    background: var(--ntd-gold);
+    color: #ffffff;
+}
+
+.ntd-service-nav-title {
+    font-family: var(--ntd-font-serif);
+    font-size: 1.12rem;
+    font-weight: 700;
+    color: var(--ntd-navy-dark);
+    margin-bottom: 8px;
+}
+
+.ntd-service-nav-desc {
+    font-size: var(--ntd-fs-body-sm);
+    color: var(--ntd-text-body);
+    line-height: 1.55;
+    margin-bottom: 14px;
+    flex-grow: 1;
+}
+
+.ntd-service-nav-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--ntd-gold-accent);
+    font-weight: 600;
+    font-size: var(--ntd-fs-meta);
+    transition: var(--ntd-transition);
+}
+
+.ntd-service-nav-card:hover .ntd-service-nav-link {
+    color: var(--ntd-navy-dark);
+    gap: 11px;
+}
+
+/* ====================================================================
+   SECTION 11: RELATED BLOG ARTICLES (3 Guides)
+   ==================================================================== */
+.ntd-related-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+@media (max-width: 991.98px) {
+    .ntd-related-grid { grid-template-columns: 1fr; }
+}
+
+.ntd-related-card {
+    background: #ffffff;
+    border: 1px solid var(--ntd-border-light);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--ntd-shadow-sm);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: var(--ntd-transition);
+}
+
+.ntd-related-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--ntd-shadow-md);
+    border-color: rgba(201, 162, 77, 0.45);
+}
+
+.ntd-related-img-wrap {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.ntd-related-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.ntd-related-card:hover .ntd-related-img-wrap img {
+    transform: scale(1.05);
+}
+
+.ntd-related-body {
+    padding: 22px 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.ntd-related-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: var(--ntd-fs-meta);
+}
+
+.ntd-related-category {
+    font-weight: 700;
+    color: var(--ntd-gold-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.ntd-related-readtime {
+    color: var(--ntd-text-muted);
+}
+
+.ntd-related-title {
+    font-family: var(--ntd-font-serif);
+    font-size: 1.18rem;
+    font-weight: 700;
+    color: var(--ntd-navy-dark);
+    line-height: 1.34;
+    margin-bottom: 10px;
+}
+
+.ntd-related-title a {
+    color: inherit;
+    text-decoration: none;
+    transition: var(--ntd-transition);
+}
+
+.ntd-related-title a:hover {
+    color: var(--ntd-gold-accent);
+}
+
+.ntd-related-desc {
+    font-size: var(--ntd-fs-body-sm);
+    color: var(--ntd-text-body);
+    line-height: 1.62;
+    margin-bottom: 16px;
+    flex-grow: 1;
+}
+
+.ntd-related-footer {
+    border-top: 1px solid var(--ntd-border-light);
+    padding: 14px 20px;
+    background: #fbfbfc;
+}
+
+.ntd-related-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--ntd-gold-accent);
+    font-weight: 600;
+    font-size: var(--ntd-fs-meta);
+    text-decoration: none;
+    transition: var(--ntd-transition);
+}
+
+.ntd-related-link:hover {
+    color: var(--ntd-navy-dark);
+    gap: 11px;
+}
+
+/* ====================================================================
+   SECTION 12: FINAL CONSULTATION CTA BANNER
+   ==================================================================== */
+.ntd-bottom-cta-card {
+    background: linear-gradient(135deg, var(--ntd-navy-dark) 0%, #152d4b 100%);
+    border: 2px solid var(--ntd-gold);
+    border-radius: 12px;
+    padding: 44px 32px;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 0 12px 32px rgba(14, 28, 47, 0.22);
+    position: relative;
+    overflow: hidden;
+}
+
+.ntd-bottom-cta-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgba(201, 162, 77, 0.12) 1px, transparent 1px);
+    background-size: 24px 24px;
+    pointer-events: none;
+}
+
+.ntd-bottom-cta-title {
+    font-family: var(--ntd-font-serif);
+    font-size: clamp(1.75rem, 2.5vw, 2.35rem);
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 14px;
+    position: relative;
+    z-index: 2;
+}
+
+.ntd-bottom-cta-desc {
+    font-size: 1rem;
+    color: #e2e8f0;
+    max-width: 680px;
+    margin: 0 auto 26px auto;
+    line-height: 1.65;
+    position: relative;
+    z-index: 2;
+}
+
+.ntd-bottom-cta-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    position: relative;
+    z-index: 2;
+}
+
+/* ====================================================================
+   RESPONSIVE DESIGN BREAKPOINTS
+   ==================================================================== */
+@media (max-width: 991.98px) {
+    .ntd-section { padding: 48px 0; }
+    .ntd-slide-content-wrap { padding: 44px 0 54px 0; }
+    .ntd-hero { min-height: 480px; }
+    .ntd-bottom-cta-card { padding: 34px 20px; }
+}
+
+@media (max-width: 767.98px) {
+    .ntd-hero { min-height: 460px; }
+    .ntd-hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .ntd-hero-actions .ntd-btn-primary,
+    .ntd-hero-actions .ntd-btn-secondary {
+        width: 100%;
+        text-align: center;
+    }
+    .ntd-carousel-controls { bottom: 14px; }
+    .ntd-arrow-btn { width: 34px; height: 34px; font-size: 0.8rem; }
+}
+
+@media (max-width: 480px) {
+    .ntd-hero { min-height: 440px; }
+    .ntd-hero-title { font-size: 1.65rem; }
+    .ntd-hero-desc { font-size: 0.925rem; }
+    .ntd-section { padding: 36px 0; }
+    .ntd-section-header { margin-bottom: 18px; }
+    .ntd-service-card,
+    .ntd-challenge-card,
+    .ntd-trust-card,
+    .ntd-doc-card {
+        padding: 18px 16px;
+    }
+}
+
+/* Reduced Motion Accessibility */
+@media (prefers-reduced-motion: reduce) {
+    .ntd-carousel-slide,
+    .ntd-slide-bg img,
+    .ntd-service-card,
+    .ntd-challenge-card,
+    .ntd-trust-card,
+    .ntd-dot,
+    .ntd-arrow-btn,
+    .ntd-faq-panel {
+        transition: none !important;
+        animation: none !important;
+    }
+}
