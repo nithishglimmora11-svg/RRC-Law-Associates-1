@@ -31,30 +31,32 @@
             // Remove any legacy category headers in NRI dropdown
             nriMenu.querySelectorAll('.dropdown-header').forEach(el => el.remove());
 
-            // Standardize NRI Services Mega Menu: Guarantee 12 services in 2 column wraps without category headers
-            if (!nriMenu.querySelector('.nri-column-wrap') || nriMenu.querySelectorAll('.dropdown-item').length < 12) {
+            // Standardize NRI Services Mega Menu: Guarantee 14 services in 2 column wraps without category headers
+            if (!nriMenu.querySelector('.nri-column-wrap') || nriMenu.querySelectorAll('.dropdown-item').length < 14) {
                 const activeItem = nriMenu.querySelector('.dropdown-item.active, .dropdown-item.active-item, .dropdown-item.text-gold');
                 const activeHref = activeItem ? activeItem.getAttribute('href') : null;
                 const currentPath = window.location.pathname.replace(/\/$/, '');
 
                 nriMenu.innerHTML = `
-                    <li class="nri-column-wrap">
-                        <a class="dropdown-item text-uppercase" href="/oci-card-assistance">OCI Card &amp; Ancestry Assistance</a>
-                        <a class="dropdown-item text-uppercase" href="/wills-probate-estate-administration">Wills, Probate &amp; Estate Administration</a>
-                        <a class="dropdown-item text-uppercase" href="/nri-landlord-tenant-eviction/">Landlord–Tenant &amp; Eviction</a>
-                        <a class="dropdown-item text-uppercase" href="/nri-rera-builder-disputes/">RERA &amp; Builder Disputes</a>
-                        <a class="dropdown-item text-uppercase" href="/nri-property-disputes">Property Disputes</a>
-                        <a class="dropdown-item text-uppercase" href="/nri-power-of-attorney">Power of Attorney</a>
-                    </li>
-                    <li class="nri-column-wrap">
-                        <a class="dropdown-item text-uppercase" href="/us-india-documentation-services/">U.S.–India Documentation</a>
-                        <a class="dropdown-item text-uppercase" href="/immigration-services/">Immigration &amp; Visa Advisory</a>
-                        <a class="dropdown-item text-uppercase" href="/translation-services/">Certified Legal Translations</a>
-                        <a class="dropdown-item text-uppercase" href="/nri-business-commercial-advisory/">Business &amp; Commercial Advisory</a>
-                        <a class="dropdown-item text-uppercase" href="/nri-criminal-case">Criminal Cases</a>
-                        <a class="dropdown-item text-uppercase" href="/nri-family-matrimonial">Family &amp; Matrimonial</a>
-                    </li>
-                `;
+                        <li class="nri-column-wrap">
+                            <a class="dropdown-item text-uppercase" href="/oci-card-assistance">OCI Card &amp; Ancestry Assistance</a>
+                            <a class="dropdown-item text-uppercase" href="/wills-probate-estate-administration">Wills, Probate &amp; Estate Administration</a>
+                            <a class="dropdown-item text-uppercase" href="/nri-landlord-tenant-eviction/">Landlord–Tenant &amp; Eviction</a>
+                            <a class="dropdown-item text-uppercase" href="/nri-rera-builder-disputes/">RERA &amp; Builder Disputes</a>
+                            <a class="dropdown-item text-uppercase" href="/nri-property-disputes">Property Disputes</a>
+                            <a class="dropdown-item text-uppercase" href="/nri-power-of-attorney">Power of Attorney</a>
+                            <a class="dropdown-item text-uppercase" href="/nri-tax-return-filing/">NRI Tax Return Filing</a>
+                        </li>
+                        <li class="nri-column-wrap">
+                            <a class="dropdown-item text-uppercase" href="/us-india-documentation-services/">U.S.–India Documentation</a>
+                            <a class="dropdown-item text-uppercase" href="/immigration-services/">Immigration &amp; Visa Advisory</a>
+                            <a class="dropdown-item text-uppercase" href="/translation-services/">Certified Legal Translations</a>
+                            <a class="dropdown-item text-uppercase" href="/nri-business-commercial-advisory/">Business &amp; Commercial Advisory</a>
+                            <a class="dropdown-item text-uppercase" href="/nri-criminal-case">Criminal Cases</a>
+                            <a class="dropdown-item text-uppercase" href="/nri-family-matrimonial">Family &amp; Matrimonial</a>
+                            <a class="dropdown-item text-uppercase" href="/nri-tax-dispute-resolution/">NRI Tax Dispute Resolution</a>
+                        </li>
+                    `;
 
                 nriMenu.querySelectorAll('.dropdown-item').forEach(link => {
                     const href = link.getAttribute('href')?.replace(/\/$/, '');
@@ -448,19 +450,21 @@
                             NRI Services <i class="fa fa-chevron-down ms-2"></i>
                         </a>
                         <div class="m-submenu" id="mNriMenu">
-                            <a class="m-sub-item" href="/oci-card-assistance">OCI Card &amp; Ancestry Assistance</a>
-                            <a class="m-sub-item" href="/wills-probate-estate-administration">Wills, Probate &amp; Estate Administration</a>
-                            <a class="m-sub-item" href="/nri-landlord-tenant-eviction/">Landlord–Tenant &amp; Eviction</a>
-                            <a class="m-sub-item" href="/nri-rera-builder-disputes/">RERA &amp; Builder Disputes</a>
-                            <a class="m-sub-item" href="/nri-property-disputes">Property Disputes</a>
-                            <a class="m-sub-item" href="/nri-power-of-attorney">Power of Attorney</a>
-                            <a class="m-sub-item" href="/us-india-documentation-services/">U.S.–India Documentation</a>
-                            <a class="m-sub-item" href="/immigration-services/">Immigration &amp; Visa Advisory</a>
-                            <a class="m-sub-item" href="/translation-services/">Certified Legal Translations</a>
-                            <a class="m-sub-item" href="/nri-business-commercial-advisory/">Business &amp; Commercial Advisory</a>
-                            <a class="m-sub-item" href="/nri-criminal-case">Criminal Cases</a>
-                            <a class="m-sub-item" href="/nri-family-matrimonial">Family &amp; Matrimonial</a>
-                        </div>
+                    <a class="m-sub-item" href="/oci-card-assistance">OCI Card &amp; Ancestry Assistance</a>
+                    <a class="m-sub-item" href="/wills-probate-estate-administration">Wills, Probate &amp; Estate Administration</a>
+                    <a class="m-sub-item" href="/nri-landlord-tenant-eviction/">Landlord–Tenant &amp; Eviction</a>
+                    <a class="m-sub-item" href="/nri-rera-builder-disputes/">RERA &amp; Builder Disputes</a>
+                    <a class="m-sub-item" href="/nri-property-disputes">Property Disputes</a>
+                    <a class="m-sub-item" href="/nri-power-of-attorney">Power of Attorney</a>
+                    <a class="m-sub-item" href="/nri-tax-return-filing/">NRI Tax Return Filing</a>
+                    <a class="m-sub-item" href="/us-india-documentation-services/">U.S.–India Documentation</a>
+                    <a class="m-sub-item" href="/immigration-services/">Immigration &amp; Visa Advisory</a>
+                    <a class="m-sub-item" href="/translation-services/">Certified Legal Translations</a>
+                    <a class="m-sub-item" href="/nri-business-commercial-advisory/">Business &amp; Commercial Advisory</a>
+                    <a class="m-sub-item" href="/nri-criminal-case">Criminal Cases</a>
+                    <a class="m-sub-item" href="/nri-family-matrimonial">Family &amp; Matrimonial</a>
+                    <a class="m-sub-item" href="/nri-tax-dispute-resolution/">NRI Tax Dispute Resolution</a>
+                </div>
                     `;
                     practiceDropdown.parentNode.insertBefore(nriDropdown, practiceDropdown);
                 }

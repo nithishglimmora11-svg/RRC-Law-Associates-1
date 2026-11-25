@@ -5078,7 +5078,7 @@ button:disabled,
   /* Fallback for flat list structure */
   .dropdown-menu-nri:not(:has(.nri-column-wrap)) {
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-    grid-template-rows: repeat(6, auto) !important;
+    grid-template-rows: repeat(7, auto) !important;
     grid-auto-flow: column !important;
   }
 
