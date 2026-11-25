@@ -14,6 +14,7 @@ chrome_*
 *.pma
 *.log
 __pycache__/
+screenshots/
 
 # Deployment and packaging archives
 rrc-law-ai-deploy.zip
