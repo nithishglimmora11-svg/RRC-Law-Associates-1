@@ -88,6 +88,94 @@ RewriteRule ^ https://rrclawassociates.com/us-india-documentation-services/ [R=3
 RewriteRule ^us-india-documentation-services$ https://rrclawassociates.com/us-india-documentation-services/ [R=301,L,QSA]
 RewriteRule ^us-india-documentation-services/$ /us-india-documentation-services.html [L,NC,QSA]
 
+# NRI Tax Return Filing Services: Canonical Clean Trailing-Slash URL
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+nri-tax-return-filing\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/nri-tax-return-filing/ [R=301,L,QSA]
+RewriteRule ^nri-tax-return-filing$ https://rrclawassociates.com/nri-tax-return-filing/ [R=301,L,QSA]
+RewriteRule ^nri-tax-return-filing/$ /nri-tax-return-filing.html [L,NC,QSA]
+
+# NRI Tax Dispute Resolution Services: Canonical Clean Trailing-Slash URL
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+nri-tax-dispute-resolution\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/nri-tax-dispute-resolution/ [R=301,L,QSA]
+RewriteRule ^nri-tax-dispute-resolution$ https://rrclawassociates.com/nri-tax-dispute-resolution/ [R=301,L,QSA]
+RewriteRule ^nri-tax-dispute-resolution/$ /nri-tax-dispute-resolution.html [L,NC,QSA]
+
+# NRI Tax Legal Guides: Hub & Article Clean Trailing-Slash URLs
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+nri-tax-guides\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/nri-tax-guides/ [R=301,L,QSA]
+RewriteRule ^nri-tax-guides$ https://rrclawassociates.com/nri-tax-guides/ [R=301,L,QSA]
+RewriteRule ^nri-tax-guides/$ /nri-tax-guides.html [L,NC,QSA]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+nri-income-tax-return-filing-india\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/nri-income-tax-return-filing-india/ [R=301,L,QSA]
+RewriteRule ^nri-income-tax-return-filing-india$ https://rrclawassociates.com/nri-income-tax-return-filing-india/ [R=301,L,QSA]
+RewriteRule ^nri-income-tax-return-filing-india/$ /nri-income-tax-return-filing-india.html [L,NC,QSA]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+taxable-income-for-nris-in-india\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/taxable-income-for-nris-in-india/ [R=301,L,QSA]
+RewriteRule ^taxable-income-for-nris-in-india$ https://rrclawassociates.com/taxable-income-for-nris-in-india/ [R=301,L,QSA]
+RewriteRule ^taxable-income-for-nris-in-india/$ /taxable-income-for-nris-in-india.html [L,NC,QSA]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+nri-property-sale-tax-india\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/nri-property-sale-tax-india/ [R=301,L,QSA]
+RewriteRule ^nri-property-sale-tax-india$ https://rrclawassociates.com/nri-property-sale-tax-india/ [R=301,L,QSA]
+RewriteRule ^nri-property-sale-tax-india/$ /nri-property-sale-tax-india.html [L,NC,QSA]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+nri-residential-status-india\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/nri-residential-status-india/ [R=301,L,QSA]
+RewriteRule ^nri-residential-status-india$ https://rrclawassociates.com/nri-residential-status-india/ [R=301,L,QSA]
+RewriteRule ^nri-residential-status-india/$ /nri-residential-status-india.html [L,NC,QSA]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+dtaa-benefits-for-nris-india\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/dtaa-benefits-for-nris-india/ [R=301,L,QSA]
+RewriteRule ^dtaa-benefits-for-nris-india$ https://rrclawassociates.com/dtaa-benefits-for-nris-india/ [R=301,L,QSA]
+RewriteRule ^dtaa-benefits-for-nris-india/$ /dtaa-benefits-for-nris-india.html [L,NC,QSA]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+nri-tds-refund-india\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/nri-tds-refund-india/ [R=301,L,QSA]
+RewriteRule ^nri-tds-refund-india$ https://rrclawassociates.com/nri-tds-refund-india/ [R=301,L,QSA]
+RewriteRule ^nri-tds-refund-india/$ /nri-tds-refund-india.html [L,NC,QSA]
+
+# ====================================================================
+# Adoption Legal Guides: Hub & Article Clean Trailing-Slash URLs
+# ====================================================================
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+adoption-legal-guides\\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/adoption-legal-guides/ [R=301,L,QSA]
+RewriteRule ^adoption-legal-guides$ https://rrclawassociates.com/adoption-legal-guides/ [R=301,L,QSA]
+RewriteRule ^adoption-legal-guides/$ /adoption-legal-guides.html [L,NC,QSA]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+adoption-process-in-india\\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/adoption-process-in-india/ [R=301,L,QSA]
+RewriteRule ^adoption-process-in-india$ https://rrclawassociates.com/adoption-process-in-india/ [R=301,L,QSA]
+RewriteRule ^adoption-process-in-india/$ /adoption-process-in-india.html [L,NC,QSA]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+who-can-adopt-a-child-in-india\\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/who-can-adopt-a-child-in-india/ [R=301,L,QSA]
+RewriteRule ^who-can-adopt-a-child-in-india$ https://rrclawassociates.com/who-can-adopt-a-child-in-india/ [R=301,L,QSA]
+RewriteRule ^who-can-adopt-a-child-in-india/$ /who-can-adopt-a-child-in-india.html [L,NC,QSA]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+cara-adoption-process-india\\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/cara-adoption-process-india/ [R=301,L,QSA]
+RewriteRule ^cara-adoption-process-india$ https://rrclawassociates.com/cara-adoption-process-india/ [R=301,L,QSA]
+RewriteRule ^cara-adoption-process-india/$ /cara-adoption-process-india.html [L,NC,QSA]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+hindu-adoption-maintenance-act-1956\\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/hindu-adoption-maintenance-act-1956/ [R=301,L,QSA]
+RewriteRule ^hindu-adoption-maintenance-act-1956$ https://rrclawassociates.com/hindu-adoption-maintenance-act-1956/ [R=301,L,QSA]
+RewriteRule ^hindu-adoption-maintenance-act-1956/$ /hindu-adoption-maintenance-act-1956.html [L,NC,QSA]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+relative-step-parent-adoption-india\\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/relative-step-parent-adoption-india/ [R=301,L,QSA]
+RewriteRule ^relative-step-parent-adoption-india$ https://rrclawassociates.com/relative-step-parent-adoption-india/ [R=301,L,QSA]
+RewriteRule ^relative-step-parent-adoption-india/$ /relative-step-parent-adoption-india.html [L,NC,QSA]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+inter-country-adoption-india\\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/inter-country-adoption-india/ [R=301,L,QSA]
+RewriteRule ^inter-country-adoption-india$ https://rrclawassociates.com/inter-country-adoption-india/ [R=301,L,QSA]
+RewriteRule ^inter-country-adoption-india/$ /inter-country-adoption-india.html [L,NC,QSA]
+
+
+
 # International Professional Associates: Canonical Clean Trailing-Slash URL
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+international-professional-associates\.html(?:\?[^\s]*)?\s [NC]
 RewriteRule ^ https://rrclawassociates.com/international-professional-associates/ [R=301,L,QSA]
@@ -245,3 +333,34 @@ ErrorDocument 403 /404.html
 <FilesMatch "^(\.env|\.cpanel\.yml|\.gitignore|.*\.zip)$">
     Require all denied
 </FilesMatch>
+
+# Medical Negligence Legal Guides: Clean Trailing-Slash URLs
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+medical-negligence-in-india\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/medical-negligence-in-india/ [R=301,L,QSA]
+RewriteRule ^medical-negligence-in-india$ https://rrclawassociates.com/medical-negligence-in-india/ [R=301,L,QSA]
+RewriteRule ^medical-negligence-in-india/$ /medical-negligence-in-india.html [L,NC,QSA]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+types-of-medical-negligence-india\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/types-of-medical-negligence-india/ [R=301,L,QSA]
+RewriteRule ^types-of-medical-negligence-india$ https://rrclawassociates.com/types-of-medical-negligence-india/ [R=301,L,QSA]
+RewriteRule ^types-of-medical-negligence-india/$ /types-of-medical-negligence-india.html [L,NC,QSA]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+informed-consent-medical-treatment-india\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/informed-consent-medical-treatment-india/ [R=301,L,QSA]
+RewriteRule ^informed-consent-medical-treatment-india$ https://rrclawassociates.com/informed-consent-medical-treatment-india/ [R=301,L,QSA]
+RewriteRule ^informed-consent-medical-treatment-india/$ /informed-consent-medical-treatment-india.html [L,NC,QSA]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+how-to-prove-medical-negligence-india\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/how-to-prove-medical-negligence-india/ [R=301,L,QSA]
+RewriteRule ^how-to-prove-medical-negligence-india$ https://rrclawassociates.com/how-to-prove-medical-negligence-india/ [R=301,L,QSA]
+RewriteRule ^how-to-prove-medical-negligence-india/$ /how-to-prove-medical-negligence-india.html [L,NC,QSA]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+medical-negligence-complaint-india\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/medical-negligence-complaint-india/ [R=301,L,QSA]
+RewriteRule ^medical-negligence-complaint-india$ https://rrclawassociates.com/medical-negligence-complaint-india/ [R=301,L,QSA]
+RewriteRule ^medical-negligence-complaint-india/$ /medical-negligence-complaint-india.html [L,NC,QSA]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+medical-negligence-compensation-india\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/medical-negligence-compensation-india/ [R=301,L,QSA]
+RewriteRule ^medical-negligence-compensation-india$ https://rrclawassociates.com/medical-negligence-compensation-india/ [R=301,L,QSA]
+RewriteRule ^medical-negligence-compensation-india/$ /medical-negligence-compensation-india.html [L,NC,QSA]
