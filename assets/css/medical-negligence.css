@@ -1,0 +1,936 @@
+/**
+ * RRC Law Associates — Medical Negligence Legal Guides Master Stylesheet
+ * File: assets/css/medical-negligence.css
+ * Production Editorial Design System (2026)
+ * Scoped strictly to: body.medneg-page
+ */
+
+/* ==========================================================================
+   1. DESIGN TOKENS & BASE STYLES
+   ========================================================================== */
+:root {
+  --med-navy: #0E1C2F;
+  --med-navy-deep: #08121f;
+  --med-navy-surface: #152438;
+  --med-navy-card: #1c2e46;
+  --med-gold: #775A19;
+  --med-gold-accent: #c9a24d;
+  --med-gold-bright: #FED488;
+  --med-gold-tint: rgba(119, 90, 25, 0.08);
+  --med-gold-border: rgba(201, 162, 77, 0.35);
+  --med-bg: #f9f9ff;
+  --med-bg-card: #ffffff;
+  --med-cream: #fbf9f4;
+  --med-text-heading: #0E1C2F;
+  --med-text-body: #1F2937;
+  --med-text-subtitle: #475569;
+  --med-text-readable: #334155;
+  --med-text-muted: #64748b;
+  --med-text-light: #f1f5f9;
+  --med-border: #e2e8f0;
+  --med-shadow-sm: 0 2px 6px rgba(14, 28, 47, 0.04);
+  --med-shadow-md: 0 8px 20px -4px rgba(14, 28, 47, 0.07), 0 4px 8px -4px rgba(14, 28, 47, 0.03);
+  --med-shadow-lg: 0 20px 30px -10px rgba(14, 28, 47, 0.10);
+  --med-radius-sm: 6px;
+  --med-radius-md: 10px;
+  --med-radius-lg: 16px;
+  --med-transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body.medneg-page {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: var(--med-text-readable);
+  background-color: var(--med-bg);
+  line-height: 1.75;
+  overflow-x: hidden;
+  max-width: 100vw;
+  position: relative;
+}
+
+/* Accessibility Visually-Hidden Utility Guarantee */
+body.medneg-page .visually-hidden,
+body.medneg-page .visually-hidden-focusable:not(:focus):not(:focus-within) {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+body.medneg-page h1,
+body.medneg-page h2,
+body.medneg-page h3,
+body.medneg-page h4 {
+  font-family: 'Playfair Display', Georgia, serif;
+  color: var(--med-text-heading);
+  letter-spacing: -0.01em;
+  font-weight: 700;
+}
+
+/* ==========================================================================
+   2. HERO SECTION — LIGHT THEME & FIXED HEADER SPACING
+   ========================================================================== */
+body.medneg-page .medneg-hero {
+  background-color: var(--med-bg);
+  color: var(--med-text-heading);
+  position: relative;
+  /* Accommodate 122px fixed header stack (42px topbar + 80px main nav) */
+  padding-top: clamp(140px, 12vw, 160px);
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--med-border);
+}
+
+body.medneg-page .medneg-hero-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Breadcrumbs */
+body.medneg-page .medneg-breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.875rem;
+  color: var(--med-text-muted);
+  margin-bottom: 16px;
+}
+
+body.medneg-page .medneg-breadcrumbs a {
+  color: var(--med-gold);
+  text-decoration: none;
+  font-weight: 500;
+  transition: var(--med-transition);
+}
+
+body.medneg-page .medneg-breadcrumbs a:hover {
+  color: var(--med-navy);
+  text-decoration: underline;
+}
+
+body.medneg-page .medneg-breadcrumbs .sep {
+  color: #cbd5e1;
+  font-size: 0.75rem;
+}
+
+body.medneg-page .medneg-breadcrumbs .current {
+  color: var(--med-navy);
+  font-weight: 600;
+}
+
+/* Hero Badge */
+body.medneg-page .medneg-hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--med-gold-tint);
+  color: var(--med-gold);
+  border: 1px solid var(--med-gold-border);
+  padding: 5px 14px;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+body.medneg-page .medneg-hero-badge i {
+  color: var(--med-gold);
+}
+
+/* Hero Title */
+body.medneg-page .medneg-hero-title {
+  font-size: clamp(2rem, 3.8vw, 3.25rem);
+  line-height: 1.25;
+  color: var(--med-navy);
+  margin-bottom: 18px;
+  max-width: 960px;
+}
+
+/* Hero Introduction / Subtitle */
+body.medneg-page .medneg-hero-subtitle {
+  font-size: clamp(1.05rem, 1.8vw, 1.2rem);
+  line-height: 1.65;
+  color: var(--med-text-subtitle);
+  margin-bottom: 22px;
+  max-width: 860px;
+}
+
+/* Hero Meta Row */
+body.medneg-page .medneg-hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  font-size: 0.875rem;
+  color: var(--med-text-muted);
+  padding: 14px 0;
+  border-top: 1px solid var(--med-border);
+  border-bottom: 1px solid var(--med-border);
+  margin-bottom: 24px;
+}
+
+body.medneg-page .medneg-hero-meta .meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+body.medneg-page .medneg-hero-meta i {
+  color: var(--med-gold);
+  font-size: 0.95rem;
+}
+
+/* ==========================================================================
+   3. IN-HERO TABLE OF CONTENTS (QUICK NAVIGATION COMPONENT)
+   ========================================================================== */
+body.medneg-page .medneg-hero-toc {
+  background: #ffffff;
+  border: 1px solid var(--med-border);
+  border-left: 4px solid var(--med-gold);
+  border-radius: var(--med-radius-md);
+  padding: 18px 24px;
+  margin-top: 20px;
+  box-shadow: 0 4px 16px rgba(14, 28, 47, 0.04);
+}
+
+body.medneg-page .medneg-toc-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  user-select: none;
+}
+
+body.medneg-page .medneg-toc-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--med-navy);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+body.medneg-page .medneg-toc-title i {
+  color: var(--med-gold);
+}
+
+body.medneg-page .medneg-toc-toggle-btn {
+  background: transparent;
+  border: 1px solid var(--med-border);
+  color: var(--med-gold);
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: var(--med-transition);
+}
+
+body.medneg-page .medneg-toc-toggle-btn:hover {
+  background: var(--med-gold-tint);
+  border-color: var(--med-gold);
+}
+
+body.medneg-page .medneg-toc-toggle-btn i {
+  transition: transform 0.25s ease;
+}
+
+body.medneg-page .medneg-hero-toc.collapsed .medneg-toc-toggle-btn i {
+  transform: rotate(180deg);
+}
+
+body.medneg-page .medneg-hero-toc.collapsed .medneg-toc-body {
+  display: none;
+}
+
+body.medneg-page .medneg-quick-toc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 8px 24px;
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0 0;
+  border-top: 1px dashed var(--med-border);
+  padding-top: 14px;
+}
+
+body.medneg-page .medneg-quick-toc-grid li {
+  margin: 0;
+}
+
+body.medneg-page .medneg-quick-toc-grid a {
+  color: var(--med-text-readable);
+  text-decoration: none;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 7px;
+  padding: 3px 0;
+  transition: var(--med-transition);
+}
+
+body.medneg-page .medneg-quick-toc-grid a i {
+  color: var(--med-gold);
+  font-size: 0.75rem;
+}
+
+body.medneg-page .medneg-quick-toc-grid a:hover {
+  color: var(--med-gold);
+  transform: translateX(4px);
+}
+
+/* ==========================================================================
+   4. ARTICLE WRAPPER & 2-COLUMN LAYOUT
+   ========================================================================== */
+body.medneg-page .medneg-article-section {
+  padding: 44px 0 64px 0;
+}
+
+body.medneg-page .medneg-article-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+body.medneg-page .medneg-layout-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 330px;
+  gap: 40px;
+  align-items: start;
+  min-width: 0;
+  max-width: 100%;
+}
+
+/* Main Content Column */
+body.medneg-page .medneg-main-content {
+  background: var(--med-bg-card);
+  padding: 40px;
+  border-radius: var(--med-radius-lg);
+  box-shadow: var(--med-shadow-sm);
+  border: 1px solid var(--med-border);
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+/* Featured Image */
+body.medneg-page .medneg-featured-image-box {
+  margin-bottom: 36px;
+  border-radius: var(--med-radius-md);
+  overflow: hidden;
+  box-shadow: var(--med-shadow-md);
+  border: 1px solid var(--med-border);
+  background: #f1f5f9;
+}
+
+body.medneg-page .medneg-featured-image-box img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
+body.medneg-page .medneg-image-caption {
+  font-size: 0.85rem;
+  color: var(--med-text-muted);
+  padding: 10px 16px;
+  background: #fafaf9;
+  border-top: 1px solid var(--med-border);
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+body.medneg-page .medneg-image-caption i {
+  color: var(--med-gold);
+}
+
+/* Typography Inside Content */
+body.medneg-page .medneg-main-content h2 {
+  font-size: 1.85rem;
+  line-height: 1.3;
+  margin-top: 44px;
+  margin-bottom: 18px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--med-border);
+  color: var(--med-navy);
+  scroll-margin-top: 145px;
+}
+
+body.medneg-page .medneg-main-content h3 {
+  font-size: 1.35rem;
+  line-height: 1.4;
+  margin-top: 32px;
+  margin-bottom: 14px;
+  color: var(--med-navy);
+  scroll-margin-top: 145px;
+}
+
+body.medneg-page .medneg-main-content p {
+  margin-bottom: 20px;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--med-text-readable);
+}
+
+body.medneg-page .medneg-main-content p.lead {
+  font-size: 1.15rem;
+  line-height: 1.75;
+  color: var(--med-navy);
+  font-weight: 500;
+}
+
+body.medneg-page .medneg-main-content ul,
+body.medneg-page .medneg-main-content ol {
+  margin: 0 0 24px 24px;
+  padding: 0;
+  font-size: 1.025rem;
+  line-height: 1.75;
+}
+
+body.medneg-page .medneg-main-content li {
+  margin-bottom: 10px;
+  color: var(--med-text-readable);
+}
+
+body.medneg-page .medneg-main-content strong {
+  color: var(--med-navy);
+}
+
+/* Callout Boxes */
+body.medneg-page .medneg-callout {
+  background: var(--med-cream);
+  border-left: 4px solid var(--med-gold);
+  border-radius: 0 var(--med-radius-md) var(--med-radius-md) 0;
+  padding: 22px 24px;
+  margin: 32px 0;
+  box-shadow: 0 2px 8px rgba(119, 90, 25, 0.05);
+}
+
+body.medneg-page .medneg-callout-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--med-navy);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+body.medneg-page .medneg-callout-title i {
+  color: var(--med-gold);
+}
+
+body.medneg-page .medneg-callout p:last-child {
+  margin-bottom: 0;
+}
+
+/* Case Law Spotlight Box */
+body.medneg-page .medneg-case-box {
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-top: 4px solid var(--med-navy);
+  border-radius: var(--med-radius-md);
+  padding: 24px;
+  margin: 32px 0;
+}
+
+body.medneg-page .medneg-case-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--med-navy);
+  margin-bottom: 6px;
+}
+
+body.medneg-page .medneg-case-citation {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--med-gold);
+  margin-bottom: 14px;
+  background: rgba(119, 90, 25, 0.08);
+  padding: 3px 10px;
+  border-radius: 4px;
+}
+
+/* Responsive Table Wrapper */
+body.medneg-page .medneg-table-responsive {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 32px 0;
+  border-radius: var(--med-radius-md);
+  box-shadow: var(--med-shadow-sm);
+  border: 1px solid var(--med-border);
+}
+
+body.medneg-page table.medneg-table {
+  width: 100%;
+  min-width: 580px;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  background: #ffffff;
+  text-align: left;
+}
+
+body.medneg-page table.medneg-table th {
+  background: var(--med-navy);
+  color: #ffffff;
+  padding: 14px 18px;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+body.medneg-page table.medneg-table td {
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--med-border);
+  color: var(--med-text-readable);
+  vertical-align: top;
+}
+
+body.medneg-page table.medneg-table tr:nth-child(even) td {
+  background: #fafaf9;
+}
+
+body.medneg-page table.medneg-table tr:hover td {
+  background: rgba(119, 90, 25, 0.04);
+}
+
+/* FAQ Accordion in Article */
+body.medneg-page .medneg-faq-section {
+  margin-top: 48px;
+  padding-top: 36px;
+  border-top: 2px solid var(--med-border);
+}
+
+body.medneg-page .medneg-faq-item {
+  border: 1px solid var(--med-border);
+  border-radius: var(--med-radius-md);
+  margin-bottom: 14px;
+  background: #ffffff;
+  overflow: hidden;
+  transition: var(--med-transition);
+}
+
+body.medneg-page .medneg-faq-question {
+  padding: 18px 22px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--med-navy);
+}
+
+body.medneg-page .medneg-faq-icon {
+  font-size: 1.1rem;
+  color: var(--med-gold);
+  transition: transform 0.25s ease;
+}
+
+body.medneg-page .medneg-faq-item.active .medneg-faq-icon {
+  transform: rotate(45deg);
+}
+
+body.medneg-page .medneg-faq-answer {
+  display: none;
+  padding: 0 22px 20px 22px;
+  color: var(--med-text-readable);
+  font-size: 0.98rem;
+  line-height: 1.7;
+}
+
+body.medneg-page .medneg-faq-item.active .medneg-faq-answer {
+  display: block;
+}
+
+/* Legal Disclaimer */
+body.medneg-page .medneg-disclaimer-box {
+  background: #f8fafc;
+  border: 1px solid var(--med-border);
+  border-radius: var(--med-radius-md);
+  padding: 18px 22px;
+  font-size: 0.875rem;
+  color: var(--med-text-muted);
+  line-height: 1.6;
+  margin-top: 40px;
+}
+
+body.medneg-page .medneg-disclaimer-box strong {
+  color: var(--med-navy);
+}
+
+/* ==========================================================================
+   5. SIDEBAR STYLING
+   ========================================================================== */
+body.medneg-page .medneg-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+body.medneg-page .medneg-sidebar-widget {
+  background: var(--med-bg-card);
+  border: 1px solid var(--med-border);
+  border-radius: var(--med-radius-lg);
+  padding: 24px;
+  box-shadow: var(--med-shadow-sm);
+}
+
+/* Sticky TOC Widget */
+body.medneg-page .medneg-toc-widget {
+  position: sticky;
+  top: 140px;
+  max-height: calc(100vh - 160px);
+  overflow-y: auto;
+}
+
+body.medneg-page .medneg-widget-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.25rem;
+  color: var(--med-navy);
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--med-gold-accent);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+body.medneg-page .medneg-widget-title i {
+  color: var(--med-gold);
+}
+
+/* TOC List */
+body.medneg-page .medneg-toc-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body.medneg-page .medneg-toc-list li {
+  margin-bottom: 8px;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+body.medneg-page .medneg-toc-list a {
+  color: var(--med-text-readable);
+  text-decoration: none;
+  display: block;
+  padding: 5px 8px;
+  border-radius: 4px;
+  transition: var(--med-transition);
+}
+
+body.medneg-page .medneg-toc-list a:hover,
+body.medneg-page .medneg-toc-list a.active {
+  color: var(--med-gold);
+  background: var(--med-gold-tint);
+  font-weight: 600;
+  padding-left: 12px;
+}
+
+/* Sidebar Consultation Card */
+body.medneg-page .medneg-consult-widget {
+  background: linear-gradient(145deg, var(--med-navy-deep), var(--med-navy));
+  color: #ffffff;
+  border: 1px solid var(--med-gold-accent);
+}
+
+body.medneg-page .medneg-consult-widget h4 {
+  color: var(--med-gold-bright);
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+}
+
+body.medneg-page .medneg-consult-widget p {
+  color: #e2e8f0;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  margin-bottom: 18px;
+}
+
+body.medneg-page .medneg-btn-gold {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--med-gold-bright);
+  color: var(--med-navy);
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 12px 20px;
+  border-radius: var(--med-radius-md);
+  text-decoration: none;
+  width: 100%;
+  transition: var(--med-transition);
+  border: none;
+  cursor: pointer;
+}
+
+body.medneg-page .medneg-btn-gold:hover {
+  background: #f5c467;
+  color: #000000;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(254, 212, 136, 0.35);
+}
+
+body.medneg-page .medneg-btn-outline-gold {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: transparent;
+  color: var(--med-gold-bright);
+  border: 1px solid var(--med-gold-bright);
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 10px 18px;
+  border-radius: var(--med-radius-md);
+  text-decoration: none;
+  width: 100%;
+  margin-top: 10px;
+  transition: var(--med-transition);
+}
+
+body.medneg-page .medneg-btn-outline-gold:hover {
+  background: rgba(254, 212, 136, 0.15);
+  color: #ffffff;
+}
+
+/* Sidebar Related Articles */
+body.medneg-page .medneg-related-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body.medneg-page .medneg-related-list li {
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--med-border);
+}
+
+body.medneg-page .medneg-related-list li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+body.medneg-page .medneg-related-list a {
+  color: var(--med-navy);
+  text-decoration: none;
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.45;
+  display: block;
+  transition: var(--med-transition);
+}
+
+body.medneg-page .medneg-related-list a:hover {
+  color: var(--med-gold);
+}
+
+body.medneg-page .medneg-related-meta {
+  font-size: 0.8rem;
+  color: var(--med-text-muted);
+  margin-top: 4px;
+}
+
+/* ==========================================================================
+   6. BOTTOM CONSULTATION CTA BANNER
+   ========================================================================== */
+body.medneg-page .medneg-cta-banner {
+  background: linear-gradient(145deg, var(--med-navy-deep), var(--med-navy));
+  color: #ffffff;
+  border-radius: var(--med-radius-lg);
+  border: 2px solid var(--med-gold-accent);
+  padding: 44px;
+  margin-top: 48px;
+  margin-bottom: 60px;
+  text-align: center;
+  box-shadow: var(--med-shadow-lg);
+}
+
+body.medneg-page .medneg-cta-banner h3 {
+  color: var(--med-gold-bright);
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+body.medneg-page .medneg-cta-banner p {
+  color: #e2e8f0;
+  font-size: 1.1rem;
+  max-width: 750px;
+  margin: 0 auto 28px auto;
+  line-height: 1.7;
+}
+
+body.medneg-page .medneg-cta-btns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+body.medneg-page .medneg-cta-btns .medneg-btn-gold,
+body.medneg-page .medneg-cta-btns .medneg-btn-outline-gold {
+  width: auto;
+  min-width: 200px;
+  margin-top: 0;
+}
+
+/* ==========================================================================
+   7. RESPONSIVE BREAKPOINTS (ALL 8 VIEWPORTS SUPPORTED)
+   ========================================================================== */
+@media (max-width: 1200px) {
+  body.medneg-page .medneg-layout-grid {
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  body.medneg-page .medneg-layout-grid {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  body.medneg-page .medneg-main-content {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    padding: 30px 24px;
+    overflow: hidden;
+  }
+
+  body.medneg-page .medneg-sidebar {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  body.medneg-page .medneg-toc-widget {
+    position: static;
+    max-height: none;
+  }
+  
+  body.medneg-page .medneg-cta-banner {
+    padding: 32px 20px;
+  }
+  
+  body.medneg-page .medneg-cta-btns {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  body.medneg-page .medneg-cta-btns .medneg-btn-gold,
+  body.medneg-page .medneg-cta-btns .medneg-btn-outline-gold {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  body.medneg-page .medneg-hero {
+    padding-top: 130px;
+    padding-bottom: 32px;
+  }
+
+  body.medneg-page .medneg-hero-title {
+    font-size: clamp(1.85rem, 6vw, 2.4rem);
+  }
+
+  body.medneg-page .medneg-hero-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  body.medneg-page .medneg-quick-toc-grid {
+    grid-template-columns: 1fr;
+  }
+
+  body.medneg-page .medneg-main-content {
+    padding: 24px 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  body.medneg-page .medneg-hero {
+    padding-top: 120px;
+    padding-bottom: 28px;
+  }
+
+  body.medneg-page .medneg-hero-container {
+    padding: 0 16px;
+  }
+
+  body.medneg-page .medneg-article-container {
+    padding: 0 16px;
+  }
+
+  body.medneg-page .medneg-hero-title {
+    font-size: 1.85rem;
+  }
+
+  body.medneg-page .medneg-hero-subtitle {
+    font-size: 1rem;
+  }
+
+  body.medneg-page .medneg-hero-toc {
+    padding: 14px 16px;
+  }
+
+  body.medneg-page .medneg-main-content {
+    padding: 20px 14px;
+    border-radius: var(--med-radius-md);
+  }
+
+  body.medneg-page .medneg-main-content h2 {
+    font-size: 1.45rem;
+    scroll-margin-top: 120px;
+  }
+
+  body.medneg-page .medneg-main-content h3 {
+    font-size: 1.2rem;
+    scroll-margin-top: 120px;
+  }
+
+  body.medneg-page .medneg-callout {
+    padding: 16px 18px;
+  }
+}
