@@ -1,0 +1,581 @@
+/**
+ * RRC Law Associates — Full-Width Service Hero Carousel Component
+ * Reusable Edge-to-Edge 3-Slide Interactive Hero Carousel with Integrated Hero Breadcrumb
+ * Strictly Scoped to Hero Elements — Preserves Global Header, Nav & Footer
+ * Accessible, Responsive, Touch/Swipe Enabled, WCAG AAA Contrast
+ */
+
+/* Full-Width Hero Section Scoping — Seamless Flush Alignment Below Fixed Header */
+.srv-hero-section.srv-hero-fullwidth {
+  padding-top: 116px;
+  padding-bottom: 0;
+  border-bottom: none;
+  background: var(--rrc-dark-navy, #0E1C2F);
+  overflow-x: hidden;
+  overflow-x: clip;
+}
+
+  @media (max-width: 1199.98px) {
+    .srv-hero-section.srv-hero-fullwidth {
+      padding-top: 115px;
+    }
+  }
+
+    @media (max-width: 991.98px) {
+      .srv-hero-section.srv-hero-fullwidth {
+        padding-top: 120px;
+      }
+    }
+
+
+      @media (max-width: 600px) {
+        .srv-hero-section.srv-hero-fullwidth {
+          padding-top: 106px;
+        }
+      }
+
+      /* Full-Viewport Carousel Container */
+      .srv-carousel-wrapper.srv-carousel {
+        --srv-hero-content-top: 86px;
+        position: relative;
+        width: 100%;
+        max-width: none;
+        margin-inline: 0;
+        margin-bottom: 0;
+        border-radius: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+        background-color: var(--rrc-dark-navy, #0E1C2F);
+        box-shadow: 0 12px 32px rgba(14, 28, 47, 0.14);
+      }
+
+      @media (min-width: 768px) {
+        .srv-carousel-wrapper.srv-carousel {
+          --srv-hero-content-top: 72px;
+        }
+      }
+
+      @media (min-width: 1520px) {
+        .srv-carousel-wrapper.srv-carousel {
+          --srv-hero-content-top: 76px;
+        }
+      }
+
+      /* Single Shared Integrated Breadcrumb Inside Hero Overlay */
+      .srv-hero-fullwidth .srv-hero-breadcrumb-wrap {
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+        z-index: 6;
+        pointer-events: none;
+      }
+
+      @media (min-width: 768px) {
+        .srv-hero-fullwidth .srv-hero-breadcrumb-wrap {
+          top: 24px;
+        }
+      }
+
+      @media (min-width: 1520px) {
+        .srv-hero-fullwidth .srv-hero-breadcrumb-wrap {
+          top: 26px;
+        }
+      }
+
+      .srv-hero-fullwidth .srv-hero-breadcrumb-inner {
+        padding-inline: 8px;
+      }
+
+      @media (min-width: 768px) and (max-width: 1319.98px) {
+        .srv-hero-fullwidth .srv-hero-breadcrumb-inner {
+          padding-inline: 56px;
+        }
+      }
+
+      @media (min-width: 1320px) and (max-width: 1399.98px) {
+        .srv-hero-fullwidth .srv-hero-breadcrumb-inner {
+          padding-inline: 0;
+        }
+      }
+
+      @media (min-width: 1400px) and (max-width: 1519.98px) {
+        .srv-hero-fullwidth .srv-hero-breadcrumb-inner {
+          padding-inline: 36px 32px;
+        }
+      }
+
+      @media (min-width: 1520px) {
+        .srv-hero-fullwidth .srv-hero-breadcrumb-inner {
+          padding-inline: 0;
+        }
+      }
+
+      .srv-hero-fullwidth .srv-hero-breadcrumb-wrap .srv-breadcrumbs-bar,
+      .srv-hero-fullwidth .srv-hero-breadcrumb-wrap .srv-breadcrumb {
+        display: inline-flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-bottom: 0;
+        font-size: 0.84rem;
+        line-height: 1.45;
+        color: rgba(226, 232, 240, 0.78);
+        pointer-events: auto;
+      }
+
+      .srv-hero-fullwidth .srv-hero-breadcrumb-wrap a {
+        color: rgba(241, 245, 249, 0.82);
+        text-decoration: none;
+        font-weight: 500;
+        text-shadow: 0 1px 4px rgba(0, 0, 0, 0.55);
+        transition: color 0.2s ease;
+      }
+
+      .srv-hero-fullwidth .srv-hero-breadcrumb-wrap a:hover,
+      .srv-hero-fullwidth .srv-hero-breadcrumb-wrap a:focus {
+        color: #f3c669;
+        text-decoration: underline;
+      }
+
+      .srv-hero-fullwidth .srv-hero-breadcrumb-wrap .sep {
+        color: rgba(203, 213, 225, 0.5);
+        font-size: 0.75rem;
+      }
+
+      .srv-hero-fullwidth .srv-hero-breadcrumb-wrap .cur {
+        color: #ffffff;
+        font-weight: 600;
+        text-shadow: 0 1px 4px rgba(0, 0, 0, 0.55);
+      }
+
+      @media (max-width: 575.98px) {
+
+        .srv-hero-fullwidth .srv-hero-breadcrumb-wrap .srv-breadcrumbs-bar,
+        .srv-hero-fullwidth .srv-hero-breadcrumb-wrap .srv-breadcrumb {
+          font-size: 0.78rem;
+          gap: 5px;
+        }
+      }
+
+      /* CSS Grid Stacking: Intrinsic Height Parity Across All 3 Slides */
+      .srv-carousel-wrapper.srv-carousel .srv-carousel-track {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        position: relative;
+        width: 100%;
+        min-height: 550px;
+      }
+
+      @media (min-width: 768px) {
+        .srv-carousel-wrapper.srv-carousel .srv-carousel-track {
+          min-height: 560px;
+        }
+      }
+
+      @media (min-width: 992px) {
+        .srv-carousel-wrapper.srv-carousel .srv-carousel-track {
+          min-height: 600px;
+        }
+      }
+
+      .srv-carousel-wrapper.srv-carousel .srv-carousel-slide {
+        grid-area: 1 / 1;
+        position: relative;
+        width: 100%;
+        min-height: inherit;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: opacity 0.65s cubic-bezier(0.4, 0, 0.2, 1), visibility 0.65s cubic-bezier(0.4, 0, 0.2, 1);
+        display: flex;
+        align-items: flex-start;
+        z-index: 1;
+      }
+
+      .srv-carousel-wrapper.srv-carousel .srv-carousel-slide.active {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+        z-index: 2;
+      }
+
+      /* Full-Bleed Edge-to-Edge Background Image Layer */
+      .srv-carousel-wrapper .srv-carousel-bg {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        overflow: hidden;
+      }
+
+      .srv-carousel-wrapper .srv-carousel-bg img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        display: block;
+        transform: scale(1.03);
+        transition: transform 1.2s cubic-bezier(0.22, 1, 0.36, 1);
+      }
+
+      .srv-carousel-wrapper .srv-carousel-slide.active .srv-carousel-bg img {
+        transform: scale(1);
+      }
+
+      /* Cinematic Dark Gradient Overlay for Guaranteed Contrast Across Edge-to-Edge Artwork */
+      .srv-carousel-wrapper .srv-carousel-overlay {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg,
+            rgba(8, 21, 33, 0.96) 0%,
+            rgba(14, 28, 47, 0.91) 46%,
+            rgba(14, 28, 47, 0.62) 76%,
+            rgba(14, 28, 47, 0.32) 100%);
+        z-index: 2;
+      }
+
+      @media (max-width: 767.98px) {
+        .srv-carousel-wrapper .srv-carousel-overlay {
+          background: linear-gradient(180deg,
+              rgba(8, 21, 33, 0.96) 0%,
+              rgba(14, 28, 47, 0.92) 64%,
+              rgba(14, 28, 47, 0.84) 100%);
+        }
+      }
+
+      /* Centered Inner Track Container (Keeps Text Measure Crisp on Ultrawide Screens) */
+      .srv-carousel-wrapper .srv-carousel-inner {
+        position: relative;
+        z-index: 3;
+        width: 100%;
+      }
+
+      /* Readable Inner Content Block (Flow Begins Crisp Spacing Below Integrated Breadcrumb) */
+      .srv-carousel-wrapper .srv-carousel-content {
+        position: relative;
+        z-index: 3;
+        width: 100%;
+        max-width: 720px;
+        padding: var(--srv-hero-content-top, 86px) 8px 82px 8px;
+        color: #ffffff;
+      }
+
+      /* Clear Left/Right Navigation Arrows on Tablet & Compact Laptop Viewports */
+      @media (min-width: 768px) and (max-width: 1319.98px) {
+        .srv-carousel-wrapper .srv-carousel-content {
+          padding: var(--srv-hero-content-top, 72px) 56px 76px 56px;
+        }
+      }
+
+      /* Flush Alignment on 1366px Displays (Outer Gutter > 110px Accommodates Arrows) */
+      @media (min-width: 1320px) and (max-width: 1399.98px) {
+        .srv-carousel-wrapper .srv-carousel-content {
+          padding: var(--srv-hero-content-top, 72px) 0 76px 0;
+        }
+      }
+
+      /* Safe Arrow Margin on 1400px–1519px Displays (Including 1440px) */
+      @media (min-width: 1400px) and (max-width: 1519.98px) {
+        .srv-carousel-wrapper .srv-carousel-content {
+          padding: var(--srv-hero-content-top, 72px) 32px 76px 36px;
+        }
+      }
+
+      /* Flush Alignment on Wide & Ultrawide Screens (>= 1520px, Including 1920px) */
+      @media (min-width: 1520px) {
+        .srv-carousel-wrapper .srv-carousel-content {
+          padding: var(--srv-hero-content-top, 76px) 0 80px 0;
+          max-width: 740px;
+        }
+      }
+
+      /* Eyebrow Badge Pill */
+      .srv-hero-fullwidth .srv-carousel-wrapper .srv-carousel-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 6px 15px;
+        background: rgba(201, 162, 77, 0.24);
+        color: #f7d58b;
+        border: 1px solid rgba(201, 162, 77, 0.5);
+        border-radius: 50px;
+        font-size: 0.79rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        margin-bottom: 16px;
+        backdrop-filter: blur(4px);
+      }
+
+      /* Hero Main Heading */
+      .srv-hero-fullwidth .srv-carousel-wrapper .srv-carousel-title {
+        font-family: 'Playfair Display', Georgia, serif;
+        font-size: clamp(1.85rem, 3.2vw, 2.85rem);
+        line-height: 1.2;
+        color: #ffffff;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 16px;
+        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+      }
+
+      .srv-hero-fullwidth .srv-carousel-wrapper .srv-carousel-title .text-gold {
+        color: #f3c669 !important;
+        text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+      }
+
+      /* Hero Supporting Paragraph */
+      .srv-hero-fullwidth .srv-carousel-wrapper .srv-carousel-desc {
+        font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+        font-size: clamp(0.98rem, 1.12vw, 1.08rem);
+        line-height: 1.65;
+        color: #f1f5f9;
+        margin-top: 0;
+        margin-bottom: 24px;
+        max-width: 640px;
+        text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+      }
+
+      /* Action Buttons Row */
+      .srv-carousel-wrapper .srv-carousel-actions {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 22px;
+      }
+
+      .srv-carousel-wrapper .srv-btn-carousel-primary {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background-color: var(--rrc-gold, #c9a24d);
+        color: #0b1c2d !important;
+        font-weight: 700;
+        font-size: 0.92rem;
+        padding: 12px 24px;
+        border-radius: var(--rrc-radius-sm, 8px);
+        text-decoration: none;
+        transition: all 0.25s ease;
+        box-shadow: 0 4px 14px rgba(201, 162, 77, 0.35);
+      }
+
+      .srv-carousel-wrapper .srv-btn-carousel-primary:hover,
+      .srv-carousel-wrapper .srv-btn-carousel-primary:focus {
+        background-color: #b38f40;
+        color: #000000 !important;
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(201, 162, 77, 0.45);
+      }
+
+      .srv-carousel-wrapper .srv-btn-carousel-secondary {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background-color: rgba(255, 255, 255, 0.1);
+        color: #ffffff !important;
+        border: 1px solid rgba(255, 255, 255, 0.32);
+        font-weight: 600;
+        font-size: 0.92rem;
+        padding: 11px 22px;
+        border-radius: var(--rrc-radius-sm, 8px);
+        text-decoration: none;
+        transition: all 0.25s ease;
+        backdrop-filter: blur(4px);
+      }
+
+      .srv-carousel-wrapper .srv-btn-carousel-secondary:hover,
+      .srv-carousel-wrapper .srv-btn-carousel-secondary:focus {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: #ffffff;
+        color: #ffffff !important;
+        transform: translateY(-2px);
+      }
+
+      /* Highlights Checklist */
+      .srv-carousel-wrapper .srv-carousel-highlights {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px 22px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+      }
+
+      .srv-hero-fullwidth .srv-carousel-wrapper .srv-carousel-highlights li {
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+        font-size: 0.84rem;
+        color: #e2e8f0;
+        font-weight: 500;
+        text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+      }
+
+      .srv-hero-fullwidth .srv-carousel-wrapper .srv-carousel-highlights li i {
+        color: #f3c669;
+      }
+
+      /* Carousel Left/Right Arrows (Scoped Relative to Full-Width Hero) */
+      .srv-carousel-wrapper .srv-carousel-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 42px;
+        height: 42px;
+        background: rgba(14, 28, 47, 0.78);
+        border: 1.5px solid rgba(201, 162, 77, 0.55);
+        color: #ffffff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        z-index: 10;
+        transition: all 0.25s ease;
+        backdrop-filter: blur(6px);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+      }
+
+      @media (min-width: 1520px) {
+        .srv-carousel-wrapper .srv-carousel-arrow {
+          width: 48px;
+          height: 48px;
+        }
+      }
+
+      .srv-carousel-wrapper .srv-carousel-arrow:hover,
+      .srv-carousel-wrapper .srv-carousel-arrow:focus {
+        background: var(--rrc-gold, #c9a24d);
+        color: #0b1c2d;
+        border-color: var(--rrc-gold, #c9a24d);
+        transform: translateY(-50%) scale(1.08);
+        outline: none;
+      }
+
+      .srv-carousel-wrapper .srv-carousel-arrow.prev {
+        left: 16px;
+      }
+
+      .srv-carousel-wrapper .srv-carousel-arrow.next {
+        right: 16px;
+      }
+
+      @media (min-width: 1520px) {
+        .srv-carousel-wrapper .srv-carousel-arrow.prev {
+          left: 28px;
+        }
+
+        .srv-carousel-wrapper .srv-carousel-arrow.next {
+          right: 28px;
+        }
+      }
+
+      @media (max-width: 767.98px) {
+        .srv-carousel-wrapper .srv-carousel-arrow {
+          display: none;
+        }
+      }
+
+      /* Carousel Dots Indicator Bar */
+      .srv-carousel-wrapper .srv-carousel-dots {
+        position: absolute;
+        bottom: 22px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        z-index: 10;
+        padding: 6px 14px;
+        background: rgba(14, 28, 47, 0.62);
+        border-radius: 50px;
+        backdrop-filter: blur(6px);
+        border: 1px solid rgba(255, 255, 255, 0.14);
+      }
+
+      .srv-carousel-wrapper .srv-carousel-dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.42);
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        transition: all 0.3s ease;
+      }
+
+      .srv-carousel-wrapper .srv-carousel-dot:hover,
+      .srv-carousel-wrapper .srv-carousel-dot:focus {
+        background-color: rgba(255, 255, 255, 0.85);
+        outline: none;
+      }
+
+      .srv-carousel-wrapper .srv-carousel-dot.active {
+        width: 28px;
+        border-radius: 10px;
+        background-color: var(--rrc-gold, #c9a24d);
+      }
+
+      /* Mobile Responsive Layout & Typography Refinements */
+      @media (max-width: 575.98px) {
+        .srv-hero-fullwidth .srv-carousel-wrapper .srv-carousel-pill {
+          font-size: 0.72rem;
+          padding: 6px 12px;
+          letter-spacing: 0.05em;
+          border-radius: 12px;
+          line-height: 1.35;
+          margin-bottom: 14px;
+        }
+
+        .srv-hero-fullwidth .srv-carousel-wrapper .srv-carousel-title {
+          font-size: clamp(1.42rem, 6.2vw, 1.82rem);
+          line-height: 1.24;
+          margin-bottom: 12px;
+        }
+
+        .srv-hero-fullwidth .srv-carousel-wrapper .srv-carousel-desc {
+          font-size: 0.92rem;
+          line-height: 1.56;
+          margin-bottom: 20px;
+        }
+
+        .srv-carousel-wrapper .srv-carousel-actions {
+          gap: 10px;
+          margin-bottom: 18px;
+        }
+
+        .srv-carousel-wrapper .srv-btn-carousel-primary,
+        .srv-carousel-wrapper .srv-btn-carousel-secondary {
+          width: 100%;
+          justify-content: center;
+          padding: 11px 18px;
+          font-size: 0.9rem;
+        }
+
+        .srv-carousel-wrapper .srv-carousel-highlights {
+          gap: 8px 14px;
+        }
+
+        .srv-hero-fullwidth .srv-carousel-wrapper .srv-carousel-highlights li {
+          font-size: 0.82rem;
+        }
+      }
+
+      /* Reduced Motion Support */
+      @media (prefers-reduced-motion: reduce) {
+
+        .srv-carousel-wrapper.srv-carousel .srv-carousel-slide,
+        .srv-carousel-wrapper .srv-carousel-bg img,
+        .srv-carousel-wrapper .srv-carousel-arrow,
+        .srv-carousel-wrapper .srv-carousel-dot,
+        .srv-carousel-wrapper .srv-btn-carousel-primary,
+        .srv-carousel-wrapper .srv-btn-carousel-secondary {
+          transition: none !important;
+          transform: none !important;
+        }
+      }

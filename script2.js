@@ -7,6 +7,8 @@
         trigger.dataset.boundMTrigger = 'true';
         trigger.addEventListener('click', function(e) {
             e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
             const submenu = this.nextElementSibling;
             if (!submenu) return;
 
@@ -53,10 +55,11 @@
 (() => {
     if (typeof window !== 'undefined' && (window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost')) {
         document.addEventListener('click', (e) => {
+            if (e.defaultPrevented) return;
             const anchor = e.target.closest('a');
             if (!anchor) return;
             const href = anchor.getAttribute('href');
-            if (!href || href.startsWith('http://') || href.startsWith('https://') || href.startsWith('//') || href.startsWith('#') || href.startsWith('tel:') || href.startsWith('mailto:')) return;
+            if (!href || href.startsWith('http://') || href.startsWith('https://') || href.startsWith('//') || href.startsWith('#') || href.startsWith('tel:') || href.startsWith('mailto:') || href.startsWith('javascript:')) return;
             
             try {
                 const targetUrl = new URL(href, window.location.origin);

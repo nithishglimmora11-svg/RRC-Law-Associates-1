@@ -88,6 +88,22 @@ RewriteRule ^ https://rrclawassociates.com/us-india-documentation-services/ [R=3
 RewriteRule ^us-india-documentation-services$ https://rrclawassociates.com/us-india-documentation-services/ [R=301,L,QSA]
 RewriteRule ^us-india-documentation-services/$ /us-india-documentation-services.html [L,NC,QSA]
 
+# ====================================================================
+# Seven Intellectual Property & NRI Business Service Landing Pages:
+# Clean Canonical Trailing-Slash Routing
+# ====================================================================
+
+# 1. 301 redirect incoming legacy .html requests to canonical trailing-slash clean URLs
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+(trademark-filing-registration|copyright-filing-registration|patent-filing-registration|industrial-design-registration|gst-registration-services|msme-udyam-registration|startup-india-dpiit-recognition)\.html(?:\?[^\s]*)?\s [NC]
+RewriteRule ^ https://rrclawassociates.com/%1/ [R=301,L,QSA]
+
+# 2. 301 redirect non-trailing-slash requests to canonical trailing-slash clean URLs
+RewriteRule ^(trademark-filing-registration|copyright-filing-registration|patent-filing-registration|industrial-design-registration|gst-registration-services|msme-udyam-registration|startup-india-dpiit-recognition)$ https://rrclawassociates.com/$1/ [R=301,L,QSA]
+
+# 3. Internally resolve canonical trailing-slash clean URLs directly to HTML files
+RewriteRule ^(trademark-filing-registration|copyright-filing-registration|patent-filing-registration|industrial-design-registration|gst-registration-services|msme-udyam-registration|startup-india-dpiit-recognition)/$ /$1.html [L,NC,QSA]
+
+
 # NRI Tax Return Filing Services: Canonical Clean Trailing-Slash URL
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+nri-tax-return-filing\.html(?:\?[^\s]*)?\s [NC]
 RewriteRule ^ https://rrclawassociates.com/nri-tax-return-filing/ [R=301,L,QSA]
@@ -364,3 +380,4 @@ RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+medical-negligence-compensation-india\.
 RewriteRule ^ https://rrclawassociates.com/medical-negligence-compensation-india/ [R=301,L,QSA]
 RewriteRule ^medical-negligence-compensation-india$ https://rrclawassociates.com/medical-negligence-compensation-india/ [R=301,L,QSA]
 RewriteRule ^medical-negligence-compensation-india/$ /medical-negligence-compensation-india.html [L,NC,QSA]
+

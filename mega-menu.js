@@ -31,11 +31,11 @@
             // Remove any legacy category headers in NRI dropdown
             nriMenu.querySelectorAll('.dropdown-header').forEach(el => el.remove());
 
-            // Standardize NRI Services Mega Menu: Guarantee 14 services in 2 column wraps without category headers
-            if (!nriMenu.querySelector('.nri-column-wrap') || nriMenu.querySelectorAll('.dropdown-item').length < 14) {
+            // Standardize NRI Services Mega Menu: Guarantee all 21 NRI services in 2 balanced columns without category headers
+            if (!nriMenu.querySelector('.nri-column-wrap') || nriMenu.querySelectorAll('.dropdown-item').length < 21) {
                 const activeItem = nriMenu.querySelector('.dropdown-item.active, .dropdown-item.active-item, .dropdown-item.text-gold');
                 const activeHref = activeItem ? activeItem.getAttribute('href') : null;
-                const currentPath = window.location.pathname.replace(/\/$/, '');
+                const currentPath = window.location.pathname.replace(/\/$/, '').replace(/\.html$/, '');
 
                 nriMenu.innerHTML = `
                         <li class="nri-column-wrap">
@@ -46,27 +46,34 @@
                             <a class="dropdown-item text-uppercase" href="/nri-property-disputes">Property Disputes</a>
                             <a class="dropdown-item text-uppercase" href="/nri-power-of-attorney">Power of Attorney</a>
                             <a class="dropdown-item text-uppercase" href="/nri-tax-return-filing/">NRI Tax Return Filing</a>
-                        </li>
-                        <li class="nri-column-wrap">
                             <a class="dropdown-item text-uppercase" href="/us-india-documentation-services/">U.S.–India Documentation</a>
                             <a class="dropdown-item text-uppercase" href="/immigration-services/">Immigration &amp; Visa Advisory</a>
                             <a class="dropdown-item text-uppercase" href="/translation-services/">Certified Legal Translations</a>
                             <a class="dropdown-item text-uppercase" href="/nri-business-commercial-advisory/">Business &amp; Commercial Advisory</a>
+                        </li>
+                        <li class="nri-column-wrap">
                             <a class="dropdown-item text-uppercase" href="/nri-criminal-case">Criminal Cases</a>
                             <a class="dropdown-item text-uppercase" href="/nri-family-matrimonial">Family &amp; Matrimonial</a>
                             <a class="dropdown-item text-uppercase" href="/nri-tax-dispute-resolution/">NRI Tax Dispute Resolution</a>
+                            <a class="dropdown-item text-uppercase" href="/trademark-filing-registration/">Trademark Filing &amp; Registration</a>
+                            <a class="dropdown-item text-uppercase" href="/copyright-filing-registration/">Copyright Filing &amp; Registration</a>
+                            <a class="dropdown-item text-uppercase" href="/patent-filing-registration/">Patent Filing &amp; Registration</a>
+                            <a class="dropdown-item text-uppercase" href="/industrial-design-registration/">Industrial Design Filing &amp; Registration</a>
+                            <a class="dropdown-item text-uppercase" href="/gst-registration-services/">GST Registration &amp; Compliance</a>
+                            <a class="dropdown-item text-uppercase" href="/msme-udyam-registration/">MSME / Udyam Registration</a>
+                            <a class="dropdown-item text-uppercase" href="/startup-india-dpiit-recognition/">Startup India / DPIIT Recognition</a>
                         </li>
                     `;
 
                 nriMenu.querySelectorAll('.dropdown-item').forEach(link => {
-                    const href = link.getAttribute('href')?.replace(/\/$/, '');
+                    const href = (link.getAttribute('href') || '').replace(/\/$/, '').replace(/\.html$/, '');
                     if ((activeHref && link.getAttribute('href') === activeHref) ||
                         (href && href === currentPath && currentPath !== '')) {
                         link.classList.add('active', 'text-gold', 'fw-bold');
                     }
                 });
             } else {
-                // Ensure headers removed even if 12 items already exist
+                // Ensure headers removed even if 21 items already exist
                 nriMenu.querySelectorAll('.dropdown-header').forEach(el => el.remove());
             }
         }
@@ -439,17 +446,8 @@
         // --- MOBILE DRAWER ACCORDIONS ---
         const mobileDrawer = document.getElementById('mobileMenu') || document.querySelector('.mobile-menu');
         if (mobileDrawer) {
-            // Guarantee NRI Services exists in mobile drawer
-            if (!mobileDrawer.querySelector('#mNriMenu')) {
-                const practiceDropdown = mobileDrawer.querySelector('#mPracticeMenu')?.closest('.m-dropdown');
-                if (practiceDropdown) {
-                    const nriDropdown = document.createElement('div');
-                    nriDropdown.className = 'm-dropdown';
-                    nriDropdown.innerHTML = `
-                        <a class="m-link m-trigger" href="/nri-services.html">
-                            NRI Services <i class="fa fa-chevron-down ms-2"></i>
-                        </a>
-                        <div class="m-submenu" id="mNriMenu">
+            // Guarantee all 21 NRI Services exist in mobile drawer without category headings
+            const mNriItemsHtml = `
                     <a class="m-sub-item" href="/oci-card-assistance">OCI Card &amp; Ancestry Assistance</a>
                     <a class="m-sub-item" href="/wills-probate-estate-administration">Wills, Probate &amp; Estate Administration</a>
                     <a class="m-sub-item" href="/nri-landlord-tenant-eviction/">Landlord–Tenant &amp; Eviction</a>
@@ -464,10 +462,39 @@
                     <a class="m-sub-item" href="/nri-criminal-case">Criminal Cases</a>
                     <a class="m-sub-item" href="/nri-family-matrimonial">Family &amp; Matrimonial</a>
                     <a class="m-sub-item" href="/nri-tax-dispute-resolution/">NRI Tax Dispute Resolution</a>
-                </div>
+                    <a class="m-sub-item" href="/trademark-filing-registration/">Trademark Filing &amp; Registration</a>
+                    <a class="m-sub-item" href="/copyright-filing-registration/">Copyright Filing &amp; Registration</a>
+                    <a class="m-sub-item" href="/patent-filing-registration/">Patent Filing &amp; Registration</a>
+                    <a class="m-sub-item" href="/industrial-design-registration/">Industrial Design Filing &amp; Registration</a>
+                    <a class="m-sub-item" href="/gst-registration-services/">GST Registration &amp; Compliance</a>
+                    <a class="m-sub-item" href="/msme-udyam-registration/">MSME / Udyam Registration</a>
+                    <a class="m-sub-item" href="/startup-india-dpiit-recognition/">Startup India / DPIIT Recognition</a>
+                `;
+            let mNriMenuEl = mobileDrawer.querySelector('#mNriMenu');
+            if (!mNriMenuEl) {
+                const practiceDropdown = mobileDrawer.querySelector('#mPracticeMenu')?.closest('.m-dropdown');
+                if (practiceDropdown) {
+                    const nriDropdown = document.createElement('div');
+                    nriDropdown.className = 'm-dropdown';
+                    nriDropdown.innerHTML = `
+                        <a class="m-link m-trigger" href="/nri-services.html">
+                            NRI Services <i class="fa fa-chevron-down ms-2"></i>
+                        </a>
+                        <div class="m-submenu" id="mNriMenu">${mNriItemsHtml}</div>
                     `;
                     practiceDropdown.parentNode.insertBefore(nriDropdown, practiceDropdown);
+                    mNriMenuEl = nriDropdown.querySelector('#mNriMenu');
                 }
+            } else if (mNriMenuEl.querySelectorAll('.m-sub-item').length < 21) {
+                const activeMobHref = mNriMenuEl.querySelector('.m-sub-item.active, .m-sub-item.text-gold')?.getAttribute('href');
+                mNriMenuEl.innerHTML = mNriItemsHtml;
+                const normPath = window.location.pathname.replace(/\/$/, '').replace(/\.html$/, '');
+                mNriMenuEl.querySelectorAll('.m-sub-item').forEach(link => {
+                    const hrefNorm = (link.getAttribute('href') || '').replace(/\/$/, '').replace(/\.html$/, '');
+                    if ((activeMobHref && link.getAttribute('href') === activeMobHref) || (hrefNorm && hrefNorm === normPath && normPath !== '')) {
+                        link.classList.add('active', 'text-gold', 'fw-bold');
+                    }
+                });
             }
 
             // Guarantee Legal Partners exists in mobile drawer as accordion
@@ -508,25 +535,26 @@
                 }
             }
 
-            // Accordion interactions with 180deg chevron rotation
-            const mobileTriggers = mobileDrawer.querySelectorAll('.m-trigger');
-            mobileTriggers.forEach(trigger => {
-                if (trigger.dataset.megaMenuInit === 'true') return;
-                trigger.dataset.megaMenuInit = 'true';
+            // Accordion interactions with 180deg chevron rotation (capture phase prevents double-toggle with inline/legacy scripts)
+            if (mobileDrawer.dataset.megaMenuAccordionInit !== 'true') {
+                mobileDrawer.dataset.megaMenuAccordionInit = 'true';
 
-                const icon = trigger.querySelector('i');
-                if (icon) {
-                    icon.style.transition = 'transform 0.25s ease';
-                }
+                mobileDrawer.querySelectorAll('.m-trigger i').forEach(ic => {
+                    ic.style.transition = 'transform 0.25s ease';
+                });
 
-                trigger.addEventListener('click', function (e) {
-                    const submenu = this.nextElementSibling;
+                mobileDrawer.addEventListener('click', function (e) {
+                    const trigger = e.target.closest('.m-trigger');
+                    if (!trigger || !mobileDrawer.contains(trigger)) return;
+
+                    const submenu = trigger.nextElementSibling;
                     if (!submenu || !submenu.classList.contains('m-submenu')) return;
 
                     e.preventDefault();
                     e.stopPropagation();
                     e.stopImmediatePropagation();
 
+                    const icon = trigger.querySelector('i');
                     const wasActive = submenu.classList.contains('active') || submenu.classList.contains('show');
 
                     // Collapse all accordions in mobile drawer
@@ -534,6 +562,7 @@
                         sub.classList.remove('active', 'show');
                     });
                     mobileDrawer.querySelectorAll('.m-trigger i').forEach(ic => {
+                        ic.style.transition = 'transform 0.25s ease';
                         ic.style.transform = 'rotate(0deg)';
                     });
 
@@ -542,8 +571,8 @@
                         submenu.classList.add('active', 'show');
                         if (icon) icon.style.transform = 'rotate(180deg)';
                     }
-                });
-            });
+                }, true);
+            }
         }
     }
 

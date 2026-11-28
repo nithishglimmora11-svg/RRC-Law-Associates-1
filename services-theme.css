@@ -93,21 +93,21 @@ html {
   color: var(--rrc-text-body);
 }
 
-.service-page-body main h1,
-.service-page-body main h2,
-.service-page-body main h3,
-.service-page-body main h4,
-.service-page-body main h5,
-.service-page-body main h6,
+.service-page-body main h1:not(.srv-carousel-title),
+.service-page-body main h2:not(.srv-carousel-title),
+.service-page-body main h3:not(.srv-carousel-title),
+.service-page-body main h4:not(.srv-carousel-title),
+.service-page-body main h5:not(.srv-carousel-title),
+.service-page-body main h6:not(.srv-carousel-title),
 .service-page-body main .srv-serif,
-.service-page-body .srv-section h1,
-.service-page-body .srv-section h2,
-.service-page-body .srv-section h3,
-.service-page-body .srv-section h4,
-.service-page-body .srv-section h5,
-.service-page-body .srv-section h6 {
+.service-page-body .srv-section h1:not(.srv-carousel-title),
+.service-page-body .srv-section h2:not(.srv-carousel-title),
+.service-page-body .srv-section h3:not(.srv-carousel-title),
+.service-page-body .srv-section h4:not(.srv-carousel-title),
+.service-page-body .srv-section h5:not(.srv-carousel-title),
+.service-page-body .srv-section h6:not(.srv-carousel-title) {
   font-family: 'Playfair Display', Georgia, serif;
-  color: var(--rrc-text-heading) !important;
+  color: var(--rrc-text-heading);
   font-weight: 700;
   letter-spacing: -0.01em;
 }
@@ -123,18 +123,18 @@ html {
 }
 
 /* Eliminate style.css white-on-white text and excessive 48px paragraph gaps */
-.service-page-body main p,
-.service-page-body .srv-section p {
-  color: var(--rrc-text-body) !important;
+.service-page-body main p:not(.srv-carousel-desc),
+.service-page-body .srv-section p:not(.srv-carousel-desc) {
+  color: var(--rrc-text-body);
   font-size: 1rem;
   line-height: 1.65;
   margin-bottom: 14px;
   max-width: 100%;
 }
 
-.service-page-body main li,
-.service-page-body .srv-section li {
-  color: var(--rrc-text-body) !important;
+.service-page-body main li:not(.srv-carousel-highlights li),
+.service-page-body .srv-section li:not(.srv-carousel-highlights li) {
+  color: var(--rrc-text-body);
 }
 
 .service-page-body .srv-lead-p,
@@ -449,6 +449,70 @@ html {
 .service-page-body .btn-srv-olive:hover {
   background-color: #1a2c42 !important;
   border-color: #1a2c42 !important;
+}
+
+/* Enquiry Banner CTA Action Group & Shared WhatsApp CTA */
+.service-page-body .srv-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.service-page-body .srv-btn-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  background-color: var(--rrc-white) !important;
+  color: var(--rrc-dark-navy) !important;
+  font-weight: 600;
+  font-size: 0.925rem;
+  line-height: 1.62;
+  padding: 11px 20px;
+  border-radius: var(--rrc-radius-sm);
+  border: 1.5px solid rgba(14, 28, 47, 0.24) !important;
+  text-decoration: none !important;
+  box-shadow: 0 3px 10px rgba(14, 28, 47, 0.06);
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease, background-color 0.22s ease;
+  cursor: pointer;
+}
+
+.service-page-body .srv-btn-whatsapp:hover {
+  background-color: #f4fbf7 !important;
+  border-color: #25D366 !important;
+  color: var(--rrc-dark-navy) !important;
+  text-decoration: none !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(14, 28, 47, 0.12);
+}
+
+.service-page-body .srv-btn-whatsapp:focus-visible {
+  outline: 2px solid var(--rrc-dark-navy) !important;
+  outline-offset: 2px;
+  border-color: #25D366 !important;
+  box-shadow: 0 0 0 4px rgba(37, 211, 102, 0.28);
+  text-decoration: none !important;
+}
+
+.service-page-body .srv-btn-whatsapp .srv-whatsapp-icon,
+.service-page-body .srv-btn-whatsapp svg {
+  width: 19px;
+  height: 19px;
+  flex-shrink: 0;
+  display: block;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .service-page-body .srv-cta-actions {
+    gap: 10px;
+  }
+
+  .service-page-body .srv-cta-actions .btn-srv-gold,
+  .service-page-body .srv-cta-actions .srv-btn-whatsapp {
+    padding: 10px 15px;
+    font-size: 0.875rem;
+  }
 }
 
 /* ==========================================================================
@@ -1070,14 +1134,18 @@ html {
     margin-bottom: 16px;
   }
 
-  .service-page-body .srv-hero-actions {
+  .service-page-body .srv-hero-actions,
+  .service-page-body .srv-cta-actions {
     flex-direction: column;
+    align-items: stretch;
     width: 100%;
     gap: 10px;
   }
 
   .service-page-body .srv-hero-actions a,
-  .service-page-body .srv-hero-actions button {
+  .service-page-body .srv-hero-actions button,
+  .service-page-body .srv-cta-actions a,
+  .service-page-body .srv-cta-actions button {
     width: 100%;
   }
 
